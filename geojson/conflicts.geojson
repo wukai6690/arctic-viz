@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:EPSG::4326" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "tech_competition",
+        "event_type": "高端船舶制造",
+        "year": 2023,
+        "title": "极地LNG船建造竞争",
+        "description": "中韩日造船企业在破冰型LNG运输船市场展开激烈竞争，俄罗斯北极LNG项目成为焦点",
+        "severity": 8,
+        "countries": ["RUS", "CHN", "KOR", "JPN"]
+      },
+      "geometry": { "type": "Point", "coordinates": [55.0, 72.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "tech_competition",
+        "event_type": "极地通信卫星",
+        "year": 2023,
+        "title": "极地卫星通信覆盖竞争",
+        "description": "美俄中欧加速部署极地轨道通信卫星，北极地区成为太空基础设施竞争新前沿",
+        "severity": 7,
+        "countries": ["USA", "RUS", "CHN", "EU"]
+      },
+      "geometry": { "type": "Point", "coordinates": [0.0, 88.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arctic_shipping",
+        "event_type": "航道通行权",
+        "year": 2023,
+        "title": "东北航道过境权争议",
+        "description": "俄罗斯坚持对东北航道实施许可证制度，与西方国家和中国的自由航行主张产生摩擦",
+        "severity": 7,
+        "countries": ["RUS", "CHN", "NOR"]
+      },
+      "geometry": { "type": "Point", "coordinates": [75.0, 74.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arctic_resource",
+        "event_type": "北极能源开发",
+        "year": 2023,
+        "title": "北极LNG-2项目投产",
+        "description": "中俄合作的北极LNG-2项目进入商业化生产阶段，成为全球北极能源合作的标志性项目",
+        "severity": 8,
+        "countries": ["RUS", "CHN"]
+      },
+      "geometry": { "type": "Point", "coordinates": [72.0, 71.5] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arctic_military",
+        "event_type": "军事活动",
+        "year": 2023,
+        "title": "北极军事化加速",
+        "description": "俄罗斯重建北极军事基地集群，北约加强北极防御部署，军事竞争态势明显",
+        "severity": 9,
+        "countries": ["RUS", "NOR", "USA", "DNK"]
+      },
+      "geometry": { "type": "Point", "coordinates": [45.0, 74.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arctic_cooperation",
+        "event_type": "科技合作",
+        "year": 2023,
+        "title": "极地科研合作深化",
+        "description": "尽管地缘政治紧张，中美科学家在海冰监测、北极生态系统研究领域保持合作",
+        "severity": 4,
+        "countries": ["CHN", "USA", "NOR"]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.0, 78.9] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arctic_infrastructure",
+        "event_type": "港口与基础设施",
+        "year": 2023,
+        "title": "萨贝塔港建设",
+        "description": "俄罗斯萨贝塔港成为北极航线重要物流枢纽，中国资本参与基础设施建设",
+        "severity": 6,
+        "countries": ["RUS", "CHN"]
+      },
+      "geometry": { "type": "Point", "coordinates": [68.0, 71.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arctic_governance",
+        "event_type": "规则制定",
+        "year": 2023,
+        "title": "北极治理机制受阻",
+        "description": "北极理事会因成员国立场分歧功能受限，北极治理进入『碎片化』时期",
+        "severity": 6,
+        "countries": ["CAN", "USA", "RUS", "NOR", "DNK", "FIN", "SWE", "ISL"]
+      },
+      "geometry": { "type": "Point", "coordinates": [-50.0, 72.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arctic_research",
+        "event_type": "极地科考",
+        "year": 2023,
+        "title": "中国极地科考体系完善",
+        "description": "『雪龙2』号投入使用，中国极地科考实现全年候、全海域覆盖能力",
+        "severity": 5,
+        "countries": ["CHN"]
+      },
+      "geometry": { "type": "Point", "coordinates": [11.9, 78.9] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arctic_shipping",
+        "event_type": "航道商业化",
+        "year": 2022,
+        "title": "东北航道货运量新高",
+        "description": "2022年东北航道货运量突破2100万吨，中俄贸易航线价值凸显",
+        "severity": 7,
+        "countries": ["RUS", "CHN"]
+      },
+      "geometry": { "type": "Point", "coordinates": [130.0, 73.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arctic_shipping",
+        "event_type": "西北航道争议",
+        "year": 2022,
+        "title": "美加西北航道管辖权争议",
+        "description": "美国坚持西北航道为国际海峡，加拿大坚持为其内水，分歧持续存在",
+        "severity": 5,
+        "countries": ["USA", "CAN"]
+      },
+      "geometry": { "type": "Point", "coordinates": [-100.0, 73.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "tech_competition",
+        "event_type": "核动力破冰船",
+        "year": 2022,
+        "title": "核动力破冰船竞争",
+        "description": "俄罗斯拥有全球最大核动力破冰船队，计划新建更多核动力破冰船；中国论证国产核动力破冰船方案",
+        "severity": 7,
+        "countries": ["RUS", "CHN"]
+      },
+      "geometry": { "type": "Point", "coordinates": [40.0, 73.5] }
+    }
+  ]
+}

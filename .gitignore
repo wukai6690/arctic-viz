@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+*.egg
+.pytest_cache/
+.streamlit/
+.DS_Store
+Thumbs.db
+ngrok-v3-stable-windows-amd64/
+ngrok.exe
