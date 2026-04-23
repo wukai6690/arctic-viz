@@ -1,0 +1,74 @@
+group,keyword,priority,use_for_filter
+space,Arctic,high,1
+space,"High North",high,1
+space,"Northern Sea Route",high,1
+space,"Northwest Passage",high,1
+space,"Northeast Passage",medium,1
+space,Greenland,medium,1
+space,Svalbard,medium,1
+space,"Barents Sea",medium,1
+space,"Bering Strait",medium,1
+space,Yamal,medium,1
+actor,China,high,1
+actor,Chinese,medium,1
+actor,Russia,high,1
+actor,"United States",high,1
+actor,US,medium,1
+actor,Canada,high,1
+actor,Norway,high,1
+actor,Denmark,medium,1
+actor,Finland,medium,1
+actor,Sweden,medium,1
+actor,Iceland,medium,1
+actor,"Arctic Council",high,1
+actor,NATO,medium,1
+actor,"Polar Silk Road",high,1
+technology,icebreaker,high,1
+technology,"ice-class vessel",high,1
+technology,shipbuilding,high,1
+technology,"Arctic shipping",high,1
+technology,port,medium,1
+technology,LNG,high,1
+technology,"satellite communication",high,1
+technology,"polar satellite",medium,1
+technology,"remote sensing",medium,1
+technology,navigation,medium,1
+technology,logistics,medium,1
+technology,"undersea cable",medium,1
+technology,"subsea cable",medium,1
+technology,"offshore drilling",medium,1
+technology,infrastructure,medium,1
+geopolitics,security,high,1
+geopolitics,military,high,1
+geopolitics,naval,medium,1
+geopolitics,sanctions,high,1
+geopolitics,investment,high,1
+geopolitics,governance,high,1
+geopolitics,regulation,medium,1
+geopolitics,rules,medium,1
+geopolitics,cooperation,high,1
+geopolitics,competition,high,1
+geopolitics,strategic,medium,1
+geopolitics,sovereignty,medium,1
+geopolitics,dispute,medium,1
+geopolitics,exercise,medium,1
+geopolitics,deterrence,low,1
+climate,"climate change",high,1
+climate,"sea ice",high,1
+climate,"melting ice",medium,1
+climate,navigability,medium,1
+climate,"opening route",medium,1
+resource,"resource access",medium,1
+resource,"critical minerals",medium,1
+resource,"natural gas",medium,1
+resource,oil,medium,1
+resource,fisheries,low,1
+noise,Antarctic,high,0
+noise,penguin,medium,0
+noise,"polar bear",medium,0
+noise,tourism,medium,0
+noise,"Arctic Monkeys",high,0
+noise,fashion,low,0
+noise,weather,medium,0
+noise,wildlife,medium,0
+noise,cruise,medium,0
