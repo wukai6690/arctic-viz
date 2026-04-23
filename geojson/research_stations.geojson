@@ -26,7 +26,7 @@
       "type": "Feature",
       "properties": {
         "name": "新奥尔松站",
-        "name_en": "Ny-Ålesund",
+        "name_en": "Ny-Alesund",
         "country": "国际合作（多国）",
         "country_code": "INT",
         "type": "科考站群",
@@ -42,8 +42,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": " Barrow / Utqiaġvik站",
-        "name_en": "Utqiaġvik (Barrow)",
+        "name": "Utqiagvik站 (原Barrow)",
+        "name_en": "Utqiagvik (Barrow)",
         "country": "美国",
         "country_code": "USA",
         "type": "科考站",
@@ -59,110 +59,59 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "进步站",
-        "name_en": "Progress Station",
+        "name": "极点站",
+        "name_en": "North Pole Station",
         "country": "俄罗斯",
         "country_code": "RUS",
+        "type": "漂流科考站",
+        "lat": 89.5,
+        "lon": 0.0,
+        "established": 1937,
+        "research_focus": ["大气物理", "海洋学", "冰川学", "空间天气"],
+        "tech_domain": "冰上漂流平台 / 极地通信",
+        "description": "俄罗斯运营的北极点漂流科考站，位于北极点附近的冰层上漂移，是北极核心区域最重要的科研平台。"
+      },
+      "geometry": { "type": "Point", "coordinates": [0.0, 89.5] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "巴尼奥站",
+        "name_en": "Barrow (Alert)",
+        "country": "加拿大",
+        "country_code": "CAN",
         "type": "科考站",
-        "lat": -68.95,
-        "lon": 76.98,
-        "established": 1988,
-        "research_focus": ["大气物理", "冰川学", "极地医学", "空间天气"],
-        "tech_domain": "核动力破冰 / 极地通信",
-        "description": "俄罗斯在南极的科考站（注意：此处示例数据），俄罗斯在北极另有 Severnaya Zemlya 等多个站点。"
+        "lat": 82.5,
+        "lon": -62.35,
+        "established":1950,
+        "research_focus": ["大气化学", "冰川学", "极光物理", "气候变化"],
+        "tech_domain": "极地观测网络 / 卫星地面站",
+        "description": "加拿大最北端的全年运作研究站，位于埃尔斯米尔岛，是全球气候变化监测的重要节点。"
       },
-      "geometry": { "type": "Point", "coordinates": [76.98, -68.95] }
+      "geometry": { "type": "Point", "coordinates": [-62.35, 82.5] }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "麦克穆多站",
-        "name_en": "McMurdo Station",
-        "country": "美国",
-        "country_code": "USA",
-        "type": "综合研究基地",
-        "lat": -77.85,
-        "lon": 166.67,
-        "established": 1955,
-        "research_focus": ["极地生态", "地质学", "大气科学", "天文学"],
-        "tech_domain": "空中交通枢纽 / 极地后勤保障",
-        "description": "美国在南极的最大科考基地，类似于俄罗斯在北极的军事化后勤保障节点，是大国极地存在的重要标志。"
+        "name": "斯瓦尔巴站",
+        "name_en": "Svalbard Station",
+        "country": "挪威",
+        "country_code": "NOR",
+        "type": "大气观测站",
+        "lat": 78.15,
+        "lon": 15.63,
+        "established": 1968,
+        "research_focus": ["温室气体监测", "大气化学", "平流层臭氧", "气溶胶"],
+        "tech_domain": "极地通信卫星数据验证 / 大气遥感",
+        "description": "挪威极地研究所运营的大气观测站，是全球大气观测网络(GAW)的关键节点。"
       },
-      "geometry": { "type": "Point", "coordinates": [166.67, -77.85] }
+      "geometry": { "type": "Point", "coordinates": [15.63, 78.15] }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "长城站",
-        "name_en": "Great Wall Station",
-        "country": "中国",
-        "country_code": "CHN",
-        "type": "科考站",
-        "lat": -62.22,
-        "lon": -58.96,
-        "established": 1985,
-        "research_focus": ["极地生态", "大气物理", "极地测绘", "海洋生物"],
-        "tech_domain": "极地科研体系 / 数据传输网络",
-        "description": "中国在南极的第一个科考站，标志着中国极地科研体系的正式建立。与黄河站共同构成中国『双极』科研布局。"
-      },
-      "geometry": { "type": "Point", "coordinates": [-58.96, -62.22] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "中山站",
-        "name_en": "Zhongshan Station",
-        "country": "中国",
-        "country_code": "CHN",
-        "type": "科考站",
-        "lat": -69.37,
-        "lon": 76.37,
-        "established": 1989,
-        "research_focus": ["极地空间物理", "极光观测", "极地大气", "冰川学"],
-        "tech_domain": "极地通信卫星 / 空间环境监测",
-        "description": "中国最先进的极地科考站之一，与黄河站形成南北呼应，专门开展极地空间物理和大气科学研究。"
-      },
-      "geometry": { "type": "Point", "coordinates": [76.37, -69.37] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "昆仑站",
-        "name_en": "Kunlun Station",
-        "country": "中国",
-        "country_code": "CHN",
-        "type": "夏季科考站",
-        "lat": -80.42,
-        "lon": 77.12,
-        "established": 2009,
-        "research_focus": ["冰芯研究", "天文观测", "冰川学", "极地环境"],
-        "tech_domain": "深冰芯钻探 / 极地天文",
-        "description": "中国首个南极内陆科考站，建在冰穹A地区，是全球最好的天文观测台址之一，体现了中国极地科研的深度布局。"
-      },
-      "geometry": { "type": "Point", "coordinates": [77.12, -80.42] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "泰山站",
-        "name_en": "Taishan Station",
-        "country": "中国",
-        "country_code": "CHN",
-        "type": "夏季科考站",
-        "lat": -73.86,
-        "lon": 76.97,
-        "established": 2014,
-        "research_focus": ["后勤中继", "冰川监测", "大气观测", "极地生态"],
-        "tech_domain": "极地物流保障 / 深冰芯计划中继",
-        "description": "中国第三个南极内陆科考站，作为昆仑站的后勤支撑站，提升了中国极地内陆科研的持续能力。"
-      },
-      "geometry": { "type": "Point", "coordinates": [76.97, -73.86] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Svalbard全球大气观测站",
-        "name_en": "Ny-Ålesund / Zeppelin",
+        "name": "Zeppelin站",
+        "name_en": "Zeppelin Station",
         "country": "挪威/国际",
         "country_code": "NOR",
         "type": "大气观测站",
@@ -178,7 +127,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "格陵兰 Summit 站",
+        "name": "Summit站",
         "name_en": "Summit Station",
         "country": "丹麦/美国",
         "country_code": "DNK",
@@ -195,19 +144,87 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "俄罗斯Dome C科考站",
-        "name_en": "Vostok Station",
+        "name": "希尔科内斯站",
+        "name_en": "Kirkenes Observatory",
+        "country": "挪威",
+        "country_code": "NOR",
+        "type": "极光观测站",
+        "lat": 69.73,
+        "lon": 30.04,
+        "established": 1928,
+        "research_focus": ["极光物理", "空间天气", "地磁观测"],
+        "tech_domain": "极地通信卫星 / 空间天气监测",
+        "description": "位于北极光带核心区域，是欧洲极光和空间天气监测的重要研究站点。"
+      },
+      "geometry": { "type": "Point", "coordinates": [30.04, 69.73] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "北极燕鸥站",
+        "name_en": "Arctic Tern Station",
+        "country": "芬兰",
+        "country_code": "FIN",
+        "type": "科研站",
+        "lat": 70.09,
+        "lon": 27.02,
+        "established": 1991,
+        "research_focus": ["极地生态", "气候变化", "大气科学"],
+        "tech_domain": "极地观测网络 / 遥感验证",
+        "description": "芬兰位于挪威芬马克郡的极地研究站，专注于北极生态系统与气候变化研究。"
+      },
+      "geometry": { "type": "Point", "coordinates": [27.02, 70.09] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "进步站",
+        "name_en": "Progress Station",
         "country": "俄罗斯",
         "country_code": "RUS",
         "type": "全年科考站",
-        "lat": -78.46,
-        "lon": 106.83,
-        "established": 1957,
-        "research_focus": ["冰芯研究", "地球物理", "极地气象"],
-        "tech_domain": "深层冰芯钻探 / 极地工程技术",
-        "description": "东方站位于南极冰盖内部，是世界上温度最低的科考站之一（记录到-89.2°C），拥有最古老的冰芯记录。"
+        "lat": 69.20,
+        "lon": 76.98,
+        "established": 1988,
+        "research_focus": ["大气物理", "冰川学", "极地医学", "空间天气"],
+        "tech_domain": "核动力破冰 / 极地通信",
+        "description": "俄罗斯在南极和北极均有站点命名，此为北极进步站（哈默菲斯特），是俄罗斯北极研究的重要基地。"
       },
-      "geometry": { "type": "Point", "coordinates": [106.83, -78.46] }
+      "geometry": { "type": "Point", "coordinates": [76.98, 69.20] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "阿拉斯加大学费尔班克斯站",
+        "name_en": "UAF Fairbanks",
+        "country": "美国",
+        "country_code": "USA",
+        "type": "极地研究中心",
+        "lat": 64.86,
+        "lon": -147.85,
+        "established": 1915,
+        "research_focus": ["极地工程", "海冰物理", "极地生态", "气候变化"],
+        "tech_domain": "极地通信 / 冰-气相互作用研究",
+        "description": "美国最重要的极地研究中心之一，与美国地质调查局(USGS)合作开展北极海冰和气候变化研究。"
+      },
+      "geometry": { "type": "Point", "coordinates": [-147.85, 64.86] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "迪克森站",
+        "name_en": "Dickson Station",
+        "country": "俄罗斯",
+        "country_code": "RUS",
+        "type": "全年科考站",
+        "lat": 73.51,
+        "lon": 80.40,
+        "established": 1916,
+        "research_focus": ["海洋学", "大气科学", "冰川学", "极地生态"],
+        "tech_domain": "航道保障 / 极地通信",
+        "description": "位于喀拉海沿岸的俄罗斯全年运作科考站，是东北航道科学研究的重要节点。"
+      },
+      "geometry": { "type": "Point", "coordinates": [80.40, 73.51] }
     }
   ]
 }

@@ -39,7 +39,15 @@ conflicts_geojson = load_geojson('geojson/conflicts.geojson')
 def load_gdelt_grid():
     path = 'data/processed/gdelt_arctic_by_grid.csv'
     if os.path.exists(path):
-        return pd.read_csv(path)
+        df = pd.read_csv(path)
+        # 统一列名：优先 Year_local，回退 year
+        if 'Year_local' in df.columns:
+            df['Year'] = pd.to_numeric(df['Year_local'], errors='coerce').fillna(0).astype(int)
+        elif 'year' in df.columns and 'Year' not in df.columns:
+            df['Year'] = pd.to_numeric(df['year'], errors='coerce').fillna(0).astype(int)
+        elif 'Year' in df.columns:
+            df['Year'] = pd.to_numeric(df['Year'], errors='coerce').fillna(0).astype(int)
+        return df
     return pd.DataFrame()
 
 gdelt_df = load_gdelt_grid()
@@ -152,7 +160,8 @@ def create_arctic_map(year, zoom, routes_on, stations_on, conflicts_on, gdelt_on
 
     # GDELT 热力图（按年份过滤）
     if gdelt_on and not gdelt_data.empty:
-        year_data = gdelt_data[gdelt_data['Year_local'] == year]
+        year_col = 'Year' if 'Year' in gdelt_data.columns else 'Year_local'
+        year_data = gdelt_data[gdelt_data[year_col] == year]
         if not year_data.empty:
             heat_data = [
                 [row['lat_grid'], row['lon_grid'], row['EventCount']]
@@ -292,16 +301,26 @@ col_map, col_narrative = st.columns([7, 3])
 with col_map:
     st.markdown(f"### 📍 {selected_year}年 北极地缘态势图")
     st.caption("点击地图元素查看详情 | 使用右下角控件切换图层")
-    try:
-        from streamlit_folium import st_folium
-        st_folium(arctic_map, width=None, height=600, returned_objects=[])
-    except ImportError:
-        st.error("请安装 streamlit-folium: pip install streamlit-folium")
-        st.info("或者查看 HTML 文件在浏览器中打开")
+
+    if gdelt_df.empty:
+        st.info("""
+        🗺️ 地图基础功能正常（航道/科考站/冲突点）。
+
+        📊 如需在地图上叠加 GDELT 事件热力图：
+        1. 点击左侧菜单「GDELT 数据获取」
+        2. 点击「🎲 生成模拟数据」
+        3. 返回本页面即可看到热力图
+        """)
+    else:
+        try:
+            from streamlit_folium import st_folium
+            st_folium(arctic_map, width=None, height=600, returned_objects=[])
+        except ImportError:
+            st.error("请安装 streamlit-folium: pip install streamlit-folium")
 
 with col_narrative:
     st.markdown(f"### 📖 {selected_year}年战略叙事")
-    narrative = get_narrative_by_year(selected_year)
+    narrative = get_narrative_by_year(int(selected_year))
 
     st.markdown(f"**{narrative['title']}**")
     st.caption(f"📅 {narrative['period']}")
