@@ -30,7 +30,8 @@ year_options = {year: f"{year}年" for year in all_years}
 timeline_cols = st.columns(len(all_years))
 for i, year in enumerate(all_years):
     with timeline_cols[i]:
-        card = NARRATIVE_CARDS[year]
+        year_int = int(year)
+        card = NARRATIVE_CARDS[year_int]
         short_title = card['title'][:8] + '...' if len(card['title']) > 8 else card['title']
         st.markdown(
             f"<div style='text-align:center;padding:0.3rem;'>"
