@@ -749,36 +749,55 @@ def create_network_graph(net_data, title="", height=480, style='circular'):
 # =========================================================================
 
 def create_word_freq_chart(policy_texts, height=400):
-    """用柱状图展示政策文本关键词词频"""
-    stopwords = set(['的', '和', '与', '在', '为', '了', '对', '及', '是', '等', '以', '或', '中', '北极', '国', '家', '主', '权', '的', '和', '与'])
+    """用柱状图展示政策文本关键词词频（使用2字词/3字词分词，避免字符级错误）"""
+    # 中文停用词
+    stopwords = {
+        '的', '和', '与', '在', '为', '了', '对', '及', '是', '等', '以', '或', '中', '北极',
+        '国', '家', '主', '权', '的', '和', '与', '一', '不', '在', '有', '个', '人', '这',
+        '上', '中', '大', '来', '为', '和', '国', '地', '到', '以', '于', '地', '上', '下',
+        '之', '年', '来', '能', '而', '则', '又', '可', '也', '被', '将', '其', '所', '及',
+        '从', '当', '会', '要', '对', '进行', '通过', '作为', '具有', '可以', '以及'
+    }
     all_words = []
     for code, data in policy_texts.items():
-        words = list(data['text'])
-        for w in words:
-            if w not in stopwords and len(w) > 1:
-                all_words.append({'word': w, 'country': code, 'count': 1})
+        text = data.get('text', '')
+        # 提取2-3字符的词组合（适合中文的简单分词）
+        for n in [2, 3]:
+            for i in range(len(text) - n + 1):
+                word = text[i:i+n]
+                if word not in stopwords and not any(c in '，。、；：？！""''（）【】《》·\n\r\t ' for c in word):
+                    all_words.append({'word': word, 'country': code, 'count': 1})
 
     if not all_words:
         return go.Figure()
 
     word_df = pd.DataFrame(all_words)
-    word_counts = word_df.groupby(['word', 'country']).size().reset_index(name='count')
-    word_counts = word_counts.sort_values('count', ascending=False).head(25)
+    # 取2字符词为主（更准确）
+    two_char = word_df[word_df['word'].str.len() == 2]
+    three_char = word_df[word_df['word'].str.len() == 3]
+    two_counts = two_char.groupby(['word', 'country']).size().reset_index(name='count')
+    three_counts = three_char.groupby(['word', 'country']).size().reset_index(name='count')
+    # 合并，取各自分组前12个
+    two_top = two_counts.sort_values('count', ascending=False).head(12)
+    three_top = three_counts.sort_values('count', ascending=False).head(8)
+    word_counts = pd.concat([two_top, three_top]).sort_values('count', ascending=False).head(25)
 
     color_map = {k: COUNTRY_COLORS.get(k, '#757575') for k in word_counts['country'].unique()}
     fig = px.bar(
         word_counts, x='count', y='word',
         color='country', orientation='h',
         color_discrete_map=color_map,
-        title='政策文本关键词词频'
+        title=''
     )
     fig.update_layout(
         height=height,
         showlegend=True,
         legend=dict(orientation='h', yanchor='bottom', y=1.02, xanchor='center', x=0.5),
-        margin=dict(l=120, r=20, t=40, b=40),
+        margin=dict(l=120, r=20, t=20, b=40),
         yaxis_title='',
-        xaxis_title='词频'
+        xaxis_title='词频',
+        template='plotly_white',
+        font=dict(size=11)
     )
     return fig
 
