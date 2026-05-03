@@ -240,7 +240,7 @@ with tab2:
         mode='markers+text',
         marker=dict(size=node_sizes, color=node_colors, line=dict(width=2, color='white')),
         text=[n['name'] for n in nodes],
-        textposition='outside', textfont=dict(size=9),
+        textposition='top center', textfont=dict(size=9),
         hovertemplate='%{text}<extra></extra>',
         showlegend=False
     ))
