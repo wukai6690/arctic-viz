@@ -150,10 +150,10 @@ def create_3d_globe(highlight_arctic=True, height=480):
             showframe=False,
             lonaxis_range=[-180, 180],
             lataxis_range=[50, 90],
-            bgcolor='rgba(0,0,0,0)'
+            bgcolor='rgba(6,9,18,0.85)'
         ),
-        paper_bgcolor='rgba(0,0,0,0)',
-        plot_bgcolor='rgba(0,0,0,0)',
+        paper_bgcolor='rgba(6,9,18,0.85)',
+        plot_bgcolor='rgba(6,9,18,0.85)',
         margin=dict(l=0, r=0, t=0, b=0),
         height=height,
         showlegend=False
@@ -191,17 +191,18 @@ def create_3d_globe_annotate(stations_data=None, routes_data=None, events_data=N
             showframe=False,
             lonaxis_range=[-180, 180],
             lataxis_range=[55, 90],
-            bgcolor='rgba(0,0,0,0)'
+            bgcolor='rgba(6,9,18,0.9)'
         ),
-        paper_bgcolor='rgba(0,0,0,0)',
-        plot_bgcolor='rgba(0,0,0,0)',
+        paper_bgcolor='rgba(6,9,18,0.9)',
+        plot_bgcolor='rgba(6,9,18,0.9)',
         margin=dict(l=0, r=0, t=0, b=0),
         height=height,
         showlegend=True,
         legend=dict(
             orientation='h', yanchor='bottom', y=1.02,
             xanchor='center', x=0.5,
-            bgcolor='rgba(255,255,255,0.8)'
+            bgcolor='rgba(6,9,18,0.85)',
+            font=dict(color='rgba(255,255,255,0.9)')
         )
     )
 
@@ -320,12 +321,12 @@ def create_metric_trend_chart(data, color="#1E88E5", height=80):
         hovertemplate='%{y:.1f}<extra></extra>'
     ))
     fig.update_layout(
-        margin=dict(l=5, r=5, t=5, b=5),
+        margin=dict(l=0, r=0, t=0, b=0),
         height=height,
+        paper_bgcolor='#0f1729',
+        plot_bgcolor='#0f1729',
         xaxis=dict(showticklabels=False, showgrid=False, zeroline=False, fixedrange=True),
         yaxis=dict(showticklabels=False, showgrid=False, zeroline=False, fixedrange=True),
-        paper_bgcolor='rgba(0,0,0,0)',
-        plot_bgcolor='rgba(0,0,0,0)',
         hovermode='closest'
     )
     return fig
@@ -517,7 +518,7 @@ def create_swot_chart(swot_data, height=380):
                 bordercolor=meta['color'],
                 borderwidth=1.5,
                 borderpad=5,
-                font=dict(size=11, color='#333333'),
+                font=dict(size=11, color='rgba(255,255,255,0.85)'),
                 width=220
             )
 
@@ -525,7 +526,7 @@ def create_swot_chart(swot_data, height=380):
         xaxis=dict(visible=False, range=[-0.05, 1.05]),
         yaxis=dict(visible=False, range=[-0.05, 1.05]),
         plot_bgcolor='rgba(0,0,0,0)',
-        paper_bgcolor='rgba(0,0,0,0)',
+        paper_bgcolor='#0f1729',
         margin=dict(l=0, r=0, t=0, b=0),
         height=height,
         shapes=[
@@ -629,12 +630,12 @@ def create_forecast_chart(df_summary, cmip6_df, height=450):
 
     fig.update_layout(
         xaxis_title='年份', yaxis_title='海冰面积 (百万平方公里)',
-        template='plotly_white', hovermode='x unified',
+        template='plotly_dark', hovermode='x unified',
         legend=dict(orientation='h', yanchor='bottom', y=1.02, xanchor='right', x=1),
         height=height,
         margin=dict(l=60, r=20, t=20, b=40),
         shapes=[dict(type='rect', x0=2024, x1=2100, y0=0, y1=16,
-                     fillcolor='rgba(200,220,255,0.12)', line=dict(width=0))]
+                     fillcolor='rgba(59,130,246,0.08)', line=dict(width=0))]
     )
     return fig
 
@@ -727,7 +728,7 @@ def create_network_graph(net_data, title="", height=480, style='circular'):
         marker=dict(size=node_sizes, color=node_colors, line=dict(width=1.5, color='white')),
         text=[COUNTRY_NAMES.get(n['id'], n['name']) for n in nodes],
         textposition='top center',
-        textfont=dict(size=9, color='#333333'),
+        textfont=dict(size=9, color='rgba(255,255,255,0.9)'),
         hovertemplate='%{text}<extra></extra>',
         showlegend=False
     ))
@@ -740,7 +741,7 @@ def create_network_graph(net_data, title="", height=480, style='circular'):
         xaxis=dict(visible=False, range=[-rng, rng]),
         yaxis=dict(visible=False, range=[-rng, rng]),
         plot_bgcolor='rgba(0,0,0,0)',
-        paper_bgcolor='rgba(0,0,0,0)',
+        paper_bgcolor='#0f1729',
     )
     return fig
 
@@ -797,7 +798,7 @@ def create_word_freq_chart(policy_texts, height=400):
         margin=dict(l=120, r=20, t=20, b=40),
         yaxis_title='',
         xaxis_title='词频',
-        template='plotly_white',
+        template='plotly_dark',
         font=dict(size=11)
     )
     return fig
@@ -878,9 +879,9 @@ def create_tech_geopolitics_chart(patent_df, gdelt_df=None, height=420):
 
     fig.update_layout(
         xaxis=dict(title='年份'),
-        yaxis=dict(title='专利申请量', side='left', showgrid=True, gridcolor='rgba(0,0,0,0.05)'),
+        yaxis=dict(title='专利申请量', side='left', showgrid=True, gridcolor='rgba(255,255,255,0.06)'),
         yaxis2=dict(title='GDELT事件数', side='right', overlaying='y', showgrid=False),
-        template='plotly_white', hovermode='x unified',
+        template='plotly_dark', hovermode='x unified',
         legend=dict(orientation='h', yanchor='bottom', y=1.02, xanchor='right', x=1),
         height=height, margin=dict(l=60, r=60, t=20, b=40)
     )
@@ -899,7 +900,7 @@ def finalize_layout(fig, title="", height=400, legend_pos='bottom'):
     )
     fig.update_layout(
         title=dict(text=title, x=0.5, font_size=14),
-        template='plotly_white',
+        template='plotly_dark',
         height=height,
         legend=leg_pos.get(legend_pos, leg_pos['bottom']),
         margin=dict(l=60, r=20, t=40, b=40)

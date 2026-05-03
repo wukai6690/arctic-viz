@@ -278,19 +278,19 @@ with tab2:
             color = station_colors_map.get(country, '#6b7280')
 
             popup_html = f"""
-            <div style="width:280px;font-family:'Segoe UI',Arial,sans-serif;">
-                <div style="background:{color};color:white;padding:8px 12px;font-weight:700;font-size:14px;border-radius:6px 6px 0 0;">
+            <div style="width:280px;font-family:'Segoe UI',Arial,sans-serif;background:#0f1729;border-radius:10px;overflow:hidden;border:1px solid rgba(255,255,255,0.1);">
+                <div style="background:{color};color:white;padding:10px 14px;font-weight:700;font-size:14px;">
                     🔬 {name}
                 </div>
-                <div style="padding:12px;background:#f8fafc;font-size:12px;line-height:1.8;">
+                <div style="padding:12px;font-size:12px;line-height:1.9;color:rgba(255,255,255,0.85);">
                     <table style="width:100%;border-collapse:collapse;">
-                        <tr><td style="font-weight:600;color:#374151;padding:3px 0;width:70px;">国家</td><td style="color:#1f2937;">{country}</td></tr>
-                        <tr><td style="font-weight:600;color:#374151;padding:3px 0;">坐标</td><td style="color:#1f2937;">{lat:.2f}°N, {lon:.2f}°E</td></tr>
-                        <tr><td style="font-weight:600;color:#374151;padding:3px 0;">设立</td><td style="color:#1f2937;">{props.get('established', 'N/A')}</td></tr>
-                        <tr><td style="font-weight:600;color:#374151;padding:3px 0;">技术</td><td style="color:#1f2937;">{props.get('tech_domain', 'N/A')}</td></tr>
-                        <tr><td style="font-weight:600;color:#374151;padding:3px 0;">研究</td><td style="color:#1f2937;">{', '.join(props.get('research_focus', [])[:3])}</td></tr>
+                        <tr><td style="font-weight:600;color:rgba(255,255,255,0.5);padding:3px 0;width:60px;">国家</td><td style="color:white;">{country}</td></tr>
+                        <tr><td style="font-weight:600;color:rgba(255,255,255,0.5);padding:3px 0;">坐标</td><td style="color:white;">{lat:.2f}°N, {lon:.2f}°E</td></tr>
+                        <tr><td style="font-weight:600;color:rgba(255,255,255,0.5);padding:3px 0;">设立</td><td style="color:white;">{props.get('established', 'N/A')}</td></tr>
+                        <tr><td style="font-weight:600;color:rgba(255,255,255,0.5);padding:3px 0;">技术</td><td style="color:white;">{props.get('tech_domain', 'N/A')}</td></tr>
+                        <tr><td style="font-weight:600;color:rgba(255,255,255,0.5);padding:3px 0;">研究</td><td style="color:white;">{', '.join(props.get('research_focus', [])[:3])}</td></tr>
                     </table>
-                    <div style="margin-top:8px;padding:8px;background:#e2e8f0;border-radius:4px;font-size:11px;color:#475569;">
+                    <div style="margin-top:10px;padding:8px 10px;background:rgba(255,255,255,0.05);border-radius:6px;font-size:11px;color:rgba(255,255,255,0.6);line-height:1.5;">
                         {props.get('description', '暂无描述')}
                     </div>
                 </div>
@@ -323,20 +323,20 @@ with tab2:
                     color = route_colors_map.get(route_name, '#6b7280')
 
                     popup_html = f"""
-                    <div style="width:260px;font-family:'Segoe UI',Arial,sans-serif;">
-                        <div style="background:{color};color:white;padding:8px 12px;font-weight:700;font-size:13px;border-radius:6px 6px 0 0;">
+                    <div style="width:260px;font-family:'Segoe UI',Arial,sans-serif;background:#0f1729;border-radius:10px;overflow:hidden;border:1px solid rgba(255,255,255,0.1);">
+                        <div style="background:{color};color:white;padding:10px 14px;font-weight:700;font-size:13px;">
                             🚢 {route_name}
                         </div>
-                        <div style="padding:12px;background:#f8fafc;font-size:12px;line-height:1.8;">
+                        <div style="padding:12px;font-size:12px;line-height:1.9;color:rgba(255,255,255,0.85);">
                             <table style="width:100%;">
-                                <tr><td style="font-weight:600;color:#374151;padding:3px 0;width:65px;">起点</td><td style="color:#1f2937;">{props.get('start', 'N/A')}</td></tr>
-                                <tr><td style="font-weight:600;color:#374151;padding:3px 0;">终点</td><td style="color:#1f2937;">{props.get('end', 'N/A')}</td></tr>
-                                <tr><td style="font-weight:600;color:#374151;padding:3px 0;">航程</td><td style="color:#1f2937;">{props.get('distance', 'N/A')}</td></tr>
-                                <tr><td style="font-weight:600;color:#374151;padding:3px 0;">航行时间</td><td style="color:#1f2937;">{props.get('duration', 'N/A')}</td></tr>
-                                <tr><td style="font-weight:600;color:#374151;padding:3px 0;">主导方</td><td style="color:#1f2937;">{props.get('operator', 'N/A')}</td></tr>
-                                <tr><td style="font-weight:600;color:#374151;padding:3px 0;">通航期</td><td style="color:#1f2937;">{props.get('open_months', 'N/A')}</td></tr>
+                                <tr><td style="font-weight:600;color:rgba(255,255,255,0.5);padding:3px 0;width:60px;">起点</td><td style="color:white;">{props.get('start', 'N/A')}</td></tr>
+                                <tr><td style="font-weight:600;color:rgba(255,255,255,0.5);padding:3px 0;">终点</td><td style="color:white;">{props.get('end', 'N/A')}</td></tr>
+                                <tr><td style="font-weight:600;color:rgba(255,255,255,0.5);padding:3px 0;">航程</td><td style="color:white;">{props.get('distance', 'N/A')}</td></tr>
+                                <tr><td style="font-weight:600;color:rgba(255,255,255,0.5);padding:3px 0;">航行时间</td><td style="color:white;">{props.get('duration', 'N/A')}</td></tr>
+                                <tr><td style="font-weight:600;color:rgba(255,255,255,0.5);padding:3px 0;">主导方</td><td style="color:white;">{props.get('operator', 'N/A')}</td></tr>
+                                <tr><td style="font-weight:600;color:rgba(255,255,255,0.5);padding:3px 0;">通航期</td><td style="color:white;">{props.get('open_months', 'N/A')}</td></tr>
                             </table>
-                            <div style="margin-top:8px;padding:8px;background:#e2e8f0;border-radius:4px;font-size:11px;color:#475569;">
+                            <div style="margin-top:10px;padding:8px 10px;background:rgba(255,255,255,0.05);border-radius:6px;font-size:11px;color:rgba(255,255,255,0.6);line-height:1.5;">
                                 {props.get('description', '')}
                             </div>
                         </div>
@@ -353,9 +353,9 @@ with tab2:
                     ).add_to(m)
 
         # 添加北极圈
+        import math
         arctic_circle_coords = []
         for i in range(361):
-            import math
             lat_c = 66.5
             lon_c = i
             arctic_circle_coords.append([lat_c, lon_c])
@@ -369,18 +369,29 @@ with tab2:
 
         m.get_root().html.add_child(folium.Element("""
         <style>
-            .leaflet-popup-content-wrapper { border-radius: 10px !important; padding: 0 !important; overflow: hidden !important; box-shadow: 0 8px 24px rgba(0,0,0,0.2) !important; }
+            .leaflet-popup-content-wrapper { border-radius: 10px !important; padding: 0 !important; overflow: hidden !important; box-shadow: 0 8px 24px rgba(0,0,0,0.4) !important; }
             .leaflet-popup-content { margin: 0 !important; width: auto !important; }
-            .leaflet-tooltip { background: rgba(10,14,26,0.9) !important; border: 1px solid rgba(255,255,255,0.1) !important; color: white !important; border-radius: 8px !important; font-size: 12px !important; }
+            .leaflet-tooltip { background: rgba(6,9,18,0.92) !important; border: 1px solid rgba(255,255,255,0.12) !important; color: white !important; border-radius: 8px !important; font-size: 12px !important; }
         </style>
         """))
 
+        # 包裹 Folium div 并设置深色背景 + iframe 背景
+        st.markdown("""
+        <style>
+            div[data-testid="stCustomComponentV1"] iframe,
+            section[data-testid="stMain"] iframe {
+                background: #0f1729 !important;
+            }
+        </style>
+        <div style="background:#0f1729;border-radius:16px;overflow:hidden;border:1px solid rgba(255,255,255,0.06);">
+        """, unsafe_allow_html=True)
         with st.container():
             components.html(
                 m._repr_html_(),
                 height=580,
                 scrolling=False
             )
+        st.markdown("</div>", unsafe_allow_html=True)
     except Exception as e:
         st.error(f"地图渲染出错: {e}")
 
@@ -434,14 +445,14 @@ with tab3:
                 hovertemplate='%{y}: %{x}个科考站<extra></extra>'
             ))
             fig_c.update_layout(
-                title=dict(text='🇬🇸 各国北极科考站数量', font=dict(color='var(--text)', size=14)),
                 height=max(350, len(sorted_c) * 48),
                 margin=dict(l=140, r=50, t=40, b=40),
-                paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)',
-                font=dict(color='rgba(255,255,255,0.8)'),
-                xaxis=dict(gridcolor='rgba(255,255,255,0.06)', tickfont_color='rgba(255,255,255,0.6)',
+                paper_bgcolor='#0f1729', plot_bgcolor='rgba(0,0,0,0)',
+                font=dict(color='rgba(255,255,255,0.85)'),
+                xaxis=dict(gridcolor='rgba(255,255,255,0.08)', tickfont_color='rgba(255,255,255,0.7)',
                           title_font_color='rgba(255,255,255,0.5)'),
                 yaxis=dict(tickfont_color='rgba(255,255,255,0.8)'),
+                title=dict(text='🇬🇸 各国北极科考站数量', font=dict(color='white', size=14)),
             )
             st.plotly_chart(fig_c, use_container_width=True)
 
@@ -455,9 +466,9 @@ with tab3:
                 hovertemplate='%{label}: %{value}个 (%{percent})<extra></extra>'
             ))
             fig_pie.update_layout(
-                title=dict(text='📊 科考站国家分布', font=dict(color='var(--text)', size=14)),
+                title=dict(text='📊 科考站国家分布', font=dict(color='white', size=14)),
                 height=350, margin=dict(l=20, r=20, t=40, b=20),
-                paper_bgcolor='rgba(0,0,0,0)',
+                paper_bgcolor='#0f1729',
                 font=dict(color='rgba(255,255,255,0.8)')
             )
             st.plotly_chart(fig_pie, use_container_width=True)
@@ -534,7 +545,7 @@ with tab4:
         fig_heat.update_layout(
             height=max(350, len(heat_data) * 40),
             margin=dict(l=120, r=20, t=20, b=60),
-            paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)',
+            paper_bgcolor='#0f1729', plot_bgcolor='rgba(0,0,0,0)',
             font=dict(color='rgba(255,255,255,0.8)'),
             xaxis=dict(title='', tickfont_color='rgba(255,255,255,0.6)'),
             yaxis=dict(title='', tickfont_color='rgba(255,255,255,0.8)', ticks='outside'),
@@ -566,10 +577,10 @@ with tab4:
             template='plotly_dark', hovermode='x unified',
             legend=dict(orientation='h', yanchor='bottom', y=1.02, xanchor='right', x=1),
             height=380, margin=dict(l=60, r=60, t=20, b=40),
-            paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)',
+            paper_bgcolor='#0f1729',
             font=dict(color='rgba(255,255,255,0.8)'),
-            xaxis=dict(gridcolor='rgba(255,255,255,0.06)', tickfont_color='rgba(255,255,255,0.6)'),
-            yaxis=dict(gridcolor='rgba(255,255,255,0.06)', tickfont_color='rgba(255,255,255,0.6)'),
+            xaxis=dict(gridcolor='rgba(255,255,255,0.08)', tickfont_color='rgba(255,255,255,0.7)'),
+            yaxis=dict(gridcolor='rgba(255,255,255,0.08)', tickfont_color='rgba(255,255,255,0.7)'),
         )
         st.plotly_chart(fig_yearly, use_container_width=True)
 
@@ -586,7 +597,7 @@ with tab4:
             xaxis_title='国家', yaxis_title='事件数量',
             height=320, margin=dict(l=60, r=20, t=20, b=60),
             template='plotly_dark',
-            paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)',
+            paper_bgcolor='#0f1729',
             font=dict(color='rgba(255,255,255,0.8)'),
             xaxis=dict(tickfont_color='rgba(255,255,255,0.8)', tickangle=30),
             yaxis=dict(gridcolor='rgba(255,255,255,0.06)', tickfont_color='rgba(255,255,255,0.6)'),
