@@ -234,23 +234,28 @@ with tab4:
     import plotly.graph_objects as go
 
     # 地图展示科考站
-    fig_map = go.Figure(go.Scattergeo(
-        scope='world',
-        projection_type='orthographic',
-        center=dict(lat=75, lon=0),
-        showland=True,
-        landcolor='rgba(220,235,250,0.9)',
-        showocean=True,
-        oceancolor='rgba(140,185,235,0.6)',
-        showcountries=True,
-        countrycolor='rgba(150,175,210,0.4)',
-        showcoastlines=True,
-        coastlinecolor='rgba(130,160,195,0.5)',
-        coastlinewidth=0.8,
-        showframe=False,
-        bgcolor='rgba(10,14,26,0)',
-        lataxis_range=[55, 90],
-    ))
+    fig_map = go.Figure(go.Scattergeo())
+    fig_map.update_layout(
+        geo=dict(
+            scope='world',
+            projection_type='orthographic',
+            center=dict(lat=75, lon=0),
+            lataxis_range=[55, 90],
+            showland=True,
+            landcolor='rgba(220,235,250,0.9)',
+            showocean=True,
+            oceancolor='rgba(140,185,235,0.6)',
+            showcountries=True,
+            countrycolor='rgba(150,175,210,0.4)',
+            showcoastlines=True,
+            coastlinecolor='rgba(130,160,195,0.5)',
+            coastlinewidth=0.8,
+            showframe=False,
+            bgcolor='#0f1729'
+        ),
+        paper_bgcolor='#0f1729',
+        margin=dict(l=0, r=0, t=10, b=10), height=480,
+    )
 
     station_colors_map = {
         '中国': '#ef4444', '美国': '#3b82f6', '俄罗斯': '#b91c1c',
@@ -286,10 +291,6 @@ with tab4:
             showlegend=False
         ))
 
-    fig_map.update_layout(
-        paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)',
-        margin=dict(l=0, r=0, t=10, b=10), height=480,
-    )
     st.plotly_chart(fig_map, use_container_width=True)
 
     # 科考站列表

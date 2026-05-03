@@ -5,6 +5,7 @@
 
 import streamlit as st
 import sys, os, json, folium, streamlit.components.v1 as components
+import pandas as pd
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 from src.data_core import load_stations, load_gdelt_data, load_geopolitics_network
@@ -547,7 +548,7 @@ with tab4:
             margin=dict(l=120, r=20, t=20, b=60),
             paper_bgcolor='#0f1729', plot_bgcolor='rgba(0,0,0,0)',
             font=dict(color='rgba(255,255,255,0.8)'),
-            xaxis=dict(title='', tickfont_color='rgba(255,255,255,0.6)'),
+            xaxis=dict(title='', tickfont_color='rgba(255,255,255,0.7)'),
             yaxis=dict(title='', tickfont_color='rgba(255,255,255,0.8)', ticks='outside'),
         )
         st.plotly_chart(fig_heat, use_container_width=True)
@@ -639,33 +640,6 @@ with tab5:
             'confrontation': '#ef4444',
         }
 
-        for link in links:
-            if link['source'] in angles and link['target'] in angles:
-                lx = [r * np.cos(angles[link['source']]), r * np.cos(angles[link['target']])]
-                ly = [r * np.sin(angles[link['source']]), r * np.sin(angles[link['target']])]
-                fig_net.add_trace(go.Scatter(
-                    x=lx, y=ly, mode='lines',
-                    line=dict(width=link.get('strength', 1) / 8, color=rel_colors.get(link.get('relation', 'competition'), '#6b7280')),
-                    hoverinfo='text',
-                    text=f"{link['source']} — {link['target']}: {link.get('relation', 'unknown')}",
-                    showlegend=False
-                ))
-
-        node_x = [r * np.cos(angles[n['id']]) for n in nodes]
-        node_y = [r * np.sin(angles[n['id']]) for n in nodes]
-        node_colors = [COUNTRY_COLORS.get(n.get('country', ''), '#6b7280') for n in nodes]
-        node_sizes = [26 if n.get('type') == 'research' else 16 for n in nodes]
-
-        # 构建 hover text
-        node_texts = []
-        for n in nodes:
-            txt = f"<b>{n.get('name', n['id'])}</b>"
-            txt += f"<br>国家: {n.get('country', 'N/A')}"
-            txt += f"<br>类型: {n.get('type', 'N/A')}"
-            if n.get('influence'):
-                txt += f"<br>影响力: {n.get('influence')}"
-            node_texts.append(txt)
-
         fig_net = go.Figure()
         for link in links:
             if link['source'] in angles and link['target'] in angles:
@@ -679,6 +653,11 @@ with tab5:
                     text=f"{link['source']} — {link['target']}: {link.get('relation', 'unknown')}",
                     showlegend=False
                 ))
+
+        node_x = [r * np.cos(angles[n['id']]) for n in nodes]
+        node_y = [r * np.sin(angles[n['id']]) for n in nodes]
+        node_colors = [COUNTRY_COLORS.get(n.get('country', ''), '#6b7280') for n in nodes]
+        node_sizes = [26 if n.get('type') == 'research' else 16 for n in nodes]
 
         fig_net.add_trace(go.Scatter(
             x=node_x, y=node_y,
@@ -695,7 +674,7 @@ with tab5:
             xaxis=dict(visible=False, range=[-3.5, 3.5]),
             yaxis=dict(visible=False, range=[-3.5, 3.5]),
             plot_bgcolor='rgba(0,0,0,0)',
-            paper_bgcolor='rgba(0,0,0,0)',
+            paper_bgcolor='#0f1729',
         )
         st.plotly_chart(fig_net, use_container_width=True)
 
