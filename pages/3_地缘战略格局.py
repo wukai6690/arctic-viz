@@ -17,20 +17,25 @@ st.set_page_config(page_title="地缘战略格局", page_icon="🏛️", layout=
 
 st.markdown("""
 <style>
+    section[data-testid="stMain"] { background: #ffffff !important; }
+    section[data-testid="stMain"] > div { background: #ffffff !important; }
+    section[data-testid="stMain"] p, section[data-testid="stMain"] h1,
+    section[data-testid="stMain"] h2, section[data-testid="stMain"] h3,
+    section[data-testid="stMain"] h4, section[data-testid="stMain"] li { color: #1a1a2e !important; }
+    [data-testid="stMetricValue"] { color: #1a1a2e !important; }
+    [data-testid="stMetricLabel"] { color: #546E7A !important; }
+    .stTabs [data-baseweb="tab"] { color: #333 !important; }
+    .stTabs [data-baseweb="tab"]:hover { background: rgba(0,0,0,0.05) !important; }
+    hr { border-color: rgba(0,0,0,0.08) !important; }
+    .streamlit-expander { border: 1px solid #e8e8e8 !important; border-radius: 12px !important; }
+    [data-testid="stCaption"] { color: #90A4AE !important; }
     .page-header {
-        background: linear-gradient(135deg, #1B5E20 0%, #2E7D32 50%, #388E3C 100%);
-        padding: 1.5rem 2rem;
-        border-radius: 0 0 18px 18px;
-        margin-bottom: 1.5rem;
-        box-shadow: 0 4px 20px rgba(46,125,50,0.2);
+        background: linear-gradient(135deg, #1B5E20 0%, #2E7D32 100%);
+        padding: 1.5rem 2rem; border-radius: 0 0 18px 18px;
+        margin-bottom: 1.5rem; box-shadow: 0 4px 20px rgba(46,125,50,0.2);
     }
-    .page-header h1 { color: white !important; font-size: 1.55rem; font-weight: 700; margin: 0 0 0.3rem 0; }
-    .page-header p { color: rgba(255,255,255,0.82) !important; font-size: 0.83rem; margin: 0; }
-    .stTabs [data-baseweb="tab-list"] { gap: 4px; }
-    .stTabs [data-baseweb="tab"] { border-radius: 8px 8px 0 0; padding: 8px 18px; font-weight: 600; font-size: 0.85rem; }
-    section[data-testid="stMain"] { background: #f5f7fa !important; }
-    section[data-testid="stMain"] > div { background: #f5f7fa !important; }
-    /* KPI 卡片 */
+    .page-header h1 { color: white !important; font-size: 1.55rem; font-weight: 700; margin: 0 0 0.3rem 0 !important; }
+    .page-header p { color: rgba(255,255,255,0.82) !important; font-size: 0.83rem; margin: 0 !important; }
     .kpi-row { display: flex; gap: 14px; margin-bottom: 1.5rem; flex-wrap: wrap; }
     .kpi-box {
         background: white; border-radius: 14px; padding: 1rem 1.3rem;
@@ -38,20 +43,17 @@ st.markdown("""
         flex: 1; min-width: 160px;
     }
     .kpi-box .kpi-label { font-size: 0.72rem; color: #90A4AE; font-weight: 500; margin-bottom: 4px; }
-    .kpi-box .kpi-val { font-size: 1.4rem; font-weight: 800; color: #1a1a2e; }
+    .kpi-box .kpi-val { font-size: 1.4rem; font-weight: 800; }
     .kpi-box .kpi-sub { font-size: 0.7rem; color: #90A4AE; margin-top: 2px; }
-    /* 内容卡片 */
     .content-card {
         background: white; border-radius: 16px; padding: 1.3rem;
         box-shadow: 0 1px 6px rgba(0,0,0,0.04); margin-bottom: 1.2rem;
     }
     .content-card h3 { font-size: 0.95rem; font-weight: 700; color: #1a1a2e; margin: 0 0 0.8rem 0; }
-    /* 图例 */
     .legend-grid { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 0.8rem; }
     .legend-item { display: flex; align-items: center; gap: 6px; font-size: 0.78rem; color: #546E7A; }
     .legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
     .legend-line { width: 20px; height: 3px; border-radius: 2px; flex-shrink: 0; }
-    /* 国情卡片 */
     .country-card {
         background: white; border-radius: 12px; padding: 1rem;
         border-left: 4px solid; box-shadow: 0 1px 6px rgba(0,0,0,0.05);
@@ -59,7 +61,6 @@ st.markdown("""
     }
     .country-card h4 { font-size: 0.95rem; font-weight: 700; margin: 0 0 4px 0; }
     .country-card p { font-size: 0.78rem; color: #546E7A; line-height: 1.6; margin: 0; }
-    /* 网络图例 */
     .rel-legend { display: flex; gap: 16px; margin-bottom: 1rem; flex-wrap: wrap; }
     .rel-item { display: flex; align-items: center; gap: 6px; font-size: 0.8rem; color: #546E7A; }
     .rel-line { width: 28px; height: 3px; border-radius: 2px; }

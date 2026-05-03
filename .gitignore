@@ -13,6 +13,7 @@ ngrok.exe
 ngrok-v3-stable-windows-amd64.zip
 output/
 data/raw/
+数据/
 data/__pycache__/
 *.pdf
 *.zip

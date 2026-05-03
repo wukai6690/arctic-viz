@@ -15,6 +15,7 @@ st.set_page_config(
     page_icon="🌍",
     layout="wide",
     initial_sidebar_state="expanded",
+    menu_items={"About": "北极地缘与技术多要素联动3D可视化平台 v5.0"}
 )
 
 # ============ 全局样式 ============
@@ -108,14 +109,68 @@ st.markdown("""
         margin: 0.6rem 0;
     }
 
-    /* === 主内容区 === */
-    section[data-testid="stMain"] {
-        background: #f5f7fa !important;
-    }
+    /* === 全局白色背景修复 — 强制覆盖所有文字颜色 === */
+    section[data-testid="stMain"],
     section[data-testid="stMain"] > div {
-        background: #f5f7fa !important;
-        padding-top: 0 !important;
+        background: #ffffff !important;
     }
+    section[data-testid="stMain"] p,
+    section[data-testid="stMain"] span,
+    section[data-testid="stMain"] h1,
+    section[data-testid="stMain"] h2,
+    section[data-testid="stMain"] h3,
+    section[data-testid="stMain"] h4,
+    section[data-testid="stMain"] li,
+    section[data-testid="stMain"] td,
+    section[data-testid="stMain"] th {
+        color: #1a1a2e !important;
+    }
+    /* markdown 内容 */
+    .stMarkdown p, .stMarkdown li,
+    .stMarkdown h1, .stMarkdown h2, .stMarkdown h3 {
+        color: #1a1a2e !important;
+    }
+    /* Streamlit 内置组件 */
+    [data-testid="stMetricValue"] { color: #1a1a2e !important; }
+    [data-testid="stMetricLabel"] { color: #546E7A !important; }
+    /* tab颜色 */
+    .stTabs [data-baseweb="tab"] {
+        color: #333 !important;
+        background: transparent !important;
+    }
+    .stTabs [data-baseweb="tab"]:hover {
+        background: rgba(0,0,0,0.05) !important;
+    }
+    .stTabs [data-baseweb="tab"][aria-selected="true"] {
+        background: rgba(21,101,192,0.1) !important;
+        color: #1565C0 !important;
+    }
+    /* 按钮 */
+    .stButton > button {
+        border-radius: 10px !important;
+        font-weight: 600 !important;
+    }
+    /* 分隔线 */
+    hr { border-color: rgba(0,0,0,0.08) !important; }
+    /* checkbox */
+    .stCheckbox label { color: #1a1a2e !important; }
+    /* selectbox */
+    [data-baseweb="select"] { color: #1a1a2e !important; }
+    /* slider */
+    [data-testid="stSlider"] label { color: #1a1a2e !important; }
+    /* number input */
+    [data-testid="stNumberInput"] label { color: #1a1a2e !important; }
+    /* multiselect */
+    [data-baseweb="select"] { color: #1a1a2e !important; }
+    /* expander */
+    .streamlit-expander { border: 1px solid #e8e8e8 !important; border-radius: 12px !important; }
+    .streamlit-expander summary { color: #1a1a2e !important; font-weight: 600 !important; }
+    /* alert/info/success boxes */
+    .stAlert { border-radius: 12px !important; }
+    .stAlert > div { color: inherit !important; }
+    /* caption */
+    [data-testid="stCaption"] { color: #90A4AE !important; }
+</style>
 
     /* === 页面顶部Banner === */
     .main-banner {
@@ -219,23 +274,25 @@ st.markdown("""
     }
     .module-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 16px;
         margin-bottom: 1.5rem;
     }
     .module-card {
         background: white;
         border-radius: 16px;
-        padding: 1.4rem;
+        padding: 1.6rem;
         box-shadow: 0 1px 8px rgba(0,0,0,0.05);
         border: 1px solid rgba(0,0,0,0.04);
+        border-top: 3px solid #0D47A1;
         transition: all 0.25s ease;
         cursor: pointer;
         display: flex;
         flex-direction: column;
-        gap: 0.6rem;
+        gap: 0.7rem;
         text-decoration: none;
         color: inherit !important;
+        min-height: 160px;
     }
     .module-card:hover {
         box-shadow: 0 8px 28px rgba(0,0,0,0.12);
@@ -253,9 +310,9 @@ st.markdown("""
         margin: 0;
     }
     .module-card .module-desc {
-        font-size: 0.78rem;
+        font-size: 0.82rem;
         color: #546E7A;
-        line-height: 1.6;
+        line-height: 1.7;
         margin: 0;
         flex: 1;
     }
@@ -404,6 +461,7 @@ def render_sidebar():
 
         nav_items = [
             ("🏠", "首页概览", "app"),
+            ("🗺️", "北极全景地图", "1_北极全景地图"),
             ("🌡️", "气候时空监测", "2_气候时空监测"),
             ("🏛️", "地缘战略格局", "3_地缘战略格局"),
             ("⚙️", "技术竞争与合作", "4_极地核心技术"),
@@ -482,22 +540,30 @@ st.markdown(kpi_html, unsafe_allow_html=True)
 st.markdown('<div class="section-title">🎯 功能模块</div>', unsafe_allow_html=True)
 
 modules = [
-    ("🌡️", "气候时空监测", "1980-2025年气温/海冰时空演变，CMIP6情景预测，航道通航评估", "气候监测", "2_气候时空监测"),
-    ("🏛️", "地缘战略格局", "大国博弈网络图谱、政策文本词云与情感分析、科考站详情", "地缘格局", "3_地缘战略格局"),
-    ("⚙️", "技术竞争与合作", "专利气泡图、技术合作网络、「技术-地缘」双轴联动看板", "技术竞争", "4_极地核心技术"),
-    ("🛡️", "安全风险评估", "四维风险热力图、SWOT可视化、中国应对策略推演沙盘", "安全风险", "5_中国安全风险"),
-    ("🗄️", "数据中心工具", "数据集下载、上传数据可视化、时空查询与对比分析", "数据中心", "6_数据中心工具"),
-    ("ℹ️", "关于本项目", "项目介绍、研究框架、技术架构与团队信息", "关于项目", "7_关于本项目"),
+    ("🗺️", "北极全景地图", "融合Plotly3D地球仪 + Folium交互地图 + 实时GDELT热力叠加，点击标记查看详细科考站/航道信息，支持多底图切换、旋转视角、事件筛选", "地图模块", "1_北极全景地图"),
+    ("🌡️", "气候时空监测", "1980-2025年气温/海冰时空演变，CMIP6情景预测，航道通航评估，M-K突变检验", "气候监测", "2_气候时空监测"),
+    ("🏛️", "地缘战略格局", "大国博弈网络图谱、政策文本词云与情感分析、科考站详情、GDELT事件统计", "地缘格局", "3_地缘战略格局"),
+    ("⚙️", "技术竞争与合作", "专利气泡图、热力图、技术合作网络、五国竞争力雷达图、「技术-地缘」双轴联动看板", "技术竞争", "4_极地核心技术"),
+    ("🛡️", "安全风险评估", "四维风险热力图、SWOT可视化、中国应对策略推演沙盘（5种情景）", "安全风险", "5_中国安全风险"),
+    ("🗄️", "数据中心工具", "数据集下载（CSV/GeoJSON）、CSV上传可视化（5种图表）、时空查询、多指标归一化对比分析", "数据中心", "6_数据中心工具"),
+    ("ℹ️", "关于本项目", "项目介绍、研究框架、技术架构、团队信息、项目大事记", "关于项目", "7_关于本项目"),
 ]
 
 module_html = '<div class="module-grid">'
 for icon, title, desc, tag, page in modules:
+    is_map = (icon == "🗺️")
+    if is_map:
+        card_style = 'border-top:3px solid #1565C0;'
+        tag_text = f'⭐ {tag} · 点击进入'
+    else:
+        card_style = ''
+        tag_text = tag
     module_html += f'''
-    <a class="module-card" href="./{page}">
+    <a class="module-card" href="./{page}" style="{card_style}">
         <div class="module-icon">{icon}</div>
         <div class="module-title">{title}</div>
         <div class="module-desc">{desc}</div>
-        <div class="module-tag">📂 {tag}</div>
+        <div class="module-tag">{tag_text}</div>
     </a>'''
 module_html += '</div>'
 st.markdown(module_html, unsafe_allow_html=True)

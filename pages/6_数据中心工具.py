@@ -28,8 +28,18 @@ st.markdown("""
     .page-header p { color: rgba(255,255,255,0.82) !important; font-size: 0.83rem; margin: 0; }
     .stTabs [data-baseweb="tab-list"] { gap: 4px; }
     .stTabs [data-baseweb="tab"] { border-radius: 8px 8px 0 0; padding: 8px 18px; font-weight: 600; font-size: 0.85rem; }
-    section[data-testid="stMain"] { background: #f5f7fa !important; }
-    section[data-testid="stMain"] > div { background: #f5f7fa !important; }
+    section[data-testid="stMain"] { background: #ffffff !important; }
+    section[data-testid="stMain"] > div { background: #ffffff !important; }
+    section[data-testid="stMain"] p, section[data-testid="stMain"] h1,
+    section[data-testid="stMain"] h2, section[data-testid="stMain"] h3,
+    section[data-testid="stMain"] h4, section[data-testid="stMain"] li { color: #1a1a2e !important; }
+    [data-testid="stMetricValue"] { color: #1a1a2e !important; }
+    [data-testid="stMetricLabel"] { color: #546E7A !important; }
+    .stTabs [data-baseweb="tab"] { color: #333 !important; }
+    .stTabs [data-baseweb="tab"]:hover { background: rgba(0,0,0,0.05) !important; }
+    hr { border-color: rgba(0,0,0,0.08) !important; }
+    .streamlit-expander { border: 1px solid #e8e8e8 !important; border-radius: 12px !important; }
+    [data-testid="stCaption"] { color: #90A4AE !important; }
     .kpi-row { display: flex; gap: 14px; margin-bottom: 1.5rem; flex-wrap: wrap; }
     .kpi-box {
         background: white; border-radius: 14px; padding: 1rem 1.3rem;

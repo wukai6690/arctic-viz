@@ -21,8 +21,15 @@ st.markdown("""
     }
     .page-header h1 { color: white !important; font-size: 1.55rem; font-weight: 700; margin: 0 0 0.3rem 0; }
     .page-header p { color: rgba(255,255,255,0.82) !important; font-size: 0.83rem; margin: 0; }
-    section[data-testid="stMain"] { background: #f5f7fa !important; }
-    section[data-testid="stMain"] > div { background: #f5f7fa !important; }
+    section[data-testid="stMain"] { background: #ffffff !important; }
+    section[data-testid="stMain"] > div { background: #ffffff !important; }
+    section[data-testid="stMain"] p, section[data-testid="stMain"] h1,
+    section[data-testid="stMain"] h2, section[data-testid="stMain"] h3,
+    section[data-testid="stMain"] h4, section[data-testid="stMain"] li { color: #1a1a2e !important; }
+    [data-testid="stMetricValue"] { color: #1a1a2e !important; }
+    [data-testid="stMetricLabel"] { color: #546E7A !important; }
+    hr { border-color: rgba(0,0,0,0.08) !important; }
+    [data-testid="stCaption"] { color: #90A4AE !important; }
     .content-card {
         background: white; border-radius: 16px; padding: 1.3rem;
         box-shadow: 0 1px 6px rgba(0,0,0,0.04); margin-bottom: 1.2rem;
