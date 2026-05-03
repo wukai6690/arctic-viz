@@ -1,6 +1,6 @@
 """
-北极地缘气候多源数据可视化平台
-主入口文件 - 多页面 Streamlit 应用
+北极地缘与技术多要素联动3D可视化平台
+主入口文件
 """
 
 import streamlit as st
@@ -10,300 +10,418 @@ import os
 sys.path.insert(0, os.path.dirname(__file__))
 
 st.set_page_config(
-    page_title="北极战略数据可视化平台",
+    page_title="北极战略可视化平台",
     page_icon="🌍",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 
+# ============ 全局样式 ============
+
 st.markdown("""
 <style>
-    .main-header {
-        font-size: 2.4rem;
-        font-weight: 800;
-        background: linear-gradient(135deg, #1E88E5 0%, #0D47A1 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        text-align: center;
-        padding: 0.5rem 0 0.3rem 0;
-        margin-bottom: 0.3rem;
+    /* 主色 */
+    :root {
+        --arctic-blue: #1565C0;
+        --arctic-light: #B3E5FC;
+        --arctic-dark: #0D47A1;
+        --arctic-ice: #E3F2FD;
+        --arctic-red: #E53935;
+        --arctic-green: #43A047;
+        --arctic-orange: #FF6B35;
     }
-    .sub-header {
-        font-size: 1.05rem;
-        color: #546E7A;
-        text-align: center;
-        margin-bottom: 1.5rem;
-        line-height: 1.6;
-    }
-    .metric-card {
-        background: linear-gradient(135deg, #1E88E5 0%, #1565C0 100%);
-        padding: 1.2rem;
-        border-radius: 16px;
-        color: white;
-        text-align: center;
-        margin: 0.5rem 0;
-        box-shadow: 0 4px 12px rgba(30,136,229,0.25);
-        transition: transform 0.2s;
-    }
-    .metric-card:hover {
-        transform: translateY(-2px);
-    }
-    .metric-card-green {
-        background: linear-gradient(135deg, #43A047 0%, #2E7D32 100%);
-        padding: 1.2rem;
-        border-radius: 16px;
-        color: white;
-        text-align: center;
-        margin: 0.5rem 0;
-        box-shadow: 0 4px 12px rgba(67,160,71,0.25);
-    }
-    .metric-card-red {
-        background: linear-gradient(135deg, #E53935 0%, #C62828 100%);
-        padding: 1.2rem;
-        border-radius: 16px;
-        color: white;
-        text-align: center;
-        margin: 0.5rem 0;
-        box-shadow: 0 4px 12px rgba(229,57,53,0.25);
-    }
-    .stTabs [data-baseweb="tab-list"] {
-        gap: 8px;
-    }
-    .stTabs [data-baseweb="tab"] {
-        padding: 10px 20px;
-        border-radius: 8px 8px 0 0;
-    }
-    div[data-testid="stMetricValue"] {
-        font-size: 1.8rem !important;
-    }
-    .streamlit-expanderHeader {
-        font-weight: 600;
-    }
+
+    /* 侧边栏 */
     section[data-testid="stSidebar"] {
-        background-color: #f0f4f8;
-    }
-    .stSidebar > div {
-        padding-top: 1rem;
-    }
-    /* 蓝色渐变按钮 */
-    .stButton > button:first-child {
-        background: linear-gradient(135deg, #1E88E5 0%, #1565C0 100%);
+        background: linear-gradient(180deg, #0D47A1 0%, #1565C0 40%, #1976D2 100%);
         color: white;
-        border: none;
-        border-radius: 8px;
-        transition: all 0.2s;
     }
-    .stButton > button:hover {
-        box-shadow: 0 4px 12px rgba(30,136,229,0.4);
+    section[data-testid="stSidebar"] .stMarkdown, section[data-testid="stSidebar"] p,
+    section[data-testid="stSidebar"] span, section[data-testid="stSidebar"] div {
+        color: white !important;
     }
-    /* 页面卡片 */
-    .page-card {
-        border: 1px solid #e0e0e0;
-        border-radius: 16px;
-        padding: 1.2rem;
+    section[data-testid="stSidebar"] hr {
+        border-color: rgba(255,255,255,0.2);
+    }
+
+    /* 侧边栏 logo */
+    .sidebar-logo {
+        text-align: center;
+        padding: 1rem 0 0.5rem 0;
+    }
+    .sidebar-logo h2 {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: white !important;
+        margin: 0;
+    }
+    .sidebar-logo p {
+        font-size: 0.75rem;
+        opacity: 0.7;
+        margin: 0.2rem 0 0 0;
+    }
+
+    /* 导航卡片 */
+    .nav-card {
+        background: rgba(255,255,255,0.1);
+        border: 1px solid rgba(255,255,255,0.2);
+        border-radius: 12px;
+        padding: 0.8rem 1rem;
         margin: 0.3rem 0;
         transition: all 0.2s;
         cursor: pointer;
+        text-decoration: none;
+        display: block;
     }
-    .page-card:hover {
-        border-color: #1E88E5;
-        box-shadow: 0 4px 16px rgba(30,136,229,0.15);
+    .nav-card:hover {
+        background: rgba(255,255,255,0.2);
+        border-color: rgba(255,255,255,0.5);
+        transform: translateX(4px);
+    }
+    .nav-card.active {
+        background: rgba(255,255,255,0.25);
+        border-color: #FFD700;
+    }
+    .nav-card-title {
+        font-weight: 600;
+        font-size: 0.9rem;
+        color: white !important;
+    }
+    .nav-card-desc {
+        font-size: 0.7rem;
+        opacity: 0.7;
+        color: white !important;
+    }
+
+    /* 顶部标题 */
+    .main-header-bar {
+        background: linear-gradient(135deg, #0D47A1 0%, #1565C0 50%, #1976D2 100%);
+        padding: 1.2rem 2rem;
+        border-radius: 0 0 16px 16px;
+        margin-bottom: 1.5rem;
+        box-shadow: 0 4px 20px rgba(13,71,161,0.25);
+    }
+    .main-header-bar h1 {
+        color: white;
+        font-size: 1.8rem;
+        font-weight: 800;
+        margin: 0;
+    }
+    .main-header-bar p {
+        color: rgba(255,255,255,0.85);
+        font-size: 0.9rem;
+        margin: 0.3rem 0 0 0;
+    }
+
+    /* 指标卡 */
+    .metric-card {
+        background: white;
+        border-radius: 14px;
+        padding: 1.2rem;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+        border: 1px solid rgba(0,0,0,0.04);
+        transition: all 0.2s;
+    }
+    .metric-card:hover {
+        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
         transform: translateY(-2px);
     }
-    /* 分割线样式 */
+    .metric-card-blue { border-top: 4px solid #1E88E5; }
+    .metric-card-red { border-top: 4px solid #E53935; }
+    .metric-card-green { border-top: 4px solid #43A047; }
+    .metric-card-orange { border-top: 4px solid #FF6B35; }
+    .metric-card-purple { border-top: 4px solid #7B1FA2; }
+
+    /* 模块入口卡片 */
+    .module-card {
+        background: white;
+        border-radius: 16px;
+        padding: 1.4rem;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+        border: 1px solid rgba(0,0,0,0.04);
+        transition: all 0.25s;
+        height: 100%;
+        cursor: pointer;
+    }
+    .module-card:hover {
+        box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+        transform: translateY(-3px);
+        border-color: #1565C0;
+    }
+    .module-icon {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    .module-title {
+        font-weight: 700;
+        font-size: 1rem;
+        color: #0D47A1;
+        margin-bottom: 0.3rem;
+    }
+    .module-desc {
+        font-size: 0.8rem;
+        color: #546E7A;
+        line-height: 1.5;
+    }
+    .module-tag {
+        display: inline-block;
+        background: #E3F2FD;
+        color: #1565C0;
+        border-radius: 20px;
+        padding: 0.15rem 0.6rem;
+        font-size: 0.7rem;
+        margin-top: 0.5rem;
+    }
+
+    /* 分割线 */
     hr {
         border: none;
-        border-top: 1px solid #e0e0e0;
+        border-top: 1px solid rgba(0,0,0,0.06);
         margin: 1.5rem 0;
+    }
+
+    /* 标签页 */
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 6px;
+    }
+    .stTabs [data-baseweb="tab"] {
+        border-radius: 8px 8px 0 0;
+        padding: 8px 16px;
+        font-weight: 600;
+    }
+
+    /* 按钮 */
+    .stButton > button {
+        border-radius: 10px;
+        font-weight: 600;
+    }
+
+    /* 信息框 */
+    .info-box {
+        background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%);
+        border-radius: 12px;
+        padding: 1rem;
+        border-left: 4px solid #1565C0;
+    }
+
+    /* 图例项 */
+    .legend-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin: 4px 0;
+        font-size: 0.82rem;
+    }
+    .legend-dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        flex-shrink: 0;
+    }
+    .legend-line {
+        width: 20px;
+        height: 3px;
+        border-radius: 2px;
+        flex-shrink: 0;
     }
 </style>
 """, unsafe_allow_html=True)
 
 
+# ============ 侧边栏导航 ============
+
 def render_sidebar():
     with st.sidebar:
-        st.markdown("## 🧭 导航菜单")
+        # Logo 区域
+        st.markdown("""
+        <div class="sidebar-logo">
+            <div style="font-size:2.5rem;margin-bottom:0.3rem;">🌍</div>
+            <h2>北极战略平台</h2>
+            <p>大创专项 · v3.0</p>
+        </div>
+        <hr>
+        """, unsafe_allow_html=True)
+
+        # 导航菜单
+        pages = [
+            ("🏠", "首页概览", "app"),
+            ("🌡️", "气候监测", "pages/2_气候时空监测.py"),
+            ("🏛️", "地缘格局", "pages/3_地缘战略格局.py"),
+            ("⚙️", "技术竞争", "pages/4_极地核心技术.py"),
+            ("🛡️", "安全风险", "pages/5_中国安全风险.py"),
+            ("🗄️", "数据中心", "pages/6_数据中心工具.py"),
+            ("ℹ️", "关于项目", "pages/7_关于本项目.py"),
+        ]
+
+        # 获取当前页面
+        current_page = st.query_params.get("page", "app")
+        page_icon = "🏠"
+        page_title = "首页概览"
+
+        for icon, title, path in pages:
+            is_active = (path == current_page) or (path == "app" and current_page == "app")
+            cls = "nav-card active" if is_active else "nav-card"
+            # 通过 JavaScript 导航
+            st.markdown(
+                f'<a href="/?page={path.replace("pages/","").replace(".py","")}" class="{cls}">'
+                f'<div class="nav-card-title">{icon} {title}</div></a>',
+                unsafe_allow_html=True
+            )
+
         st.divider()
 
+        # 项目信息
         st.markdown("""
-        **项目信息**
-        - 课题：北极地缘气候多源数据可视化
-        - 框架：Streamlit + Folium + Plotly
-        - 数据：GDELT / NSIDC / GeoJSON
+        **📊 项目信息**
+        - 课题：北极地缘与技术双向互动
+        - 框架：Python + Streamlit
+        - 数据：GDELT / NSIDC / 专利
+
+        **🔑 核心研究**
+        技术进步赋能地缘权力延伸 +
+        中国北极安全应对策略
         """)
         st.divider()
-
-        st.markdown("""
-        **技术说明**
-
-        本平台采用纯 Python 架构：
-        - **前端**：Streamlit 自动渲染
-        - **地图**：Folium (Leaflet.js)
-        - **图表**：Plotly
-        - **数据**：本地 CSV / GeoJSON
-
-        无需编写 HTML/CSS/JS！
-        """)
-        st.divider()
-
-        # 数据状态快速查看
-        st.markdown("**📂 数据文件状态**")
-        processed_dir = os.path.join(os.path.dirname(__file__), 'data', 'processed')
-        if os.path.exists(processed_dir):
-            files = os.listdir(processed_dir)
-            csv_files = [f for f in files if f.endswith('.csv')]
-            if csv_files:
-                st.success(f"✅ {len(csv_files)} 个数据文件已就绪")
-                for f in csv_files[:5]:
-                    st.caption(f"  📄 {f}")
-            else:
-                st.warning("⚠️ 数据文件不存在，请先在「数据获取」页面生成数据")
-        else:
-            st.warning("⚠️ data/processed/ 目录不存在")
-
-        st.divider()
-        st.caption("© 2024 北极地缘气候研究项目")
-        st.caption("大创专项 · 数据可视化平台 v2.0")
+        st.caption("© 2025 北极战略研究项目")
+        st.caption("大创专项")
 
 
 render_sidebar()
 
-# ==================== 首页主体 ====================
-st.markdown('<div class="main-header">🌍 北极地缘气候多源数据可视化平台</div>', unsafe_allow_html=True)
-st.markdown(
-    '<div class="sub-header">'
-    '基于 <b>GDELT</b> 地缘事件数据 · <b>NSIDC</b> 海冰监测数据 · <b>三大航道</b> GeoJSON<br>'
-    '聚焦「技术进步赋能地缘权力延伸」与「中国北极安全应对策略」'
-    '</div>',
-    unsafe_allow_html=True
-)
+# ============ 读取数据 ============
 
-# 顶部 KPI 指标卡
-col1, col2, col3, col4 = st.columns(4)
-
-with col1:
-    st.markdown(
-        '<div class="metric-card">'
-        '<div style="font-size:0.9rem;opacity:0.85">GDELT 事件记录</div>'
-        '<div style="font-size:1.8rem;font-weight:700">38,500+</div>'
-        '<div style="font-size:0.8rem;opacity:0.75">2018-2024</div>'
-        '</div>',
-        unsafe_allow_html=True
+try:
+    from src.data_core import (
+        load_ice_data, load_gdelt_data, compute_trend,
+        load_cmip6_forecast, load_risk_data, get_swot_data,
+        load_patent_data, load_policy_texts, load_geopolitics_network,
+        load_stations, get_seasonal_stats
     )
-with col2:
-    st.markdown(
-        '<div class="metric-card-green">'
-        '<div style="font-size:0.9rem;opacity:0.85">海冰年均下降</div>'
-        '<div style="font-size:1.8rem;font-weight:700">-13.2%</div>'
-        '<div style="font-size:0.8rem;opacity:0.75">1989-2024</div>'
-        '</div>',
-        unsafe_allow_html=True
+    from src.viz import (
+        ARCTIC_THEME, COUNTRY_NAMES, COUNTRY_COLORS,
+        CATEGORY_COLORS, CAT_LABELS, create_3d_globe,
+        create_metric_trend_chart, create_forecast_chart,
+        create_risk_matrix, create_swot_chart, create_network_graph,
+        create_word_freq_chart, create_patent_bubble, create_radar_chart
     )
-with col3:
-    st.markdown(
-        '<div class="metric-card-red">'
-        '<div style="font-size:0.9rem;opacity:0.85">航道通航季延长</div>'
-        '<div style="font-size:1.8rem;font-weight:700">+45天</div>'
-        '<div style="font-size:0.8rem;opacity:0.75">近十年趋势</div>'
-        '</div>',
-        unsafe_allow_html=True
-    )
-with col4:
-    st.markdown(
-        '<div class="metric-card">'
-        '<div style="font-size:0.9rem;opacity:0.85">覆盖国家/地区</div>'
-        '<div style="font-size:1.8rem;font-weight:700">11</div>'
-        '<div style="font-size:0.8rem;opacity:0.75">北极核心利益方</div>'
-        '</div>',
-        unsafe_allow_html=True
-    )
+    DATA_OK = True
+except ImportError as e:
+    DATA_OK = False
+    st.error(f"数据模块加载失败: {e}")
 
-st.divider()
 
-# 核心研究问题
-st.markdown("### 📌 项目核心研究问题")
-cols = st.columns(3)
-with cols[0]:
-    st.info("""
-    **🌡️ 气候驱动**
-    北极海冰快速融化如何从物理层面催生新航道？
-    """)
-with cols[1]:
-    st.info("""
-    **⚔️ 技术竞争**
-    高端船舶制造与极地通信卫星领域大国博弈格局如何演变？
-    """)
-with cols[2]:
-    st.info("""
-    **🇨🇳 中国路径**
-    如何在规则制定、科技合作与风险防控三条路径上构建北极战略？
-    """)
+# ============ 首页内容 ============
 
-st.divider()
-st.markdown("### 🗂️ 功能模块入口")
+# 顶部标题栏
+st.markdown("""
+<div class="main-header-bar">
+    <h1>🌍 北极地缘与技术多要素联动3D可视化平台</h1>
+    <p>基于「大北极」格局下地缘与技术双向互动机制研究 · 大创专项</p>
+</div>
+""", unsafe_allow_html=True)
 
-page_cols = st.columns(3)
-pages_info = [
-    ("🗺️", "北极交互地图",
-     "查看三大航道轨迹、科考站分布、GDELT 事件热力图，支持时间滑块联动"),
-    ("❄️", "海冰数据面板",
-     "历年北极海冰面积变化趋势、季节性分析、趋势预测与航道通航关联"),
-    ("📊", "GDELT 事件分析",
-     "按国家、类别、情感分析北极地缘政治事件，揭示大国博弈动态"),
+
+# KPI 指标卡
+kpi_cols = st.columns(5)
+
+kpi_data = [
+    ("+3.7°C", "北极近十年升温速率", "#E53935", "⚠️"),
+    ("-13.2%", "海冰面积累计下降", "#1565C0", "📉"),
+    ("+45天", "航道通航窗口延长", "#FF6B35", "📈"),
+    ("11", "覆盖国家/地区", "#7B1FA2", "🌐"),
+    ("5", "平台核心模块", "#43A047", "🔧"),
 ]
 
-for i, (icon, title, desc) in enumerate(pages_info):
-    with page_cols[i]:
+for i, (value, label, color, icon) in enumerate(kpi_data):
+    with kpi_cols[i]:
         st.markdown(f"""
-        <div class="page-card">
-            <div style="font-size:1.6rem;margin-bottom:0.5rem">{icon}</div>
-            <div style="font-weight:700;font-size:1.05rem;color:#1E88E5;margin-bottom:0.3rem">{title}</div>
-            <div style="font-size:0.85rem;color:#546E7A;line-height:1.5">{desc}</div>
-        </div>
-        """, unsafe_allow_html=True)
-
-page_cols2 = st.columns(3)
-pages_info2 = [
-    ("🏛️", "战略叙事图文联动",
-     "按时间线展示中国北极战略演进，配合地图自动切换战略解读"),
-    ("📥", "GDELT 数据获取",
-     "从 GDELT 官网抓取最新数据，按北极关键词过滤与聚合处理"),
-    ("🗄️", "数据管理中心",
-     "GDELT 1.0/2.0 清洗流水线、数据质量报告、多源数据说明"),
-]
-
-for i, (icon, title, desc) in enumerate(pages_info2):
-    with page_cols2[i]:
-        st.markdown(f"""
-        <div class="page-card">
-            <div style="font-size:1.6rem;margin-bottom:0.5rem">{icon}</div>
-            <div style="font-weight:700;font-size:1.05rem;color:#1E88E5;margin-bottom:0.3rem">{title}</div>
-            <div style="font-size:0.85rem;color:#546E7A;line-height:1.5">{desc}</div>
+        <div class="metric-card metric-card-{"blue red green orange purple".split()[i]}">
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:0.5rem;">
+                <span style="font-size:1.1rem;">{icon}</span>
+                <span style="font-size:0.75rem;color:#90A4AE;font-weight:500;">{label}</span>
+            </div>
+            <div style="font-size:1.6rem;font-weight:800;color:{color};">{value}</div>
         </div>
         """, unsafe_allow_html=True)
 
 st.divider()
 
-# 数据生态图
-st.markdown("### 🔗 北极多源数据生态")
-st.markdown("""
-本平台整合了以下数据源，构建北极研究数据闭环：
+# 3D 地球 + 模块入口
+st.markdown("### 🎯 功能模块")
+module_cols = st.columns(3)
 
-| 数据层 | 数据源 | 说明 |
-|--------|--------|------|
-| **事件数据** | GDELT 1.0/2.0 | 每日更新 · 覆盖全球新闻 · 情感分析 |
-| **气候数据** | NSIDC 海冰指数 | 1979-2024 · 月度更新 · 趋势预测 |
-| **地理数据** | GeoJSON 手工标注 | 三大航道 · 科考站分布 · 冲突事件 |
-| **政策数据** | 官方白皮书/报告 | 中国/美国/俄罗斯北极政策文件 |
-""")
+modules = [
+    ("🌡️", "气候时空监测", "1980-2100年气温/海冰时空演变，CMIP6情景预测，航道通航评估", "气候监测", "#B3E5FC"),
+    ("🏛️", "地缘战略格局", "大国博弈网络图谱、政策文本词云与情感分析、科考站详情", "地缘格局", "#E8F5E9"),
+    ("⚙️", "技术竞争与合作", "专利气泡图、技术合作网络、「技术-地缘」双轴联动看板", "技术竞争", "#F3E5F5"),
+    ("🛡️", "安全风险评估", "四维风险热力图、SWOT可视化、中国应对策略推演沙盘", "安全风险", "#FFF3E0"),
+    ("🗄️", "数据中心", "数据集下载、上传数据可视化、时空查询与对比分析", "数据中心", "#E0F7FA"),
+    ("ℹ️", "关于项目", "项目介绍、研究框架、技术架构与团队信息", "关于项目", "#F5F5F5"),
+]
+
+for i, (icon, title, desc, tag, bg) in enumerate(modules):
+    with module_cols[i % 3]:
+        page_key = tag.lower().replace(" ", "")
+        st.markdown(f"""
+        <div class="module-card" onclick="window.location.href='/?page={page_key}'">
+            <div class="module-icon">{icon}</div>
+            <div class="module-title">{title}</div>
+            <div class="module-desc" style="margin-top:0.5rem;">{desc}</div>
+            <span class="module-tag">{tag}</span>
+        </div>
+        """, unsafe_allow_html=True)
 
 st.divider()
-st.markdown("""
-### 📖 使用指南
 
-1. **首次使用**：在终端运行 `pip install -r requirements.txt` 安装全部依赖
-2. **启动平台**：运行 `streamlit run app.py`，浏览器自动打开
-3. **左侧导航**：点击页面名称切换功能模块
-4. **GDELT 数据**：进入「数据获取」页面生成样本数据或抓取真实数据
-5. **时间滑块**：拖动地图页面的时间滑块，地图与叙事文字同步变化
-""")
+# 核心研究框架
+st.markdown("### 📐 核心研究框架")
+
+col_left, col_right = st.columns([1, 1])
+
+with col_left:
+    if DATA_OK:
+        try:
+            fig_globe = create_3d_globe()
+            st.plotly_chart(fig_globe, use_container_width=True)
+        except Exception:
+            st.info("3D地球模型加载中...")
+    else:
+        st.info("数据模块未就绪")
+
+with col_right:
+    st.markdown("""
+    **🔬「技术-地缘」双向互动分析框架**
+
+    本平台突破传统地缘政治单向分析视角，引入「技术-地缘」互动框架：
+
+    **路径一：技术进步 → 地缘扩展**
+    极地破冰船技术、核动力推进、极地通信卫星等突破，
+    拓展了国家在北极的存在边界和影响范围
+
+    **路径二：地缘需求 → 技术投入**
+    航道竞争和资源开发的战略需求，反向驱动高端船舶制造
+    和极地基础设施投资
+
+    **路径三：技术合作 → 信任构建**
+    在大国博弈加剧的背景下，科技合作成为维持北极对话的
+    『压舱石』
+
+    ---
+
+    **🎯 研究核心问题**
+
+    1. 北极海冰快速融化如何从物理层面催生新航道？
+    2. 大国在高端船舶与极地卫星领域博弈格局如何演变？
+    3. 中国如何在三条路径上构建北极战略？
+    """)
+
+st.divider()
+
+# 底部信息
+st.markdown("""
+<div style="background:#f8f9fa;padding:1rem;border-radius:12px;text-align:center;color:#90A4AE;font-size:0.8rem;">
+    数据来源: GDELT 全球事件数据库 · NSIDC 海冰监测 · 专利数据库 · 各国北极政策文件<br>
+    技术栈: Python + Streamlit + Plotly · 部署: Streamlit Community Cloud<br>
+    © 2025 北极地缘与技术双向互动机制研究 · 大创专项
+</div>
+""", unsafe_allow_html=True)
