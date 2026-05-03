@@ -116,8 +116,12 @@ def load_gdelt_data():
     grid_df = pd.read_csv(grid_path) if os.path.exists(grid_path) else _generate_gdelt_grid()
     yc_df = pd.read_csv(yc_path) if os.path.exists(yc_path) else _generate_gdelt_yc()
 
-    if 'Year_local' not in grid_df.columns and 'Year' in grid_df.columns:
-        grid_df = grid_df.rename(columns={'Year': 'Year_local'})
+    # 确保列名兼容处理
+    if 'Year_local' not in grid_df.columns:
+        if 'year' in grid_df.columns:
+            grid_df = grid_df.rename(columns={'year': 'Year_local'})
+        elif 'Year' in grid_df.columns:
+            grid_df = grid_df.rename(columns={'Year': 'Year_local'})
 
     return grid_df, yc_df
 

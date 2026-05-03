@@ -1,96 +1,182 @@
 """
 模块1：北极气候环境时空监测
 支持1980-2025历史数据 + CMIP6未来预测
-增强版：时间滑块、情景切换、航道评估看板、MK突变检验
 """
 
 import streamlit as st
 import pandas as pd
-import numpy as np
-import sys, os
+import sys
+import os
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 from src.data_core import load_ice_data, load_cmip6_forecast, compute_trend, get_seasonal_stats, mk_test, load_climate_data, load_route_data
-from src.viz import ARCTIC_THEME, COUNTRY_COLORS, create_forecast_chart, create_seasonal_heatmap
+from src.viz import create_forecast_chart, create_seasonal_heatmap
 
 st.set_page_config(page_title="气候时空监测", page_icon="🌡️", layout="wide")
 
-# ============ 样式 ============
+
+# =========================================================================
+# 全局样式
+# =========================================================================
 st.markdown("""
 <style>
-    .page-header { background: linear-gradient(135deg, #0277BD 0%, #0288D1 100%);
-        padding: 1.2rem 1.5rem; border-radius: 0 0 14px 14px; margin-bottom: 1.5rem; }
-    .page-header h1 { color: white !important; font-size: 1.5rem; font-weight: 700; margin: 0; }
-    .page-header p { color: rgba(255,255,255,0.85) !important; font-size: 0.85rem; margin: 0.3rem 0 0 0; }
-    .info-card { background: #E3F2FD; border-radius: 12px; padding: 1rem; border-left: 4px solid #0288D1; }
-    .warning-card { background: #FFEBEE; border-radius: 12px; padding: 1rem; border-left: 4px solid #E53935; }
-    /* 确保主内容区白色背景，文字深色 */
-    section[data-testid="stMain"] > div { background: white !important; }
-    section[data-testid="stMain"] p,
+    .stApp [data-testid="stMainBlockContainer"] { background: #ffffff; }
+    section[data-testid="stMain"] { background: #ffffff; }
+    .stMarkdown p, .stMarkdown h1, .stMarkdown h2, .stMarkdown h3,
+    .stMarkdown li, section[data-testid="stMain"] p,
     section[data-testid="stMain"] h1, section[data-testid="stMain"] h2,
-    section[data-testid="stMain"] h3, section[data-testid="stMain"] h4,
-    section[data-testid="stMain"] li, section[data-testid="stMain"] span {
-        color: #1a1a2e !important;
+    section[data-testid="stMain"] h3, section[data-testid="stMain"] h4 {
+        color: #1e293b !important;
     }
-    .stMarkdown p, .stMarkdown li { color: #1a1a2e !important; }
-    .stTabs [data-baseweb="tab"] { color: #333 !important; }
+    .page-hero {
+        background: linear-gradient(135deg, #0c4a6e 0%, #0369a1 50%, #0284c7 100%);
+        border-radius: 14px;
+        padding: 36px 32px;
+        margin-bottom: 28px;
+    }
+    .page-hero h1 { color: white !important; font-size: 1.6rem; font-weight: 800; margin: 0 0 6px 0; }
+    .page-hero p { color: rgba(255,255,255,0.8) !important; font-size: 0.88rem; margin: 0; }
+    .section-title {
+        font-size: 1rem; font-weight: 700; color: #0f172a;
+        margin-bottom: 16px; padding-bottom: 10px; border-bottom: 2px solid #e2e8f0;
+    }
+    .kpi-card {
+        background: white; border-radius: 12px; padding: 18px 20px;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.05); border: 1px solid rgba(0,0,0,0.04);
+        text-align: center;
+    }
+    .kpi-value { font-size: 1.8rem; font-weight: 800; line-height: 1; margin-bottom: 4px; }
+    .kpi-label { font-size: 0.75rem; color: #64748b; font-weight: 500; }
+    .info-card { background: #eff6ff; border-radius: 12px; padding: 16px; border-left: 4px solid #0369a1; }
+    .warning-card { background: #fef2f2; border-radius: 12px; padding: 16px; border-left: 4px solid #dc2626; }
 </style>
-<div class="page-header">
-    <h1>🌡️ 北极气候环境时空监测模块</h1>
+""", unsafe_allow_html=True)
+
+
+# =========================================================================
+# 侧边栏
+# =========================================================================
+def render_sidebar():
+    with st.sidebar:
+        st.markdown("""
+        <div style="text-align:center; padding: 12px 0 20px 0;">
+            <div style="font-size:2.5rem;">🌡️</div>
+            <div style="font-size:1.05rem; font-weight:700; color:white !important; margin-top:6px;">气候时空监测</div>
+            <div style="font-size:0.7rem; color:rgba(255,255,255,0.55);">模块 1 · v5.0</div>
+        </div>
+        """, unsafe_allow_html=True)
+        st.markdown('<hr style="border-color:rgba(255,255,255,0.1);">', unsafe_allow_html=True)
+        pages_map = [
+            ("🏠", "首页概览", "app.py"),
+            ("🌡️", "气候时空监测", "pages/2_气候时空监测.py"),
+            ("🏛️", "地缘战略格局", "pages/3_地缘战略格局.py"),
+            ("⚙️", "技术竞争与合作", "pages/4_极地核心技术.py"),
+            ("🛡️", "中国安全风险", "pages/5_中国安全风险.py"),
+            ("🗄️", "数据中心工具", "pages/6_数据中心工具.py"),
+            ("ℹ️", "关于本项目", "pages/7_关于本项目.py"),
+        ]
+        for icon, label, path in pages_map:
+            st.page_link(path, label=label, icon=icon)
+        st.divider()
+        st.caption("© 2025-2026 大创专项")
+
+
+render_sidebar()
+
+
+# =========================================================================
+# 页面头部
+# =========================================================================
+st.markdown("""
+<div class="page-hero">
+    <h1>🌡️ 北极气候环境时空监测</h1>
     <p>气温 · 海冰密集度 · CMIP6情景预测 · 航道通航潜力评估 · M-K突变检验</p>
 </div>
 """, unsafe_allow_html=True)
 
-# ============ 数据加载 ============
-df, df_summary, long_df = load_ice_data()
-cmip6_df = load_cmip6_forecast()
-trend = compute_trend(df_summary)
-seasons = get_seasonal_stats(long_df)
-climate_df = load_climate_data()
 
-# ============ KPI 指标 ============
+# =========================================================================
+# 数据加载
+# =========================================================================
+try:
+    df, df_summary, long_df = load_ice_data()
+    cmip6_df = load_cmip6_forecast()
+    trend = compute_trend(df_summary)
+    seasons = get_seasonal_stats(long_df)
+    climate_df = load_climate_data()
+except Exception:
+    st.error("数据加载失败，请检查 data/processed/ 目录")
+    st.stop()
+
+
+# =========================================================================
+# KPI 指标
+# =========================================================================
 kpi_cols = st.columns(4)
+latest = df_summary['mean'].iloc[-1]
+prev = df_summary['mean'].iloc[-2]
+first = df_summary['mean'].iloc[0]
+total = latest - first
+pct = total / first * 100
+min_val = df_summary['minimum'].min()
+min_yr = df_summary['minimum'].idxmin()
+
 with kpi_cols[0]:
-    latest = df_summary['mean'].iloc[-1]
-    prev = df_summary['mean'].iloc[-2]
-    st.metric("2024年均海冰面积", f"{latest:.2f} M km²", delta=f"{latest-prev:.2f} vs 2023")
+    st.markdown(f"""
+    <div class="kpi-card"><div class="kpi-value" style="color:#0369a1;">{latest:.2f}</div>
+    <div class="kpi-label">2024年均海冰面积 (M km²)</div></div>
+    """, unsafe_allow_html=True)
 with kpi_cols[1]:
-    first = df_summary['mean'].iloc[0]
-    total = latest - first
-    pct = total / first * 100
-    st.metric("1979-2024累计变化", f"{total:.2f} M km²", delta=f"{pct:.1f}%")
+    st.markdown(f"""
+    <div class="kpi-card"><div class="kpi-value" style="color:#dc2626;">{pct:.1f}%</div>
+    <div class="kpi-label">1979-2024累计变化</div></div>
+    """, unsafe_allow_html=True)
 with kpi_cols[2]:
-    st.metric("每十年下降速率", f"{trend['decline_per_decade']:.2f} M km²/十年",
-              delta=f"R²={trend['r_squared']:.3f}")
+    st.markdown(f"""
+    <div class="kpi-card"><div class="kpi-value" style="color:#0284c7;">{abs(trend['decline_per_decade']):.2f}</div>
+    <div class="kpi-label">M km²/十年 下降速率</div></div>
+    """, unsafe_allow_html=True)
 with kpi_cols[3]:
-    min_val = df_summary['minimum'].min()
-    min_yr = df_summary['minimum'].idxmin()
-    st.metric(f"{min_yr}年历史最低", f"{min_val:.2f} M km²", delta="夏季最小值")
+    st.markdown(f"""
+    <div class="kpi-card"><div class="kpi-value" style="color:#dc2626;">{min_yr}</div>
+    <div class="kpi-label">历史最低年 ({min_val:.2f} M km²)</div></div>
+    """, unsafe_allow_html=True)
 
 st.divider()
 
-# ============ 主图表区域 ============
+
+# =========================================================================
+# 主区域
+# =========================================================================
 tab1, tab2, tab3, tab4, tab5 = st.tabs([
     "📈 趋势与预测", "🗓️ 月度热力图", "🌍 季节对比", "🛳️ 航道通航评估", "📊 统计分析"
 ])
 
-with tab1:
-    st.markdown("### 📈 海冰面积变化趋势与CMIP6情景预测")
-    st.caption("蓝线：历史数据 | 绿线：SSP1-2.6低碳情景 | 红线：SSP5-8.5高排放情景")
 
-    # 预测说明
-    st.info("""
-    **CMIP6情景说明**：SSP1-2.6（低碳路径）假设全球积极减排，2100年海冰面积约3-5M km²；
+# -------------------------------------------------------------------------
+# Tab 1: 趋势与预测
+# -------------------------------------------------------------------------
+with tab1:
+    st.markdown('<div class="section-title">📈 海冰面积变化趋势与CMIP6情景预测</div>', unsafe_allow_html=True)
+
+    st.markdown("""
+    <div class="info-card">
+    <b>CMIP6情景说明：</b>SSP1-2.6（低碳路径）假设全球积极减排，2100年海冰面积约3-5M km²；
     SSP5-8.5（高排放路径）假设化石燃料持续依赖，2100年夏季北极近乎无冰（<1M km²）。
-    """)
+    </div>
+    """, unsafe_allow_html=True)
 
     fig = create_forecast_chart(df_summary, cmip6_df)
     st.plotly_chart(fig, use_container_width=True)
 
+    # 两种情景说明
+    ssp126_2050 = cmip6_df[cmip6_df['year'] == 2050]['SSP1-2.6'].values[0]
+    ssp126_2100 = cmip6_df[cmip6_df['year'] == 2100]['SSP1-2.6'].values[0]
+    ssp585_2050 = cmip6_df[cmip6_df['year'] == 2050]['SSP5-8.5'].values[0]
+    ssp585_2100 = cmip6_df[cmip6_df['year'] == 2100]['SSP5-8.5'].values[0]
+
     col_pred1, col_pred2 = st.columns(2)
     with col_pred1:
-        ssp126_2050 = cmip6_df[cmip6_df['year'] == 2050]['SSP1-2.6'].values[0]
-        ssp126_2100 = cmip6_df[cmip6_df['year'] == 2100]['SSP1-2.6'].values[0]
         st.markdown(f"""
         <div class="info-card">
         <b>🌱 SSP1-2.6 低碳情景</b><br>
@@ -99,8 +185,6 @@ with tab1:
         </div>
         """, unsafe_allow_html=True)
     with col_pred2:
-        ssp585_2050 = cmip6_df[cmip6_df['year'] == 2050]['SSP5-8.5'].values[0]
-        ssp585_2100 = cmip6_df[cmip6_df['year'] == 2100]['SSP5-8.5'].values[0]
         st.markdown(f"""
         <div class="warning-card">
         <b>🔥 SSP5-8.5 高排放情景</b><br>
@@ -117,7 +201,7 @@ with tab1:
     with mk_cols[1]:
         st.markdown(f"**P值**: `{mk_result['p_value']}`")
     with mk_cols[2]:
-        color = "#43A047" if mk_result['trend'] == '显著下降' else "#E53935"
+        color = "#059669" if mk_result['trend'] == '显著下降' else "#dc2626"
         st.markdown(f"**趋势判定**: <span style='color:{color};font-weight:bold'>{mk_result['trend']}</span>",
                    unsafe_allow_html=True)
 
@@ -127,54 +211,70 @@ with tab1:
     高排放情景下2100年夏季北极近乎无冰，为「冰上丝绸之路」提供了物理基础。
     """)
 
-with tab2:
-    st.markdown("### 🗓️ 月度海冰面积热力图（1980-2024）")
 
-    year_range = st.slider("选择年份范围", 1980, 2024, (1990, 2024))
-    color_scheme = st.selectbox("配色方案", ["Ice", "YlOrRd", "Viridis"], format_func=lambda x: {"Ice": "冰蓝色", "YlOrRd": "红黄渐变", "Viridis": "科学紫绿"}.get(x, x))
+# -------------------------------------------------------------------------
+# Tab 2: 月度热力图
+# -------------------------------------------------------------------------
+with tab2:
+    st.markdown('<div class="section-title">🗓️ 月度海冰面积热力图（1980-2024）</div>', unsafe_allow_html=True)
+
+    year_range = st.slider("选择年份范围", 1980, 2024, (1990, 2024), key="year_range_slider")
+    color_scheme = st.selectbox(
+        "配色方案",
+        ["Ice", "YlOrRd", "Viridis"],
+        format_func=lambda x: {"Ice": "冰蓝色", "YlOrRd": "红黄渐变", "Viridis": "科学紫绿"}.get(x, x),
+        key="color_scheme"
+    )
 
     fig2 = create_seasonal_heatmap(long_df, year_range=year_range, color_scheme=color_scheme)
     st.plotly_chart(fig2, use_container_width=True)
 
     st.markdown("""
-    **解读指南：** 颜色越深（蓝）代表海冰覆盖面积越大。9月（秋季）颜色最浅，
-    是年度最低点，也是航道通航的黄金窗口期。颜色趋势从深到浅逐渐演变，
-    直观反映海冰消退速度。近年来夏季（7-9月）颜色明显变浅，消退期提前、延长。
+    **解读指南：** 颜色越深（蓝）代表海冰覆盖面积越大。9月（秋季）颜色最浅，是年度最低点，
+    也是航道通航的黄金窗口期。颜色趋势从深到浅逐渐演变，直观反映海冰消退速度。
     """)
 
-    # 时间轴播放（用关键年份对比替代）
+    # 关键年份对比
     st.markdown("#### 🕐 关键年份对比")
-    key_years = st.multiselect("选择年份对比", sorted(df.index.tolist()),
-                               default=[1980, 2000, 2012, 2024])
+    key_years = st.multiselect(
+        "选择年份对比",
+        sorted(df.index.tolist()),
+        default=[1980, 2000, 2012, 2024],
+        key="key_years_select"
+    )
     if key_years:
         import plotly.graph_objects as go
         fig_compare = go.Figure()
-        colors_yr = ['#1E88E5', '#E53935', '#43A047', '#FF6B35', '#9C27B0']
+        colors_yr = ['#1565C0', '#dc2626', '#059669', '#ea580c', '#7c3aed']
         month_labels = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月']
         for i, yr in enumerate(sorted(key_years)):
             if yr in df.index:
                 fig_compare.add_trace(go.Scatter(
                     x=month_labels, y=df.loc[yr].values,
                     mode='lines+markers', name=str(yr),
-                    line=dict(color=colors_yr[i % len(colors_yr)], width=2),
-                    marker=dict(size=5)
+                    line=dict(color=colors_yr[i % len(colors_yr)], width=2.5),
+                    marker=dict(size=6)
                 ))
         fig_compare.update_layout(
             xaxis_title='月份', yaxis_title='海冰面积 (M km²)',
             template='plotly_white', hovermode='x unified',
             legend=dict(orientation='h', yanchor='bottom', y=1.02, xanchor='right', x=1),
-            height=350, margin=dict(l=60, r=20, t=20, b=40)
+            height=380, margin=dict(l=60, r=20, t=20, b=40)
         )
         st.plotly_chart(fig_compare, use_container_width=True)
 
+
+# -------------------------------------------------------------------------
+# Tab 3: 季节对比
+# -------------------------------------------------------------------------
 with tab3:
-    st.markdown("### 🌍 四季海冰变化趋势对比")
+    st.markdown('<div class="section-title">🌍 四季海冰变化趋势对比</div>', unsafe_allow_html=True)
 
     import plotly.graph_objects as go
     fig3 = go.Figure()
     season_colors = {
-        '春季(3-5月)': '#66BB6A', '夏季(6-8月)': '#FF7043',
-        '秋季(9-11月)': '#FFA726', '冬季(12-2月)': '#42A5F5'
+        '春季(3-5月)': '#16a34a', '夏季(6-8月)': '#ea580c',
+        '秋季(9-11月)': '#d97706', '冬季(12-2月)': '#0284c7'
     }
     for season in seasons.columns:
         fig3.add_trace(go.Scatter(
@@ -195,38 +295,37 @@ with tab3:
     # 各季节变化率
     season_changes = {}
     for season in seasons.columns:
-        first = seasons[season].iloc[0]
-        last = seasons[season].iloc[-1]
-        season_changes[season] = ((last - first) / first) * 100
+        first_v = seasons[season].iloc[0]
+        last_v = seasons[season].iloc[-1]
+        season_changes[season] = ((last_v - first_v) / first_v) * 100
 
     st.markdown("#### 各季节变化率 (1979→2024)")
     change_cols = st.columns(4)
     sorted_seasons = sorted(season_changes.items(), key=lambda x: x[1])
     for i, (season, pct) in enumerate(sorted_seasons):
-        color = '#E53935' if pct < -15 else '#FF6B35' if pct < -10 else '#43A047'
+        color = '#dc2626' if pct < -15 else '#ea580c' if pct < -10 else '#059669'
         with change_cols[i]:
             st.markdown(f"""
-            <div style="text-align:center;padding:0.8rem;background:white;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.06);">
-                <div style="font-size:1.3rem;font-weight:800;color:{color};">{pct:.1f}%</div>
-                <div style="font-size:0.75rem;color:#90A4AE;">{season.split('(')[0]}</div>
+            <div style="text-align:center;padding:1rem;background:white;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.06);">
+                <div style="font-size:1.5rem;font-weight:800;color:{color};">{pct:.1f}%</div>
+                <div style="font-size:0.78rem;color:#64748b;margin-top:4px;">{season.split('(')[0]}</div>
             </div>
             """, unsafe_allow_html=True)
 
     # 气候辅助数据
-    st.markdown("#### 🌡️ 北极气温与冻土变化趋势")
     if not climate_df.empty:
+        st.markdown("#### 🌡️ 北极气温与冻土变化趋势")
         climate_cols = st.columns(2)
         with climate_cols[0]:
             fig_temp = go.Figure(go.Scatter(
                 x=climate_df['year'], y=climate_df['arctic_temp_anomaly'],
                 mode='lines+markers', name='气温距平',
-                line=dict(color='#E53935', width=2),
-                marker=dict(size=4),
-                fill='tozeroy', fillcolor='rgba(229,57,53,0.1)'
+                line=dict(color='#dc2626', width=2),
+                marker=dict(size=4), fill='tozeroy', fillcolor='rgba(220,38,38,0.1)'
             ))
             fig_temp.update_layout(
                 xaxis_title='年份', yaxis_title='气温距平 (°C)',
-                template='plotly_white', height=300,
+                template='plotly_white', height=320,
                 margin=dict(l=60, r=20, t=20, b=40)
             )
             st.plotly_chart(fig_temp, use_container_width=True)
@@ -234,19 +333,22 @@ with tab3:
             fig_perm = go.Figure(go.Scatter(
                 x=climate_df['year'], y=climate_df['permafrost_thickness'],
                 mode='lines+markers', name='冻土厚度',
-                line=dict(color='#1565C0', width=2),
-                marker=dict(size=4),
-                fill='tozeroy', fillcolor='rgba(21,101,192,0.1)'
+                line=dict(color='#0369a1', width=2),
+                marker=dict(size=4), fill='tozeroy', fillcolor='rgba(3,105,161,0.1)'
             ))
             fig_perm.update_layout(
                 xaxis_title='年份', yaxis_title='活动层厚度 (cm)',
-                template='plotly_white', height=300,
+                template='plotly_white', height=320,
                 margin=dict(l=60, r=20, t=20, b=40)
             )
             st.plotly_chart(fig_perm, use_container_width=True)
 
+
+# -------------------------------------------------------------------------
+# Tab 4: 航道通航评估
+# -------------------------------------------------------------------------
 with tab4:
-    st.markdown("### 🛳️ 航道通航潜力评估")
+    st.markdown('<div class="section-title">🛳️ 航道通航潜力评估</div>', unsafe_allow_html=True)
 
     sep_data = df['sep'].values
     years = df.index.tolist()
@@ -257,15 +359,15 @@ with tab4:
     fig4.add_trace(go.Scatter(
         x=years, y=sep_data, mode='lines+markers',
         name='9月海冰面积 (M km²)',
-        yaxis='y1', line=dict(color='#1E88E5', width=2.5),
+        yaxis='y1', line=dict(color='#1565C0', width=2.5),
         hovertemplate='%{x}年9月: %{y:.2f} M km²<extra></extra>'
     ))
     fig4.add_trace(go.Scatter(
         x=years, y=shipping_potential, mode='lines+markers',
         name='通航潜力指数 (0-100)',
-        yaxis='y2', line=dict(color='#FF6B35', width=2),
+        yaxis='y2', line=dict(color='#ea580c', width=2),
         marker=dict(symbol='diamond'), fill='tozeroy',
-        fillcolor='rgba(255,107,53,0.08)',
+        fillcolor='rgba(234,88,12,0.08)',
         hovertemplate='%{x}年通航潜力: %{y:.0f}<extra></extra>'
     ))
     fig4.update_layout(
@@ -278,18 +380,19 @@ with tab4:
     )
     st.plotly_chart(fig4, use_container_width=True)
 
-    # 三大航道信息
+    # 三大航道
     st.markdown("#### 🚢 三大北极航道概览")
     routes = load_route_data()
     route_cols = st.columns(3)
+    route_colors = ['#dc2626', '#1565C0', '#16a34a']
     for i, (route_name, info) in enumerate(routes.items()):
         with route_cols[i]:
-            color = ['#E53935', '#1565C0', '#43A047'][i]
+            color = route_colors[i]
             st.markdown(f"""
-            <div style="background:white;border-radius:12px;padding:1rem;
+            <div style="background:white;border-radius:12px;padding:20px;
                         box-shadow:0 2px 8px rgba(0,0,0,0.06);border-top:4px solid {color};">
-                <h4 style="color:{color};margin:0 0 0.5rem 0">{route_name}</h4>
-                <table style="width:100%;font-size:0.8rem;color:#546E7A;">
+                <h4 style="color:{color};margin:0 0 12px 0;">{route_name}</h4>
+                <table style="width:100%;font-size:0.82rem;color:#475569;line-height:1.8;">
                     <tr><td><b>起点</b></td><td>{info['start']}</td></tr>
                     <tr><td><b>终点</b></td><td>{info['end']}</td></tr>
                     <tr><td><b>航程</b></td><td>{info['distance']}</td></tr>
@@ -297,7 +400,7 @@ with tab4:
                     <tr><td><b>主导方</b></td><td>{info['operator']}</td></tr>
                     <tr><td><b>通航期</b></td><td>{info['open_months']}</td></tr>
                 </table>
-                <p style="font-size:0.75rem;color:#90A4AE;margin-top:0.5rem">{info['description']}</p>
+                <p style="font-size:0.78rem;color:#94a3b8;margin-top:10px">{info['description']}</p>
             </div>
             """, unsafe_allow_html=True)
 
@@ -312,10 +415,18 @@ with tab4:
     })
     st.dataframe(shipping_df.tail(15), use_container_width=True, hide_index=True)
 
-with tab5:
-    st.markdown("### 📊 统计分析工具")
 
-    analysis_type = st.selectbox("分析维度", ["按月份", "按年代", "按季节"])
+# -------------------------------------------------------------------------
+# Tab 5: 统计分析
+# -------------------------------------------------------------------------
+with tab5:
+    st.markdown('<div class="section-title">📊 统计分析工具</div>', unsafe_allow_html=True)
+
+    analysis_type = st.selectbox(
+        "分析维度",
+        ["按月份", "按年代", "按季节"],
+        key="analysis_type_select"
+    )
     import plotly.graph_objects as go
 
     if analysis_type == "按月份":
@@ -324,11 +435,11 @@ with tab5:
         fig5 = go.Figure(go.Bar(
             x=month_labels,
             y=month_means.values,
-            marker_color=['#42A5F5' if i in [0,1,11] else '#66BB6A' if i in [2,3,4] else '#FF7043' if i in [5,6,7] else '#FFA726' for i in range(12)],
+            marker_color=['#0284c7' if i in [0,1,11] else '#16a34a' if i in [2,3,4] else '#ea580c' if i in [5,6,7] else '#d97706' for i in range(12)],
             hovertemplate='%{x}: %{y:.2f} M km²<extra></extra>'
         ))
         fig5.update_layout(xaxis_title='月份', yaxis_title='平均海冰面积 (M km²)',
-                          height=350, margin=dict(l=60, r=20, t=20, b=40))
+                          height=380, margin=dict(l=60, r=20, t=20, b=40))
         st.plotly_chart(fig5, use_container_width=True)
 
     elif analysis_type == "按年代":
@@ -337,22 +448,22 @@ with tab5:
         fig5 = go.Figure(go.Bar(
             x=[f"{int(d)}s" for d in decade_means['decade']],
             y=decade_means['ice_extent'],
-            marker_color='#1E88E5',
+            marker_color='#0369a1',
             hovertemplate='%{x}: %{y:.2f} M km²<extra></extra>'
         ))
         fig5.update_layout(xaxis_title='年代', yaxis_title='平均海冰面积 (M km²)',
-                          height=350, margin=dict(l=60, r=20, t=20, b=40))
+                          height=380, margin=dict(l=60, r=20, t=20, b=40))
         st.plotly_chart(fig5, use_container_width=True)
 
     else:
         seas_means = seasons.mean()
         fig5 = go.Figure(go.Bar(
             x=seas_means.index, y=seas_means.values,
-            marker_color=['#66BB6A','#FF7043','#FFA726','#42A5F5'],
+            marker_color=['#16a34a','#ea580c','#d97706','#0284c7'],
             hovertemplate='%{x}: %{y:.2f} M km²<extra></extra>'
         ))
         fig5.update_layout(xaxis_title='季节', yaxis_title='平均海冰面积 (M km²)',
-                          height=350, margin=dict(l=60, r=20, t=20, b=40))
+                          height=380, margin=dict(l=60, r=20, t=20, b=40))
         st.plotly_chart(fig5, use_container_width=True)
 
     # 描述性统计
@@ -373,26 +484,26 @@ with tab5:
     st.markdown("#### 📐 线性趋势拟合详情")
     trend_cols = st.columns(2)
     with trend_cols[0]:
-        import plotly.graph_objects as go
         fig_fit = go.Figure()
         fig_fit.add_trace(go.Scatter(
             x=df_summary.index, y=df_summary['mean'],
             mode='markers', name='实际值',
-            marker=dict(size=5, color='#1E88E5')
+            marker=dict(size=5, color='#0369a1')
         ))
         fitted = trend['intercept'] + trend['slope'] * df_summary.index.astype(float)
         fig_fit.add_trace(go.Scatter(
             x=df_summary.index, y=fitted,
             mode='lines', name=f'拟合线 (斜率={trend["slope"]:.4f})',
-            line=dict(color='#E53935', width=2, dash='dash')
+            line=dict(color='#dc2626', width=2, dash='dash')
         ))
         fig_fit.update_layout(
             xaxis_title='年份', yaxis_title='年均海冰面积 (M km²)',
-            template='plotly_white', height=300,
+            template='plotly_white', height=320,
             legend=dict(orientation='h', yanchor='bottom', y=1.02, xanchor='right', x=1),
             margin=dict(l=60, r=20, t=20, b=40)
         )
         st.plotly_chart(fig_fit, use_container_width=True)
+
     with trend_cols[1]:
         st.markdown(f"""
         **趋势拟合方程**：
