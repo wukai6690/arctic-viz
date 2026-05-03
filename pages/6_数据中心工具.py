@@ -1,7 +1,6 @@
 """
 模块6：数据中心与工具模块
-数据集下载、上传数据可视化、时空查询与对比分析
-重制版：高级UI、精细化功能
+深色沉浸主题 v6.0
 """
 
 import streamlit as st
@@ -10,65 +9,51 @@ import numpy as np
 import sys, os
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-from src.data_core import load_ice_data, load_gdelt_data, load_patent_data, load_risk_data, get_downloadable_datasets
+from src.data_core import load_ice_data, load_gdelt_data, load_patent_data, get_downloadable_datasets
 from src.viz import COUNTRY_NAMES
 
 st.set_page_config(page_title="数据中心", page_icon="🗄️", layout="wide")
 
 st.markdown("""
 <style>
-    .page-header {
-        background: linear-gradient(135deg, #004D40 0%, #00695C 50%, #00897B 100%);
-        padding: 1.5rem 2rem;
-        border-radius: 0 0 18px 18px;
-        margin-bottom: 1.5rem;
-        box-shadow: 0 4px 20px rgba(0,105,92,0.2);
-    }
-    .page-header h1 { color: white !important; font-size: 1.55rem; font-weight: 700; margin: 0 0 0.3rem 0; }
-    .page-header p { color: rgba(255,255,255,0.82) !important; font-size: 0.83rem; margin: 0; }
-    .stTabs [data-baseweb="tab-list"] { gap: 4px; }
-    .stTabs [data-baseweb="tab"] { border-radius: 8px 8px 0 0; padding: 8px 18px; font-weight: 600; font-size: 0.85rem; }
-    section[data-testid="stMain"] { background: #ffffff !important; }
-    section[data-testid="stMain"] > div { background: #ffffff !important; }
-    section[data-testid="stMain"] p, section[data-testid="stMain"] h1,
-    section[data-testid="stMain"] h2, section[data-testid="stMain"] h3,
-    section[data-testid="stMain"] h4, section[data-testid="stMain"] li { color: #1a1a2e !important; }
-    [data-testid="stMetricValue"] { color: #1a1a2e !important; }
-    [data-testid="stMetricLabel"] { color: #546E7A !important; }
-    .stTabs [data-baseweb="tab"] { color: #333 !important; }
-    .stTabs [data-baseweb="tab"]:hover { background: rgba(0,0,0,0.05) !important; }
-    hr { border-color: rgba(0,0,0,0.08) !important; }
-    .streamlit-expander { border: 1px solid #e8e8e8 !important; border-radius: 12px !important; }
-    [data-testid="stCaption"] { color: #90A4AE !important; }
+    :root { --bg: #0a0e1a; --bg2: #111827; --card: #1a2236; --card2: #1f2a42; --border: rgba(255,255,255,0.07); --text: rgba(255,255,255,0.92); --text2: rgba(255,255,255,0.6); --text3: rgba(255,255,255,0.35); }
+    .stApp > header { background: transparent !important; }
+    section[data-testid="stMain"] { background: var(--bg) !important; }
+    section[data-testid="stMain"] > div { background: transparent !important; }
+    [data-testid="stMainBlockContainer"] { background: transparent !important; padding-top: 0 !important; }
+    section[data-testid="stSidebar"] { background: linear-gradient(180deg, #0a0e1a, #111827) !important; }
+    section[data-testid="stSidebar"] * { color: rgba(255,255,255,0.85) !important; }
+    section[data-testid="stMain"] p, section[data-testid="stMain"] span, section[data-testid="stMain"] h1, section[data-testid="stMain"] h2, section[data-testid="stMain"] h3, section[data-testid="stMain"] h4, section[data-testid="stMain"] li { color: var(--text) !important; }
+    .stMarkdown p, .stMarkdown li { color: var(--text2) !important; }
+    .stTabs [data-baseweb="tab-list"] { background: transparent !important; gap: 4px; }
+    .stTabs [data-baseweb="tab"] { border-radius: 8px !important; padding: 8px 18px !important; font-weight: 600 !important; font-size: 0.85rem !important; color: var(--text2) !important; background: transparent !important; }
+    .stTabs [data-baseweb="tab"]:hover { background: rgba(255,255,255,0.06) !important; }
+    .stTabs [data-baseweb="tab"][aria-selected="true"] { background: rgba(6,182,212,0.2) !important; color: #67e8f9 !important; }
+    [data-testid="stMetricValue"] { color: var(--text) !important; }
+    [data-testid="stMetricLabel"] { color: var(--text3) !important; font-size: 0.8rem !important; }
+    [data-testid="stCaption"] { color: var(--text3) !important; }
+    .stCheckbox label { color: var(--text2) !important; }
+    [data-baseweb="select"] > div { color: var(--text) !important; }
+    .stSelectbox [data-baseweb="select"] > div { color: var(--text) !important; }
+    .stMultiSelect [data-baseweb="select"] > div { color: var(--text) !important; }
+    .streamlit-expander { background: var(--card) !important; border: 1px solid var(--border) !important; border-radius: 12px !important; }
+    .streamlit-expander summary { color: var(--text) !important; font-weight: 600 !important; }
+    .stAlert { border-radius: 12px !important; }
+    hr { border: none !important; border-top: 1px solid var(--border) !important; }
+    .page-header { background: linear-gradient(135deg, #0f172a 0%, #134e4a 100%); padding: 1.8rem 2rem; border-radius: 0 0 18px 18px; margin-bottom: 1.5rem; border-bottom: 1px solid rgba(6,182,212,0.15); position: relative; overflow: hidden; }
+    .page-header::before { content: ''; position: absolute; top: -50%; right: -5%; width: 400px; height: 400px; background: radial-gradient(circle, rgba(6,182,212,0.06) 0%, transparent 70%); pointer-events: none; }
+    .page-header h1 { color: white !important; font-size: 1.6rem; font-weight: 700; margin: 0 0 0.3rem 0; position: relative; z-index: 1; }
+    .page-header p { color: rgba(255,255,255,0.5) !important; font-size: 0.83rem; margin: 0; position: relative; z-index: 1; }
+    .dk-card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 1.3rem; margin-bottom: 1.2rem; }
+    .dk-card:hover { background: var(--card2); }
+    .dk-card h3 { font-size: 0.95rem; font-weight: 700; color: var(--text); margin: 0 0 1rem 0; padding-bottom: 0.7rem; border-bottom: 1px solid var(--border); }
     .kpi-row { display: flex; gap: 14px; margin-bottom: 1.5rem; flex-wrap: wrap; }
-    .kpi-box {
-        background: white; border-radius: 14px; padding: 1rem 1.3rem;
-        box-shadow: 0 1px 8px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.04);
-        flex: 1; min-width: 160px;
-    }
-    .kpi-box .kpi-label { font-size: 0.72rem; color: #90A4AE; font-weight: 500; margin-bottom: 4px; }
+    .kpi-box { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 1rem 1.3rem; flex: 1; min-width: 160px; }
+    .kpi-box .kpi-label { font-size: 0.7rem; color: var(--text3); font-weight: 600; margin-bottom: 4px; }
     .kpi-box .kpi-val { font-size: 1.4rem; font-weight: 800; }
-    .kpi-box .kpi-sub { font-size: 0.7rem; color: #90A4AE; margin-top: 2px; }
-    .content-card {
-        background: white; border-radius: 16px; padding: 1.3rem;
-        box-shadow: 0 1px 6px rgba(0,0,0,0.04); margin-bottom: 1.2rem;
-    }
-    .content-card h3 { font-size: 0.95rem; font-weight: 700; color: #1a1a2e; margin: 0 0 0.8rem 0; }
-    .download-card {
-        background: white; border-radius: 12px; padding: 1rem;
-        box-shadow: 0 1px 6px rgba(0,0,0,0.06); margin: 0.4rem 0;
-        display: flex; align-items: center; justify-content: space-between; gap: 1rem;
-    }
-    .download-card .dl-info { flex: 1; }
-    .download-card .dl-format {
-        display: inline-block; background: #E3F2FD; color: #1565C0;
-        padding: 2px 8px; border-radius: 8px; font-size: 0.72rem; font-weight: 600;
-    }
-    .upload-zone {
-        border: 2px dashed #B0BEC5; border-radius: 14px; padding: 2rem;
-        text-align: center; transition: all 0.2s;
-    }
-    .upload-zone:hover { border-color: #1565C0; background: #F5F9FF; }
+    .kpi-box .kpi-sub { font-size: 0.68rem; color: var(--text3); margin-top: 2px; }
+    .dl-card { background: var(--card); border-radius: 12px; padding: 1rem; margin: 0.4rem 0; display: flex; align-items: center; justify-content: space-between; gap: 1rem; border: 1px solid var(--border); }
+    .dl-card .dl-format { display: inline-block; background: rgba(6,182,212,0.1); color: #67e8f9; padding: 2px 8px; border-radius: 8px; font-size: 0.72rem; font-weight: 600; }
 </style>
 <div class="page-header">
     <h1>🗄️ 数据中心与工具</h1>
@@ -77,16 +62,13 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-# ============ 主区域 ============
-tab1, tab2, tab3, tab4 = st.tabs([
-    "📥 数据集下载", "📤 数据上传", "🔍 时空查询", "📊 数据对比"
-])
+# ============ 标签页 ============
+tab1, tab2, tab3, tab4 = st.tabs(["📥 数据集下载", "📤 数据上传", "🔍 时空查询", "📊 数据对比"])
 
 
 with tab1:
-    st.markdown('<div class="content-card">', unsafe_allow_html=True)
+    st.markdown('<div class="dk-card">', unsafe_allow_html=True)
     st.markdown('<h3>📥 平台数据集下载</h3>', unsafe_allow_html=True)
-    st.markdown("本平台提供以下可供下载的数据集（CSV/GeoJSON 格式），所有数据均经过清洗和聚合处理，可直接用于学术研究和二次分析。", unsafe_allow_html=False)
 
     datasets = get_downloadable_datasets()
 
@@ -94,16 +76,14 @@ with tab1:
         col_info, col_dl = st.columns([4, 1])
         with col_info:
             st.markdown(f"""
-            <div class="download-card">
-                <div class="dl-info">
-                    <div style="display:flex;align-items:center;gap:8px;margin-bottom:0.3rem;">
+            <div class="dl-card">
+                <div>
+                    <div style="margin-bottom:0.3rem;">
                         <span class="dl-format">{ds['format']}</span>
-                        <span style="font-weight:700;font-size:0.95rem;">{ds['name']}</span>
+                        <span style="font-weight:700;font-size:0.95rem;margin-left:8px;">{ds['name']}</span>
                     </div>
-                    <div style="font-size:0.78rem;color:#546E7A;margin-bottom:0.3rem;">{ds['desc']}</div>
-                    <div style="font-size:0.72rem;color:#90A4AE;">
-                        行数: {ds['rows']} · 大小: {ds['size']} · 来源: {ds['source']}
-                    </div>
+                    <div style="font-size:0.78rem;color:var(--text3);margin-bottom:0.3rem;">{ds['desc']}</div>
+                    <div style="font-size:0.7rem;color:var(--text3);">行数: {ds['rows']} · 大小: {ds['size']} · 来源: {ds['source']}</div>
                 </div>
             </div>
             """, unsafe_allow_html=True)
@@ -113,35 +93,20 @@ with tab1:
             if os.path.exists(file_path):
                 with open(file_path, 'rb') as f:
                     mime = 'text/csv' if ds['file'].endswith('.csv') else 'application/json'
-                    st.download_button(
-                        "下载", f.read(),
-                        file_name=ds['file'],
-                        mime=mime,
-                        use_container_width=True
-                    )
+                    st.download_button("下载", f.read(), file_name=ds['file'], mime=mime, use_container_width=True)
             elif os.path.exists(geo_dir):
                 with open(geo_dir, 'rb') as f:
-                    st.download_button(
-                        "下载", f.read(),
-                        file_name=ds['file'],
-                        mime='application/json',
-                        use_container_width=True
-                    )
+                    st.download_button("下载", f.read(), file_name=ds['file'], mime='application/json', use_container_width=True)
             else:
                 st.button("暂无数据", disabled=True, use_container_width=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
 
 with tab2:
-    st.markdown('<div class="content-card">', unsafe_allow_html=True)
+    st.markdown('<div class="dk-card">', unsafe_allow_html=True)
     st.markdown('<h3>📤 上传数据可视化工具</h3>', unsafe_allow_html=True)
-    st.markdown("上传您的 CSV 数据文件，自动生成可视化图表。支持标准带表头 UTF-8 编码 CSV 文件。", unsafe_allow_html=False)
 
-    uploaded = st.file_uploader(
-        "选择 CSV 文件",
-        type=['csv'],
-        help="支持标准的带表头 UTF-8 编码 CSV 文件"
-    )
+    uploaded = st.file_uploader("选择 CSV 文件", type=['csv'], help="支持标准的带表头 UTF-8 编码 CSV 文件")
 
     if uploaded:
         try:
@@ -176,99 +141,76 @@ with tab2:
                 chart_type = st.selectbox("图表类型", ["折线图", "柱状图", "散点图", "热力图", "面积图"])
                 viz_cols = st.columns(2)
                 with viz_cols[0]:
-                    x_col = st.selectbox("X轴（列）", all_cols, index=0)
+                    x_col = st.selectbox("X轴", all_cols, index=0)
                 with viz_cols[1]:
                     y_col = st.selectbox("Y轴（数值列）", numeric_cols if numeric_cols else all_cols)
 
                 import plotly.graph_objects as go
 
                 if chart_type == "折线图":
-                    fig = go.Figure(go.Scatter(
-                        x=df[x_col], y=df[y_col],
-                        mode='lines+markers',
-                        line=dict(color='#1E88E5', width=2),
-                        marker=dict(size=5),
-                        hovertemplate=f'%{{x}}: %{{y:.2f}}<extra></extra>'
-                    ))
-                    fig.update_layout(
-                        xaxis_title=x_col, yaxis_title=y_col,
-                        template='plotly_white', height=420,
-                        margin=dict(l=60, r=20, t=20, b=40)
-                    )
+                    fig = go.Figure(go.Scatter(x=df[x_col], y=df[y_col], mode='lines+markers',
+                        line=dict(color='#60a5fa', width=2), marker=dict(size=5)))
+                    fig.update_layout(xaxis_title=x_col, yaxis_title=y_col,
+                        template='plotly_dark', height=420, margin=dict(l=60, r=20, t=20, b=40),
+                        paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)',
+                        font=dict(color='rgba(255,255,255,0.8)'))
                     st.plotly_chart(fig, use_container_width=True)
-
                 elif chart_type == "柱状图":
-                    fig = go.Figure(go.Bar(
-                        x=df[x_col], y=df[y_col],
-                        marker_color='#1E88E5',
-                        hovertemplate=f'%{{x}}: %{{y:.2f}}<extra></extra>'
-                    ))
-                    fig.update_layout(
-                        xaxis_title=x_col, yaxis_title=y_col,
-                        template='plotly_white', height=420,
-                        margin=dict(l=60, r=20, t=20, b=40)
-                    )
+                    fig = go.Figure(go.Bar(x=df[x_col], y=df[y_col], marker_color='#60a5fa'))
+                    fig.update_layout(xaxis_title=x_col, yaxis_title=y_col,
+                        template='plotly_dark', height=420, margin=dict(l=60, r=20, t=20, b=40),
+                        paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)',
+                        font=dict(color='rgba(255,255,255,0.8)'))
                     st.plotly_chart(fig, use_container_width=True)
-
                 elif chart_type == "散点图":
                     color_col = st.selectbox("颜色分组（可选）", [None] + all_cols)
                     import plotly.express as px
                     if color_col:
                         fig = px.scatter(df, x=x_col, y=y_col, color=color_col)
+                        fig.update_layout(template='plotly_dark', height=420, margin=dict(l=60, r=20, t=20, b=40),
+                            paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)',
+                            font=dict(color='rgba(255,255,255,0.8)'))
                     else:
-                        fig = go.Figure(go.Scatter(
-                            x=df[x_col], y=df[y_col], mode='markers',
-                            marker=dict(size=8, color='#1E88E5')
-                        ))
-                    fig.update_layout(template='plotly_white', height=420,
-                                    margin=dict(l=60, r=20, t=20, b=40))
+                        fig = go.Figure(go.Scatter(x=df[x_col], y=df[y_col], mode='markers',
+                            marker=dict(size=8, color='#60a5fa')))
+                        fig.update_layout(template='plotly_dark', height=420, margin=dict(l=60, r=20, t=20, b=40),
+                            paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)',
+                            font=dict(color='rgba(255,255,255,0.8)'))
                     st.plotly_chart(fig, use_container_width=True)
-
                 elif chart_type == "面积图":
-                    fig = go.Figure(go.Scatter(
-                        x=df[x_col], y=df[y_col],
-                        mode='lines', fill='tozeroy',
-                        line=dict(color='#1E88E5', width=2),
-                        fillcolor='rgba(30,136,229,0.2)'
-                    ))
-                    fig.update_layout(
-                        xaxis_title=x_col, yaxis_title=y_col,
-                        template='plotly_white', height=420,
-                        margin=dict(l=60, r=20, t=20, b=40)
-                    )
+                    fig = go.Figure(go.Scatter(x=df[x_col], y=df[y_col], mode='lines', fill='tozeroy',
+                        line=dict(color='#60a5fa', width=2), fillcolor='rgba(96,165,250,0.2)'))
+                    fig.update_layout(xaxis_title=x_col, yaxis_title=y_col,
+                        template='plotly_dark', height=420, margin=dict(l=60, r=20, t=20, b=40),
+                        paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)',
+                        font=dict(color='rgba(255,255,255,0.8)'))
                     st.plotly_chart(fig, use_container_width=True)
-
-                else:  # 热力图
+                else:
                     numeric_df = df[numeric_cols].head(30)
-                    fig = go.Figure(data=go.Heatmap(
-                        z=numeric_df.values,
-                        x=numeric_df.columns,
-                        y=numeric_df.index,
-                        colorscale='Blues'
-                    ))
-                    fig.update_layout(height=420, margin=dict(l=60, r=20, t=20, b=40))
+                    fig = go.Figure(data=go.Heatmap(z=numeric_df.values, x=numeric_df.columns, y=numeric_df.index,
+                        colorscale='Blues'))
+                    fig.update_layout(height=420, margin=dict(l=60, r=20, t=20, b=40),
+                        template='plotly_dark', paper_bgcolor='rgba(0,0,0,0)',
+                        font=dict(color='rgba(255,255,255,0.8)'))
                     st.plotly_chart(fig, use_container_width=True)
             else:
                 st.info("未检测到数值列，请上传包含数值数据的 CSV 文件。")
-
         except Exception as e:
             st.error(f"❌ 加载文件失败: {e}")
     else:
-        st.info("请上传一个 CSV 文件开始分析。推荐格式：带表头的 UTF-8 编码 CSV")
+        st.info("请上传一个 CSV 文件开始分析。")
         with st.expander("📝 CSV 模板示例"):
             st.code("年份,海冰面积,平均气温,航道事件数\n2020,10.5,1.2,125\n2021,9.8,1.5,138\n2022,9.2,1.8,152", language="csv")
     st.markdown('</div>', unsafe_allow_html=True)
 
 
 with tab3:
-    st.markdown('<div class="content-card">', unsafe_allow_html=True)
+    st.markdown('<div class="dk-card">', unsafe_allow_html=True)
     st.markdown('<h3>🔍 时空查询工具</h3>', unsafe_allow_html=True)
-    st.markdown("在海冰和 GDELT 数据中按时间和空间条件进行筛选查询。", unsafe_allow_html=False)
 
-    # 海冰查询
-    st.markdown("#### 🧊 海冰面积查询")
     ice_df, ice_summary, _ = load_ice_data()
 
+    st.markdown("#### 🧊 海冰面积查询")
     q_cols = st.columns(3)
     with q_cols[0]:
         query_year = st.number_input("查询年份", min_value=1979, max_value=2024, value=2020, key="q_yr")
@@ -306,21 +248,22 @@ with tab3:
                 if yr in ice_summary.index:
                     comp_data.append({'年份': yr, '年均面积': ice_summary.loc[yr, 'mean']})
             comp_df = pd.DataFrame(comp_data)
-
             import plotly.graph_objects as go
             fig_comp = go.Figure(go.Bar(
                 x=comp_df['年份'], y=comp_df['年均面积'],
-                marker_color=['#E53935' if yr == query_year else '#1E88E5' for yr in comp_df['年份']],
+                marker_color=['#ef4444' if yr == query_year else '#60a5fa' for yr in comp_df['年份']],
                 hovertemplate='%{x}年: %{y:.2f} M km²<extra></extra>'
             ))
             fig_comp.update_layout(
                 xaxis_title='年份', yaxis_title='年均海冰面积 (M km²)',
-                template='plotly_white', height=300,
-                margin=dict(l=60, r=20, t=20, b=40)
+                template='plotly_dark', height=300, margin=dict(l=60, r=20, t=20, b=40),
+                paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)',
+                font=dict(color='rgba(255,255,255,0.8)'),
+                xaxis=dict(gridcolor='rgba(255,255,255,0.06)', tickfont_color='rgba(255,255,255,0.6)'),
+                yaxis=dict(gridcolor='rgba(255,255,255,0.06)', tickfont_color='rgba(255,255,255,0.6)'),
             )
             st.plotly_chart(fig_comp, use_container_width=True)
 
-    # GDELT 查询
     st.markdown("#### 🌍 GDELT 事件查询")
     grid_df, yc_df = load_gdelt_data()
 
@@ -360,9 +303,8 @@ with tab3:
 
 
 with tab4:
-    st.markdown('<div class="content-card">', unsafe_allow_html=True)
+    st.markdown('<div class="dk-card">', unsafe_allow_html=True)
     st.markdown('<h3>📊 多源数据对比分析</h3>', unsafe_allow_html=True)
-    st.markdown("在同一图表中对比多个数据源的时间演变趋势。数据自动归一化到 0-100 范围，便于直观对比不同量纲的指标。", unsafe_allow_html=False)
 
     compare_options = st.multiselect(
         "选择要对比的指标",
@@ -379,8 +321,7 @@ with tab4:
         compare_data = {'year': years}
 
         if "海冰年均面积" in compare_options:
-            ice_vals = [ice_summary.loc[y, 'mean'] if y in ice_summary.index else None for y in years]
-            compare_data['海冰面积'] = ice_vals
+            compare_data['海冰面积'] = [ice_summary.loc[y, 'mean'] if y in ice_summary.index else None for y in years]
 
         if "GDELT事件总数" in compare_options:
             gdelt_yearly = yc_df.groupby('year')['EventCount'].sum() if not yc_df.empty else pd.Series()
@@ -388,9 +329,8 @@ with tab4:
 
         if "航道通航潜力" in compare_options:
             ice_df, _, _ = load_ice_data()
-            potential = [(15 - min(ice_df.loc[y, 'sep'], 15)) / 10 * 100
+            compare_data['通航潜力'] = [(15 - min(ice_df.loc[y, 'sep'], 15)) / 10 * 100
                         if y in ice_df.index else None for y in years]
-            compare_data['通航潜力'] = potential
 
         if "专利申请量" in compare_options:
             pat_yearly = patent_df.groupby('year')['patent_count'].sum()
@@ -411,7 +351,7 @@ with tab4:
 
         import plotly.graph_objects as go
         fig_compare = go.Figure()
-        colors = ['#1E88E5', '#E53935', '#43A047', '#FF6B35', '#7B1FA2', '#FFA726']
+        colors = ['#60a5fa', '#ef4444', '#4ade80', '#fb923c', '#c084fc', '#fbbf24']
         for i, col in enumerate([c for c in norm_df.columns if c != 'year']):
             fig_compare.add_trace(go.Scatter(
                 x=norm_df['year'], y=norm_df[col],
@@ -423,18 +363,18 @@ with tab4:
 
         fig_compare.update_layout(
             xaxis_title='年份', yaxis_title='归一化指数 (0-100)',
-            template='plotly_white', hovermode='x unified',
+            template='plotly_dark', hovermode='x unified',
             legend=dict(orientation='h', yanchor='bottom', y=1.02, xanchor='right', x=1),
-            height=420, margin=dict(l=60, r=20, t=20, b=40)
+            height=420, margin=dict(l=60, r=20, t=20, b=40),
+            paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)',
+            font=dict(color='rgba(255,255,255,0.8)'),
+            xaxis=dict(gridcolor='rgba(255,255,255,0.06)', tickfont_color='rgba(255,255,255,0.6)'),
+            yaxis=dict(gridcolor='rgba(255,255,255,0.06)', tickfont_color='rgba(255,255,255,0.6)'),
         )
         st.plotly_chart(fig_compare, use_container_width=True)
 
-        st.markdown("""
-        **解读：** 归一化后的指数使不同量纲的数据可以在同一图表中直观比较。
-        当两条曲线的趋势一致时，说明两者存在关联关系。
-        """, unsafe_allow_html=False)
+        st.markdown("**解读：** 归一化后的指数使不同量纲的数据可以在同一图表中直观比较。当两条曲线的趋势一致时，说明两者存在关联关系。")
 
-        # 相关性
         numeric_cols = [c for c in comp_df.columns if c != 'year']
         if len(numeric_cols) >= 2:
             corr = comp_df[numeric_cols].corr()
@@ -446,7 +386,11 @@ with tab4:
                 texttemplate='%{text}', textfont=dict(color='white', size=14),
                 hovertemplate='%{x} vs %{y}: %{z:.3f}<extra></extra>'
             ))
-            fig_corr.update_layout(height=380, margin=dict(l=120, r=20, t=20, b=40))
+            fig_corr.update_layout(
+                height=380, margin=dict(l=120, r=20, t=20, b=40),
+                template='plotly_dark', paper_bgcolor='rgba(0,0,0,0)',
+                font=dict(color='rgba(255,255,255,0.8)')
+            )
             st.plotly_chart(fig_corr, use_container_width=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
