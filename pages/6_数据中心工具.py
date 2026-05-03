@@ -1,6 +1,7 @@
 """
 模块6：数据中心与工具模块
 数据集下载、上传数据可视化、时空查询与对比分析
+增强版：更丰富的可视化类型、Excel支持、多源对比
 """
 
 import streamlit as st
@@ -9,7 +10,7 @@ import numpy as np
 import sys, os
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-from src.data_core import load_ice_data, load_gdelt_data, load_patent_data, load_risk_data
+from src.data_core import load_ice_data, load_gdelt_data, load_patent_data, load_risk_data, get_downloadable_datasets
 
 st.set_page_config(page_title="数据中心", page_icon="🗄️", layout="wide")
 
@@ -17,10 +18,18 @@ st.markdown("""
 <style>
     .page-header { background: linear-gradient(135deg, #00695C 0%, #00897B 100%);
         padding: 1.2rem 1.5rem; border-radius: 0 0 14px 14px; margin-bottom: 1.5rem; }
-    .page-header h1 { color: white; font-size: 1.5rem; font-weight: 700; margin: 0; }
-    .page-header p { color: rgba(255,255,255,0.85); font-size: 0.85rem; margin: 0.3rem 0 0 0; }
+    .page-header h1 { color: white !important; font-size: 1.5rem; font-weight: 700; margin: 0; }
+    .page-header p { color: rgba(255,255,255,0.85) !important; font-size: 0.85rem; margin: 0.3rem 0 0 0; }
     .download-card { background:white;border-radius:12px;padding:1rem;
                     box-shadow:0 2px 8px rgba(0,0,0,0.06);margin:0.3rem 0; }
+    /* 确保主内容区白色背景，文字深色 */
+    section[data-testid="stMain"] > div { background: white !important; }
+    section[data-testid="stMain"] p,
+    section[data-testid="stMain"] h1, section[data-testid="stMain"] h2,
+    section[data-testid="stMain"] h3, section[data-testid="stMain"] h4,
+    section[data-testid="stMain"] li, section[data-testid="stMain"] span { color: #1a1a2e !important; }
+    .stMarkdown p, .stMarkdown li { color: #1a1a2e !important; }
+    .stTabs [data-baseweb="tab"] { color: #333 !important; }
 </style>
 <div class="page-header">
     <h1>🗄️ 数据中心与工具模块</h1>
@@ -41,72 +50,7 @@ with tab1:
     可直接用于学术研究和二次分析。
     """)
 
-    # 数据集列表
-    datasets = [
-        {
-            "name": "北极海冰面积数据集",
-            "desc": "NSIDC格式，1979-2024逐月海冰面积范围数据",
-            "file": "ice_area_monthly.csv",
-            "rows": "~540条",
-            "format": "CSV",
-            "size": "~15KB",
-            "source": "NSIDC Sea Ice Index (模拟数据)"
-        },
-        {
-            "name": "北极海冰年度汇总",
-            "desc": "年均值、年最大、年最小值，1979-2024",
-            "file": "ice_area_summary.csv",
-            "rows": "46条",
-            "format": "CSV",
-            "size": "~2KB",
-            "source": "NSIDC 汇总"
-        },
-        {
-            "name": "GDELT北极事件网格聚合",
-            "desc": "按5°×5°网格聚合，含事件类型和情感值",
-            "file": "gdelt_arctic_by_grid.csv",
-            "rows": "动态",
-            "format": "CSV",
-            "size": "动态",
-            "source": "GDELT 全球事件数据库"
-        },
-        {
-            "name": "GDELT年度国家聚合",
-            "desc": "按年度和国家聚合的事件统计和情感分析",
-            "file": "gdelt_arctic_by_year_country.csv",
-            "rows": "动态",
-            "format": "CSV",
-            "size": "动态",
-            "source": "GDELT 汇总"
-        },
-        {
-            "name": "极地科考站分布",
-            "desc": "各国在北极的科考站位置和研究领域",
-            "file": "research_stations.geojson",
-            "rows": "~20个站点",
-            "format": "GeoJSON",
-            "size": "~8KB",
-            "source": "INTERACT / 手工整理"
-        },
-        {
-            "name": "北极战略航道数据",
-            "desc": "三大航道地理轨迹和通航信息",
-            "file": "arctic_routes.geojson",
-            "rows": "3条",
-            "format": "GeoJSON",
-            "size": "~4KB",
-            "source": "手工整理"
-        },
-        {
-            "name": "北极地缘冲突事件",
-            "desc": "按类别和年份整理的北极地缘政治事件",
-            "file": "conflicts.geojson",
-            "rows": "动态",
-            "format": "GeoJSON",
-            "size": "动态",
-            "source": "手工整理"
-        },
-    ]
+    datasets = get_downloadable_datasets()
 
     for ds in datasets:
         col_info, col_dl = st.columns([4, 1])
@@ -189,8 +133,7 @@ with tab2:
             all_cols = df.columns.tolist()
 
             if numeric_cols:
-                chart_type = st.selectbox("图表类型", ["折线图", "柱状图", "散点图", "热力图"])
-
+                chart_type = st.selectbox("图表类型", ["折线图", "柱状图", "散点图", "热力图", "面积图"])
                 viz_cols = st.columns(2)
                 with viz_cols[0]:
                     x_col = st.selectbox("X轴（列）", all_cols, index=0)
@@ -229,9 +172,8 @@ with tab2:
 
                 elif chart_type == "散点图":
                     color_col = st.selectbox("颜色分组（可选）", [None] + all_cols)
-                    fig = px.scatter if color_col else go.Figure(go.Scatter)
-                    import plotly.express as px
                     if color_col:
+                        import plotly.express as px
                         fig = px.scatter(df, x=x_col, y=y_col, color=color_col)
                     else:
                         fig = go.Figure(go.Scatter(
@@ -242,8 +184,22 @@ with tab2:
                                     margin=dict(l=60, r=20, t=20, b=40))
                     st.plotly_chart(fig, use_container_width=True)
 
+                elif chart_type == "面积图":
+                    fig = go.Figure(go.Scatter(
+                        x=df[x_col], y=df[y_col],
+                        mode='lines', fill='tozeroy',
+                        line=dict(color='#1E88E5', width=2),
+                        fillcolor='rgba(30,136,229,0.2)'
+                    ))
+                    fig.update_layout(
+                        xaxis_title=x_col, yaxis_title=y_col,
+                        template='plotly_white', height=400,
+                        margin=dict(l=60, r=20, t=20, b=40)
+                    )
+                    st.plotly_chart(fig, use_container_width=True)
+
                 else:  # 热力图
-                    numeric_df = df[numeric_cols].head(20)
+                    numeric_df = df[numeric_cols].head(30)
                     fig = go.Figure(data=go.Heatmap(
                         z=numeric_df.values,
                         x=numeric_df.columns,
@@ -261,14 +217,8 @@ with tab2:
     else:
         st.info("请上传一个 CSV 文件开始分析。推荐格式：带表头的 UTF-8 编码 CSV")
 
-        # 示例模板
         with st.expander("📝 CSV 模板示例"):
-            st.code("""年份,海冰面积,平均气温,航道事件数
-2020,10.5,1.2,125
-2021,9.8,1.5,138
-2022,9.2,1.8,152
-2023,8.9,2.0,165
-2024,8.5,2.3,178""", language="csv")
+            st.code("""年份,海冰面积,平均气温,航道事件数\n2020,10.5,1.2,125\n2021,9.8,1.5,138\n2022,9.2,1.8,152\n2023,8.9,2.0,165\n2024,8.5,2.3,178""", language="csv")
 
 with tab3:
     st.markdown("### 🔍 时空查询工具")
@@ -280,12 +230,13 @@ with tab3:
 
     q_cols = st.columns(3)
     with q_cols[0]:
-        query_year = st.number_input("查询年份", min_value=1979, max_value=2024, value=2020)
+        query_year = st.number_input("查询年份", min_value=1979, max_value=2024, value=2020, key="q_yr")
     with q_cols[1]:
         query_month = st.selectbox("查询月份", ["全部"] + list(range(1, 13)),
-                                   format_func=lambda x: "全部" if x == "全部" else f"{x}月")
+                                   format_func=lambda x: "全部" if x == "全部" else f"{x}月",
+                                   key="q_mo")
     with q_cols[2]:
-        metric_type = st.selectbox("指标类型", ["年均值", "年最大", "年最小"])
+        metric_type = st.selectbox("指标类型", ["年均值", "年最大", "年最小"], key="q_mt")
 
     if query_year in ice_summary.index:
         yr_data = ice_summary.loc[query_year]
@@ -298,14 +249,17 @@ with tab3:
             st.metric("年最小", f"{yr_data['minimum']:.2f} M km²")
 
         if query_month != "全部":
-            if query_month in ice_df.columns:
-                val = ice_df.loc[query_year, ice_df.columns[query_month - 1]]
-                st.info(f"{query_year}年{query_month}月海冰面积: {val:.2f} M km²")
+            month_names = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec']
+            if query_month - 1 < len(month_names):
+                col_name = month_names[query_month - 1]
+                if col_name in ice_df.columns:
+                    val = ice_df.loc[query_year, col_name]
+                    st.info(f"{query_year}年{query_month}月海冰面积: **{val:.2f} M km²**")
 
         # 时间范围对比
         st.markdown("#### 📊 与历史平均对比")
         compare_years = st.multiselect("对比年份", list(range(1979, 2025)),
-                                       default=[query_year, 1990, 2000, 2010])
+                                      default=[query_year, 1990, 2000, 2010], key="comp_yr")
         if compare_years:
             comp_data = []
             for yr in compare_years:
@@ -334,14 +288,20 @@ with tab3:
     with q2_cols[0]:
         q2_year = st.number_input("查询年份", min_value=2018, max_value=2024, value=2023, key="q2y")
     with q2_cols[1]:
-        q2_country = st.selectbox("国家/地区",
-                                  ["全部"] + sorted(yc_df['CountryCode'].unique().tolist()) if not yc_df.empty else ["全部"],
-                                  format_func=lambda x: "全部" if x == "全部" else f"{x}")
+        country_options = ["全部"] + (sorted(yc_df['CountryCode'].unique().tolist()) if not yc_df.empty else [])
+        q2_country = st.selectbox("国家/地区", country_options,
+                                 format_func=lambda x: x if x == "全部" else COUNTRY_NAMES.get(x, x),
+                                 key="q2c")
+    with q2_cols[2]:
+        cat_options = ["全部"] + (list(yc_df['EventCategory'].unique()) if 'EventCategory' in yc_df.columns else [])
+        q2_cat = st.selectbox("事件类型", cat_options, key="q2cat")
 
     if not yc_df.empty:
         q2_data = yc_df[yc_df['year'] == q2_year]
         if q2_country != "全部":
             q2_data = q2_data[q2_data['CountryCode'] == q2_country]
+        if q2_cat != "全部" and 'EventCategory' in q2_data.columns:
+            q2_data = q2_data[q2_data['EventCategory'] == q2_cat]
 
         if not q2_data.empty:
             total_events = q2_data['EventCount'].sum()
@@ -353,7 +313,7 @@ with tab3:
                 st.metric(f"平均情感值", f"{avg_tone:.2f}",
                          delta="偏正面" if avg_tone > 0 else "偏负面")
         else:
-            st.info(f"{q2_year}年{'在 ' + q2_country + ' 地区' if q2_country != '全部' else ''}暂无数据")
+            st.info(f"{q2_year}年在{' ' + q2_country if q2_country != '全部' else ''}暂无数据")
     else:
         st.info("GDELT 数据加载中...")
 
@@ -365,18 +325,17 @@ with tab4:
     数据自动归一化到 0-100 范围，便于直观对比不同量纲的指标。
     """)
 
-    # 选择要对比的指标
     compare_options = st.multiselect(
         "选择要对比的指标",
-        ["海冰年均面积", "GDELT事件总数", "航道通航潜力"],
+        ["海冰年均面积", "GDELT事件总数", "航道通航潜力", "专利申请量"],
         default=["海冰年均面积", "GDELT事件总数"]
     )
 
     if compare_options:
         _, ice_summary, _ = load_ice_data()
         _, yc_df = load_gdelt_data()
+        patent_df = load_patent_data()
 
-        # 构建对比数据
         years = list(range(2018, 2025))
         compare_data = {'year': years}
 
@@ -386,14 +345,17 @@ with tab4:
 
         if "GDELT事件总数" in compare_options:
             gdelt_yearly = yc_df.groupby('year')['EventCount'].sum() if not yc_df.empty else pd.Series()
-            gdelt_vals = [gdelt_yearly.get(y, 0) for y in years]
-            compare_data['GDELT事件'] = gdelt_vals
+            compare_data['GDELT事件'] = [gdelt_yearly.get(y, 0) for y in years]
 
         if "航道通航潜力" in compare_options:
             ice_df, _, _ = load_ice_data()
             potential = [(15 - min(ice_df.loc[y, 'sep'], 15)) / 10 * 100
                         if y in ice_df.index else None for y in years]
             compare_data['通航潜力'] = potential
+
+        if "专利申请量" in compare_options:
+            pat_yearly = patent_df.groupby('year')['patent_count'].sum()
+            compare_data['专利申请'] = [pat_yearly.get(y, 0) for y in years]
 
         comp_df = pd.DataFrame(compare_data)
 
@@ -410,7 +372,7 @@ with tab4:
 
         import plotly.graph_objects as go
         fig_compare = go.Figure()
-        colors = ['#1E88E5', '#E53935', '#43A047', '#FF6B35', '#7B1FA2']
+        colors = ['#1E88E5', '#E53935', '#43A047', '#FF6B35', '#7B1FA2', '#FFA726']
         for i, col in enumerate([c for c in norm_df.columns if c != 'year']):
             fig_compare.add_trace(go.Scatter(
                 x=norm_df['year'], y=norm_df[col],
@@ -434,8 +396,8 @@ with tab4:
         """)
 
         # 相关性
-        if len([c for c in comp_df.columns if c != 'year']) >= 2:
-            numeric_cols = [c for c in comp_df.columns if c != 'year']
+        numeric_cols = [c for c in comp_df.columns if c != 'year']
+        if len(numeric_cols) >= 2:
             corr = comp_df[numeric_cols].corr()
             st.markdown("#### 🔗 相关性矩阵")
             import plotly.graph_objects as go
@@ -446,7 +408,7 @@ with tab4:
                 texttemplate='%{text}', textfont=dict(color='white', size=14),
                 hovertemplate='%{x} vs %{y}: %{z:.3f}<extra></extra>'
             ))
-            fig_corr.update_layout(height=300, margin=dict(l=100, r=20, t=20, b=40))
+            fig_corr.update_layout(height=350, margin=dict(l=120, r=20, t=20, b=40))
             st.plotly_chart(fig_corr, use_container_width=True)
 
 st.divider()
