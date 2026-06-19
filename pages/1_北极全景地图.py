@@ -9,7 +9,7 @@ import pandas as pd
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 from src.data_core import load_stations, load_gdelt_data, load_geopolitics_network
-from src.viz import ARCTIC_THEME, COUNTRY_NAMES, COUNTRY_COLORS, create_3d_globe_annotate
+from src.viz import ARCTIC_THEME, COUNTRY_NAMES, COUNTRY_COLORS, create_3d_globe_annotate, create_network_graph
 
 st.set_page_config(
     page_title="北极全景地图",
@@ -59,6 +59,17 @@ st.markdown("""
     section[data-testid="stMain"] td,
     section[data-testid="stMain"] th { color: var(--text) !important; }
     .stMarkdown p, .stMarkdown li { color: var(--text2) !important; }
+    /* === 侧边栏深色 === */
+    section[data-testid="stSidebar"] {
+        background: linear-gradient(180deg, #060912 0%, #0a0e1a 50%, #0f1729 100%) !important;
+        border-right: 1px solid rgba(255,255,255,0.06) !important;
+    }
+    section[data-testid="stSidebar"] * { color: rgba(255,255,255,0.85) !important; }
+    section[data-testid="stSidebar"] hr { border-color: rgba(255,255,255,0.08) !important; }
+    /* === Streamlit组件深色覆盖 === */
+    [data-testid="stDataFrame"] { background: var(--bg-card) !important; }
+    .stDataFrame > div { background: var(--bg-card) !important; }
+    .stDataFrame table { color: var(--text) !important; }
     /* Tabs */
     .stTabs [data-baseweb="tab-list"] { background: transparent !important; gap: 4px; }
     .stTabs [data-baseweb="tab"] {
@@ -623,68 +634,20 @@ with tab5:
 
     net_data_p = load_geopolitics_network(period_net[0])
 
-    import plotly.graph_objects as go
-    import numpy as np
-
-    nodes = net_data_p.get('nodes', [])
-    links = net_data_p.get('links', [])
-    n = len(nodes)
-
-    if n > 0:
-        angles = {nodes[i]['id']: 2 * np.pi * i / n for i in range(n)}
-        r = 2.2
-
-        rel_colors = {
-            'cooperation': '#22c55e',
-            'competition': '#f97316',
-            'confrontation': '#ef4444',
-        }
-
-        fig_net = go.Figure()
-        for link in links:
-            if link['source'] in angles and link['target'] in angles:
-                lx = [r * np.cos(angles[link['source']]), r * np.cos(angles[link['target']])]
-                ly = [r * np.sin(angles[link['source']]), r * np.sin(angles[link['target']])]
-                fig_net.add_trace(go.Scatter(
-                    x=lx, y=ly, mode='lines',
-                    line=dict(width=link.get('strength', 1) / 8,
-                             color=rel_colors.get(link.get('relation', 'competition'), '#6b7280')),
-                    hoverinfo='text',
-                    text=f"{link['source']} — {link['target']}: {link.get('relation', 'unknown')}",
-                    showlegend=False
-                ))
-
-        node_x = [r * np.cos(angles[n['id']]) for n in nodes]
-        node_y = [r * np.sin(angles[n['id']]) for n in nodes]
-        node_colors = [COUNTRY_COLORS.get(n.get('country', ''), '#6b7280') for n in nodes]
-        node_sizes = [26 if n.get('type') == 'research' else 16 for n in nodes]
-
-        fig_net.add_trace(go.Scatter(
-            x=node_x, y=node_y,
-            mode='markers+text',
-            marker=dict(size=node_sizes, color=node_colors, line=dict(width=2.5, color='white')),
-            text=[n.get('name', n['id']) for n in nodes],
-            textposition='top center', textfont=dict(size=9, color='white'),
-            hovertemplate='%{text}<extra></extra>',
-            showlegend=False
-        ))
-
-        fig_net.update_layout(
-            margin=dict(l=20, r=20, t=20, b=20), height=520,
-            xaxis=dict(visible=False, range=[-3.5, 3.5]),
-            yaxis=dict(visible=False, range=[-3.5, 3.5]),
-            plot_bgcolor='rgba(0,0,0,0)',
-            paper_bgcolor='#0f1729',
-        )
+    if net_data_p.get('nodes'):
+        # 使用Premium网络图
+        fig_net = create_network_graph(net_data_p, height=560)
         st.plotly_chart(fig_net, use_container_width=True)
 
         # 关系统计
+        links = net_data_p.get('links', [])
         rel_stats = {}
         for link in links:
             r = link.get('relation', 'unknown')
             rel_stats[r] = rel_stats.get(r, 0) + 1
 
-        rel_cn = {'cooperation': '🤝 合作', 'competition': '⚔️ 竞争', 'confrontation': '🚨 对抗'}
+        rel_colors = {'cooperation': '#22c55e', 'competition': '#f97316', 'confrontation': '#ef4444'}
+        rel_cn = {'cooperation': '合作', 'competition': '竞争', 'confrontation': '对抗'}
         rc_stat_cols = st.columns(3)
         for i, (rel, color) in enumerate(rel_colors.items()):
             with rc_stat_cols[i]:

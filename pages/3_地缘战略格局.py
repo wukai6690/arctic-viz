@@ -9,7 +9,10 @@ import numpy as np
 import sys, os, json
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-from src.data_core import load_gdelt_data, load_stations, load_geopolitics_network, load_policy_texts
+from src.data_core import (
+    load_gdelt_data, load_stations, load_geopolitics_network, load_policy_texts,
+    compute_lda_topics, extract_entities, compute_textrank_summary,
+)
 from src.viz import COUNTRY_NAMES, COUNTRY_COLORS, CATEGORY_COLORS, CAT_LABELS, create_network_graph, create_word_freq_chart, create_sentiment_chart
 
 st.set_page_config(page_title="地缘战略格局", page_icon="🏛️", layout="wide")
@@ -75,6 +78,11 @@ policy_texts = load_policy_texts()
 total_stations = len(stations_data.get('features', []))
 total_events = int(yc_df['EventCount'].sum()) if not yc_df.empty else 0
 avg_tone = yc_df['AvgTone'].mean() if not yc_df.empty else 0
+# 检测数据来源
+data_source = "GDELT 真实数据" if 'SQLDATE' in (grid_df.columns if hasattr(grid_df, 'columns') else []) else "模拟数据"
+# 获取年份范围
+year_min = int(yc_df['year'].min()) if not yc_df.empty else 2018
+year_max = int(yc_df['year'].max()) if not yc_df.empty else 2024
 country_counts = {}
 for feat in stations_data.get('features', []):
     c = feat.get('properties', {}).get('country', '未知')
@@ -88,9 +96,9 @@ kpi_html = f"""
         <div class="kpi-sub">大北极研究网络</div>
     </div>
     <div class="kpi-box">
-        <div class="kpi-label">📊 GDELT事件</div>
+        <div class="kpi-label">📊 GDELT真实事件</div>
         <div class="kpi-val" style="color:#ef4444">{total_events:,}</div>
-        <div class="kpi-sub">2018-2024累计</div>
+        <div class="kpi-sub">{year_min}-{year_max} 采样统计 (来源: data.gdeltproject.org)</div>
     </div>
     <div class="kpi-box">
         <div class="kpi-label">🌐 涉及国家</div>
@@ -198,32 +206,100 @@ with tab2:
 
 with tab3:
     st.markdown('<div class="dk-card">', unsafe_allow_html=True)
-    st.markdown('<h3>📝 各国北极政策文本分析</h3>', unsafe_allow_html=True)
+    st.markdown('<h3>📝 各国北极政策文本分析 (NLP增强版)</h3>', unsafe_allow_html=True)
 
     import plotly.graph_objects as go
 
-    if policy_texts:
-        policy_country = st.selectbox("选择国家", list(policy_texts.keys()),
-                                    format_func=lambda x: COUNTRY_NAMES.get(x, x))
+    if not policy_texts:
+        st.info("政策文本数据加载中...")
+    else:
+        # --- 国家选择 + 详情 ---
+        policy_country = st.selectbox(
+            "选择国家", list(policy_texts.keys()),
+            format_func=lambda x: COUNTRY_NAMES.get(x, x),
+            key="nlp_country_select")
         if policy_country in policy_texts:
             text_data = policy_texts[policy_country]
+
+            # 自动摘要
+            full_text = text_data.get('full_text', text_data.get('text', ''))
+            auto_summary = compute_textrank_summary(full_text)
+            sentiment_label = f"{text_data.get('sentiment', 0):+.1f}"
+            sentiment_color = '#4ade80' if text_data.get('sentiment', 0) > 0 else '#f87171'
+            auto_badge = " (SnowNLP自动计算)" if text_data.get('sentiment_auto') else " (预设值)"
+
             st.markdown(f"""
             <div style="background:var(--card);border-radius:12px;padding:1rem;border-left:4px solid {COUNTRY_COLORS.get(policy_country, '#6b7280')};margin-bottom:1rem;">
-                <div style="font-weight:700;color:var(--text);margin-bottom:0.4rem;">{COUNTRY_NAMES.get(policy_country, policy_country)} · {text_data.get('year', 'N/A')}年</div>
-                <div style="font-size:0.8rem;color:var(--text3);margin-bottom:0.5rem;">{text_data.get('summary', '')}</div>
-                <div style="font-size:0.78rem;color:var(--text2);font-style:italic;line-height:1.6;">「{text_data.get('text', '')[:200]}...」</div>
+                <div style="font-weight:700;color:var(--text);margin-bottom:0.4rem;">
+                    {COUNTRY_NAMES.get(policy_country, policy_country)}
+                    <span style="color:{sentiment_color};margin-left:1rem;">情感值: {sentiment_label}</span>
+                    <span style="font-size:0.65rem;color:var(--text3);">{auto_badge}</span>
+                </div>
+                <div style="font-size:0.8rem;color:var(--text2);line-height:1.7;margin-bottom:0.5rem;">
+                    <b>AI摘要 (TextRank):</b> {auto_summary}
+                </div>
+                <div style="font-size:0.75rem;color:var(--text3);">
+                    原文: {full_text[:150]}...
+                </div>
             </div>
             """, unsafe_allow_html=True)
 
+            # --- 命名实体识别 ---
+            entities = extract_entities(full_text)
+            if entities:
+                ent_html = '<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:1rem;">'
+                for etype, ents in entities.items():
+                    for ent in ents:
+                        color_map_ent = {'国家': '#f87171', '机构': '#60a5fa', '技术': '#c084fc',
+                                        '地名': '#4ade80', '政策概念': '#fb923c'}
+                        c = color_map_ent.get(etype, '#9ca3af')
+                        ent_html += f'<span style="background:{c}22;color:{c};border:1px solid {c}44;border-radius:12px;padding:2px 10px;font-size:0.7rem;">{ent}</span>'
+                ent_html += '</div>'
+                st.markdown(ent_html, unsafe_allow_html=True)
+
+        # --- 词频图(带方法选择) ---
+        nlp_method = st.radio("关键词提取算法", ['tfidf', 'textrank'],
+                             format_func=lambda x: 'TF-IDF 关键词' if x == 'tfidf' else 'TextRank 关键词',
+                             horizontal=True, key="nlp_method")
+
         col_wf, col_se = st.columns(2)
         with col_wf:
-            fig_wf = create_word_freq_chart(policy_texts, height=400)
+            fig_wf = create_word_freq_chart(policy_texts, height=420, method=nlp_method)
             st.plotly_chart(fig_wf, use_container_width=True)
         with col_se:
-            fig_se = create_sentiment_chart(policy_texts, height=400)
+            fig_se = create_sentiment_chart(policy_texts, height=420)
             st.plotly_chart(fig_se, use_container_width=True)
-    else:
-        st.info("政策文本数据加载中...")
+
+        # --- LDA 主题建模 ---
+        st.markdown("#### 🔬 LDA 主题建模分析")
+        lda_result = compute_lda_topics(policy_texts, num_topics=4)
+        if lda_result:
+            topic_words = lda_result['topic_words']
+            country_topics = lda_result['country_topics']
+
+            # 主题词展示
+            topic_cols = st.columns(len(topic_words))
+            for i, (col, words) in enumerate(zip(topic_cols, topic_words)):
+                with col:
+                    word_display = ' · '.join([f"{w}" for w, _ in words[:5]])
+                    st.markdown(f"""
+                    <div style="background:var(--card);border-radius:10px;padding:0.8rem;text-align:center;border-top:3px solid {['#60a5fa','#f87171','#4ade80','#c084fc'][i%4]};">
+                        <div style="font-size:0.7rem;color:var(--text3);margin-bottom:4px;">主题 {i+1}</div>
+                        <div style="font-size:0.75rem;color:var(--text2);line-height:1.5;">{word_display}</div>
+                    </div>
+                    """, unsafe_allow_html=True)
+
+            # 国家-主题分布表
+            st.markdown("**各国主题分布:**")
+            topic_data = []
+            for code, ct in country_topics.items():
+                row = {'国家': COUNTRY_NAMES.get(code, code)}
+                for t, w in ct['topic_dist'][:3]:
+                    row[f'主题{t+1}'] = f'{w:.1%}'
+                topic_data.append(row)
+            st.dataframe(pd.DataFrame(topic_data), use_container_width=True, hide_index=True)
+        else:
+            st.info("LDA主题建模需要更多数据 (当前文本量不足以训练)")
     st.markdown('</div>', unsafe_allow_html=True)
 
 

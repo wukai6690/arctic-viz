@@ -235,15 +235,30 @@ def create_3d_globe_annotate(stations_data=None, routes_data=None, events_data=N
             country = props.get('country', '未知')
             name = props.get('name', '未知')
             color = station_colors.get(country, '#757575')
+            research = ', '.join(props.get('research_focus', [])[:3])
+            tech = props.get('tech_domain', 'N/A')
             fig.add_trace(go.Scattergeo(
                 lon=[lon], lat=[lat],
                 mode='markers+text',
-                marker=dict(size=12, color=color, line=dict(width=1.5, color='white'), symbol='circle'),
+                marker=dict(
+                    size=14, color=color,
+                    line=dict(width=2, color='white'),
+                    symbol='circle',
+                ),
                 text=[name],
                 textposition='top center',
-                textfont=dict(size=8, color='#333333'),
-                hovertemplate=f'<b>{name}</b><br>国家: {country}<br>设立: {props.get("established", "N/A")}<extra></extra>',
-                name=f'科考站: {name}',
+                textfont=dict(size=9, color='white'),
+                hovertemplate=(
+                    f"<b style='font-size:15px;color:{color}'>{name}</b><br>"
+                    f"<b>国家:</b> {country}<br>"
+                    f"<b>设立:</b> {props.get('established', 'N/A')} 年<br>"
+                    f"<b>坐标:</b> {lat:.1f}N, {lon:.1f}E<br>"
+                    f"<b>技术:</b> {tech}<br>"
+                    f"<b>研究:</b> {research}<br>"
+                    f"<i>{props.get('description', '')}</i>"
+                    f"<extra></extra>"
+                ),
+                name=f'{name}',
                 showlegend=False
             ))
 
@@ -641,107 +656,158 @@ def create_forecast_chart(df_summary, cmip6_df, height=450):
 
 
 # =========================================================================
-# 地理网络图（增强版）
+# 网络关系图 (Premium版 — 弧形边 + 力导向布局 + 节点光环)
 # =========================================================================
 
-def create_network_graph(net_data, title="", height=480, style='circular'):
-    """创建地缘博弈关系网络图（增强版：支持多种布局）"""
+def create_network_graph(net_data, title="", height=520, style='force'):
+    """
+    创建地缘博弈关系网络图 (Premium版)
+    - force布局: 影响力分层 + 弧形曲线连接
+    - 节点发光光晕 + 渐变底色
+    - 不同关系类型带图例
+    """
     nodes = net_data['nodes']
     links = net_data['links']
-    edge_colors = {'cooperation': '#43A047', 'competition': '#FF6B35', 'confrontation': '#E53935'}
-    edge_dashes = {'cooperation': 'solid', 'competition': 'dash', 'confrontation': 'dot'}
+
+    edge_style = {
+        'cooperation':  {'color': '#22c55e', 'label': '合作'},
+        'competition':  {'color': '#f97316', 'label': '竞争'},
+        'confrontation': {'color': '#ef4444', 'label': '对抗'},
+    }
 
     fig = go.Figure()
 
-    # 计算节点位置
-    n = len(nodes)
-    if style == 'circular':
-        angles = {nodes[i]['id']: 2 * np.pi * i / n for i in range(n)}
-        r = 1.3
-        node_x = [r * np.cos(angles[n['id']]) for n in nodes]
-        node_y = [r * np.sin(angles[n['id']]) for n in nodes]
-    else:
-        # 力导向近似布局（按影响力分层）
-        node_x, node_y = [], []
-        influence_sorted = sorted(nodes, key=lambda x: x['influence'], reverse=True)
-        influence_groups = {}
-        for i, node in enumerate(influence_sorted):
-            tier = min(i // 5, 3)
-            influence_groups.setdefault(tier, []).append(node['id'])
-        tier_r = {0: 0.4, 1: 0.8, 2: 1.2, 3: 1.6}
-        for tier, ids in influence_groups.items():
-            n_tier = len(ids)
-            for j, nid in enumerate(ids):
-                angle = 2 * np.pi * j / n_tier
-                r_t = tier_r[tier]
-                node_x.append(r_t * np.cos(angle))
-                node_y.append(r_t * np.sin(angle))
-        node_pos = {nodes[i]['id']: (node_x[i], node_y[i]) for i in range(n)}
-        node_x = [node_pos[n['id']][0] for n in nodes]
-        node_y = [node_pos[n['id']][1] for n in nodes]
-
-    # 边
-    for link in links:
-        s, t = link['source'], link['target']
-        if style == 'circular':
-            if s in angles and t in angles:
-                x_s = r * np.cos(angles[s]); y_s = r * np.sin(angles[s])
-                x_t = r * np.cos(angles[t]); y_t = r * np.sin(angles[t])
-                fig.add_trace(go.Scatter(
-                    x=[x_s, x_t], y=[y_s, y_t],
-                    mode='lines',
-                    line=dict(
-                        color=edge_colors.get(link['relation'], '#757575'),
-                        width=link['strength'] / 18,
-                        dash=edge_dashes.get(link['relation'], 'solid')
-                    ),
-                    hoverinfo='text',
-                    text=f"{COUNTRY_NAMES.get(s, s)} → {COUNTRY_NAMES.get(t, t)}: "
-                         f"{link['relation']} ({link['strength']})",
-                    showlegend=False
-                ))
+    # ---- 力导向布局：按影响力分层 ----
+    # 内圈 = 高影响力 (>80), 中圈 = 中等 (50-80), 外圈 = 低 (<50)
+    node_pos = {}
+    tiers = {'inner': [], 'mid': [], 'outer': []}
+    for n in nodes:
+        inf = n.get('influence', 50)
+        if inf >= 80:
+            tiers['inner'].append(n)
+        elif inf >= 55:
+            tiers['mid'].append(n)
         else:
-            x_s, y_s = node_pos.get(s, (0, 0))
-            x_t, y_t = node_pos.get(t, (0, 0))
-            fig.add_trace(go.Scatter(
-                x=[x_s, x_t], y=[y_s, y_t],
-                mode='lines',
-                line=dict(
-                    color=edge_colors.get(link['relation'], '#757575'),
-                    width=link['strength'] / 18,
-                    dash=edge_dashes.get(link['relation'], 'solid')
-                ),
-                hoverinfo='text',
-                text=f"{COUNTRY_NAMES.get(s, s)} → {COUNTRY_NAMES.get(t, t)}: "
-                     f"{link['relation']} ({link['strength']})",
-                showlegend=False
-            ))
+            tiers['outer'].append(n)
 
-    # 节点
-    node_colors = [n['color'] for n in nodes]
-    node_text = [f"{COUNTRY_NAMES.get(n['id'], n['name'])}<br>影响力: {n['influence']}" for n in nodes]
-    node_sizes = [14 + n['influence'] / 12 for n in nodes]
+    tier_config = {
+        'inner': {'r': 0.7, 'angle_start': -0.4},
+        'mid':   {'r': 1.4, 'angle_start': 0.2},
+        'outer': {'r': 2.1, 'angle_start': -0.1},
+    }
 
-    fig.add_trace(go.Scatter(
-        x=node_x, y=node_y,
-        mode='markers+text',
-        marker=dict(size=node_sizes, color=node_colors, line=dict(width=1.5, color='white')),
-        text=[COUNTRY_NAMES.get(n['id'], n['name']) for n in nodes],
-        textposition='top center',
-        textfont=dict(size=9, color='rgba(255,255,255,0.9)'),
-        hovertemplate='%{text}<extra></extra>',
-        showlegend=False
-    ))
+    for tier_name, tier_nodes in tiers.items():
+        cfg = tier_config[tier_name]
+        nt = len(tier_nodes)
+        for j, node in enumerate(tier_nodes):
+            angle = cfg['angle_start'] + 2 * np.pi * j / max(nt, 1)
+            node_pos[node['id']] = (cfg['r'] * np.cos(angle), cfg['r'] * np.sin(angle))
 
-    rng = max(abs(max(node_x + node_x)), abs(max(node_y + node_y))) * 1.8
+    # ---- 边 (弧形贝塞尔曲线) ----
+    def bezier_mid(x1, y1, x2, y2, curvature=0.3):
+        mx, my = (x1 + x2) / 2, (y1 + y2) / 2
+        dx, dy = x2 - x1, y2 - y1
+        perp_x, perp_y = -dy, dx
+        length = math.sqrt(perp_x**2 + perp_y**2) or 1
+        cx = mx + perp_x / length * curvature * (abs(dx) + abs(dy)) / 2
+        cy = my + perp_y / length * curvature * (abs(dx) + abs(dy)) / 2
+        n_pts = 30
+        t = np.linspace(0, 1, n_pts)
+        bx = (1-t)**2 * x1 + 2*(1-t)*t * cx + t**2 * x2
+        by = (1-t)**2 * y1 + 2*(1-t)*t * cy + t**2 * y2
+        return bx, by
+
+    # 记录已添加的关系类型用于图例
+    legend_added = set()
+
+    for link in links:
+        s_id, t_id = link['source'], link['target']
+        if s_id not in node_pos or t_id not in node_pos:
+            continue
+        x1, y1 = node_pos[s_id]
+        x2, y2 = node_pos[t_id]
+        rel = link.get('relation', 'competition')
+        es = edge_style.get(rel, edge_style['competition'])
+        strength = link.get('strength', 50)
+
+        bx, by = bezier_mid(x1, y1, x2, y2, curvature=0.25)
+
+        show_legend = rel not in legend_added
+        legend_added.add(rel)
+
+        fig.add_trace(go.Scatter(
+            x=bx, y=by,
+            mode='lines',
+            line=dict(
+                color=es['color'], width=max(1.2, strength / 14),
+            ),
+            opacity=0.7,
+            hoverinfo='text',
+            text=f"{COUNTRY_NAMES.get(s_id, s_id)} → {COUNTRY_NAMES.get(t_id, t_id)}<br>{es['label']} | 强度: {strength}",
+            showlegend=show_legend,
+            name=f"{es['label']}关系",
+            legendgroup=rel,
+        ))
+
+    # ---- 节点 (发光光晕 + 主节点) ----
+    for node in nodes:
+        nid = node['id']
+        if nid not in node_pos:
+            continue
+        x, y = node_pos[nid]
+        name = COUNTRY_NAMES.get(nid, node.get('name', nid))
+        infl = node.get('influence', 50)
+        color = node.get('color', '#3b82f6')
+        r_size = 8 + infl / 8  # 节点半径
+
+        # 光晕 (大圆, 低透明度)
+        fig.add_trace(go.Scatter(
+            x=[x], y=[y],
+            mode='markers',
+            marker=dict(
+                size=r_size * 2.5, color=color,
+                opacity=0.12,
+                line=dict(width=0),
+            ),
+            hoverinfo='skip',
+            showlegend=False,
+        ))
+
+        # 主节点
+        fig.add_trace(go.Scatter(
+            x=[x], y=[y],
+            mode='markers+text',
+            marker=dict(
+                size=r_size, color=color,
+                line=dict(width=2.5, color='white'),
+                symbol='circle',
+            ),
+            text=[name],
+            textposition='middle right' if x >= 0 else 'middle left',
+            textfont=dict(size=10, color='rgba(255,255,255,0.9)', family='Arial'),
+            hovertemplate=f"<b>{name}</b><br>影响力指数: {infl}<extra></extra>",
+            showlegend=False,
+        ))
+
+    # ---- 布局 ----
+    all_x = [p[0] for p in node_pos.values()]
+    all_y = [p[1] for p in node_pos.values()]
+    rng = max(abs(x) for x in all_x + all_y) * 1.3
+
     fig.update_layout(
-        title=dict(text=title, x=0.5, font_size=13),
-        margin=dict(l=20, r=20, t=40, b=20),
+        title=dict(text=title, x=0.5, font=dict(size=14, color='white')),
+        margin=dict(l=10, r=10, t=50, b=10),
         height=height,
-        xaxis=dict(visible=False, range=[-rng, rng]),
-        yaxis=dict(visible=False, range=[-rng, rng]),
+        xaxis=dict(visible=False, range=[-rng, rng], fixedrange=True),
+        yaxis=dict(visible=False, range=[-rng, rng], fixedrange=True),
         plot_bgcolor='rgba(0,0,0,0)',
         paper_bgcolor='#0f1729',
+        legend=dict(
+            orientation='h', yanchor='bottom', y=1.02, xanchor='center', x=0.5,
+            font=dict(color='rgba(255,255,255,0.8)', size=11),
+            bgcolor='rgba(0,0,0,0)',
+        ),
+        dragmode=False,
     )
     return fig
 
@@ -750,57 +816,63 @@ def create_network_graph(net_data, title="", height=480, style='circular'):
 # 政策词频图
 # =========================================================================
 
-def create_word_freq_chart(policy_texts, height=400):
-    """用柱状图展示政策文本关键词词频（使用2字词/3字词分词，避免字符级错误）"""
-    # 中文停用词
+def create_word_freq_chart(policy_texts, height=400, method='tfidf'):
+    """政策文本关键词 — jieba分词 + TF-IDF/TextRank关键词提取"""
+    try:
+        import jieba
+        import jieba.analyse
+        jieba.setLogLevel(20)
+    except ImportError:
+        return _create_word_freq_chart_fallback(policy_texts, height)
+
+    arctic_terms = [
+        '北极航道', '东北航道', '西北航道', '冰上丝绸之路', '航行自由',
+        '破冰船', '核动力', '海冰融化', '科考站', '专属经济区',
+        '北极理事会', '主权声索', '军事部署', '环境保护', '可持续发展',
+        '航道管辖', '资源开发', '人类命运共同体', '利益攸关方',
+        '近北极国家', '极地卫星', '油气开采', '冻土工程', '气候模拟',
+        '遥感探测', '冰区船舶', '北方舰队', '安全威胁', '技术合作',
+        '北方海航道', '大陆架', '共同治理', '共建共享',
+    ]
+    for term in arctic_terms:
+        jieba.add_word(term)
+
     stopwords = {
-        '的', '和', '与', '在', '为', '了', '对', '及', '是', '等', '以', '或', '中', '北极',
-        '国', '家', '主', '权', '的', '和', '与', '一', '不', '在', '有', '个', '人', '这',
-        '上', '中', '大', '来', '为', '和', '国', '地', '到', '以', '于', '地', '上', '下',
-        '之', '年', '来', '能', '而', '则', '又', '可', '也', '被', '将', '其', '所', '及',
-        '从', '当', '会', '要', '对', '进行', '通过', '作为', '具有', '可以', '以及'
+        '的', '和', '与', '在', '为', '了', '对', '及', '是', '等', '以',
+        '或', '中', '一', '不', '有', '个', '人', '这', '上', '大', '来',
+        '地', '到', '于', '之', '年', '能', '而', '则', '又', '可', '也',
+        '被', '将', '其', '所', '从', '当', '会', '要', '进行', '通过',
+        '作为', '具有', '可以', '以及', '北极', '极地',
     }
-    all_words = []
+    all_data = []
     for code, data in policy_texts.items():
         text = data.get('text', '')
-        # 提取2-3字符的词组合（适合中文的简单分词）
-        for n in [2, 3]:
-            for i in range(len(text) - n + 1):
-                word = text[i:i+n]
-                if word not in stopwords and not any(c in '，。、；：？！""''（）【】《》·\n\r\t ' for c in word):
-                    all_words.append({'word': word, 'country': code, 'count': 1})
+        if not text:
+            continue
+        if method == 'tfidf':
+            keywords = jieba.analyse.extract_tags(text, topK=15, withWeight=True)
+        else:
+            keywords = jieba.analyse.textrank(text, topK=15, withWeight=True)
+        for word, weight in keywords:
+            if word not in stopwords and len(word) >= 2:
+                all_data.append({'word': word, 'country': code, 'weight': weight})
 
-    if not all_words:
-        return go.Figure()
+    if not all_data:
+        return _create_word_freq_chart_fallback(policy_texts, height)
 
-    word_df = pd.DataFrame(all_words)
-    # 取2字符词为主（更准确）
-    two_char = word_df[word_df['word'].str.len() == 2]
-    three_char = word_df[word_df['word'].str.len() == 3]
-    two_counts = two_char.groupby(['word', 'country']).size().reset_index(name='count')
-    three_counts = three_char.groupby(['word', 'country']).size().reset_index(name='count')
-    # 合并，取各自分组前12个
-    two_top = two_counts.sort_values('count', ascending=False).head(12)
-    three_top = three_counts.sort_values('count', ascending=False).head(8)
-    word_counts = pd.concat([two_top, three_top]).sort_values('count', ascending=False).head(25)
-
-    color_map = {k: COUNTRY_COLORS.get(k, '#757575') for k in word_counts['country'].unique()}
-    fig = px.bar(
-        word_counts, x='count', y='word',
-        color='country', orientation='h',
-        color_discrete_map=color_map,
-        title=''
-    )
+    word_df = pd.DataFrame(all_data)
+    word_df = word_df.sort_values('weight', ascending=False).drop_duplicates(
+        subset=['word', 'country']).head(30)
+    color_map = {k: COUNTRY_COLORS.get(k, '#757575') for k in word_df['country'].unique()}
+    fig = px.bar(word_df, x='weight', y='word', color='country',
+                 orientation='h', color_discrete_map=color_map, title='',
+                 hover_data={'weight': ':.3f'})
+    xlabel = 'TF-IDF 权重' if method == 'tfidf' else 'TextRank 权重'
     fig.update_layout(
-        height=height,
-        showlegend=True,
+        height=height, showlegend=True,
         legend=dict(orientation='h', yanchor='bottom', y=1.02, xanchor='center', x=0.5),
         margin=dict(l=120, r=20, t=20, b=40),
-        yaxis_title='',
-        xaxis_title='词频',
-        template='plotly_dark',
-        font=dict(size=11)
-    )
+        yaxis_title='', xaxis_title=xlabel, template='plotly_dark', font=dict(size=11))
     return fig
 
 

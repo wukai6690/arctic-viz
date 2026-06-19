@@ -5,7 +5,8 @@ __pycache__/
 .eggs/
 *.egg
 .pytest_cache/
-.streamlit/
+.streamlit/*
+!.streamlit/config.toml
 .DS_Store
 Thumbs.db
 ngrok-v3-stable-windows-amd64/

@@ -105,21 +105,89 @@ def load_cmip6_forecast():
 
 
 # =========================================================================
-# GDELT 数据
+# GDELT 数据 (真实数据优先, 模拟数据兜底)
 # =========================================================================
 
+# EventCode -> 事件类别映射 (GDELT CAMEO codes)
+_EVENTCODE_CATEGORY = {
+    # 冲突类 -> 军事
+    '14': 'arctic_military', '15': 'arctic_military', '16': 'arctic_military',
+    '17': 'arctic_military', '18': 'arctic_military', '19': 'arctic_military',
+    '20': 'arctic_military',
+    # 合作类 -> 合作
+    '02': 'arctic_cooperation', '03': 'arctic_cooperation', '04': 'arctic_cooperation',
+    '05': 'arctic_cooperation', '06': 'arctic_cooperation',
+    # 经济类 -> 资源/航运
+    '01': 'arctic_resource', '07': 'arctic_resource', '08': 'arctic_resource',
+    '09': 'arctic_shipping', '10': 'arctic_shipping', '11': 'arctic_shipping',
+    # 治理/科研
+    '12': 'arctic_governance', '13': 'arctic_research',
+}
+
+
+def _map_eventcode_to_category(code):
+    """将GDELT EventCode映射到北极事件类别"""
+    code_str = str(code) if pd.notna(code) else ''
+    if not code_str:
+        return 'arctic_general'
+    # 取前2位作为大类
+    prefix = code_str[:2]
+    return _EVENTCODE_CATEGORY.get(prefix, 'arctic_general')
+
+
 def load_gdelt_data():
-    """加载 GDELT 处理后的数据"""
+    """加载 GDELT 处理后的数据（真实数据优先）"""
     grid_path = os.path.join(DATA_DIR, 'gdelt_arctic_by_grid.csv')
     yc_path = os.path.join(DATA_DIR, 'gdelt_arctic_by_year_country.csv')
 
-    grid_df = pd.read_csv(grid_path) if os.path.exists(grid_path) else _generate_gdelt_grid()
+    # 检测是否为真实GDELT数据（有SQLDATE列 vs 模拟数据的lat_grid列）
+    if os.path.exists(grid_path):
+        raw = pd.read_csv(grid_path, low_memory=False)
+        if 'SQLDATE' in raw.columns:
+            # === 真实GDELT数据转换 ===
+            grid_df = _transform_real_gdelt_grid(raw)
+        elif 'lat_grid' in raw.columns:
+            grid_df = raw  # 已经是模拟格式
+        else:
+            grid_df = _generate_gdelt_grid()
+    else:
+        grid_df = _generate_gdelt_grid()
+
     yc_df = pd.read_csv(yc_path) if os.path.exists(yc_path) else _generate_gdelt_yc()
 
+    # 统一列名
     if 'Year_local' not in grid_df.columns and 'Year' in grid_df.columns:
         grid_df = grid_df.rename(columns={'Year': 'Year_local'})
 
     return grid_df, yc_df
+
+
+def _transform_real_gdelt_grid(raw):
+    """将真实GDELT事件CSV转换为平台期望的网格聚合格式"""
+    # 安全解析数值列
+    raw['ActionGeo_Lat'] = pd.to_numeric(raw['ActionGeo_Lat'], errors='coerce')
+    raw['ActionGeo_Long'] = pd.to_numeric(raw['ActionGeo_Long'], errors='coerce')
+    raw['AvgTone'] = pd.to_numeric(raw['AvgTone'], errors='coerce')
+    raw['Year'] = pd.to_numeric(raw['Year'], errors='coerce')
+
+    valid = raw.dropna(subset=['ActionGeo_Lat', 'ActionGeo_Long', 'Year']).copy()
+    if valid.empty:
+        return _generate_gdelt_grid()
+
+    # 5度网格化
+    valid['lat_grid'] = (valid['ActionGeo_Lat'] / 5).round() * 5
+    valid['lon_grid'] = (valid['ActionGeo_Long'] / 5).round() * 5
+
+    # EventCode -> 类别
+    valid['EventCategory'] = valid['EventCode'].apply(_map_eventcode_to_category)
+
+    # 聚合
+    grid_df = valid.groupby(['lat_grid', 'lon_grid', 'Year', 'EventCategory']).agg(
+        EventCount=('GlobalEventID', 'count'),
+        AvgTone=('AvgTone', 'mean')
+    ).reset_index()
+    grid_df = grid_df.rename(columns={'Year': 'Year_local'})
+    return grid_df
 
 
 def _generate_gdelt_grid():
@@ -447,51 +515,239 @@ def get_swot_data():
 # =========================================================================
 
 def load_policy_texts():
-    """各国北极政策文本摘要（用于词云和情感分析）"""
-    return {
+    """
+    各国北极政策文本 — 用于词云和情感分析。
+    包含关键词text、自然语言描述full_text、自动计算的SnowNLP情感值。
+    """
+    texts = {
         "RUS": {
             "name": "俄罗斯",
             "text": "北极战略核心区域国家主权安全航道管控资源开发核动力破冰船北方舰队军事部署能源出口基础设施投资科考站网络环境保护永冻土资源天然气水合物北方海航道管理局海域划界军事化存在",
-            "sentiment": -1.5,
+            "full_text": (
+                "俄罗斯将北极视为核心战略区域，通过强化军事部署和核动力破冰船队建设，"
+                "牢牢掌控北方海航道管辖权。其北极战略以主权安全为优先，大力推进油气资源开发"
+                "和永冻土区基础设施建设，同时建立广泛的科考站网络以巩固领土主张。"
+                "俄罗斯在北极的军事化存在日益增强，北方舰队常态化巡航，"
+                "海域划界争议和资源开发竞争构成其北极政策的主线。"
+            ),
             "key_words": ["主权", "管控", "军事", "能源", "破冰船"],
             "summary": "强调北极主权、安全与航道管控，通过军事部署强化存在，核动力破冰船为战略工具"
         },
         "USA": {
             "name": "美国",
             "text": "北极领导力航行自由安全威胁竞争战略国防部部署极地安全倡议气候变化环境保护科研合作盟友协调北极理事会参与航行自由原则印太战略延伸极地作战能力",
-            "sentiment": -2.0,
+            "full_text": (
+                "美国将北极定位为大国竞争的新前沿，坚持航行自由原则以抗衡俄罗斯的航道管控。"
+                "国防部北极战略将中俄视为主要挑战者，加强极地安全倡议和盟友协调，"
+                "推动北极理事会体制改革。美国重视气候变化对北极的影响，"
+                "但在安全议题上日益将北极纳入印太战略延伸，强化极地作战能力建设，"
+                "同时维持与加拿大、挪威等盟友的密切科研合作。"
+            ),
             "key_words": ["领导力", "竞争", "安全", "盟友", "航行自由"],
             "summary": "坚持航行自由，将中俄定位北极挑战者，通过国防部北极战略应对竞争"
         },
         "CHN": {
             "name": "中国",
             "text": "近北极国家北极利益攸关方冰上丝绸之路人类命运共同体科技合作可持续发展和平利用航道投资能源合作科研交流环境保护共同治理一带一路极地命运共同体共建共享",
-            "sentiment": 2.0,
+            "full_text": (
+                "中国定位为近北极国家和北极利益攸关方，倡导人类命运共同体理念下的北极合作。"
+                "冰上丝绸之路是北极政策的核心框架，强调和平利用与可持续发展。"
+                "中国积极投资北极能源项目和航道基础设施建设，扩大科考合作网络，"
+                "推动科研交流和环境保护领域的共同治理。中国主张北极应成为合作共赢之地，"
+                "倡导共建共享的极地命运共同体，反对北极军事化趋势。"
+            ),
             "key_words": ["合作", "和平", "共同", "科技", "可持续"],
             "summary": "定位「近北极国家」与「利益攸关方」，倡导「人类命运共同体」理念，侧重科技合作"
         },
         "NOR": {
             "name": "挪威",
             "text": "巴伦支海合作环境保护可持续渔业资源管理科研合作国际法框架北极理事会积极参与航运安全气候变化应对和平利用斯瓦尔巴德群岛条约体系极地治理领导者",
-            "sentiment": 1.5,
+            "full_text": (
+                "挪威推动巴伦支海区域的国际合作与环境保护，主张以国际法框架解决北极争端。"
+                "作为北极理事会积极参与者，挪威在可持续渔业管理和航运安全方面发挥引领作用。"
+                "斯瓦尔巴德群岛条约体系是挪威北极治理的重要支柱，气候变化应对和科研合作"
+                "是挪威北极政策的优先方向。挪威致力于维护极地和平利用的原则，"
+                "同时在大国博弈中保持平衡，追求北极治理领导者地位。"
+            ),
             "key_words": ["环保", "可持续", "合作", "国际法", "渔业"],
             "summary": "推动巴伦支海合作与环境保护，主张以国际法框架解决争端"
         },
         "CAN": {
             "name": "加拿大",
             "text": "北极主权内水声索西北航道管辖北方居民权益环境保护原住民权利基础设施科研能力气候变化适应北方补给线主权安全北方海道管理阿拉斯加边境",
-            "sentiment": -0.5,
+            "full_text": (
+                "加拿大将北极主权视为核心国家利益，主张西北航道为内水并行使排他管辖。"
+                "加拿大北极政策高度关注原住民权益和北方居民福祉，将环境保护与可持续发展"
+                "置于优先地位。面对气候变化加速的影响，加拿大积极提升北方基础设施和科研能力，"
+                "加强北方补给线和安全存在。在主权安全和国际合作之间，加拿大寻求平衡，"
+                "致力于维护北极地区的稳定与繁荣。"
+            ),
             "key_words": ["主权", "管辖", "环保", "居民", "原住民"],
             "summary": "强调北极主权和西北航道管辖，注重原住民权益和环境保护"
         },
         "DNK": {
             "name": "丹麦",
             "text": "格陵兰自治北极治理领导者北极理事会轮值主席气候变化科学支撑环境保护科研合作国际合作安全议题格陵兰大陆架声索极地科学大国北极战略框架",
-            "sentiment": 1.0,
+            "full_text": (
+                "丹麦通过格陵兰自治安排发挥北极影响力，利用北极理事会轮值主席身份推动"
+                "极地治理和多边合作。丹麦北极战略以气候变化科学为支撑，重视环境保护"
+                "和可持续科研合作。格陵兰大陆架声索是丹麦北极主权主张的核心，"
+                "在大国竞争加剧的背景下，丹麦积极推动北极安全议题的国际对话，"
+                "维护北极理事会作为主要治理平台的权威性。"
+            ),
             "key_words": ["治理", "气候", "科学", "环保", "国际"],
             "summary": "推动北极治理与气候科学，通过格陵兰发挥北极影响力"
         }
     }
+
+    # 自动计算 SnowNLP 情感值
+    try:
+        from snownlp import SnowNLP
+        for code, data in texts.items():
+            full = data.get('full_text', data.get('text', ''))
+            if full:
+                s = SnowNLP(full)
+                # SnowNLP 输出 0~1, 映射到 -5 ~ +5
+                score = (s.sentiments - 0.5) * 10
+                data['sentiment'] = round(score, 2)
+                data['sentiment_auto'] = True
+    except ImportError:
+        # Fallback: 使用预设值
+        fallback_sent = {'RUS': -1.5, 'USA': -2.0, 'CHN': 2.0, 'NOR': 1.5, 'CAN': -0.5, 'DNK': 1.0}
+        for code, data in texts.items():
+            data['sentiment'] = fallback_sent.get(code, 0)
+            data['sentiment_auto'] = False
+
+    return texts
+
+
+def compute_lda_topics(policy_texts, num_topics=4):
+    """
+    对各国北极政策文本进行LDA主题建模。
+    返回: {country_code: [topic_id, ...], topics: [[(word, weight), ...], ...]}
+    """
+    try:
+        import jieba
+        from gensim import corpora, models
+        jieba.setLogLevel(20)
+    except ImportError:
+        return None
+
+    # 分词 + 去停用词
+    stopwords = {
+        '的', '和', '与', '在', '为', '了', '对', '及', '是', '等', '以',
+        '或', '中', '一', '不', '有', '个', '人', '这', '上', '大', '来',
+        '地', '到', '于', '之', '年', '能', '而', '则', '又', '可', '也',
+        '被', '将', '其', '所', '从', '当', '会', '要', '进行', '通过',
+        '作为', '具有', '可以', '以及', '北极', '极地',
+    }
+
+    docs = {}
+    for code, data in policy_texts.items():
+        full = data.get('full_text', data.get('text', ''))
+        words = [w for w in jieba.cut(full) if len(w) >= 2 and w not in stopwords]
+        docs[code] = words
+
+    if not docs:
+        return None
+
+    # 构建词典和语料
+    dictionary = corpora.Dictionary(docs.values())
+    corpus = [dictionary.doc2bow(docs[c]) for c in docs.keys()]
+
+    if len(dictionary) < num_topics:
+        return None
+
+    # LDA
+    lda = models.LdaModel(corpus, num_topics=num_topics, id2word=dictionary,
+                          passes=20, random_state=42)
+
+    # 主题分配
+    country_topics = {}
+    for i, code in enumerate(docs.keys()):
+        bow = corpus[i]
+        topics = sorted(lda.get_document_topics(bow), key=lambda x: -x[1])
+        country_topics[code] = {
+            'dominant_topic': topics[0][0] if topics else -1,
+            'topic_dist': [(int(t), round(float(w), 3)) for t, w in topics],
+        }
+
+    # 主题词
+    topic_words = []
+    for t in range(num_topics):
+        words = lda.show_topic(t, topn=8)
+        topic_words.append([(w, round(float(p), 4)) for w, p in words])
+
+    return {
+        'country_topics': country_topics,
+        'topic_words': topic_words,
+        'num_topics': num_topics,
+    }
+
+
+def extract_entities(text):
+    """
+    从文本中提取北极领域命名实体（基于词典匹配 + 简单规则）。
+    返回: {entity_type: [entity, ...]}
+    """
+    # 预定义实体词典
+    entity_dict = {
+        '国家': ['中国', '美国', '俄罗斯', '挪威', '加拿大', '丹麦', '芬兰',
+                '瑞典', '冰岛', '日本', '韩国', '英国', '德国', '法国'],
+        '机构': ['北极理事会', '北约', '欧盟', '北方舰队', '国防部',
+                '中国科学院', '中国船舶集团', '挪威极地研究所',
+                '俄罗斯科学院', '美国地质调查局', '日本宇宙航空研究机构'],
+        '技术': ['破冰船', '核动力', '极地卫星', 'LNG', '遥感', '冰区船舶',
+                '冻土工程', '气候模拟', '油气开采', '深海钻探', '导航系统',
+                '水下通信', '无人潜航器', '岸基雷达'],
+        '地名': ['北极点', '斯瓦尔巴', '格陵兰', '巴伦支海', '白令海峡',
+                '楚科奇海', '喀拉海', '拉普捷夫海', '东西伯利亚海',
+                '波弗特海', '挪威海', '格陵兰海', '黄河站', '新奥勒松',
+                '东北航道', '西北航道', '跨极航道', '北方海航道'],
+        '政策概念': ['航行自由', '主权声索', '专属经济区', '冰上丝绸之路',
+                   '人类命运共同体', '共同治理', '可持续发展', '利益攸关方',
+                   '近北极国家', '军事部署', '环境保护', '资源开发',
+                   '航道管辖', '大陆架', '内水', '国际法'],
+    }
+
+    results = {}
+    for etype, entities in entity_dict.items():
+        found = []
+        for ent in entities:
+            if ent in text:
+                found.append(ent)
+        if found:
+            results[etype] = found
+
+    return results
+
+
+def compute_textrank_summary(text, num_sentences=3):
+    """
+    使用 TextRank 自动生成文本摘要。
+    注意: 需要 jieba 和 networkx。
+    """
+    try:
+        import jieba
+        import jieba.analyse
+        jieba.setLogLevel(20)
+    except ImportError:
+        return text[:100] + '...'
+
+    # 简单分句
+    sentences = [s.strip() for s in text.replace('。', '。\n').split('\n') if len(s.strip()) > 10]
+    if len(sentences) <= num_sentences:
+        return text
+
+    # 使用 TextRank 提取关键句
+    keywords = set(jieba.analyse.textrank(text, topK=10))
+    scored = []
+    for sent in sentences:
+        score = sum(1 for kw in keywords if kw in sent)
+        scored.append((score, sent))
+    scored.sort(key=lambda x: -x[0])
+    summary = '。'.join(s[1] for s in scored[:num_sentences]) + '。'
+    return summary
 
 
 # =========================================================================

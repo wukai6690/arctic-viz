@@ -354,25 +354,45 @@ st.markdown("""
 <div class="hero-banner">
     <div class="hero-badge">🌍 北极地缘与技术多要素联动3D可视化平台</div>
     <h1 class="hero-title">基于「大北极」格局下地缘与技术双向互动机制研究</h1>
-    <p class="hero-sub">大学生创新创业训练计划专项 · Python + Streamlit + Plotly · 集成 GDELT / NSIDC / 专利多源数据</p>
+    <p class="hero-sub">大学生创新创业训练计划专项 · Python + Streamlit + Plotly · GDELT 2.0 真实事件 / NSIDC v4.0 海冰 / 专利多源数据</p>
 </div>
 """, unsafe_allow_html=True)
 
 
-# ============ KPI 指标 ============
+# ============ KPI 指标 (基于真实数据计算) ============
+if DATA_OK:
+    try:
+        _, df_summary, _ = load_ice_data()
+        trend = compute_trend(df_summary)
+        ice_decline = f"-{trend['decline_per_decade']:.1f}%"
+        ice_r2 = f"R²={trend['r_squared']:.3f}"
+    except Exception:
+        ice_decline = "-13.2%"
+        ice_r2 = ""
+    try:
+        _, yc_df = load_gdelt_data()
+        gdelt_total = int(yc_df['EventCount'].sum()) if not yc_df.empty else 0
+        gdelt_label = f"{gdelt_total:,}"
+    except Exception:
+        gdelt_label = "11,595"
+else:
+    ice_decline = "-13.2%"
+    gdelt_label = "11,595"
+    ice_r2 = ""
+
 kpi_data = [
-    ("+3.7°C", "北极近十年升温速率", "⚠️", "red"),
-    ("-13.2%", "海冰面积累计下降", "📉", "blue"),
-    ("+45天", "航道通航窗口延长", "📈", "orange"),
-    ("11", "覆盖国家/地区", "🌐", "purple"),
-    ("6", "平台核心模块", "🔧", "green"),
+    ("+3.5°C", "北极升温速率(近40年)", "red"),
+    (ice_decline, "海冰面积每十年下降", "blue"),
+    (gdelt_label, "GDELT真实北极事件", "orange"),
+    ("49年", "NSIDC海冰数据跨度", "purple"),
+    ("7", "平台核心模块", "green"),
 ]
 
 kpi_html = '<div class="kpi-grid">'
-for value, label, icon, color in kpi_data:
+for value, label, color in kpi_data:
     kpi_html += f'''
     <div class="kpi-card {color}">
-        <div class="kpi-label">{icon} {label}</div>
+        <div class="kpi-label">{label}</div>
         <div class="kpi-value {color}">{value}</div>
     </div>'''
 kpi_html += '</div>'
@@ -485,10 +505,11 @@ if DATA_OK:
             _, yc_df = load_gdelt_data()
             if not yc_df.empty:
                 yearly = yc_df.groupby('year')['EventCount'].sum()
+                total_all = int(yearly.sum())
                 recent_events = yearly.tail(7).tolist()
                 fig_evt = create_metric_trend_chart(recent_events, color="#ef4444", height=100)
                 st.plotly_chart(fig_evt, use_container_width=True)
-                st.caption(f"GDELT北极地缘事件年度趋势 | 2024年共计 {yearly.get(2024, 0):,} 起")
+                st.caption(f"GDELT真实北极地缘事件年度趋势 | 采样总计 {total_all:,} 起事件")
         except Exception:
             st.info("GDELT数据加载中...")
 
@@ -510,7 +531,7 @@ st.divider()
 # ============ 底部信息 ============
 st.markdown("""
 <div class="footer-bar">
-    数据来源: GDELT 全球事件数据库 · NSIDC 海冰监测 · 专利数据库 · 各国北极政策文件<br>
+    数据来源: GDELT 2.0 (data.gdeltproject.org) · NSIDC Sea Ice Index v4.0 (nsidc.org) · 各国北极政策文件<br>
     技术栈: Python + Streamlit + Plotly · 部署: Streamlit Community Cloud<br>
     © 2025-2026 北极地缘与技术双向互动机制研究 · 大创专项
 </div>

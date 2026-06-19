@@ -286,7 +286,10 @@ with tab3:
             </div>
             """, unsafe_allow_html=True)
 
-    year_range_t = st.slider("年份范围", 2000, 2024, (2010, 2024))
+    # 获取GDELT数据的年份范围
+    gdelt_min = int(yc_df['year'].min()) if not yc_df.empty and 'year' in yc_df.columns else 2000
+    gdelt_max = int(yc_df['year'].max()) if not yc_df.empty and 'year' in yc_df.columns else 2024
+    year_range_t = st.slider("年份范围", 2000, 2024, (max(2000, gdelt_min), 2024))
     pat_trend = patent_df[
         (patent_df['year'] >= year_range_t[0]) &
         (patent_df['year'] <= year_range_t[1])
@@ -303,15 +306,23 @@ with tab3:
             gdelt_trend.reset_index().rename(columns={'EventCount': 'events'}),
             on='year', how='inner'
         )
-        if len(merged) > 2:
+        if len(merged) >= 2:
             corr = merged['patents'].corr(merged['events'])
             corr_color = "#4ade80" if corr > 0.5 else "#fb923c" if corr > 0 else "#f87171"
+            corr_label = (
+                '技术进步与地缘扩张呈现显著正相关，验证了「技术赋能地缘」假说。'
+                if corr > 0.5 else
+                '两者呈弱正相关，存在一定的技术-地缘联动效应。' if corr > 0 else
+                '两者呈负相关关系，需关注地缘紧张对技术合作的抑制作用。'
+            )
             st.markdown(f"""
             <div style="background:rgba(168,85,247,0.06);padding:1rem;border-radius:12px;border-left:4px solid #a855f7;margin-top:1rem;">
             <b>相关性分析：</b>专利申请量与GDELT地缘事件数的皮尔逊相关系数为 <b style="color:{corr_color}">{corr:.3f}</b>。
-            {'技术进步与地缘扩张呈现显著正相关，验证了「技术赋能地缘」假说。' if corr > 0.5 else '两者相关性较弱，可能存在滞后效应或受其他因素影响。'}
+            {corr_label} (基于{len(merged)}年数据点)
             </div>
             """, unsafe_allow_html=True)
+        else:
+            st.info(f"GDELT数据与专利数据重叠年份不足(仅{len(merged)}年)，无法计算可靠相关性。请扩大年份范围。")
     st.markdown('</div>', unsafe_allow_html=True)
 
 
