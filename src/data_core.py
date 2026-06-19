@@ -6,11 +6,28 @@
 import os
 import json
 import math
+import csv
 import pandas as pd
 import numpy as np
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), '..', 'data', 'processed')
 GEO_DIR = os.path.join(os.path.dirname(__file__), '..', 'geojson')
+
+
+def load_keywords():
+    """加载北极领域关键词库 (keywords.csv)"""
+    kw_path = os.path.join(os.path.dirname(__file__), '..', 'keywords.csv')
+    if not os.path.exists(kw_path):
+        return {}
+    keywords = {}
+    with open(kw_path, 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            group = row.get('group', 'other')
+            kw = row.get('keyword', '').strip()
+            if kw:
+                keywords.setdefault(group, []).append(kw)
+    return keywords
 
 
 # =========================================================================
@@ -687,12 +704,11 @@ def compute_lda_topics(policy_texts, num_topics=4):
     }
 
 
-def extract_entities(text):
+def extract_entities(text, use_keywords_csv=True):
     """
-    从文本中提取北极领域命名实体（基于词典匹配 + 简单规则）。
+    从文本中提取北极领域命名实体（词典匹配 + keywords.csv增强）。
     返回: {entity_type: [entity, ...]}
     """
-    # 预定义实体词典
     entity_dict = {
         '国家': ['中国', '美国', '俄罗斯', '挪威', '加拿大', '丹麦', '芬兰',
                 '瑞典', '冰岛', '日本', '韩国', '英国', '德国', '法国'],
@@ -712,11 +728,26 @@ def extract_entities(text):
                    '航道管辖', '大陆架', '内水', '国际法'],
     }
 
+    # 从keywords.csv加载额外实体
+    if use_keywords_csv:
+        kw_groups = load_keywords()
+        group_label_map = {
+            'actor': '国家/行为体', 'technology': '技术', 'space': '地名',
+            'geopolitics': '政策概念', 'climate': '气候术语', 'resource': '资源',
+        }
+        for group, keywords in kw_groups.items():
+            label = group_label_map.get(group, group)
+            if label not in entity_dict:
+                entity_dict[label] = []
+            for kw in keywords:
+                if kw not in entity_dict[label]:
+                    entity_dict[label].append(kw)
+
     results = {}
     for etype, entities in entity_dict.items():
         found = []
         for ent in entities:
-            if ent in text:
+            if ent and ent in text:
                 found.append(ent)
         if found:
             results[etype] = found

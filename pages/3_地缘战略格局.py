@@ -13,7 +13,7 @@ from src.data_core import (
     load_gdelt_data, load_stations, load_geopolitics_network, load_policy_texts,
     compute_lda_topics, extract_entities, compute_textrank_summary,
 )
-from src.viz import COUNTRY_NAMES, COUNTRY_COLORS, CATEGORY_COLORS, CAT_LABELS, create_network_graph, create_word_freq_chart, create_sentiment_chart
+from src.viz import COUNTRY_NAMES, COUNTRY_COLORS, CATEGORY_COLORS, CAT_LABELS, create_network_graph, create_word_freq_chart, create_sentiment_chart, create_wordcloud
 
 st.set_page_config(page_title="地缘战略格局", page_icon="🏛️", layout="wide")
 
@@ -256,6 +256,16 @@ with tab3:
                         ent_html += f'<span style="background:{c}22;color:{c};border:1px solid {c}44;border-radius:12px;padding:2px 10px;font-size:0.7rem;">{ent}</span>'
                 ent_html += '</div>'
                 st.markdown(ent_html, unsafe_allow_html=True)
+
+        # --- 词云 (高视觉冲击) ---
+        wc_b64 = create_wordcloud(policy_texts, selected_country=policy_country)
+        if wc_b64:
+            st.markdown("#### 🌌 北极政策词云")
+            st.markdown(f"""
+            <div style="text-align:center;background:var(--card);border-radius:16px;padding:1.2rem;border:1px solid var(--border);margin-bottom:1rem;">
+                <img src="{wc_b64}" style="max-width:100%;border-radius:8px;" alt="Word Cloud">
+            </div>
+            """, unsafe_allow_html=True)
 
         # --- 词频图(带方法选择) ---
         nlp_method = st.radio("关键词提取算法", ['tfidf', 'textrank'],

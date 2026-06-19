@@ -193,13 +193,15 @@ with tab1:
     <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:1.2rem;margin-bottom:1.2rem;">
     """, unsafe_allow_html=True)
 
-    globe_controls = st.columns(3)
+    globe_controls = st.columns(4)
     with globe_controls[0]:
-        highlight_arctic = st.checkbox("突出北极圈", value=True, key="globe_arctic")
+        show_stations = st.checkbox("科考站", value=True, key="globe_stations")
     with globe_controls[1]:
-        show_stations = st.checkbox("显示科考站", value=True, key="globe_stations")
+        show_routes = st.checkbox("航道", value=True, key="globe_routes")
     with globe_controls[2]:
-        show_routes = st.checkbox("显示航道", value=True, key="globe_routes")
+        show_heat = st.checkbox("GDELT热力", value=True, key="globe_heat")
+    with globe_controls[3]:
+        st.caption("悬停查看详情")
 
     # 3D Globe
     geo_dir = os.path.join(os.path.dirname(__file__), '..', 'geojson')
@@ -209,10 +211,21 @@ with tab1:
         with open(routes_path, 'r', encoding='utf-8') as f:
             routes_data = json.load(f)
 
+    # 加载GDELT热力数据
+    gdelt_heat = None
+    if show_heat:
+        try:
+            grid_df, _ = load_gdelt_data()
+            if not grid_df.empty:
+                gdelt_heat = grid_df
+        except Exception:
+            pass
+
     fig_globe = create_3d_globe_annotate(
         stations_data=stations_data if show_stations else None,
         routes_data=routes_data if show_routes else None,
-        height=560
+        events_data=gdelt_heat,
+        height=580
     )
     st.plotly_chart(fig_globe, use_container_width=True)
 

@@ -161,70 +161,68 @@ def create_3d_globe(highlight_arctic=True, height=480):
     return fig
 
 
-def create_3d_globe_annotate(stations_data=None, routes_data=None, events_data=None, height=550):
+def create_3d_globe_annotate(stations_data=None, routes_data=None, events_data=None, height=560):
     """
-    创建带标注的北极3D地球（用于展示科考站、航道、事件）
-    stations_data: GeoJSON FeatureCollection
-    routes_data: GeoJSON FeatureCollection
-    events_data: DataFrame with lat, lon, category, count
+    北极3D地球 (Premium版) — 暗色空间背景, 发光科考站标记, 立体航道
     """
     fig = go.Figure()
 
-    # 基础底图
+    # 暗色空间背景
     fig.update_layout(
         geo=dict(
             scope='north america',
             projection_type='orthographic',
-            projection_rotation=dict(lon=0, lat=90),
-            center=dict(lat=75, lon=0),
+            projection_rotation=dict(lon=30, lat=90),  # 偏转角度让欧亚大陆更可见
+            center=dict(lat=75, lon=20),
             showland=True,
-            landcolor='rgba(230,240,250,0.9)',
+            landcolor='rgba(20,32,60,0.95)',
             showocean=True,
-            oceancolor='rgba(180,210,240,0.6)',
+            oceancolor='rgba(8,16,36,0.95)',
             showlakes=True,
-            lakecolor='rgba(180,220,240,0.7)',
+            lakecolor='rgba(12,22,44,0.9)',
             showcountries=True,
-            countrycolor='rgba(160,180,200,0.5)',
-            showcoastlines=True,
-            coastlinecolor='rgba(140,160,180,0.7)',
-            coastlinewidth=0.7,
+            countrycolor='rgba(60,100,160,0.35)',
+            coastlinecolor='rgba(80,130,200,0.6)',
+            coastlinewidth=0.8,
             showframe=False,
             lonaxis_range=[-180, 180],
             lataxis_range=[55, 90],
-            bgcolor='rgba(6,9,18,0.9)'
+            bgcolor='rgba(4,8,18,0.95)'
         ),
-        paper_bgcolor='rgba(6,9,18,0.9)',
-        plot_bgcolor='rgba(6,9,18,0.9)',
+        paper_bgcolor='rgba(4,8,18,0.95)',
+        plot_bgcolor='rgba(4,8,18,0.95)',
         margin=dict(l=0, r=0, t=0, b=0),
         height=height,
         showlegend=True,
         legend=dict(
-            orientation='h', yanchor='bottom', y=1.02,
+            orientation='h', yanchor='bottom', y=1.01,
             xanchor='center', x=0.5,
-            bgcolor='rgba(6,9,18,0.85)',
-            font=dict(color='rgba(255,255,255,0.9)')
+            bgcolor='rgba(4,8,18,0.8)',
+            font=dict(color='rgba(255,255,255,0.85)', size=11)
         )
     )
 
-    # 北极圈
-    arctic_lons = np.linspace(-180, 180, 180)
+    # 北极圈 (发光虚线)
+    arctic_lons = np.linspace(-180, 180, 200)
     arctic_lats = [66.5] * len(arctic_lons)
+    # 外发光层
     fig.add_trace(go.Scattergeo(
-        lon=arctic_lons, lat=arctic_lats,
-        mode='lines',
-        line=dict(width=1.2, color='#90CAF9', dash='dash'),
-        showlegend=True,
-        name='北极圈(66.5°N)',
-        hoverinfo='skip'
+        lon=arctic_lons, lat=arctic_lats, mode='lines',
+        line=dict(width=4, color='rgba(100,200,255,0.15)'), hoverinfo='skip', showlegend=False
+    ))
+    fig.add_trace(go.Scattergeo(
+        lon=arctic_lons, lat=arctic_lats, mode='lines',
+        line=dict(width=1.8, color='rgba(140,210,255,0.7)', dash='dash'),
+        name='Arctic Circle (66.5N)', hoverinfo='skip'
     ))
 
-    # 科考站
+    # 科考站 (发光双层标记)
     if stations_data and 'features' in stations_data:
         station_colors = {
-            '中国': '#FF0000', '美国': '#1565C0', '俄罗斯': '#8B0000',
-            '挪威': '#FF6B35', '丹麦': '#FFA726', '芬兰': '#9C27B0',
-            '瑞典': '#00BCD4', '冰岛': '#795548', '日本': '#BCAAA4',
-            '国际合作（多国）': '#607D8B', '丹麦/美国': '#FFA726', '挪威/国际': '#FF6B35'
+            '中国': '#FF3333', '美国': '#3b82f6', '俄罗斯': '#DC2626',
+            '挪威': '#f97316', '丹麦': '#eab308', '芬兰': '#a855f7',
+            '瑞典': '#06b6d4', '冰岛': '#94a3b8', '日本': '#d6d3d1',
+            '国际合作（多国）': '#6b7280', '加拿大': '#22c55e',
         }
         for feat in stations_data['features']:
             props = feat.get('properties', {})
@@ -232,45 +230,40 @@ def create_3d_globe_annotate(stations_data=None, routes_data=None, events_data=N
             if not geom or 'coordinates' not in geom:
                 continue
             lon, lat = geom['coordinates'][0], geom['coordinates'][1]
-            country = props.get('country', '未知')
-            name = props.get('name', '未知')
+            country = props.get('country', '')
+            name = props.get('name', '')
             color = station_colors.get(country, '#757575')
             research = ', '.join(props.get('research_focus', [])[:3])
-            tech = props.get('tech_domain', 'N/A')
+            tech = props.get('tech_domain', '')
+
+            # 外发光
             fig.add_trace(go.Scattergeo(
-                lon=[lon], lat=[lat],
-                mode='markers+text',
-                marker=dict(
-                    size=14, color=color,
-                    line=dict(width=2, color='white'),
-                    symbol='circle',
-                ),
-                text=[name],
-                textposition='top center',
-                textfont=dict(size=9, color='white'),
+                lon=[lon], lat=[lat], mode='markers',
+                marker=dict(size=22, color=color, opacity=0.18, line=dict(width=0)),
+                hoverinfo='skip', showlegend=False
+            ))
+            # 主标记 + 文字
+            fig.add_trace(go.Scattergeo(
+                lon=[lon], lat=[lat], mode='markers+text',
+                marker=dict(size=12, color=color, line=dict(width=2, color='white'), symbol='circle'),
+                text=[name], textposition='top center', textfont=dict(size=9, color='white'),
                 hovertemplate=(
-                    f"<b style='font-size:15px;color:{color}'>{name}</b><br>"
-                    f"<b>国家:</b> {country}<br>"
-                    f"<b>设立:</b> {props.get('established', 'N/A')} 年<br>"
-                    f"<b>坐标:</b> {lat:.1f}N, {lon:.1f}E<br>"
-                    f"<b>技术:</b> {tech}<br>"
-                    f"<b>研究:</b> {research}<br>"
-                    f"<i>{props.get('description', '')}</i>"
-                    f"<extra></extra>"
+                    f"<b style='color:{color};font-size:15px;'>{name}</b><br>"
+                    f"Country: {country}<br>"
+                    f"Est: {props.get('established', 'N/A')}<br>"
+                    f"Tech: {tech}<br>"
+                    f"Research: {research}<br>"
+                    f"<i>{props.get('description', '')}</i><extra></extra>"
                 ),
-                name=f'{name}',
-                showlegend=False
+                name=name, showlegend=False
             ))
 
-    # 航道
+    # 航道 (粗线+细发光)
     if routes_data and 'features' in routes_data:
-        route_colors = {
-            '东北航道': '#E53935',
-            'Northeast Passage': '#E53935',
-            '西北航道': '#1565C0',
-            'Northwest Passage': '#1565C0',
-            '跨极航道': '#43A047',
-            'Transpolar': '#43A047',
+        route_style = {
+            '东北航道': ('#f97316', 'Northeast Passage'),
+            '西北航道': ('#3b82f6', 'Northwest Passage'),
+            '跨极航道': ('#22c55e', 'Transpolar Route'),
         }
         for feat in routes_data['features']:
             props = feat.get('properties', {})
@@ -281,41 +274,41 @@ def create_3d_globe_annotate(stations_data=None, routes_data=None, events_data=N
             if geom['type'] == 'LineString':
                 lons = [c[0] for c in coords]
                 lats = [c[1] for c in coords]
-                name = props.get('name', props.get('name_en', '航道'))
-                color = route_colors.get(name, '#FF6B35')
+                name = props.get('name', '')
+                color, en_name = route_style.get(name, ('#f97316', name))
+                # 发光层
                 fig.add_trace(go.Scattergeo(
-                    lon=lons, lat=lats,
-                    mode='lines',
-                    line=dict(width=2.5, color=color),
+                    lon=lons, lat=lats, mode='lines',
+                    line=dict(width=5, color=color.replace(')', ',0.2)').replace('rgb', 'rgba') if 'rgb' not in color else f'rgba{color[3:-1]},0.2'),
+                    hoverinfo='skip', showlegend=False
+                ))
+                # 主线
+                fig.add_trace(go.Scattergeo(
+                    lon=lons, lat=lats, mode='lines',
+                    line=dict(width=2.8, color=color),
                     hoverinfo='text',
-                    text=f"<b>{name}</b><br>{props.get('description', '')}",
-                    name=f'航道: {name}',
-                    showlegend=True
+                    text=f"<b>{en_name}</b><br>{props.get('description', '')}<br>Distance: {props.get('distance', '')}",
+                    name=en_name, showlegend=True
                 ))
 
     # GDELT 事件热力
     if events_data is not None and not events_data.empty:
-        try:
-            lat_col = 'lat_grid' if 'lat_grid' in events_data.columns else 'lat'
-            lon_col = 'lon_grid' if 'lon_grid' in events_data.columns else 'lon'
-            fig.add_trace(go.Scattergeo(
-                lon=events_data[lon_col].tolist(),
-                lat=events_data[lat_col].tolist(),
-                mode='markers',
-                marker=dict(
-                    size=8,
-                    color=events_data['EventCount'].tolist() if 'EventCount' in events_data.columns else 5,
-                    colorscale='YlOrRd',
-                    opacity=0.7,
-                    line=dict(width=0)
-                ),
-                text=events_data['EventCategory'] if 'EventCategory' in events_data.columns else '',
-                hovertemplate='%{text}<extra></extra>',
-                name='GDELT事件',
-                showlegend=True
-            ))
-        except Exception:
-            pass
+        lat_col = 'lat_grid' if 'lat_grid' in events_data.columns else 'lat'
+        lon_col = 'lon_grid' if 'lon_grid' in events_data.columns else 'lon'
+        fig.add_trace(go.Scattergeo(
+            lon=events_data[lon_col].tolist(),
+            lat=events_data[lat_col].tolist(),
+            mode='markers',
+            marker=dict(
+                size=7,
+                color=events_data['EventCount'].tolist() if 'EventCount' in events_data.columns else 5,
+                colorscale='YlOrRd', opacity=0.55, line=dict(width=0),
+                cmin=0, cmax=events_data['EventCount'].max() if not events_data.empty else 50,
+            ),
+            text=events_data['EventCategory'] if 'EventCategory' in events_data.columns else '',
+            hovertemplate='Category: %{text}<extra></extra>',
+            name='GDELT Events', showlegend=True
+        ))
 
     return fig
 
@@ -874,6 +867,102 @@ def create_word_freq_chart(policy_texts, height=400, method='tfidf'):
         margin=dict(l=120, r=20, t=20, b=40),
         yaxis_title='', xaxis_title=xlabel, template='plotly_dark', font=dict(size=11))
     return fig
+
+
+def _create_word_freq_chart_fallback(policy_texts, height=400):
+    """Fallback: 简单n-gram词频 (jieba不可用时)"""
+    stopwords = {'的','和','与','在','为','了','对','及','是','等','以','或','中','北极','国家','战略'}
+    all_words = []
+    for code, data in policy_texts.items():
+        text = data.get('text', '')
+        for n in [2, 3]:
+            for i in range(len(text) - n + 1):
+                word = text[i:i+n]
+                punct = '，。、；：？！""''（）【】《》·\n\r\t '
+                if word not in stopwords and not any(c in punct for c in word):
+                    all_words.append({'word': word, 'country': code, 'count': 1})
+    if not all_words:
+        return go.Figure()
+    word_df = pd.DataFrame(all_words)
+    wc = (word_df.groupby(['word', 'country']).size()
+          .reset_index(name='count')
+          .sort_values('count', ascending=False).head(25))
+    cmap = {k: COUNTRY_COLORS.get(k, '#757575') for k in wc['country'].unique()}
+    fig = px.bar(wc, x='count', y='word', color='country',
+                 orientation='h', color_discrete_map=cmap, title='')
+    fig.update_layout(height=height, showlegend=True,
+        legend=dict(orientation='h', yanchor='bottom', y=1.02, xanchor='center', x=0.5),
+        margin=dict(l=120, r=20, t=20, b=40),
+        yaxis_title='', xaxis_title='词频', template='plotly_dark', font=dict(size=11))
+    return fig
+
+
+def create_wordcloud(policy_texts, selected_country=None, width=800, height=400):
+    """
+    生成北极政策词云图片 (Base64编码, 可直接嵌入HTML)。
+    selected_country: 指定国家代码则只显示该国, None显示全部。
+    """
+    try:
+        import jieba
+        from wordcloud import WordCloud
+        import base64
+        from io import BytesIO
+        from PIL import Image
+        jieba.setLogLevel(20)
+    except ImportError:
+        return None
+
+    # 北极领域术语
+    arctic_terms = ['北极航道','冰上丝绸之路','破冰船','核动力','科考站',
+        '北极理事会','主权声索','航行自由','人类命运共同体','可持续发展']
+    for t in arctic_terms:
+        jieba.add_word(t)
+
+    stopwords = {'的','和','与','在','为','了','对','及','是','等','以','或',
+        '中','一','不','有','个','人','这','上','大','来','地','到','于',
+        '之','年','能','而','则','又','可','也','被','将','其','所','从',
+        '当','会','要','进行','通过','作为','具有','可以','以及','北极','极地'}
+
+    # 收集文本
+    if selected_country and selected_country in policy_texts:
+        text = policy_texts[selected_country].get('full_text',
+                policy_texts[selected_country].get('text', ''))
+    else:
+        text = ' '.join(d.get('full_text', d.get('text', ''))
+                       for d in policy_texts.values())
+
+    if not text:
+        return None
+
+    words = ' '.join(w for w in jieba.cut(text) if len(w) >= 2 and w not in stopwords)
+    if not words.strip():
+        return None
+
+    # 生成词云
+    wc = WordCloud(
+        font_path=None,  # 使用默认字体 (may need CJK font on Linux)
+        width=width, height=height,
+        background_color='#0f1729',
+        colormap='coolwarm',
+        max_words=80,
+        max_font_size=80,
+        min_font_size=10,
+        collocations=False,
+        prefer_horizontal=0.7,
+        margin=10,
+    )
+    try:
+        wc.generate(words)
+    except ValueError:
+        return None
+
+    # 转Base64
+    img = wc.to_image()
+    buf = BytesIO()
+    img.save(buf, format='PNG')
+    buf.seek(0)
+    b64 = base64.b64encode(buf.read()).decode('utf-8')
+    return f'data:image/png;base64,{b64}'
 
 
 # =========================================================================
