@@ -600,18 +600,20 @@ def load_policy_texts():
         }
     }
 
-    # 自动计算 SnowNLP 情感值
+    # 自动计算 SnowNLP 情感值 (失败则静默降级)
     try:
         from snownlp import SnowNLP
         for code, data in texts.items():
             full = data.get('full_text', data.get('text', ''))
             if full:
-                s = SnowNLP(full)
-                # SnowNLP 输出 0~1, 映射到 -5 ~ +5
-                score = (s.sentiments - 0.5) * 10
-                data['sentiment'] = round(score, 2)
-                data['sentiment_auto'] = True
-    except ImportError:
+                try:
+                    s = SnowNLP(full)
+                    score = (s.sentiments - 0.5) * 10
+                    data['sentiment'] = round(score, 2)
+                    data['sentiment_auto'] = True
+                except Exception:
+                    pass  # SnowNLP初始化失败, 跳过自动计算
+    except (ImportError, Exception):
         # Fallback: 使用预设值
         fallback_sent = {'RUS': -1.5, 'USA': -2.0, 'CHN': 2.0, 'NOR': 1.5, 'CAN': -0.5, 'DNK': 1.0}
         for code, data in texts.items():

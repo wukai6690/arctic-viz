@@ -822,7 +822,7 @@ def create_word_freq_chart(policy_texts, height=400, method='tfidf'):
         import jieba
         import jieba.analyse
         jieba.setLogLevel(20)
-    except ImportError:
+    except Exception:
         return _create_word_freq_chart_fallback(policy_texts, height)
 
     arctic_terms = [
