@@ -498,25 +498,68 @@ with tab3:
             )
             st.plotly_chart(fig_pie, use_container_width=True)
 
-    # 科考站详细信息表
-    st.markdown("#### 🔬 科考站详情列表")
-    station_list = []
+    # 科考站详细信息 (带搜索)
+    st.markdown("#### 🔬 科考站详情")
+    # 构建完整站点数据
+    all_stations = []
     for feat in stations_data.get('features', []):
         props = feat.get('properties', {})
         geom = feat.get('geometry', {})
         if not geom or 'coordinates' not in geom:
             continue
         lon, lat = geom['coordinates'][0], geom['coordinates'][1]
-        station_list.append({
+        all_stations.append({
             '名称': props.get('name', ''),
             '国家': props.get('country', ''),
-            '设立': props.get('established', ''),
+            '设立': str(props.get('established', '')),
+            'lon': lon, 'lat': lat,
             '坐标': f"{lat:.2f}°N, {lon:.2f}°E",
             '技术方向': props.get('tech_domain', ''),
-            '研究领域': ', '.join(props.get('research_focus', [])[:2]),
+            '研究领域': ', '.join(props.get('research_focus', [])[:3]),
+            '描述': props.get('description', ''),
+            'color': colors_c.get(props.get('country', ''), '#6b7280'),
         })
-    if station_list:
-        st.dataframe(pd.DataFrame(station_list), use_container_width=True, hide_index=True)
+
+    # 搜索框
+    search_query = st.text_input(
+        "🔍 搜索科考站（按名称/国家/技术方向）",
+        placeholder="输入关键词快速查找...",
+        key="station_search"
+    )
+
+    # 实时过滤
+    if search_query:
+        q = search_query.lower()
+        filtered = [s for s in all_stations
+                    if q in s['名称'].lower()
+                    or q in s['国家'].lower()
+                    or q in s['技术方向'].lower()
+                    or q in s['研究领域'].lower()]
+    else:
+        filtered = all_stations
+
+    if filtered:
+        st.caption(f"共 {len(filtered)} 个科考站" + (f" (已筛选)" if search_query else ""))
+        # 卡片式布局
+        for s in filtered:
+            st.markdown(f"""
+            <div style="background:var(--bg-card2);border-radius:12px;padding:1rem;margin-bottom:0.6rem;border-left:4px solid {s['color']};transition:all 0.2s;">
+                <div style="display:flex;align-items:center;gap:10px;margin-bottom:0.5rem;">
+                    <span style="font-weight:700;font-size:0.95rem;color:white;">{s['名称']}</span>
+                    <span style="background:{s['color']}22;color:{s['color']};border:1px solid {s['color']}44;border-radius:10px;padding:1px 8px;font-size:0.68rem;">{s['国家']}</span>
+                    <span style="font-size:0.7rem;color:var(--text3);">Est. {s['设立']}</span>
+                    <span style="font-size:0.7rem;color:var(--text3);">📍 {s['坐标']}</span>
+                </div>
+                <div style="font-size:0.75rem;color:var(--text2);line-height:1.5;">
+                    <b>技术:</b> {s['技术方向']} &nbsp;|&nbsp; <b>研究:</b> {s['研究领域']}
+                </div>
+                <div style="font-size:0.72rem;color:var(--text3);margin-top:0.3rem;line-height:1.4;">
+                    {s['描述']}
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+    else:
+        st.info(f"未找到匹配 '{search_query}' 的科考站")
     st.markdown("</div>", unsafe_allow_html=True)
 
 
