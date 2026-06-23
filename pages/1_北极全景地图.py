@@ -174,6 +174,84 @@ stat_html = f"""
 """
 st.markdown(stat_html, unsafe_allow_html=True)
 
+# 科考站颜色映射 (全局使用)
+station_colors_map = {
+    '中国': '#ef4444', '美国': '#3b82f6', '俄罗斯': '#b91c1c',
+    '挪威': '#f97316', '丹麦': '#eab308', '芬兰': '#a855f7',
+    '瑞典': '#06b6d4', '冰岛': '#78716c', '日本': '#d6d3d1',
+    '国际合作（多国）': '#6b7280', '加拿大': '#22c55e',
+}
+
+# ============ 科考站搜索 (显眼位置) ============
+# 构建站点数据
+all_stations_data = []
+for feat in stations_data.get('features', []):
+    props = feat.get('properties', {})
+    geom = feat.get('geometry', {})
+    if not geom or 'coordinates' not in geom:
+        continue
+    lon, lat = geom['coordinates'][0], geom['coordinates'][1]
+    country = props.get('country', '')
+    all_stations_data.append({
+        '名称': props.get('name', ''),
+        '国家': country,
+        '设立': str(props.get('established', '')),
+        'lon': lon, 'lat': lat,
+        '坐标': f"{lat:.2f}°N, {lon:.2f}°E",
+        '技术方向': props.get('tech_domain', ''),
+        '研究领域': ', '.join(props.get('research_focus', [])[:3]),
+        '描述': props.get('description', ''),
+        'color': station_colors_map.get(country, '#6b7280'),
+    })
+
+st.markdown("""
+<div style="background:linear-gradient(135deg, #0f172a 0%, #1e293b 100%);border-radius:16px;padding:1.2rem 1.5rem;margin-bottom:1rem;border:1px solid rgba(249,115,22,0.2);">
+    <div style="font-size:1.1rem;font-weight:700;color:white;margin-bottom:0.8rem;">🔍 北极科考站搜索</div>
+""", unsafe_allow_html=True)
+
+search_query = st.text_input(
+    "搜索科考站",
+    placeholder="输入名称、国家或技术方向快速查找... 例如: 黄河站 / 中国 / 破冰",
+    key="station_search_main",
+    label_visibility="collapsed"
+)
+
+# 实时过滤
+if search_query:
+    q = search_query.lower()
+    filtered_stations = [s for s in all_stations_data
+                         if q in s['名称'].lower()
+                         or q in s['国家'].lower()
+                         or q in s['技术方向'].lower()
+                         or q in s['研究领域'].lower()]
+else:
+    filtered_stations = all_stations_data
+
+if search_query:
+    st.caption(f"找到 {len(filtered_stations)} 个科考站匹配 \"{search_query}\"")
+else:
+    st.caption(f"共 {len(filtered_stations)} 个科考站，输入关键词快速筛选")
+
+if filtered_stations:
+    # 卡片网格 (每行2-3个)
+    card_cols = st.columns(min(3, len(filtered_stations)))
+    for i, s in enumerate(filtered_stations):
+        with card_cols[i % 3]:
+            st.markdown(f"""
+            <div style="background:var(--bg-card);border-radius:12px;padding:0.9rem;margin-bottom:0.5rem;border-left:4px solid {s['color']};transition:all 0.2s;cursor:pointer;" title="{s['描述']}">
+                <div style="display:flex;align-items:center;gap:8px;margin-bottom:0.4rem;">
+                    <span style="font-weight:700;font-size:0.9rem;color:white;">{s['名称']}</span>
+                    <span style="background:{s['color']}22;color:{s['color']};border:1px solid {s['color']}44;border-radius:8px;padding:1px 6px;font-size:0.65rem;">{s['国家']}</span>
+                </div>
+                <div style="font-size:0.7rem;color:var(--text3);margin-bottom:0.3rem;">📍 {s['坐标']} · Est.{s['设立']}</div>
+                <div style="font-size:0.72rem;color:var(--text2);line-height:1.4;">{s['技术方向']}</div>
+                <div style="font-size:0.68rem;color:var(--text3);line-height:1.3;margin-top:0.2rem;">{s['研究领域']}</div>
+            </div>
+            """, unsafe_allow_html=True)
+else:
+    st.info(f"未找到匹配 \"{search_query}\" 的科考站，请尝试其他关键词")
+
+st.markdown("</div>", unsafe_allow_html=True)
 
 # ============ 主标签页 ============
 tab1, tab2, tab3, tab4, tab5 = st.tabs([
@@ -284,14 +362,7 @@ with tab2:
             attr='深色北极地图'
         )
 
-        # 添加科考站标记
-        station_colors_map = {
-            '中国': '#ef4444', '美国': '#3b82f6', '俄罗斯': '#b91c1c',
-            '挪威': '#f97316', '丹麦': '#eab308', '芬兰': '#a855f7',
-            '瑞典': '#06b6d4', '冰岛': '#78716c', '日本': '#d6d3d1',
-            '国际合作（多国）': '#6b7280', '加拿大': '#22c55e',
-        }
-
+        # 添加科考站标记 (使用全局 station_colors_map)
         for feat in stations_data.get('features', []):
             props = feat.get('properties', {})
             geom = feat.get('geometry', {})
