@@ -225,6 +225,125 @@
         "description": "位于喀拉海沿岸的俄罗斯全年运作科考站，是东北航道科学研究的重要节点。"
       },
       "geometry": { "type": "Point", "coordinates": [80.40, 73.51] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "图勒空军基地(科考设施)",
+        "name_en": "Thule Air Base (Research)",
+        "country": "丹麦",
+        "country_code": "DNK",
+        "type": "军事兼科考站",
+        "lat": 76.53,
+        "lon": -68.70,
+        "established": 1951,
+        "research_focus": ["空间天气", "极地大气", "卫星追踪", "冰盖监测"],
+        "tech_domain": "极地通信卫星 / 弹道导弹预警 / 空间监视",
+        "description": "位于格陵兰西北部，美国与丹麦联合运营，兼具军事预警与极地科学研究功能，是北极最北端的全年运作基地之一。"
+      },
+      "geometry": { "type": "Point", "coordinates": [-68.70, 76.53] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "萨莫伊洛夫站",
+        "name_en": "Samoylov Station",
+        "country": "俄罗斯",
+        "country_code": "RUS",
+        "type": "冻土研究站",
+        "lat": 72.37,
+        "lon": 126.50,
+        "established": 1998,
+        "research_focus": ["永久冻土", "碳循环", "湖泊生态", "气候变化"],
+        "tech_domain": "冻土工程 / 温室气体监测",
+        "description": "位于勒拿河三角洲的世界级永久冻土研究站，是德俄联合科研项目核心，研究冻土融化对全球碳循环的影响。"
+      },
+      "geometry": { "type": "Point", "coordinates": [126.50, 72.37] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "阿比斯库站",
+        "name_en": "Abisko Station",
+        "country": "瑞典",
+        "country_code": "SWE",
+        "type": "全年科考站",
+        "lat": 68.35,
+        "lon": 18.82,
+        "established": 1912,
+        "research_focus": ["极地生态", "气候变化", "永久冻土", "湖泊学"],
+        "tech_domain": "极地生态监测 / 气候长期观测",
+        "description": "瑞典最著名的极地研究站，拥有超过100年的连续气候观测记录，是北极气候变化研究的标杆站点。"
+      },
+      "geometry": { "type": "Point", "coordinates": [18.82, 68.35] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "扎肯伯格站",
+        "name_en": "Zackenberg Station",
+        "country": "丹麦",
+        "country_code": "DNK",
+        "type": "全年科考站",
+        "lat": 74.47,
+        "lon": -20.57,
+        "established": 1995,
+        "research_focus": ["极地生态", "碳循环", "冰川学", "气候监测"],
+        "tech_domain": "生态系统长期观测 / 遥感验证",
+        "description": "位于格陵兰东北部国家公园内，是北极生态系统长期监测的核心站点，提供连续30年的生态与气候数据。"
+      },
+      "geometry": { "type": "Point", "coordinates": [-20.57, 74.47] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "蒂克西站",
+        "name_en": "Tiksi Observatory",
+        "country": "俄罗斯",
+        "country_code": "RUS",
+        "type": "大气观测站",
+        "lat": 71.58,
+        "lon": 128.92,
+        "established": 1932,
+        "research_focus": ["大气化学", "气溶胶", "云物理", "辐射平衡"],
+        "tech_domain": "北极大气观测 / 气候模式验证",
+        "description": "位于拉普捷夫海沿岸的俄罗斯重要大气观测站，是国际北极大气研究计划的关键站点，监测北极放大效应。"
+      },
+      "geometry": { "type": "Point", "coordinates": [128.92, 71.58] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "雷索卢特站",
+        "name_en": "Resolute Bay Station",
+        "country": "加拿大",
+        "country_code": "CAN",
+        "type": "全年科考站",
+        "lat": 74.70,
+        "lon": -94.83,
+        "established": 1947,
+        "research_focus": ["海冰物理", "大气科学", "极地通信", "气候变化"],
+        "tech_domain": "极地通信中继 / 海冰监测",
+        "description": "加拿大北极群岛核心区域的科考站，位于西北航道关键节点，是北极海冰和大气研究的长期观测平台。"
+      },
+      "geometry": { "type": "Point", "coordinates": [-94.83, 74.70] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "丘吉尔北方研究中心",
+        "name_en": "Churchill Northern Studies Centre",
+        "country": "加拿大",
+        "country_code": "CAN",
+        "type": "极地研究中心",
+        "lat": 58.77,
+        "lon": -94.17,
+        "established": 1976,
+        "research_focus": ["极地生态", "野生动物", "气候变化", "北方社区"],
+        "tech_domain": "北极生态观测 / 社区适应研究",
+        "description": "位于哈德逊湾沿岸，是全球北极熊和白鲸研究的重要基地，也是北方社区气候适应的研究中心。"
+      },
+      "geometry": { "type": "Point", "coordinates": [-94.17, 58.77] }
     }
   ]
 }
