@@ -1,6 +1,7 @@
 """Same evidence and filters keep one download identity; a changed metric changes it."""
 import hashlib,io,json,sys,time,zipfile
 from pathlib import Path
+from urllib.parse import urljoin
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 from src.study_views import export_bundle,persisted_study_export
 scope={'region':'kara','years':[2016,2025],'month':3}
@@ -9,6 +10,8 @@ assert before==after,'Identical evidence must not generate a different media URL
 area=export_bundle(scope,'area');assert area!=before
 url=persisted_study_export(scope,'extent')
 assert persisted_study_export(scope,'extent')==url
+for base,prefix in [('http://localhost:8501/区域联动','/'),('https://example.streamlit.app/~/+/区域联动','/~/+/')]:
+    assert urljoin(base,url)==base.split('://')[0]+'://'+base.split('/')[2]+prefix+url
 assert (ROOT/'static/exports'/url.rsplit('/',1)[-1]).read_bytes()==before
 for data,metric in [(before,'extent'),(area,'area')]:
     with zipfile.ZipFile(io.BytesIO(data)) as z:

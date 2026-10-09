@@ -143,7 +143,7 @@ def persisted_study_export(s,metric):
         try:os.replace(pending,target)
         finally:
             if os.path.exists(pending):os.unlink(pending)
-    return '/app/static/exports/'+filename
+    return 'app/static/exports/'+filename
 
 def render_coverage(s,key='coverage'):
     start,end=s['years'];coverage=coverage_table(start,end)

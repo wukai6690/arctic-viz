@@ -57,7 +57,8 @@ def light_figure(figure):
     return fig
 
 def show_chart(figure,**kwargs):
-    config={'displaylogo':False,'scrollZoom':False,'topojsonURL':'/app/static/maps/','toImageButtonOptions':{'format':'png','scale':2}}
+    # Keep the cloud app's /~/+/ mount prefix when resolving local resources.
+    config={'displaylogo':False,'scrollZoom':False,'topojsonURL':'app/static/maps/','toImageButtonOptions':{'format':'png','scale':2}}
     config.update(kwargs.pop('config',{}) or {})
     kwargs.pop('use_container_width',None)
     kwargs.setdefault('width','stretch')
