@@ -33,5 +33,6 @@ assert not app.exception,[e.message for e in app.exception]
 app.button(key='reset-study').click().run()
 assert app.session_state['_study_region']=='all' and not app.session_state['_study_active']
 checks.append('Dependent place/low-year selections reset when necessary; global reset restores defaults')
+(ROOT/'test-results/study').mkdir(parents=True,exist_ok=True)
 (ROOT/'test-results/study/scope-report.json').write_text(json.dumps(checks,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(checks,ensure_ascii=False,indent=2))

@@ -169,7 +169,11 @@ def render_study():
     st.session_state['study-metric']=indicator()
     metric=st.radio('海冰指标',['extent','area'],format_func=lambda m:'海冰范围（Extent）' if m=='extent' else '海冰面积（Area）',horizontal=True,key='study-metric',on_change=copy_indicator)
     label='海冰范围' if metric=='extent' else '海冰面积'
-    compare,low,timeline,coverage=st.tabs(['海区与同月观测','低冰年份对照','项目与政策','资料覆盖与导出'])
+    compare,low,timeline,activities,coverage=st.tabs(['海区与同月观测','低冰年份对照','项目与政策','实际活动','资料覆盖与导出'])
+    with activities:
+        st.caption('本栏目有独立的统计范围：全北极航运端点和项目记录，不随上方海区与月份自动筛选。每一组材料在下方标明范围。')
+        from src.research_extensions import render_activities
+        render_activities()
     with compare:
         st.subheader(f'{s["month"]} 月的{label}，逐年比较')
         observation_cards(s,metric)

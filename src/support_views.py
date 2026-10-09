@@ -90,6 +90,11 @@ def render_data():
         photos += [{'归属':project_names[pid],**photo} for pid,items in project_media().items() for photo in items]
         source_table(pd.DataFrame([{'归属':p['归属'],'图注':p['caption'],'作者':p['author'],'许可':p['license'],'日期':p['date'],'来源':p['source_url']} for p in photos]),'来源','data-photos')
     with downloads:
+        from src.research_extension_data import extension_data,research_bundle
+        extended=extension_data()
+        rows=[{'section':k,'records':v} for k,v in extended.items() if isinstance(v,list) and k!='sources']
+        rows.append({'section':'shipping','records':[extended['shipping']]})
+        st.download_button('政策、机制、参与条件与文献记录 · ZIP',research_bundle('research-extension',{'scope':'完整研究扩展资料'},rows),'research-extension-evidence.zip','application/zip',key='all-extension-download',on_click='ignore')
         from src.study_data import regional_data,region_geometry
         st.download_button('三个海区的完整月度观测 · JSON',json.dumps(regional_data(),ensure_ascii=False),'regional-ice-with-provenance.json','application/json',on_click='ignore')
         st.download_button('配套统计海区边界 · GeoJSON',json.dumps(region_geometry(),ensure_ascii=False),'nsidc-research-regions.geojson','application/geo+json',on_click='ignore')
@@ -124,6 +129,6 @@ def render_about():
     section_title('ABOUT THE RESEARCH','关于研究','北极地缘与技术双向互动机制研究 · 大学生创新创业训练计划')
     st.write('研究围绕技术活动、地理条件和参与主体的关系展开。当前平台将地点实景、官方观测、项目材料与报道线索组织为可查看来源的研究资料。')
     st.markdown('**研究问题**：极地装备和通信能力如何形成？哪些机构、项目与地理节点参与其中？这些联系能为中国的科研、交通与国际参与提供什么值得检验的问题？')
-    st.markdown('**当前进展**：已建立带照片的地点档案、七个项目专题、三个海区的官方月度观测，以及历史事件核验和专利族整理工具。主研究时窗为 2016—2025；研究解释尚未通过完整活动样本和因果分析检验。')
+    st.markdown('**当前进展**：已建立带照片的地点档案、七个项目专题、三个海区的官方月度观测，以及事件核验和专利族整理工具。新增政策对照、双向作用证据、技术与活动档案、中国参与条件、多方表述、时点影像和文献核对记录。主研究时窗为 2016—2025；研究解释尚未通过完整活动样本和因果分析检验。')
     st.markdown('**展示结构**：研究总览、北极地图、区域联动、技术与地缘、研究发现。数据与方法集中记录来源，海冰观测与事件线索提供进一步查询。')
     st.caption('本平台不把功能完成等同于研究结论完成。')

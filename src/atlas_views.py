@@ -150,8 +150,11 @@ def render_atlas():
                 if st.button('阅读专题 · '+project['title'],key='map-project-'+project['id'],width='stretch'):open_project(project['id'])
         else:st.caption('该地点当前作为地理背景；尚未建立可核验的项目关联。')
     st.divider()
-    intro_tab,photos_tab,evidence_tab,globe_tab=st.tabs(['认识这个地点','地点图集','资料与事件','球面视图'])
+    intro_tab,photos_tab,history_tab,evidence_tab,globe_tab=st.tabs(['认识这个地点','地点图集','时点影像','资料与事件','球面视图'])
     with intro_tab:render_profile(place)
+    with history_tab:
+        from src.research_extensions import render_place_history
+        render_place_history(place)
     with photos_tab:
         st.subheader(place['name']+' · 实景档案')
         st.caption(place['location_note'])

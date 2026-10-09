@@ -48,6 +48,9 @@ def source_records():
              'nodes':[n['date']+' · '+n['label'] for n in context['policy_nodes'] if n['source_id']==source['id']],
              'notice':'本站整理的历史政策导读；未收录发布页全文。'})
     for source in read_json(LIBRARY/'guides.json',[]):add(source)
+    for source in read_json(ROOT/'data/reference/research_extensions.json',{}).get('sources',[]):
+        previous=records.get(source_id(source['url']),{})
+        add({**previous,**source,'research_id':source['id']})
     # Register the actual downloaded raw files, rather than remote substitutes.
     for sidecar in (ROOT/'data/analysis/raw').glob('*.source.json'):
         metadata=read_json(sidecar,{})
@@ -98,6 +101,14 @@ def render_source(record, key='reader'):
     dates=[label+' '+str(record[field])[:10] for label,field in [('发布日期','published_at'),('来源更新','revised_at'),('本站收录','retrieved_at')] if record.get(field)]
     if dates:st.caption(' · '.join(dates))
     for paragraph in record.get('summary',[]):st.write(paragraph)
+    if record.get('excerpt'):
+        st.markdown('**原文短引**');st.text(record['excerpt'])
+    if record.get('locator'):st.caption('原文定位：'+record['locator'])
+    if record.get('research_id'):
+        guide='\n'.join([record['title'],record.get('publisher',''),record.get('published_at') or '原页未注明发布日期',
+                          record.get('notice',''),*record.get('summary',[]),'原文短引：'+record.get('excerpt','无'),
+                          '原文定位：'+record.get('locator',''),record['url'],'本站核对：'+record.get('retrieved_at','')])
+        st.download_button('下载中文导读与出处 · TXT',guide,record['research_id']+'-guide.txt','text/plain',key=key+'-guide',on_click='ignore')
     if record.get('observation_records'):
         st.dataframe(pd.DataFrame(record['observation_records']),hide_index=True,width='stretch',height=300)
         st.download_button('下载本地解析观测 · CSV',pd.DataFrame(record['observation_records']).to_csv(index=False).encode('utf-8-sig'),'observations.csv','text/csv',key=key+'-observations',on_click='ignore')

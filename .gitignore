@@ -31,3 +31,4 @@ test-results/
 .analysis-deps/
 data/analysis/raw/*.zip
 static/exports/
+data/editorial/research_extension_images/

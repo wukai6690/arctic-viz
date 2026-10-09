@@ -65,7 +65,10 @@ def render_project():
             st.markdown('<div class="project-text-cover"><small>ARCTIC SATELLITE BROADBAND MISSION</small><h2>高纬地区的通信条件</h2><p>本专题核对发射公告与参与方角色。轨道卫星不作为地面设施标记。</p></div>',unsafe_allow_html=True)
             source_button(sources['asbm-launch']['url'],'阅读 Space Norway 发射公告导读',key='asbm-source')
     st.divider()
-    relation_tab,time_tab,interpretation_tab=st.tabs(['参与关系与依据','项目时间线与地点','研究解释'])
+    relation_tab,time_tab,capability_tab,mechanism_tab,interpretation_tab=st.tabs(['参与关系与依据','项目时间线与地点','技术与活动','双向作用','研究解释'])
+    from src.research_extensions import render_capability,render_mechanisms
+    with capability_tab:render_capability(pid)
+    with mechanism_tab:render_mechanisms(pid,key='project-mechanisms-'+pid)
     with relation_tab:
         st.caption('每条线对应一种具体关系，线宽不表示强度；点击菱形标记或使用下方菜单查看依据。')
         event=show_chart(relationship_figure(project),key='relations-'+pid,on_select='rerun',selection_mode='points')
@@ -133,8 +136,19 @@ def render_project():
         render_patents()
 
 def render_findings():
+    from src.research_extensions import render_mechanisms,render_policy_comparison,render_security,render_perspectives,render_literature
+    section_title('RESEARCH FINDINGS','研究发现','从政策、技术与实际活动出发，逐项检查关系怎样形成、条件怎样变化。')
+    mechanism,policy,security,perspectives,existing,literature=st.tabs(['机制与证据','政策对照','中国参与条件','多方视角','案例概览','文献与研究主张'])
+    with mechanism:render_mechanisms()
+    with policy:render_policy_comparison()
+    with security:render_security()
+    with perspectives:render_perspectives()
+    with existing:render_existing_findings()
+    with literature:render_literature()
+
+
+def render_existing_findings():
     catalog=research_catalog();by_id={p['id']:p for p in catalog['projects']}
-    section_title('RESEARCH FINDINGS','研究发现','把已核对事实、研究解释与尚未解决的问题放在一起。')
     st.caption(catalog['scope'])
     from src.study_scope import scope,scope_label,indicator
     from src.study_views import comparison_rows
