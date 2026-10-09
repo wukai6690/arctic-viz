@@ -1,4 +1,5 @@
 # 北极地缘与技术多要素联动3D可视化平台
+# Deployment refresh for research extensions (2026-10-09); package versions unchanged.
 
 streamlit==1.57.0
 pandas>=2.0.0
