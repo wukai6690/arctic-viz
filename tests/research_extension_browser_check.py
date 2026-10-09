@@ -1,7 +1,8 @@
 """Exercise visible research additions, in-place readers, exact downloads and mobile layouts."""
-import io,json,os,re,zipfile
+import io,json,os,re,time,zipfile
 from pathlib import Path
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import sync_playwright,expect
+from streamlit.proto.ForwardMsg_pb2 import ForwardMsg
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'test-results/research-extension';OUT.mkdir(parents=True,exist_ok=True)
 BASE=os.environ.get('ARCTIC_TEST_URL','http://127.0.0.1:8502')
 errors=[];checks=[]
@@ -9,6 +10,15 @@ with sync_playwright() as p:
     browser=p.chromium.launch(channel='msedge',headless=True,args=['--use-angle=swiftshader'])
     context=browser.new_context(viewport={'width':1540,'height':1060},device_scale_factor=1,accept_downloads=True)
     page=context.new_page();page.set_default_timeout(45000);page.on('pageerror',lambda e:errors.append(str(e)))
+    runs={'finished':0}
+    def watch_socket(socket):
+        if '_stcore/stream' not in socket.url:return
+        def received(payload):
+            if not isinstance(payload,bytes):return
+            msg=ForwardMsg();msg.ParseFromString(payload)
+            if msg.WhichOneof('type')=='script_finished':runs['finished']+=1
+        socket.on('framereceived',received)
+    page.on('websocket',watch_socket)
     page.goto(BASE,wait_until='domcontentloaded')
     app=page
     if 'streamlit.app' in BASE:
@@ -18,13 +28,19 @@ with sync_playwright() as p:
     def settle():
         page.wait_for_timeout(700);app.locator('.stApp[data-test-script-state="notRunning"]').wait_for()
         assert not app.locator('[data-testid="stException"]').count(),app.locator('[data-testid="stException"]').all_text_contents()
+    def run_action(action):
+        before=runs['finished'];action();deadline=time.monotonic()+60
+        while runs['finished']<=before and time.monotonic()<deadline:page.wait_for_timeout(100)
+        assert runs['finished']>before,'No completed Streamlit rerun after action'
+        settle()
     def nav(label):
-        app.locator('[data-testid="stSidebar"]').get_by_role('link',name=label,exact=True).click();settle()
+        run_action(lambda:app.locator('[data-testid="stSidebar"]').get_by_role('link',name=label,exact=True).click())
+        print('Page:',label,flush=True)
     def tab(label):app.get_by_role('tab',name=label,exact=True).click();settle()
-    def press_label(label):app.locator('[role="tabpanel"]:visible').get_by_text(label,exact=True).click();settle()
+    def press_label(label):run_action(lambda:app.locator('[role="tabpanel"]:visible').get_by_text(label,exact=True).click())
     def choose(label,value):
         c=app.get_by_role('combobox',name=re.compile(label));c.click();c.fill(value)
-        app.get_by_role('option',name=value,exact=True).click();settle()
+        run_action(lambda:app.get_by_role('option',name=value,exact=True).click())
     def shot(name,target=None):
         if target:
             target.evaluate("e=>e.scrollIntoView({block:'start'})")
@@ -34,14 +50,15 @@ with sync_playwright() as p:
         with page.expect_download() as result:app.get_by_role('button',name=button,exact=True).click()
         d=result.value;target=OUT/d.suggested_filename;d.save_as(target)
         return target
-    nav('研究发现');shot('mechanisms',app.get_by_role('tab',name='机制与证据',exact=True))
+    nav('研究发现');app.get_by_role('combobox',name=re.compile('研究问题')).wait_for()
+    shot('mechanisms',app.get_by_role('tab',name='机制与证据',exact=True))
     choose('作用方向','地缘与制度 → 技术')
-    assert '用户需求进入技术项目' in app.get_by_role('combobox',name=re.compile('研究问题')).get_attribute('aria-label')
+    expect(app.get_by_role('combobox',name=re.compile('研究问题'))).to_have_attribute('aria-label',re.compile('用户需求进入技术项目'))
     tab('政策对照')
     press_label('技术与设施')
     shot('policies',app.get_by_role('tab',name='政策对照',exact=True))
     button=app.locator('[role="tabpanel"]:visible').get_by_role('button',name='站内阅读政策导读',exact=True).first
-    before=page.url;button.click();settle()
+    before=page.url;run_action(lambda:button.click())
     dialog=app.get_by_role('dialog');dialog.wait_for();assert '2021' in dialog.inner_text()
     assert page.url==before and len(context.pages)==1
     path=download('下载中文导读与出处 · TXT');assert '2021-01-26' in path.read_text(encoding='utf-8')
@@ -76,7 +93,10 @@ with sync_playwright() as p:
     nav('北极地图');choose('当前地点','萨别塔 · Sabetta');tab('时点影像')
     panel=app.locator('[role="tabpanel"]:visible');images=panel.locator('[data-testid="stImage"] img')
     assert images.count()==2
-    for img in images.all():assert img.evaluate('e=>e.complete && e.naturalWidth>0')
+    for attempt in range(60):
+        if images.evaluate_all('(es)=>es.length===2 && es.every(e=>e.complete && e.naturalWidth>0)'):break
+        page.wait_for_timeout(500)
+    assert images.evaluate_all('(es)=>es.length===2 && es.every(e=>e.complete && e.naturalWidth>0)'),images.evaluate_all('(es)=>es.map(e=>({src:e.currentSrc,complete:e.complete,width:e.naturalWidth}))')
     shot('history',app.get_by_role('tab',name='时点影像',exact=True))
     record=download('下载影像比较记录 · JSON');assert json.loads(record.read_text(encoding='utf-8'))['place_id']=='sabetta'
     nav('数据与方法');tab('资料下载');bundle=download('政策、机制、参与条件与文献记录 · ZIP')
