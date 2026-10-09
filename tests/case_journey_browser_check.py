@@ -46,10 +46,18 @@ with sync_playwright() as p:
         settle();page.screenshot(path=str(OUT/name),animations='disabled')
     def loaded(panel=None):
         images=(panel or app).locator('[data-testid="stImage"] img')
-        for _ in range(60):
-            if images.count() and images.evaluate_all('(es)=>es.every(e=>e.complete && e.naturalWidth>0)'):return
-            page.wait_for_timeout(300)
-        raise AssertionError('Images did not finish loading')
+        images.first.wait_for(state='attached',timeout=60000)
+        for index in range(images.count()):
+            item=images.nth(index)
+            # scrollIntoView also works while an image has zero intrinsic height.
+            item.evaluate("e=>e.scrollIntoView({block:'center',inline:'nearest'})")
+            deadline=time.monotonic()+60
+            while time.monotonic()<deadline:
+                state=item.evaluate('(e)=>({src:e.currentSrc||e.getAttribute("src"),complete:e.complete,width:e.naturalWidth,height:e.naturalHeight,loading:e.loading})')
+                if state['complete'] and state['width']>0 and state['height']>0:break
+                page.wait_for_timeout(300)
+            else:raise AssertionError(f'Image {index+1} did not load in 60 seconds: {state}')
+        assert images.count()>0 and images.evaluate_all('(es)=>es.every(e=>e.complete && e.naturalWidth>0 && e.naturalHeight>0)')
     def download(label):
         with page.expect_download() as result:app.get_by_role('button',name=label,exact=True).click()
         target=OUT/result.value.suggested_filename;result.value.save_as(target);return target
