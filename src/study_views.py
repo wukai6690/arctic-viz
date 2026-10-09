@@ -223,7 +223,7 @@ def render_study():
     with coverage:
         render_coverage(s)
         url=persisted_study_export(s,metric)
-        st.html(f'<a class="local-download" href="{url}" download="arctic-study-evidence.zip">下载当前研究范围的复核包 · ZIP</a>')
+        st.html(f'<a class="local-download" href="{url}" data-region="{s["region"]}" data-month="{s["month"]}" data-metric="{metric}" download="arctic-study-evidence.zip">下载当前研究范围的复核包 · ZIP</a>')
         st.caption('包含原始精度的观测、汇总、覆盖表、项目与政策节点、海区轮廓及方法和来源清单。')
         for i,source in enumerate(regional_data()['sources']):source_button(source['url'],source['title'],key='study-raw-'+str(i))
         st.caption(regional_data()['methods']['credit'])

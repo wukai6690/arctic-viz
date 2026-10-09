@@ -1,9 +1,9 @@
 # 北极地缘与技术多要素联动3D可视化平台
 
-streamlit>=1.57.0,<2
+streamlit==1.57.0
 pandas>=2.0.0
 numpy>=1.24.0
-plotly>=6.0.0,<7
+plotly==6.8.0
 folium>=0.15.0
 streamlit-folium>=0.25.0
 requests>=2.31.0

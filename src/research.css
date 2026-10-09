@@ -97,5 +97,8 @@ a,.stMarkdown a{color:#497b6a}hr{border-color:var(--border)!important}
 .place-question p {margin:8px 0 0;line-height:1.9;color:#304d43;}
 .local-download{display:inline-block;padding:9px 14px;border:1px solid #c9d6c6;border-radius:3px;background:#fff;color:#304d43!important;font-size:13px;text-decoration:none!important;line-height:1.6;max-width:100%;overflow-wrap:anywhere}
 .local-download:hover{border-color:#497b6a;background:#eef1ea}
+/* A plain link must not serve a previous filter's file during a rerun. */
+.stApp[data-test-script-state]:not([data-test-script-state="notRunning"]) .local-download,
+[data-stale="true"] .local-download{visibility:hidden}
 [data-testid="stDialog"] pre {white-space:pre-wrap!important;overflow-wrap:anywhere;}
 @media(max-width:700px){.place-lede{font-size:1.22rem}.place-reading{min-height:0}.place-question{padding:16px}}
