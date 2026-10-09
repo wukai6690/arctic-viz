@@ -123,4 +123,8 @@ a,.stMarkdown a{color:#497b6a}hr{border-color:var(--border)!important}
 .stButton>button,.stDownloadButton>button{font-size:14px;min-height:40px}
 section[data-testid=stSidebar] [data-testid=stPageLink] a{padding:7px 10px}
 .sidebar-foot{margin-top:24px}.timeline-row p{margin:8px 0}.timeline-row small{font-size:12px}
+/* Streamlit otherwise applies 60% opacity on top of the chosen muted color. */
+[data-testid=stCaptionContainer]{opacity:1;color:var(--text2)}
+[data-testid=stCaptionContainer] p{font-size:14px;line-height:1.8;color:var(--text2)}
 @media(max-width:700px){.home-intro h1{font-size:28px!important}.case-lede{font-size:17px}.research-work{margin-bottom:10px}.policy-focus{font-size:16px!important}.stMarkdown p,.stMarkdown li{font-size:16px}}
+@media(max-width:700px){.home-intro h1{font-size:clamp(23px,6.4vw,28px)!important;text-wrap:balance}.home-intro h1 br{display:none}}

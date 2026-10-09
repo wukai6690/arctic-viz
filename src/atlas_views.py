@@ -44,6 +44,10 @@ def reset_map():
 def focus_selected():
     reset_map();st.session_state['atlas_focus']=st.session_state.get('atlas_choice')
 
+def restore_overview():
+    st.session_state.pop('atlas_focus',None)
+    reset_map()
+
 def map_label_layout(m,markers):
     helper=MacroElement()
     helper.markers=markers
@@ -77,17 +81,24 @@ def render_atlas():
     catalog=place_catalog();places=catalog['places'];by_id={p['id']:p for p in places}
     research=research_catalog();sources={s['id']:s for s in research['sources']}
     st.markdown('<header class="atlas-editorial-heading"><small>ARCTIC ATLAS</small><h1>北极地图</h1><p>沿着地点认识北极，再从项目追溯关系与依据。</p></header>',unsafe_allow_html=True)
+    from src.study_scope import scope,scope_label,open_study
+    study=scope();active=st.session_state.get('_study_active',False);scope_token=(active,study['region'])
     pending=st.session_state.pop('_atlas_pending_place',None)
-    if not st.session_state.get('atlas_initialized'):
-        pending=pending or st.query_params.get('place');st.session_state['atlas_initialized']=True
+    returning='atlas_choice' not in st.session_state and 'atlas_search' not in st.session_state
+    if not st.session_state.get('atlas_initialized') or returning:
+        requested=st.query_params.get('place')
+        scope_changed=st.session_state.get('_atlas_scope_token') not in [None,scope_token]
+        if not scope_changed or requested!=st.session_state.get('_atlas_selected_place'):
+            pending=pending or requested
+        if not pending and st.session_state.get('_atlas_scope_token')==scope_token:
+            pending=st.session_state.get('_atlas_selected_place')
+        st.session_state['atlas_initialized']=True
     if pending in by_id:
         st.session_state['atlas_choice']=pending
         st.session_state['atlas_region']='全部地区';st.session_state['atlas_kind']='全部类型';st.session_state['atlas_search']=''
         st.session_state['atlas-theme']='全部地点'
         st.session_state['atlas_focus']=pending;reset_map()
-    from src.study_scope import scope,scope_label,open_study
     from src.study_data import ASSOCIATIONS,region_geometry
-    study=scope();active=st.session_state.get('_study_active',False);scope_token=(active,study['region'])
     if st.session_state.get('_atlas_scope_token')!=scope_token:
         st.session_state['_atlas_scope_token']=scope_token
         st.session_state['atlas-study-filter']=active and study['region']!='all';reset_map()
@@ -112,8 +123,11 @@ def render_atlas():
     if not filtered:
         st.info('没有符合条件的地点，请调整地区、类型或搜索词。');return
     ids=[p['id'] for p in filtered]
-    if st.session_state.get('atlas_choice') not in ids:st.session_state['atlas_choice']='nyalesund' if 'nyalesund' in ids else ids[0]
+    if st.session_state.get('atlas_choice') not in ids:
+        previous=st.session_state.get('_atlas_selected_place')
+        st.session_state['atlas_choice']=previous if previous in ids else ('nyalesund' if 'nyalesund' in ids else ids[0])
     selection=st.session_state['atlas_choice']
+    st.session_state['_atlas_selected_place']=selection
     place=by_id[selection];st.query_params['place']=selection
     map_col,detail=st.columns([2.3,1],gap='large')
     with map_col:
@@ -166,8 +180,7 @@ def render_atlas():
                     st.session_state['_atlas_click_pending']=match['id'];st.rerun()
         st.markdown('<div class="atlas-legend">'+''.join(f'<span><i style="background:{c}"></i>{k}</span>' for k,c in COLORS.items())+'</div>',unsafe_allow_html=True)
         if overlay:st.caption('海区边界与区域海冰统计配套，来源 NSIDC Meier 2007 掩膜；不表示法律边界或可通航范围。')
-        if st.button('恢复北极全景',key='atlas_reset'):
-            st.session_state.pop('atlas_focus',None);reset_map();st.rerun()
+        st.button('恢复北极全景',key='atlas_reset',on_click=restore_overview)
     with detail:
         st.selectbox('当前地点',ids,format_func=lambda x:by_id[x]['name']+' · '+by_id[x]['english'],key='atlas_choice',on_change=focus_selected)
         st.markdown(f'<div class="eyebrow">{escape(place_region(place))} / {escape(place_category(place))}</div>',unsafe_allow_html=True)

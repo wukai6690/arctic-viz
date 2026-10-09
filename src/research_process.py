@@ -12,6 +12,12 @@ FIELDS=['id','kind','status','activity_date','question','participant_code','plac
 
 def template():return {k:({'kind':'访谈','status':'计划','consent':'尚未征求'}.get(k,'')) for k in FIELDS}
 
+def start_new_record():
+    """Clear only this session's form, leaving any saved research records intact."""
+    st.session_state['_fieldwork_draft']=template()
+    st.session_state.pop('_fieldwork_export',None)
+    for field,value in template().items():st.session_state['fieldwork-input-'+field]=value
+
 def validate_record(record):
     if not isinstance(record,dict):raise ValueError('每条记录须为一个对象。')
     if set(record)-set(FIELDS):raise ValueError('记录包含模板以外的字段，请先移除。')
@@ -99,18 +105,25 @@ def render_entry():
     local=os.environ.get('ARCTIC_ENABLE_LOCAL_REVIEW')=='1'
     st.caption('本地整理模式：可追加保存记录。' if local else '公开阅读模式：可填写和下载；不永久保存会话中的填写内容。')
     st.download_button('下载空白记录模板 · JSON',json.dumps(template(),ensure_ascii=False,indent=2),'fieldwork-template.json','application/json',on_click='ignore')
+    st.caption('离开本页前，请点击“整理为可下载记录”；本次会话返回后可继续修改。未整理的输入不会跨页保留。')
+    st.button('开始新记录',key='fieldwork-new',on_click=start_new_record,help='清空当前表单和下载预览，不删除已经保存的本地记录。')
+    draft=st.session_state.get('_fieldwork_draft',template())
+    keys={field:'fieldwork-input-'+field for field in FIELDS}
+    for field in FIELDS:
+        if keys[field] not in st.session_state:st.session_state[keys[field]]=draft.get(field,template()[field])
     with st.form('fieldwork-form'):
-        a,b=st.columns(2);rid=a.text_input('记录编号',placeholder='例如 interview-001');kind=b.selectbox('活动类型',KINDS)
-        a,b=st.columns(2);status=a.selectbox('完成状态',STATES);when=b.text_input('计划或实际日期',placeholder='YYYY-MM-DD；计划可暂留空')
-        question=st.text_area('这次活动要回答什么问题')
-        a,b=st.columns(2);person=a.text_input('参与者代号或角色（选填）');place=b.text_input('地点或线上方式（选填）')
-        summary=st.text_area('记录摘要',placeholder='计划阶段填准备内容；完成后写有原始材料支持的观察。')
-        evidence=st.text_input('原始材料编号或受控目录索引',placeholder='仅记录索引，不上传个人资料')
-        consent=st.selectbox('记录与引用约定',CONSENT)
-        limits=st.text_area('材料能说明什么，还有哪些限制');change=st.text_area('据此需要修改的内容（选填）')
+        a,b=st.columns(2);rid=a.text_input('记录编号',placeholder='例如 interview-001',key=keys['id']);kind=b.selectbox('活动类型',KINDS,key=keys['kind'])
+        a,b=st.columns(2);status=a.selectbox('完成状态',STATES,key=keys['status']);when=b.text_input('计划或实际日期',placeholder='YYYY-MM-DD；计划可暂留空',key=keys['activity_date'])
+        question=st.text_area('这次活动要回答什么问题',key=keys['question'])
+        a,b=st.columns(2);person=a.text_input('参与者代号或角色（选填）',key=keys['participant_code']);place=b.text_input('地点或线上方式（选填）',key=keys['place'])
+        summary=st.text_area('记录摘要',placeholder='计划阶段填准备内容；完成后写有原始材料支持的观察。',key=keys['summary'])
+        evidence=st.text_input('原始材料编号或受控目录索引',placeholder='仅记录索引，不上传个人资料',key=keys['evidence_reference'])
+        consent=st.selectbox('记录与引用约定',CONSENT,key=keys['consent'])
+        limits=st.text_area('材料能说明什么，还有哪些限制',key=keys['limits']);change=st.text_area('据此需要修改的内容（选填）',key=keys['change_basis'])
         submitted=st.form_submit_button('整理为可下载记录')
     if submitted:
-        try:st.session_state['_fieldwork_export']=validate_record(dict(zip(FIELDS,[rid,kind,status,when,question,person,place,summary,evidence,consent,limits,change])))
+        st.session_state['_fieldwork_draft']=dict(zip(FIELDS,[rid,kind,status,when,question,person,place,summary,evidence,consent,limits,change]))
+        try:st.session_state['_fieldwork_export']=validate_record(st.session_state['_fieldwork_draft'])
         except ValueError as e:st.session_state.pop('_fieldwork_export',None);st.error(str(e))
     record=st.session_state.get('_fieldwork_export')
     if record:

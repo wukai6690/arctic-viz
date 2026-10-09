@@ -61,6 +61,8 @@
 
 本轮新增 `tests/research_journey_check.py`、`tests/research_process_check.py`、`tests/mosaic_case_check.py`、`tests/deep_case_content_check.py` 与地图/综合浏览器检查。数据检查覆盖原始船位行号、日期匹配、图片哈希、案例时点、单位口径、记录导入导出及私有/公开模式隔离。
 
+使用验收另增加 `tests/acceptance_state_check.py` 与 `tests/acceptance_browser_check.py`：说明文字取消叠加透明度，手机首页标题避免孤字；从专题返回地图时，选中地点与地图中心一起恢复，新的海区筛选仍优先；已点击“整理为可下载记录”的表单保存在当前会话，跨页返回后可继续修改，开始新记录不删除本地历史。未整理的表单输入不承诺跨页保留。浏览器检查覆盖 1440、1024、768、390、320 像素宽度，实际下载与公开模式不落盘。
+
 MOSAiC 由 `scripts/collect_mosaic_case.py` 收集，保存原始 PANGAEA TSV、许可、哈希和冰图。每日船位为最接近 UTC 12:00 的真实点，地图按实际点抽稀；并非 AIS 数据，航行与随冰漂流都在航迹中。冰图标题日期与图内船位时刻可能不同，页面明确保留差异。查看时不进行远程资料下载。
 
 深入案例由 `scripts/build_deep_cases.py` 生成。PDF 由 `scripts/build_case_reports.py` 从同一案例内容生成，构建环境需要 ReportLab、Pillow 和 Windows 微软雅黑字体；公开网站仅提供预先构建文件，不需要 PDF 构建依赖。`static/reports/manifest.json` 保存报告哈希。原技术专题仍保留，并增加完整案例入口。
