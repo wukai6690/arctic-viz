@@ -1,0 +1,135 @@
+Esrange Space Center or Esrange is Sweden's space and research center located about 40 kilometers east of the town of Kiruna in northern Sweden, owned and operated by SSC Space. The base itself covers 20 square kilometers, while the impact area for rockets is 5,600 km2. Located 200 km north of the Arctic Circle, the geographic location of Esrange is advantageous thanks to the limited light pollution, allowing for studies of northern lights. The stable climate, limited commercial air traffic and sparsely populated area are further reasons why the location is well suited for space activities. 
+Esrange was constructed in 1964 by ESRO, which later became European Space Agency by merging with ELDO, the European Launcher Development Organisation. In 1972 the management of Esrange was transferred to SSC Space. 
+Today, Esrange is a center for scientific research and commercial spaceflight, through launches of sounding rockets and high-altitude balloons, studies of the aurora borealis, rocket tests, satellite launches and other space-related and atmospheric research. To date, more than 600 sounding rockets have been launched and nearly 700 stratospheric balloons have been released from Esrange. The facility is also the hub of the world's second largest civilian network of satellite ground stations which is used to communicate with, track and downlink data from satellites in orbit. 
+In January 2023, the first facility in the continental EU for satellite launches was inaugurated at Esrange, however, Andøya Space in Norway, which was inaugurated in November 2023, saw the first orbital launch from the continental EU with a Spectrum on 5 September 2026. The first satellite launch from Esrange is expected to take place with Firefly Aerospace's Alpha rocket at an undetermined date. Esrange is also housing Europe's program for the development of reusable rockets, Themis, run by Ariane Group on behalf of the European Space Agency (ESA), set for a first hop-test in 2026.
+
+
+== History ==
+In the 1960s, Esrange was established as an ESRO sounding rocket launching range located in Kiruna. This location was chosen because it was generally agreed that it was important to carry out a sounding rocket programme in the auroral zone, and for this reason it was essential that ESRO equip itself with a suitable range in the northern latitudes. Access to Kiruna was good by air, road and rail, and the launching range was relatively close to the town of Kiruna, Esrange would be located near Kiruna Geophysical Observatory (later renamed to Swedish Institute of Space Physics). 
+1964 - Construction begun on Esrange, an initiative by ESAs precursor ESRO. To elevate Europe's space capabilities. 
+1966 - The first rocket launch from Esrange occurred on 19 November 1966 and was a Centaur-1 rocket.
+1972 - Full ownership and operations of the range was transferred to the Swedish Space Corporation. 
+1974 - Esrange launched their first stratospheric ballons. the SAMBO-1, it cruised at an altitude of around 15-45 km. 
+2000 - Swedish Space Corporation acquired USN (Universal Space Network) in the US and started the establishment of SSC Space's global ground station network.
+2004 - SSC Space acquires German company LSE Space, which enabled SSC Space and Esrange to begin Spacecraft Operations and Engineering Services.  
+2020 - Testbeds were introduced at Esrange Space Center after the Swedish government's decision to launch satellites from Esrange formalized. 
+2023 - Marks a historical moment for Esrange when Spaceport Esrange was inaugurated, enabling Esrange's for the first time to be capable for orbital launches.
+2025 - The first European reusable rocket was transported to Esrange to conduct in 2026 a series of VTVL, (Vertical takeoff, vertical landing) for the first time in European history. The first-stage rocket is the Themis T1H demonstrator assembled and constructed by ArianeGroup.
+
+
+== Name ==
+The name of the facility was originally ESRANGE, which was an abbreviation for ESRO Sounding Rocket Launching Range.
+When SSC Space took over the range, its name became Esrange (with capital 'E' only).
+Esrange Space Center is the name that is currently used for the facility. 
+Spaceport Esrange is used on the new LC-3 orbital launch site.
+Other ways to interpret the name over the years has been European Space and Sounding Rocket Range, and European Space Range.
+
+
+== Rocket Activities ==
+There had been Swedish rocket activities previously, mainly at Kronogård (18 launches in the period 1961–1964). However, the rocket activity in Sweden did not gain thrust until after ESRO established Esrange in 1964.
+During the period 1966–1972 ESRO launched more than 150 rockets from Esrange. Most of these were Centaure, Nike Apache, and Skua rockets reaching 100–220 km altitude. They supported many branches of European research, but the emphasis was on atmospheric and ionospheric research.
+
+
+=== Sounding rockets ===
+Gradually the smaller rockets were complemented by larger rockets reaching higher altitudes, achieving weightlessness for a few minutes when the rocket is above the parts of the atmosphere giving an appreciable friction. Three main programmes, Texus, Maser, and Maxus currently dominate the rocket activities at Esrange and support microgravity research for ESA and DLR:
+
+SSC Space, jointly with DLR, introduced a new launch service with the Suborbital Express programme launched in 2019. Suborbital Express is now integrating the Maser microgravity programme.
+More than 600 rockets have been launched from Esrange since 19 November 1966, On November 11, 2024, Esrange reached the milestone after almost 58 years since operations begun. For information on individual rockets, see the List of rockets launched from Esrange.
+Esrange has 6 launchers and 1 major launch pad:
+
+MAXUS launcher (used for the CASTOR 4B rocket)
+MAN launcher (owned by DLR)
+MRL Launcher (used for the Orion, Nike-Orion, Taurus-Orion, Nike-Black Brant V, Terrier-Black Brant rockets)
+Skylark launch tower (now used for the VSB-30 rocket)
+FFAR launcher (used for Folding-Fin Aerial Rockets)
+SULO/VIPER launcher (used for Super Loki and VIPER rockets
+LC-3 (Launch Complex 3) Launch pad intended for small and larger rockets and orbital launches.
+
+
+=== Reusable rocket testing ===
+The Themis T1H first-stage reusable rocket prototype developed by ArianeGroup and a part of the European Space Agency's Themis programme funded by the EU led SALTO project aims to test reusable rockets on the European mainland. The initiative aims to elevate Europe's space capabilities and Esrange will be leveraged in the process. 
+On June 27, 2025 the Themis prototype arrived from its as assembly site in Les Mureaux, France to Esrange Space Center east of Kiruna, Sweden and is now being prepared for its first flight test. The first launch is scheduled for 2026.
+At Esrange it will be tested in a series of flights ensuring that the rocket will land and perform at optimal ability before being transported back to France to perform a full domain flight. It is one of the largest rockets to be launched from Esrange and the first reusable rocket to be launched from European soil. From Esrange it will perform multiple launches in 2026 ranging from low-altitude tests to extended flights.
+The tests will be undertaken at the Spaceport Esrange's LC-3 launch pad, where takeoffs and landings will occur on and within a 40x40m area, the rocket will on its first launch do a "hop" of about 20 meters high by doing a VTVL, (vertical-takeoff, vertical-landing) with the help of landing legs that will be installed under the rocket before launch.
+
+
+=== Rocket motor tests ===
+Esrange houses several testbed facilities where European rocket companies are developing new rocket models through motor tests and rocket reuse demonstrations. Isar Aerospace is currently conducting motor tests of their rocket Spectrum, while Rocket Factory Augsburg (RFA) is doing the same on their rocket RFA One.
+
+
+== Satellite Services ==
+The arctic latitude of Esrange makes it very suitable for communication with satellites in polar orbits. Esrange Satellite Station is part of a global network with stations in Canada, USA, Chile, Thailand, and Australia, as well as partner stations in other locations. This global network is operated from Esrange, owned by SSC Space. 
+Esrange Space Center satellite station focuses on data acquisition and processing for remote sensing and scientific missions as well as TT&C support. The station is often used in combination with SSC Space's Inuvik Satellite Station in northern Canada, to increase coverage opportunities for polar orbiting missions.
+Esrange Space Center satellite station includes six independent Telemetry Tracking & Command (TT&C) systems in S-Band (one with receive capability also in the UHF-Band), six multi-frequency receive antenna systems in S/X-Band and an operational building which houses reception system electronics and data processing equipment. Satellite services at Esrange began in 1978.
+
+
+=== Satellite Control Services ===
+A number of telecommunication satellites have been controlled through Esrange:
+
+Tele-X (1989–1998)
+Sirius-1 (1995–2003)
+Sirius-2 (1997–2009)
+Sirius-3 (1998–2015)
+Sirius-4 (2008–)
+Most research satellites of the Swedish space programme have received control commands through Esrange:
+
+Viking (1986–1987)
+Freja (1992–1996)
+Astrid-1 (1995)
+Odin (2001–)
+The exception was controlled from SSC Space's laboratories in Solna outside Stockholm:
+
+Astrid-2 (1998–1999)
+
+
+=== Ground Station Services ===
+Data have been received at Esrange from more than 50 satellites, including SPOT 1–5, Landsat 2–7, ERS-1–2 and Envisat.
+
+
+== Satellite Launch Capabilities ==
+Ideas to use Esrange Space Center for orbital launches has existed since the inauguration of the facility in 1966, then in the vision of ESRO. As new smaller launch projects started to emerge in the beginning of the new millennia, SSC Space started to form new ideas to use these to obtain an orbital capability On October 14, 2020, Matilda Ernkrans, the Swedish Space Minister, announced the decision of the Swedish government to establish capability to launch small satellites from Esrange Space Center in northern Sweden.
+The orbital launch site, LC-3, was inaugurated on 13 January 2023 as the ribbon was cut by the Swedish king Carl XVI Gustaf, prime minister Ulf Kristersson together with head commissioner President Ursula Von der Leyen. There are currently plans for an orbital launch in 2026 at earliest.
+
+
+=== Upcoming Orbital Launches ===
+Alongside the upcoming ArianeGroup Themis demonstrator reusable rocket tests, SCC has partnered with American company Firefly Aerospace to launch satellites into orbit. The Firefly Alpha small-lift expendable launch vehicle will launch small satellites into Earth orbit from Spaceport Esrange.
+South Korean aerospace company Perigee Aerospace signed an agreement with SCC to launch their new Blue Whale 1 orbital rocket for small satellites from Esrange in 2026 or later, after first being performing its maiden flight in South Korea. These launches marks the first time Esrange will be used for orbital missions and puts Sweden as a contender with Norway's Andøya Spaceport, and Scotland's SaxaVord Spaceport for performing the first orbital launches from European soil.
+
+
+== Balloon Activities ==
+
+Since 1974, more than 600 high-altitude balloons have been launched from Esrange for research purposes. The launch pad can handle ballons with volumes exceeding 1 million cubic meters.
+In the summer of 2024, NASA launched a record-breaking stratospheric balloon (1.7 million cubic meters) from Esrange, called Booms. This was the first time such a large balloon had been launched in Europe and the second time ever worldwide.
+
+
+== Impact ==
+The area of the site is traditional land of the Sami people, particularly for reindeer herding. Shelters have been established for people in the surrounding area to take cover during launches. Increased industrial, military and aeronautic activity in the region has been viewed critically by Sami people.
+
+
+== See also ==
+List of rockets launched from Esrange
+Swedish Space Corporation
+Swedish National Space Agency
+Swedish Institute of Space Physics
+North European Aerospace Test range
+List of rocket launch sites
+Rexus/Bexus
+SaxaVord Spaceport
+
+
+== References ==
+
+
+=== Footnotes ===
+
+
+=== Sources ===
+The History of Sounding Rockets and Their Contribution to European Space Research, Günther Seibert, ESA HSR-38, November 2006, ISBN 92-9092-550-7.
+
+
+== External links ==
+ Media related to Esrange at Wikimedia Commons
+
+Esrange Space Center
+List of stratospheric balloons launched from Esrange
+SSC Space - Official site

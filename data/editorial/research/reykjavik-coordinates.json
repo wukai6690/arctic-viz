@@ -1,0 +1,26 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "25798": {
+        "pageid": 25798,
+        "ns": 0,
+        "title": "Reykjavík",
+        "coordinates": [
+          {
+            "lat": 64.14583333,
+            "lon": -21.9425,
+            "primary": "",
+            "globe": "earth"
+          }
+        ],
+        "pageprops": {
+          "defaultsort": "Reykjavik",
+          "page_image_free": "Reykjavík,_view_from_Hallgrímskirkja_(2).jpg",
+          "wikibase-shortdesc": "Capital and most populous city of Iceland",
+          "wikibase_item": "Q1764"
+        }
+      }
+    }
+  }
+}

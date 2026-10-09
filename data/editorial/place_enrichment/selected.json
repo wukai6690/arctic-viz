@@ -1,0 +1,198 @@
+[
+  {
+    "owner": "kullorsuaq",
+    "id": "11343300",
+    "caption": "库洛尔苏阿克岛的 Devil’s Thumb 山峰",
+    "topic": "自然环境",
+    "scope": "同名岛屿山体；不是聚落中心。"
+  },
+  {
+    "owner": "kullorsuaq",
+    "id": "11399726",
+    "caption": "库洛尔苏阿克的教堂",
+    "topic": "社区生活",
+    "scope": "当地公共建筑与社区环境。"
+  },
+  {
+    "owner": "nyalesund",
+    "id": "22545832",
+    "caption": "新奥尔松 Kings Bay 海洋实验室",
+    "topic": "科研设施",
+    "scope": "海洋实验室外景；不等于整个站区。"
+  },
+  {
+    "owner": "svalsat",
+    "id": "139263030",
+    "caption": "从 SvalSat 所在山地望向 Isfjorden 峡湾（2015 年）",
+    "topic": "自然环境",
+    "scope": "站点周边地貌；不用于判断站点通信覆盖。"
+  },
+  {
+    "owner": "murmansk",
+    "id": "119381863",
+    "caption": "摩尔曼斯克港的办公建筑（2022 年）",
+    "topic": "社区生活",
+    "scope": "港区建筑外景。"
+  },
+  {
+    "owner": "tiksi",
+    "id": "1361508",
+    "caption": "季克西的城镇与沿岸背景 · NOAA 来源影像",
+    "topic": "社区生活",
+    "scope": "季克西地点实景；日期以来源记录为准。"
+  },
+  {
+    "owner": "tiksi",
+    "id": "52542464",
+    "caption": "季克西城区街景",
+    "topic": "社区生活",
+    "scope": "Tiksi-3 地区的历史实景。"
+  },
+  {
+    "owner": "pevek",
+    "id": "45781285",
+    "caption": "佩韦克港附近穿过道路的野兔",
+    "topic": "自然环境",
+    "scope": "当地动物与道路环境；不是生态种群调查。"
+  },
+  {
+    "owner": "akureyri",
+    "id": "70587974",
+    "caption": "阿克雷里城市景观",
+    "topic": "社区生活",
+    "scope": "阿克雷里地点背景。"
+  },
+  {
+    "owner": "cambridgebay",
+    "id": "152790151",
+    "caption": "剑桥湾的 Ikaluktutiak 合作商店",
+    "topic": "社区生活",
+    "scope": "当地日常生活设施，不是 CHARS 实验楼。"
+  },
+  {
+    "owner": "inuvik",
+    "id": "47215224",
+    "caption": "伊努维克 Our Lady of Victory 教堂的正面",
+    "topic": "社区生活",
+    "scope": "城镇公共建筑，来源注明晚间阳光场景。"
+  },
+  {
+    "owner": "utqiagvik",
+    "id": "89869433",
+    "caption": "乌特恰维克（旧称巴罗）的商业建筑",
+    "topic": "社区生活",
+    "scope": "城镇银行与通信服务等标识所在建筑。"
+  },
+  {
+    "owner": "nome",
+    "id": "97066006",
+    "caption": "诺姆 Front Street 历史街景（约 1901 年）",
+    "topic": "历史影像",
+    "scope": "历史城市生活背景，不是今日诺姆。"
+  },
+  {
+    "owner": "nome",
+    "id": "34011245",
+    "caption": "诺姆 Front Street 的风暴受损场景（2004 年 10 月 19 日）",
+    "topic": "历史影像",
+    "scope": "明确日期的灾害历史照片，不用于描述当前受灾状态。"
+  },
+  {
+    "owner": "churchill",
+    "id": "89308395",
+    "caption": "丘吉尔周边的苔原景观",
+    "topic": "自然环境",
+    "scope": "哈德孙湾岸附近环境背景。"
+  },
+  {
+    "owner": "resolute",
+    "id": "17342660",
+    "caption": "雷索卢特湾郊外砾石地表的地衣",
+    "topic": "自然环境",
+    "scope": "地表植物细部；不作物种鉴定或覆盖度估算。"
+  },
+  {
+    "owner": "resolute",
+    "id": "24741269",
+    "caption": "雷索卢特机场附近 Signal Hill 上的 VOR 导航设施",
+    "topic": "交通与港口",
+    "scope": "航空导航设施，不是卫星地面站。"
+  },
+  {
+    "owner": "bremerhaven",
+    "id": "152423486",
+    "caption": "不来梅港老港与海事博物馆一带（2024 年）",
+    "topic": "社区生活",
+    "scope": "城市与海事文化景观。"
+  },
+  {
+    "owner": "bremerhaven",
+    "id": "4530377",
+    "caption": "北极星号科考船上的无线电室 · 设备历史影像",
+    "topic": "科研设施",
+    "scope": "船内设备背景；拍摄地点未在来源中明确，不作为不来梅港地面设施。"
+  },
+  {
+    "owner": "shanghai",
+    "id": "70314252",
+    "caption": "江南造船厂分段装配作业（1965 年历史照片）",
+    "topic": "历史影像",
+    "scope": "历史工业生产，并非雪龙 2 号建造画面。"
+  },
+  {
+    "owner": "shanghai",
+    "id": "68671212",
+    "caption": "江南造船厂自由锻造水压机（1965 年历史照片）",
+    "topic": "历史影像",
+    "scope": "历史设备，并非长兴岛现有设施或雪龙 2 号设备。"
+  },
+  {
+    "owner": "tiksi",
+    "id": "52492382",
+    "caption": "季克西城镇与周边地貌",
+    "topic": "社区生活",
+    "scope": "聚落实景，拍摄年代见来源。"
+  },
+  {
+    "owner": "tromso",
+    "id": "129172245",
+    "caption": "特罗姆瑟大桥与大陆一侧的北极教堂",
+    "topic": "社区生活",
+    "scope": "城市跨海联系与公共建筑，不是科研设施。"
+  },
+  {
+    "owner": "reykjavik",
+    "id": "93703293",
+    "caption": "雷克雅未克 Tjörnin 湖旁的学校与城市建筑",
+    "topic": "社区生活",
+    "scope": "城市湖区与公共生活场景。"
+  },
+  {
+    "owner": "helsinki",
+    "id": "73602559",
+    "caption": "赫尔辛基市场广场与南港",
+    "topic": "社区生活",
+    "scope": "海岸城市生活景观。"
+  },
+  {
+    "owner": "helsinki",
+    "id": "152984827",
+    "caption": "赫尔辛基市场广场保留的港口铁路轨道（2024 年）",
+    "topic": "历史影像",
+    "scope": "现地拍摄的旧铁路遗迹，非现役货运线路。"
+  },
+  {
+    "owner": "sabetta",
+    "id": "118058857",
+    "caption": "萨别塔 LNG 设施",
+    "topic": "产业现场",
+    "scope": "萨别塔能源项目现场；设施能力以项目材料为准。"
+  },
+  {
+    "owner": "bremerhaven",
+    "id": "152465429",
+    "caption": "不来梅港城市建筑与滨水环境（2024 年）",
+    "topic": "社区生活",
+    "scope": "港城建筑景观，非科考船现场。"
+  }
+]

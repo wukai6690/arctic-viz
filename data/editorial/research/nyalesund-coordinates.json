@@ -1,0 +1,26 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "455749": {
+        "pageid": 455749,
+        "ns": 0,
+        "title": "Ny-Ålesund",
+        "coordinates": [
+          {
+            "lat": 78.925,
+            "lon": 11.92222222,
+            "primary": "",
+            "globe": "earth"
+          }
+        ],
+        "pageprops": {
+          "defaultsort": "Ny Alesund",
+          "page_image_free": "Ny-Ålesund_2013_06_07_3603.jpg",
+          "wikibase-shortdesc": "Town in Svalbard, Norway",
+          "wikibase_item": "Q55669"
+        }
+      }
+    }
+  }
+}

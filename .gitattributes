@@ -1,0 +1,4 @@
+# Preserve source bytes used by the published provenance checksums.
+data/library/texts/* -text -whitespace
+data/analysis/raw/** -text -whitespace
+static/places/* -text

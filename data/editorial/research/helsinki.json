@@ -1,0 +1,1338 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 12,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "98520675": {
+        "pageid": 98520675,
+        "ns": 6,
+        "title": "File:Eteläranta - ser063525 - hkm.HKMS000005-km0000nzvb.jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1237882,
+            "width": 3897,
+            "height": 2598,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Etel%C3%A4ranta_-_ser063525_-_hkm.HKMS000005-km0000nzvb.jpg/960px-Etel%C3%A4ranta_-_ser063525_-_hkm.HKMS000005-km0000nzvb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 640,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Etel%C3%A4ranta_-_ser063525_-_hkm.HKMS000005-km0000nzvb.jpg/1920px-Etel%C3%A4ranta_-_ser063525_-_hkm.HKMS000005-km0000nzvb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Etel%C3%A4ranta_-_ser063525_-_hkm.HKMS000005-km0000nzvb.jpg/960px-Etel%C3%A4ranta_-_ser063525_-_hkm.HKMS000005-km0000nzvb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 640,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Etel%C3%A4ranta_-_ser063525_-_hkm.HKMS000005-km0000nzvb.jpg/1920px-Etel%C3%A4ranta_-_ser063525_-_hkm.HKMS000005-km0000nzvb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Etel%C3%A4ranta_-_ser063525_-_hkm.HKMS000005-km0000nzvb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Etel%C3%A4ranta_-_ser063525_-_hkm.HKMS000005-km0000nzvb.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=98520675",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-01-04 12:31:12",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Eteläranta",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Icebreakers of Finland|Eteläranta|Black and white photographs of Finland in the 1970s|Files from the Helsinki City Museum|Files uploaded by FinnaUploadBot|Photographs by Simo Rista|August 1970 Finland photographs|Admin reviewed Finna images|August 1970 in Helsinki|1970 black and white photographs|Black and white photographs of South Harbour, Helsinki",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q11893546\" class=\"extiw\" title=\"d:Q11893546\"><span title=\"Finnish photographer (1933–2021)\">Simo Rista</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "Eteläranta. Näkymä Suomenlinnan lautalta Vanhan kauppahallin suuntaan. Kuvassa Vironaltaan edustalla Pakkahuoneenlaiturissa vanha satamajäänsärkijä Otso, vieressä Lyybekinlaiturissa rautatroolari Suomi-422. -- negatiivi, filmi, mv",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "August 1970<div style=\"display: none;\">date QS:P571,+1970-08-00T00:00:00Z/10</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "Finna: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.finna.fi/Record/hkm.HKMS000005:km0000nzvb\">hkm.HKMS000005:km0000nzvb</a><br>Image record page in Finna: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.finna.fi/Record/hkm.42660CF1-D5D1-41FA-9153-7C2D7439D7A9\">hkm.42660CF1-D5D1-41FA-9153-7C2D7439D7A9</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by/4.0/deed.fi\">CC BY 4.0</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "15954351": {
+        "pageid": 15954351,
+        "ns": 6,
+        "title": "File:Finnish icebreaker Murtaja.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 75832,
+            "width": 656,
+            "height": 466,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Finnish_icebreaker_Murtaja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 960,
+            "thumbheight": 682,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Finnish_icebreaker_Murtaja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 682
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Finnish_icebreaker_Murtaja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Finnish_icebreaker_Murtaja.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15954351",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2011-07-31 08:42:59",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Finnish icebreaker Murtaja",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Murtaja (ship, 1890)|PD Old|CC-PD-Mark|Icebreakers in action|PD-old missing SDC copyright status|Black and white photographs of South Harbour, Helsinki|History of water transport in Helsinki",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Icebreaker <i>Murtaja</i> in the port of Helsinki in the 1890s.\nPhotographed by Karl Emil Ståhlberg (1862-1919).",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-07-31",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://trip.abo.fi/cgi-bin/thw?%24%7BAPPL%7D=bildsam&amp;%24%7BBASE%7D=bildsam&amp;%24%7BTHWIDS%7D=0.53/1312101293_11348&amp;%24%7Bhtml%7D=post\">Åbo Akademis bildsamlingar/ÅABS</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Ståhlberg, Karl Emil (1862-1919)",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "146003742": {
+        "pageid": 146003742,
+        "ns": 6,
+        "title": "File:Harbour icebreaker Hercules and steamship Yrsa 1941 (4616C; JOKAHBL3C B23-1).tif",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 30827776,
+            "width": 6624,
+            "height": 4648,
+            "pagecount": 1,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Harbour_icebreaker_Hercules_and_steamship_Yrsa_1941_%284616C%3B_JOKAHBL3C_B23-1%29.tif/lossy-page1-960px-Harbour_icebreaker_Hercules_and_steamship_Yrsa_1941_%284616C%3B_JOKAHBL3C_B23-1%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 674,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Harbour_icebreaker_Hercules_and_steamship_Yrsa_1941_%284616C%3B_JOKAHBL3C_B23-1%29.tif/lossy-page1-1920px-Harbour_icebreaker_Hercules_and_steamship_Yrsa_1941_%284616C%3B_JOKAHBL3C_B23-1%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Harbour_icebreaker_Hercules_and_steamship_Yrsa_1941_%284616C%3B_JOKAHBL3C_B23-1%29.tif/lossy-page1-960px-Harbour_icebreaker_Hercules_and_steamship_Yrsa_1941_%284616C%3B_JOKAHBL3C_B23-1%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 674,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Harbour_icebreaker_Hercules_and_steamship_Yrsa_1941_%284616C%3B_JOKAHBL3C_B23-1%29.tif/lossy-page1-1920px-Harbour_icebreaker_Hercules_and_steamship_Yrsa_1941_%284616C%3B_JOKAHBL3C_B23-1%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Harbour_icebreaker_Hercules_and_steamship_Yrsa_1941_%284616C%3B_JOKAHBL3C_B23-1%29.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Harbour_icebreaker_Hercules_and_steamship_Yrsa_1941_(4616C;_JOKAHBL3C_B23-1).tif",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=146003742",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-03-02 13:46:41",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Harbour icebreaker Hercules and steamship Yrsa",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Icebreakers of Finland|Finna review needed|1941 in Helsinki|Black and white photographs of Helsinki|Files uploaded by FinnaUploadBot|Ships in Helsinki|Frozen Baltic Sea in Finland|JOKA Press Photo Archive|Photographs by Hugo Sundström|Finland photographs taken on 1941-01-24|Smoking chimneys|Black and white photographs of ships in Finland",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q63370083\" class=\"extiw\" title=\"d:Q63370083\"><span title=\"Finnish photographer\">Hugo Sundström</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "The harbour icebreaker Hercules of Helsinki and steamship Yrsa in Helsinki January 1941.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "24 January 1941<div style=\"display: none;\">date QS:P571,+1941-01-24T00:00:00Z/11</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://finna.fi/Record/museovirasto.3b0b77c4-37e0-4250-b15b-46dc70eb583c\">https://finna.fi/Record/museovirasto.3b0b77c4-37e0-4250-b15b-46dc70eb583c</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by/4.0/deed.fi\">CC BY 4.0</a>; ['Tiedostoa voi käyttää vapaasti myös kaupallisesti. Tiedoston yhteydessä on mainittava tekijä ja/tai kuvaaja sekä kokoelman ja organisaation nimi. \\n\\nKäyttöohjeet:\\nKäyttäjä vastaa tekijänoikeuksien ja yksityisyyden suojan kunnioittamisesta sekä siitä, että tiedot ovat oikein. Henkilökuvien käyttö markkinoinnissa ja mainonnassa on kielletty ilman kuvassa olevan henkilön suostumusta. Käyttäjä vastaa lupien hankkimisesta tiedostoissa esiintyvien henkilöiden, teosten ja tavaramerkkien osalta. Käyttäjä vastaa käyttötarkoituksen mukaisesta tiedostonkäsittelystä. Pyydämme toimittamaan Museoviraston kirjastoon vapaakappaleen painetusta julkaisusta, jossa tiedostoa on käytetty. Jos ladattavan tiedoston ominaisuudet eivät ole riittävät, ota yhteyttä Museoviraston Kuvakokoelmiin (kuvakokoelmat@museovirasto.fi). \\n\\n3D: FINNA-palvelussa on julkaistu 3D mallista verkkoesittämiseen soveltuva kevennetty versio.']",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "92694784": {
+        "pageid": 92694784,
+        "ns": 6,
+        "title": "File:Helsingin kaupungin omistama satamajäänmurtaja Teuvo Eteläsatamassa Katajanokanlaiturissa - N212866 - hkm.HKMS000005-000010k0.jpg",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3405626,
+            "width": 3697,
+            "height": 3709,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Helsingin_kaupungin_omistama_satamaj%C3%A4%C3%A4nmurtaja_Teuvo_Etel%C3%A4satamassa_Katajanokanlaiturissa_-_N212866_-_hkm.HKMS000005-000010k0.jpg/960px-Helsingin_kaupungin_omistama_satamaj%C3%A4%C3%A4nmurtaja_Teuvo_Etel%C3%A4satamassa_Katajanokanlaiturissa_-_N212866_-_hkm.HKMS000005-000010k0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 963,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Helsingin_kaupungin_omistama_satamaj%C3%A4%C3%A4nmurtaja_Teuvo_Etel%C3%A4satamassa_Katajanokanlaiturissa_-_N212866_-_hkm.HKMS000005-000010k0.jpg/1920px-Helsingin_kaupungin_omistama_satamaj%C3%A4%C3%A4nmurtaja_Teuvo_Etel%C3%A4satamassa_Katajanokanlaiturissa_-_N212866_-_hkm.HKMS000005-000010k0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Helsingin_kaupungin_omistama_satamaj%C3%A4%C3%A4nmurtaja_Teuvo_Etel%C3%A4satamassa_Katajanokanlaiturissa_-_N212866_-_hkm.HKMS000005-000010k0.jpg/960px-Helsingin_kaupungin_omistama_satamaj%C3%A4%C3%A4nmurtaja_Teuvo_Etel%C3%A4satamassa_Katajanokanlaiturissa_-_N212866_-_hkm.HKMS000005-000010k0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 963,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Helsingin_kaupungin_omistama_satamaj%C3%A4%C3%A4nmurtaja_Teuvo_Etel%C3%A4satamassa_Katajanokanlaiturissa_-_N212866_-_hkm.HKMS000005-000010k0.jpg/1920px-Helsingin_kaupungin_omistama_satamaj%C3%A4%C3%A4nmurtaja_Teuvo_Etel%C3%A4satamassa_Katajanokanlaiturissa_-_N212866_-_hkm.HKMS000005-000010k0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Helsingin_kaupungin_omistama_satamaj%C3%A4%C3%A4nmurtaja_Teuvo_Etel%C3%A4satamassa_Katajanokanlaiturissa_-_N212866_-_hkm.HKMS000005-000010k0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Helsingin_kaupungin_omistama_satamaj%C3%A4%C3%A4nmurtaja_Teuvo_Etel%C3%A4satamassa_Katajanokanlaiturissa_-_N212866_-_hkm.HKMS000005-000010k0.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=92694784",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-07-29 06:54:01",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Helsingin kaupungin omistama satamajäänmurtaja Teuvo Eteläsatamassa Katajanokanlaiturissa",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Katajanokanlaituri|Teuvo (ship, 1975)|1979 in Helsinki|Black and white photographs of Finland in the 1970s|June 1979 Finland photographs|Files from the Helsinki City Museum|Files uploaded by FinnaUploadBot|Admin reviewed Finna images|Photographs by Volker von Bonin|Black and white photographs of South Harbour, Helsinki|Icebreakers at Katajanokka|Black and white photographs of ships in Finland|Black and white photographs of Katajanokka",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42303830\" class=\"extiw\" title=\"d:Q42303830\"><span title=\"German–Finnish photographer (1924–2006)\">Volker von Bonin</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "Helsingin kaupungin omistama satamajäänmurtaja Teuvo Eteläsatamassa Katajanokanlaiturissa. Taustalla Enso-Gutzeit Oy:n pääkonttori ja Uspenskin katedraali Katajanokalla. -- negatiivi, filmi, mv",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "June 1979<div style=\"display: none;\">date QS:P571,+1979-06-00T00:00:00Z/10</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "Finna: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.finna.fi/Record/hkm.HKMS000005:000010k0\">hkm.HKMS000005:000010k0</a><br>Image record page in Finna: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.finna.fi/Record/hkm.4483CC2D-88B0-43AD-9CA5-4E97A217BDF9\">hkm.4483CC2D-88B0-43AD-9CA5-4E97A217BDF9</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by/4.0/deed.fi\">CC BY 4.0</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "146088496": {
+        "pageid": 146088496,
+        "ns": 6,
+        "title": "File:Icebreaker Sisu helps ships to the harbour 1961 (JOKAKAL3B9292-2).tif",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 24236568,
+            "width": 4960,
+            "height": 4882,
+            "pagecount": 1,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Icebreaker_Sisu_helps_ships_to_the_harbour_1961_%28JOKAKAL3B9292-2%29.tif/lossy-page1-960px-Icebreaker_Sisu_helps_ships_to_the_harbour_1961_%28JOKAKAL3B9292-2%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 945,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Icebreaker_Sisu_helps_ships_to_the_harbour_1961_%28JOKAKAL3B9292-2%29.tif/lossy-page1-1920px-Icebreaker_Sisu_helps_ships_to_the_harbour_1961_%28JOKAKAL3B9292-2%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Icebreaker_Sisu_helps_ships_to_the_harbour_1961_%28JOKAKAL3B9292-2%29.tif/lossy-page1-960px-Icebreaker_Sisu_helps_ships_to_the_harbour_1961_%28JOKAKAL3B9292-2%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 945,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Icebreaker_Sisu_helps_ships_to_the_harbour_1961_%28JOKAKAL3B9292-2%29.tif/lossy-page1-1920px-Icebreaker_Sisu_helps_ships_to_the_harbour_1961_%28JOKAKAL3B9292-2%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Icebreaker_Sisu_helps_ships_to_the_harbour_1961_%28JOKAKAL3B9292-2%29.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Icebreaker_Sisu_helps_ships_to_the_harbour_1961_(JOKAKAL3B9292-2).tif",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=146088496",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-03-05 10:17:00",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Icebreaker Sisu helps ships to the harbour",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Files with no machine-readable author|Sisu (ship, 1939)|Finna review needed|1961 in Oulu|Black and white photographs of Finland in the 1960s|Files uploaded by FinnaUploadBot|Finland photographs taken on 1961-01-23|Frozen Baltic Sea in Finland|JOKA Press Photo Archive",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Icebreaker Sisu helps ships to the harbour in Oulu, Finland, on January 23, 1961.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "23 January 1961<div style=\"display: none;\">date QS:P571,+1961-01-23T00:00:00Z/11</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://finna.fi/Record/museovirasto.bfe62d5d-e522-4cdc-a48d-2feec938fc05\">https://finna.fi/Record/museovirasto.bfe62d5d-e522-4cdc-a48d-2feec938fc05</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by/4.0/deed.fi\">CC BY 4.0</a>; ['Tiedostoa voi käyttää vapaasti myös kaupallisesti. Tiedoston yhteydessä on mainittava tekijä ja/tai kuvaaja sekä kokoelman ja organisaation nimi. \\n\\nKäyttöohjeet:\\nKäyttäjä vastaa tekijänoikeuksien ja yksityisyyden suojan kunnioittamisesta sekä siitä, että tiedot ovat oikein. Henkilökuvien käyttö markkinoinnissa ja mainonnassa on kielletty ilman kuvassa olevan henkilön suostumusta. Käyttäjä vastaa lupien hankkimisesta tiedostoissa esiintyvien henkilöiden, teosten ja tavaramerkkien osalta. Käyttäjä vastaa käyttötarkoituksen mukaisesta tiedostonkäsittelystä. Pyydämme toimittamaan Museoviraston kirjastoon vapaakappaleen painetusta julkaisusta, jossa tiedostoa on käytetty. Jos ladattavan tiedoston ominaisuudet eivät ole riittävät, ota yhteyttä Museoviraston Kuvakokoelmiin (kuvakokoelmat@museovirasto.fi). \\n\\n3D: FINNA-palvelussa on julkaistu 3D mallista verkkoesittämiseen soveltuva kevennetty versio.']",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "68475837": {
+        "pageid": 68475837,
+        "ns": 6,
+        "title": "File:Jäänmurtaja Hercules Katajanokanlaiturissa. - N2331 (hkm.HKMS000005-000001hn).jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3784704,
+            "width": 4972,
+            "height": 3557,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/J%C3%A4%C3%A4nmurtaja_Hercules_Katajanokanlaiturissa._-_N2331_%28hkm.HKMS000005-000001hn%29.jpg/960px-J%C3%A4%C3%A4nmurtaja_Hercules_Katajanokanlaiturissa._-_N2331_%28hkm.HKMS000005-000001hn%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 687,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/J%C3%A4%C3%A4nmurtaja_Hercules_Katajanokanlaiturissa._-_N2331_%28hkm.HKMS000005-000001hn%29.jpg/1920px-J%C3%A4%C3%A4nmurtaja_Hercules_Katajanokanlaiturissa._-_N2331_%28hkm.HKMS000005-000001hn%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/J%C3%A4%C3%A4nmurtaja_Hercules_Katajanokanlaiturissa._-_N2331_%28hkm.HKMS000005-000001hn%29.jpg/960px-J%C3%A4%C3%A4nmurtaja_Hercules_Katajanokanlaiturissa._-_N2331_%28hkm.HKMS000005-000001hn%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 687,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/J%C3%A4%C3%A4nmurtaja_Hercules_Katajanokanlaiturissa._-_N2331_%28hkm.HKMS000005-000001hn%29.jpg/1920px-J%C3%A4%C3%A4nmurtaja_Hercules_Katajanokanlaiturissa._-_N2331_%28hkm.HKMS000005-000001hn%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/J%C3%A4%C3%A4nmurtaja_Hercules_Katajanokanlaiturissa._-_N2331_%28hkm.HKMS000005-000001hn%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:J%C3%A4%C3%A4nmurtaja_Hercules_Katajanokanlaiturissa._-_N2331_(hkm.HKMS000005-000001hn).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=68475837",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-04-22 00:14:06",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nJäänmurtaja Hercules Katajanokanlaiturissa.</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Katajanokanlaituri|Helsinki harbour rail|Files from the Helsinki City Museum|Photographs by Ivan Timiriasew|Admin reviewed Finna images|Photographs uploaded for Juniorihackaton 2018|Ships in the Port of Helsinki|Black and white photographs of South Harbour, Helsinki|Ships registered in Helsinki|Icebreakers at Katajanokka|Black and white photographs of ships in Finland|Black and white photographs of Katajanokka|Ships named Hercules",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q17384263\" class=\"extiw\" title=\"d:Q17384263\"><span title=\"Russian officer and amateur photographer active in Finland (1860-1927)\">Ivan Timiriasev</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\nJäänmurtaja Hercules Katajanokanlaiturissa.; negatiivi, nitraatti, mv</div>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "laivat jäänmurtajat, liikennealueet satamat, talvi",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p>Finna: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.finna.fi/Record/hkm.HKMS000005:000001hn\">hkm.HKMS000005:000001hn</a>\n</p>\n<br>Image record page in Finna: <a rel=\"nofollow\" class=\"external text\" href=\"https://finna.fi/Record/hkm.40F3CD0A-D6F2-41ED-94A0-C6AFACA5093A\">hkm.40F3CD0A-D6F2-41ED-94A0-C6AFACA5093A</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "148540454": {
+        "pageid": 148540454,
+        "ns": 6,
+        "title": "File:Jäänmurtaja Otso lähdössä Helsingin satamasta 1937 (HK19670603-30237).tif",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 16900164,
+            "width": 4866,
+            "height": 3468,
+            "pagecount": 1,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/J%C3%A4%C3%A4nmurtaja_Otso_l%C3%A4hd%C3%B6ss%C3%A4_Helsingin_satamasta_1937_%28HK19670603-30237%29.tif/lossy-page1-960px-J%C3%A4%C3%A4nmurtaja_Otso_l%C3%A4hd%C3%B6ss%C3%A4_Helsingin_satamasta_1937_%28HK19670603-30237%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 684,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/J%C3%A4%C3%A4nmurtaja_Otso_l%C3%A4hd%C3%B6ss%C3%A4_Helsingin_satamasta_1937_%28HK19670603-30237%29.tif/lossy-page1-1920px-J%C3%A4%C3%A4nmurtaja_Otso_l%C3%A4hd%C3%B6ss%C3%A4_Helsingin_satamasta_1937_%28HK19670603-30237%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/J%C3%A4%C3%A4nmurtaja_Otso_l%C3%A4hd%C3%B6ss%C3%A4_Helsingin_satamasta_1937_%28HK19670603-30237%29.tif/lossy-page1-960px-J%C3%A4%C3%A4nmurtaja_Otso_l%C3%A4hd%C3%B6ss%C3%A4_Helsingin_satamasta_1937_%28HK19670603-30237%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 684,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/J%C3%A4%C3%A4nmurtaja_Otso_l%C3%A4hd%C3%B6ss%C3%A4_Helsingin_satamasta_1937_%28HK19670603-30237%29.tif/lossy-page1-1920px-J%C3%A4%C3%A4nmurtaja_Otso_l%C3%A4hd%C3%B6ss%C3%A4_Helsingin_satamasta_1937_%28HK19670603-30237%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/J%C3%A4%C3%A4nmurtaja_Otso_l%C3%A4hd%C3%B6ss%C3%A4_Helsingin_satamasta_1937_%28HK19670603-30237%29.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:J%C3%A4%C3%A4nmurtaja_Otso_l%C3%A4hd%C3%B6ss%C3%A4_Helsingin_satamasta_1937_(HK19670603-30237).tif",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=148540454",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-05-20 05:14:30",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "jäänmurtaja Otso lähdössä Helsingin satamasta",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Historical Picture Collection of The Finnish Heritage Agency|Finna review needed|1937 in Helsinki|Ships leaving port|Black and white photographs of Finland in the 1930s|Files uploaded by FinnaUploadBot|Ships in Helsinki|1937 black and white photographs|Black and white photographs of South Harbour, Helsinki|Photographs by Aarne Pietinen Oy|Black and white photographs of ships in Finland|Otso (Icebreaker)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q123271843\" class=\"extiw\" title=\"d:Q123271843\"><span title=\"Finnish photographic studio\">Aarne Pietinen Oy</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "fyysinen kuvaus: vaaka",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1937<div style=\"display: none;\">date QS:P571,+1937-00-00T00:00:00Z/9</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://finna.fi/Record/museovirasto.C7EE41F5C63F9D31A6AC03BC0AD16465\">https://finna.fi/Record/museovirasto.C7EE41F5C63F9D31A6AC03BC0AD16465</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by/4.0/deed.fi\">CC BY 4.0</a>; ['Tiedostoa voi käyttää vapaasti myös kaupallisesti. Tiedoston yhteydessä on mainittava tekijä ja/tai kuvaaja sekä kokoelman ja organisaation nimi. \\n\\nKäyttöohjeet:\\nKäyttäjä vastaa tekijänoikeuksien ja yksityisyyden suojan kunnioittamisesta sekä siitä, että tiedot ovat oikein. Henkilökuvien käyttö markkinoinnissa ja mainonnassa on kielletty ilman kuvassa olevan henkilön suostumusta. Käyttäjä vastaa lupien hankkimisesta tiedostoissa esiintyvien henkilöiden, teosten ja tavaramerkkien osalta. Käyttäjä vastaa käyttötarkoituksen mukaisesta tiedostonkäsittelystä. Pyydämme toimittamaan Museoviraston kirjastoon vapaakappaleen painetusta julkaisusta, jossa tiedostoa on käytetty. Jos ladattavan tiedoston ominaisuudet eivät ole riittävät, ota yhteyttä Museoviraston Kuvakokoelmiin (kuvakokoelmat@museovirasto.fi). \\n\\n3D: FINNA-palvelussa on julkaistu 3D mallista verkkoesittämiseen soveltuva kevennetty versio.']",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "149141596": {
+        "pageid": 149141596,
+        "ns": 6,
+        "title": "File:Jäänmurtaja Otso työssään 1937 (HK19670603-30231).tif",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 18560724,
+            "width": 5246,
+            "height": 3534,
+            "pagecount": 1,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/J%C3%A4%C3%A4nmurtaja_Otso_ty%C3%B6ss%C3%A4%C3%A4n_1937_%28HK19670603-30231%29.tif/lossy-page1-960px-J%C3%A4%C3%A4nmurtaja_Otso_ty%C3%B6ss%C3%A4%C3%A4n_1937_%28HK19670603-30231%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 647,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/J%C3%A4%C3%A4nmurtaja_Otso_ty%C3%B6ss%C3%A4%C3%A4n_1937_%28HK19670603-30231%29.tif/lossy-page1-1920px-J%C3%A4%C3%A4nmurtaja_Otso_ty%C3%B6ss%C3%A4%C3%A4n_1937_%28HK19670603-30231%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/J%C3%A4%C3%A4nmurtaja_Otso_ty%C3%B6ss%C3%A4%C3%A4n_1937_%28HK19670603-30231%29.tif/lossy-page1-960px-J%C3%A4%C3%A4nmurtaja_Otso_ty%C3%B6ss%C3%A4%C3%A4n_1937_%28HK19670603-30231%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 647,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/J%C3%A4%C3%A4nmurtaja_Otso_ty%C3%B6ss%C3%A4%C3%A4n_1937_%28HK19670603-30231%29.tif/lossy-page1-1920px-J%C3%A4%C3%A4nmurtaja_Otso_ty%C3%B6ss%C3%A4%C3%A4n_1937_%28HK19670603-30231%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/J%C3%A4%C3%A4nmurtaja_Otso_ty%C3%B6ss%C3%A4%C3%A4n_1937_%28HK19670603-30231%29.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:J%C3%A4%C3%A4nmurtaja_Otso_ty%C3%B6ss%C3%A4%C3%A4n_1937_(HK19670603-30231).tif",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=149141596",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-06-06 22:09:18",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "jäänmurtaja Otso työssään",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Historical Picture Collection of The Finnish Heritage Agency|Finna review needed|1937 in Helsinki|Black and white photographs of Finland in the 1930s|Files uploaded by FinnaUploadBot|Ships in Helsinki|1937 black and white photographs|Black and white photographs of South Harbour, Helsinki|Photographs by Aarne Pietinen Oy|Black and white photographs of ships in Finland|Otso (Icebreaker)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q123271843\" class=\"extiw\" title=\"d:Q123271843\"><span title=\"Finnish photographic studio\">Aarne Pietinen Oy</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "fyysinen kuvaus: vaaka",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1937<div style=\"display: none;\">date QS:P571,+1937-00-00T00:00:00Z/9</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://finna.fi/Record/museovirasto.DD804661C6F2386C0FAE4C7ED3F3E887\">https://finna.fi/Record/museovirasto.DD804661C6F2386C0FAE4C7ED3F3E887</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by/4.0/deed.fi\">CC BY 4.0</a>; ['Tiedostoa voi käyttää vapaasti myös kaupallisesti. Tiedoston yhteydessä on mainittava tekijä ja/tai kuvaaja sekä kokoelman ja organisaation nimi. \\n\\nKäyttöohjeet:\\nKäyttäjä vastaa tekijänoikeuksien ja yksityisyyden suojan kunnioittamisesta sekä siitä, että tiedot ovat oikein. Henkilökuvien käyttö markkinoinnissa ja mainonnassa on kielletty ilman kuvassa olevan henkilön suostumusta. Käyttäjä vastaa lupien hankkimisesta tiedostoissa esiintyvien henkilöiden, teosten ja tavaramerkkien osalta. Käyttäjä vastaa käyttötarkoituksen mukaisesta tiedostonkäsittelystä. Pyydämme toimittamaan Museoviraston kirjastoon vapaakappaleen painetusta julkaisusta, jossa tiedostoa on käytetty. Jos ladattavan tiedoston ominaisuudet eivät ole riittävät, ota yhteyttä Museoviraston Kuvakokoelmiin (kuvakokoelmat@museovirasto.fi). \\n\\n3D: FINNA-palvelussa on julkaistu 3D mallista verkkoesittämiseen soveltuva kevennetty versio.']",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "4646130": {
+        "pageid": 4646130,
+        "ns": 6,
+        "title": "File:Pilot boat near Helsinki.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3675668,
+            "width": 2592,
+            "height": 1944,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Pilot_boat_near_Helsinki.jpg/960px-Pilot_boat_near_Helsinki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Pilot_boat_near_Helsinki.jpg/1920px-Pilot_boat_near_Helsinki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Pilot_boat_near_Helsinki.jpg/960px-Pilot_boat_near_Helsinki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Pilot_boat_near_Helsinki.jpg/1920px-Pilot_boat_near_Helsinki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Pilot_boat_near_Helsinki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pilot_boat_near_Helsinki.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4646130",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-08-28 06:16:55",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Pilot boat near Helsinki",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon Digital IXUS 500|Flickr images reviewed by FlickreviewR|Pilot boats in Finland|2006 in water transport in Finland|Finland photographs taken on 2006-02-28|February 2006 in Helsinki|Sea in front of Helsinki frozen",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Luotsivene Helsingissä",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2006-02-28 09:53",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/94589381@N00/107113609/\">Ice Breaker</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/94589381@N00\">Sean Biehle</a> from Cincinnati, OH, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "63995955": {
+        "pageid": 63995955,
+        "ns": 6,
+        "title": "File:Teuvo and Viking Song Helsinki 1981.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 10368682,
+            "width": 5244,
+            "height": 3420,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Teuvo_and_Viking_Song_Helsinki_1981.jpg/960px-Teuvo_and_Viking_Song_Helsinki_1981.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 626,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Teuvo_and_Viking_Song_Helsinki_1981.jpg/1920px-Teuvo_and_Viking_Song_Helsinki_1981.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Teuvo_and_Viking_Song_Helsinki_1981.jpg/960px-Teuvo_and_Viking_Song_Helsinki_1981.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 626,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Teuvo_and_Viking_Song_Helsinki_1981.jpg/1920px-Teuvo_and_Viking_Song_Helsinki_1981.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Teuvo_and_Viking_Song_Helsinki_1981.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Teuvo_and_Viking_Song_Helsinki_1981.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=63995955",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-11-11 01:59:36",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Teuvo and Viking Song Helsinki 1981",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon AE-1|Viking Song (ship, 1980)|South Harbour, Helsinki|Teuvo (ship, 1975)|Self-published work|Photographs taken on Kodachrome film|April 1981 Finland photographs|1981 in Helsinki|1981 in water transport|Ships at Katajanokka|1981 in transport in Finland|Water transport in Finland in the 1980s|Ships with open bow visors",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Harbor icebreaker <i>Teuvo</i> and cruiseferry <i>Viking Song</i> in Helsinki Harbor, 1981. Scanned Kodachrome slide.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1981-04",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Acroterion\" title=\"User:Acroterion\">Acroterion</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "15424542": {
+        "pageid": 15424542,
+        "ns": 6,
+        "title": "File:Turso Eteläsatama 2.JPG",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 6834255,
+            "width": 5184,
+            "height": 3456,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Turso_Etel%C3%A4satama_2.JPG/960px-Turso_Etel%C3%A4satama_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 640,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Turso_Etel%C3%A4satama_2.JPG/1920px-Turso_Etel%C3%A4satama_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Turso_Etel%C3%A4satama_2.JPG/960px-Turso_Etel%C3%A4satama_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 640,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Turso_Etel%C3%A4satama_2.JPG/1920px-Turso_Etel%C3%A4satama_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Turso_Etel%C3%A4satama_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Turso_Etel%C3%A4satama_2.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15424542",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2011-06-06 19:47:59",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Turso Eteläsatama 2",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS 60D|Turso (ship, 1944)|South Harbour, Helsinki|Taken with Canon EF-S 15-85mm F3.5-5.6 IS USM|Self-published work|PD-self|Files by User:MKFI|Media with estimated locations|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "60.166769",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "24.956067",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Preserved steam tug and harbour icebreaker <i>Turso</i> in Helsinki South Harbour.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-06-04",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:MKFI\" title=\"User:MKFI\">MKFI</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>I, the copyright holder of this work, release this work into the <b><a href=\"https://en.wikipedia.org/wiki/en:public_domain\" class=\"extiw\" title=\"w:en:public domain\">public domain</a></b>. This applies worldwide.<br><small>In some countries this may not be legally possible; if so:</small><br><i>I grant anyone the right to use this work <b>for any purpose</b>, without any conditions, unless such conditions are required by law.</i>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "15424576": {
+        "pageid": 15424576,
+        "ns": 6,
+        "title": "File:Turso Eteläsatama 4.JPG",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 6555654,
+            "width": 5184,
+            "height": 3456,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Turso_Etel%C3%A4satama_4.JPG/960px-Turso_Etel%C3%A4satama_4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 640,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Turso_Etel%C3%A4satama_4.JPG/1920px-Turso_Etel%C3%A4satama_4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Turso_Etel%C3%A4satama_4.JPG/960px-Turso_Etel%C3%A4satama_4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 640,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Turso_Etel%C3%A4satama_4.JPG/1920px-Turso_Etel%C3%A4satama_4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Turso_Etel%C3%A4satama_4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Turso_Etel%C3%A4satama_4.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15424576",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2011-06-06 19:50:58",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Turso Eteläsatama 4",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS 60D|Turso (ship, 1944)|South Harbour, Helsinki|Taken with Canon EF-S 15-85mm F3.5-5.6 IS USM|Self-published work|PD-self|Files by User:MKFI|Media with estimated locations|Finland photographs taken on 2011-06-04|Files with coordinates missing SDC location of creation|June 2011 in Helsinki",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "60.166044",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "24.957225",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Preserved steam tug and harbour icebreaker <i>Turso</i> in Helsinki South Harbour.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-06-04",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:MKFI\" title=\"User:MKFI\">MKFI</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>I, the copyright holder of this work, release this work into the <b><a href=\"https://en.wikipedia.org/wiki/en:public_domain\" class=\"extiw\" title=\"w:en:public domain\">public domain</a></b>. This applies worldwide.<br><small>In some countries this may not be legally possible; if so:</small><br><i>I grant anyone the right to use this work <b>for any purpose</b>, without any conditions, unless such conditions are required by law.</i>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

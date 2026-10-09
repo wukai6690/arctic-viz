@@ -1,0 +1,26 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "337405": {
+        "pageid": 337405,
+        "ns": 0,
+        "title": "Longyearbyen",
+        "coordinates": [
+          {
+            "lat": 78.22,
+            "lon": 15.65,
+            "primary": "",
+            "globe": "earth"
+          }
+        ],
+        "pageprops": {
+          "page_image_free": "Longyearbyen-spisshus-2022.jpg",
+          "wikibase-badge-Q17437798": "",
+          "wikibase-shortdesc": "Largest settlement and administrative centre of Svalbard, Norway",
+          "wikibase_item": "Q25923"
+        }
+      }
+    }
+  }
+}

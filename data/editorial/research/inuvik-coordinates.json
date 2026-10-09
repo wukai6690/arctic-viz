@@ -1,0 +1,25 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "229919": {
+        "pageid": 229919,
+        "ns": 0,
+        "title": "Inuvik",
+        "coordinates": [
+          {
+            "lat": 68.36083333,
+            "lon": -133.72972222,
+            "primary": "",
+            "globe": "earth"
+          }
+        ],
+        "pageprops": {
+          "page_image_free": "Front_view_of_Our_Lady_of_Victory_Church,_Inuvik,_NT.jpg",
+          "wikibase-shortdesc": "Arctic town in the Northwest Territories, Canada",
+          "wikibase_item": "Q338686"
+        }
+      }
+    }
+  }
+}

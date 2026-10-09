@@ -1,0 +1,25 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "105566": {
+        "pageid": 105566,
+        "ns": 0,
+        "title": "Nome, Alaska",
+        "coordinates": [
+          {
+            "lat": 64.50388889,
+            "lon": -165.39944444,
+            "primary": "",
+            "globe": "earth"
+          }
+        ],
+        "pageprops": {
+          "page_image_free": "Nome_Alaska_(1).jpg",
+          "wikibase-shortdesc": "City in Alaska, U.S.",
+          "wikibase_item": "Q79996"
+        }
+      }
+    }
+  }
+}

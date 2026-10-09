@@ -1,0 +1,1369 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 12,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "108004224": {
+        "pageid": 108004224,
+        "ns": 6,
+        "title": "File:Forschungseisbrecher Polarstern im Heimathafen Bremerhaven, Deutschland.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 929248,
+            "width": 2500,
+            "height": 1667,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Forschungseisbrecher_Polarstern_im_Heimathafen_Bremerhaven%2C_Deutschland.jpg/960px-Forschungseisbrecher_Polarstern_im_Heimathafen_Bremerhaven%2C_Deutschland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 640,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Forschungseisbrecher_Polarstern_im_Heimathafen_Bremerhaven%2C_Deutschland.jpg/1920px-Forschungseisbrecher_Polarstern_im_Heimathafen_Bremerhaven%2C_Deutschland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Forschungseisbrecher_Polarstern_im_Heimathafen_Bremerhaven%2C_Deutschland.jpg/960px-Forschungseisbrecher_Polarstern_im_Heimathafen_Bremerhaven%2C_Deutschland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 640,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Forschungseisbrecher_Polarstern_im_Heimathafen_Bremerhaven%2C_Deutschland.jpg/1920px-Forschungseisbrecher_Polarstern_im_Heimathafen_Bremerhaven%2C_Deutschland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Forschungseisbrecher_Polarstern_im_Heimathafen_Bremerhaven%2C_Deutschland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Forschungseisbrecher_Polarstern_im_Heimathafen_Bremerhaven,_Deutschland.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=108004224",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-07-30 11:07:20",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Forschungseisbrecher Polarstern im Heimathafen Bremerhaven, Deutschland",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Files with coordinates missing SDC location of creation (53° N, 8° E)|Polarstern (ship, 1982) at Lloyd Werft",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "53.567373",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "8.555276",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Das Schiff Polarstern im Heimathafen, Bremerhaven. In den nächsten Monaten wird eine umfangreiche Revision durchgeführt.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2021-06-28 17:16:16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Denis_Sandmann\" title=\"User:Denis Sandmann\">Denis Sandmann - www.sandmann.co</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "123254217": {
+        "pageid": 123254217,
+        "ns": 6,
+        "title": "File:IMO 8013132 - Polarstern 01.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 6112959,
+            "width": 5449,
+            "height": 2465,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/IMO_8013132_-_Polarstern_01.jpg/960px-IMO_8013132_-_Polarstern_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 434,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/IMO_8013132_-_Polarstern_01.jpg/1920px-IMO_8013132_-_Polarstern_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/IMO_8013132_-_Polarstern_01.jpg/960px-IMO_8013132_-_Polarstern_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 434,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/IMO_8013132_-_Polarstern_01.jpg/1920px-IMO_8013132_-_Polarstern_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/IMO_8013132_-_Polarstern_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:IMO_8013132_-_Polarstern_01.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=123254217",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-09-22 11:10:21",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "IMO 8013132 - Polarstern 01",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|License migration redundant|Self-published work|Files with coordinates missing SDC location of creation (53° N, 8° E)|Polarstern (ship, 1982) at Lloyd Werft",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "53.562222",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "8.558697",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "IMO 8013132 <a href=\"https://en.wikipedia.org/wiki/Research_vessel\" class=\"extiw\" title=\"en:Research vessel\">Research vessel</a> and <a href=\"https://en.wikipedia.org/wiki/Icebreaker\" class=\"extiw\" title=\"en:Icebreaker\">Icebreaker</a> \"Polarstern\", <a href=\"https://en.wikipedia.org/wiki/Bremerhaven\" class=\"extiw\" title=\"en:Bremerhaven\">Bremerhaven</a>, built 1982 by the <a href=\"https://en.wikipedia.org/wiki/Howaldtswerke-Deutsche_Werft\" class=\"extiw\" title=\"en:Howaldtswerke-Deutsche Werft\">Howaldtswerke-Deutsche Werft</a>, <a href=\"https://en.wikipedia.org/wiki/Kiel\" class=\"extiw\" title=\"en:Kiel\">Kiel</a>, <a href=\"https://en.wikipedia.org/wiki/Germany\" class=\"extiw\" title=\"en:Germany\">Germany</a>; length 117.91 m, width 25.00 m, draught 11.21 m, performance 19198 hp; <a href=\"https://en.wikipedia.org/wiki/Bremerhaven\" class=\"extiw\" title=\"en:Bremerhaven\">Bremerhaven</a>, <a href=\"https://en.wikipedia.org/wiki/Germany\" class=\"extiw\" title=\"en:Germany\">Germany</a>.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-06-28",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Llez\" title=\"User:Llez\">Llez</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "123287823": {
+        "pageid": 123287823,
+        "ns": 6,
+        "title": "File:IMO 8013132 - Polarstern 02.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 7547934,
+            "width": 5804,
+            "height": 2743,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/IMO_8013132_-_Polarstern_02.jpg/960px-IMO_8013132_-_Polarstern_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 454,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/IMO_8013132_-_Polarstern_02.jpg/1920px-IMO_8013132_-_Polarstern_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/IMO_8013132_-_Polarstern_02.jpg/960px-IMO_8013132_-_Polarstern_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 454,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/IMO_8013132_-_Polarstern_02.jpg/1920px-IMO_8013132_-_Polarstern_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/IMO_8013132_-_Polarstern_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:IMO_8013132_-_Polarstern_02.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=123287823",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-09-23 10:17:21",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "IMO 8013132 - Polarstern 02",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|License migration redundant|Self-published work|Files with coordinates missing SDC location of creation (53° N, 8° E)|Polarstern (ship, 1982) at Lloyd Werft",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "53.562222",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "8.558697",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "IMO 8013132 <a href=\"https://en.wikipedia.org/wiki/Research_vessel\" class=\"extiw\" title=\"en:Research vessel\">Research vessel</a> and <a href=\"https://en.wikipedia.org/wiki/Icebreaker\" class=\"extiw\" title=\"en:Icebreaker\">Icebreaker</a> \"Polarstern\", <a href=\"https://en.wikipedia.org/wiki/Bremerhaven\" class=\"extiw\" title=\"en:Bremerhaven\">Bremerhaven</a>, built 1982 by the <a href=\"https://en.wikipedia.org/wiki/Howaldtswerke-Deutsche_Werft\" class=\"extiw\" title=\"en:Howaldtswerke-Deutsche Werft\">Howaldtswerke-Deutsche Werft</a>, <a href=\"https://en.wikipedia.org/wiki/Kiel\" class=\"extiw\" title=\"en:Kiel\">Kiel</a>, <a href=\"https://en.wikipedia.org/wiki/Germany\" class=\"extiw\" title=\"en:Germany\">Germany</a>; length 117.91 m, width 25.00 m, draught 11.21 m, performance 19198 hp; <a href=\"https://en.wikipedia.org/wiki/Bremerhaven\" class=\"extiw\" title=\"en:Bremerhaven\">Bremerhaven</a>, <a href=\"https://en.wikipedia.org/wiki/Germany\" class=\"extiw\" title=\"en:Germany\">Germany</a>.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-06-28",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Llez\" title=\"User:Llez\">Llez</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "123287846": {
+        "pageid": 123287846,
+        "ns": 6,
+        "title": "File:IMO 8013132 - Polarstern 03.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 6102413,
+            "width": 4599,
+            "height": 2676,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/IMO_8013132_-_Polarstern_03.jpg/960px-IMO_8013132_-_Polarstern_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 559,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/IMO_8013132_-_Polarstern_03.jpg/1920px-IMO_8013132_-_Polarstern_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/IMO_8013132_-_Polarstern_03.jpg/960px-IMO_8013132_-_Polarstern_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 559,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/IMO_8013132_-_Polarstern_03.jpg/1920px-IMO_8013132_-_Polarstern_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/IMO_8013132_-_Polarstern_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:IMO_8013132_-_Polarstern_03.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=123287846",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-09-23 10:17:56",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "IMO 8013132 - Polarstern 03",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|License migration redundant|Self-published work|Files with coordinates missing SDC location of creation (53° N, 8° E)|Polarstern (ship, 1982) at Lloyd Werft",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "53.562222",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "8.558697",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "IMO 8013132 <a href=\"https://en.wikipedia.org/wiki/Research_vessel\" class=\"extiw\" title=\"en:Research vessel\">Research vessel</a> and <a href=\"https://en.wikipedia.org/wiki/Icebreaker\" class=\"extiw\" title=\"en:Icebreaker\">Icebreaker</a> \"Polarstern\", <a href=\"https://en.wikipedia.org/wiki/Bremerhaven\" class=\"extiw\" title=\"en:Bremerhaven\">Bremerhaven</a>, built 1982 by the <a href=\"https://en.wikipedia.org/wiki/Howaldtswerke-Deutsche_Werft\" class=\"extiw\" title=\"en:Howaldtswerke-Deutsche Werft\">Howaldtswerke-Deutsche Werft</a>, <a href=\"https://en.wikipedia.org/wiki/Kiel\" class=\"extiw\" title=\"en:Kiel\">Kiel</a>, <a href=\"https://en.wikipedia.org/wiki/Germany\" class=\"extiw\" title=\"en:Germany\">Germany</a>; length 117.91 m, width 25.00 m, draught 11.21 m, performance 19198 hp; <a href=\"https://en.wikipedia.org/wiki/Bremerhaven\" class=\"extiw\" title=\"en:Bremerhaven\">Bremerhaven</a>, <a href=\"https://en.wikipedia.org/wiki/Germany\" class=\"extiw\" title=\"en:Germany\">Germany</a>.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-06-28",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Llez\" title=\"User:Llez\">Llez</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "123288822": {
+        "pageid": 123288822,
+        "ns": 6,
+        "title": "File:IMO 8013132 - Polarstern with tugboats.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 6444435,
+            "width": 5888,
+            "height": 2508,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/IMO_8013132_-_Polarstern_with_tugboats.jpg/960px-IMO_8013132_-_Polarstern_with_tugboats.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 409,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/IMO_8013132_-_Polarstern_with_tugboats.jpg/1920px-IMO_8013132_-_Polarstern_with_tugboats.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/IMO_8013132_-_Polarstern_with_tugboats.jpg/960px-IMO_8013132_-_Polarstern_with_tugboats.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 409,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/IMO_8013132_-_Polarstern_with_tugboats.jpg/1920px-IMO_8013132_-_Polarstern_with_tugboats.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/IMO_8013132_-_Polarstern_with_tugboats.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:IMO_8013132_-_Polarstern_with_tugboats.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=123288822",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-09-23 10:47:32",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "IMO 8013132 - Polarstern with tugboats",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Polarstern (ship, 1982)|Bugsier 6 (tugboat, 2008)|Bugsier 4 (tugboat, 2008)|License migration redundant|Self-published work|Files with coordinates missing SDC location of creation (53° N, 8° E)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "53.562222",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "8.558697",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "IMO 8013132 <a href=\"https://en.wikipedia.org/wiki/Research_vessel\" class=\"extiw\" title=\"en:Research vessel\">Research vessel</a> and <a href=\"https://en.wikipedia.org/wiki/Icebreaker\" class=\"extiw\" title=\"en:Icebreaker\">Icebreaker</a> \"Polarstern\", <a href=\"https://en.wikipedia.org/wiki/Bremerhaven\" class=\"extiw\" title=\"en:Bremerhaven\">Bremerhaven</a>, built 1982 by the <a href=\"https://en.wikipedia.org/wiki/Howaldtswerke-Deutsche_Werft\" class=\"extiw\" title=\"en:Howaldtswerke-Deutsche Werft\">Howaldtswerke-Deutsche Werft</a>, <a href=\"https://en.wikipedia.org/wiki/Kiel\" class=\"extiw\" title=\"en:Kiel\">Kiel</a>, <a href=\"https://en.wikipedia.org/wiki/Germany\" class=\"extiw\" title=\"en:Germany\">Germany</a>; length 117.91 m, width 25.00 m, draught 11.21 m, performance 19198 hp; <a href=\"https://en.wikipedia.org/wiki/Bremerhaven\" class=\"extiw\" title=\"en:Bremerhaven\">Bremerhaven</a>, <a href=\"https://en.wikipedia.org/wiki/Germany\" class=\"extiw\" title=\"en:Germany\">Germany</a>.<br>with the tugboats<br>IMO 9376191 \"Bugsier 4\", <a href=\"https://en.wikipedia.org/wiki/Hamburg\" class=\"extiw\" title=\"en:Hamburg\">Hamburg</a>, <a href=\"https://en.wikipedia.org/wiki/Germany\" class=\"extiw\" title=\"en:Germany\">Germany</a>, built 2008 by ASL Shipyard PTE LTD, <a href=\"https://en.wikipedia.org/wiki/Singapore\" class=\"extiw\" title=\"en:Singapore\">Singapore</a>; length 28.00 m, width 11.50 m, draught 6.20 m, performance 6825 hp; <a href=\"https://en.wikipedia.org/wiki/Bremerhaven\" class=\"extiw\" title=\"en:Bremerhaven\">Bremerhaven</a>, <a href=\"https://en.wikipedia.org/wiki/Germany\" class=\"extiw\" title=\"en:Germany\">Germany</a>.   \n<br>and<br>IMO 9376218 \"Bugsier 6\", <a href=\"https://en.wikipedia.org/wiki/Hamburg\" class=\"extiw\" title=\"en:Hamburg\">Hamburg</a>, <a href=\"https://en.wikipedia.org/wiki/Germany\" class=\"extiw\" title=\"en:Germany\">Germany</a>, built 2008 by ASL Shipyard PTE LTD, <a href=\"https://en.wikipedia.org/wiki/Singapore\" class=\"extiw\" title=\"en:Singapore\">Singapore</a>; length 28.00 m, width 12.00 m, draught 6.20 m, performance 6825 hp; <a href=\"https://en.wikipedia.org/wiki/Bremerhaven\" class=\"extiw\" title=\"en:Bremerhaven\">Bremerhaven</a>, <a href=\"https://en.wikipedia.org/wiki/Germany\" class=\"extiw\" title=\"en:Germany\">Germany</a>.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-06-28",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Llez\" title=\"User:Llez\">Llez</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "4530272": {
+        "pageid": 4530272,
+        "ns": 6,
+        "title": "File:Polarstern-bhv lloyd-night hg.jpg",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1040912,
+            "width": 2560,
+            "height": 1744,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Polarstern-bhv_lloyd-night_hg.jpg/960px-Polarstern-bhv_lloyd-night_hg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 654,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Polarstern-bhv_lloyd-night_hg.jpg/1920px-Polarstern-bhv_lloyd-night_hg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Polarstern-bhv_lloyd-night_hg.jpg/960px-Polarstern-bhv_lloyd-night_hg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 654,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Polarstern-bhv_lloyd-night_hg.jpg/1920px-Polarstern-bhv_lloyd-night_hg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Polarstern-bhv_lloyd-night_hg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Polarstern-bhv_lloyd-night_hg.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4530272",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-08-09 20:45:44",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Polarstern-bhv lloyd-night hg",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Taken with Leica Digilux 2|License migration redundant|Self-published work|2007 in Bremerhaven|Night in Bremerhaven|Ships at night|Polarstern (ship, 1982) at Lloyd Werft",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Photo from the German research vessel POLARSTERN\n</p>\n<dl><dd>Lloyd Werft, Bremerhaven</dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2007",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Hannes Grobe, Alfred Wegener Institute",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Own work, attribution required (Multi-license with GFDL and Creative Commons CC-BY 2.5)",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.5",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.5",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.5",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.5",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "4117867": {
+        "pageid": 4117867,
+        "ns": 6,
+        "title": "File:Polarstern (Schiff) Dock Lloyd-Werft.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 993853,
+            "width": 1440,
+            "height": 1920,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Polarstern_%28Schiff%29_Dock_Lloyd-Werft.jpg/960px-Polarstern_%28Schiff%29_Dock_Lloyd-Werft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 1280,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/1/19/Polarstern_%28Schiff%29_Dock_Lloyd-Werft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Polarstern_%28Schiff%29_Dock_Lloyd-Werft.jpg/960px-Polarstern_%28Schiff%29_Dock_Lloyd-Werft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 1280,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/1/19/Polarstern_%28Schiff%29_Dock_Lloyd-Werft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Polarstern_%28Schiff%29_Dock_Lloyd-Werft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Polarstern_(Schiff)_Dock_Lloyd-Werft.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4117867",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-05-26 21:01:48",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Polarstern (Schiff) Dock Lloyd-Werft",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|PD-self|Ships in drydocks in Germany|Polarstern (ship, 1982) at Lloyd Werft|Dry docks in Bremerhaven",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The German research vessel <a href=\"https://en.wikipedia.org/wiki/PFS_Polarstern\" class=\"extiw\" title=\"en:PFS Polarstern\">\"Polarstern\"</a> at the dock of the shipyard Lloyd-Werft",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2008-05-25",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Pujanak\" title=\"User:Pujanak\">Pujanak</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "4117810": {
+        "pageid": 4117810,
+        "ns": 6,
+        "title": "File:Polarstern Dock Lloyd-Werft.jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1254190,
+            "width": 1920,
+            "height": 1440,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Polarstern_Dock_Lloyd-Werft.jpg/960px-Polarstern_Dock_Lloyd-Werft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/6/64/Polarstern_Dock_Lloyd-Werft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Polarstern_Dock_Lloyd-Werft.jpg/960px-Polarstern_Dock_Lloyd-Werft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/6/64/Polarstern_Dock_Lloyd-Werft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Polarstern_Dock_Lloyd-Werft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Polarstern_Dock_Lloyd-Werft.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4117810",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-05-26 20:56:15",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Polarstern Dock Lloyd-Werft",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|PD-self|Ships in drydocks in Germany|Polarstern (ship, 1982) at Lloyd Werft|Dry docks in Bremerhaven",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The German research vessel <a href=\"https://en.wikipedia.org/wiki/PFS_Polarstern\" class=\"extiw\" title=\"en:PFS Polarstern\">\"Polarstern\"</a> at the dock of the shipyard Lloyd-Werft",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2008-05-25",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Pujanak\" title=\"User:Pujanak\">Pujanak</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "3560300": {
+        "pageid": 3560300,
+        "ns": 6,
+        "title": "File:Polarstern in Bremerhaven.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 292551,
+            "width": 1600,
+            "height": 872,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Polarstern_in_Bremerhaven.jpg/960px-Polarstern_in_Bremerhaven.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 523,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Polarstern_in_Bremerhaven.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Polarstern_in_Bremerhaven.jpg/960px-Polarstern_in_Bremerhaven.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 523,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Polarstern_in_Bremerhaven.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Polarstern_in_Bremerhaven.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Polarstern_in_Bremerhaven.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=3560300",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-02-15 16:42:31",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Polarstern in Bremerhaven",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Taken with Canon EOS 300D|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work|Polarstern (ship, 1982) at Lloyd Werft",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Polarstern in Bremerhaven Germany\n</p>\n<ul><li>IMO Number:  \t8013132</li>\n<li>MMSI Number: \t211202460</li>\n<li>Callsign: \tDBLK</li>\n<li>Length: \t118 m</li>\n<li>Beam: \t24 m</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Autumn 2005<div style=\"display: none;\">date QS:P,+2005-00-00T00:00:00Z/9,P4241,Q40720568</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Rdfr\" title=\"User:Rdfr\">Rdfr</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "use it free in wiki otherwise ask permission",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "4530377": {
+        "pageid": 4530377,
+        "ns": 6,
+        "title": "File:Polarstern radioroom hg.jpg",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 950832,
+            "width": 2560,
+            "height": 1920,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Polarstern_radioroom_hg.jpg/960px-Polarstern_radioroom_hg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Polarstern_radioroom_hg.jpg/1920px-Polarstern_radioroom_hg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Polarstern_radioroom_hg.jpg/960px-Polarstern_radioroom_hg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Polarstern_radioroom_hg.jpg/1920px-Polarstern_radioroom_hg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Polarstern_radioroom_hg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Polarstern_radioroom_hg.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4530377",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-08-09 20:57:17",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Polarstern radioroom hg",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Taken with Leica Digilux 2|Polarstern (ship, 1982)|Radio operators|Personality rights warning|License migration redundant|Self-published work|Radio room clocks|Marine radios",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Photo from the German research vessel POLARSTERN, radio room",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2007",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Hannes Grobe, Alfred Wegener Institute",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Own work, attribution required (Multi-license with GFDL and Creative Commons CC-BY 2.5)",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.5",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.5",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.5",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "personality",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.5",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "4530385": {
+        "pageid": 4530385,
+        "ns": 6,
+        "title": "File:Polarstern stabilizer hg.jpg",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2453109,
+            "width": 2418,
+            "height": 1632,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Polarstern_stabilizer_hg.jpg/960px-Polarstern_stabilizer_hg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 648,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Polarstern_stabilizer_hg.jpg/1920px-Polarstern_stabilizer_hg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Polarstern_stabilizer_hg.jpg/960px-Polarstern_stabilizer_hg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 648,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Polarstern_stabilizer_hg.jpg/1920px-Polarstern_stabilizer_hg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Polarstern_stabilizer_hg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Polarstern_stabilizer_hg.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4530385",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-03-19 06:39:11",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Polarstern stabilizer hg",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|License migration redundant|Ship stabilizers|Self-published work|Ships in drydocks in Germany|Polarstern (ship, 1982) at Lloyd Werft|Dry docks in Bremerhaven",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Photo from the German research vessel POLARSTERN\n</p>\n<dl><dd>stabilizer, extended in dry dock</dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2007",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Hannes Grobe, Alfred Wegener Institute",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Own work, attribution required (Multi-license with GFDL and Creative Commons CC-BY 2.5)",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.5",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.5",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.5",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.5",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "11821790": {
+        "pageid": 11821790,
+        "ns": 6,
+        "title": "File:Research ship Polarstern Oct2010.jpg",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 368258,
+            "width": 1536,
+            "height": 1152,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Research_ship_Polarstern_Oct2010.jpg/960px-Research_ship_Polarstern_Oct2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/6/68/Research_ship_Polarstern_Oct2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Research_ship_Polarstern_Oct2010.jpg/960px-Research_ship_Polarstern_Oct2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/6/68/Research_ship_Polarstern_Oct2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Research_ship_Polarstern_Oct2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Research_ship_Polarstern_Oct2010.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=11821790",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2010-10-19 10:03:49",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Research ship Polarstern Oct2010",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|PD-self|Files with coordinates missing SDC location of creation (53° N, 8° E)|Polarstern (ship, 1982) at Lloyd Werft",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "53.570567",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "8.550967",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The German research ship <b><a href=\"https://en.wikipedia.org/wiki/RV_Polarstern\" class=\"extiw\" title=\"en:RV Polarstern\">Polarstern</a></b> in Bremerhaven",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2010-10-17",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Tvabutzku1234\" title=\"User:Tvabutzku1234\">Tvabutzku1234</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

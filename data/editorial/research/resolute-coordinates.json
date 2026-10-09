@@ -1,0 +1,25 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "1320372": {
+        "pageid": 1320372,
+        "ns": 0,
+        "title": "Resolute, Nunavut",
+        "coordinates": [
+          {
+            "lat": 74.69583333,
+            "lon": -94.82916667,
+            "primary": "",
+            "globe": "earth"
+          }
+        ],
+        "pageprops": {
+          "page_image_free": "Resolute_Bay_1_1997-08-02.jpg",
+          "wikibase-shortdesc": "Place in Nunavut, Canada",
+          "wikibase_item": "Q606622"
+        }
+      }
+    }
+  }
+}

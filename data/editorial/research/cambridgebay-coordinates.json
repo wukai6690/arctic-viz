@@ -1,0 +1,25 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "1033543": {
+        "pageid": 1033543,
+        "ns": 0,
+        "title": "Cambridge Bay",
+        "coordinates": [
+          {
+            "lat": 69.11388889,
+            "lon": -105.05277778,
+            "primary": "",
+            "globe": "earth"
+          }
+        ],
+        "pageprops": {
+          "page_image_free": "Cambridge_Bay,_Nunavut_aerial_view.jpg",
+          "wikibase-shortdesc": "Hamlet in Nunavut, Canada",
+          "wikibase_item": "Q719611"
+        }
+      }
+    }
+  }
+}

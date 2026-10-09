@@ -1,0 +1,26 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "178591": {
+        "pageid": 178591,
+        "ns": 0,
+        "title": "Tromsø",
+        "coordinates": [
+          {
+            "lat": 69.6517,
+            "lon": 18.9556,
+            "primary": "",
+            "globe": "earth"
+          }
+        ],
+        "pageprops": {
+          "defaultsort": "Tromso",
+          "page_image_free": "Tromsø_sentrum_(5835702754).jpg",
+          "wikibase-shortdesc": "Town in Tromsø Municipality, Norway",
+          "wikibase_item": "Q42328401"
+        }
+      }
+    }
+  }
+}

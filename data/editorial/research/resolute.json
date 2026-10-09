@@ -1,0 +1,1281 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 12,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "14836099": {
+        "pageid": 14836099,
+        "ns": 6,
+        "title": "File:Community of Resolute.jpg",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 68465,
+            "width": 800,
+            "height": 600,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Community_of_Resolute.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/Community_of_Resolute.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Community_of_Resolute.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Community_of_Resolute.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=14836099",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-11-12 06:26:03",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Community of Resolute",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Flickr images reviewed by trusted users|March 2004 in Nunavut|Buildings in Resolute, Nunavut",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The community of Resolute",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2004-03-11 13:28",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/northernpix/212687953/\">Resolute Bay, Nunavut, Canada</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/20676692@N00\">Northern Pix</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "17342264": {
+        "pageid": 17342264,
+        "ns": 6,
+        "title": "File:Crest of the hamlet of Resolute Bay, Nunavut.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 681672,
+            "width": 2048,
+            "height": 1536,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Crest_of_the_hamlet_of_Resolute_Bay%2C_Nunavut.jpg/960px-Crest_of_the_hamlet_of_Resolute_Bay%2C_Nunavut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Crest_of_the_hamlet_of_Resolute_Bay%2C_Nunavut.jpg/1920px-Crest_of_the_hamlet_of_Resolute_Bay%2C_Nunavut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Crest_of_the_hamlet_of_Resolute_Bay%2C_Nunavut.jpg/960px-Crest_of_the_hamlet_of_Resolute_Bay%2C_Nunavut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Crest_of_the_hamlet_of_Resolute_Bay%2C_Nunavut.jpg/1920px-Crest_of_the_hamlet_of_Resolute_Bay%2C_Nunavut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Crest_of_the_hamlet_of_Resolute_Bay%2C_Nunavut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Crest_of_the_hamlet_of_Resolute_Bay,_Nunavut.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=17342264",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2011-11-13 23:55:24",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Crest of the hamlet of Resolute Bay, Nunavut",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon PowerShot A70|Seals (emblem)|Resolute, Nunavut|Coats of arms of Nunavut|Flickr images reviewed by trusted users|Flags of Canada in art|Flags of municipalities in Nunavut|Files with coordinates missing SDC location of creation|Multilingual signs in Nunavut|July 2006 in Nunavut|Bilingual English-Inuktitut signs in Canada",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "74.694519",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-94.839927",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Crest of hamlet of <a href=\"https://en.wikipedia.org/wiki/Resolute_Bay\" class=\"extiw\" title=\"w:Resolute Bay\">Resolute Bay</a>, Nunavut.\n</p><p>Original caption:\n</p>\n<dl><dd><i>well thats a few hits from reddit there. suckers for narwals. every last one of them ;)</i></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2006-07-10 21:08",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/twak/4375838527/\">hamlet of resolute bay</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/73478860@N00\">twak</a> from glasgow, uk",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "17342660": {
+        "pageid": 17342660,
+        "ns": 6,
+        "title": "File:Lichen in Resolute Bay, Nunavut.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 534289,
+            "width": 1528,
+            "height": 1472,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Lichen_in_Resolute_Bay%2C_Nunavut.jpg/960px-Lichen_in_Resolute_Bay%2C_Nunavut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 925,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/8/87/Lichen_in_Resolute_Bay%2C_Nunavut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Lichen_in_Resolute_Bay%2C_Nunavut.jpg/960px-Lichen_in_Resolute_Bay%2C_Nunavut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 925,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/87/Lichen_in_Resolute_Bay%2C_Nunavut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Lichen_in_Resolute_Bay%2C_Nunavut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lichen_in_Resolute_Bay,_Nunavut.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=17342660",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2011-11-14 00:19:53",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Lichen in Resolute Bay, Nunavut",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Resolute, Nunavut|Flickr images reviewed by trusted users|Lichens of Nunavut|September 2006 in Nunavut",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Amazing where you can find life…Came across this (lichens?) walking around the outskirts of Resolute Bay.  The red color was really striking against the white tundra.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2006-09-09 21:05",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/erikcharlton/241976907/\">Arctic Lichens</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/78042080@N00\">Erik Charlton</a> from Menlo Park, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "4143543": {
+        "pageid": 4143543,
+        "ns": 6,
+        "title": "File:Orthographic projection centred over Resolute Bay, Nunavut, Canada.png",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 21594,
+            "width": 488,
+            "height": 487,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Orthographic_projection_centred_over_Resolute_Bay%2C_Nunavut%2C_Canada.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 960,
+            "thumbheight": 958,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Orthographic_projection_centred_over_Resolute_Bay%2C_Nunavut%2C_Canada.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 958
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Orthographic_projection_centred_over_Resolute_Bay%2C_Nunavut%2C_Canada.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Orthographic_projection_centred_over_Resolute_Bay,_Nunavut,_Canada.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4143543",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-06-01 00:02:44",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Orthographic projection centred over Resolute Bay, Nunavut, Canada",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|GFDL-GMT|Maps of Nunavut|Resolute, Nunavut|CC-BY-SA-3.0,2.5,2.0,1.0|License migration redundant|License migration completed|Self-published work|PD-self|Orthographic projections over cities|Drawings by Geo Swan|Orthographic projections over Canada",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Orthographic projection centred over Resolute Bay, Nunavut, Canada 2.png",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2008-05-31",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Geo_Swan\" title=\"User:Geo Swan\">Geo Swan</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "82437794": {
+        "pageid": 82437794,
+        "ns": 6,
+        "title": "File:Resolute Banner.JPG",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 624180,
+            "width": 2592,
+            "height": 370,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Resolute_Banner.JPG/960px-Resolute_Banner.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 137,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Resolute_Banner.JPG/1920px-Resolute_Banner.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Resolute_Banner.JPG/960px-Resolute_Banner.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 137,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Resolute_Banner.JPG/1920px-Resolute_Banner.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Resolute_Banner.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Resolute_Banner.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=82437794",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-09-22 20:57:43",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Resolute Banner",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Resolute, Nunavut|Self-published work|Extracted images|Wikivoyage banners of Nunavut|July 2011 in Nunavut|Wikivoyage banners by SelfieCity",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Population approximately 200",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-07-10 16:40:57",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Timkal\" title=\"User:Timkal\">Timkal</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "4143507": {
+        "pageid": 4143507,
+        "ns": 6,
+        "title": "File:Resolute Bay, Nunavut, Canada - Lambert Projection.png",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 39482,
+            "width": 513,
+            "height": 522,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Resolute_Bay%2C_Nunavut%2C_Canada_-_Lambert_Projection.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 960,
+            "thumbheight": 977,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Resolute_Bay%2C_Nunavut%2C_Canada_-_Lambert_Projection.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 977
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Resolute_Bay%2C_Nunavut%2C_Canada_-_Lambert_Projection.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Resolute_Bay,_Nunavut,_Canada_-_Lambert_Projection.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4143507",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-05-31 23:57:15",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Resolute Bay, Nunavut, Canada - Lambert Projection",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Maps of Nunavut|Resolute, Nunavut|CC-BY-SA-3.0,2.5,2.0,1.0|License migration redundant|Self-published work|PD-self|Drawings by Geo Swan",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Resolute Bay, Nunavut, Canada - Lambert Projection.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2008-05-31",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Geo_Swan\" title=\"User:Geo Swan\">Geo Swan</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "97212245": {
+        "pageid": 97212245,
+        "ns": 6,
+        "title": "File:Resolute Bay (Qausuittuq), Qikiqtaaluk, Nunavut, Canada - June 25th, 2019 (48159204991).jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 10801974,
+            "width": 4892,
+            "height": 2480,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Resolute_Bay_%28Qausuittuq%29%2C_Qikiqtaaluk%2C_Nunavut%2C_Canada_-_June_25th%2C_2019_%2848159204991%29.jpg/960px-Resolute_Bay_%28Qausuittuq%29%2C_Qikiqtaaluk%2C_Nunavut%2C_Canada_-_June_25th%2C_2019_%2848159204991%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 487,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Resolute_Bay_%28Qausuittuq%29%2C_Qikiqtaaluk%2C_Nunavut%2C_Canada_-_June_25th%2C_2019_%2848159204991%29.jpg/1920px-Resolute_Bay_%28Qausuittuq%29%2C_Qikiqtaaluk%2C_Nunavut%2C_Canada_-_June_25th%2C_2019_%2848159204991%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Resolute_Bay_%28Qausuittuq%29%2C_Qikiqtaaluk%2C_Nunavut%2C_Canada_-_June_25th%2C_2019_%2848159204991%29.jpg/960px-Resolute_Bay_%28Qausuittuq%29%2C_Qikiqtaaluk%2C_Nunavut%2C_Canada_-_June_25th%2C_2019_%2848159204991%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 487,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Resolute_Bay_%28Qausuittuq%29%2C_Qikiqtaaluk%2C_Nunavut%2C_Canada_-_June_25th%2C_2019_%2848159204991%29.jpg/1920px-Resolute_Bay_%28Qausuittuq%29%2C_Qikiqtaaluk%2C_Nunavut%2C_Canada_-_June_25th%2C_2019_%2848159204991%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Resolute_Bay_%28Qausuittuq%29%2C_Qikiqtaaluk%2C_Nunavut%2C_Canada_-_June_25th%2C_2019_%2848159204991%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Resolute_Bay_(Qausuittuq),_Qikiqtaaluk,_Nunavut,_Canada_-_June_25th,_2019_(48159204991).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=97212245",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-12-02 17:18:16",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Resolute Bay (Qausuittuq), Qikiqtaaluk, Nunavut, Canada - June 25th, 2019 (48159204991)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Resolute, Nunavut|Copernicus Sentinel Satellite Imagery|2019 satellite pictures|Landsat images of Canada|Flickr images reviewed by FlickreviewR 2|June 2019 in Nunavut|Files from Pierre Markuse Flickr stream",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Contains modified Copernicus Sentinel data [2019], processed by &lt;a href=\"<a rel=\"nofollow\" class=\"external free\" href=\"https://twitter.com/Pierre_Markuse\">https://twitter.com/Pierre_Markuse</a>\" rel=\"noreferrer nofollow\"&gt;Pierre Markuse&lt;/a&gt;\n</p><p>Resolute Bay (Qausuittuq), Qikiqtaaluk, Nunavut, Canada - June 25th, 2019\n</p>\nLandsat images",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-06-30 13:52",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/pierre_markuse/48159204991/\">Resolute Bay (Qausuittuq), Qikiqtaaluk, Nunavut, Canada - June 25th, 2019</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/24998770@N07\">Pierre Markuse</a> from Hamm, Germany",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "606202": {
+        "pageid": 606202,
+        "ns": 6,
+        "title": "File:Resolute Bay 1 1997-08-02.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 592903,
+            "width": 5328,
+            "height": 3480,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Resolute_Bay_1_1997-08-02.jpg/960px-Resolute_Bay_1_1997-08-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 627,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Resolute_Bay_1_1997-08-02.jpg/1920px-Resolute_Bay_1_1997-08-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Resolute_Bay_1_1997-08-02.jpg/960px-Resolute_Bay_1_1997-08-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 627,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Resolute_Bay_1_1997-08-02.jpg/1920px-Resolute_Bay_1_1997-08-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Resolute_Bay_1_1997-08-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Resolute_Bay_1_1997-08-02.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=606202",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2006-03-01 13:52:03",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Resolute Bay 1 1997-08-02",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Resolute, Nunavut|1997 in Nunavut|Self-published work|August 1997 in Canada",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Resolute Bay: View from Signal Hill to the Inuit-Settlement “Village” and to Resolute Passage",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1997-08-04",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "photo taken by Ansgar Walk",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Ansgar Walk",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.5",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.5",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.5",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.5",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "24741269": {
+        "pageid": 24741269,
+        "ns": 6,
+        "title": "File:Resolute Bay VOR.jpg",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3923653,
+            "width": 5184,
+            "height": 3456,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Resolute_Bay_VOR.jpg/960px-Resolute_Bay_VOR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 640,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Resolute_Bay_VOR.jpg/1920px-Resolute_Bay_VOR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Resolute_Bay_VOR.jpg/960px-Resolute_Bay_VOR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 640,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Resolute_Bay_VOR.jpg/1920px-Resolute_Bay_VOR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Resolute_Bay_VOR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Resolute_Bay_VOR.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24741269",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-02-19 02:22:07",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Resolute Bay VOR",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS 550D|Resolute, Nunavut|Self-published work|2011 in aviation in Canada|July 2011 in Nunavut|VOR ground antennas",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Atop Signal Hill about 1 mile east of the airport",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-07-11 00:22:34",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Timkal\" title=\"User:Timkal\">Timkal</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "24741376": {
+        "pageid": 24741376,
+        "ns": 6,
+        "title": "File:Resolute Bay looking South.JPG",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3073009,
+            "width": 2592,
+            "height": 1944,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Resolute_Bay_looking_South.JPG/960px-Resolute_Bay_looking_South.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Resolute_Bay_looking_South.JPG/1920px-Resolute_Bay_looking_South.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Resolute_Bay_looking_South.JPG/960px-Resolute_Bay_looking_South.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Resolute_Bay_looking_South.JPG/1920px-Resolute_Bay_looking_South.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Resolute_Bay_looking_South.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Resolute_Bay_looking_South.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24741376",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-02-19 02:42:37",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Resolute Bay looking South",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Pentax Optio 550|Resolute, Nunavut|Self-published work|Images with extracted images|July 2011 in Nunavut",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Population approximately 200",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-07-10 16:40:57",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Timkal\" title=\"User:Timkal\">Timkal</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "838661": {
+        "pageid": 838661,
+        "ns": 6,
+        "title": "File:Resolute Cemetery + 1997-08-02.jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 903021,
+            "width": 5028,
+            "height": 3216,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Resolute_Cemetery_%2B_1997-08-02.jpg/960px-Resolute_Cemetery_%2B_1997-08-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 614,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Resolute_Cemetery_%2B_1997-08-02.jpg/1920px-Resolute_Cemetery_%2B_1997-08-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Resolute_Cemetery_%2B_1997-08-02.jpg/960px-Resolute_Cemetery_%2B_1997-08-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 614,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Resolute_Cemetery_%2B_1997-08-02.jpg/1920px-Resolute_Cemetery_%2B_1997-08-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Resolute_Cemetery_%2B_1997-08-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Resolute_Cemetery_%2B_1997-08-02.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=838661",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2006-06-04 14:27:41",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Resolute Cemetery + 1997-08-02",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Resolute, Nunavut|1997 in Nunavut|License migration redundant|Self-published work|Cemeteries in Nunavut|August 1997 in Canada",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cemetery of Resolute at Barrow Strait (Parry Channel)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1997-08-02",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "text and photo by Ansgar Walk",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Ansgar Walk",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.5",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.5",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.5",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.5",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "3696654": {
+        "pageid": 3696654,
+        "ns": 6,
+        "title": "File:Resolute sun.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 85892,
+            "width": 1600,
+            "height": 1200,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Resolute_sun.jpg/960px-Resolute_sun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Resolute_sun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Resolute_sun.jpg/960px-Resolute_sun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Resolute_sun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Resolute_sun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Resolute_sun.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=3696654",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-03-11 21:49:35",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Resolute sun",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Taken with Nikon Coolpix 2100|Resolute, Nunavut|License migration redundant|Self-published work|April 2004 in Nunavut|Snowy landscapes in unidentified locations",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Sun on the ice, near Resolute Bay, Nunavut, April 2004",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2004-04",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Arctichistorian01\" class=\"mw-redirect\" title=\"User:Arctichistorian01\">Arctichistorian01</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Released as below under GFDL and CC-BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

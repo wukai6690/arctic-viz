@@ -1,0 +1,25 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "63972": {
+        "pageid": 63972,
+        "ns": 0,
+        "title": "Murmansk",
+        "coordinates": [
+          {
+            "lat": 68.97055556,
+            "lon": 33.075,
+            "primary": "",
+            "globe": "earth"
+          }
+        ],
+        "pageprops": {
+          "page_image_free": "Murmansk_(cropped).jpg",
+          "wikibase-shortdesc": "City in Murmansk Oblast, Russia",
+          "wikibase_item": "Q1763"
+        }
+      }
+    }
+  }
+}

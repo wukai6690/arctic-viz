@@ -1,0 +1,1861 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 18,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "195620417": {
+        "pageid": 195620417,
+        "ns": 6,
+        "title": "File:2023 ISSF WC Baku 01.jpg",
+        "index": 14,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 127021,
+            "width": 1000,
+            "height": 667,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/21/2023_ISSF_WC_Baku_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 854,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/2/21/2023_ISSF_WC_Baku_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 854
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/2023_ISSF_WC_Baku_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:2023_ISSF_WC_Baku_01.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=195620417",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-07-13 14:12:26",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "2023 ISSF WC Baku 01",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Sports in Baku|PD US Army|PD-USGov missing SDC copyright status|2023 ISSF World Shooting Championships",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The 2023 International Shooting Sports Federation World Championship was held in Baku, Azerbaijan, Aug. 14 - Sept. 1.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-08-15",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.dvidshub.net/image/8030119/us-army-soldiers-compete-baku-azerbaijan\">https://www.dvidshub.net/image/8030119/us-army-soldiers-compete-baku-azerbaijan</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Lt. Col. Michelle Lunato",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "195620416": {
+        "pageid": 195620416,
+        "ns": 6,
+        "title": "File:2023 ISSF WC Baku 02.jpg",
+        "index": 15,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 353467,
+            "width": 1000,
+            "height": 1500,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/2023_ISSF_WC_Baku_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 1920,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/2/2e/2023_ISSF_WC_Baku_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1920
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/2023_ISSF_WC_Baku_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:2023_ISSF_WC_Baku_02.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=195620416",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-07-13 14:12:26",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "2023 ISSF WC Baku 02",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Army|Sagen Maddalena|PD-USGov missing SDC copyright status|2023 ISSF World Shooting Championships",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Sgt. Sagen Maddalena represented the USA at the 2023 International Shooting Sports Federation World Championship was held in Baku, Azerbaijan, Aug. 14 - Sept. 1. As a part of the USA Shooting Team, the Groveland, California native won the Bronze Medal in Women’s 50m Three-Position Rifle (Smallbore).",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-08-23",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.dvidshub.net/image/8030120/2020-olympian-wins-bronze-medal-baku\">https://www.dvidshub.net/image/8030120/2020-olympian-wins-bronze-medal-baku</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Lt. Col. Michelle Lunato",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "195620414": {
+        "pageid": 195620414,
+        "ns": 6,
+        "title": "File:2023 ISSF WC Baku 03.jpg",
+        "index": 13,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 274687,
+            "width": 1000,
+            "height": 667,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/2023_ISSF_WC_Baku_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 854,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/4/4f/2023_ISSF_WC_Baku_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 854
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/2023_ISSF_WC_Baku_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:2023_ISSF_WC_Baku_03.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=195620414",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-07-13 14:12:22",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "2023 ISSF WC Baku 03",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Army|Sagen Maddalena|Podiums in sports|Zhang Qiongyue|PD-USGov missing SDC copyright status|2023 ISSF World Shooting Championships|Han Jiayu",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Sgt. Sagen Maddalena represented the USA at the 2023 International Shooting Sports Federation World Championship was held in Baku, Azerbaijan, Aug. 14 - Sept. 1. As a part of the USA Shooting Team, the Groveland, California native won the Bronze Medal in Women’s 50m Three-Position Rifle (Smallbore).",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-08-25",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.dvidshub.net/image/8030136/fort-moore-soldiers-wins-bronze-medal-bakui\">https://www.dvidshub.net/image/8030136/fort-moore-soldiers-wins-bronze-medal-bakui</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Lt. Col. Michelle Lunato",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "195620412": {
+        "pageid": 195620412,
+        "ns": 6,
+        "title": "File:2023 ISSF WC Baku 04.jpg",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 386363,
+            "width": 1000,
+            "height": 1500,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/93/2023_ISSF_WC_Baku_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 1920,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/9/93/2023_ISSF_WC_Baku_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1920
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/2023_ISSF_WC_Baku_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:2023_ISSF_WC_Baku_04.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=195620412",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-07-13 14:12:22",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "2023 ISSF WC Baku 04",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Army|Sagen Maddalena|Podiums in sports|Zhang Qiongyue|PD-USGov missing SDC copyright status|2023 ISSF World Shooting Championships|Han Jiayu",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Sgt. Sagen Maddalena represented the USA at the 2023 International Shooting Sports Federation World Championship was held in Baku, Azerbaijan, Aug. 14 - Sept. 1. As a part of the USA Shooting Team, the Groveland, California native won the Bronze Medal in Women’s 50m Three-Position Rifle (Smallbore).",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-08-25",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.dvidshub.net/image/8030140/us-army-soldier-olympian-gears-up-2024-olympics\">https://www.dvidshub.net/image/8030140/us-army-soldier-olympian-gears-up-2024-olympics</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Lt. Col. Michelle Lunato",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "195620409": {
+        "pageid": 195620409,
+        "ns": 6,
+        "title": "File:2023 ISSF WC Baku 05.jpg",
+        "index": 16,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 293194,
+            "width": 1000,
+            "height": 1500,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/71/2023_ISSF_WC_Baku_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 1920,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/7/71/2023_ISSF_WC_Baku_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1920
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/2023_ISSF_WC_Baku_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:2023_ISSF_WC_Baku_05.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=195620409",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-07-13 14:12:18",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "2023 ISSF WC Baku 05",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Army|Alison Weisz|PD-USGov missing SDC copyright status|2023 ISSF World Shooting Championships",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "2020 Olympian Sgt. Alison Weisz represented the USA at the 2023 International Shooting Sports Federation World Championship was held in Baku, Azerbaijan, Aug. 14 - Sept. 1.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-08-28",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.dvidshub.net/image/8030128/2020-olympian-alison-weisz-prepares-2024-olympics\">https://www.dvidshub.net/image/8030128/2020-olympian-alison-weisz-prepares-2024-olympics</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Lt. Col. Michelle Lunato",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "195620406": {
+        "pageid": 195620406,
+        "ns": 6,
+        "title": "File:2023 ISSF WC Baku 06.jpg",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 228251,
+            "width": 1000,
+            "height": 1500,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/2023_ISSF_WC_Baku_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 1920,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/b/bf/2023_ISSF_WC_Baku_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1920
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/2023_ISSF_WC_Baku_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:2023_ISSF_WC_Baku_06.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=195620406",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-07-13 14:12:13",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "2023 ISSF WC Baku 06",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Army|PD-USGov missing SDC copyright status|2023 ISSF World Shooting Championships|Timothy Sherry",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Sgt. Tim Sherry represented the USA at the 2023 International Shooting Sports Federation World Championship was held in Baku, Azerbaijan, Aug. 14 - Sept. 1. As a part of the USA Shooting Team, the Evergreen, Colorado native won two Bronze Medals (300m Standard Rifle and Men’s 300m Prone Rifle).",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-08-29",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.dvidshub.net/image/8030142/evergreen-colorado-native-gears-up-2024-olympics-winning-medals-baku\">https://www.dvidshub.net/image/8030142/evergreen-colorado-native-gears-up-2024-olympics-winning-medals-baku</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Lt. Col. Michelle Lunato",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "195620405": {
+        "pageid": 195620405,
+        "ns": 6,
+        "title": "File:2023 ISSF WC Baku 07.jpg",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 137021,
+            "width": 1000,
+            "height": 667,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/22/2023_ISSF_WC_Baku_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 854,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/2023_ISSF_WC_Baku_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 854
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/2023_ISSF_WC_Baku_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:2023_ISSF_WC_Baku_07.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=195620405",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-07-13 14:12:13",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "2023 ISSF WC Baku 07",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Army|PD-USGov missing SDC copyright status|2023 ISSF World Shooting Championships|Timothy Sherry",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Sgt. Tim Sherry represented the USA at the 2023 International Shooting Sports Federation World Championship was held in Baku, Azerbaijan, Aug. 14 - Sept. 1. As a part of the USA Shooting Team, the Evergreen, Colorado native won two Bronze Medals (300m Standard Rifle and Men’s 300m Prone Rifle).",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-08-31",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.dvidshub.net/image/8030123/fort-moore-soldier-wins-two-bronze-medals-baku\">https://www.dvidshub.net/image/8030123/fort-moore-soldier-wins-two-bronze-medals-baku</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Lt. Col. Michelle Lunato",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "195620404": {
+        "pageid": 195620404,
+        "ns": 6,
+        "title": "File:2023 ISSF WC Baku 08.jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 179307,
+            "width": 1000,
+            "height": 667,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/2023_ISSF_WC_Baku_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 854,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/c/ce/2023_ISSF_WC_Baku_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 854
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/2023_ISSF_WC_Baku_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:2023_ISSF_WC_Baku_08.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=195620404",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-07-13 14:12:11",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "2023 ISSF WC Baku 08",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Army|PD-USGov missing SDC copyright status|2023 ISSF World Shooting Championships|Timothy Sherry",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Sgt. Tim Sherry represented the USA at the 2023 International Shooting Sports Federation World Championship was held in Baku, Azerbaijan, Aug. 14 - Sept. 1. As a part of the USA Shooting Team, the Evergreen, Colorado native won two Bronze Medals (300m Standard Rifle and Men’s 300m Prone Rifle).",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-08-31",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.dvidshub.net/image/8030125/fort-moore-soldier-preps-2024-olympic-trials-competing-baku\">https://www.dvidshub.net/image/8030125/fort-moore-soldier-preps-2024-olympic-trials-competing-baku</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Lt. Col. Michelle Lunato",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "195620400": {
+        "pageid": 195620400,
+        "ns": 6,
+        "title": "File:2023 ISSF WC Baku 09.jpg",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 197551,
+            "width": 1000,
+            "height": 667,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/06/2023_ISSF_WC_Baku_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 854,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/0/06/2023_ISSF_WC_Baku_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 854
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/2023_ISSF_WC_Baku_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:2023_ISSF_WC_Baku_09.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=195620400",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-07-13 14:12:06",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "2023 ISSF WC Baku 09",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Army|Sagen Maddalena|Mary Tucker|Podiums in sports|PD-USGov missing SDC copyright status|2023 ISSF World Shooting Championships|Sarah Beard",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "U.S. Army Reserve Capt. Sarah Beard, U.S. Army Sgt. Sagen Maddalena and Mary Tucker win the Gold Medal in the Women’s Team 50m Three-Position Rifle (or Smallbore) event at the 2023 International Shooting Sports Federation World Championship was held in Baku, Azerbaijan, Aug. 14 - Sept. 1.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-08-31",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.dvidshub.net/image/8030191/us-women-bring-home-gold-set-new-world-record-womens-smallbore\">https://www.dvidshub.net/image/8030191/us-women-bring-home-gold-set-new-world-record-womens-smallbore</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Lt. Col. Michelle Lunato",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "195620402": {
+        "pageid": 195620402,
+        "ns": 6,
+        "title": "File:2023 ISSF WC Baku 10.jpg",
+        "index": 18,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 192318,
+            "width": 1000,
+            "height": 667,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/41/2023_ISSF_WC_Baku_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 854,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/4/41/2023_ISSF_WC_Baku_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 854
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/2023_ISSF_WC_Baku_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:2023_ISSF_WC_Baku_10.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=195620402",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-07-13 14:12:06",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "2023 ISSF WC Baku 10",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Army|István Péni|Podiums in sports|PD-USGov missing SDC copyright status|2023 ISSF World Shooting Championships|Timothy Sherry|Kim-André Lund",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Sgt. Tim Sherry represented the USA at the 2023 International Shooting Sports Federation World Championship was held in Baku, Azerbaijan, Aug. 14 - Sept. 1. As a part of the USA Shooting Team, the Evergreen, Colorado native won two Bronze Medals (300m Standard Rifle and Men’s 300m Prone Rifle).",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-08-31",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.dvidshub.net/image/8030190/sgt-tim-sherry-wins-bronze-medal-300m-standard-rifle\">https://www.dvidshub.net/image/8030190/sgt-tim-sherry-wins-bronze-medal-300m-standard-rifle</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Lt. Col. Michelle Lunato",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "195620401": {
+        "pageid": 195620401,
+        "ns": 6,
+        "title": "File:2023 ISSF WC Baku 11.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 196664,
+            "width": 1000,
+            "height": 667,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/55/2023_ISSF_WC_Baku_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 854,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/5/55/2023_ISSF_WC_Baku_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 854
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/2023_ISSF_WC_Baku_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:2023_ISSF_WC_Baku_11.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=195620401",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-07-13 14:12:06",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "2023 ISSF WC Baku 11",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Army|PD-USGov missing SDC copyright status|2023 ISSF World Shooting Championships|Timothy Sherry",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Sgt. Tim Sherry represented the USA at the 2023 International Shooting Sports Federation World Championship was held in Baku, Azerbaijan, Aug. 14 - Sept. 1. As a part of the USA Shooting Team, the Evergreen, Colorado native won two Bronze Medals (300m Standard Rifle and Men’s 300m Prone Rifle).",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-08-31",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.dvidshub.net/image/8030160/us-army-soldier-wins-two-bronze-medals-300m-rifle\">https://www.dvidshub.net/image/8030160/us-army-soldier-wins-two-bronze-medals-300m-rifle</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Lt. Col. Michelle Lunato",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "49783439": {
+        "pageid": 49783439,
+        "ns": 6,
+        "title": "File:Aislin Jones - ISSF World Cup Baku 2016.jpg",
+        "index": 17,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 360796,
+            "width": 1280,
+            "height": 960,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Aislin_Jones_-_ISSF_World_Cup_Baku_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 960,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Aislin_Jones_-_ISSF_World_Cup_Baku_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 960
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Aislin_Jones_-_ISSF_World_Cup_Baku_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Aislin_Jones_-_ISSF_World_Cup_Baku_2016.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=49783439",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-06-29 01:47:58",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Aislin Jones - ISSF World Cup Baku 2016",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "International Shooting Sport Federation|Aislin Jones|Self-published work|People with safety earmuffs|ISSF World Cup",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Aislin Jones - ISSF World Cup Baku 2016",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-06-28 20:55:28",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Downunder_75&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Downunder 75 (page does not exist)\">Downunder 75</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "161362374": {
+        "pageid": 161362374,
+        "ns": 6,
+        "title": "File:Data reception ground station in Inuvik.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 494690,
+            "width": 2144,
+            "height": 1212,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Data_reception_ground_station_in_Inuvik.jpg/1280px-Data_reception_ground_station_in_Inuvik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 724,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/1/17/Data_reception_ground_station_in_Inuvik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Data_reception_ground_station_in_Inuvik.jpg/1280px-Data_reception_ground_station_in_Inuvik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 724,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/1/17/Data_reception_ground_station_in_Inuvik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Data_reception_ground_station_in_Inuvik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Data_reception_ground_station_in_Inuvik.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=161362374",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-03-07 08:58:44",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Data reception ground station in Inuvik",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from DLR|Inuvik Satellite Station",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "International Satellite Station Facility (ISSF) in Inuvik",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-04",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.dlr.de/en/images/2017/4/data-reception-ground-station-in-inuvik_29252\">https://www.dlr.de/en/images/2017/4/data-reception-ground-station-in-inuvik_29252</a> <br> <a rel=\"nofollow\" class=\"external free\" href=\"https://www.dlr.de/en/images/institutes-1/earth-observation-center/eoc-issf-in-inuvik\">https://www.dlr.de/en/images/institutes-1/earth-observation-center/eoc-issf-in-inuvik</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.dlr.de\">DLR</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0 de",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0 de",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "DLR, CC-BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0/de/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0-de",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "33207806": {
+        "pageid": 33207806,
+        "ns": 6,
+        "title": "File:Inuvik-ROT CROP-stdcalcomposite MRES-FULL.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 5172583,
+            "width": 3223,
+            "height": 2917,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Inuvik-ROT_CROP-stdcalcomposite_MRES-FULL.jpg/1280px-Inuvik-ROT_CROP-stdcalcomposite_MRES-FULL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1158,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/b/be/Inuvik-ROT_CROP-stdcalcomposite_MRES-FULL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Inuvik-ROT_CROP-stdcalcomposite_MRES-FULL.jpg/1280px-Inuvik-ROT_CROP-stdcalcomposite_MRES-FULL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1158,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/b/be/Inuvik-ROT_CROP-stdcalcomposite_MRES-FULL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Inuvik-ROT_CROP-stdcalcomposite_MRES-FULL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Inuvik-ROT_CROP-stdcalcomposite_MRES-FULL.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=33207806",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-06-05 11:53:34",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Inuvik-ROT CROP-stdcalcomposite MRES-FULL",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Inuvik|TanDEM-X|Satellite pictures of the Northwest Territories|Radar images of Earth|Topography of Canada",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "During this acquisition of TanDEM-X, the 13-metre satellite dish of the Inuvik satellite station followed the satellite flight path and therefore acted as a radar reflector. It appears as a bright cross on the radar image. The town of Inuvik is at the top left of the image and the airport is located towards the lower right.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-06-05 13:51:05",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.dlr.de/media/en/desktopdefault.aspx/tabid-4986/8423_read-16685/8423_page-2\">http://www.dlr.de/media/en/desktopdefault.aspx/tabid-4986/8423_read-16685/8423_page-2</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "DLR",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "161364593": {
+        "pageid": 161364593,
+        "ns": 6,
+        "title": "File:Inuvik-satellite-station-facility 385.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 66106,
+            "width": 385,
+            "height": 214,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Inuvik-satellite-station-facility_385.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 711,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/9/94/Inuvik-satellite-station-facility_385.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 711
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Inuvik-satellite-station-facility_385.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Inuvik-satellite-station-facility_385.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=161364593",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-03-07 09:32:48",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Inuvik-satellite-station-facility 385",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from DLR|Photographs taken on 2019-03-24|Inuvik Satellite Station",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Inuvik satellite station - antenna printed with a Gwich'in design by artist Ronnie Simon (since 2018)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "24 March 2019 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.dlr.de/en/eoc/images/images/8_arch_2021/21_inuvik/inuvik-satellite-station-facility_385.jpg\">https://www.dlr.de/en/eoc/images/images/8_arch_2021/21_inuvik/inuvik-satellite-station-facility_385.jpg</a> <br> (related: <a rel=\"nofollow\" class=\"external free\" href=\"https://www.dlr.de/en/images/institutes-1/german-remote-sensing-data-center/dfd-bodenstation-inuvik-design\">https://www.dlr.de/en/images/institutes-1/german-remote-sensing-data-center/dfd-bodenstation-inuvik-design</a> (no-CC-license))",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.dlr.de\">DLR</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0 de",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0 de",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "DLR, CC-BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0/de/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0-de",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "18549190": {
+        "pageid": 18549190,
+        "ns": 6,
+        "title": "File:Inuvik Empfangsstation.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4414923,
+            "width": 3648,
+            "height": 2736,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Inuvik_Empfangsstation.jpg/1280px-Inuvik_Empfangsstation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 960,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/1/15/Inuvik_Empfangsstation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Inuvik_Empfangsstation.jpg/1280px-Inuvik_Empfangsstation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 960,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/1/15/Inuvik_Empfangsstation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Inuvik_Empfangsstation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Inuvik_Empfangsstation.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=18549190",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-06-05 21:59:05",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Inuvik Empfangsstation",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Deutsches Zentrum für Luft- und Raumfahrt|Images from DLR|April 2010 in the Northwest Territories|Inuvik Satellite Station",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Inuvik Satellite Ground Station",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-03-29",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.dlr.de/dlr/desktopdefault.aspx/tabid-10324/487_read-729/\">http://www.dlr.de/dlr/desktopdefault.aspx/tabid-10324/487_read-729/</a> <br> <a rel=\"nofollow\" class=\"external free\" href=\"https://www.dlr.de/de/bilder/2011/1/empfangsstation-in-inuvik_729\">https://www.dlr.de/de/bilder/2011/1/empfangsstation-in-inuvik_729</a> <br> info: <a rel=\"nofollow\" class=\"external free\" href=\"https://www.dlr.de/de/blog/archiv/2011/bodenstation-inuvik-fur-prisma-bereit\">https://www.dlr.de/de/blog/archiv/2011/bodenstation-inuvik-fur-prisma-bereit</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.dlr.de\">DLR</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table style=\"width:100%; clear: both; text-align: center; margin: 0.5em auto; background-color: var(--background-color-interactive-subtle, #f9f9f9); color: inherit; border: 2px solid var(--border-color-muted, #e0e0e0);\" dir=\"ltr\" lang=\"en\" class=\"layouttemplate partnershiptemplate\" role=\"presentation\">\n<tbody><tr>\n<td>This media has been released under a free license by the <b><a rel=\"nofollow\" class=\"external text\" href=\"https://www.dlr.de/media/desktopdefault.aspx/\">Deutsches Zentrum für Luft- und Raumfahrt</a></b> (DLR).<br><a rel=\"nofollow\" class=\"external text\" href=\"https://www.dlr.de/media/en/desktopdefault.aspx/tabid-5813/\">Their website states</a>: <i>\"Where expressly stated, DLR images and videos are covered by a <a rel=\"nofollow\" class=\"external text\" href=\"http://creativecommons.org/licenses/by/3.0/de/deed.en\">Creative Commons Attribution 3.0 Germany (CC BY 3.0) licence</a>. This licence grants permission to reproduce or distribute the work, to make the work and/or its contents publically available, to alter or edit the work and/or its contents and to make commercial use of the work, provided that you explicitly mention DLR as its source in a clearly legible format. Examples: 'Photo: DLR, CC-BY 3.0', 'Images: DLR, CC-BY 3.0', 'Video: DLR, CC-BY 3.0'.\"</i><br><small><b><u>To the uploader</u></b>: You must provide a link (URL) to the original file and the authorship information if available.</small>\n</td></tr></tbody></table>\n<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by/3.0/de/deed.en\" class=\"extiw\" title=\"creativecommons:by/3.0/de/deed.en\">Attribution 3.0 Germany</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">DLR, CC-BY 3.0</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" dir=\"ltr\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li></ul></dd></dl>\n</div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by/3.0/de/deed.en</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY 3.0 de</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution 3.0 de</span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div><div class=\"rlicense-country\"><figure class=\"mw-halign-center mw-image-border\" typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/120px-Flag_of_Germany.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"54\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1000\" data-file-height=\"600\"></span><figcaption></figcaption></figure></div></div>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0 de",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0 de",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "DLR, CC-BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0/de/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0-de",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "161361119": {
+        "pageid": 161361119,
+        "ns": 6,
+        "title": "File:The Inuvik Satellite Station Facility (ISSF).jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 825822,
+            "width": 1920,
+            "height": 1080,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/The_Inuvik_Satellite_Station_Facility_%28ISSF%29.jpg/1280px-The_Inuvik_Satellite_Station_Facility_%28ISSF%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/6/67/The_Inuvik_Satellite_Station_Facility_%28ISSF%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/The_Inuvik_Satellite_Station_Facility_%28ISSF%29.jpg/1280px-The_Inuvik_Satellite_Station_Facility_%28ISSF%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 720,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/6/67/The_Inuvik_Satellite_Station_Facility_%28ISSF%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/The_Inuvik_Satellite_Station_Facility_%28ISSF%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Inuvik_Satellite_Station_Facility_(ISSF).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=161361119",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-03-07 08:38:42",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "The Inuvik Satellite Station Facility (ISSF)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from DLR|Inuvik Satellite Station",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The Inuvik Satellite Station Facility (ISSF)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-06",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.dlr.de/en/images/dlrmagazine/the-inuvik-satellite-station-facility\">https://www.dlr.de/en/images/dlrmagazine/the-inuvik-satellite-station-facility</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.dlr.de\">DLR</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0 de",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0 de",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "DLR, CC-BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0/de/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0-de",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "119100280": {
+        "pageid": 119100280,
+        "ns": 6,
+        "title": "File:Vladimir Lisin (ISSF).jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2655299,
+            "width": 3024,
+            "height": 4032,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Vladimir_Lisin_%28ISSF%29.jpg/1280px-Vladimir_Lisin_%28ISSF%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1707,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/4/40/Vladimir_Lisin_%28ISSF%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Vladimir_Lisin_%28ISSF%29.jpg/1280px-Vladimir_Lisin_%28ISSF%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1707,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/4/40/Vladimir_Lisin_%28ISSF%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Vladimir_Lisin_%28ISSF%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vladimir_Lisin_(ISSF).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=119100280",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-06-09 09:45:23",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vladimir Lisin (ISSF)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Vladimir Lisin|Self-published work|Files with coordinates missing SDC location of creation|ISSF World Cup",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "45.418111",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "10.497678",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The ISSF World Cup in Lonato",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-04-22",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:PGK_press&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:PGK press (page does not exist)\">PGK press</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,2016 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 18,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "162122789": {
+        "pageid": 162122789,
+        "ns": 6,
+        "title": "File:2017-09-25 02 NUKA ARCTICA - IMO 9100231 - Sikuki Nuuk, Greenland.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 9468831,
+            "width": 5511,
+            "height": 3679,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/2017-09-25_02_NUKA_ARCTICA_-_IMO_9100231_-_Sikuki_Nuuk%2C_Greenland.jpg/1280px-2017-09-25_02_NUKA_ARCTICA_-_IMO_9100231_-_Sikuki_Nuuk%2C_Greenland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 854,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/2017-09-25_02_NUKA_ARCTICA_-_IMO_9100231_-_Sikuki_Nuuk%2C_Greenland.jpg/3840px-2017-09-25_02_NUKA_ARCTICA_-_IMO_9100231_-_Sikuki_Nuuk%2C_Greenland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/2017-09-25_02_NUKA_ARCTICA_-_IMO_9100231_-_Sikuki_Nuuk%2C_Greenland.jpg/1280px-2017-09-25_02_NUKA_ARCTICA_-_IMO_9100231_-_Sikuki_Nuuk%2C_Greenland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 854,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/2017-09-25_02_NUKA_ARCTICA_-_IMO_9100231_-_Sikuki_Nuuk%2C_Greenland.jpg/3840px-2017-09-25_02_NUKA_ARCTICA_-_IMO_9100231_-_Sikuki_Nuuk%2C_Greenland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/2017-09-25_02_NUKA_ARCTICA_-_IMO_9100231_-_Sikuki_Nuuk%2C_Greenland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:2017-09-25_02_NUKA_ARCTICA_-_IMO_9100231_-_Sikuki_Nuuk,_Greenland.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=162122789",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-03-15 18:11:37",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "2017-09-25 02 NUKA ARCTICA - IMO 9100231 - Sikuki Nuuk, Greenland",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "2017 in Greenland|Nuuk Port|Self-published work|Information field template with formatting|Files with coordinates missing SDC location of creation|Nuka Arctica (ship, 1995)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "valued",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "64.168637",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-51.720968",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Self-loading container ship of the Royal Arctic Line, NUKA ARCTICA - IMO 9100231 at the container dock at Sikuki Nuuk Harbor, Greenland on September 25, 2017. NUKA ARCTICA is used on the Aalborg route between Denmark and Greenland.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-09-25 14:02:14",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:GRDN711\" title=\"User:GRDN711\">Gordon Leggett</a>",
+                "source": "commons-desc-page"
+              },
+              "Attribution": {
+                "value": "Photo: <a href=\"//commons.wikimedia.org/wiki/User_talk:GRDN711\" title=\"User talk:GRDN711\">Gordon Leggett</a> / <a href=\"//commons.wikimedia.org/wiki/Main_Page\" title=\"Main Page\">Wikimedia Commons</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "130287905": {
+        "pageid": 130287905,
+        "ns": 6,
+        "title": "File:Air Greenland Dash 8-200 OY-GRM at Nuuk Airport.png",
+        "index": 16,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 85847235,
+            "width": 9348,
+            "height": 6232,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Air_Greenland_Dash_8-200_OY-GRM_at_Nuuk_Airport.png/1280px-Air_Greenland_Dash_8-200_OY-GRM_at_Nuuk_Airport.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Air_Greenland_Dash_8-200_OY-GRM_at_Nuuk_Airport.png/3840px-Air_Greenland_Dash_8-200_OY-GRM_at_Nuuk_Airport.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Air_Greenland_Dash_8-200_OY-GRM_at_Nuuk_Airport.png/1280px-Air_Greenland_Dash_8-200_OY-GRM_at_Nuuk_Airport.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Air_Greenland_Dash_8-200_OY-GRM_at_Nuuk_Airport.png/3840px-Air_Greenland_Dash_8-200_OY-GRM_at_Nuuk_Airport.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Air_Greenland_Dash_8-200_OY-GRM_at_Nuuk_Airport.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Air_Greenland_Dash_8-200_OY-GRM_at_Nuuk_Airport.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=130287905",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-04-02 10:06:00",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Air Greenland Dash 8-200 OY-GRM at Nuuk Airport",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|April 2023 in Greenland|Denmark photographs taken on 2023-04-01|Air Greenland aircraft at Nuuk Airport|OY-GRM (aircraft)|2023 at Nuuk Airport|Photographs by Quintin Soloviev",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "OY-GRM at Nuuk Airport in 2023",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 1 April 2023",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Quintinsoloviev\" class=\"mw-redirect\" title=\"User:Quintinsoloviev\">Quintin Soloviev</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "120440873": {
+        "pageid": 120440873,
+        "ns": 6,
+        "title": "File:Air Greenland headquarters, Nuuk (Quintin Soloviev).png",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 43612489,
+            "width": 7856,
+            "height": 5240,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Air_Greenland_headquarters%2C_Nuuk_%28Quintin_Soloviev%29.png/1280px-Air_Greenland_headquarters%2C_Nuuk_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 854,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Air_Greenland_headquarters%2C_Nuuk_%28Quintin_Soloviev%29.png/3840px-Air_Greenland_headquarters%2C_Nuuk_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Air_Greenland_headquarters%2C_Nuuk_%28Quintin_Soloviev%29.png/1280px-Air_Greenland_headquarters%2C_Nuuk_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 854,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Air_Greenland_headquarters%2C_Nuuk_%28Quintin_Soloviev%29.png/3840px-Air_Greenland_headquarters%2C_Nuuk_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Air_Greenland_headquarters%2C_Nuuk_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Air_Greenland_headquarters,_Nuuk_(Quintin_Soloviev).png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=120440873",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-07-14 17:13:58",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Air Greenland headquarters, Nuuk (Quintin Soloviev)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Air Greenland|Nuuk Airport|Self-published work|Signs in Greenland|Gray and red buildings|Files with coordinates missing SDC location of creation|Photographs by Quintin Soloviev",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "64.190380",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-51.671530",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Air Greenland headquarters in Nuuk",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-05-13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Quintinsoloviev\" class=\"mw-redirect\" title=\"User:Quintinsoloviev\">Quintin Soloviev</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "88076168": {
+        "pageid": 88076168,
+        "ns": 6,
+        "title": "File:Closeup colorful houses Nuuk Greenland.jpg",
+        "index": 15,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4816825,
+            "width": 5184,
+            "height": 3888,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Closeup_colorful_houses_Nuuk_Greenland.jpg/1280px-Closeup_colorful_houses_Nuuk_Greenland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 960,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Closeup_colorful_houses_Nuuk_Greenland.jpg/3840px-Closeup_colorful_houses_Nuuk_Greenland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Closeup_colorful_houses_Nuuk_Greenland.jpg/1280px-Closeup_colorful_houses_Nuuk_Greenland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 960,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Closeup_colorful_houses_Nuuk_Greenland.jpg/3840px-Closeup_colorful_houses_Nuuk_Greenland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Closeup_colorful_houses_Nuuk_Greenland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Closeup_colorful_houses_Nuuk_Greenland.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=88076168",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-03-14 18:44:57",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Closeup colorful houses Nuuk Greenland",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Lime (color)|Houses in Greenland|Colorful houses|Orange houses|Red houses in Greenland|Flickr images reviewed by FlickreviewR 2|Green houses in Greenland|August 2019 in Greenland|Blue houses in Greenland|Colorful buildings in Greenland|Views of Nuuk|Files from amanderson2 Flickr stream",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Greenland",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-08-26 20:55:50",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/49399018@N00/48763416143/\">https://www.flickr.com/photos/49399018@N00/48763416143/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "amanderson2",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "120440853": {
+        "pageid": 120440853,
+        "ns": 6,
+        "title": "File:H.J. Rinkip Aqqutaa, Nuuk, Greenland (Quintin Soloviev).png",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 10633380,
+            "width": 4240,
+            "height": 2832,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/H.J._Rinkip_Aqqutaa%2C_Nuuk%2C_Greenland_%28Quintin_Soloviev%29.png/1280px-H.J._Rinkip_Aqqutaa%2C_Nuuk%2C_Greenland_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 855,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/H.J._Rinkip_Aqqutaa%2C_Nuuk%2C_Greenland_%28Quintin_Soloviev%29.png/3840px-H.J._Rinkip_Aqqutaa%2C_Nuuk%2C_Greenland_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/H.J._Rinkip_Aqqutaa%2C_Nuuk%2C_Greenland_%28Quintin_Soloviev%29.png/1280px-H.J._Rinkip_Aqqutaa%2C_Nuuk%2C_Greenland_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 855,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/H.J._Rinkip_Aqqutaa%2C_Nuuk%2C_Greenland_%28Quintin_Soloviev%29.png/3840px-H.J._Rinkip_Aqqutaa%2C_Nuuk%2C_Greenland_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/H.J._Rinkip_Aqqutaa%2C_Nuuk%2C_Greenland_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:H.J._Rinkip_Aqqutaa,_Nuuk,_Greenland_(Quintin_Soloviev).png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=120440853",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-07-14 17:13:37",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "H.J. Rinkip Aqqutaa, Nuuk, Greenland (Quintin Soloviev)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Greenland in the 2020s|Self-published work|Red buildings in Greenland|Streets in Nuuk|Photographs by Quintin Soloviev",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "H.J. Rinkip Aqqutaa road in Nuuk",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-05-13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Quintinsoloviev\" class=\"mw-redirect\" title=\"User:Quintinsoloviev\">Quintin Soloviev</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "133533181": {
+        "pageid": 133533181,
+        "ns": 6,
+        "title": "File:Nuuk, Greenland (ASTER).jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 434090,
+            "width": 1735,
+            "height": 1511,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Nuuk%2C_Greenland_%28ASTER%29.jpg/1280px-Nuuk%2C_Greenland_%28ASTER%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1115,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Nuuk%2C_Greenland_%28ASTER%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Nuuk%2C_Greenland_%28ASTER%29.jpg/1280px-Nuuk%2C_Greenland_%28ASTER%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1115,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Nuuk%2C_Greenland_%28ASTER%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Nuuk%2C_Greenland_%28ASTER%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nuuk,_Greenland_(ASTER).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=133533181",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-06-24 16:34:36",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Nuuk, Greenland (ASTER)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD NASA|Nuuk|Photographs taken on 2004-08-02|Photos of Greenland by ASTER|Files from NASA with known IDs|ASTER files uploaded by OptimusPrimeBot",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "64.200000",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-51.800000",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Nuuk (or Gadthab) is the capital and largest city of Greenland. It is located at the mouth of the Nuup Kangerlua inlet on the west coast of Greenland. It has a population of about 15,000. The site has a long history of different inhabitation: first by the Inuit people around 2000 B.C., later by Viking explorers in the 10th century. Inuit and Vikings lived together for about 500 years until about 1500, when human habitation suddenly stopped, most likely due to change in climate and vegetation. The image was acquired August 2, 2004, covers an area of 22.7 x 26 km, and is located at 64.2 degrees north latitude, 51.8 degrees west longitude.Nuuk",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 2 August 2004",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "This image or video was catalogued by Jet Propulsion Laboratory of the United States <a href=\"https://en.wikipedia.org/wiki/NASA\" class=\"extiw\" title=\"w:NASA\">National Aeronautics and Space Administration</a> (NASA) under <b>Photo ID:</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://images.nasa.gov/search?q=nuuk&amp;page=1&amp;media=image,video,audio&amp;yearStart=1920&amp;yearEnd=2026\">nuuk</a>.",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "NASA/METI/AIST/Japan Space Systems, and U.S./Japan ASTER Science Team",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "182002488": {
+        "pageid": 182002488,
+        "ns": 6,
+        "title": "File:Nuuk, Greenland skyline.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3406457,
+            "width": 5712,
+            "height": 3808,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Nuuk%2C_Greenland_skyline.jpg/1280px-Nuuk%2C_Greenland_skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Nuuk%2C_Greenland_skyline.jpg/3840px-Nuuk%2C_Greenland_skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Nuuk%2C_Greenland_skyline.jpg/1280px-Nuuk%2C_Greenland_skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Nuuk%2C_Greenland_skyline.jpg/3840px-Nuuk%2C_Greenland_skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Nuuk%2C_Greenland_skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nuuk,_Greenland_skyline.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182002488",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-01-17 23:48:01",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Nuuk, Greenland skyline",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Greenland|Self-published work|Files with coordinates missing SDC location of creation|Views of Nuuk|Photographs by Quintin Soloviev",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "64.179292",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-51.745103",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "View of Nuuk, Greenland, near Nuuk Cathedral.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-06-18 21:01:33",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Quintin_Soloviev\" title=\"User:Quintin Soloviev\">Quintin Soloviev</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "168063987": {
+        "pageid": 168063987,
+        "ns": 6,
+        "title": "File:Nuuk, Greenland skyline aerial view.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 15909808,
+            "width": 5712,
+            "height": 3750,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Nuuk%2C_Greenland_skyline_aerial_view.jpg/1280px-Nuuk%2C_Greenland_skyline_aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 840,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Nuuk%2C_Greenland_skyline_aerial_view.jpg/3840px-Nuuk%2C_Greenland_skyline_aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Nuuk%2C_Greenland_skyline_aerial_view.jpg/1280px-Nuuk%2C_Greenland_skyline_aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 840,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Nuuk%2C_Greenland_skyline_aerial_view.jpg/3840px-Nuuk%2C_Greenland_skyline_aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Nuuk%2C_Greenland_skyline_aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nuuk,_Greenland_skyline_aerial_view.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=168063987",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-07-14 01:51:00",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Nuuk, Greenland skyline aerial view",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Aerial photographs of Greenland|Images with annotations|Self-published work|Files with coordinates missing SDC location of creation|Views of Nuuk|Photographs by Quintin Soloviev",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "64.169844",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-51.764169",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Aerial view of downtown <a href=\"https://en.wikipedia.org/wiki/Nuuk\" class=\"extiw\" title=\"w:Nuuk\">Nuuk</a>, Greenland. Viewed from an Air Greenland helicopter.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-06-19 19:06:52",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Quintinsoloviev\" class=\"mw-redirect\" title=\"User:Quintinsoloviev\">Quintin Soloviev</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "141195743": {
+        "pageid": 141195743,
+        "ns": 6,
+        "title": "File:Nuuk, Greenland skyline at night under the northern lights (Quintin Soloviev).png",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 62805282,
+            "width": 7128,
+            "height": 4752,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Nuuk%2C_Greenland_skyline_at_night_under_the_northern_lights_%28Quintin_Soloviev%29.png/1280px-Nuuk%2C_Greenland_skyline_at_night_under_the_northern_lights_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Nuuk%2C_Greenland_skyline_at_night_under_the_northern_lights_%28Quintin_Soloviev%29.png/3840px-Nuuk%2C_Greenland_skyline_at_night_under_the_northern_lights_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Nuuk%2C_Greenland_skyline_at_night_under_the_northern_lights_%28Quintin_Soloviev%29.png/1280px-Nuuk%2C_Greenland_skyline_at_night_under_the_northern_lights_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Nuuk%2C_Greenland_skyline_at_night_under_the_northern_lights_%28Quintin_Soloviev%29.png/3840px-Nuuk%2C_Greenland_skyline_at_night_under_the_northern_lights_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Nuuk%2C_Greenland_skyline_at_night_under_the_northern_lights_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nuuk,_Greenland_skyline_at_night_under_the_northern_lights_(Quintin_Soloviev).png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=141195743",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-07-18 20:22:28",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Nuuk, Greenland skyline at night under the northern lights (Quintin Soloviev)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Night in Greenland|Aurora in Greenland|April 2023 in Greenland|Denmark photographs taken on 2023-04-02|Views of Nuuk|Photographs by Quintin Soloviev",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Nuuk, Greenland skyline with the aurora borealis",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 2 April 2023",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Quintin_Soloviev\" title=\"User:Quintin Soloviev\">Quintin Soloviev</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "10881773": {
+        "pageid": 10881773,
+        "ns": 6,
+        "title": "File:Nuuk-centrum.jpg",
+        "index": 18,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4038769,
+            "width": 3872,
+            "height": 2176,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Nuuk-centrum.jpg/1280px-Nuuk-centrum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 719,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Nuuk-centrum.jpg/3840px-Nuuk-centrum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Nuuk-centrum.jpg/1280px-Nuuk-centrum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 719,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Nuuk-centrum.jpg/3840px-Nuuk-centrum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Nuuk-centrum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nuuk-centrum.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=10881773",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2010-07-13 22:05:56",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Nuuk-centrum",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Utility poles in Greenland|Taken with Sony DSLR-A300|Nuuk Centrum|Self-published work|Road signs in Greenland|Streets in Nuuk|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "64.178060",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-51.735320",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Nuuk Centrum, Greenland.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2010-06-23",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Algkalv\" title=\"User:Algkalv\">Algkalv</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Algkalv\" title=\"User talk:Algkalv\"><span class=\"signature-talk\">talk</span></a>)",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "10898006": {
+        "pageid": 10898006,
+        "ns": 6,
+        "title": "File:Nuuk-port.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2628040,
+            "width": 3872,
+            "height": 1900,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Nuuk-port.jpg/1280px-Nuuk-port.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 628,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Nuuk-port.jpg/3840px-Nuuk-port.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Nuuk-port.jpg/1280px-Nuuk-port.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 628,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Nuuk-port.jpg/3840px-Nuuk-port.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Nuuk-port.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nuuk-port.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=10898006",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2010-07-15 22:15:59",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Nuuk-port",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Sony DSLR-A300|Nuuk Port|Buildings in Nuuk|Self-published work|Streets in Nuuk|Blue buildings in Greenland",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Nuuk Port, Greenland.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2010-06-23",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Algkalv\" title=\"User:Algkalv\">Algkalv</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Algkalv\" title=\"User talk:Algkalv\"><span class=\"signature-talk\">talk</span></a>)",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "130287916": {
+        "pageid": 130287916,
+        "ns": 6,
+        "title": "File:Nuuk Airport terminal.jpg",
+        "index": 17,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 42753919,
+            "width": 9504,
+            "height": 6336,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Nuuk_Airport_terminal.jpg/1280px-Nuuk_Airport_terminal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Nuuk_Airport_terminal.jpg/3840px-Nuuk_Airport_terminal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Nuuk_Airport_terminal.jpg/1280px-Nuuk_Airport_terminal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Nuuk_Airport_terminal.jpg/3840px-Nuuk_Airport_terminal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Nuuk_Airport_terminal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nuuk_Airport_terminal.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=130287916",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-04-02 10:06:37",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Nuuk Airport terminal",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Air Greenland|Airport buildings in Greenland|Taken with Sony ILCE-7RM5|Self-published work|April 2023 in Greenland|Denmark photographs taken on 2023-04-01|2020s photographs of Greenland|2023 at Nuuk Airport|Photographs by Quintin Soloviev",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Nuuk Airport's terminal in 2023",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 1 April 2023, 14:01:46",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Quintinsoloviev\" class=\"mw-redirect\" title=\"User:Quintinsoloviev\">Quintin Soloviev</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "152433193": {
+        "pageid": 152433193,
+        "ns": 6,
+        "title": "File:Nuuk Greenland OpenStreetMap 2024-09-09.png",
+        "index": 14,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 8364485,
+            "width": 4075,
+            "height": 3860,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Nuuk_Greenland_OpenStreetMap_2024-09-09.png/1280px-Nuuk_Greenland_OpenStreetMap_2024-09-09.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1212,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Nuuk_Greenland_OpenStreetMap_2024-09-09.png/3840px-Nuuk_Greenland_OpenStreetMap_2024-09-09.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Nuuk_Greenland_OpenStreetMap_2024-09-09.png/1280px-Nuuk_Greenland_OpenStreetMap_2024-09-09.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1212,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Nuuk_Greenland_OpenStreetMap_2024-09-09.png/3840px-Nuuk_Greenland_OpenStreetMap_2024-09-09.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Nuuk_Greenland_OpenStreetMap_2024-09-09.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nuuk_Greenland_OpenStreetMap_2024-09-09.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=152433193",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-09-09 18:14:34",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Nuuk Greenland OpenStreetMap 2024-09-09",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Nuuk|2024 maps of Greenland|OpenStreetMap maps of Greenland|ODbL OpenStreetMap",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "OpenStreetMap map (as of September 9, 2024) of <a href=\"//commons.wikimedia.org/wiki/Nuuk\" title=\"Nuuk\">Nuuk</a> (<a class=\"external text\" href=\"https://en.wikipedia.org/wiki/Nuuk\">Nuuk (en-wp)</a>, the capital of and most populous city in <a href=\"//commons.wikimedia.org/wiki/Greenland\" class=\"mw-redirect\" title=\"Greenland\">Greenland</a>, with a population of 19,872 in 2024 (the map's year).",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-09-09",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.openstreetmap.org/\">https://www.openstreetmap.org/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "OpenStreetMap",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "36435840": {
+        "pageid": 36435840,
+        "ns": 6,
+        "title": "File:Nuuk Location.jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 59470,
+            "width": 317,
+            "height": 540,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Nuuk_Location.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 2180,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/Nuuk_Location.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 2180
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Nuuk_Location.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nuuk_Location.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=36435840",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-10-27 19:52:56",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Nuuk Location",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Maps of Greenland|Nuuk|Self-published work|2014 maps of Greenland",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Image of the location of Nuuk in Greenland.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-10-27 14:47:48",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:A.bre.clare.&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:A.bre.clare. (page does not exist)\">A.bre.clare.</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "44405562": {
+        "pageid": 44405562,
+        "ns": 6,
+        "title": "File:Nuuk Stadium.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1854360,
+            "width": 2896,
+            "height": 1936,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Nuuk_Stadium.jpg/1280px-Nuuk_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 856,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Nuuk_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Nuuk_Stadium.jpg/1280px-Nuuk_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 856,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Nuuk_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Nuuk_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nuuk_Stadium.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=44405562",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-10-23 02:26:24",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Nuuk Stadium",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Greenland national association football team|Nuuk Stadium|Flickr images reviewed by trusted users|Flickr images missing SDC source of file",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Nuuk Stadium in Nuuk, Greenland",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-10-22",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/greenlandtravel/15269651730/in/photolist-pgjXtq-eRNocN-f79moS-p8eooY-9DFuan-9DFuyg-eTrmfj-9GRjJX-3h6ryU-pgjFgp-eN8my6-eTeU4X-7Qf7hm-aqEBEo-eTrk8Y-9DFuPD-eZ44us-eST2zW-eUuhHz-eNKPYj-6ESsfF-dUMpsm-6E4fyp-6SbdDf-63gk9t-eTrpB7-66APYg-6Sb9e1-6ASNDA-pgtz6E-69MuqC-6aDCjZ-6E8pcU-4vG64m-6R8Ng8-6Cmtdp-66F3WY-6FK9aa-6aDBYP-5ZtghA-6ANzH4-9DJwk5-6JdZA1-nesMgt-nesMbZ-ncqjxm-net1ge-ncqdUM-nesZ18-nesYRF\">Flickr</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Greenland Travel",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "60791344": {
+        "pageid": 60791344,
+        "ns": 6,
+        "title": "File:Nuuk Stadium 2.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 146669,
+            "width": 720,
+            "height": 535,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Nuuk_Stadium_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 951,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/2/21/Nuuk_Stadium_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 951
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Nuuk_Stadium_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nuuk_Stadium_2.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=60791344",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-09-02 02:14:00",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Nuuk Stadium 2",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Nuuk Stadium|Flickr images reviewed by trusted users",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Nuuk Stadium, Greenland's national stadium, after installation of turf",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-07-09",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "adapted from image on <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/henrikkarll/27707867170/in/album-72157669719798746/\">Flickr</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/henrikkarll/\">Henrik Karll</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "66137004": {
+        "pageid": 66137004,
+        "ns": 6,
+        "title": "File:Soccer field in Nuuk.jpg",
+        "index": 13,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2263288,
+            "width": 3840,
+            "height": 2160,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Soccer_field_in_Nuuk.jpg/1280px-Soccer_field_in_Nuuk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/5/55/Soccer_field_in_Nuuk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Soccer_field_in_Nuuk.jpg/1280px-Soccer_field_in_Nuuk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 720,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/5/55/Soccer_field_in_Nuuk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Soccer_field_in_Nuuk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Soccer_field_in_Nuuk.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=66137004",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-02-04 20:30:37",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Soccer field in Nuuk",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Association football in Greenland|Nuuk Stadium|Self-published work|Uploaded with Mobile/Android|Uploaded with Mobile/Android (Nov 2017-Aug 2019)|Files with coordinates missing SDC location of creation|Greenland photographs taken on 2017-08-07",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "64.181561",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-51.733500",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Soccer field in artificial turf in Nuuk town centre close to Inussivik indoor stadium. FIFA and DBU sponsered the construction.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "7 August 2017 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Karlbrix&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Karlbrix (page does not exist)\">Karlbrix</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "120440856": {
+        "pageid": 120440856,
+        "ns": 6,
+        "title": "File:Tuapannguit buildings, Nuuk, Greenland (Quintin Soloviev).png",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 11721181,
+            "width": 4240,
+            "height": 2832,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Tuapannguit_buildings%2C_Nuuk%2C_Greenland_%28Quintin_Soloviev%29.png/1280px-Tuapannguit_buildings%2C_Nuuk%2C_Greenland_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 855,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Tuapannguit_buildings%2C_Nuuk%2C_Greenland_%28Quintin_Soloviev%29.png/3840px-Tuapannguit_buildings%2C_Nuuk%2C_Greenland_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Tuapannguit_buildings%2C_Nuuk%2C_Greenland_%28Quintin_Soloviev%29.png/1280px-Tuapannguit_buildings%2C_Nuuk%2C_Greenland_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 855,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Tuapannguit_buildings%2C_Nuuk%2C_Greenland_%28Quintin_Soloviev%29.png/3840px-Tuapannguit_buildings%2C_Nuuk%2C_Greenland_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Tuapannguit_buildings%2C_Nuuk%2C_Greenland_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tuapannguit_buildings,_Nuuk,_Greenland_(Quintin_Soloviev).png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=120440856",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-07-14 17:13:40",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Tuapannguit buildings, Nuuk, Greenland (Quintin Soloviev)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Nuuk Centrum|Self-published work|Files with coordinates missing SDC location of creation|Views of Nuuk|Photographs by Quintin Soloviev",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "64.179460",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-51.745440",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Tuapannguit low-rise residential buildings in Nuuk",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-05-13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Quintinsoloviev\" class=\"mw-redirect\" title=\"User:Quintinsoloviev\">Quintin Soloviev</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

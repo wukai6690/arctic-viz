@@ -1,0 +1,25 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "1582731": {
+        "pageid": 1582731,
+        "ns": 0,
+        "title": "Pevek",
+        "coordinates": [
+          {
+            "lat": 69.7,
+            "lon": 170.28333333,
+            "primary": "",
+            "globe": "earth"
+          }
+        ],
+        "pageprops": {
+          "page_image_free": "View_of_Pevek_from_the_south.jpg",
+          "wikibase-shortdesc": "Town in Chukotka Autonomous Okrug, Russia",
+          "wikibase_item": "Q178105"
+        }
+      }
+    }
+  }
+}

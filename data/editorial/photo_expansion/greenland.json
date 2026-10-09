@@ -1,0 +1,2107 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 18,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "135279606": {
+        "pageid": 135279606,
+        "ns": 6,
+        "title": "File:Blue iceberg in the Ilulissat icefjord - edited.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3172803,
+            "width": 1920,
+            "height": 1360,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Blue_iceberg_in_the_Ilulissat_icefjord_-_edited.jpg/1280px-Blue_iceberg_in_the_Ilulissat_icefjord_-_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 907,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Blue_iceberg_in_the_Ilulissat_icefjord_-_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Blue_iceberg_in_the_Ilulissat_icefjord_-_edited.jpg/1280px-Blue_iceberg_in_the_Ilulissat_icefjord_-_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 907,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Blue_iceberg_in_the_Ilulissat_icefjord_-_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Blue_iceberg_in_the_Ilulissat_icefjord_-_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Blue_iceberg_in_the_Ilulissat_icefjord_-_edited.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=135279606",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-07-30 15:40:09",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Blue iceberg in the Ilulissat icefjord - edited",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Tourism in Greenland|Ilulissat Kangerlua|Blue ice|Extracted images|Icebergs in Greenland|Files with coordinates missing SDC location of creation|Aerial photographs of icebergs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.160000",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-49.650000",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Blue iceberg spotted from air on the 10th of June 2015 in the Ilulissat icefjord, Greenland. The iceberg appeared to be approximately 50 meters long.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-06-18",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a class=\"external free\" href=\"https://commons.wikimedia.org/wiki/File:Blue_iceberg_in_the_Ilulissat_icefjord.jpg\">https://commons.wikimedia.org/wiki/File:Blue_iceberg_in_the_Ilulissat_icefjord.jpg</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:MarcusEngdahl&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:MarcusEngdahl (page does not exist)\">Marcus Engdahl</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "155703338": {
+        "pageid": 155703338,
+        "ns": 6,
+        "title": "File:Boat in front of an iceberg in the Ilulissat Icefjord, Greenland (54067583959).jpg",
+        "index": 15,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 22134305,
+            "width": 8180,
+            "height": 4601,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Boat_in_front_of_an_iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067583959%29.jpg/1280px-Boat_in_front_of_an_iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067583959%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Boat_in_front_of_an_iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067583959%29.jpg/3840px-Boat_in_front_of_an_iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067583959%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Boat_in_front_of_an_iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067583959%29.jpg/1280px-Boat_in_front_of_an_iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067583959%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Boat_in_front_of_an_iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067583959%29.jpg/3840px-Boat_in_front_of_an_iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067583959%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Boat_in_front_of_an_iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067583959%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Boat_in_front_of_an_iceberg_in_the_Ilulissat_Icefjord,_Greenland_(54067583959).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=155703338",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-11-24 18:15:15",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Boat in front of an iceberg in the Ilulissat Icefjord, Greenland (54067583959)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Boats in Greenland|Blue sky in Greenland|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Greenland photographs taken on 2024-07-21|Icebergs in Ilulissat Kangerlua|Photographs of Greenland by Christoph Strässler",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.172719",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-51.141353",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Boat in front of an iceberg in the Ilulissat Icefjord, Greenland",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 21 July 2024, 01:40",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/christoph_straessler/54067583959/\">Boat in front of an iceberg in the Ilulissat Icefjord, Greenland</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/78904630@N08\">Christoph Strässler</a> from Oberdorf BL, Schweiz",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "155703140": {
+        "pageid": 155703140,
+        "ns": 6,
+        "title": "File:Iceberg in the Ilulissat Icefjord, Greenland (54066377302).jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 20359168,
+            "width": 8256,
+            "height": 4644,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066377302%29.jpg/1280px-Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066377302%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066377302%29.jpg/3840px-Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066377302%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066377302%29.jpg/1280px-Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066377302%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066377302%29.jpg/3840px-Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066377302%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066377302%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Iceberg_in_the_Ilulissat_Icefjord,_Greenland_(54066377302).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=155703140",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-11-24 18:11:37",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Iceberg in the Ilulissat Icefjord, Greenland (54066377302)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Blue sky in Greenland|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Greenland photographs taken on 2024-07-21|Icebergs in Ilulissat Kangerlua|Photographs of Greenland by Christoph Strässler",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.179580",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-51.146153",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Iceberg in the Ilulissat Icefjord, Greenland",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 21 July 2024, 01:33",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/christoph_straessler/54066377302/\">Iceberg in the Ilulissat Icefjord, Greenland</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/78904630@N08\">Christoph Strässler</a> from Oberdorf BL, Schweiz",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "155703332": {
+        "pageid": 155703332,
+        "ns": 6,
+        "title": "File:Iceberg in the Ilulissat Icefjord, Greenland (54066379867).jpg",
+        "index": 13,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 20081526,
+            "width": 8212,
+            "height": 4619,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066379867%29.jpg/1280px-Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066379867%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066379867%29.jpg/3840px-Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066379867%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066379867%29.jpg/1280px-Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066379867%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066379867%29.jpg/3840px-Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066379867%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066379867%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Iceberg_in_the_Ilulissat_Icefjord,_Greenland_(54066379867).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=155703332",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-11-24 18:15:14",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Iceberg in the Ilulissat Icefjord, Greenland (54066379867)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Blue sky in Greenland|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Greenland photographs taken on 2024-07-21|Icebergs in Ilulissat Kangerlua|Photographs of Greenland by Christoph Strässler|Flickr images missing SDC published in",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.189161",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-51.178092",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Iceberg in the Ilulissat Icefjord, Greenland",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 21 July 2024, 02:07",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/christoph_straessler/54066379867/\">Iceberg in the Ilulissat Icefjord, Greenland</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/78904630@N08\">Christoph Strässler</a> from Oberdorf BL, Schweiz",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "155703132": {
+        "pageid": 155703132,
+        "ns": 6,
+        "title": "File:Iceberg in the Ilulissat Icefjord, Greenland (54066381102).jpg",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 19528319,
+            "width": 8256,
+            "height": 4644,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066381102%29.jpg/1280px-Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066381102%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066381102%29.jpg/3840px-Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066381102%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066381102%29.jpg/1280px-Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066381102%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066381102%29.jpg/3840px-Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066381102%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854066381102%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Iceberg_in_the_Ilulissat_Icefjord,_Greenland_(54066381102).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=155703132",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-11-24 18:11:31",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Iceberg in the Ilulissat Icefjord, Greenland (54066381102)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Blue sky in Greenland|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Greenland photographs taken on 2024-07-21|Icebergs in Ilulissat Kangerlua|Photographs of Greenland by Christoph Strässler|Flickr images missing SDC published in",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.194736",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-51.252289",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Iceberg in the Ilulissat Icefjord, Greenland",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 21 July 2024, 02:40",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/christoph_straessler/54066381102/\">Iceberg in the Ilulissat Icefjord, Greenland</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/78904630@N08\">Christoph Strässler</a> from Oberdorf BL, Schweiz",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "155760583": {
+        "pageid": 155760583,
+        "ns": 6,
+        "title": "File:Iceberg in the Ilulissat Icefjord, Greenland (54067514893).jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 15573950,
+            "width": 7776,
+            "height": 4374,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067514893%29.jpg/1280px-Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067514893%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067514893%29.jpg/3840px-Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067514893%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067514893%29.jpg/1280px-Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067514893%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067514893%29.jpg/3840px-Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067514893%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067514893%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Iceberg_in_the_Ilulissat_Icefjord,_Greenland_(54067514893).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=155760583",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-11-25 13:03:29",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Iceberg in the Ilulissat Icefjord, Greenland (54067514893)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Blue sky in Greenland|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Greenland photographs taken on 2024-07-21|Icebergs in Ilulissat Kangerlua|Photographs of Greenland by Christoph Strässler|Flickr images missing SDC published in",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.191627",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-51.201914",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Iceberg in the Ilulissat Icefjord, Greenland",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 21 July 2024, 02:20",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/christoph_straessler/54067514893/\">Iceberg in the Ilulissat Icefjord, Greenland</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/78904630@N08\">Christoph Strässler</a> from Oberdorf BL, Schweiz",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "155760611": {
+        "pageid": 155760611,
+        "ns": 6,
+        "title": "File:Iceberg in the Ilulissat Icefjord, Greenland (54067713880).jpg",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 18946185,
+            "width": 7624,
+            "height": 4289,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067713880%29.jpg/1280px-Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067713880%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067713880%29.jpg/3840px-Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067713880%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067713880%29.jpg/1280px-Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067713880%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067713880%29.jpg/3840px-Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067713880%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067713880%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Iceberg_in_the_Ilulissat_Icefjord,_Greenland_(54067713880).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=155760611",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-11-25 13:03:48",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Iceberg in the Ilulissat Icefjord, Greenland (54067713880)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Clouds and blue sky in Greenland|Greenland photographs taken on 2024-07-21|Icebergs in Ilulissat Kangerlua|Photographs of Greenland by Christoph Strässler",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.207013",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-51.151628",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Iceberg in the Ilulissat Icefjord, Greenland",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 21 July 2024, 01:00",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/christoph_straessler/54067713880/\">Iceberg in the Ilulissat Icefjord, Greenland</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/78904630@N08\">Christoph Strässler</a> from Oberdorf BL, Schweiz",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "155760592": {
+        "pageid": 155760592,
+        "ns": 6,
+        "title": "File:Iceberg in the Ilulissat Icefjord, Greenland (54067714205).jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 21213168,
+            "width": 8256,
+            "height": 4644,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067714205%29.jpg/1280px-Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067714205%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067714205%29.jpg/3840px-Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067714205%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067714205%29.jpg/1280px-Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067714205%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067714205%29.jpg/3840px-Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067714205%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Iceberg_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067714205%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Iceberg_in_the_Ilulissat_Icefjord,_Greenland_(54067714205).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=155760592",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-11-25 13:03:35",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Iceberg in the Ilulissat Icefjord, Greenland (54067714205)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Blue sky in Greenland|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Greenland photographs taken on 2024-07-21|Icebergs in Ilulissat Kangerlua|Photographs of Greenland by Christoph Strässler|Flickr images missing SDC published in",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.197961",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-51.168200",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Iceberg in the Ilulissat Icefjord, Greenland",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 21 July 2024, 01:11",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/christoph_straessler/54067714205/\">Iceberg in the Ilulissat Icefjord, Greenland</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/78904630@N08\">Christoph Strässler</a> from Oberdorf BL, Schweiz",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "155760591": {
+        "pageid": 155760591,
+        "ns": 6,
+        "title": "File:Icebergs in the Ilulissat Icefjord, Greenland (54067246521).jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 24858232,
+            "width": 8244,
+            "height": 4637,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067246521%29.jpg/1280px-Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067246521%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067246521%29.jpg/3840px-Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067246521%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067246521%29.jpg/1280px-Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067246521%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067246521%29.jpg/3840px-Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067246521%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067246521%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Icebergs_in_the_Ilulissat_Icefjord,_Greenland_(54067246521).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=155760591",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-11-25 13:03:33",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Icebergs in the Ilulissat Icefjord, Greenland (54067246521)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Coasts of Greenland|Blue sky in Greenland|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Greenland photographs taken on 2024-07-20|Icebergs in Ilulissat Kangerlua|Photographs of Greenland by Christoph Strässler|Flickr images missing SDC published in",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.205702",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-51.138500",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Icebergs in the Ilulissat Icefjord, Greenland",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 20 July 2024, 14:05",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/christoph_straessler/54067246521/\">Icebergs in the Ilulissat Icefjord, Greenland</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/78904630@N08\">Christoph Strässler</a> from Oberdorf BL, Schweiz",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "155760579": {
+        "pageid": 155760579,
+        "ns": 6,
+        "title": "File:Icebergs in the Ilulissat Icefjord, Greenland (54067250841).jpg",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 22305022,
+            "width": 8256,
+            "height": 4644,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067250841%29.jpg/1280px-Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067250841%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067250841%29.jpg/3840px-Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067250841%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067250841%29.jpg/1280px-Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067250841%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067250841%29.jpg/3840px-Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067250841%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067250841%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Icebergs_in_the_Ilulissat_Icefjord,_Greenland_(54067250841).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=155760579",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-11-25 13:03:23",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Icebergs in the Ilulissat Icefjord, Greenland (54067250841)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Coasts of Greenland|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Greenland photographs taken on 2024-07-20|Icebergs in Ilulissat Kangerlua|Photographs of Greenland by Christoph Strässler|Flickr images missing SDC published in",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.199986",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-51.125181",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Icebergs in the Ilulissat Icefjord, Greenland",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 20 July 2024, 15:52",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/christoph_straessler/54067250841/\">Icebergs in the Ilulissat Icefjord, Greenland</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/78904630@N08\">Christoph Strässler</a> from Oberdorf BL, Schweiz",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "155760608": {
+        "pageid": 155760608,
+        "ns": 6,
+        "title": "File:Icebergs in the Ilulissat Icefjord, Greenland (54067503523).jpg",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 25703230,
+            "width": 8249,
+            "height": 4640,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067503523%29.jpg/1280px-Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067503523%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067503523%29.jpg/3840px-Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067503523%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067503523%29.jpg/1280px-Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067503523%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067503523%29.jpg/3840px-Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067503523%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067503523%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Icebergs_in_the_Ilulissat_Icefjord,_Greenland_(54067503523).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=155760608",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-11-25 13:03:46",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Icebergs in the Ilulissat Icefjord, Greenland (54067503523)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Coasts of Greenland|Flickr images missing SDC creator|Blue sky in Greenland|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Greenland photographs taken on 2024-07-20|Icebergs in Ilulissat Kangerlua|Photographs of Greenland by Christoph Strässler",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.205561",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-51.142670",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Icebergs in the Ilulissat Icefjord, Greenland",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 20 July 2024, 13:59",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/christoph_straessler/54067503523/\">Icebergs in the Ilulissat Icefjord, Greenland</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/78904630@N08\">Christoph Strässler</a> from Oberdorf BL, Schweiz",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "155760580": {
+        "pageid": 155760580,
+        "ns": 6,
+        "title": "File:Icebergs in the Ilulissat Icefjord, Greenland (54067506773).jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 32296987,
+            "width": 8256,
+            "height": 4644,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067506773%29.jpg/1280px-Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067506773%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067506773%29.jpg/3840px-Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067506773%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067506773%29.jpg/1280px-Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067506773%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067506773%29.jpg/3840px-Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067506773%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067506773%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Icebergs_in_the_Ilulissat_Icefjord,_Greenland_(54067506773).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=155760580",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-11-25 13:03:25",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Icebergs in the Ilulissat Icefjord, Greenland (54067506773)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Coasts of Greenland|Eriophorum scheuchzeri|Blue sky in Greenland|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Greenland photographs taken on 2024-07-20|Icebergs in Ilulissat Kangerlua|Photographs of Greenland by Christoph Strässler|Flickr images missing SDC published in",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.201488",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-51.126384",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Icebergs in the Ilulissat Icefjord, Greenland",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 20 July 2024, 15:42",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/christoph_straessler/54067506773/\">Icebergs in the Ilulissat Icefjord, Greenland</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/78904630@N08\">Christoph Strässler</a> from Oberdorf BL, Schweiz",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "54207699": {
+        "pageid": 54207699,
+        "ns": 6,
+        "title": "File:Icefjord Ilulissat - panoramio.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1919809,
+            "width": 1632,
+            "height": 1088,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Icefjord_Ilulissat_-_panoramio.jpg/1280px-Icefjord_Ilulissat_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Icefjord_Ilulissat_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Icefjord_Ilulissat_-_panoramio.jpg/1280px-Icefjord_Ilulissat_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 853,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Icefjord_Ilulissat_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Icefjord_Ilulissat_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Icefjord_Ilulissat_-_panoramio.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=54207699",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-12-17 20:21:10",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Icefjord Ilulissat - panoramio",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Ilulissat Kangerlua|Panoramio files uploaded by Panoramio upload bot|Landscapes of Greenland|Panoramio images reviewed by trusted users|Photos from Panoramio|Files with coordinates missing SDC location of creation|Greenland photographs taken on 2010-07-10|Photos from Panoramio ID 957078",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.192824",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-50.782928",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Icefjord Ilulissat",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 10 July 2010",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161015094209/http://www.panoramio.com/photo/38141734\">https://web.archive.org/web/20161015094209/http://www.panoramio.com/photo/38141734</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161015094211/http://www.panoramio.com/user/957078?with_photo_id=38141734\">Petr Kraumann</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by/3.0/deed.en\">Attribution 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">Petr Kraumann</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" dir=\"ltr\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li></ul></dd></dl>\n</div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<style data-mw-deduplicate=\"TemplateStyles:r901585720\">.mw-parser-output .panoramioreview{width:100%;margin:0.5em 0;background-color:var(--background-color-warning-subtle,#fffff0);padding:5px;border:1px solid var(--border-color-warning,#aa8);color:inherit}.mw-parser-output .panoramioreview-failed{background-color:var(--background-color-error-subtle,#fcc);color:inherit}.mw-parser-output .panoramioreview-passed{background-color:var(--background-color-success-subtle,#efe);color:inherit}</style>\n<table class=\"panoramioreview panoramioreview-passed\" lang=\"en\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Panoramio\" class=\"extiw\" title=\"en:Panoramio\">Panoramio</a></span></b>, was automatically reviewed on 17 December 2016 by <b><a href=\"//commons.wikimedia.org/wiki/User:Panoramio_upload_bot\" title=\"User:Panoramio upload bot\">Panoramio upload bot</a></b>, who confirmed that it was available on Panoramio under the above license on that date.\n</td>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Star_and_ring.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/60px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/120px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"75\" data-file-height=\"75\"></a></span>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Petr Kraumann",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "199772048": {
+        "pageid": 199772048,
+        "ns": 6,
+        "title": "File:Ilulissat Icefjord.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 788365,
+            "width": 3024,
+            "height": 2160,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Ilulissat_Icefjord.jpg/1280px-Ilulissat_Icefjord.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 914,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/6/69/Ilulissat_Icefjord.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Ilulissat_Icefjord.jpg/1280px-Ilulissat_Icefjord.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 914,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/6/69/Ilulissat_Icefjord.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Ilulissat_Icefjord.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ilulissat_Icefjord.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=199772048",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-09-18 22:44:54",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ilulissat Icefjord",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Creative Commons Attribution 4.0 missing SDC copyright license|Creative Commons Attribution missing SDC copyright status|Self-published work missing SDC copyright license|Files with coordinates missing SDC location of creation|Ilulissat Icefjord Centre|Photographs by Quintin Soloviev",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.194539",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-51.181810",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Icebergs in Greenland’s Ilulissat Icefjord, a UNESCO World Heritage Site fed by Sermeq Kujalleq, one of the world’s fastest and most active glaciers.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-04-02 09:34:09",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Quintin_Soloviev\" title=\"User:Quintin Soloviev\">Quintin Soloviev</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "149075421": {
+        "pageid": 149075421,
+        "ns": 6,
+        "title": "File:Ilulissat Kangerlua hike.jpg",
+        "index": 14,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 10730826,
+            "width": 4593,
+            "height": 3062,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Ilulissat_Kangerlua_hike.jpg/1280px-Ilulissat_Kangerlua_hike.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Ilulissat_Kangerlua_hike.jpg/3840px-Ilulissat_Kangerlua_hike.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Ilulissat_Kangerlua_hike.jpg/1280px-Ilulissat_Kangerlua_hike.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Ilulissat_Kangerlua_hike.jpg/3840px-Ilulissat_Kangerlua_hike.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Ilulissat_Kangerlua_hike.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ilulissat_Kangerlua_hike.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=149075421",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-06-04 20:41:10",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ilulissat Kangerlua hike",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Ilulissat Kangerlua|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Ilulissat Icefjord (Ilulissat Kangerlua) hike, Greenland",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-05-26 15:36:28",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:HylgeriaK\" title=\"User:HylgeriaK\">Ekrem Canli</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "149075420": {
+        "pageid": 149075420,
+        "ns": 6,
+        "title": "File:Ilulissat Kangerlua iceberg.jpg",
+        "index": 16,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 11170102,
+            "width": 3976,
+            "height": 5245,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Ilulissat_Kangerlua_iceberg.jpg/1280px-Ilulissat_Kangerlua_iceberg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1689,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Ilulissat_Kangerlua_iceberg.jpg/3840px-Ilulissat_Kangerlua_iceberg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Ilulissat_Kangerlua_iceberg.jpg/1280px-Ilulissat_Kangerlua_iceberg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1689,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Ilulissat_Kangerlua_iceberg.jpg/3840px-Ilulissat_Kangerlua_iceberg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Ilulissat_Kangerlua_iceberg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ilulissat_Kangerlua_iceberg.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=149075420",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-06-04 20:41:10",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ilulissat Kangerlua iceberg",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Ilulissat Kangerlua|Self-published work|Icebergs in Disko Bay",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Ilulissat Kangerlua iceberg (Ilulissat Icefjord, Greenland)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-05-26 13:18:45",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:HylgeriaK\" title=\"User:HylgeriaK\">Ekrem Canli</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "1334816": {
+        "pageid": 1334816,
+        "ns": 6,
+        "title": "File:Ilulissat panoramic.jpg",
+        "index": 18,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 818699,
+            "width": 5933,
+            "height": 908,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Ilulissat_panoramic.jpg/1280px-Ilulissat_panoramic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 196,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Ilulissat_panoramic.jpg/3840px-Ilulissat_panoramic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Ilulissat_panoramic.jpg/1280px-Ilulissat_panoramic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 196,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Ilulissat_panoramic.jpg/3840px-Ilulissat_panoramic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Ilulissat_panoramic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ilulissat_panoramic.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=1334816",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2006-11-03 07:01:33",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ilulissat panoramic",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Ilulissat|Files with no machine-readable source|License migration redundant|Self-published work|Assumed own work|Panoramics in Greenland",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "A compiled panoramic picture of Ilulissat, Greenland taken in September, 2006. The shipping and fishing port is behind the fuel tanks on the left, the hospital is the large red building near the center of the image, and the power plant is shown furthest to the right of the image. The mouth of the Ilulissat icefjord is south (to the right, on this photo) of the  town. Photo by Paul Cziko",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "No machine-readable source provided. Own work assumed (based on copyright claims).",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/wiki/User:Pcziko\" title=\"User:Pcziko\">Pcziko</a> assumed (based on copyright claims).",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.5",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.5",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.5",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.5",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "113357718": {
+        "pageid": 113357718,
+        "ns": 6,
+        "title": "File:In the picture the 40-minute journey that starts from Ilulissat buiobuione.jpg",
+        "index": 17,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 13908973,
+            "width": 6000,
+            "height": 4000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/In_the_picture_the_40-minute_journey_that_starts_from_Ilulissat_buiobuione.jpg/1280px-In_the_picture_the_40-minute_journey_that_starts_from_Ilulissat_buiobuione.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/In_the_picture_the_40-minute_journey_that_starts_from_Ilulissat_buiobuione.jpg/3840px-In_the_picture_the_40-minute_journey_that_starts_from_Ilulissat_buiobuione.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/In_the_picture_the_40-minute_journey_that_starts_from_Ilulissat_buiobuione.jpg/1280px-In_the_picture_the_40-minute_journey_that_starts_from_Ilulissat_buiobuione.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/In_the_picture_the_40-minute_journey_that_starts_from_Ilulissat_buiobuione.jpg/3840px-In_the_picture_the_40-minute_journey_that_starts_from_Ilulissat_buiobuione.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/In_the_picture_the_40-minute_journey_that_starts_from_Ilulissat_buiobuione.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:In_the_picture_the_40-minute_journey_that_starts_from_Ilulissat_buiobuione.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=113357718",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-12-14 12:13:36",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "In the picture the 40-minute journey that starts from Ilulissat buiobuione",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Ilulissat|2018 in Greenland|Walkways|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "There are great trails around Ilulissat, two of which start from the city center (yellow trail and blue trail) and run along the Icefjord. Walking along them, in addition to the surrounding flora (in summer) you can admire the extraordinary and constantly changing landscape of the icebergs and it is not uncommon to see the passage of whales. The routes, for everyone and (which have a maximum duration of 40 minutes and two hours the second respectively), can be done safely even on your own and no special equipment is required other than that usually used to protect yourself from the wind and from the cold in these areas. In the photograph the 40-minute journey that leads to the panoramic view of the icebergs",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2018-07-01 13:59:12",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Buiobuione\" title=\"User:Buiobuione\">Buiobuione</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

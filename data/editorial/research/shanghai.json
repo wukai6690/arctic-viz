@@ -1,0 +1,1431 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 12,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "147293796": {
+        "pageid": 147293796,
+        "ns": 6,
+        "title": "File:HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 Chimneys April 2024 R12S 02.jpg",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3129436,
+            "width": 4000,
+            "height": 3000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_02.jpg/960px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_02.jpg/1920px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_02.jpg/960px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_02.jpg/1920px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_02.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=147293796",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-04-11 19:04:07",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 Chimneys April 2024 R12S 02",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Funnels (ship part)|Xue Long 2 (ship, 2019)|Self-published work|Files with coordinates missing SDC location of creation|April 2024 in Tsim Sha Tsui|Hong Kong photographs taken on 2024-04-11|Taken with Xiaomi Redmi Note 12S in 2024|Taken with Xiaomi Redmi Note 12S in Hong Kong|Xue Long 2 (ship, 2019) in Hong Kong 2024|Xue Long 2 (ship, 2019) in 2024|Taken with Xiaomi Redmi Note 12S in April 2024|2024 in Ocean Terminal, Hong Kong|Taken with Xiaomi Redmi Note 12S in Tsim Sha Tsui|Xue Long 2 (ship, 2019) at Ocean Terminal, Hong Kong|Xue Long 2 (ship, 2019) in Hong Kong",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "22.296105",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "114.168508",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 訪港 in April 2024",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-04-11 13:39:57",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:HOA16_HONON\" title=\"User:HOA16 HONON\">HOA16 HONON</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "147293798": {
+        "pageid": 147293798,
+        "ns": 6,
+        "title": "File:HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 Chimneys April 2024 R12S 03.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2980602,
+            "width": 4000,
+            "height": 3000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_03.jpg/960px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_03.jpg/1920px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_03.jpg/960px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_03.jpg/1920px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_03.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=147293798",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-04-11 19:04:07",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 Chimneys April 2024 R12S 03",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Funnels (ship part)|Xue Long 2 (ship, 2019)|Self-published work|Files with coordinates missing SDC location of creation|April 2024 in Tsim Sha Tsui|Hong Kong photographs taken on 2024-04-11|Taken with Xiaomi Redmi Note 12S in 2024|Taken with Xiaomi Redmi Note 12S in Hong Kong|Xue Long 2 (ship, 2019) in Hong Kong 2024|Xue Long 2 (ship, 2019) in 2024|Taken with Xiaomi Redmi Note 12S in April 2024|2024 in Ocean Terminal, Hong Kong|Taken with Xiaomi Redmi Note 12S in Tsim Sha Tsui|Xue Long 2 (ship, 2019) at Ocean Terminal, Hong Kong|Xue Long 2 (ship, 2019) in Hong Kong",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "22.296174",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "114.168461",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 訪港 in April 2024",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-04-11 13:40:43",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:HOA16_HONON\" title=\"User:HOA16 HONON\">HOA16 HONON</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "147293802": {
+        "pageid": 147293802,
+        "ns": 6,
+        "title": "File:HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 Chimneys April 2024 R12S 06.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4003924,
+            "width": 4000,
+            "height": 3000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_06.jpg/960px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_06.jpg/1920px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_06.jpg/960px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_06.jpg/1920px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_06.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=147293802",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-04-11 19:04:10",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 Chimneys April 2024 R12S 06",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Xue Long 2 (ship, 2019)|Self-published work|Files with coordinates missing SDC location of creation|April 2024 in Tsim Sha Tsui|Hong Kong photographs taken on 2024-04-11|Taken with Xiaomi Redmi Note 12S in 2024|Taken with Xiaomi Redmi Note 12S in Hong Kong|Xue Long 2 (ship, 2019) in Hong Kong 2024|Xue Long 2 (ship, 2019) in 2024|Taken with Xiaomi Redmi Note 12S in April 2024|2024 in Ocean Terminal, Hong Kong|Taken with Xiaomi Redmi Note 12S in Tsim Sha Tsui|Xue Long 2 (ship, 2019) at Ocean Terminal, Hong Kong|Xue Long 2 (ship, 2019) in Hong Kong",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "22.296141",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "114.168662",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 訪港 in April 2024",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-04-11 13:42:25",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:HOA16_HONON\" title=\"User:HOA16 HONON\">HOA16 HONON</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "147293808": {
+        "pageid": 147293808,
+        "ns": 6,
+        "title": "File:HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 Chimneys April 2024 R12S 07.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4574371,
+            "width": 4000,
+            "height": 3000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_07.jpg/960px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_07.jpg/1920px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_07.jpg/960px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_07.jpg/1920px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_07.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=147293808",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-04-11 19:04:18",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 Chimneys April 2024 R12S 07",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Xue Long 2 (ship, 2019)|Self-published work|Files with coordinates missing SDC location of creation|April 2024 in Tsim Sha Tsui|Hong Kong photographs taken on 2024-04-11|Taken with Xiaomi Redmi Note 12S in 2024|Taken with Xiaomi Redmi Note 12S in Hong Kong|Xue Long 2 (ship, 2019) in Hong Kong 2024|Xue Long 2 (ship, 2019) in 2024|Taken with Xiaomi Redmi Note 12S in April 2024|2024 in Ocean Terminal, Hong Kong|Taken with Xiaomi Redmi Note 12S in Tsim Sha Tsui|Xue Long 2 (ship, 2019) at Ocean Terminal, Hong Kong|Xue Long 2 (ship, 2019) in Hong Kong",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "22.296105",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "114.168525",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 訪港 in April 2024",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-04-11 13:43:10",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:HOA16_HONON\" title=\"User:HOA16 HONON\">HOA16 HONON</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "147293809": {
+        "pageid": 147293809,
+        "ns": 6,
+        "title": "File:HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 Chimneys April 2024 R12S 09.jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 5189479,
+            "width": 4000,
+            "height": 3000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_09.jpg/960px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_09.jpg/1920px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_09.jpg/960px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_09.jpg/1920px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_09.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=147293809",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-04-11 19:04:18",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 Chimneys April 2024 R12S 09",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Xue Long 2 (ship, 2019)|Self-published work|Files with coordinates missing SDC location of creation|April 2024 in Tsim Sha Tsui|Hong Kong photographs taken on 2024-04-11|Taken with Xiaomi Redmi Note 12S in 2024|Taken with Xiaomi Redmi Note 12S in Hong Kong|Xue Long 2 (ship, 2019) in Hong Kong 2024|Xue Long 2 (ship, 2019) in 2024|Taken with Xiaomi Redmi Note 12S in April 2024|2024 in Ocean Terminal, Hong Kong|Taken with Xiaomi Redmi Note 12S in Tsim Sha Tsui|Xue Long 2 (ship, 2019) at Ocean Terminal, Hong Kong|Xue Long 2 (ship, 2019) in Hong Kong",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "22.302455",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "114.162820",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 訪港 in April 2024",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-04-11 13:43:29",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:HOA16_HONON\" title=\"User:HOA16 HONON\">HOA16 HONON</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "147293812": {
+        "pageid": 147293812,
+        "ns": 6,
+        "title": "File:HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 Chimneys April 2024 R12S 10.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3623757,
+            "width": 4000,
+            "height": 3000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_10.jpg/960px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_10.jpg/1920px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_10.jpg/960px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_10.jpg/1920px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_10.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=147293812",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-04-11 19:04:25",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 Chimneys April 2024 R12S 10",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Xue Long 2 (ship, 2019)|Self-published work|Files with coordinates missing SDC location of creation|April 2024 in Tsim Sha Tsui|Hong Kong photographs taken on 2024-04-11|Taken with Xiaomi Redmi Note 12S in 2024|Taken with Xiaomi Redmi Note 12S in Hong Kong|Xue Long 2 (ship, 2019) in Hong Kong 2024|Xue Long 2 (ship, 2019) in 2024|Taken with Xiaomi Redmi Note 12S in April 2024|2024 in Ocean Terminal, Hong Kong|Taken with Xiaomi Redmi Note 12S in Tsim Sha Tsui|Xue Long 2 (ship, 2019) at Ocean Terminal, Hong Kong|Xue Long 2 (ship, 2019) in Hong Kong",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "22.299515",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "114.167100",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 訪港 in April 2024",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-04-11 13:43:57",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:HOA16_HONON\" title=\"User:HOA16 HONON\">HOA16 HONON</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "147293814": {
+        "pageid": 147293814,
+        "ns": 6,
+        "title": "File:HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 Chimneys April 2024 R12S 12.jpg",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4570065,
+            "width": 4000,
+            "height": 3000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_12.jpg/960px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_12.jpg/1920px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_12.jpg/960px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_12.jpg/1920px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_12.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=147293814",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-04-11 19:04:26",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 Chimneys April 2024 R12S 12",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Xue Long 2 (ship, 2019)|Self-published work|Files with coordinates missing SDC location of creation|April 2024 in Tsim Sha Tsui|Hong Kong photographs taken on 2024-04-11|Taken with Xiaomi Redmi Note 12S in 2024|Taken with Xiaomi Redmi Note 12S in Hong Kong|Xue Long 2 (ship, 2019) in Hong Kong 2024|Xue Long 2 (ship, 2019) in 2024|Taken with Xiaomi Redmi Note 12S in April 2024|2024 in Ocean Terminal, Hong Kong|Taken with Xiaomi Redmi Note 12S in Tsim Sha Tsui|Xue Long 2 (ship, 2019) at Ocean Terminal, Hong Kong|Xue Long 2 (ship, 2019) in Hong Kong",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "22.299515",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "114.167100",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 訪港 in April 2024",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-04-11 13:44:08",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:HOA16_HONON\" title=\"User:HOA16 HONON\">HOA16 HONON</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "147293819": {
+        "pageid": 147293819,
+        "ns": 6,
+        "title": "File:HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 Chimneys April 2024 R12S 15.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3988221,
+            "width": 4000,
+            "height": 3000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_15.jpg/960px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_15.jpg/1920px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_15.jpg/960px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_15.jpg/1920px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_15.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=147293819",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-04-11 19:04:34",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 Chimneys April 2024 R12S 15",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Xue Long 2 (ship, 2019)|Self-published work|Files with coordinates missing SDC location of creation|April 2024 in Tsim Sha Tsui|Hong Kong photographs taken on 2024-04-11|Taken with Xiaomi Redmi Note 12S in 2024|Taken with Xiaomi Redmi Note 12S in Hong Kong|Xue Long 2 (ship, 2019) in Hong Kong 2024|Xue Long 2 (ship, 2019) in 2024|Taken with Xiaomi Redmi Note 12S in April 2024|2024 in Ocean Terminal, Hong Kong|Taken with Xiaomi Redmi Note 12S in Tsim Sha Tsui|Xue Long 2 (ship, 2019) at Ocean Terminal, Hong Kong|Xue Long 2 (ship, 2019) in Hong Kong",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "22.296676",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "114.168183",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 訪港 in April 2024",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-04-11 13:46:06",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:HOA16_HONON\" title=\"User:HOA16 HONON\">HOA16 HONON</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "147293820": {
+        "pageid": 147293820,
+        "ns": 6,
+        "title": "File:HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 Chimneys April 2024 R12S 16.jpg",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4546546,
+            "width": 4000,
+            "height": 3000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_16.jpg/960px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_16.jpg/1920px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_16.jpg/960px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_16.jpg/1920px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_16.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=147293820",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-04-11 19:04:40",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 Chimneys April 2024 R12S 16",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Xue Long 2 (ship, 2019)|Self-published work|Files with coordinates missing SDC location of creation|April 2024 in Tsim Sha Tsui|Hong Kong photographs taken on 2024-04-11|Taken with Xiaomi Redmi Note 12S in 2024|Taken with Xiaomi Redmi Note 12S in Hong Kong|Xue Long 2 (ship, 2019) in Hong Kong 2024|Xue Long 2 (ship, 2019) in 2024|Taken with Xiaomi Redmi Note 12S in April 2024|2024 in Ocean Terminal, Hong Kong|Taken with Xiaomi Redmi Note 12S in Tsim Sha Tsui|Xue Long 2 (ship, 2019) at Ocean Terminal, Hong Kong|Xue Long 2 (ship, 2019) in Hong Kong",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "22.295502",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "114.164988",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 訪港 in April 2024",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-04-11 13:46:44",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:HOA16_HONON\" title=\"User:HOA16 HONON\">HOA16 HONON</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "147293822": {
+        "pageid": 147293822,
+        "ns": 6,
+        "title": "File:HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 Chimneys April 2024 R12S 18.jpg",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4072250,
+            "width": 4000,
+            "height": 3000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_18.jpg/960px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_18.jpg/1920px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_18.jpg/960px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_18.jpg/1920px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_18.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=147293822",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-04-11 19:04:42",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 Chimneys April 2024 R12S 18",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Xue Long 2 (ship, 2019)|Self-published work|Files with coordinates missing SDC location of creation|April 2024 in Tsim Sha Tsui|Hong Kong photographs taken on 2024-04-11|Taken with Xiaomi Redmi Note 12S in 2024|Taken with Xiaomi Redmi Note 12S in Hong Kong|Xue Long 2 (ship, 2019) in Hong Kong 2024|Xue Long 2 (ship, 2019) in 2024|Taken with Xiaomi Redmi Note 12S in April 2024|2024 in Ocean Terminal, Hong Kong|Taken with Xiaomi Redmi Note 12S in Tsim Sha Tsui|Xue Long 2 (ship, 2019) at Ocean Terminal, Hong Kong|Xue Long 2 (ship, 2019) in Hong Kong",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "22.296357",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "114.168323",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 訪港 in April 2024",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-04-11 13:47:33",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:HOA16_HONON\" title=\"User:HOA16 HONON\">HOA16 HONON</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "147293827": {
+        "pageid": 147293827,
+        "ns": 6,
+        "title": "File:HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 Chimneys April 2024 R12S 21.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3672440,
+            "width": 4000,
+            "height": 3000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_21.jpg/960px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_21.jpg/1920px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_21.jpg/960px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_21.jpg/1920px-HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_%E6%B5%B7%E6%B8%AF%E5%9F%8E_Harbour_City_%E6%B5%B7%E9%81%8B%E5%A4%A7%E5%BB%88_Ocean_Terminal_%E5%A4%A9%E5%8F%B0_roof_view_%E7%A0%B4%E5%86%B0%E8%88%B9_Icebreakers_%E9%9B%AA%E9%BE%8D2%E8%99%9F_Xue_Long_2_Chimneys_April_2024_R12S_21.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=147293827",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-04-11 19:04:50",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 Chimneys April 2024 R12S 21",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Xue Long 2 (ship, 2019)|Self-published work|Files with coordinates missing SDC location of creation|April 2024 in Tsim Sha Tsui|Hong Kong photographs taken on 2024-04-11|Taken with Xiaomi Redmi Note 12S in 2024|Taken with Xiaomi Redmi Note 12S in Hong Kong|Xue Long 2 (ship, 2019) in Hong Kong 2024|Xue Long 2 (ship, 2019) in 2024|Taken with Xiaomi Redmi Note 12S in April 2024|2024 in Ocean Terminal, Hong Kong|Taken with Xiaomi Redmi Note 12S in Tsim Sha Tsui|Xue Long 2 (ship, 2019) at Ocean Terminal, Hong Kong|Xue Long 2 (ship, 2019) in Hong Kong",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "22.296626",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "114.168013",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "HK 尖沙咀 TST 海港城 Harbour City 海運大廈 Ocean Terminal 天台 roof view 破冰船 Icebreakers 雪龍2號 Xue Long 2 訪港 in April 2024",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-04-11 13:48:54",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:HOA16_HONON\" title=\"User:HOA16 HONON\">HOA16 HONON</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "147230733": {
+        "pageid": 147230733,
+        "ns": 6,
+        "title": "File:Xuelong II at Victoria Harbour-20240408.png",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 865239,
+            "width": 1366,
+            "height": 768,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Xuelong_II_at_Victoria_Harbour-20240408.png/960px-Xuelong_II_at_Victoria_Harbour-20240408.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 540,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Xuelong_II_at_Victoria_Harbour-20240408.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Xuelong_II_at_Victoria_Harbour-20240408.png/960px-Xuelong_II_at_Victoria_Harbour-20240408.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 540,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Xuelong_II_at_Victoria_Harbour-20240408.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Xuelong_II_at_Victoria_Harbour-20240408.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Xuelong_II_at_Victoria_Harbour-20240408.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=147230733",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-04-09 13:41:59",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Xuelong II at Victoria Harbour-20240408",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Media from YouTube|Xue Long 2 (ship, 2019)|Images from China News Service|2024 in Victoria Harbour|Creative Commons Attribution 4.0 with different SDC copyright license|Xue Long 2 (ship, 2019) in Hong Kong 2024|Still images of YouTube videos",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Xuelong II visit Victoria Harbour, Hong Kong on 8 April 2024.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-04-08",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<bdi lang=\"en\" dir=\"ltr\"><a href=\"//commons.wikimedia.org/wiki/Commons:YouTube_files\" title=\"Commons:YouTube files\">YouTube</a>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=cAghZB1r8iQ\"><bdi lang=\"\">https://www.youtube.com/watch?v=cAghZB1r8iQ</bdi></a> – View/save archived versions on <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/*/https://www.youtube.com/watch?v=cAghZB1r8iQ\">archive.org</a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "中国新闻社",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/@cnsvideo\">中国新闻社</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

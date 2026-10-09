@@ -1,0 +1,1975 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 18,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "79947217": {
+        "pageid": 79947217,
+        "ns": 6,
+        "title": "File:Alaska - Delta River through Little Diomede Island - NARA - 23937541.jpg",
+        "index": 18,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 6192978,
+            "width": 3711,
+            "height": 2952,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Alaska_-_Delta_River_through_Little_Diomede_Island_-_NARA_-_23937541.jpg/1280px-Alaska_-_Delta_River_through_Little_Diomede_Island_-_NARA_-_23937541.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1018,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Alaska_-_Delta_River_through_Little_Diomede_Island_-_NARA_-_23937541.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Alaska_-_Delta_River_through_Little_Diomede_Island_-_NARA_-_23937541.jpg/1280px-Alaska_-_Delta_River_through_Little_Diomede_Island_-_NARA_-_23937541.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1018,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Alaska_-_Delta_River_through_Little_Diomede_Island_-_NARA_-_23937541.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Alaska_-_Delta_River_through_Little_Diomede_Island_-_NARA_-_23937541.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Alaska_-_Delta_River_through_Little_Diomede_Island_-_NARA_-_23937541.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=79947217",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-06-25 19:31:41",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\n<i>Alaska - Delta River through Little Diomede Island</i></div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from the National Archives and Records Administration|Media contributed by the National Archives and Records Administration|Artworks without Wikidata item|PD US Air Force|Template Unknown (author)|US National Archives series: \"Airscapes\" of American and Foreign Areas|Aerial photographs of Alaska from the US National Archives series: \"Airscapes\" of American and Foreign Areas|US National Archives location: other",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span> or not provided</div>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "15 September 1941",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/U.S._National_Archives_and_Records_Administration\" class=\"extiw\" title=\"en:U.S. National Archives and Records Administration\">U.S. National Archives and Records Administration</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "79947225": {
+        "pageid": 79947225,
+        "ns": 6,
+        "title": "File:Alaska - Delta River through Little Diomede Island - NARA - 23937543.jpg",
+        "index": 17,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3808153,
+            "width": 3670,
+            "height": 2904,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Alaska_-_Delta_River_through_Little_Diomede_Island_-_NARA_-_23937543.jpg/1280px-Alaska_-_Delta_River_through_Little_Diomede_Island_-_NARA_-_23937543.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1013,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/9/93/Alaska_-_Delta_River_through_Little_Diomede_Island_-_NARA_-_23937543.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Alaska_-_Delta_River_through_Little_Diomede_Island_-_NARA_-_23937543.jpg/1280px-Alaska_-_Delta_River_through_Little_Diomede_Island_-_NARA_-_23937543.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1013,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/9/93/Alaska_-_Delta_River_through_Little_Diomede_Island_-_NARA_-_23937543.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Alaska_-_Delta_River_through_Little_Diomede_Island_-_NARA_-_23937543.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Alaska_-_Delta_River_through_Little_Diomede_Island_-_NARA_-_23937543.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=79947225",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-06-25 19:31:48",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\n<i>Alaska - Delta River through Little Diomede Island</i></div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from the National Archives and Records Administration|Media contributed by the National Archives and Records Administration|Artworks without Wikidata item|PD US Air Force|Template Unknown (author)|US National Archives series: \"Airscapes\" of American and Foreign Areas|Aerial photographs of Alaska from the US National Archives series: \"Airscapes\" of American and Foreign Areas|US National Archives location: other",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span> or not provided</div>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "15 September 1941",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/U.S._National_Archives_and_Records_Administration\" class=\"extiw\" title=\"en:U.S. National Archives and Records Administration\">U.S. National Archives and Records Administration</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "77550457": {
+        "pageid": 77550457,
+        "ns": 6,
+        "title": "File:Chief of Little Diomede Islands and his family, Little Diomede (AL+CA 1339).jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 81893,
+            "width": 768,
+            "height": 522,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Chief_of_Little_Diomede_Islands_and_his_family%2C_Little_Diomede_%28AL%2BCA_1339%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 870,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Chief_of_Little_Diomede_Islands_and_his_family%2C_Little_Diomede_%28AL%2BCA_1339%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 870
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Chief_of_Little_Diomede_Islands_and_his_family%2C_Little_Diomede_%28AL%2BCA_1339%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chief_of_Little_Diomede_Islands_and_his_family,_Little_Diomede_(AL%2BCA_1339).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77550457",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-03-25 03:02:56",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Chief of Little Diomede Islands and his family, Little Diomede, \nAlaska, between 1899 and 1909",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Alaska in the 1900s|Families|Postcards of the United States|Alaska Natives|Calico|Family portrait photographs|PD-old-75-expired|CC-PD-Mark|Little Diomede|Fur clothing of native people of Alaska|Postcards published by Portland Post Card Co.|Fur fashion|Images from the Alaska, Western Canada and United States Collection",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Frank_Hamilton_Nowell\" class=\"extiw\" title=\"w:en:Frank Hamilton Nowell\"><span title=\"American photographer and postcard publisher (1864–1950)\">Frank H. Nowell</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<p>Caption on image: Chief of Little Diomede Islands and Family, Behring Straights.\n</p><p>Printed on verso: No. 90532. Publ. by Portland Post Card Co., Portland, Ore. and Seattle, Wash. (Made in Germany.) Photo by F. H. Nowell.  Alaska-Yukon-Pacific Exposition: Seattle 1909.\n</p><p>Little Diomede Island is also known by Inaliq.\n</p><p>Photographer Frank H. Nowell had a studio in Nome from 1900-1909.  In 1909 he returned to Seattle and was the official photographer for the Alaska Yukon Pacific Exposition.\n</p>\nFiled in Alaska-Natives<p class=\"mw-empty-elt\"></p>\n<ul><li>Subjects (LCTGM): Tribal chiefs--Alaska--Diomede; Families--Alaska--Diomede; Eskimos--Children--Alaska--Diomede; Eskimos--Clothing &amp; dress--Alaska--Diomede; Fur garments; Calico; Group portraits; Postcards</li>\n<li>Subjects (LCSH): Eskimos--Kings and rulers--Alaska--Diomede;; Alaska Natives--Alaska--Diomede; Alaska Native children--Alaska--Diomede</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "circa 1904<div style=\"display: none;\">date QS:P571,+1904-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://content.lib.washington.edu/alaskawcanadaweb/index.html\">Alaska, Western Canada and United States Collection</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>\n<p>The author died in 1950, so this work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in its country of origin and other countries and areas where the <a href=\"https://en.wikipedia.org/wiki/List_of_countries%27_copyright_lengths\" class=\"extiw\" title=\"w:List of countries' copyright lengths\">copyright term</a> is the author's <b>life plus 75 years or fewer</b>.\n</p>\n<hr>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in the <a href=\"https://en.wikipedia.org/wiki/United_States\" class=\"extiw\" title=\"en:United States\">United States</a> because it was <a href=\"//commons.wikimedia.org/wiki/Commons:Publication\" title=\"Commons:Publication\">published</a> (or registered with the <a href=\"https://en.wikipedia.org/wiki/United_States_Copyright_Office\" class=\"extiw\" title=\"en:United States Copyright Office\">U.S. Copyright Office</a>) before January 1, 1931.\n</p>\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;font-size:x-small;line-height:140%;\"><a href=\"https://creativecommons.org/publicdomain/mark/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/mark/1.0/deed.en\">This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.</a>\n</td></tr></tbody></table><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/publicdomain/mark/1.0/</span><span class=\"licensetpl_short\" style=\"display:none;\">PDM</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Public Domain Mark 1.0</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "48352952": {
+        "pageid": 48352952,
+        "ns": 6,
+        "title": "File:Diomede Island Far.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 27844,
+            "width": 273,
+            "height": 205,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Diomede_Island_Far.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 961,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/Diomede_Island_Far.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 961
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Diomede_Island_Far.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Diomede_Island_Far.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=48352952",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-04-24 19:14:32",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Diomede Island Far",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Little Diomede|Diomede (Alaska)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "A birds eye view of Diomede City on the island of Little Diomede",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-04-24",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Tinaroving&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tinaroving (page does not exist)\">Tinaroving</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "131360901": {
+        "pageid": 131360901,
+        "ns": 6,
+        "title": "File:Diomede Islands, Bering Strait (ASTER).jpg",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 67479,
+            "width": 900,
+            "height": 720,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Diomede_Islands%2C_Bering_Strait_%28ASTER%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 1024,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Diomede_Islands%2C_Bering_Strait_%28ASTER%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1024
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Diomede_Islands%2C_Bering_Strait_%28ASTER%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Diomede_Islands,_Bering_Strait_(ASTER).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=131360901",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-04-30 15:47:12",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Diomede Islands, Bering Strait (ASTER)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD NASA|Diomede Islands|Photographs taken on 2000-07-08|Files with coordinates missing SDC location of creation|Files from NASA with known IDs|Photos of islands by ASTER|ASTER files uploaded by OptimusPrimeBot",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "65.800000",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-169.000000",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The Diomede Islands consisting of the western island Big Diomede (also known as Imaqliq, Nunarbuk or Ratmanov Island), and the eastern island Little Diomede (also known as Krusenstern Island or Inaliq), are two rocky islands located in the middle of the Bering Strait between Russia and Alaska. The islands are separated by an international border and the International Date Line which is approximately 1.5 km from each island; you can look from Alaska into tomorrow in Russia. At the closest land approach between the United States, which controls Little Diomede, and Russia, which controls Big Diomede, they are 3 km apart. Little Diomede Island constitutes the Alaskan City of Diomede, while Big Diomede Island is Russia's easternmost point. The first European to reach the islands was the Russian explorer Semyon Dezhnev in 1648. The text of the 1867 treaty finalizing the sale of Alaska uses the islands to designate the border between the two nations. The image was acquired July 8, 2000, covers an area of 13.5 x 10.8 km, and is located at 65.8 degrees north latitude, 169 degrees west longitude.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 8 July 2000",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "This image or video was catalogued by Jet Propulsion Laboratory of the United States <a href=\"https://en.wikipedia.org/wiki/NASA\" class=\"extiw\" title=\"w:NASA\">National Aeronautics and Space Administration</a> (NASA) under <b>Photo ID:</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://images.nasa.gov/search?q=diomede&amp;page=1&amp;media=image,video,audio&amp;yearStart=1920&amp;yearEnd=2026\">diomede</a>.",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "NASA/METI/AIST/Japan Space Systems, and U.S./Japan ASTER Science Team",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "1137880": {
+        "pageid": 1137880,
+        "ns": 6,
+        "title": "File:Diomede Islands Bering Sea Jul 2006.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 43963,
+            "width": 640,
+            "height": 250,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Diomede_Islands_Bering_Sea_Jul_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 500,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Diomede_Islands_Bering_Sea_Jul_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 500
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Diomede_Islands_Bering_Sea_Jul_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Diomede_Islands_Bering_Sea_Jul_2006.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=1137880",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2006-09-04 13:39:57",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Diomede Islands Bering Sea Jul 2006",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Taken with Kodak EasyShare C315|Diomede Islands|License migration redundant|Self-published work|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "65.756015",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-168.915482",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Diomede Islands: Little Diomede Island or Kruzenstern Island (left) and Big Diomede Island or Ratmanov Island in the Bering Sea. Photo is from the north.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2006-07-16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Diomede_Islands_Bering_Sea_Jul_2006.jpg\" class=\"extiw\" title=\"en:Diomede Islands Bering Sea Jul 2006.jpg\">en:Diomede Islands Bering Sea Jul 2006.jpg</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Dave_Cohoe\" title=\"User:Dave Cohoe\">Dave Cohoe</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "92036508": {
+        "pageid": 92036508,
+        "ns": 6,
+        "title": "File:Diomede Islands banner Little Diomede.jpeg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 629212,
+            "width": 2100,
+            "height": 303,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Diomede_Islands_banner_Little_Diomede.jpeg/1280px-Diomede_Islands_banner_Little_Diomede.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 185,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Diomede_Islands_banner_Little_Diomede.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Diomede_Islands_banner_Little_Diomede.jpeg/1280px-Diomede_Islands_banner_Little_Diomede.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 185,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Diomede_Islands_banner_Little_Diomede.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Diomede_Islands_banner_Little_Diomede.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Diomede_Islands_banner_Little_Diomede.jpeg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=92036508",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-07-08 22:59:23",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Diomede Islands banner Little Diomede",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Coast Guard|Extracted images|Wikivoyage banners of Alaska|Files with coordinates missing SDC location of creation|Little Diomede|Diomede (Alaska)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "65.758370",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-168.952006",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The native village of Little Diomede sits on the border of Russia and the United States.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2008-08-25",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "U.S. Coast Guard photo ID  080825-G-5352B-005<br>Photo page: <a rel=\"nofollow\" class=\"external autonumber\" href=\"http://cgvi.uscg.mil/media/main.php?g2_view=core.DownloadItem&amp;g2_itemId=371760\">[1]</a><br>Photo description page: <a rel=\"nofollow\" class=\"external autonumber\" href=\"http://cgvi.uscg.mil/media/main.php?g2_itemId=371760\">[2]</a><br>U.S. Coast Guard Visual Information Gallery <a rel=\"nofollow\" class=\"external autonumber\" href=\"http://cgvi.uscg.mil/media/\">[3]</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unites States Coast Guard, Petty Officer Richard Brahm",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<i>This image or file is a work of a <a href=\"https://en.wikipedia.org/wiki/United_States_Coast_Guard\" class=\"extiw\" title=\"w:United States Coast Guard\">United States Coast Guard</a> service personnel or employee, taken or made as part of that person's official duties. As a <a href=\"https://en.wikipedia.org/wiki/Work_of_the_United_States_Government\" class=\"extiw\" title=\"w:Work of the United States Government\">work of the U.S. federal government</a>, the image or file is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"w:public domain\">public domain</a></b> (17 U.S.C. § 101 and § 105, <a rel=\"nofollow\" class=\"external text\" href=\"http://www.uscg.mil/global/disclaim.asp\">USCG main privacy policy</a> and <a rel=\"nofollow\" class=\"external text\" href=\"http://cgvi.uscg.mil/media/privacy.html\">specific privacy policy for its imagery server</a>).</i>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "77726512": {
+        "pageid": 77726512,
+        "ns": 6,
+        "title": "File:Diomede Islands surrounded with ice floes, Alaska, between 1901 and 1911 (AL+CA 2466).jpg",
+        "index": 16,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 54007,
+            "width": 768,
+            "height": 540,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Diomede_Islands_surrounded_with_ice_floes%2C_Alaska%2C_between_1901_and_1911_%28AL%2BCA_2466%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 900,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/9/95/Diomede_Islands_surrounded_with_ice_floes%2C_Alaska%2C_between_1901_and_1911_%28AL%2BCA_2466%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 900
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Diomede_Islands_surrounded_with_ice_floes%2C_Alaska%2C_between_1901_and_1911_%28AL%2BCA_2466%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Diomede_Islands_surrounded_with_ice_floes,_Alaska,_between_1901_and_1911_(AL%2BCA_2466).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77726512",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-04-02 05:41:33",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Diomede Islands surrounded with ice floes, Alaska, between 1901 and 1911",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Ice floes|PD-old-80-expired|Images from the Alaska, Western Canada and United States Collection to check|CC-PD-Mark|Little Diomede|Photographs by Beverly Bennett Dobbs|Images from the Alaska, Western Canada and United States Collection",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Beverly_Bennett_Dobbs\" class=\"extiw\" title=\"w:en:Beverly Bennett Dobbs\"><span title=\"American photographer\">Beverly Bennett Dobbs</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<p>Caption in album: Diomede Islands. \n PH Coll 323.43a</p>\n<p>Beverly Bennett Dobbs was born in 1868 near Marshall, Missouri. In 1888 Dobbs moved to Bellingham, Washington and operated a photography studio there for 12 years. In 1900 Dobbs moved to Nome, Alaska and continued to work as a photographer capturing images of Nome, the Seward Peninsula, and Inuit people. In 1909, Dobbs started the Dobbs Alaska Moving Picture Co. and began making films about the Gold Rush. By 1914, Dobbs had moved back to Seattle and was creating more films through the Dobbs Totem Film Company which he ran until his death in 1937.</p>\n<ul><li>Subjects (LCTGM): Ice--Alaska</li>\n<li>Subjects (LCSH): Diomede Islands (Alaska and Russia); Ice floes--Alaska</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "circa 1906<div style=\"display: none;\">date QS:P571,+1906-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://content.lib.washington.edu/alaskawcanadaweb/index.html\">Alaska, Western Canada and United States Collection</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>\n<p>The author died in 1937, so this work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in its country of origin and other countries and areas where the <a href=\"https://en.wikipedia.org/wiki/List_of_countries%27_copyright_lengths\" class=\"extiw\" title=\"w:List of countries' copyright lengths\">copyright term</a> is the author's <b>life plus 80 years or fewer</b>.\n</p>\n<hr>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in the <a href=\"https://en.wikipedia.org/wiki/United_States\" class=\"extiw\" title=\"en:United States\">United States</a> because it was <a href=\"//commons.wikimedia.org/wiki/Commons:Publication\" title=\"Commons:Publication\">published</a> (or registered with the <a href=\"https://en.wikipedia.org/wiki/United_States_Copyright_Office\" class=\"extiw\" title=\"en:United States Copyright Office\">U.S. Copyright Office</a>) before January 1, 1931.\n</p>\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;font-size:x-small;line-height:140%;\"><a href=\"https://creativecommons.org/publicdomain/mark/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/mark/1.0/deed.en\">This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.</a>\n</td></tr></tbody></table><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/publicdomain/mark/1.0/</span><span class=\"licensetpl_short\" style=\"display:none;\">PDM</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Public Domain Mark 1.0</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "77812566": {
+        "pageid": 77812566,
+        "ns": 6,
+        "title": "File:Eskimo man from Diomede Island, Alaska holding walrus ivory, between 1912 and 1916 (AL+CA 5666).jpg",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 22163,
+            "width": 443,
+            "height": 600,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Eskimo_man_from_Diomede_Island%2C_Alaska_holding_walrus_ivory%2C_between_1912_and_1916_%28AL%2BCA_5666%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 1734,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/Eskimo_man_from_Diomede_Island%2C_Alaska_holding_walrus_ivory%2C_between_1912_and_1916_%28AL%2BCA_5666%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1734
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Eskimo_man_from_Diomede_Island%2C_Alaska_holding_walrus_ivory%2C_between_1912_and_1916_%28AL%2BCA_5666%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Eskimo_man_from_Diomede_Island,_Alaska_holding_walrus_ivory,_between_1912_and_1916_(AL%2BCA_5666).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77812566",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-04-06 04:02:32",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Eskimo man from Diomede Island, Alaska holding walrus ivory, between 1912 and 1916",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Tusks|Ivory|PD US expired|Little Diomede|Fur clothing of native people of Alaska|Eskimo clothing|Images from the Alaska, Western Canada and United States Collection",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "H. G. Kaiser",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<p>Caption: Diomede Isl. Eskimo.\nPH Coll 495.537</p>\n<ul><li>Subjects (LCTGM): Eskimos--Clothing &amp; dress--Alaska; ; Alaska Natives--Clothing &amp; dress;; Fur garments; Ivory; Tusks</li>\n<li>Subjects (LCSH): Eskimo embroidery--Diomede Islands (Alaska and Russia);; Parkas--Diomede Islands (Alaska and Russia)</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "between 1912 and 1916<div style=\"display: none;\">date QS:P571,+1912-00-00T00:00:00Z/8,P1319,+1912-00-00T00:00:00Z/9,P1326,+1916-00-00T00:00:00Z/9</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://content.lib.washington.edu/alaskawcanadaweb/index.html\">Alaska, Western Canada and United States Collection</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Public domain works must be out of copyright in both the United States and in the source country of the work in order to be hosted on the Commons. If the work is not a U.S. work, the file <b>must</b> have an additional <a href=\"//commons.wikimedia.org/wiki/Commons:Copyright_tags\" title=\"Commons:Copyright tags\">copyright tag</a> indicating the copyright status in the source country.<br><b>Note:</b> This tag should <i>not</i> be used for sound recordings.<span style=\"display:none;\"><span class=\"licensetpl_short\">PD-1923</span><span class=\"licensetpl_long\"><a href=\"//commons.wikimedia.org/wiki/Public_domain\" class=\"mw-redirect\" title=\"Public domain\">Public domain</a> in the United States</span><span class=\"licensetpl_link\">//commons.wikimedia.org/wiki/File:Eskimo_man_from_Diomede_Island,_Alaska_holding_walrus_ivory,_between_1912_and_1916_(AL%2BCA_5666).jpg</span></span>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "77727368": {
+        "pageid": 77727368,
+        "ns": 6,
+        "title": "File:Eskimo village on the shore of Little Diomede Island, Alaska, between 1900 and 1910 (AL+CA 6824).jpg",
+        "index": 15,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 47084,
+            "width": 768,
+            "height": 230,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Eskimo_village_on_the_shore_of_Little_Diomede_Island%2C_Alaska%2C_between_1900_and_1910_%28AL%2BCA_6824%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 383,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Eskimo_village_on_the_shore_of_Little_Diomede_Island%2C_Alaska%2C_between_1900_and_1910_%28AL%2BCA_6824%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 383
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Eskimo_village_on_the_shore_of_Little_Diomede_Island%2C_Alaska%2C_between_1900_and_1910_%28AL%2BCA_6824%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Eskimo_village_on_the_shore_of_Little_Diomede_Island,_Alaska,_between_1900_and_1910_(AL%2BCA_6824).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77727368",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-04-02 06:43:07",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Eskimo village on the shore of Little Diomede Island, Alaska, between 1900 and 1910",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Media needing category review with 1 suggested category|PD-old-80-expired|Images from the Alaska, Western Canada and United States Collection to check|CC-PD-Mark|Media needing category review as of 1 April 2019|Little Diomede|Photographs by Beverly Bennett Dobbs|Images from the Alaska, Western Canada and United States Collection",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Beverly_Bennett_Dobbs\" class=\"extiw\" title=\"w:en:Beverly Bennett Dobbs\"><span title=\"American photographer\">Beverly Bennett Dobbs</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<p>Caption on image: - Little Diomede Island showing Eskimo Village - \nPH Coll 413.Album 11.13a</p>\n<ul><li>Subjects (LCTGM): Villages--Diomede Islands (Alaska and Russia); ; Dwellings--Diomede Islands (Alaska and Russia)</li>\n<li>Subjects (LCSH): Eskimos--Structures--Diomede Islands (Alaska and Russia); ; Eskimo architecture--Diomede Islands (Alaska and Russia);; Alaska Natives--Structures--Diomede Islands (Alaska and Russia); ; Vernacular architecture--Diomede Islands (Alaska and Russia)</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "circa 1905<div style=\"display: none;\">date QS:P571,+1905-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://content.lib.washington.edu/alaskawcanadaweb/index.html\">Alaska, Western Canada and United States Collection</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>\n<p>The author died in 1937, so this work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in its country of origin and other countries and areas where the <a href=\"https://en.wikipedia.org/wiki/List_of_countries%27_copyright_lengths\" class=\"extiw\" title=\"w:List of countries' copyright lengths\">copyright term</a> is the author's <b>life plus 80 years or fewer</b>.\n</p>\n<hr>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in the <a href=\"https://en.wikipedia.org/wiki/United_States\" class=\"extiw\" title=\"en:United States\">United States</a> because it was <a href=\"//commons.wikimedia.org/wiki/Commons:Publication\" title=\"Commons:Publication\">published</a> (or registered with the <a href=\"https://en.wikipedia.org/wiki/United_States_Copyright_Office\" class=\"extiw\" title=\"en:United States Copyright Office\">U.S. Copyright Office</a>) before January 1, 1931.\n</p>\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;font-size:x-small;line-height:140%;\"><a href=\"https://creativecommons.org/publicdomain/mark/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/mark/1.0/deed.en\">This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.</a>\n</td></tr></tbody></table><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/publicdomain/mark/1.0/</span><span class=\"licensetpl_short\" style=\"display:none;\">PDM</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Public Domain Mark 1.0</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "47333023": {
+        "pageid": 47333023,
+        "ns": 6,
+        "title": "File:Little Diomede 1 2014-08-17.jpg",
+        "index": 13,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 593827,
+            "width": 2125,
+            "height": 1417,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Little_Diomede_1_2014-08-17.jpg/1280px-Little_Diomede_1_2014-08-17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 854,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/0/00/Little_Diomede_1_2014-08-17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Little_Diomede_1_2014-08-17.jpg/1280px-Little_Diomede_1_2014-08-17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 854,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/00/Little_Diomede_1_2014-08-17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Little_Diomede_1_2014-08-17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Little_Diomede_1_2014-08-17.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=47333023",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-03-05 11:39:12",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Little Diomede 1 2014-08-17",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Islands of the Bering Sea|Inupiaq|Self-published work|Images with extracted images|Files with coordinates missing SDC location of creation|Little Diomede|Islands of Nome Census Area, Alaska|Islands of Unorganized Borough, Alaska|Diomede (Alaska)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "65.758301",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-168.957006",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Little Diomede Island (Bering Strait, Alaska, USA; 65°45‘15‘‘N, 168°55‘25‘‘W)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-08-17",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Ansgar Walk",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "47333046": {
+        "pageid": 47333046,
+        "ns": 6,
+        "title": "File:Little Diomede 2 2014-08-17.jpg",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 302257,
+            "width": 2125,
+            "height": 1418,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Little_Diomede_2_2014-08-17.jpg/1280px-Little_Diomede_2_2014-08-17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 854,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/d/db/Little_Diomede_2_2014-08-17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Little_Diomede_2_2014-08-17.jpg/1280px-Little_Diomede_2_2014-08-17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 854,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/d/db/Little_Diomede_2_2014-08-17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Little_Diomede_2_2014-08-17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Little_Diomede_2_2014-08-17.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=47333046",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-03-05 11:41:05",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Little Diomede 2 2014-08-17",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Islands of the Bering Sea|Self-published work|Little Diomede|Islands of Nome Census Area, Alaska|Islands of Unorganized Borough, Alaska",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Little Diomede Island (Bering Strait, Alaska, USA; 65°45‘15‘‘N, 168°55‘25‘‘W)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-08-17",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Ansgar Walk",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "62858163": {
+        "pageid": 62858163,
+        "ns": 6,
+        "title": "File:Little Diomede Banner.jpg",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 181259,
+            "width": 2125,
+            "height": 304,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Little_Diomede_Banner.jpg/1280px-Little_Diomede_Banner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 183,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/7/74/Little_Diomede_Banner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Little_Diomede_Banner.jpg/1280px-Little_Diomede_Banner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 183,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/7/74/Little_Diomede_Banner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Little_Diomede_Banner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Little_Diomede_Banner.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=62858163",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-09-28 22:05:55",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Little Diomede Banner",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Islands of the Bering Sea|Inupiaq|Self-published work|Extracted images|Files with coordinates missing SDC location of creation|Little Diomede|Islands of Nome Census Area, Alaska|Islands of Unorganized Borough, Alaska",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "65.758301",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-168.957006",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Little Diomede Island (Bering Strait, Alaska, USA; 65°45‘15‘‘N, 168°55‘25‘‘W)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-08-17",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Ansgar Walk",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "54496510": {
+        "pageid": 54496510,
+        "ns": 6,
+        "title": "File:Little Diomede Island, Alaska, August 25, 2016.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 6208805,
+            "width": 6016,
+            "height": 4000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Little_Diomede_Island%2C_Alaska%2C_August_25%2C_2016.jpg/1280px-Little_Diomede_Island%2C_Alaska%2C_August_25%2C_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 851,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Little_Diomede_Island%2C_Alaska%2C_August_25%2C_2016.jpg/3840px-Little_Diomede_Island%2C_Alaska%2C_August_25%2C_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Little_Diomede_Island%2C_Alaska%2C_August_25%2C_2016.jpg/1280px-Little_Diomede_Island%2C_Alaska%2C_August_25%2C_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 851,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Little_Diomede_Island%2C_Alaska%2C_August_25%2C_2016.jpg/3840px-Little_Diomede_Island%2C_Alaska%2C_August_25%2C_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Little_Diomede_Island%2C_Alaska%2C_August_25%2C_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Little_Diomede_Island,_Alaska,_August_25,_2016.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=54496510",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-12-27 04:17:49",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Little Diomede Island, Alaska, August 25, 2016",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Flickr images reviewed by FlickreviewR|Files with coordinates missing SDC location of creation|Little Diomede",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "65.766680",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-168.956970",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Little Diomede Island, Alaska, August 25, 2016.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-08-25 08:40",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/naql/29318000744/\">Little Diomede</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/22931801@N03\">naql</a> from Kodiak, AK, US",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "77726385": {
+        "pageid": 77726385,
+        "ns": 6,
+        "title": "File:Little Diomede Island, Alaska and an Eskimo village, as seen from a boat in the water, circa 1906 (AL+CA 2419).jpg",
+        "index": 14,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 48808,
+            "width": 768,
+            "height": 232,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Little_Diomede_Island%2C_Alaska_and_an_Eskimo_village%2C_as_seen_from_a_boat_in_the_water%2C_circa_1906_%28AL%2BCA_2419%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 387,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/0/05/Little_Diomede_Island%2C_Alaska_and_an_Eskimo_village%2C_as_seen_from_a_boat_in_the_water%2C_circa_1906_%28AL%2BCA_2419%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 387
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Little_Diomede_Island%2C_Alaska_and_an_Eskimo_village%2C_as_seen_from_a_boat_in_the_water%2C_circa_1906_%28AL%2BCA_2419%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Little_Diomede_Island,_Alaska_and_an_Eskimo_village,_as_seen_from_a_boat_in_the_water,_circa_1906_(AL%2BCA_2419).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77726385",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-04-02 05:29:47",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Little Diomede Island, Alaska and an Eskimo village, as seen from a boat in the water, circa 1906",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Islands of Alaska|Alaska Natives|Villages in Alaska|PD-old-80-expired|CC-PD-Mark|Little Diomede|Photographs by Beverly Bennett Dobbs|Images from the Alaska, Western Canada and United States Collection",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Beverly_Bennett_Dobbs\" class=\"extiw\" title=\"w:en:Beverly Bennett Dobbs\"><span title=\"American photographer\">Beverly Bennett Dobbs</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<p>Caption on image: Little Diomede Island. Showing Eskimo village. Dobbs. \n PH Coll 788.75a</p>\n<p>Beverly Bennett Dobbs was born in 1868 near Marshall, Missouri. In 1888 Dobbs moved to Bellingham, Washington and operated a photography studio there for 12 years. In 1900 Dobbs moved to Nome, Alaska and continued to work as a photographer capturing images of Nome, the Seward Peninsula, and Inuit people. In 1909, Dobbs started the Dobbs Alaska Moving Picture Co. and began making films about the Gold Rush. By 1914, Dobbs had moved back to Seattle and was creating more films through the Dobbs Totem Film Company which he ran until his death in 1937.</p>\n<ul><li>Subjects (LCTGM): Islands--Alaska; Villages--Alaska; Eskimos--Structures--Alaska; Alaska Natives--Structures</li>\n<li>Subjects (LCSH): Eskimo architecture--Diomede Islands (Alaska and Russia)</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "circa 1906<div style=\"display: none;\">date QS:P571,+1906-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://content.lib.washington.edu/alaskawcanadaweb/index.html\">Alaska, Western Canada and United States Collection</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>\n<p>The author died in 1937, so this work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in its country of origin and other countries and areas where the <a href=\"https://en.wikipedia.org/wiki/List_of_countries%27_copyright_lengths\" class=\"extiw\" title=\"w:List of countries' copyright lengths\">copyright term</a> is the author's <b>life plus 80 years or fewer</b>.\n</p>\n<hr>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in the <a href=\"https://en.wikipedia.org/wiki/United_States\" class=\"extiw\" title=\"en:United States\">United States</a> because it was <a href=\"//commons.wikimedia.org/wiki/Commons:Publication\" title=\"Commons:Publication\">published</a> (or registered with the <a href=\"https://en.wikipedia.org/wiki/United_States_Copyright_Office\" class=\"extiw\" title=\"en:United States Copyright Office\">U.S. Copyright Office</a>) before January 1, 1931.\n</p>\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;font-size:x-small;line-height:140%;\"><a href=\"https://creativecommons.org/publicdomain/mark/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/mark/1.0/deed.en\">This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.</a>\n</td></tr></tbody></table><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/publicdomain/mark/1.0/</span><span class=\"licensetpl_short\" style=\"display:none;\">PDM</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Public Domain Mark 1.0</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "72655846": {
+        "pageid": 72655846,
+        "ns": 6,
+        "title": "File:Little Diomede Island 2018 Drone Photo.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2615623,
+            "width": 4000,
+            "height": 2250,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Little_Diomede_Island_2018_Drone_Photo.jpg/1280px-Little_Diomede_Island_2018_Drone_Photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Little_Diomede_Island_2018_Drone_Photo.jpg/3840px-Little_Diomede_Island_2018_Drone_Photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Little_Diomede_Island_2018_Drone_Photo.jpg/1280px-Little_Diomede_Island_2018_Drone_Photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Little_Diomede_Island_2018_Drone_Photo.jpg/3840px-Little_Diomede_Island_2018_Drone_Photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Little_Diomede_Island_2018_Drone_Photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Little_Diomede_Island_2018_Drone_Photo.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=72655846",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-09-11 17:10:34",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Little Diomede Island 2018 Drone Photo",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with DJI FC300C|Self-published work|Aerial photographs of Northern Alaska|Files with coordinates missing SDC location of creation|June 2018 in Alaska|United States photographs taken on 2018-06-12|Little Diomede|Aerial photographs of populated places in Alaska|Diomede (Alaska)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "65.758711",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-168.956461",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "One of the most remote villages in the Bering Strait Region, Little Diomede Island is less than 2 miles from the international date line and Russia.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 12 June 2018 20:58:19",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Scraphound&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Scraphound (page does not exist)\">Walter Holt Rose</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "8016761": {
+        "pageid": 8016761,
+        "ns": 6,
+        "title": "File:Little Diomede Island village.jpeg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2553696,
+            "width": 2100,
+            "height": 1400,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Little_Diomede_Island_village.jpeg/1280px-Little_Diomede_Island_village.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Little_Diomede_Island_village.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Little_Diomede_Island_village.jpeg/1280px-Little_Diomede_Island_village.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 853,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Little_Diomede_Island_village.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Little_Diomede_Island_village.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Little_Diomede_Island_village.jpeg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=8016761",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2009-10-09 03:43:15",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Little Diomede Island village",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS 40D|PD US Coast Guard|Images with extracted images|Files with coordinates missing SDC location of creation|Little Diomede|Diomede (Alaska)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "65.758370",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-168.952006",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The native village of Diomede, on the island of Little Diomede, sits very close to the border of Russia and the United States.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2008-08-25",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "U.S. Coast Guard photo ID  080825-G-5352B-005<br>Photo page: <a rel=\"nofollow\" class=\"external autonumber\" href=\"http://cgvi.uscg.mil/media/main.php?g2_view=core.DownloadItem&amp;g2_itemId=371760\">[1]</a><br>Photo description page: <a rel=\"nofollow\" class=\"external autonumber\" href=\"http://cgvi.uscg.mil/media/main.php?g2_itemId=371760\">[2]</a><br>U.S. Coast Guard Visual Information Gallery <a rel=\"nofollow\" class=\"external autonumber\" href=\"http://cgvi.uscg.mil/media/\">[3]</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unites States Coast Guard, Petty Officer Richard Brahm",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<i>This image or file is a work of a <a href=\"https://en.wikipedia.org/wiki/United_States_Coast_Guard\" class=\"extiw\" title=\"w:United States Coast Guard\">United States Coast Guard</a> service personnel or employee, taken or made as part of that person's official duties. As a <a href=\"https://en.wikipedia.org/wiki/Work_of_the_United_States_Government\" class=\"extiw\" title=\"w:Work of the United States Government\">work of the U.S. federal government</a>, the image or file is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"w:public domain\">public domain</a></b> (17 U.S.C. § 101 and § 105, <a rel=\"nofollow\" class=\"external text\" href=\"http://www.uscg.mil/global/disclaim.asp\">USCG main privacy policy</a> and <a rel=\"nofollow\" class=\"external text\" href=\"http://cgvi.uscg.mil/media/privacy.html\">specific privacy policy for its imagery server</a>).</i>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "4538820": {
+        "pageid": 4538820,
+        "ns": 6,
+        "title": "File:The Diomede Islands in the BeringSea (picture from space).jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 67387,
+            "width": 900,
+            "height": 720,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/00/The_Diomede_Islands_in_the_BeringSea_%28picture_from_space%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 1024,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/0/00/The_Diomede_Islands_in_the_BeringSea_%28picture_from_space%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1024
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/The_Diomede_Islands_in_the_BeringSea_%28picture_from_space%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Diomede_Islands_in_the_BeringSea_(picture_from_space).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4538820",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-08-11 05:25:10",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "The Diomede Islands in the BeringSea (picture from space)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD NASA|Diomede Islands|Satellite pictures of islands of Russia|Template Unknown (author)|Satellite pictures of islands of the United States",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/en:Diomede_Islands\" class=\"extiw\" title=\"w:en:Diomede Islands\"><b>Diomede Islands</b></a> in the middle of the <a href=\"https://en.wikipedia.org/wiki/en:Bering_Strait\" class=\"extiw\" title=\"w:en:Bering Strait\">Bering Strait:</a>. The islands are separated by the border between Russia and the USA and by the <a href=\"https://en.wikipedia.org/wiki/en:International_Date_Line\" class=\"extiw\" title=\"w:en:International Date Line\">International Date Line</a>.\n<ul><li>Western: Russian island of <i>Big Diomede</i>, <i>Imaqliq</i>, <i>Nunarbuk</i> or <i>Ratmanov Island</i></li>\n<li>Eastern: U.S. island of <i>Little Diomede</i>, in its native language <i>Inaliq</i> or <i>Krusenstern Island</i> (this is the island <a href=\"https://en.wikipedia.org/wiki/en:Sarah_Palin\" class=\"extiw\" title=\"w:en:Sarah Palin\">w:en:Sarah Palin</a> was talking about when she said, \"They're our next-door neighbors, and you can actually see Russia from land here in Alaska, from an island in Alaska.\")<br></li></ul>\nThe image was acquired July 8, 2000, covers an area of 13.5 x 10.8 km, and is located at 65.8 degrees north latitude, 169 degrees west longitude.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2000-07-08",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<ul><li>Image: <a rel=\"nofollow\" class=\"external text\" data-mw-original-href=\"http://asterweb.jpl.nasa.gov/gallery/images/diomede.jpg\" href=\"https://asterweb.jpl.nasa.gov/gallery/images/diomede.jpg\">diomede.jpg</a></li>\n<li>Text info: <a rel=\"nofollow\" class=\"external text\" data-mw-original-href=\"http://asterweb.jpl.nasa.gov/gallery-detail.asp?name=diomede\" href=\"https://asterweb.jpl.nasa.gov/gallery-detail.asp?name=diomede\">Diomede Islands, Bering Strait</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<p>This file is in the public domain because it was created by NASA. NASA copyright policy states that \"NASA material is not protected by copyright unless noted\". (NASA copyright policy page or JPL Image Use Policy). This image does not contain a NASA logo.<br>\n</p>\nPlease give credit for these images to <i>NASA/GSFC/METI/Japan Space Systems and U.S./Japan ASTER Science Team</i>.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

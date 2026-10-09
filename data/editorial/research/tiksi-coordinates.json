@@ -1,0 +1,25 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "474952": {
+        "pageid": 474952,
+        "ns": 0,
+        "title": "Tiksi",
+        "coordinates": [
+          {
+            "lat": 71.65,
+            "lon": 128.86666667,
+            "primary": "",
+            "globe": "earth"
+          }
+        ],
+        "pageprops": {
+          "page_image_free": "Tiksi.jpg",
+          "wikibase-shortdesc": "Urban-type settlement in Sakha Republic, Russia",
+          "wikibase_item": "Q500895"
+        }
+      }
+    }
+  }
+}

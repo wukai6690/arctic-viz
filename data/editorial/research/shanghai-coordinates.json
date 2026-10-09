@@ -1,0 +1,26 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "27643": {
+        "pageid": 27643,
+        "ns": 0,
+        "title": "Shanghai",
+        "coordinates": [
+          {
+            "lat": 31.2325,
+            "lon": 121.46916667,
+            "primary": "",
+            "globe": "earth"
+          }
+        ],
+        "pageprops": {
+          "page_image_free": "Huangpu_Park_20124-Shanghai_(32208802494).jpg",
+          "wikibase-badge-Q17437798": "",
+          "wikibase-shortdesc": "Municipality and largest city in China",
+          "wikibase_item": "Q8686"
+        }
+      }
+    }
+  }
+}

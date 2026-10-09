@@ -1,0 +1,25 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "105580": {
+        "pageid": 105580,
+        "ns": 0,
+        "title": "Utqiagvik, Alaska",
+        "coordinates": [
+          {
+            "lat": 71.29055556,
+            "lon": -156.78861111,
+            "primary": "",
+            "globe": "earth"
+          }
+        ],
+        "pageprops": {
+          "page_image_free": "Barrow_Alaska.jpg",
+          "wikibase-shortdesc": "City in Alaska, United States",
+          "wikibase_item": "Q79809"
+        }
+      }
+    }
+  }
+}

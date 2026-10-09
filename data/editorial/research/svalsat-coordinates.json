@@ -1,0 +1,26 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "35487214": {
+        "pageid": 35487214,
+        "ns": 0,
+        "title": "Svalbard Satellite Station",
+        "coordinates": [
+          {
+            "lat": 78.22977222,
+            "lon": 15.40778611,
+            "primary": "",
+            "globe": "earth"
+          }
+        ],
+        "pageprops": {
+          "page_image_free": "Longyearbyen_Plataaberget_IMG_3014.jpg",
+          "wikibase-badge-Q17437798": "",
+          "wikibase-shortdesc": "Satellite ground station on Spitsbergen, Svalbard, Norway",
+          "wikibase_item": "Q1796135"
+        }
+      }
+    }
+  }
+}

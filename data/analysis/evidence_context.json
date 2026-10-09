@@ -1,0 +1,24 @@
+{
+  "version": "study-context-2026-10-09-v1",
+  "scope": "研究解释和待检验问题；项目事实以原有专题逐条列出的来源为准。政策节点仅描述原文对应的历史时点。",
+  "sources": [
+    {"id":"council-resumption-2024","title":"Arctic Council advances resumption of project-level work","publisher":"Arctic Council","url":"https://arctic-council.org/news/arctic-council-advances-resumption-of-project-level-work/","published_at":"2024-02-28","accessed_at":"2026-10-09"},
+    {"id":"china-white-paper-2018","title":"China’s Arctic Policy","publisher":"国务院新闻办公室 / 中国政府网","url":"https://english.www.gov.cn/archive/white_paper/2018/01/26/content_281476026660336.htm","published_at":"2018-01-26","accessed_at":"2026-10-09"}
+  ],
+  "policy_nodes": [
+    {"date":"2018-01-26","precision":"day","label":"中国发布北极政策白皮书","description":"将科研、环境保护、资源利用与治理参与纳入政策表述；这是政策文本，不能直接当作能力或实施效果。","region_id":"pan_arctic","source_id":"china-white-paper-2018"},
+    {"date":"2022-03","precision":"month","label":"北极理事会正式会议暂停","description":"2024 年理事会公告回顾这一历史节点；会议状态与各项目运行情况需要分别核对。","region_id":"pan_arctic","source_id":"council-resumption-2024"},
+    {"date":"2023-05","precision":"month","label":"理事会主席国由俄罗斯转交挪威","description":"历史治理节点，不转换为国家合作强度分数。","region_id":"pan_arctic","source_id":"council-resumption-2024"},
+    {"date":"2023-08","precision":"month","label":"就项目层面的书面程序达成共识","description":"书面程序与正式会议的恢复是不同层次。","region_id":"pan_arctic","source_id":"council-resumption-2024"},
+    {"date":"2024-02","precision":"month","label":"同意逐步恢复工作组线上正式会议","description":"公告描述工作组层面安排；不据此宣称理事会全部外交活动恢复，也不代表 2026 年现状。","region_id":"pan_arctic","source_id":"council-resumption-2024"}
+  ],
+  "project_roles": {
+    "xuelong2":{"condition":"在冰区持续开展科考，需要船舶平台、测量设备和后勤保障。","capability":"项目资料可核对冰级以及设计、建造分工。冰级标注不直接换算为每条航道的运营能力。","activity":"以交付和机构分工作为已核对节点，再补充航次记录。","relationship":"设计合作与国内建造共同出现在同一项目中。","alternatives":"装备采购预算、科研计划、试验进度也会影响交付；不能把交付归因于海冰变化。","next_evidence":"按航次整理实际航迹、冰情、任务和设备运行记录。","china_action":"讨论科考能力时分别报告设计、制造、运行与科学产出，避免用专利数替代船舶能力。"},
+    "mosaic":{"condition":"全年漂流观测需要平台、补给、人员轮换和共同观测安排。","capability":"破冰船与科研组织为联合观测提供条件。","activity":"2019 年启航安排与 2020 年返航节点可核对；特罗姆瑟属于后勤关联节点，不代表漂流路线位于巴伦支海。","relationship":"项目牵头方和跨国科研参与提供具体合作证据。","alternatives":"科考目标与多年筹备也决定出发时间，同年低冰并不是项目启动的原因证明。","next_evidence":"补充逐段漂流轨迹、参与任务、补给及成果共享材料。","china_action":"按共同任务、人员、数据和成果逐项核对中国参与，区分合作机会与实际贡献。"},
+    "kinuvik":{"condition":"极轨卫星的接收机会与站点位置、轨道和地面服务安排有关。","capability":"资料说明两个站点配合的接收安排，尚无统一口径的实际业务量。","activity":"伊努维克设施启用日期不能替代整个 Kinuvik 服务的启用日期。","relationship":"记录运营与合作机构；地图上的联系为服务安排示意。","alternatives":"轨道组合、客户合同、频段与可用性可能共同影响服务。","next_evidence":"收集覆盖模型、服务时段、可用性与数据访问协议。","china_action":"评估极地通信与数据获取时，将几何覆盖、合同权限和持续可用性分开。"},
+    "awipev":{"condition":"长期定点观测依赖仪器、人员、维护与科研基地。","capability":"联合基地提供共同组织观测的场所；资料不等于所有设备或数据已共享。","activity":"2003 年合并基地作为研究时窗之前的历史背景保留。","relationship":"AWI 与 IPEV 的基地合作有直接机构材料。","alternatives":"研究经费、长期观测计划与东道地管理安排可能更直接影响合作。","next_evidence":"补充年度仪器清单、人员交换、数据开放条件和联合成果。","china_action":"比较研究站合作时，使用实际任务和成果口径，并核对站点管理条件。"},
+    "yamal":{"condition":"冰区能源运输涉及港口、船舶、季节冰情和经营安排。","capability":"首批出口与投资参与有时点明确的材料；还需要船队、运量和航次资料。","activity":"2017 年首批 LNG 出口是项目节点，不能代表全年通航。","relationship":"2017 年公告记录多方投资参与，保留当时口径。","alternatives":"融资、资源价格、合同和政策变化均可能影响运输与参与，海冰不是唯一解释。","next_evidence":"按月匹配实际航次、冰级、运输量、合同与同期政策原文。","china_action":"从投资参与出发核对运输及经营条件；评估历史情景时避免套用不同时点的股权或政策。"},
+    "chars":{"condition":"北极科研设施同时位于当地社区，需要人员与技术服务支持。","capability":"开放公告及运营方介绍可证明设施与服务安排，不能代替效果评估。","activity":"以 2019 年开放节点和资料描述为案例依据。","relationship":"科研机构、研究人员和社区的联系需要进一步到具体项目核验。","alternatives":"公共投资与社区需求可能影响设施建设，不能用海冰指标直接解释。","next_evidence":"收集服务使用、社区参与过程和独立成果评估。","china_action":"比较科研设施时增加社区参与和环境监测维度，并保留当地反馈。"},
+    "asbm":{"condition":"高纬活动需要通信服务，轨道与终端决定具体可用条件。","capability":"发射公告说明北极宽带任务，实际性能需另查验收和运营资料。","activity":"2024 年发射属于能力建设节点，不等于对所有海区已经交付同等服务。","relationship":"公告列出商业和政府参与；不自动归为冲突或全面合作。","alternatives":"需求预测、采购安排与轨道设计影响部署，并非海冰减少就必然产生通信项目。","next_evidence":"收集服务启用、覆盖、终端、容量及合作协议。","china_action":"以实测覆盖和服务条件讨论通信依赖，并对比可取得的其他通信方案。"}
+  }
+}

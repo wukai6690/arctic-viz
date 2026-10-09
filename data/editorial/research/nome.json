@@ -1,0 +1,1266 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 12,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "776406": {
+        "pageid": 776406,
+        "ns": 6,
+        "title": "File:AKMap-doton-Koyuk.PNG",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 6780,
+            "width": 300,
+            "height": 186,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/AKMap-doton-Koyuk.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 960,
+            "thumbheight": 595,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/a/a8/AKMap-doton-Koyuk.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 595
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/AKMap-doton-Koyuk.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:AKMap-doton-Koyuk.PNG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=776406",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2006-05-11 19:39:42",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "AKMap-doton-Koyuk",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Files with no machine-readable author|Files with no machine-readable source|License migration completed|Media missing infobox template|Koyuk, Alaska|Locator map images that should use vector graphics|GFDL-en|Locator maps of cities in Alaska|PNG that should use vector graphics|Maps of Nome Census Area, Alaska",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "77675639": {
+        "pageid": 77675639,
+        "ns": 6,
+        "title": "File:Horse-drawn carriage waiting for ferry to cross at Port Safety, near Nome, Alaska, October 2, 1905 (AL+CA 7516).jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 74770,
+            "width": 768,
+            "height": 602,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Horse-drawn_carriage_waiting_for_ferry_to_cross_at_Port_Safety%2C_near_Nome%2C_Alaska%2C_October_2%2C_1905_%28AL%2BCA_7516%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 960,
+            "thumbheight": 753,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Horse-drawn_carriage_waiting_for_ferry_to_cross_at_Port_Safety%2C_near_Nome%2C_Alaska%2C_October_2%2C_1905_%28AL%2BCA_7516%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 753
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Horse-drawn_carriage_waiting_for_ferry_to_cross_at_Port_Safety%2C_near_Nome%2C_Alaska%2C_October_2%2C_1905_%28AL%2BCA_7516%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Horse-drawn_carriage_waiting_for_ferry_to_cross_at_Port_Safety,_near_Nome,_Alaska,_October_2,_1905_(AL%2BCA_7516).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77675639",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-03-30 20:32:03",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Horse-drawn carriage waiting for ferry to cross at Port Safety, near Nome, Alaska, October 2, 1905",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Nome, Alaska|Media needing category review with 2 suggested categories|PD-old-75-expired|Images from the Alaska, Western Canada and United States Collection to check|Photographs taken on 1905-10-02|CC-PD-Mark|Media needing category review as of 30 March 2019|PD-old missing SDC copyright status|Horse teams in the United States|Images from the Alaska, Western Canada and United States Collection",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Frank_Hamilton_Nowell\" class=\"extiw\" title=\"w:en:Frank Hamilton Nowell\"><span title=\"American photographer and postcard publisher (1864–1950)\">Frank H. Nowell</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<p>Caption on image: Photo by F.H. Nowell. 4536. Ferry at Port Safety, Alaska. Oct. 2, 1905.\nPH Coll 413.Album 9.27</p>\n<ul><li>Subjects (LCTGM): Horses--Alaska; Horse teams--Alaska; Carriages &amp; coaches--Alaska</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 2 October 1905",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://content.lib.washington.edu/alaskawcanadaweb/index.html\">Alaska, Western Canada and United States Collection</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>\n<p>The author died in 1950, so this work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in its country of origin and other countries and areas where the <a href=\"https://en.wikipedia.org/wiki/List_of_countries%27_copyright_lengths\" class=\"extiw\" title=\"w:List of countries' copyright lengths\">copyright term</a> is the author's <b>life plus 75 years or fewer</b>.\n</p>\n<hr>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in the <a href=\"https://en.wikipedia.org/wiki/United_States\" class=\"extiw\" title=\"en:United States\">United States</a> because it was <a href=\"//commons.wikimedia.org/wiki/Commons:Publication\" title=\"Commons:Publication\">published</a> (or registered with the <a href=\"https://en.wikipedia.org/wiki/United_States_Copyright_Office\" class=\"extiw\" title=\"en:United States Copyright Office\">U.S. Copyright Office</a>) before January 1, 1931.\n</p>\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;font-size:x-small;line-height:140%;\"><a href=\"https://creativecommons.org/publicdomain/mark/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/mark/1.0/deed.en\">This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.</a>\n</td></tr></tbody></table><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/publicdomain/mark/1.0/</span><span class=\"licensetpl_short\" style=\"display:none;\">PDM</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Public Domain Mark 1.0</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "17393641": {
+        "pageid": 17393641,
+        "ns": 6,
+        "title": "File:Indians arriving on sandspit at Nome from Port Clarence. - NARA - 297170.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4065787,
+            "width": 2865,
+            "height": 3000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Indians_arriving_on_sandspit_at_Nome_from_Port_Clarence._-_NARA_-_297170.jpg/960px-Indians_arriving_on_sandspit_at_Nome_from_Port_Clarence._-_NARA_-_297170.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 1005,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Indians_arriving_on_sandspit_at_Nome_from_Port_Clarence._-_NARA_-_297170.jpg/1920px-Indians_arriving_on_sandspit_at_Nome_from_Port_Clarence._-_NARA_-_297170.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Indians_arriving_on_sandspit_at_Nome_from_Port_Clarence._-_NARA_-_297170.jpg/960px-Indians_arriving_on_sandspit_at_Nome_from_Port_Clarence._-_NARA_-_297170.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 1005,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Indians_arriving_on_sandspit_at_Nome_from_Port_Clarence._-_NARA_-_297170.jpg/1920px-Indians_arriving_on_sandspit_at_Nome_from_Port_Clarence._-_NARA_-_297170.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Indians_arriving_on_sandspit_at_Nome_from_Port_Clarence._-_NARA_-_297170.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Indians_arriving_on_sandspit_at_Nome_from_Port_Clarence._-_NARA_-_297170.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=17393641",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2011-11-18 09:42:43",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\n<i>Indians arriving on sandspit at Nome from Port Clarence.</i></div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|Images from the National Archives and Records Administration|Media contributed by the National Archives and Records Administration|Nome, Alaska|Alaska Natives|1901 in Alaska|Port Clarence, Alaska|Artworks without Wikidata item|Water transport in Alaska|Template Unknown (author)|CC-PD-Mark|US National Archives series: Photographs of the Inhabitants of Metlakatla, British Columbia and Metlakatla, Alaska, compiled ca. 1856 - 1936|US National Archives location: other",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span> or not provided</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/U.S._National_Archives_and_Records_Administration\" class=\"extiw\" title=\"en:U.S. National Archives and Records Administration\">U.S. National Archives and Records Administration</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "72655848": {
+        "pageid": 72655848,
+        "ns": 6,
+        "title": "File:Koyuk Alaska - Drone.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4215349,
+            "width": 4000,
+            "height": 2250,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Koyuk_Alaska_-_Drone.jpg/960px-Koyuk_Alaska_-_Drone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 540,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Koyuk_Alaska_-_Drone.jpg/1920px-Koyuk_Alaska_-_Drone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Koyuk_Alaska_-_Drone.jpg/960px-Koyuk_Alaska_-_Drone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 540,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Koyuk_Alaska_-_Drone.jpg/1920px-Koyuk_Alaska_-_Drone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Koyuk_Alaska_-_Drone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Koyuk_Alaska_-_Drone.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=72655848",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-09-11 17:10:55",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Koyuk Alaska - Drone",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with DJI FC300C|Alaska Natives|Koyuk, Alaska|Self-published work|Aerial photographs of Northern Alaska|Files with coordinates missing SDC location of creation|March 2018 in Alaska|United States photographs taken on 2018-03-22|Aerial photographs of populated places in Alaska",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "64.925339",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-161.158006",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Koyuk, Alaska is one of several remote isolated Native Villages located on the Northern shore of Norton Sound in Western Alaska. Koyuk is one of the few villages in the region with trees.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 22 March 2018 10:41:01",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Scraphound&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Scraphound (page does not exist)\">Walter Holt Rose</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "39266511": {
+        "pageid": 39266511,
+        "ns": 6,
+        "title": "File:Koyuk whale hunter rescue DVIDS1096018.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2171204,
+            "width": 2592,
+            "height": 1944,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Koyuk_whale_hunter_rescue_DVIDS1096018.jpg/960px-Koyuk_whale_hunter_rescue_DVIDS1096018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Koyuk_whale_hunter_rescue_DVIDS1096018.jpg/1920px-Koyuk_whale_hunter_rescue_DVIDS1096018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Koyuk_whale_hunter_rescue_DVIDS1096018.jpg/960px-Koyuk_whale_hunter_rescue_DVIDS1096018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Koyuk_whale_hunter_rescue_DVIDS1096018.jpg/1920px-Koyuk_whale_hunter_rescue_DVIDS1096018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Koyuk_whale_hunter_rescue_DVIDS1096018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Koyuk_whale_hunter_rescue_DVIDS1096018.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=39266511",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-03-28 20:14:44",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Koyuk whale hunter rescue DVIDS1096018",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "2010 in Alaska|Files with no machine-readable author|Air Station Kodiak|Media lacking author information|Koyuk, Alaska|PD US Coast Guard|Taken on missing SDC inception|Images from DoD uploaded by Fæ|People of Nome Census Area, Alaska|United States photographs taken on 2010-06-01|DVIDS files uploaded by Fæ",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "KODIAK, Alaska - Coast Guard Chief Petty Officer Patrick Estrada, aviation survival technician with Air Station Kodiak, says farewell Jun 1, 2010, to two Koyuk whale hunters in Koyuk who were reported overdue by family members May 31, 2010, after they did not return from a hunting expedition.  The hunters were greeted by Koyuk community members welcoming their return.  U.S. Coast Guard photo by Petty Officer 2nd Class James Nelson.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 1 June 2010",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.dvidshub.net/image/1096018\">https://www.dvidshub.net/image/1096018</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "132721998": {
+        "pageid": 132721998,
+        "ns": 6,
+        "title": "File:LTG Bostick's visit to Nome, Alaska.jpg",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1964055,
+            "width": 3112,
+            "height": 2123,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/LTG_Bostick%27s_visit_to_Nome%2C_Alaska.jpg/960px-LTG_Bostick%27s_visit_to_Nome%2C_Alaska.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 655,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/LTG_Bostick%27s_visit_to_Nome%2C_Alaska.jpg/1920px-LTG_Bostick%27s_visit_to_Nome%2C_Alaska.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/LTG_Bostick%27s_visit_to_Nome%2C_Alaska.jpg/960px-LTG_Bostick%27s_visit_to_Nome%2C_Alaska.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 655,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/LTG_Bostick%27s_visit_to_Nome%2C_Alaska.jpg/1920px-LTG_Bostick%27s_visit_to_Nome%2C_Alaska.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/LTG_Bostick%27s_visit_to_Nome%2C_Alaska.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:LTG_Bostick%27s_visit_to_Nome,_Alaska.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=132721998",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-06-06 12:43:29",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "LTG Bostick's visit to Nome, Alaska",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Thomas P. Bostick|PD US Army USACE|August 2014 in Alaska|United States photographs taken on 2014-08-14|Flickr images reviewed by FlickreviewR 2|Nome, Alaska in the 2010s|Group photographs in Alaska|Christopher D. Lestochi|Denise Michels",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Lt. Gen. Thomas Bostick, commanding general of the U.S. Army Corps of Engineers, traveled to Nome Aug.14 and met with Mayor Denise Michels and discussed the potential of an Arctic deep draft port. Shown here is Michels with Bostick’s traveling party underneath the famous burled arches where the Iditarod, a world-famous sled dog race, ends. From right to left is Amy Holmes, special assistant to the commanding general; Bruce Sexauer, chief of the Civil Works Branch; Pat Coullahan, chief of the Construction Division; Bostick; Michels; Col. Christopher Lestochi, district commander and Randy Bowker, acting chief of the Programs and Project Management Division.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 14 August 2014",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/usacehq/14914542438/\">https://www.flickr.com/photos/usacehq/14914542438/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "U.S. Army Corps of Engineers",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "16015816": {
+        "pageid": 16015816,
+        "ns": 6,
+        "title": "File:Nome-cableway-1907-2.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 68723,
+            "width": 466,
+            "height": 600,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nome-cableway-1907-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 960,
+            "thumbheight": 1236,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nome-cableway-1907-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 1236
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nome-cableway-1907-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nome-cableway-1907-2.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=16015816",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2011-08-06 20:52:52",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Nome-cableway-1907-2",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US|1907 in Alaska|Nome, Alaska|Ports and harbors in Alaska|Tramways (industrial)|Photographs by Frank H. Nowell|Black and white photographs of Alaska|Black and white photographs of the United States in the 1900s|PD-US missing SDC copyright status",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cable way, Nome, Alaska, 1907. Text: John J. Sesnon Co.'s cable way for landing freight at Nome. 1400 feet long, shore tower 125 feet high, Cassion tower 90 feet above highwater. The largest cable way of its kind in the world.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1907-07-12",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "Alaska Digital Archives",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Cordelia L. M. Noble Collection",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Copyrights expired",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "1805586": {
+        "pageid": 1805586,
+        "ns": 6,
+        "title": "File:Nome Alaska aerial view.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 659671,
+            "width": 1500,
+            "height": 993,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Nome_Alaska_aerial_view.jpg/960px-Nome_Alaska_aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 636,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Nome_Alaska_aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Nome_Alaska_aerial_view.jpg/960px-Nome_Alaska_aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 636,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Nome_Alaska_aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Nome_Alaska_aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nome_Alaska_aerial_view.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=1805586",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2007-03-19 04:46:53",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Nome Alaska aerial view",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Nome, Alaska|Ports and harbors in Alaska|PD US Army USACE|Aerial photographs of Northern Alaska|Files with coordinates missing SDC location of creation|Bering Sea coasts of the United States|Aerial photographs of populated places in Alaska",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "64.50167",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-165.4194",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Aerial view of the harbor and jetty at Nome, Alaska.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "not specified",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "U.S. Army Corps of Engineers Digital Visual Library<br><a rel=\"nofollow\" class=\"external text\" href=\"http://images.usace.army.mil/images/Hires/4414-04.Jpg\">Image page</a><br><a rel=\"nofollow\" class=\"external text\" href=\"http://images.usace.army.mil/scripts/PortWeb.dll?query&amp;field=Image%20name&amp;opt=matches&amp;value=4414-04.Jpg&amp;template=Selected_Info&amp;catalog=photoDVL\">Image description page</a><br><a rel=\"nofollow\" class=\"external text\" href=\"http://images.usace.army.mil/\">Digital Visual Library home page</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "U.S. Army Corps of Engineers, photographer unknown",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<i>This image or file is a work of a <a href=\"//commons.wikimedia.org/wiki/US_Army_Corps_of_Engineers\" title=\"US Army Corps of Engineers\">U.S. Army Corps of Engineers</a> soldier or employee, taken or made as part of that person's official duties. As a <a href=\"https://en.wikipedia.org/wiki/Work_of_the_United_States_Government\" class=\"extiw\" title=\"en:Work of the United States Government\">work</a> of the <a href=\"https://en.wikipedia.org/wiki/Federal_Government_of_the_United_States\" class=\"extiw\" title=\"en:Federal Government of the United States\">U.S. federal government</a>, the image is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"w:public domain\">public domain</a></b>.</i>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "16031071": {
+        "pageid": 16031071,
+        "ns": 6,
+        "title": "File:Port-nome-1899.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 240017,
+            "width": 744,
+            "height": 599,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Port-nome-1899.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 960,
+            "thumbheight": 773,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Port-nome-1899.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 773
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Port-nome-1899.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Port-nome-1899.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=16031071",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2012-08-16 09:02:39",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Port-nome-1899",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US|Nome, Alaska|Gold rushes|Template Unknown (author)|PD-US missing SDC copyright status",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Port of Nome ca. 1899, steam boat",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1899-??-??",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "University Library of Washington",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Copyrights expired",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "27198992": {
+        "pageid": 27198992,
+        "ns": 6,
+        "title": "File:Russian tanker Renda, Nome, Alaska, Jan. 13, 2012.jpg",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 6399285,
+            "width": 4256,
+            "height": 2832,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Russian_tanker_Renda%2C_Nome%2C_Alaska%2C_Jan._13%2C_2012.jpg/960px-Russian_tanker_Renda%2C_Nome%2C_Alaska%2C_Jan._13%2C_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 639,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Russian_tanker_Renda%2C_Nome%2C_Alaska%2C_Jan._13%2C_2012.jpg/1920px-Russian_tanker_Renda%2C_Nome%2C_Alaska%2C_Jan._13%2C_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Russian_tanker_Renda%2C_Nome%2C_Alaska%2C_Jan._13%2C_2012.jpg/960px-Russian_tanker_Renda%2C_Nome%2C_Alaska%2C_Jan._13%2C_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 639,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Russian_tanker_Renda%2C_Nome%2C_Alaska%2C_Jan._13%2C_2012.jpg/1920px-Russian_tanker_Renda%2C_Nome%2C_Alaska%2C_Jan._13%2C_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Russian_tanker_Renda%2C_Nome%2C_Alaska%2C_Jan._13%2C_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Russian_tanker_Renda,_Nome,_Alaska,_Jan._13,_2012.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=27198992",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-07-11 16:05:43",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Russian tanker Renda, Nome, Alaska, Jan. 13, 2012",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "2012 in Alaska|Taken with Nikon D700|Renda (ship, 1984)|Files from external sources with reviewed licenses|PD US Coast Guard|Ships in Alaska|2012 in water transport|Ships on the Bering Sea",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The Russian tanker Renda transits toward the port of Nome, Alaska, Jan. 13, 2012. Renda was assisted by the U.S. Coast Guard cutter Healy (WAGB 20) since the vessels left Dutch Harbor, Alaska, to deliver fuel to the city of Nome, which was iced in by winter storms.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-01-13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.defenseimagery.mil/imagery.html;jsessionid=0A7B8972E6E848A894916CFCDE8191AB#guid=2b555ea6fba0afc111906c773483071ffaca31a2\">http://www.defenseimagery.mil/imagery.html;jsessionid=0A7B8972E6E848A894916CFCDE8191AB#guid=2b555ea6fba0afc111906c773483071ffaca31a2</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "U.S. Coast Guard photo by Petty Officer 2nd Class Charly Hengen",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "16068907": {
+        "pageid": 16068907,
+        "ns": 6,
+        "title": "File:Seward Peninsula coast between Nome and Port Clarence - P1040601.JPG",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1259316,
+            "width": 2048,
+            "height": 1536,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Seward_Peninsula_coast_between_Nome_and_Port_Clarence_-_P1040601.JPG/960px-Seward_Peninsula_coast_between_Nome_and_Port_Clarence_-_P1040601.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Seward_Peninsula_coast_between_Nome_and_Port_Clarence_-_P1040601.JPG/1920px-Seward_Peninsula_coast_between_Nome_and_Port_Clarence_-_P1040601.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Seward_Peninsula_coast_between_Nome_and_Port_Clarence_-_P1040601.JPG/960px-Seward_Peninsula_coast_between_Nome_and_Port_Clarence_-_P1040601.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Seward_Peninsula_coast_between_Nome_and_Port_Clarence_-_P1040601.JPG/1920px-Seward_Peninsula_coast_between_Nome_and_Port_Clarence_-_P1040601.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Seward_Peninsula_coast_between_Nome_and_Port_Clarence_-_P1040601.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Seward_Peninsula_coast_between_Nome_and_Port_Clarence_-_P1040601.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=16068907",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2011-08-12 02:23:58",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Seward Peninsula coast between Nome and Port Clarence - P1040601",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Coasts of Alaska|GFDL|Taken with Panasonic Lumix DMC-TZ6|Bering Sea|CC-BY-SA-3.0,2.5,2.0,1.0|Port Clarence, Alaska|License migration redundant|Seward Peninsula|Self-published work|Aerial photographs of Northern Alaska|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "64.966667",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-166.500000",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "An aerial photo of a the coastal area of Seward Peninsula coast between Nome and Port Clarence. Looking north-west.  Photo taken from an AA aircraft on a non-stop ORD-PVG flight",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-01-12",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Vmenkov\" title=\"User:Vmenkov\">User:Vmenkov</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "16068987": {
+        "pageid": 16068987,
+        "ns": 6,
+        "title": "File:Seward Peninsula coast between Nome and Port Clarence - P1040605.JPG",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1305893,
+            "width": 2048,
+            "height": 1536,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Seward_Peninsula_coast_between_Nome_and_Port_Clarence_-_P1040605.JPG/960px-Seward_Peninsula_coast_between_Nome_and_Port_Clarence_-_P1040605.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Seward_Peninsula_coast_between_Nome_and_Port_Clarence_-_P1040605.JPG/1920px-Seward_Peninsula_coast_between_Nome_and_Port_Clarence_-_P1040605.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Seward_Peninsula_coast_between_Nome_and_Port_Clarence_-_P1040605.JPG/960px-Seward_Peninsula_coast_between_Nome_and_Port_Clarence_-_P1040605.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Seward_Peninsula_coast_between_Nome_and_Port_Clarence_-_P1040605.JPG/1920px-Seward_Peninsula_coast_between_Nome_and_Port_Clarence_-_P1040605.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Seward_Peninsula_coast_between_Nome_and_Port_Clarence_-_P1040605.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Seward_Peninsula_coast_between_Nome_and_Port_Clarence_-_P1040605.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=16068987",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2011-08-12 02:41:45",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Seward Peninsula coast between Nome and Port Clarence - P1040605",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Coasts of Alaska|GFDL|Taken with Panasonic Lumix DMC-TZ6|Bering Sea|Sea ice|CC-BY-SA-3.0,2.5,2.0,1.0|Port Clarence, Alaska|License migration redundant|Seward Peninsula|Self-published work|Aerial photographs of Northern Alaska|Winter in Alaska",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "An aerial photo of a the coastal area of Seward Peninsula coast between Nome and Port Clarence. Looking north-west.  Photo taken from an AA aircraft on a non-stop ORD-PVG flight",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-01-12",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Vmenkov\" title=\"User:Vmenkov\">User:Vmenkov</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

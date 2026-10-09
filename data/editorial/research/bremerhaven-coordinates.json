@@ -1,0 +1,25 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "18933240": {
+        "pageid": 18933240,
+        "ns": 0,
+        "title": "Bremerhaven",
+        "coordinates": [
+          {
+            "lat": 53.55,
+            "lon": 8.58333333,
+            "primary": "",
+            "globe": "earth"
+          }
+        ],
+        "pageprops": {
+          "page_image_free": "Havenwelten_Überblick_Bremerhaven_2013.jpg",
+          "wikibase-shortdesc": "City in Bremen, Germany",
+          "wikibase_item": "Q2706"
+        }
+      }
+    }
+  }
+}

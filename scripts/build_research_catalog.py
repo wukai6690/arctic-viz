@@ -1,0 +1,79 @@
+"""Publish hand-curated project evidence, with claim-level primary sources."""
+import json
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+sources={
+ 'xuelong-delivery':('自然资源部门：雪龙2号交付','中国自然资源报 / 广西自然资源厅','2019-07-15','https://dnr.gxzf.gov.cn/xwzx/gnzx/t16076657.shtml'),
+ 'xuelong-design':('XUE LONG 2 · 项目参考资料','Railotech · 船舶设计档案',None,'https://railotech.fi/references/xue-long-2/'),
+ 'mosaic-departure':('Polarstern startet Richtung Arktis','Alfred Wegener Institute','2019-08-07','https://www.awi.de/ueber-uns/service/presse/presse-detailansicht/polarstern-startet-richtung-arktis.html'),
+ 'mosaic-overview':('MOSAiC Expedition','Alfred Wegener Institute',None,'https://www.awi.de/en/focus/mosaic-expedition.html'),
+ 'kinuvik':('Esrange Ground Station','SSC Space',None,'https://sscspace.com/services/satellite-ground-stations/our-stations/esrange-ground-station/'),
+ 'inuvik-opening':('Inauguration of Canada’s First Arctic Satellite Station','Natural Resources Canada','2010-08-10','https://www.canada.ca/en/news/archive/2010/08/inauguration-canada-first-arctic-satellite-station.html'),
+ 'awipev':('AWIPEV Arktis-Forschungsbasis','Alfred Wegener Institute',None,'https://www.awi.de/flotte-stationen/stationen/awipev-arktis-forschungsbasis.html'),
+ 'nya-host':('Host Institutions on-site','Ny-Ålesund Research Station',None,'https://nyalesundresearch.no/host-institutions-on-site/'),
+ 'yamal-cargo':('Yamal LNG project begins gas exports','Total（项目参与方）','2017-12-08','https://totalenergies.com/newsroom/yamal-lng-project-begins-gas-exports/?lang=eng'),
+ 'chars-opening':('Official opening of the CHARS campus','Polar Knowledge Canada','2019-08-21','https://www.canada.ca/en/polar-knowledge/news/2019/08/the-official-opening-of-the-canadian-high-arctic-research-station-chars-campus-in-cambridge-bay-nunavut-opens-a-new-chapter-in-canadas-polar-resear1.html'),
+ 'chars-campus':('Canadian High Arctic Research Station campus','Polar Knowledge Canada',None,'https://www.canada.ca/en/polar-knowledge/CHARScampus.html'),
+ 'asbm-launch':('Successful launch of ASBM satellites','Space Norway','2024-08-12','https://spacenorway.com/press-release/space-norway-confirms-the-successful-launch-of-asbm-satellites/'),
+ 'svalsat':('Svalbard Ground Station · 公开设施介绍','KSAT','2023-04-02','https://www.ksat.no/news/news-archive/2023/spectacular-drone-footage-from-svalsat-the-ksat-svalbard-ground-station/'),
+}
+
+def fact(text,source):return {'text':text,'source_id':source}
+def event(date,label,source,precision='day'):return {'date':date,'label':label,'source_id':source,'precision':precision}
+def edge(a,b,label,source):return {'from':a,'to':b,'label':label,'source_id':source}
+projects=[
+ dict(id='xuelong2',title='雪龙2号：跨国设计与国内建造',domain='冰区船舶',years='2012—2019',
+  question='一艘极地科考船，如何把不同机构的技术能力组合起来？',
+  summary='以雪龙2号的设计、建造和交付为例，查看极地科研能力背后的机构分工。',place_ids=['shanghai'],media_key='xuelong2',
+  facts=[fact('2019 年 7 月 11 日在上海交付。','xuelong-delivery'),fact('中国极地研究中心组织实施，Aker Arctic 承担基本设计，第七〇八研究所开展详细设计，江南造船负责建造。','xuelong-delivery'),fact('设计方项目档案列出 PC3 冰级，并将项目年份记录为 2012—2019。','xuelong-design')],
+  timeline=[event('2012','设计方档案中项目周期的起点','xuelong-design','year'),event('2019-07-11','雪龙2号交付','xuelong-delivery')],
+  relationships=[edge('Aker Arctic（芬兰）','雪龙2号','基本设计','xuelong-delivery'),edge('第七〇八研究所（中国）','雪龙2号','详细设计','xuelong-delivery'),edge('江南造船（中国）','雪龙2号','建造','xuelong-delivery'),edge('中国极地研究中心','雪龙2号','组织实施','xuelong-delivery')],
+  interpretation='这个案例提供了极地科研装备跨机构分工的直接材料，可用于研究国际技术合作如何进入国家科研能力建设。',
+  limits='交付与设计分工不能单独证明国家技术排名，也不足以推断合作对外交关系的净影响。',
+  china='可进一步收集关键部件、试验和长期运行资料，区分设计合作、制造能力与实际科考能力。'),
+ dict(id='mosaic',title='MOSAiC：破冰船与跨国科研协作',domain='冰区船舶',years='2019—2020',
+  question='科研船舶和后勤网络，如何支持跨越整个北极冬季的联合观测？',summary='通过 Polarstern 的母港、出发港与联合考察资料，认识科研能力所依赖的跨国协作。',place_ids=['bremerhaven','tromso'],media_place='bremerhaven',
+  facts=[fact('AWI 的出发公告将特罗姆瑟列为 MOSAiC 出发前的准备港。','mosaic-departure'),fact('MOSAiC 由 AWI 牵头，组织来自多个国家研究机构的全年北极观测。','mosaic-overview'),fact('考察于 2020 年 10 月 12 日在不来梅港结束。','mosaic-overview')],
+  timeline=[event('2019-08-07','AWI 公布准备与出发安排','mosaic-departure'),event('2019-09-20','公告列明的特罗姆瑟启航安排','mosaic-departure'),event('2020-10-12','考察返回不来梅港','mosaic-overview')],
+  relationships=[edge('AWI（德国）','MOSAiC','牵头组织','mosaic-overview'),edge('Polarstern 科研破冰船','MOSAiC','漂流观测平台','mosaic-overview'),edge('多国研究机构','MOSAiC','联合观测','mosaic-overview')],
+  interpretation='船舶平台、港口后勤与国际研究组织共同构成观测条件，适合分析技术基础设施与科研合作的联系。',limits='地图连线仅连接准备港与母港，不是航行轨迹。参与一次科研项目不能直接等同于国家间全面合作。',china='可以比较中国参与的极地联合观测项目，研究数据共享和后勤互补的实际范围。'),
+ dict(id='kinuvik',title='Kinuvik：跨大西洋的卫星接收协作',domain='卫星与通信',years='2010—资料检索日',
+  question='为什么极轨卫星需要分布在不同经度的高纬地面站？',summary='SSC 的公开资料将瑞典 Esrange 与加拿大 Inuvik 配合使用的方案称为 Kinuvik。',place_ids=['esrange','inuvik'],media_place='esrange',
+  facts=[fact('SSC 说明 Esrange 与 Inuvik 联合使用，可在一天内为极轨卫星各轨道提供联系机会。','kinuvik'),fact('加拿大政府 2010 年的启用公告记载了自然资源部、DLR 与 PrioraNet Canada 的合作。','inuvik-opening')],
+  timeline=[event('2010-08-10','伊努维克卫星站启用公告','inuvik-opening')],
+  relationships=[edge('Esrange 地面站（瑞典）','Kinuvik 方案','配对接收站','kinuvik'),edge('Inuvik 地面站（加拿大）','Kinuvik 方案','配对接收站','kinuvik'),edge('SSC Space','Kinuvik 方案','方案与服务说明','kinuvik')],
+  interpretation='高纬位置与经度差成为地面接收网络的条件，技术服务可以把两个国家的地点连接起来。',limits='Kinuvik 资料页未列出方案启用日期；2010 年仅为 Inuvik 设施启用。接收能力不等于实际业务量，连线也不代表实体海缆。',china='研究极地数据接收时，可以把站点几何条件、服务协议和数据访问规则分别记录。'),
+ dict(id='awipev',title='AWIPEV：共同运行的北极研究基地',domain='科研设施',years='2003—资料检索日',
+  question='共享一个研究基地，具体体现在哪些机构关系上？',summary='新奥尔松的 AWIPEV 为法德机构联合运行提供了明确的项目级材料。',place_ids=['nyalesund'],media_place='nyalesund',
+  facts=[fact('AWI 的基地介绍记载，2003 年德国 AWI 与法国 IPEV 将原有站点合并为 AWIPEV。','awipev'),fact('新奥尔松的官方资料列出当地科研机构与研究站的组织安排。','nya-host')],
+  timeline=[event('2003','AWI 与 IPEV 建立联合基地','awipev','year')],
+  relationships=[edge('AWI（德国）','AWIPEV 联合基地','共同运行','awipev'),edge('IPEV（法国）','AWIPEV 联合基地','共同运行','awipev')],
+  interpretation='联合基地提供了可核验的科研合作单位，比仅按两国新闻共现次数推定合作关系更具体。',limits='基地合作的存在不能证明所有研究数据均开放，也不能代表两国所有北极政策一致。图集同时展示当地其他机构，不把它们全部归入 AWIPEV。',china='可以对照中国参与的研究站合作，补充人员、仪器与成果层面的资料。'),
+ dict(id='yamal',title='亚马尔 LNG：港口、冰区运输与投资',domain='能源与运输',years='2017 年历史截面',
+  question='北极能源开发如何把港口、运输条件与跨国资本联系起来？',summary='以 2017 年首批天然气出口公告为固定历史截面，记录当时的项目关系。',place_ids=['sabetta'],media_place='sabetta',
+  facts=[fact('2017 年 12 月 8 日，项目参与方公告首批 LNG 准备从萨别塔出口。','yamal-cargo'),fact('该公告列明当时股东：Novatek、Total、CNPC 和丝路基金。','yamal-cargo')],
+  timeline=[event('2017-12-08','项目方发布首批 LNG 出口公告','yamal-cargo')],
+  relationships=[edge('Novatek（俄罗斯）','亚马尔 LNG · 2017','股东 50.1%','yamal-cargo'),edge('Total（法国）','亚马尔 LNG · 2017','股东 20%','yamal-cargo'),edge('CNPC（中国）','亚马尔 LNG · 2017','股东 20%','yamal-cargo'),edge('丝路基金（中国）','亚马尔 LNG · 2017','股东 9.9%','yamal-cargo')],
+  interpretation='项目公告提供了资本参与和地理节点的明确联系，可作为能源—运输—国际参与研究的历史案例。',limits='股权仅表示 2017 年公告时点，不作为当前股权、制裁状态或项目收益的判断。单个首运节点不能代表全年通航条件。',china='后续应沿统一时间线补充运输合同、经营资料与政策原文，再讨论投资和运输约束。'),
+ dict(id='chars',title='CHARS：科研设施与北极社区',domain='科研设施',years='2019—资料检索日',
+  question='科研站如何与所在社区的知识和服务体系发生联系？',summary='剑桥湾的 CHARS 将研究设施与北方社区放在同一个地点背景中。',place_ids=['cambridgebay'],media_place='cambridgebay',
+  facts=[fact('CHARS 校区于 2019 年 8 月 21 日正式开放，位于剑桥湾。','chars-opening'),fact('Polar Knowledge Canada 的校区介绍说明该机构运营 CHARS，并向研究人员提供设施和技术服务。','chars-campus')],
+  timeline=[event('2019-08-21','CHARS 校区正式开放','chars-opening')],
+  relationships=[edge('Polar Knowledge Canada','CHARS 科研站','运营','chars-campus'),edge('剑桥湾社区','CHARS 科研站','校区所在地','chars-opening')],
+  interpretation='设施建设还涉及社区环境与知识交流，适合在研究中补充国家尺度以外的主体。',limits='社区照片只是地理背景。官方开放公告表达的是建设目标，不能代替对社区影响的独立评估。',china='比较极地科研基地时，可增加社区参与、服务和资料共享维度。'),
+ dict(id='asbm',title='ASBM：面向高纬地区的通信卫星',domain='卫星与通信',years='2024 年发射节点',
+  question='一个通信项目如何同时涉及商业与政府需求？',summary='Space Norway 的发射公告记载了 ASBM 双星及不同使用方参与的项目结构。',place_ids=[],
+  facts=[fact('Space Norway 公告 ASBM 双星于挪威时间 2024 年 8 月 12 日发射，发射地点为美国范登堡基地。','asbm-launch'),fact('公告说明项目面向北极宽带，并包含商业及政府方面的合作。','asbm-launch')],
+  timeline=[event('2024-08-12','ASBM 双星发射公告（挪威当地日期）','asbm-launch')],
+  relationships=[edge('Space Norway','ASBM 双星','项目方','asbm-launch'),edge('SpaceX Falcon 9','ASBM 双星','发射服务','asbm-launch')],
+  interpretation='通信能力建设可以同时涉及公共与商业需求，项目级资料有助于明确这些主体的角色。',limits='这里仅核对发射节点，不据此宣布当前运行性能。轨道卫星没有被放置为北极地面站，也未与 SvalSat 混为一个项目。',china='可继续核对覆盖范围、服务交付和公开合作协议，研究通信能力与活动范围的关系。'),
+]
+for p in projects:
+    p['reviewed_at']='2026-10-09';p['review_status']='已对照发布方材料'
+    for i,e in enumerate(p['relationships']):e['id']=p['id']+'-r'+str(i+1)
+catalog={'version':'research-2026-10-09-v1','reviewed_at':'2026-10-09',
+ 'scope':'人工选取的项目案例，不是完整样本；证据支持具体事实，机制解释仍待系统检验。',
+ 'sources':[dict(id=k,title=v[0],publisher=v[1],published_at=v[2],url=v[3],accessed_at='2026-10-09') for k,v in sources.items()],
+ 'projects':projects}
+(ROOT/'data/reference/research.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2),encoding='utf-8')
+print(len(projects),'projects;',len(sources),'sources;',sum(len(p['relationships']) for p in projects),'documented relationships')

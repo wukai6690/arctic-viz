@@ -1,0 +1,25 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "362756": {
+        "pageid": 362756,
+        "ns": 0,
+        "title": "Churchill, Manitoba",
+        "coordinates": [
+          {
+            "lat": 58.78083333,
+            "lon": -94.18694444,
+            "primary": "",
+            "globe": "earth"
+          }
+        ],
+        "pageprops": {
+          "page_image_free": "Churchill,_Manitoba_(2010).jpg",
+          "wikibase-shortdesc": "Town in Manitoba, Canada",
+          "wikibase_item": "Q744553"
+        }
+      }
+    }
+  }
+}

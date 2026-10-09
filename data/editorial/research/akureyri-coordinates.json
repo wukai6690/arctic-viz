@@ -1,0 +1,25 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "101208": {
+        "pageid": 101208,
+        "ns": 0,
+        "title": "Akureyri",
+        "coordinates": [
+          {
+            "lat": 65.68333333,
+            "lon": -18.1,
+            "primary": "",
+            "globe": "earth"
+          }
+        ],
+        "pageprops": {
+          "page_image_free": "Akureyri_-_Skapti_Hallgrímsson.jpg",
+          "wikibase-shortdesc": "Town and Municipality in Northeastern Region, Iceland",
+          "wikibase_item": "Q29042"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,502 @@
+[
+  {
+    "id": "longyearbyen",
+    "name": "朗伊尔城",
+    "english": "Longyearbyen",
+    "region": "斯瓦尔巴",
+    "category": "城市与聚落",
+    "kind": "城市与聚落",
+    "description": "斯瓦尔巴的聚落与港口。图集将居住空间、港湾和科研船舶放在同一地点档案中。",
+    "reference_url": "https://www.ksat.no/news/news-archive/2023/spectacular-drone-footage-from-svalsat-the-ksat-svalbard-ground-station/",
+    "location_note": "地点中心示意位置；图片拍摄对象和日期见图注，不代表新闻事件的精确坐标。",
+    "files": [
+      [
+        "Longyearbyen-from-above-Hiorthfjellet.jpg",
+        "从 Hiorthfjellet 望向朗伊尔城"
+      ],
+      [
+        "RV Kronprins Haakon.jpg",
+        "朗伊尔城港内的 Kronprins Haakon 科研船"
+      ],
+      [
+        "Harbour of Longyearbyen.jpg",
+        "朗伊尔城港湾"
+      ]
+    ]
+  },
+  {
+    "id": "nyalesund",
+    "name": "新奥尔松",
+    "english": "Ny-Ålesund",
+    "region": "斯瓦尔巴",
+    "category": "科研观测",
+    "kind": "科研观测",
+    "description": "位于斯瓦尔巴的科研聚落，多国研究机构在这里开展观测。AWIPEV 专题说明其中的法德联合研究关系。",
+    "reference_url": "https://nyalesundresearch.no/",
+    "location_note": "地点中心示意位置；图片拍摄对象和日期见图注，不代表新闻事件的精确坐标。",
+    "files": [
+      [
+        "Ny-Aalesund IMG 6498 NDCS Observatory germany.JPG",
+        "德国观测设施外景 · 新奥尔松"
+      ],
+      [
+        "Chinese research station in Ny Alesund.jpg",
+        "新奥尔松中国科考站入口"
+      ],
+      [
+        "Ny-Alesund (js) 2.jpg",
+        "新奥尔松周边峡湾与雪地"
+      ]
+    ]
+  },
+  {
+    "id": "tromso",
+    "name": "特罗姆瑟",
+    "english": "Tromsø",
+    "region": "北欧",
+    "category": "港口与航道",
+    "kind": "港口与航道",
+    "description": "挪威北部港口城市。MOSAiC 考察在这里准备并启航，港口也是认识北极科研后勤的入口。",
+    "reference_url": "https://www.awi.de/ueber-uns/service/presse/presse-detailansicht/polarstern-startet-richtung-arktis.html",
+    "location_note": "地点中心示意位置；图片拍摄对象和日期见图注，不代表新闻事件的精确坐标。",
+    "files": [
+      [
+        "TROMSO HARBOUR NORWAY JUNE 2014 (15809914138).jpg",
+        "特罗姆瑟港湾 · 2014 年"
+      ],
+      [
+        "Vesterålen at Prostneset Tromsø 2022-09-08 04.jpg",
+        "停靠 Prostneset 的 Vesterålen 轮"
+      ],
+      [
+        "Tromsø 2013 06 05 2413 (10118521525).jpg",
+        "从山上俯瞰特罗姆瑟"
+      ]
+    ]
+  },
+  {
+    "id": "svalsat",
+    "name": "斯瓦尔巴卫星站",
+    "english": "SvalSat",
+    "region": "斯瓦尔巴",
+    "category": "空间设施",
+    "kind": "空间设施",
+    "description": "朗伊尔城附近的极轨卫星地面设施。地点档案展示公开的站区和天线照片，不表示卫星当前所在位置。",
+    "reference_url": "https://www.ksat.no/news/news-archive/2023/spectacular-drone-footage-from-svalsat-the-ksat-svalbard-ground-station/",
+    "location_note": "地点中心示意位置；图片拍摄对象和日期见图注，不代表新闻事件的精确坐标。",
+    "files": [
+      [
+        "Svalbard Satellite Station (Platåberget mountain).jpg",
+        "Platåberget 山上的 SvalSat 卫星站"
+      ],
+      [
+        "Svalbard Satellite Station 2015-03-23 03.jpg",
+        "雪地中的天线罩 · 2015 年"
+      ],
+      [
+        "Svalbard Satellite Station 2015-03-23 06.jpg",
+        "用于教学与访问展示的天线内部"
+      ]
+    ]
+  },
+  {
+    "id": "esrange",
+    "name": "埃斯兰航天中心",
+    "english": "Esrange Space Center",
+    "region": "北欧",
+    "category": "空间设施",
+    "kind": "空间设施",
+    "description": "基律纳附近的航天与地面接收设施。SSC 的 Kinuvik 方案把这里与加拿大伊努维克地面站配合使用。",
+    "reference_url": "https://sscspace.com/services/satellite-ground-stations/our-stations/esrange-ground-station/",
+    "location_note": "地点中心示意位置；图片拍摄对象和日期见图注，不代表新闻事件的精确坐标。",
+    "files": [
+      [
+        "Parabolantenner, Esrange Sverige.jpg",
+        "埃斯兰的抛物面天线"
+      ],
+      [
+        "The launch of the MAPHEUS-3 sounding rocket.jpg",
+        "MAPHEUS-3 探空火箭发射 · 2012 年"
+      ],
+      [
+        "Miljobilder fran Esrange, Sverige.jpg",
+        "埃斯兰设施内的安全装备"
+      ]
+    ]
+  },
+  {
+    "id": "murmansk",
+    "name": "摩尔曼斯克",
+    "english": "Murmansk",
+    "region": "俄罗斯北部",
+    "category": "港口与航道",
+    "kind": "港口与航道",
+    "description": "科拉湾沿岸的港口城市。照片记录港区、城区与海湾的空间关系，可与周边科拉半岛档案对照。",
+    "reference_url": "https://commons.wikimedia.org/wiki/Category:Port_of_Murmansk",
+    "location_note": "地点中心示意位置；图片拍摄对象和日期见图注，不代表新闻事件的精确坐标。",
+    "files": [
+      [
+        "Murmansk port 2022-05.jpg",
+        "摩尔曼斯克港 · 2022 年"
+      ],
+      [
+        "Panoramic view towards Murmansk Port from Vodoprovodny Lane, 2014.jpg",
+        "从城区望向港区 · 2014 年"
+      ],
+      [
+        "2022-09-16 - Murmansk Port panorama near the Lenin icebreaker.jpg",
+        "列宁号附近的港湾全景 · 2022 年"
+      ]
+    ]
+  },
+  {
+    "id": "sabetta",
+    "name": "萨别塔",
+    "english": "Sabetta",
+    "region": "俄罗斯北部",
+    "category": "港口与航道",
+    "kind": "港口与航道",
+    "description": "鄂毕湾沿岸的港口与后勤节点。亚马尔 LNG 项目的历史资料将港口、冰级船舶和跨国投资联系在一起。",
+    "reference_url": "https://totalenergies.com/newsroom/yamal-lng-project-begins-gas-exports/?lang=eng",
+    "location_note": "地点中心示意位置；图片拍摄对象和日期见图注，不代表新闻事件的精确坐标。",
+    "files": [
+      [
+        "Tor icebreaker (2225296).jpg",
+        "萨别塔冰封港区内的 Tor 破冰船"
+      ],
+      [
+        "Ship Valeri Vasiliev navigating through fast ice (2225219).jpg",
+        "Valeri Vasiliev 轮驶入萨别塔港"
+      ],
+      [
+        "Перрон аэропорт Сабетта.jpg",
+        "萨别塔机场停机坪"
+      ]
+    ]
+  },
+  {
+    "id": "tiksi",
+    "name": "季克西",
+    "english": "Tiksi",
+    "region": "俄罗斯北部",
+    "category": "港口与航道",
+    "kind": "港口与航道",
+    "description": "拉普捷夫海沿岸的聚落与港口节点。城市和气象站照片帮助认识东北航道沿岸的环境。",
+    "reference_url": "https://commons.wikimedia.org/wiki/Category:Tiksi",
+    "location_note": "地点中心示意位置；图片拍摄对象和日期见图注，不代表新闻事件的精确坐标。",
+    "files": [
+      [
+        "Tiksi.jpg",
+        "季克西聚落全景"
+      ],
+      [
+        "Russia, Yakutia, Tiksi 2015 - SS.jpg",
+        "季克西沿海冰情与山地 · 2015 年"
+      ],
+      [
+        "Tiksi Russia Weather Station.jpg",
+        "季克西附近的气象观测设施"
+      ]
+    ]
+  },
+  {
+    "id": "pevek",
+    "name": "佩韦克",
+    "english": "Pevek",
+    "region": "俄罗斯北部",
+    "category": "港口与航道",
+    "kind": "港口与航道",
+    "description": "楚科奇北岸的港口城市。此处展示公开港区与聚落实景，作为北极沿岸交通研究的地理背景。",
+    "reference_url": "https://commons.wikimedia.org/wiki/Category:Pevek",
+    "location_note": "地点中心示意位置；图片拍摄对象和日期见图注，不代表新闻事件的精确坐标。",
+    "files": [
+      [
+        "Причал порта Певек.jpg",
+        "佩韦克港码头"
+      ],
+      [
+        "View of Pevek from the south.jpg",
+        "从南侧望向佩韦克"
+      ],
+      [
+        "The-view-on-pevek-from-paakinay-knoll.jpg",
+        "从 Paakinay 山坡望向佩韦克"
+      ]
+    ]
+  },
+  {
+    "id": "reykjavik",
+    "name": "雷克雅未克",
+    "english": "Reykjavík",
+    "region": "冰岛",
+    "category": "港口与航道",
+    "kind": "港口与航道",
+    "description": "冰岛首都的港口节点。记录老港、工作船和城市海岸，提供北大西洋与北极相关活动的地域背景。",
+    "reference_url": "https://commons.wikimedia.org/wiki/Category:Port_of_Reykjav%C3%ADk",
+    "location_note": "地点中心示意位置；图片拍摄对象和日期见图注，不代表新闻事件的精确坐标。",
+    "files": [
+      [
+        "Reykjavík Old Harbor.jpg",
+        "雷克雅未克老港"
+      ],
+      [
+        "Old Harbour of Reykjavik (5897420133).jpg",
+        "老港码头与船舶"
+      ],
+      [
+        "2017-08-23 MAGNI – IMO 9339727, in Reykjavik, Iceland.jpg",
+        "雷克雅未克港内的 Magni 轮 · 2017 年"
+      ]
+    ]
+  },
+  {
+    "id": "akureyri",
+    "name": "阿克雷里",
+    "english": "Akureyri",
+    "region": "冰岛",
+    "category": "港口与航道",
+    "kind": "港口与航道",
+    "description": "冰岛北部峡湾中的港口城市。照片呈现港湾、城区和周围地形，作为北大西洋交通节点的补充。",
+    "reference_url": "https://commons.wikimedia.org/wiki/Category:Akureyri",
+    "location_note": "地点中心示意位置；图片拍摄对象和日期见图注，不代表新闻事件的精确坐标。",
+    "files": [
+      [
+        "Akureyri harbour 2016 02.jpg",
+        "阿克雷里港湾 · 2016 年"
+      ],
+      [
+        "The harbour in Akureyri (821389668).jpg",
+        "从岸边望向阿克雷里港"
+      ],
+      [
+        "Views of Akureyri, harbour.jpg",
+        "阿克雷里城区与港口"
+      ]
+    ]
+  },
+  {
+    "id": "cambridgebay",
+    "name": "剑桥湾",
+    "english": "Cambridge Bay · Iqaluktuuttiaq",
+    "region": "加拿大北部",
+    "category": "科研观测",
+    "kind": "科研观测",
+    "description": "加拿大努纳武特地区的社区，也是 CHARS 科研站所在地。照片为社区环境，不冒充科研站内部或研究现场。",
+    "reference_url": "https://www.canada.ca/en/polar-knowledge/CHARScampus.html",
+    "location_note": "地点中心示意位置；图片拍摄对象和日期见图注，不代表新闻事件的精确坐标。",
+    "files": [
+      [
+        "Cambridge Bay, Nunavut aerial view.jpg",
+        "剑桥湾聚落航拍"
+      ],
+      [
+        "Cambridge Bay, Nunavut (13431557144).jpg",
+        "剑桥湾街区与环境"
+      ],
+      [
+        "Sunset in Cambridge Bay, Nunavut (13431118765).jpg",
+        "剑桥湾日落"
+      ]
+    ]
+  },
+  {
+    "id": "inuvik",
+    "name": "伊努维克",
+    "english": "Inuvik",
+    "region": "加拿大北部",
+    "category": "城市与聚落",
+    "kind": "城市与聚落",
+    "description": "加拿大西北地区的社区，周边设有极轨卫星接收设施。此档案照片展示社区，技术专题另列地面站的原始资料。",
+    "reference_url": "https://natural-resources.canada.ca/science-data/science-research/research-centres/inuvik-satellite-station-facility",
+    "location_note": "地点中心示意位置；图片拍摄对象和日期见图注，不代表新闻事件的精确坐标。",
+    "files": [
+      [
+        "Fall Colors Over Inuvik 1.jpg",
+        "秋色中的伊努维克周边"
+      ],
+      [
+        "Inuvik town center.jpg",
+        "伊努维克城镇中心"
+      ],
+      [
+        "Late evening sun over downtown Inuvik, NT.jpg",
+        "晚间阳光下的伊努维克城区"
+      ]
+    ]
+  },
+  {
+    "id": "utqiagvik",
+    "name": "乌特恰维克",
+    "english": "Utqiaġvik · Barrow",
+    "region": "阿拉斯加",
+    "category": "城市与聚落",
+    "kind": "城市与聚落",
+    "description": "阿拉斯加北岸社区，旧名 Barrow。保留海岸与聚落实景，为北极居民生活及环境研究提供地点背景。",
+    "reference_url": "https://commons.wikimedia.org/wiki/Category:Utqiagvik,_Alaska",
+    "location_note": "地点中心示意位置；图片拍摄对象和日期见图注，不代表新闻事件的精确坐标。",
+    "files": [
+      [
+        "Barrow Alaska.jpg",
+        "乌特恰维克聚落"
+      ],
+      [
+        "Arctic Shore at Barrow Alaska.jpg",
+        "乌特恰维克北冰洋海岸"
+      ],
+      [
+        "Whalebone arch in Utqiagvik Alaska.png",
+        "乌特恰维克鲸骨拱门"
+      ]
+    ]
+  },
+  {
+    "id": "nome",
+    "name": "诺姆",
+    "english": "Nome",
+    "region": "阿拉斯加",
+    "category": "港口与航道",
+    "kind": "港口与航道",
+    "description": "阿拉斯加西部、白令海峡附近的港口节点。历史与近代照片分别标注日期，不代表现有港区工程已经完成。",
+    "reference_url": "https://www.nomealaska.org/1359/Port-of-Nome",
+    "location_note": "地点中心示意位置；图片拍摄对象和日期见图注，不代表新闻事件的精确坐标。",
+    "files": [
+      [
+        "Nome Alaska aerial view.jpg",
+        "诺姆港与防波堤航拍"
+      ],
+      [
+        "Russian tanker Renda, Nome, Alaska, Jan. 13, 2012.jpg",
+        "前往诺姆港的 Renda 油轮 · 2012 年"
+      ],
+      [
+        "Port-nome-1899.jpg",
+        "诺姆港历史照片 · 约 1899 年"
+      ]
+    ]
+  },
+  {
+    "id": "churchill",
+    "name": "丘吉尔",
+    "english": "Churchill",
+    "region": "加拿大北部",
+    "category": "港口与航道",
+    "kind": "港口与航道",
+    "description": "哈得孙湾沿岸的港口聚落。位置在北极圈以南，作为北方交通的外围节点纳入。",
+    "reference_url": "https://commons.wikimedia.org/wiki/Category:Churchill,_Manitoba",
+    "location_note": "地点中心示意位置；图片拍摄对象和日期见图注，不代表新闻事件的精确坐标。",
+    "files": [
+      [
+        "The Town of Churchill as seen from the port.jpg",
+        "从港口望向丘吉尔镇"
+      ],
+      [
+        "Churchill, Manitoba (2010).jpg",
+        "丘吉尔镇 · 2010 年"
+      ],
+      [
+        "Churchill River - Churchill, Manitoba (40584692474).jpg",
+        "丘吉尔河与岸线"
+      ]
+    ]
+  },
+  {
+    "id": "resolute",
+    "name": "雷索卢特",
+    "english": "Resolute · Qausuittuq",
+    "region": "加拿大北部",
+    "category": "城市与聚落",
+    "kind": "城市与聚落",
+    "description": "加拿大北极群岛中的社区。湾岸、机场周边与聚落实景为认识群岛交通环境提供背景。",
+    "reference_url": "https://commons.wikimedia.org/wiki/Category:Resolute,_Nunavut",
+    "location_note": "地点中心示意位置；图片拍摄对象和日期见图注，不代表新闻事件的精确坐标。",
+    "files": [
+      [
+        "Resolute Bay 1 1997-08-02.jpg",
+        "雷索卢特湾 · 1997 年"
+      ],
+      [
+        "Resolute Bay looking South.JPG",
+        "向南望向雷索卢特湾"
+      ],
+      [
+        "Community of Resolute.jpg",
+        "雷索卢特社区"
+      ]
+    ]
+  },
+  {
+    "id": "bremerhaven",
+    "name": "不来梅港",
+    "english": "Bremerhaven",
+    "region": "关联产业城市",
+    "category": "关联产业",
+    "kind": "关联产业",
+    "description": "德国北海沿岸港口，Polarstern 的母港。作为极地科研后勤关联城市显示，不属于北极圈内地点。",
+    "reference_url": "https://www.awi.de/en/focus/mosaic-expedition.html",
+    "location_note": "地点中心示意位置；图片拍摄对象和日期见图注，不代表新闻事件的精确坐标。",
+    "files": [
+      [
+        "Forschungseisbrecher Polarstern im Heimathafen Bremerhaven, Deutschland.jpg",
+        "母港内的 Polarstern 科研破冰船"
+      ],
+      [
+        "IMO 8013132 - Polarstern with tugboats.jpg",
+        "Polarstern 与拖船"
+      ],
+      [
+        "Polarstern Dock Lloyd-Werft.jpg",
+        "船坞中的 Polarstern"
+      ]
+    ]
+  },
+  {
+    "id": "helsinki",
+    "name": "赫尔辛基",
+    "english": "Helsinki",
+    "region": "关联产业城市",
+    "category": "关联产业",
+    "kind": "关联产业",
+    "description": "芬兰南部的海事产业城市。图集展示公开的破冰船泊位，用作冰区船舶专题的产业背景，不表示这些船参与了其他专题项目。",
+    "reference_url": "https://commons.wikimedia.org/wiki/Category:Icebreakers_in_Helsinki",
+    "location_note": "地点中心示意位置；图片拍摄对象和日期见图注，不代表新闻事件的精确坐标。",
+    "files": [
+      [
+        "Icebreakers at Katajanokka 20260822.jpg",
+        "Katajanokka 停泊的芬兰破冰船 · 2026 年"
+      ],
+      [
+        "Icebreakers docked in Katajanokka.jpg",
+        "从 Korkeasaari 望向破冰船泊位"
+      ],
+      [
+        "Finnish icebreakers Urho and Kontio.jpg",
+        "Urho 与 Kontio 破冰船"
+      ]
+    ]
+  },
+  {
+    "id": "shanghai",
+    "name": "上海 · 江南造船",
+    "english": "Shanghai · Jiangnan Shipyard",
+    "region": "关联产业城市",
+    "category": "关联产业",
+    "kind": "关联产业",
+    "description": "雪龙2号的建造关联城市。照片展示厂区和历史作业；地图使用城市级位置，船舶专题另列香港访问期间拍摄的雪龙2号照片。",
+    "reference_url": "https://dnr.gxzf.gov.cn/xwzx/gnzx/t16076657.shtml",
+    "location_note": "地点中心示意位置；图片拍摄对象和日期见图注，不代表新闻事件的精确坐标。",
+    "files": [
+      [
+        "JiangnanShipyardChangxingIsland.jpg",
+        "长兴岛江南造船厂全景"
+      ],
+      [
+        "202309 Jiangnan Shipyard in Changxing Island.jpg",
+        "长兴岛厂区航拍 · 2023 年"
+      ],
+      [
+        "1965-11 1965 江南造船厂 焊接.jpg",
+        "江南造船厂焊接作业历史照片 · 1965 年"
+      ]
+    ]
+  }
+]

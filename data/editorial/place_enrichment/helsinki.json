@@ -1,0 +1,1838 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 16,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "152984827": {
+        "pageid": 152984827,
+        "ns": 6,
+        "title": "File:Abandoned harbour rail tracks at the Market Square in Helsinki, Finland, 2024 April.jpg",
+        "index": 13,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 8349422,
+            "width": 4328,
+            "height": 2885,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Abandoned_harbour_rail_tracks_at_the_Market_Square_in_Helsinki%2C_Finland%2C_2024_April.jpg/960px-Abandoned_harbour_rail_tracks_at_the_Market_Square_in_Helsinki%2C_Finland%2C_2024_April.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 640,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Abandoned_harbour_rail_tracks_at_the_Market_Square_in_Helsinki%2C_Finland%2C_2024_April.jpg/1920px-Abandoned_harbour_rail_tracks_at_the_Market_Square_in_Helsinki%2C_Finland%2C_2024_April.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Abandoned_harbour_rail_tracks_at_the_Market_Square_in_Helsinki%2C_Finland%2C_2024_April.jpg/960px-Abandoned_harbour_rail_tracks_at_the_Market_Square_in_Helsinki%2C_Finland%2C_2024_April.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 640,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Abandoned_harbour_rail_tracks_at_the_Market_Square_in_Helsinki%2C_Finland%2C_2024_April.jpg/1920px-Abandoned_harbour_rail_tracks_at_the_Market_Square_in_Helsinki%2C_Finland%2C_2024_April.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Abandoned_harbour_rail_tracks_at_the_Market_Square_in_Helsinki%2C_Finland%2C_2024_April.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Abandoned_harbour_rail_tracks_at_the_Market_Square_in_Helsinki,_Finland,_2024_April.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=152984827",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-09-22 11:50:29",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Abandoned harbour rail tracks at the Market Square in Helsinki, Finland, 2024 April",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Market Square in Helsinki|Abandoned rail tracks in Finland|Sleeperless tracks|Files from the Helsinki City Museum|April 2024 in Helsinki|Remains of Helsinki harbour rail|Finland photographs taken on 2024-04-27|Photographs by Pekka Vyhtinen|Rail tracks in Helsinki",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nPekka Vyhtinen</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "Muisto satamaradasta Kauppatorilla: Etualalla Helsingin satamaradasta jäljellä olevia raiteita keskellä Kauppatorin ihmisvilinää. Rata oli 1890-luvulla rakennettu rautatie, joka alkujaan johti Helsingin rautatieasemalta kaupungin eteläisiä rantoja kiertäen Katajanokalle.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "27 April 2024",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://finna.fi/Record/hkm.063da831-c0eb-4523-80ea-e4229214ed94?sid=4804298831\">https://finna.fi/Record/hkm.063da831-c0eb-4523-80ea-e4229214ed94?sid=4804298831</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "CC BY 4.0 -merkinnällä varustetut kuvat ovat vapaasti ladattavissa ja käytettävissä, kunhan mainitset kuvaajan/tekijän nimen (jos tiedossa) ja Helsingin kaupunginmuseon. Kuvan käyttäjällä on vastuu tekijänoikeuksien ja yksityisyyden suojan kunnioittamisesta. Esimerkiksi henkilökuvien käyttö markkinoinnissa ja/tai mainonnassa on kielletty ilman kuvassa olevan henkilön suostumusta. Tarkemmat lisenssiehdot löytyvät Creative Commons -lisenssisivulta.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "118468772": {
+        "pageid": 118468772,
+        "ns": 6,
+        "title": "File:Celebrators observing the crowds at Kolera-allas in Kaartinkaupunki, Helsinki, Finland, 2022 May.jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 7184202,
+            "width": 3000,
+            "height": 2000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Celebrators_observing_the_crowds_at_Kolera-allas_in_Kaartinkaupunki%2C_Helsinki%2C_Finland%2C_2022_May.jpg/960px-Celebrators_observing_the_crowds_at_Kolera-allas_in_Kaartinkaupunki%2C_Helsinki%2C_Finland%2C_2022_May.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 640,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Celebrators_observing_the_crowds_at_Kolera-allas_in_Kaartinkaupunki%2C_Helsinki%2C_Finland%2C_2022_May.jpg/1920px-Celebrators_observing_the_crowds_at_Kolera-allas_in_Kaartinkaupunki%2C_Helsinki%2C_Finland%2C_2022_May.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Celebrators_observing_the_crowds_at_Kolera-allas_in_Kaartinkaupunki%2C_Helsinki%2C_Finland%2C_2022_May.jpg/960px-Celebrators_observing_the_crowds_at_Kolera-allas_in_Kaartinkaupunki%2C_Helsinki%2C_Finland%2C_2022_May.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 640,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Celebrators_observing_the_crowds_at_Kolera-allas_in_Kaartinkaupunki%2C_Helsinki%2C_Finland%2C_2022_May.jpg/1920px-Celebrators_observing_the_crowds_at_Kolera-allas_in_Kaartinkaupunki%2C_Helsinki%2C_Finland%2C_2022_May.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Celebrators_observing_the_crowds_at_Kolera-allas_in_Kaartinkaupunki%2C_Helsinki%2C_Finland%2C_2022_May.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Celebrators_observing_the_crowds_at_Kolera-allas_in_Kaartinkaupunki,_Helsinki,_Finland,_2022_May.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=118468772",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-05-30 13:21:28",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Celebrators observing the crowds at Kolera-allas in Kaartinkaupunki, Helsinki, Finland, 2022 May",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Uploaded with VicuñaUploader|Cholera Basin|Featured pictures on Wikipedia, Vietnamese|Finland photographs taken on 2022-05-30|Files with coordinates missing SDC location of creation|2022 IIHF World Championship gold medal celebrations in Helsinki|Events at Market Square in Helsinki|Helsinki by User:Ximonic",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "60.167378",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "24.954243",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Celebrators observing the crowds at Kolera-allas in Kaartinkaupunki, Helsinki, Finland in 2022 May. The Finnish men's national ice hockey team had just won gold in the 2022 IIHF World Championship. It was the first medal as the host country for the tournament for Finland.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-05-30",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Ximonic\" title=\"User:Ximonic\">Ximonic</a> (Simo Räsänen)",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Simo Räsänen",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "92695202": {
+        "pageid": 92695202,
+        "ns": 6,
+        "title": "File:Eteläsatama, Kolera-allas - N213093 - hkm.HKMS000005-000011mv.jpg",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3288227,
+            "width": 3748,
+            "height": 3891,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Etel%C3%A4satama%2C_Kolera-allas_-_N213093_-_hkm.HKMS000005-000011mv.jpg/960px-Etel%C3%A4satama%2C_Kolera-allas_-_N213093_-_hkm.HKMS000005-000011mv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 997,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Etel%C3%A4satama%2C_Kolera-allas_-_N213093_-_hkm.HKMS000005-000011mv.jpg/1920px-Etel%C3%A4satama%2C_Kolera-allas_-_N213093_-_hkm.HKMS000005-000011mv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Etel%C3%A4satama%2C_Kolera-allas_-_N213093_-_hkm.HKMS000005-000011mv.jpg/960px-Etel%C3%A4satama%2C_Kolera-allas_-_N213093_-_hkm.HKMS000005-000011mv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 997,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Etel%C3%A4satama%2C_Kolera-allas_-_N213093_-_hkm.HKMS000005-000011mv.jpg/1920px-Etel%C3%A4satama%2C_Kolera-allas_-_N213093_-_hkm.HKMS000005-000011mv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Etel%C3%A4satama%2C_Kolera-allas_-_N213093_-_hkm.HKMS000005-000011mv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Etel%C3%A4satama,_Kolera-allas_-_N213093_-_hkm.HKMS000005-000011mv.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=92695202",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-07-29 07:21:46",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Eteläsatama, Kolera-allas",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cholera Basin|1982 in Helsinki|Anas platyrhynchos in Finland|Files from the Helsinki City Museum|Files uploaded by FinnaUploadBot|Admin reviewed Finna images|Photographs by Volker von Bonin|Black and white photographs of South Harbour, Helsinki|Black and white photographs of Market Square in Helsinki",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42303830\" class=\"extiw\" title=\"d:Q42303830\"><span title=\"German–Finnish photographer (1924–2006)\">Volker von Bonin</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "Eteläsatama, Kolera-allas. Sorsia osittain jäätyneessä altaassa. Taustalla Pohjoisesplanadi 7, 5, 3, 1. -- negatiivi, filmi, mv",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "March 1982<div style=\"display: none;\">date QS:P571,+1982-03-00T00:00:00Z/10</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "Finna: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.finna.fi/Record/hkm.HKMS000005:000011mv\">hkm.HKMS000005:000011mv</a><br>Image record page in Finna: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.finna.fi/Record/hkm.A6CE57C4-2366-4A4B-BB5D-F54EF69CC408\">hkm.A6CE57C4-2366-4A4B-BB5D-F54EF69CC408</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by/4.0/deed.fi\">CC BY 4.0</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "127408027": {
+        "pageid": 127408027,
+        "ns": 6,
+        "title": "File:Ferry terminal South Harbour. Helsinki, Finland.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 9722562,
+            "width": 5790,
+            "height": 3525,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Ferry_terminal_South_Harbour._Helsinki%2C_Finland.jpg/960px-Ferry_terminal_South_Harbour._Helsinki%2C_Finland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 584,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Ferry_terminal_South_Harbour._Helsinki%2C_Finland.jpg/1920px-Ferry_terminal_South_Harbour._Helsinki%2C_Finland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Ferry_terminal_South_Harbour._Helsinki%2C_Finland.jpg/960px-Ferry_terminal_South_Harbour._Helsinki%2C_Finland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 584,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Ferry_terminal_South_Harbour._Helsinki%2C_Finland.jpg/1920px-Ferry_terminal_South_Harbour._Helsinki%2C_Finland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Ferry_terminal_South_Harbour._Helsinki%2C_Finland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ferry_terminal_South_Harbour._Helsinki,_Finland.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=127408027",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-01-05 11:25:32",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ferry terminal South Harbour. Helsinki, Finland",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Presidential Palace (Helsinki)|Market Square in Helsinki|Supreme Court of Finland|South Harbour, Helsinki|Allas Sea Pool|Self-published work|Summer 2019 in Finland|Files with coordinates missing SDC location of creation|Finland photographs taken on 2019-07-21|July 2019 in Helsinki|Photographs by Ввласенко/Volodymyr Vlasenko|Piers in Helsinki|Views of Helsinki from cruise ships|Remote views of Helsinki Cathedral|Helsinki Cathedral in 2019",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "60.165641",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "24.957067",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Ferry terminal South Harbour. Helsinki, Finland",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-07-21 14:56:41",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:%D0%92%D0%B2%D0%BB%D0%B0%D1%81%D0%B5%D0%BD%D0%BA%D0%BE\" class=\"mw-redirect\" title=\"User:Ввласенко\">Ввласенко</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "73602559": {
+        "pageid": 73602559,
+        "ns": 6,
+        "title": "File:Helsinki Market Square and the harbor.jpg",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4142688,
+            "width": 4000,
+            "height": 2000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Helsinki_Market_Square_and_the_harbor.jpg/960px-Helsinki_Market_Square_and_the_harbor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Helsinki_Market_Square_and_the_harbor.jpg/1920px-Helsinki_Market_Square_and_the_harbor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Helsinki_Market_Square_and_the_harbor.jpg/960px-Helsinki_Market_Square_and_the_harbor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Helsinki_Market_Square_and_the_harbor.jpg/1920px-Helsinki_Market_Square_and_the_harbor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Helsinki_Market_Square_and_the_harbor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Helsinki_Market_Square_and_the_harbor.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=73602559",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-10-14 12:23:55",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Helsinki Market Square and the harbor",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Market Square in Helsinki|South Harbour, Helsinki|Self-published work|Finland photographs taken on 2018-10-11|October 2018 in Helsinki",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Market Square and the harbor in Helsinki, Finland.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2018-10-11 14:21:18",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ruvie&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ruvie (page does not exist)\">Denis Koshelev</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "162651143": {
+        "pageid": 162651143,
+        "ns": 6,
+        "title": "File:Helsinki Market Square with Helsinki Harbour Rail remnants in March 2025.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 8100558,
+            "width": 4608,
+            "height": 3456,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Helsinki_Market_Square_with_Helsinki_Harbour_Rail_remnants_in_March_2025.jpg/960px-Helsinki_Market_Square_with_Helsinki_Harbour_Rail_remnants_in_March_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Helsinki_Market_Square_with_Helsinki_Harbour_Rail_remnants_in_March_2025.jpg/1920px-Helsinki_Market_Square_with_Helsinki_Harbour_Rail_remnants_in_March_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Helsinki_Market_Square_with_Helsinki_Harbour_Rail_remnants_in_March_2025.jpg/960px-Helsinki_Market_Square_with_Helsinki_Harbour_Rail_remnants_in_March_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Helsinki_Market_Square_with_Helsinki_Harbour_Rail_remnants_in_March_2025.jpg/1920px-Helsinki_Market_Square_with_Helsinki_Harbour_Rail_remnants_in_March_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Helsinki_Market_Square_with_Helsinki_Harbour_Rail_remnants_in_March_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Helsinki_Market_Square_with_Helsinki_Harbour_Rail_remnants_in_March_2025.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=162651143",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-03-22 23:46:27",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Helsinki Market Square with Helsinki Harbour Rail remnants in March 2025",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Taken with Olympus E-M1|Market Square in Helsinki|License migration redundant|Self-published work|Abandoned rail tracks in Finland|March 2025 in Helsinki|Remains of Helsinki harbour rail|Finland photographs taken on 2025-03-22",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "A view of the Helsinki Market Square in central, Helsinki, Finland with the only remaining remnants of the Helsinki Harbour Rail on an afternoon in March 2025.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-03-22",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:JIP&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:JIP (page does not exist)\">JIP</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "72842238": {
+        "pageid": 72842238,
+        "ns": 6,
+        "title": "File:Kolera-allas - Marit Henriksson.jpg",
+        "index": 15,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4917547,
+            "width": 3968,
+            "height": 2976,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Kolera-allas_-_Marit_Henriksson.jpg/960px-Kolera-allas_-_Marit_Henriksson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Kolera-allas_-_Marit_Henriksson.jpg/1920px-Kolera-allas_-_Marit_Henriksson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Kolera-allas_-_Marit_Henriksson.jpg/960px-Kolera-allas_-_Marit_Henriksson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Kolera-allas_-_Marit_Henriksson.jpg/1920px-Kolera-allas_-_Marit_Henriksson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Kolera-allas_-_Marit_Henriksson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kolera-allas_-_Marit_Henriksson.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=72842238",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-09-18 14:06:06",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kolera-allas - Marit Henriksson",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Eteläranta|Images from Wiki Loves Monuments 2018|Cholera Basin|Self-published work|Uploaded via Campaign:wlm-fi-rephotography-wikidata|Images from Wiki Loves Monuments 2018 in Finland|Finland photographs taken on 2018-09-14|September 2018 in Helsinki|Buildings in Kaartinkaupunki|Structures in Helsinki at night|Photographs by Marit Henriksson",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "60.167652",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "24.953335",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "This is a photo of a monument in Finland identified by the ID <a href=\"https://www.wikidata.org/wiki/Q3059225\" class=\"extiw\" title=\"d:Q3059225\">'South Harbour' (Q3059225)</a>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2018-09-14 20:36:34",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:MaaiHelsinki&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:MaaiHelsinki (page does not exist)\">Marit Henriksson</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "73224448": {
+        "pageid": 73224448,
+        "ns": 6,
+        "title": "File:Kolera-allas 2- Marit Henriksson.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 7151842,
+            "width": 4086,
+            "height": 3322,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Kolera-allas_2-_Marit_Henriksson.jpg/960px-Kolera-allas_2-_Marit_Henriksson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 780,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Kolera-allas_2-_Marit_Henriksson.jpg/1920px-Kolera-allas_2-_Marit_Henriksson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Kolera-allas_2-_Marit_Henriksson.jpg/960px-Kolera-allas_2-_Marit_Henriksson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 780,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Kolera-allas_2-_Marit_Henriksson.jpg/1920px-Kolera-allas_2-_Marit_Henriksson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Kolera-allas_2-_Marit_Henriksson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kolera-allas_2-_Marit_Henriksson.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=73224448",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-09-30 08:06:06",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kolera-allas 2- Marit Henriksson",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from Wiki Loves Monuments 2018|Cholera Basin|Self-published work|Uploaded via Campaign:wlm-fi-rephotography-wikidata|Images from Wiki Loves Monuments 2018 in Finland|Finland photographs taken on 2018-09-29|September 2018 in Helsinki|Photographs by Marit Henriksson",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "60.167222",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "24.952917",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "This is a photo of a monument in Finland identified by the ID <a href=\"https://www.wikidata.org/wiki/Q3059225\" class=\"extiw\" title=\"d:Q3059225\">'South Harbour' (Q3059225)</a>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2018-09-29 13:34:26",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Marit_Henriksson&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Marit Henriksson (page does not exist)\">Marit Henriksson</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "73036221": {
+        "pageid": 73036221,
+        "ns": 6,
+        "title": "File:Kolera-allas ja laiva 2016.jpg",
+        "index": 16,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1414960,
+            "width": 3024,
+            "height": 3024,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Kolera-allas_ja_laiva_2016.jpg/960px-Kolera-allas_ja_laiva_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 960,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Kolera-allas_ja_laiva_2016.jpg/1920px-Kolera-allas_ja_laiva_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Kolera-allas_ja_laiva_2016.jpg/960px-Kolera-allas_ja_laiva_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 960,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Kolera-allas_ja_laiva_2016.jpg/1920px-Kolera-allas_ja_laiva_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Kolera-allas_ja_laiva_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kolera-allas_ja_laiva_2016.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=73036221",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-09-25 08:09:49",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kolera-allas ja laiva 2016",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from Wiki Loves Monuments 2018|Cholera Basin|Self-published work|Finland photographs taken on 2016-11-11|Uploaded via Campaign:wlm-fi-rephotography-wikidata|Images from Wiki Loves Monuments 2018 in Finland",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "60.166878",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "24.952561",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "This is a photo of a monument in Finland identified by the ID <a href=\"https://www.wikidata.org/wiki/Q3059225\" class=\"extiw\" title=\"d:Q3059225\">'South Harbour' (Q3059225)</a>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-11-11 08:00:25",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Eteil&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Eteil (page does not exist)\">Eteil</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "152380169": {
+        "pageid": 152380169,
+        "ns": 6,
+        "title": "File:Kolera-allas jäässä - Marit Henriksson.jpg",
+        "index": 14,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3323029,
+            "width": 2871,
+            "height": 2871,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Kolera-allas_j%C3%A4%C3%A4ss%C3%A4_-_Marit_Henriksson.jpg/960px-Kolera-allas_j%C3%A4%C3%A4ss%C3%A4_-_Marit_Henriksson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 960,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Kolera-allas_j%C3%A4%C3%A4ss%C3%A4_-_Marit_Henriksson.jpg/1920px-Kolera-allas_j%C3%A4%C3%A4ss%C3%A4_-_Marit_Henriksson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Kolera-allas_j%C3%A4%C3%A4ss%C3%A4_-_Marit_Henriksson.jpg/960px-Kolera-allas_j%C3%A4%C3%A4ss%C3%A4_-_Marit_Henriksson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 960,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Kolera-allas_j%C3%A4%C3%A4ss%C3%A4_-_Marit_Henriksson.jpg/1920px-Kolera-allas_j%C3%A4%C3%A4ss%C3%A4_-_Marit_Henriksson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Kolera-allas_j%C3%A4%C3%A4ss%C3%A4_-_Marit_Henriksson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kolera-allas_j%C3%A4%C3%A4ss%C3%A4_-_Marit_Henriksson.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=152380169",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-09-08 14:50:22",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kolera-allas jäässä - Marit Henriksson",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Helsinki City Hall|Cholera Basin|Self-published work|January 2023 in Helsinki|Cultural heritage monuments in Finland with known IDs|Images from Wiki Loves Monuments 2024|Files with coordinates missing SDC location of creation|Uploaded via Campaign:wlm-fi-rephotography-wikidata|Finland photographs taken on 2023-01-01|Images from Wiki Loves Monuments missing SDC location of creation|Cultural heritage monuments in Finland (rephotography)|Images from Wiki Loves Monuments 2024 in Finland|Photographs by Marit Henriksson",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "60.167222",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "24.952917",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "This is a rephotograph of a monument in Finland.<br> Original photo is: <a rel=\"nofollow\" class=\"external free\" href=\"https://hkm.finna.fi/Record/hkm.3A0D006A-A34F-4F6A-AA30-02AFD8472879\">https://hkm.finna.fi/Record/hkm.3A0D006A-A34F-4F6A-AA30-02AFD8472879</a>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-01-01 16:00:41",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Marit_Henriksson&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Marit Henriksson (page does not exist)\">Marit Henriksson</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "82296649": {
+        "pageid": 82296649,
+        "ns": 6,
+        "title": "File:Kolera-allas syyskuussa - Marit Henriksson.jpg",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4017353,
+            "width": 3488,
+            "height": 2740,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Kolera-allas_syyskuussa_-_Marit_Henriksson.jpg/960px-Kolera-allas_syyskuussa_-_Marit_Henriksson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 754,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Kolera-allas_syyskuussa_-_Marit_Henriksson.jpg/1920px-Kolera-allas_syyskuussa_-_Marit_Henriksson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Kolera-allas_syyskuussa_-_Marit_Henriksson.jpg/960px-Kolera-allas_syyskuussa_-_Marit_Henriksson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 754,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Kolera-allas_syyskuussa_-_Marit_Henriksson.jpg/1920px-Kolera-allas_syyskuussa_-_Marit_Henriksson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Kolera-allas_syyskuussa_-_Marit_Henriksson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kolera-allas_syyskuussa_-_Marit_Henriksson.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=82296649",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-09-18 15:16:40",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kolera-allas syyskuussa - Marit Henriksson",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from Wiki Loves Monuments 2019|Cholera Basin|Self-published work|Cultural heritage monuments in Finland with known IDs|Uploaded via Campaign:wlm-fi-rephotography-wikidata|Images from Wiki Loves Monuments 2019 in Finland|Finland photographs taken on 2019-09-18|Cultural heritage monuments in Finland (rephotography)|September 2019 in Helsinki|Photographs by Marit Henriksson",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "60.167220",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "24.952920",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "This is a rephotograph of a monument in Finland.<br> Original photo is: <a rel=\"nofollow\" class=\"external free\" href=\"https://finna.fi/Record/hkm.HKMS000005:000000bl\">https://finna.fi/Record/hkm.HKMS000005:000000bl</a>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-09-18 13:15:14",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Marit_Henriksson&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Marit Henriksson (page does not exist)\">Marit Henriksson</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "150358754": {
+        "pageid": 150358754,
+        "ns": 6,
+        "title": "File:Market Square by the South Harbour in Helsinki, Finland, 1969 – 01.tif",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 27962432,
+            "width": 3543,
+            "height": 2628,
+            "pagecount": 1,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_01.tif/lossy-page1-960px-Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_01.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 712,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_01.tif/lossy-page1-1920px-Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_01.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_01.tif/lossy-page1-960px-Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_01.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 712,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_01.tif/lossy-page1-1920px-Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_01.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_01.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Market_Square_by_the_South_Harbour_in_Helsinki,_Finland,_1969_%E2%80%93_01.tif",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=150358754",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-07-15 13:45:06",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Market Square by the South Harbour in Helsinki, Finland, 1969 – 01",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Market Square in Helsinki|Helsinki harbour rail|1969 in Helsinki|1969 aerial photographs|Files from the Helsinki City Museum|Aerial photographs of Helsinki|Photographs by SKY-FOTO Möller|Aerial photographs of South Harbour, Helsinki",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nSKY-FOTO Möller</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "Eteläsatama, Eteläranta ja Kauppatori.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1969<div style=\"display: none;\">date QS:P571,+1969-00-00T00:00:00Z/9</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://finna.fi/Record/hkm.347489DB-E88D-4C38-AA91-4C6178D413F5?sid=4751265104\">Eteläsatama,Eteläranta ja Kauppatori</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Ei tiedossa olevia tekijänoikeusrajoituksia. Kuvia saa käyttää vapaasti. Pyydämme, että käytön yhteydessä mainitaan valokuvaaja ja kuva-arkisto (valokuvaajan nimi ja Helsingin kaupunginmuseo). Kuvan käyttäjällä on vastuu tekijänoikeuksien ja yksityisyyden suojan kunnioittamisesta. Esimerkiksi henkilökuvien käyttö markkinoinnissa ja/tai mainonnassa on kielletty ilman kuvassa olevan henkilön suostumusta.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "150358905": {
+        "pageid": 150358905,
+        "ns": 6,
+        "title": "File:Market Square by the South Harbour in Helsinki, Finland, 1969 – 03.tif",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 27820876,
+            "width": 3543,
+            "height": 2615,
+            "pagecount": 1,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_03.tif/lossy-page1-960px-Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_03.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 709,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_03.tif/lossy-page1-1920px-Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_03.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_03.tif/lossy-page1-960px-Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_03.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 709,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_03.tif/lossy-page1-1920px-Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_03.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_03.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Market_Square_by_the_South_Harbour_in_Helsinki,_Finland,_1969_%E2%80%93_03.tif",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=150358905",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-07-15 13:50:34",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Market Square by the South Harbour in Helsinki, Finland, 1969 – 03",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images with annotations|Market Square in Helsinki|Watercraft in motion|1969 in Helsinki|1969 aerial photographs|Files from the Helsinki City Museum|Ships in Helsinki|Photographs by SKY-FOTO Möller|Aerial photographs of South Harbour, Helsinki",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nSKY-FOTO Möller</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "Kauppatori, Linnanlaituri. Taustalla presidentinlinna, Pohjoisesplanadi 1-3.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1969<div style=\"display: none;\">date QS:P571,+1969-00-00T00:00:00Z/9</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://finna.fi/Record/hkm.9854CF08-1872-42AB-8BDE-43F92CEF9405?sid=4751265104\">Kauppatori, Linnanlaituri</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Ei tiedossa olevia tekijänoikeusrajoituksia. Kuvia saa käyttää vapaasti. Pyydämme, että käytön yhteydessä mainitaan valokuvaaja ja kuva-arkisto (valokuvaajan nimi ja Helsingin kaupunginmuseo). Kuvan käyttäjällä on vastuu tekijänoikeuksien ja yksityisyyden suojan kunnioittamisesta. Esimerkiksi henkilökuvien käyttö markkinoinnissa ja/tai mainonnassa on kielletty ilman kuvassa olevan henkilön suostumusta.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "150358906": {
+        "pageid": 150358906,
+        "ns": 6,
+        "title": "File:Market Square by the South Harbour in Helsinki, Finland, 1969 – 04.tif",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 27749972,
+            "width": 3543,
+            "height": 2608,
+            "pagecount": 1,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_04.tif/lossy-page1-960px-Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_04.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 707,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_04.tif/lossy-page1-1920px-Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_04.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_04.tif/lossy-page1-960px-Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_04.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 707,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_04.tif/lossy-page1-1920px-Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_04.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1969_%E2%80%93_04.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Market_Square_by_the_South_Harbour_in_Helsinki,_Finland,_1969_%E2%80%93_04.tif",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=150358906",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-07-15 13:50:34",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Market Square by the South Harbour in Helsinki, Finland, 1969 – 04",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Market Square in Helsinki|Cholera Basin|Helsinki harbour rail|1969 in Helsinki|1969 aerial photographs|Files from the Helsinki City Museum|Photographs by SKY-FOTO Möller|Aerial photographs of South Harbour, Helsinki|Parked automobiles in Helsinki",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nSKY-FOTO Möller</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "Kauppatori, Kolera-allas.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1969<div style=\"display: none;\">date QS:P571,+1969-00-00T00:00:00Z/9</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://finna.fi/Record/hkm.9C6AF368-63CE-467E-9F9D-2995B3F5F250?sid=4751265104\">Kauppatori, Kolera-allas</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Ei tiedossa olevia tekijänoikeusrajoituksia. Kuvia saa käyttää vapaasti. Pyydämme, että käytön yhteydessä mainitaan valokuvaaja ja kuva-arkisto (valokuvaajan nimi ja Helsingin kaupunginmuseo). Kuvan käyttäjällä on vastuu tekijänoikeuksien ja yksityisyyden suojan kunnioittamisesta. Esimerkiksi henkilökuvien käyttö markkinoinnissa ja/tai mainonnassa on kielletty ilman kuvassa olevan henkilön suostumusta.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "150358904": {
+        "pageid": 150358904,
+        "ns": 6,
+        "title": "File:Market Square by the South Harbour in Helsinki, Finland, 1973 – 02.tiff",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 26877124,
+            "width": 3543,
+            "height": 2526,
+            "pagecount": 1,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1973_%E2%80%93_02.tiff/lossy-page1-960px-Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1973_%E2%80%93_02.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 684,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1973_%E2%80%93_02.tiff/lossy-page1-1920px-Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1973_%E2%80%93_02.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1973_%E2%80%93_02.tiff/lossy-page1-960px-Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1973_%E2%80%93_02.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 684,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1973_%E2%80%93_02.tiff/lossy-page1-1920px-Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1973_%E2%80%93_02.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1973_%E2%80%93_02.tiff?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Market_Square_by_the_South_Harbour_in_Helsinki,_Finland,_1973_%E2%80%93_02.tiff",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=150358904",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-07-15 13:50:33",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Market Square by the South Harbour in Helsinki, Finland, 1973 – 02",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images with annotations|Market Square in Helsinki|Helsinki harbour rail|1973 in Helsinki|1973 aerial photographs|Files from the Helsinki City Museum|Aerial photographs of Helsinki|Photographs by SKY-FOTO Möller|Aerial photographs of South Harbour, Helsinki",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nSKY-FOTO Möller</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "Kaartinkaupunki, Eteläranta ja Kauppatori",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1973<div style=\"display: none;\">date QS:P571,+1973-00-00T00:00:00Z/9</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://finna.fi/Record/hkm.DDAF7930-F03C-487D-8015-61B4E626DFD5?sid=4751264948\">https://finna.fi/Record/hkm.DDAF7930-F03C-487D-8015-61B4E626DFD5?sid=4751264948</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Ei tiedossa olevia tekijänoikeusrajoituksia. Kuvia saa käyttää vapaasti. Pyydämme, että käytön yhteydessä mainitaan valokuvaaja ja kuva-arkisto (valokuvaajan nimi ja Helsingin kaupunginmuseo). Kuvan käyttäjällä on vastuu tekijänoikeuksien ja yksityisyyden suojan kunnioittamisesta. Esimerkiksi henkilökuvien käyttö markkinoinnissa ja/tai mainonnassa on kielletty ilman kuvassa olevan henkilön suostumusta.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "150359224": {
+        "pageid": 150359224,
+        "ns": 6,
+        "title": "File:Market Square by the South Harbour in Helsinki, Finland, 1976.tif",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 6440662,
+            "width": 1662,
+            "height": 1291,
+            "pagecount": 1,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1976.tif/lossy-page1-960px-Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1976.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 746,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1976.tif/lossy-page1-1280px-Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1976.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1976.tif/lossy-page1-960px-Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1976.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 746,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1976.tif/lossy-page1-1280px-Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1976.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Market_Square_by_the_South_Harbour_in_Helsinki%2C_Finland%2C_1976.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Market_Square_by_the_South_Harbour_in_Helsinki,_Finland,_1976.tif",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=150359224",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-07-15 14:01:35",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Market Square by the South Harbour in Helsinki, Finland, 1976",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Bridges in Helsinki|Images with annotations|Market Square in Helsinki|Pohjoisesplanadi|Cholera Basin|Helsinki harbour rail|Swing bridges in Finland|1976 in Helsinki|1976 aerial photographs|Photographs by SKY-FOTO Möller|Ships in the Port of Helsinki|Aerial photographs of South Harbour, Helsinki",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Kauppatori ja Pohjoisesplanadia. Kolera-allas ja Keisariluodonlaituri.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1976",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://finna.fi/Record/hkm.E7B7232F-485F-4905-9EA7-02B47C33E9A6?sid=4751235596\">https://finna.fi/Record/hkm.E7B7232F-485F-4905-9EA7-02B47C33E9A6?sid=4751235596</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "SKY-FOTO Möller",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

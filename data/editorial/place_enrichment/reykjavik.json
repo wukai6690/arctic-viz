@@ -1,0 +1,1816 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 16,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "61819411": {
+        "pageid": 61819411,
+        "ns": 6,
+        "title": "File:201708 Reykjavík c13.jpg",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 7306844,
+            "width": 4000,
+            "height": 3000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/201708_Reykjav%C3%ADk_c13.jpg/960px-201708_Reykjav%C3%ADk_c13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/201708_Reykjav%C3%ADk_c13.jpg/1920px-201708_Reykjav%C3%ADk_c13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/201708_Reykjav%C3%ADk_c13.jpg/960px-201708_Reykjav%C3%ADk_c13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/201708_Reykjav%C3%ADk_c13.jpg/1920px-201708_Reykjav%C3%ADk_c13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/201708_Reykjav%C3%ADk_c13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:201708_Reykjav%C3%ADk_c13.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=61819411",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-08-20 20:29:03",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "201708 Reykjavík c13",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Souvenirs of Iceland|Photographs of flags of Iceland in Reykjavík|Commerce in Reykjavík",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Reykjavík",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-08-02 05:49:00",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Ziko\" title=\"User:Ziko\">Ziko van Dijk</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "61819528": {
+        "pageid": 61819528,
+        "ns": 6,
+        "title": "File:201708 Reykjavík d02.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 7921700,
+            "width": 4000,
+            "height": 3000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/201708_Reykjav%C3%ADk_d02.jpg/960px-201708_Reykjav%C3%ADk_d02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/201708_Reykjav%C3%ADk_d02.jpg/1920px-201708_Reykjav%C3%ADk_d02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/201708_Reykjav%C3%ADk_d02.jpg/960px-201708_Reykjav%C3%ADk_d02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/201708_Reykjav%C3%ADk_d02.jpg/1920px-201708_Reykjav%C3%ADk_d02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/201708_Reykjav%C3%ADk_d02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:201708_Reykjav%C3%ADk_d02.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=61819528",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-08-20 20:33:36",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "201708 Reykjavík d02",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Commerce in Reykjavík",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Reykjavík",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-08-02 10:39:03",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Ziko\" title=\"User:Ziko\">Ziko van Dijk</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "179501850": {
+        "pageid": 179501850,
+        "ns": 6,
+        "title": "File:Islanda- Reykjavík- laghetto Tjörnin.jpg",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2690889,
+            "width": 3264,
+            "height": 2448,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Islanda-_Reykjav%C3%ADk-_laghetto_Tj%C3%B6rnin.jpg/960px-Islanda-_Reykjav%C3%ADk-_laghetto_Tj%C3%B6rnin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Islanda-_Reykjav%C3%ADk-_laghetto_Tj%C3%B6rnin.jpg/1920px-Islanda-_Reykjav%C3%ADk-_laghetto_Tj%C3%B6rnin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Islanda-_Reykjav%C3%ADk-_laghetto_Tj%C3%B6rnin.jpg/960px-Islanda-_Reykjav%C3%ADk-_laghetto_Tj%C3%B6rnin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Islanda-_Reykjav%C3%ADk-_laghetto_Tj%C3%B6rnin.jpg/1920px-Islanda-_Reykjav%C3%ADk-_laghetto_Tj%C3%B6rnin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Islanda-_Reykjav%C3%ADk-_laghetto_Tj%C3%B6rnin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Islanda-_Reykjav%C3%ADk-_laghetto_Tj%C3%B6rnin.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179501850",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-12-06 13:55:59",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Islanda- Reykjavík- laghetto Tjörnin",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Tjörnin|Self-published work|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "64.142900",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-21.941700",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Tjörnin is a small lake in the city centre, next to the Reykjavik City Hall",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-08-01 22:23:22",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Mario_Falcetti\" title=\"User:Mario Falcetti\">Mario Falcetti</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "93703293": {
+        "pageid": 93703293,
+        "ns": 6,
+        "title": "File:On the lake Tjörnin in Reykjavík (47627229891).jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 12572304,
+            "width": 7000,
+            "height": 4326,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/On_the_lake_Tj%C3%B6rnin_in_Reykjav%C3%ADk_%2847627229891%29.jpg/960px-On_the_lake_Tj%C3%B6rnin_in_Reykjav%C3%ADk_%2847627229891%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 593,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/On_the_lake_Tj%C3%B6rnin_in_Reykjav%C3%ADk_%2847627229891%29.jpg/1920px-On_the_lake_Tj%C3%B6rnin_in_Reykjav%C3%ADk_%2847627229891%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/On_the_lake_Tj%C3%B6rnin_in_Reykjav%C3%ADk_%2847627229891%29.jpg/960px-On_the_lake_Tj%C3%B6rnin_in_Reykjav%C3%ADk_%2847627229891%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 593,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/On_the_lake_Tj%C3%B6rnin_in_Reykjav%C3%ADk_%2847627229891%29.jpg/1920px-On_the_lake_Tj%C3%B6rnin_in_Reykjav%C3%ADk_%2847627229891%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/On_the_lake_Tj%C3%B6rnin_in_Reykjav%C3%ADk_%2847627229891%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:On_the_lake_Tj%C3%B6rnin_in_Reykjav%C3%ADk_(47627229891).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=93703293",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-08-31 09:41:16",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "On the lake Tjörnin in Reykjavík (47627229891)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Tjörnin|Reykjavík Town Hall|Images with annotations|Fog in Iceland|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Iceland photographs taken on 2018-08-21|Photographs by Bernd Thaller",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "64.145283",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-21.939575",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "This is a school building (elementary school Tjarnarskóli) located on the Lake Tjörnin (also called Reykjavíkurtjörn) in Reykjavík. Here is also the city's modern town hall (pictured far left in the fog) and the neoclassical wooden house Iðnó (in the middle of the picture), dating back to the year 1896. It was built by the craftsmen's association as a theater, meeting place, concert hall and dance hall, today it also contains a restaurant.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 21 August 2018, 10:43:21 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/bernd_thaller/47627229891/\">On the lake Tjörnin in Reykjavík</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44296132@N06\">Bernd Thaller</a> from Graz, Austria",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "98867397": {
+        "pageid": 98867397,
+        "ns": 6,
+        "title": "File:Reykjavík 5545 (cropped).JPG",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2202230,
+            "width": 3888,
+            "height": 1936,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Reykjav%C3%ADk_5545_%28cropped%29.JPG/960px-Reykjav%C3%ADk_5545_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 478,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Reykjav%C3%ADk_5545_%28cropped%29.JPG/1920px-Reykjav%C3%ADk_5545_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Reykjav%C3%ADk_5545_%28cropped%29.JPG/960px-Reykjav%C3%ADk_5545_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 478,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Reykjav%C3%ADk_5545_%28cropped%29.JPG/1920px-Reykjav%C3%ADk_5545_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Reykjav%C3%ADk_5545_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Reykjav%C3%ADk_5545_(cropped).JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=98867397",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-01-14 21:34:31",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Reykjavík 5545 (cropped)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Akrafjall|Landspítali|Self-published work|Extracted images|2010 in Reykjavík|Road crossings in Iceland|Bústaðavegur|Views of Hallgrímskirkja from Perlan|Remote views of Akranes",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Reykjavík",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2010-06-18",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Hedwig_Storch\" title=\"User:Hedwig Storch\">Hedwig Storch</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "28230064": {
+        "pageid": 28230064,
+        "ns": 6,
+        "title": "File:Reykjavík Old Harbor.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 14124523,
+            "width": 17798,
+            "height": 4000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Reykjav%C3%ADk_Old_Harbor.jpg/960px-Reykjav%C3%ADk_Old_Harbor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 216,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Reykjav%C3%ADk_Old_Harbor.jpg/1920px-Reykjav%C3%ADk_Old_Harbor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Reykjav%C3%ADk_Old_Harbor.jpg/960px-Reykjav%C3%ADk_Old_Harbor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 216,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Reykjav%C3%ADk_Old_Harbor.jpg/1920px-Reykjav%C3%ADk_Old_Harbor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Reykjav%C3%ADk_Old_Harbor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Reykjav%C3%ADk_Old_Harbor.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=28230064",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-09-12 12:32:28",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Reykjavík Old Harbor",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS-1Ds Mark III|Þór (ship, 2011)|Kristrún RE 177 (ship, 1988)|Freri RE 73 (ship, 1973)|Images with annotations|Fishing ships of Iceland|Photographs by User:Richard Bartz|Panoramics in Reykjavík|Files with coordinates missing SDC location of creation|Iceland photographs taken on 2013-07-03|Featured pictures of architecture in Iceland|Featured pictures of landscapes in Iceland|256 (vessel number)|Naval ships in Reykjavík harbour",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality|featured",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "64.151872",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-21.932842",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<b>Old Harbor</b> Reykjavík, Iceland",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-07-03",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Richard_Bartz\" title=\"User:Richard Bartz\">Richard Bartz</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"share alike\"><img alt=\"share alike\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/40px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/60px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by-sa/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by-sa/3.0/deed.en\">Attribution-Share Alike 3.0 Unported</a> license.</div><div class=\"rlicense-desc\" style=\"text-align:start;\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>\n<li><b>share alike</b> – If you remix, transform, or build upon the material, you must distribute your contributions under the <a href=\"https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses\" class=\"extiw\" title=\"ccorg:share-your-work/licensing-considerations/compatible-licenses\">same or compatible license</a> as the original.</li></ul></dd></dl></div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by-sa/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY-SA 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution-Share Alike 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "126814097": {
+        "pageid": 126814097,
+        "ns": 6,
+        "title": "File:Reykjavík harbor hdsr 2019 10 17 9999 554.jpg",
+        "index": 14,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 7321739,
+            "width": 5184,
+            "height": 3456,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Reykjav%C3%ADk_harbor_hdsr_2019_10_17_9999_554.jpg/960px-Reykjav%C3%ADk_harbor_hdsr_2019_10_17_9999_554.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 640,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Reykjav%C3%ADk_harbor_hdsr_2019_10_17_9999_554.jpg/1920px-Reykjav%C3%ADk_harbor_hdsr_2019_10_17_9999_554.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Reykjav%C3%ADk_harbor_hdsr_2019_10_17_9999_554.jpg/960px-Reykjav%C3%ADk_harbor_hdsr_2019_10_17_9999_554.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 640,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Reykjav%C3%ADk_harbor_hdsr_2019_10_17_9999_554.jpg/1920px-Reykjav%C3%ADk_harbor_hdsr_2019_10_17_9999_554.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Reykjav%C3%ADk_harbor_hdsr_2019_10_17_9999_554.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Reykjav%C3%ADk_harbor_hdsr_2019_10_17_9999_554.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=126814097",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-12-20 12:21:03",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Reykjavík harbor hdsr 2019 10 17 9999 554",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Reykjavík harbour|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "image montrant une photographie prise au port de Reykjavik : bateau à quai et bouée au premier plan",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-10-17 19:34:30",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Hyppolyte_de_Saint-Rambert\" title=\"User:Hyppolyte de Saint-Rambert\">Hyppolyte de Saint-Rambert</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "126821774": {
+        "pageid": 126821774,
+        "ns": 6,
+        "title": "File:Reykjavík iceland hdsr 2019 10 17 9999 3.jpg",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 9880807,
+            "width": 5037,
+            "height": 3358,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Reykjav%C3%ADk_iceland_hdsr_2019_10_17_9999_3.jpg/960px-Reykjav%C3%ADk_iceland_hdsr_2019_10_17_9999_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 640,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Reykjav%C3%ADk_iceland_hdsr_2019_10_17_9999_3.jpg/1920px-Reykjav%C3%ADk_iceland_hdsr_2019_10_17_9999_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Reykjav%C3%ADk_iceland_hdsr_2019_10_17_9999_3.jpg/960px-Reykjav%C3%ADk_iceland_hdsr_2019_10_17_9999_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 640,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Reykjav%C3%ADk_iceland_hdsr_2019_10_17_9999_3.jpg/1920px-Reykjav%C3%ADk_iceland_hdsr_2019_10_17_9999_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Reykjav%C3%ADk_iceland_hdsr_2019_10_17_9999_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Reykjav%C3%ADk_iceland_hdsr_2019_10_17_9999_3.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=126821774",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-12-20 16:08:17",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Reykjavík iceland hdsr 2019 10 17 9999 3",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Buildings in Reykjavík|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "image présentant une photographie prise à Reykjavík : mouette rieuse",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-10-17 12:16:41",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Hyppolyte_de_Saint-Rambert\" title=\"User:Hyppolyte de Saint-Rambert\">Hyppolyte de Saint-Rambert</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "126846214": {
+        "pageid": 126846214,
+        "ns": 6,
+        "title": "File:Reykjavík iceland hdsr 2019 10 19 9999 132.jpg",
+        "index": 15,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 10862553,
+            "width": 5184,
+            "height": 3456,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Reykjav%C3%ADk_iceland_hdsr_2019_10_19_9999_132.jpg/960px-Reykjav%C3%ADk_iceland_hdsr_2019_10_19_9999_132.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 640,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Reykjav%C3%ADk_iceland_hdsr_2019_10_19_9999_132.jpg/1920px-Reykjav%C3%ADk_iceland_hdsr_2019_10_19_9999_132.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Reykjav%C3%ADk_iceland_hdsr_2019_10_19_9999_132.jpg/960px-Reykjav%C3%ADk_iceland_hdsr_2019_10_19_9999_132.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 640,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Reykjav%C3%ADk_iceland_hdsr_2019_10_19_9999_132.jpg/1920px-Reykjav%C3%ADk_iceland_hdsr_2019_10_19_9999_132.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Reykjav%C3%ADk_iceland_hdsr_2019_10_19_9999_132.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Reykjav%C3%ADk_iceland_hdsr_2019_10_19_9999_132.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=126846214",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-12-21 09:52:14",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Reykjavík iceland hdsr 2019 10 19 9999 132",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Reykjavík harbour|Self-published work|Iceland photographs taken on 2019-10-19|Animals in Reykjavík",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "image présentant une photographie prise à Reykjavík : bande d'eiders",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 19 October 2019, 13:32:56",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Hyppolyte_de_Saint-Rambert\" title=\"User:Hyppolyte de Saint-Rambert\">Hyppolyte de Saint-Rambert</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "126846263": {
+        "pageid": 126846263,
+        "ns": 6,
+        "title": "File:Reykjavík iceland hdsr 2019 10 20 9999 512.jpg",
+        "index": 16,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 11358090,
+            "width": 5184,
+            "height": 3456,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Reykjav%C3%ADk_iceland_hdsr_2019_10_20_9999_512.jpg/960px-Reykjav%C3%ADk_iceland_hdsr_2019_10_20_9999_512.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 640,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Reykjav%C3%ADk_iceland_hdsr_2019_10_20_9999_512.jpg/1920px-Reykjav%C3%ADk_iceland_hdsr_2019_10_20_9999_512.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Reykjav%C3%ADk_iceland_hdsr_2019_10_20_9999_512.jpg/960px-Reykjav%C3%ADk_iceland_hdsr_2019_10_20_9999_512.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 640,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Reykjav%C3%ADk_iceland_hdsr_2019_10_20_9999_512.jpg/1920px-Reykjav%C3%ADk_iceland_hdsr_2019_10_20_9999_512.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Reykjav%C3%ADk_iceland_hdsr_2019_10_20_9999_512.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Reykjav%C3%ADk_iceland_hdsr_2019_10_20_9999_512.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=126846263",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-12-21 09:53:38",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Reykjavík iceland hdsr 2019 10 20 9999 512",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Buildings in Reykjavík|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "image présentant une photographie prise à Reykjavík : vue sur la rue",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-10-20 14:56:17",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Hyppolyte_de_Saint-Rambert\" title=\"User:Hyppolyte de Saint-Rambert\">Hyppolyte de Saint-Rambert</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "126821814": {
+        "pageid": 126821814,
+        "ns": 6,
+        "title": "File:Reykjavík iceland hdsr 2019 10 22 9999 21.jpg",
+        "index": 13,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 9124663,
+            "width": 3456,
+            "height": 5184,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Reykjav%C3%ADk_iceland_hdsr_2019_10_22_9999_21.jpg/960px-Reykjav%C3%ADk_iceland_hdsr_2019_10_22_9999_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 1440,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Reykjav%C3%ADk_iceland_hdsr_2019_10_22_9999_21.jpg/1920px-Reykjav%C3%ADk_iceland_hdsr_2019_10_22_9999_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Reykjav%C3%ADk_iceland_hdsr_2019_10_22_9999_21.jpg/960px-Reykjav%C3%ADk_iceland_hdsr_2019_10_22_9999_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 1440,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Reykjav%C3%ADk_iceland_hdsr_2019_10_22_9999_21.jpg/1920px-Reykjav%C3%ADk_iceland_hdsr_2019_10_22_9999_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Reykjav%C3%ADk_iceland_hdsr_2019_10_22_9999_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Reykjav%C3%ADk_iceland_hdsr_2019_10_22_9999_21.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=126821814",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-12-20 16:09:26",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Reykjavík iceland hdsr 2019 10 22 9999 21",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Street photography in Reykjavík|Street art in Reykjavík",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "image présentant une photographie prise à Reykjavík : peinture murale",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-10-22 12:20:31",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Hyppolyte_de_Saint-Rambert\" title=\"User:Hyppolyte de Saint-Rambert\">Hyppolyte de Saint-Rambert</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "150110358": {
+        "pageid": 150110358,
+        "ns": 6,
+        "title": "File:Tjörnin in Reykjavík with turf, 1988.jpg",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 400240,
+            "width": 1798,
+            "height": 1217,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Tj%C3%B6rnin_in_Reykjav%C3%ADk_with_turf%2C_1988.jpg/960px-Tj%C3%B6rnin_in_Reykjav%C3%ADk_with_turf%2C_1988.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 650,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/3/33/Tj%C3%B6rnin_in_Reykjav%C3%ADk_with_turf%2C_1988.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Tj%C3%B6rnin_in_Reykjav%C3%ADk_with_turf%2C_1988.jpg/960px-Tj%C3%B6rnin_in_Reykjav%C3%ADk_with_turf%2C_1988.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 650,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/3/33/Tj%C3%B6rnin_in_Reykjav%C3%ADk_with_turf%2C_1988.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Tj%C3%B6rnin_in_Reykjav%C3%ADk_with_turf%2C_1988.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tj%C3%B6rnin_in_Reykjav%C3%ADk_with_turf,_1988.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=150110358",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-07-07 19:19:49",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Tjörnin in Reykjavík with turf, 1988",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Tjörnin|Fríkirkjan í Reykjavík|Images with annotations|Sod|Self-published work|1988 in Reykjavík|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "64.140490",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-21.942600",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Tjörnin (the Pond) in Reykjavík, 1988, with freshly cut turf in the foreground",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1988-07-01",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ian_Watson&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ian Watson (page does not exist)\">Ian Watson</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "132044148": {
+        "pageid": 132044148,
+        "ns": 6,
+        "title": "File:View of Reykjavík from Hallgrímskirkja, 20230507 1227 5715.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 17639035,
+            "width": 5436,
+            "height": 3628,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1227_5715.jpg/960px-View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1227_5715.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 641,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1227_5715.jpg/1920px-View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1227_5715.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1227_5715.jpg/960px-View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1227_5715.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 641,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1227_5715.jpg/1920px-View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1227_5715.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1227_5715.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja,_20230507_1227_5715.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=132044148",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-05-17 16:53:02",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "View of Reykjavík from Hallgrímskirkja, 20230507 1227 5715",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Views from Hallgrímskirkja|Self-published work|Iceland photographs taken on 2023-05-07|Files with coordinates missing SDC location of creation|2023 in Reykjavík|Remote views of Esja",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "64.141905",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-21.926917",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "View of Reykjavík from Hallgrímskirkja. Esja mountains in the background",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 7 May 2023, 12:27:00",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Jakubhal\" title=\"User:Jakubhal\">Jakub Hałun</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "132044147": {
+        "pageid": 132044147,
+        "ns": 6,
+        "title": "File:View of Reykjavík from Hallgrímskirkja, 20230507 1227 5721.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 16121879,
+            "width": 5721,
+            "height": 3544,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1227_5721.jpg/960px-View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1227_5721.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 595,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1227_5721.jpg/1920px-View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1227_5721.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1227_5721.jpg/960px-View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1227_5721.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 595,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1227_5721.jpg/1920px-View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1227_5721.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1227_5721.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja,_20230507_1227_5721.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=132044147",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-05-17 16:53:02",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "View of Reykjavík from Hallgrímskirkja, 20230507 1227 5721",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Views from Hallgrímskirkja|Self-published work|Iceland photographs taken on 2023-05-07|Files with coordinates missing SDC location of creation|Remote views of Esja",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "64.141905",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-21.926917",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "View of Reykjavík from Hallgrímskirkja. Esja mountains in the background",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 7 May 2023, 12:27:46",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Jakubhal\" title=\"User:Jakubhal\">Jakub Hałun</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "132130298": {
+        "pageid": 132130298,
+        "ns": 6,
+        "title": "File:View of Reykjavík from Hallgrímskirkja, 20230507 1229 5733.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 17830405,
+            "width": 5693,
+            "height": 3800,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1229_5733.jpg/960px-View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1229_5733.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 641,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1229_5733.jpg/1920px-View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1229_5733.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1229_5733.jpg/960px-View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1229_5733.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 641,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1229_5733.jpg/1920px-View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1229_5733.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja%2C_20230507_1229_5733.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:View_of_Reykjav%C3%ADk_from_Hallgr%C3%ADmskirkja,_20230507_1229_5733.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=132130298",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-05-20 07:07:50",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "View of Reykjavík from Hallgrímskirkja, 20230507 1229 5733",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Views from Hallgrímskirkja|Self-published work|Iceland photographs taken on 2023-05-07|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "64.141905",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-21.926917",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "View of Reykjavík from Hallgrímskirkja",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 7 May 2023, 12:29:33",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Jakubhal\" title=\"User:Jakubhal\">Jakub Hałun</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "33780470": {
+        "pageid": 33780470,
+        "ns": 6,
+        "title": "File:Welcome to Reykjavik City (3567653566).jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 848524,
+            "width": 1024,
+            "height": 655,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Welcome_to_Reykjavik_City_%283567653566%29.jpg/960px-Welcome_to_Reykjavik_City_%283567653566%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 614,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Welcome_to_Reykjavik_City_%283567653566%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Welcome_to_Reykjavik_City_%283567653566%29.jpg/960px-Welcome_to_Reykjavik_City_%283567653566%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 614,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Welcome_to_Reykjavik_City_%283567653566%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Welcome_to_Reykjavik_City_%283567653566%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Welcome_to_Reykjavik_City_(3567653566).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=33780470",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-04-17 12:01:43",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Welcome to Reykjavik City (3567653566)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS 450D|Views of Reykjavík|Tjörnin|Reykjavík Town Hall|Fríkirkjan í Reykjavík|Images with annotations|Flickr images reviewed by FlickreviewR|Flowers of Iceland|Iceland photographs taken on 2009-05-26|Files with coordinates missing SDC location of creation|Photographs by Helgi Halldórsson",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "64.144170",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-21.945110",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Reykjavik (population 190,000 with nearby communities) is the country's capital and the heart of the modern Icelandic society.\n</p><p>It is a peaceful and a natural city with many protected open areas and surely the only capital in the world to boast a great Salmon River, Elliðaár, within the city limits.\n</p><p>Reykjavik CapitalReykjavík is a young city which has grown from little more than a village within the space of the past century. The mixture of old and new architecture of mainly low and brightly painted houses gives the city a friendly and toy like impression.\n</p><p>The old town centre contains some charming buildings dating back to the 18th and 19th centuries presenting good examples of the history. \n</p><p>Reykjavik CapitalReykjavík serves as a government, service, culture and business center for the whole country and has changed tremendously in the past decades to a more cosmopolitan city.\n</p>\nBearing witness to the city's youthful exuberance are the wide range of high quality cultural activities and the exciting nightlife on offer, both of which invite comparison with cities several times the size in other countries.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 26 May 2009, 13:55:13 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/8058853@N06/3567653566/\">Welcome to Reykjavik City</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/8058853@N06\">Helgi Halldórsson</a> from Reykjavík, Iceland",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

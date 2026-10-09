@@ -1,0 +1,1473 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "41186105": {
+        "pageid": 41186105,
+        "ns": 6,
+        "title": "File:ASBM, Bhubaneswar.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 705339,
+            "width": 3008,
+            "height": 2000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/ASBM%2C_Bhubaneswar.jpg/1280px-ASBM%2C_Bhubaneswar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 851,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/7/71/ASBM%2C_Bhubaneswar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/ASBM%2C_Bhubaneswar.jpg/1280px-ASBM%2C_Bhubaneswar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 851,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/7/71/ASBM%2C_Bhubaneswar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/ASBM%2C_Bhubaneswar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:ASBM,_Bhubaneswar.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=41186105",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-06-25 11:53:15",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "ASBM, Bhubaneswar",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Universities and colleges in Odisha|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Asian School of Business Management, Bhubaneswar",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-05-15",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ASBM_BBSR&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ASBM BBSR (page does not exist)\">ASBM BBSR</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "41010439": {
+        "pageid": 41010439,
+        "ns": 6,
+        "title": "File:Director ASBM.JPG",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 892465,
+            "width": 437,
+            "height": 591,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Director_ASBM.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 1731,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Director_ASBM.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1731
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Director_ASBM.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Director_ASBM.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=41010439",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-06-16 17:51:29",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Director ASBM",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Unidentified men",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Professor Biswajeet Pattanayak",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-12-01 22:58:05",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Biswajeet_Pattanayak&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Biswajeet Pattanayak (page does not exist)\">Biswajeet Pattanayak</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "26743828": {
+        "pageid": 26743828,
+        "ns": 6,
+        "title": "File:Director Prof. Biswajeet Pattnayak.jpg",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 38603,
+            "width": 551,
+            "height": 480,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Director_Prof._Biswajeet_Pattnayak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 1115,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Director_Prof._Biswajeet_Pattnayak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1115
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Director_Prof._Biswajeet_Pattnayak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Director_Prof._Biswajeet_Pattnayak.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=26743828",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-06-18 16:26:52",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Director Prof. Biswajeet Pattnayak",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Unidentified men",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Prof. (Dr.) Biswajeet Pattanayak Director Of ASBM(ASIAN SCHOOL OF BUSINESS MANAGEMENT)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-06-18 21:52:48",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sirajkumar&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sirajkumar (page does not exist)\">Sirajkumar</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "176474241": {
+        "pageid": 176474241,
+        "ns": 6,
+        "title": "File:Direktoratet for romvirksomhet logo.png",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 92715,
+            "width": 2500,
+            "height": 631,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Direktoratet_for_romvirksomhet_logo.png/1280px-Direktoratet_for_romvirksomhet_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 323,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/6/60/Direktoratet_for_romvirksomhet_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Direktoratet_for_romvirksomhet_logo.png/1280px-Direktoratet_for_romvirksomhet_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 323,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/6/60/Direktoratet_for_romvirksomhet_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Direktoratet_for_romvirksomhet_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Direktoratet_for_romvirksomhet_logo.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=176474241",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-10-10 20:34:16",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Direktoratet for romvirksomhet logo",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Text logos|Norwegian Space Centre|PD textlogo",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Norwegian Space Agency logo",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-10-10",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.romsenter.no/\">https://www.romsenter.no/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Government of Norway",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "25454293": {
+        "pageid": 25454293,
+        "ns": 6,
+        "title": "File:Dr. Biswajeet Pattanayak.jpg",
+        "index": 13,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 31115,
+            "width": 512,
+            "height": 342,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Dr._Biswajeet_Pattanayak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 855,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/Dr._Biswajeet_Pattanayak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 855
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Dr._Biswajeet_Pattanayak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Dr._Biswajeet_Pattanayak.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=25454293",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-04-05 05:11:52",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Dr. Biswajeet Pattanayak",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Educators from Odisha|GFDL|License migration redundant|Self-published work|Uploaded with en.wp upload wizard",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "PROF. BISWAJEET PATTANAYAK\n<p>Ph. D., D.Litt., D.Sc., FIMA\n</p>\nFounder and Director, ASBM",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-04-01",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Dr._Biswajeet_Pattanayak&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Dr. Biswajeet Pattanayak (page does not exist)\">Dr. Biswajeet Pattanayak</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "160248380": {
+        "pageid": 160248380,
+        "ns": 6,
+        "title": "File:Hanwha CTM-290 missile at IDEX 2025.jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 496860,
+            "width": 1600,
+            "height": 1200,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Hanwha_CTM-290_missile_at_IDEX_2025.jpg/1280px-Hanwha_CTM-290_missile_at_IDEX_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 960,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/1/14/Hanwha_CTM-290_missile_at_IDEX_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Hanwha_CTM-290_missile_at_IDEX_2025.jpg/1280px-Hanwha_CTM-290_missile_at_IDEX_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 960,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/1/14/Hanwha_CTM-290_missile_at_IDEX_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Hanwha_CTM-290_missile_at_IDEX_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hanwha_CTM-290_missile_at_IDEX_2025.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=160248380",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-02-22 07:54:33",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Hanwha CTM-290 missile at IDEX 2025",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Images with extracted images|KTSSM|IDEX 2025|CTM-MR|CTM-ASBM",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Hanwha CTM-290 missile at IDEX 2025",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-02-19 13:58:02",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Mztourist\" title=\"User:Mztourist\">Mztourist</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "176070039": {
+        "pageid": 176070039,
+        "ns": 6,
+        "title": "File:Hanwha CTM-290 tactical ballistic missile.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 272076,
+            "width": 1329,
+            "height": 747,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Hanwha_CTM-290_tactical_ballistic_missile.jpg/1280px-Hanwha_CTM-290_tactical_ballistic_missile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 719,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/8/84/Hanwha_CTM-290_tactical_ballistic_missile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Hanwha_CTM-290_tactical_ballistic_missile.jpg/1280px-Hanwha_CTM-290_tactical_ballistic_missile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 719,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/84/Hanwha_CTM-290_tactical_ballistic_missile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Hanwha_CTM-290_tactical_ballistic_missile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hanwha_CTM-290_tactical_ballistic_missile.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=176070039",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-10-04 14:20:37",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Hanwha CTM-290 tactical ballistic missile",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Extracted images|Derivative versions|KTSSM|IDEX 2025|CTM-MR|CTM-ASBM",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "CTM-290 tactical ballistic missile of Ure Block 2, modified for the transporter erector launcher (TEL) platform.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-10-04",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "This file was derived from:  <a href=\"//commons.wikimedia.org/wiki/File:Hanwha_CTM-290_missile_at_IDEX_2025.jpg\" title=\"File:Hanwha CTM-290 missile at IDEX 2025.jpg\">Hanwha CTM-290 missile at IDEX 2025.jpg</a>: <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Hanwha_CTM-290_missile_at_IDEX_2025.jpg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Hanwha_CTM-290_missile_at_IDEX_2025.jpg/60px-Hanwha_CTM-290_missile_at_IDEX_2025.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"38\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Hanwha_CTM-290_missile_at_IDEX_2025.jpg/120px-Hanwha_CTM-290_missile_at_IDEX_2025.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1600\" data-file-height=\"1200\"></a></span><br>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Mztourist\" title=\"User:Mztourist\">Mztourist</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Mztourist",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "26937773": {
+        "pageid": 26937773,
+        "ns": 6,
+        "title": "File:Life at ASBM.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 150833,
+            "width": 625,
+            "height": 411,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Life_at_ASBM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 842,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Life_at_ASBM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 842
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Life_at_ASBM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Life_at_ASBM.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=26937773",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-06-28 15:28:00",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Life at ASBM",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Buildings in Bhubaneswar",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Asian School Of Business Management Campus",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-10-15 16:29:40",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sirajkumar&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sirajkumar (page does not exist)\">Sirajkumar</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "15262102": {
+        "pageid": 15262102,
+        "ns": 6,
+        "title": "File:Logo-asbm1.jpg",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 37252,
+            "width": 365,
+            "height": 138,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Logo-asbm1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 484,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/5/53/Logo-asbm1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 484
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Logo-asbm1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Logo-asbm1.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15262102",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-06-26 05:07:26",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Logo-asbm1",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Universities and colleges in Odisha|FAL|Logos of universities and colleges in India",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "ASBM (<a href=\"https://en.wikipedia.org/wiki/Asian_School_of_Business_Management\" class=\"extiw\" title=\"w:Asian School of Business Management\">Asian School of Business Management</a>)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-05-21",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "ASIAN SCHOOL OF BUSINESS MANAGEMENT",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Prof. Biswajeet Pattnayak",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "FAL",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Free Art License",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://artlibre.org/licence/lal/en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "78481321": {
+        "pageid": 78481321,
+        "ns": 6,
+        "title": "File:Norsk-Romsenter-bygning.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 988206,
+            "width": 3456,
+            "height": 2304,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Norsk-Romsenter-bygning.jpg/1280px-Norsk-Romsenter-bygning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Norsk-Romsenter-bygning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Norsk-Romsenter-bygning.jpg/1280px-Norsk-Romsenter-bygning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 853,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Norsk-Romsenter-bygning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Norsk-Romsenter-bygning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Norsk-Romsenter-bygning.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=78481321",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-04-30 10:49:20",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Norsk-Romsenter-bygning",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Norwegian Space Centre|Drammensveien, Oslo|Skøyen|Self-published work|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "59.921840",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "10.674640",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Norsk Romsenter på Skøyen i Oslo.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-12-02",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Chraasen&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Chraasen (page does not exist)\">Chraasen</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "17955633": {
+        "pageid": 17955633,
+        "ns": 6,
+        "title": "File:Post0266 - Flickr - NOAA Photo Library.jpg",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 791529,
+            "width": 2048,
+            "height": 1536,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Post0266_-_Flickr_-_NOAA_Photo_Library.jpg/1280px-Post0266_-_Flickr_-_NOAA_Photo_Library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 960,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/2/27/Post0266_-_Flickr_-_NOAA_Photo_Library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Post0266_-_Flickr_-_NOAA_Photo_Library.jpg/1280px-Post0266_-_Flickr_-_NOAA_Photo_Library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 960,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/2/27/Post0266_-_Flickr_-_NOAA_Photo_Library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Post0266_-_Flickr_-_NOAA_Photo_Library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Post0266_-_Flickr_-_NOAA_Photo_Library.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=17955633",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2012-01-07 13:19:27",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Post0266 - Flickr - NOAA Photo Library",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Sony DSC-T7|SvalSat|PD US NOAA|Flickr images reviewed by FlickreviewR|Files uploaded by Kobac|Files from the NOAA Photo Library Flickr stream|NOAA - Celebrating 200 years",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Greetings from Lonyearbyen, Norway on the Svalbard archipelago.\n</p><p>NOAA along with NASA and other international space agencies through agreements with the Norwegian Space Agency utilizes the Kongsberg Satellite Services Svalbard Satellite Station known as SvalSat to support current and future satellite programs. At 78°13’ North latitude, SvalSat is capable of a satellite contact once every orbit for polar-orbiting satellites. The antenna in the background collects the direct readout data from NASA EOS satellites to produce NOAA's Polar Wind products in the Arctic.\n</p>\nPictured (from left) from the NPOESS Integrated Program Office are Jim Valenti, Doug Whiteley, Pete Wilczynski, and John Overton.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2007-09-10 12:01",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/noaaphotolib/5158521286/\">post0266</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/51647007@N08\">NOAA Photo Library</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "62129443": {
+        "pageid": 62129443,
+        "ns": 6,
+        "title": "File:Power Station of Art, Shanghai, China (Unsplash).jpg",
+        "index": 14,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 15598321,
+            "width": 6000,
+            "height": 4000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Power_Station_of_Art%2C_Shanghai%2C_China_%28Unsplash%29.jpg/1280px-Power_Station_of_Art%2C_Shanghai%2C_China_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Power_Station_of_Art%2C_Shanghai%2C_China_%28Unsplash%29.jpg/3840px-Power_Station_of_Art%2C_Shanghai%2C_China_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Power_Station_of_Art%2C_Shanghai%2C_China_%28Unsplash%29.jpg/1280px-Power_Station_of_Art%2C_Shanghai%2C_China_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Power_Station_of_Art%2C_Shanghai%2C_China_%28Unsplash%29.jpg/3840px-Power_Station_of_Art%2C_Shanghai%2C_China_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Power_Station_of_Art%2C_Shanghai%2C_China_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Power_Station_of_Art,_Shanghai,_China_(Unsplash).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=62129443",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-09-03 07:06:07",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Power Station of Art, Shanghai, China (Unsplash)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Power Station of Art|Images uploaded by Fæ|Images from Unsplash|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "31.200998",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "121.498280",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Power Station of Art, Shanghai, China",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-01-20",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://unsplash.com/photos/avKPLHgASBM\">https://unsplash.com/photos/avKPLHgASBM</a>\n</p>\n<ul><li><bdi lang=\"en\" dir=\"ltr\" title=\"archived on 29 April 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170429070155/https%3A//unsplash.com/photos/avKPLHgASBM\">archive copy</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Jingyi Wang <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@jingyi\">jingyi</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "11319286": {
+        "pageid": 11319286,
+        "ns": 6,
+        "title": "File:Rocketrangesummer.JPG",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 79200,
+            "width": 640,
+            "height": 481,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Rocketrangesummer.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 962,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/4/44/Rocketrangesummer.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 962
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Rocketrangesummer.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Rocketrangesummer.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=11319286",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2010-08-28 19:39:30",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Rocketrangesummer",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Andøya Space Center|Self-published work|PD-self",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "View to Andøya Rocket Range on summer",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:MM2sp&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:MM2sp (page does not exist)\">MM2sp</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "172084650": {
+        "pageid": 172084650,
+        "ns": 6,
+        "title": "File:S4S commander strengthens ties with Norwegian delegation during Space Norway ASBM launch (8592077).jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1715194,
+            "width": 3960,
+            "height": 2933,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/S4S_commander_strengthens_ties_with_Norwegian_delegation_during_Space_Norway_ASBM_launch_%288592077%29.jpg/1280px-S4S_commander_strengthens_ties_with_Norwegian_delegation_during_Space_Norway_ASBM_launch_%288592077%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 948,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/S4S_commander_strengthens_ties_with_Norwegian_delegation_during_Space_Norway_ASBM_launch_%288592077%29.jpg/3840px-S4S_commander_strengthens_ties_with_Norwegian_delegation_during_Space_Norway_ASBM_launch_%288592077%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/S4S_commander_strengthens_ties_with_Norwegian_delegation_during_Space_Norway_ASBM_launch_%288592077%29.jpg/1280px-S4S_commander_strengthens_ties_with_Norwegian_delegation_during_Space_Norway_ASBM_launch_%288592077%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 948,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/S4S_commander_strengthens_ties_with_Norwegian_delegation_during_Space_Norway_ASBM_launch_%288592077%29.jpg/3840px-S4S_commander_strengthens_ties_with_Norwegian_delegation_during_Space_Norway_ASBM_launch_%288592077%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/S4S_commander_strengthens_ties_with_Norwegian_delegation_during_Space_Norway_ASBM_launch_%288592077%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:S4S_commander_strengthens_ties_with_Norwegian_delegation_during_Space_Norway_ASBM_launch_(8592077).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=172084650",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-08-09 15:03:15",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "S4S commander strengthens ties with Norwegian delegation during Space Norway ASBM launch (8592077)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Douglas A. Schiess|Military relations of Norway and the United States|PD US Air Force|Files created by the United States Air Force with known IDs|United States photographs taken on 2024-08-10|DVIDS files uploaded by OptimusPrimeBot|Milimedia files, California (review needed)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "U.S. Space Force Lt. Gen. Douglas Schiess, U.S. Space Forces-Space commander, third from left, stands with Ole Felix Dahl, Norwegian Deputy Director General, fourth from left; NOR Brig. Gen. Halvor Johansen, Chief of the Norwegian Armed Forces Cyber Defence, second from left; and other U.S. and Norwegian representatives in Buellton, Calif., Aug. 11, 2024. The Norwegian delegation visited Vandenberg Space Force Base to view the launch of the Space Norway Arctic Satellite Broadband Mission to Molniya transfer orbit. Schiess and the delegation took the opportunity to speak about ways the U.S. and Norway can partner to strengthen existing space capabilities and continue opportunities for security cooperation in the face of threats in the space environment. (U.S. Space Force Photo by Maj. Latina Jones)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 10 August 2024",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<table class=\"layouttemplate sourcetemplate\" style=\"width:100%; clear:both; text-align:center; margin:0.5em auto; box-sizing: border-box; padding: 0; border-spacing: 8px; background-color: var(--background-color-neutral-subtle, #f6f7f5); color: var(--color-base, #202122); border: var(--border-subtle, 1px solid #555555);\" dir=\"ltr\" lang=\"en\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Seal_of_the_United_States_Department_of_the_Air_Force.svg/120px-Seal_of_the_United_States_Department_of_the_Air_Force.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"80\" height=\"80\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Seal_of_the_United_States_Department_of_the_Air_Force.svg/250px-Seal_of_the_United_States_Department_of_the_Air_Force.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"600\" data-file-height=\"600\"></span></span>\n</td>\n<td align=\"center\">\n<p><span class=\"layouttemplateargs\" style=\"display:none;speak:none;\" title=\"template=ID-USMil 1%3D240810-F-IL300-4497 2%3DAir+Force url%3Dhttps%3A%2F%2Fwww.dvidshub.net%2Fimage%2F8592077\"> </span>\nThis image was released by the United States Air Force with the <a href=\"//commons.wikimedia.org/wiki/Commons:VIRIN\" title=\"Commons:VIRIN\">ID</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.dvidshub.net/image/8592077\">240810-F-IL300-4497</a> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/w/index.php?title=Category:Files_created_by_the_United_States_Air_Force_with_known_IDs&amp;filefrom=240810-F-IL300-4497#mw-category-media\" href=\"https://commons.wikimedia.org/w/index.php?title=Category:Files_created_by_the_United_States_Air_Force_with_known_IDs&amp;filefrom=240810-F-IL300-4497#mw-category-media\"><small>(next)</small></a>.<br>\n<small>This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span></small>\n</p>\n<hr>\n<p><span style=\"font-size:small;line-height:1.4\" class=\"plainlinks noprint\"><a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/ar\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/ar\"><bdi class=\"language lang-ar\" lang=\"ar\">العربية</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/bn\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/bn\"><bdi class=\"language lang-bn\" lang=\"bn\">বাংলা</bdi></a> <b>∙</b> \n<a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/id\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/id\"><bdi class=\"language lang-id\" lang=\"id\">Bahasa Indonesia</bdi></a> <b>∙</b> \n<a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/jax\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/jax\"><bdi class=\"language lang-jax\" lang=\"jax\">Bahaso Jambi</bdi></a> <b>∙</b> \n<a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/de\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/de\"><bdi class=\"language lang-de\" lang=\"de\">Deutsch</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/de-formal\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/de-formal\"><bdi class=\"language lang-de-formal\" lang=\"de-formal\">Deutsch (Sie-Form)</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/en\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/en\"><bdi class=\"language lang-en\" lang=\"en\">English</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/es\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/es\"><bdi class=\"language lang-es\" lang=\"es\">español</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/eu\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/eu\"><bdi class=\"language lang-eu\" lang=\"eu\">euskara</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/fa\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/fa\"><bdi class=\"language lang-fa\" lang=\"fa\">فارسی</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/fr\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/fr\"><bdi class=\"language lang-fr\" lang=\"fr\">français</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/it\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/it\"><bdi class=\"language lang-it\" lang=\"it\">italiano</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/ja\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/ja\"><bdi class=\"language lang-ja\" lang=\"ja\">日本語</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/ko\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/ko\"><bdi class=\"language lang-ko\" lang=\"ko\">한국어</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/mk\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/mk\"><bdi class=\"language lang-mk\" lang=\"mk\">македонски</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/ml\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/ml\"><bdi class=\"language lang-ml\" lang=\"ml\">മലയാളം</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/nds\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/nds\"><bdi class=\"language lang-nds\" lang=\"nds\">Plattdüütsch</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/nl\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/nl\"><bdi class=\"language lang-nl\" lang=\"nl\">Nederlands</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/pl\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/pl\"><bdi class=\"language lang-pl\" lang=\"pl\">polski</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/ps\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/ps\"><bdi class=\"language lang-ps\" lang=\"ps\">پښتو</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/pt\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/pt\"><bdi class=\"language lang-pt\" lang=\"pt\">português</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/ru\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/ru\"><bdi class=\"language lang-ru\" lang=\"ru\">русский</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/sl\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/sl\"><bdi class=\"language lang-sl\" lang=\"sl\">slovenščina</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/sv\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/sv\"><bdi class=\"language lang-sv\" lang=\"sv\">svenska</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/tr\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/tr\"><bdi class=\"language lang-tr\" lang=\"tr\">Türkçe</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/uk\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/uk\"><bdi class=\"language lang-uk\" lang=\"uk\">українська</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/zh-hans\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/zh-hans\"><bdi class=\"language lang-zh-hans\" lang=\"zh-hans\">简体中文</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/zh-hant\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/zh-hant\"><bdi class=\"language lang-zh-hant\" lang=\"zh-hant\">繁體中文</bdi></a> <b>∙</b> <small class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/w/index.php?title=Template:ID-USMil/lang&amp;action=edit\" href=\"https://commons.wikimedia.org/w/index.php?title=Template:ID-USMil/lang&amp;action=edit\">+/−</a></small></span>\n</p>\n</td>\n<td><span class=\"mw-image-border\" typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/120px-Flag_of_the_United_States.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"47\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/250px-Flag_of_the_United_States.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1235\" data-file-height=\"650\"></span></span>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "U.S. Space Force S4S by Maj. <a rel=\"nofollow\" class=\"external text\" href=\"https://www.dvidshub.net/portfolio/1842950\">Julian Labit</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

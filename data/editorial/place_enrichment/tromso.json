@@ -1,0 +1,1842 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 16,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "129172245": {
+        "pageid": 129172245,
+        "ns": 6,
+        "title": "File:09512 Tromsdalen church and bridge - Tromso, Norway - V-P.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 9909619,
+            "width": 7639,
+            "height": 5095,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/09512_Tromsdalen_church_and_bridge_-_Tromso%2C_Norway_-_V-P.jpg/960px-09512_Tromsdalen_church_and_bridge_-_Tromso%2C_Norway_-_V-P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 640,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/09512_Tromsdalen_church_and_bridge_-_Tromso%2C_Norway_-_V-P.jpg/1920px-09512_Tromsdalen_church_and_bridge_-_Tromso%2C_Norway_-_V-P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/09512_Tromsdalen_church_and_bridge_-_Tromso%2C_Norway_-_V-P.jpg/960px-09512_Tromsdalen_church_and_bridge_-_Tromso%2C_Norway_-_V-P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 640,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/09512_Tromsdalen_church_and_bridge_-_Tromso%2C_Norway_-_V-P.jpg/1920px-09512_Tromsdalen_church_and_bridge_-_Tromso%2C_Norway_-_V-P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/09512_Tromsdalen_church_and_bridge_-_Tromso%2C_Norway_-_V-P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:09512_Tromsdalen_church_and_bridge_-_Tromso,_Norway_-_V-P.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=129172245",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-03-01 12:06:22",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "09512 Tromsdalen church and bridge - Tromso, Norway - V-P",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Ishavskatedralen|Tromsøbrua|Self-published work|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.649223",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "18.963196",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Arctic Cathedral and eastern ramp of Tromsø, bridge seen from Samuel Arnesens Gate",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-06-23 20:23:25",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Virtual-Pano\" title=\"User:Virtual-Pano\">Virtual-Pano</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "129172247": {
+        "pageid": 129172247,
+        "ns": 6,
+        "title": "File:09515 Tromsdalen church and bridge (close-up) - Tromso, Norway - V-P.jpg",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 6368678,
+            "width": 5100,
+            "height": 5100,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/09515_Tromsdalen_church_and_bridge_%28close-up%29_-_Tromso%2C_Norway_-_V-P.jpg/960px-09515_Tromsdalen_church_and_bridge_%28close-up%29_-_Tromso%2C_Norway_-_V-P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 960,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/09515_Tromsdalen_church_and_bridge_%28close-up%29_-_Tromso%2C_Norway_-_V-P.jpg/1920px-09515_Tromsdalen_church_and_bridge_%28close-up%29_-_Tromso%2C_Norway_-_V-P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/09515_Tromsdalen_church_and_bridge_%28close-up%29_-_Tromso%2C_Norway_-_V-P.jpg/960px-09515_Tromsdalen_church_and_bridge_%28close-up%29_-_Tromso%2C_Norway_-_V-P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 960,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/09515_Tromsdalen_church_and_bridge_%28close-up%29_-_Tromso%2C_Norway_-_V-P.jpg/1920px-09515_Tromsdalen_church_and_bridge_%28close-up%29_-_Tromso%2C_Norway_-_V-P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/09515_Tromsdalen_church_and_bridge_%28close-up%29_-_Tromso%2C_Norway_-_V-P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:09515_Tromsdalen_church_and_bridge_(close-up)_-_Tromso,_Norway_-_V-P.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=129172247",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-03-01 12:06:25",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "09515 Tromsdalen church and bridge (close-up) - Tromso, Norway - V-P",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Ishavskatedralen|Tromsøbrua|Self-published work|Unassessed QI candidates|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.649223",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "18.963196",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Arctic Cathedral and eastern ramp of Tromsø bridge seen from Samuel Arnesens Gate - 1:1 format",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-06-23 21:46:15",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Virtual-Pano\" title=\"User:Virtual-Pano\">Virtual-Pano</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "129172249": {
+        "pageid": 129172249,
+        "ns": 6,
+        "title": "File:09516 Tromsdalen church and eastern half of Tromso bridge - Tromso, Norway - V-P.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 11081124,
+            "width": 7614,
+            "height": 5078,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/09516_Tromsdalen_church_and_eastern_half_of_Tromso_bridge_-_Tromso%2C_Norway_-_V-P.jpg/960px-09516_Tromsdalen_church_and_eastern_half_of_Tromso_bridge_-_Tromso%2C_Norway_-_V-P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 640,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/09516_Tromsdalen_church_and_eastern_half_of_Tromso_bridge_-_Tromso%2C_Norway_-_V-P.jpg/1920px-09516_Tromsdalen_church_and_eastern_half_of_Tromso_bridge_-_Tromso%2C_Norway_-_V-P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/09516_Tromsdalen_church_and_eastern_half_of_Tromso_bridge_-_Tromso%2C_Norway_-_V-P.jpg/960px-09516_Tromsdalen_church_and_eastern_half_of_Tromso_bridge_-_Tromso%2C_Norway_-_V-P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 640,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/09516_Tromsdalen_church_and_eastern_half_of_Tromso_bridge_-_Tromso%2C_Norway_-_V-P.jpg/1920px-09516_Tromsdalen_church_and_eastern_half_of_Tromso_bridge_-_Tromso%2C_Norway_-_V-P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/09516_Tromsdalen_church_and_eastern_half_of_Tromso_bridge_-_Tromso%2C_Norway_-_V-P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:09516_Tromsdalen_church_and_eastern_half_of_Tromso_bridge_-_Tromso,_Norway_-_V-P.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=129172249",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-03-01 12:06:35",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "09516 Tromsdalen church and eastern half of Tromso bridge - Tromso, Norway - V-P",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Ishavskatedralen|Tromsøbrua|Self-published work|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.649223",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "18.963196",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Arctic Cathedral and eastern half of Tromso bridge seen from Samuel Arnesens Gate - Tromsø, Norway",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-06-23 21:46:28",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Virtual-Pano\" title=\"User:Virtual-Pano\">Virtual-Pano</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "64919673": {
+        "pageid": 64919673,
+        "ns": 6,
+        "title": "File:Looking across to the Arctic Cathedral.jpg",
+        "index": 14,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 7068297,
+            "width": 5152,
+            "height": 3864,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Looking_across_to_the_Arctic_Cathedral.jpg/960px-Looking_across_to_the_Arctic_Cathedral.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Looking_across_to_the_Arctic_Cathedral.jpg/1920px-Looking_across_to_the_Arctic_Cathedral.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Looking_across_to_the_Arctic_Cathedral.jpg/960px-Looking_across_to_the_Arctic_Cathedral.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Looking_across_to_the_Arctic_Cathedral.jpg/1920px-Looking_across_to_the_Arctic_Cathedral.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Looking_across_to_the_Arctic_Cathedral.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Looking_across_to_the_Arctic_Cathedral.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=64919673",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-12-19 12:48:27",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Looking across to the Arctic Cathedral",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Ishavskatedralen|Photographs by Leonora Enking|Flickr images reviewed by FlickreviewR 2|Churches in Tromsø in snow",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Day Five in Norway ... back on dry land, in Tromsø.\n</p>\nAfter visiting the Arctic Cathedral, we walked back over the bridge and spent the afternoon exploring the rest of the city.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-02-24 14:37",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/33037982@N04/32448640273/\">Looking across to the Arctic Cathedral</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/33037982@N04\">Leonora (Ellie) Enking</a> from East Preston, United Kingdom",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "108470738": {
+        "pageid": 108470738,
+        "ns": 6,
+        "title": "File:Panorama Tromsø from Fjellheisen.jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1674874,
+            "width": 5376,
+            "height": 1887,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Panorama_Troms%C3%B8_from_Fjellheisen.jpg/960px-Panorama_Troms%C3%B8_from_Fjellheisen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 337,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Panorama_Troms%C3%B8_from_Fjellheisen.jpg/1920px-Panorama_Troms%C3%B8_from_Fjellheisen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Panorama_Troms%C3%B8_from_Fjellheisen.jpg/960px-Panorama_Troms%C3%B8_from_Fjellheisen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 337,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Panorama_Troms%C3%B8_from_Fjellheisen.jpg/1920px-Panorama_Troms%C3%B8_from_Fjellheisen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Panorama_Troms%C3%B8_from_Fjellheisen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Panorama_Troms%C3%B8_from_Fjellheisen.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=108470738",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-08-13 15:43:11",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Panorama Tromsø from Fjellheisen",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Views of Tromsø (city) from Mount Fløya|Self-published work|Files with coordinates missing SDC location of creation|Panoramics in Tromsø",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.636000",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "18.995300",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Panorama over Tromsø from Fjellheisen\n<p>• In the foreground: Tromsdalen district with the Arctic Cathedral (right in front of the bridge)\n• In the center of the picture: The entire island of Tromsøya with the city center of Tromsø, the harbor and Tromsø bridge, behind it Tromsø airport with Sandnessund bridge\n• Behind: Grindøysund with the islands of Grindøya and Håkøya\n</p>\n• In the background: Kvaløya and on the right Ringvassøya",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2021-07-11 13:45:35",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Happy_Discover&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Happy Discover (page does not exist)\">Happy Discover</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "35495153": {
+        "pageid": 35495153,
+        "ns": 6,
+        "title": "File:The Arctic Cathedral and Tromsø Bridge (8528102982).jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4347535,
+            "width": 3648,
+            "height": 2736,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/The_Arctic_Cathedral_and_Troms%C3%B8_Bridge_%288528102982%29.jpg/960px-The_Arctic_Cathedral_and_Troms%C3%B8_Bridge_%288528102982%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/The_Arctic_Cathedral_and_Troms%C3%B8_Bridge_%288528102982%29.jpg/1920px-The_Arctic_Cathedral_and_Troms%C3%B8_Bridge_%288528102982%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/The_Arctic_Cathedral_and_Troms%C3%B8_Bridge_%288528102982%29.jpg/960px-The_Arctic_Cathedral_and_Troms%C3%B8_Bridge_%288528102982%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/The_Arctic_Cathedral_and_Troms%C3%B8_Bridge_%288528102982%29.jpg/1920px-The_Arctic_Cathedral_and_Troms%C3%B8_Bridge_%288528102982%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/The_Arctic_Cathedral_and_Troms%C3%B8_Bridge_%288528102982%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Arctic_Cathedral_and_Troms%C3%B8_Bridge_(8528102982).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=35495153",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-09-19 22:13:42",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "The Arctic Cathedral and Tromsø Bridge (8528102982)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon Digital IXUS 870 IS|Ishavskatedralen|Flickr images reviewed by FlickreviewR|Files with coordinates missing SDC location of creation|Files from Bernt Rostad Flickr stream",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.647570",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "18.987720",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "View of the Arctic Cathedral with the Tromsø Bridge and the Tromsøya island in the background.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-03-01 11:46",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/brostad/8528102982/\">The Arctic Cathedral and Tromsø Bridge</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/67975030@N00\">Bernt Rostad</a> from Oslo, Norway",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "26254978": {
+        "pageid": 26254978,
+        "ns": 6,
+        "title": "File:Tromso arctic catherdral bridge.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 349030,
+            "width": 2047,
+            "height": 1356,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Tromso_arctic_catherdral_bridge.jpg/960px-Tromso_arctic_catherdral_bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 636,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Tromso_arctic_catherdral_bridge.jpg/1920px-Tromso_arctic_catherdral_bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Tromso_arctic_catherdral_bridge.jpg/960px-Tromso_arctic_catherdral_bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 636,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Tromso_arctic_catherdral_bridge.jpg/1920px-Tromso_arctic_catherdral_bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Tromso_arctic_catherdral_bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tromso_arctic_catherdral_bridge.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=26254978",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-05-23 10:55:54",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Tromso arctic catherdral bridge",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D7000|Ishavskatedralen|Tromsøbrua|Flickr images uploaded by Flickr upload bot",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Arctic Cathedral from Tromso",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-06-22 14:21:26",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/Flickr\" class=\"mw-redirect\" title=\"Flickr\">Flickr</a>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/90353510@N00/7608908654\">Tromso</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//www.flickr.com/people/90353510@N00\" class=\"extiw\" title=\"flickruser:90353510@N00\">Brian Marshall</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table id=\"FlickrReview\" style=\"width:100%; margin:0.3em auto; text-align:start; background-color:var(--background-color-success-subtle,#d5fdf4); padding: 3px; border:1px solid var(--border-color-base,#a2a9b1); color:inherit;\" dir=\"ltr\" lang=\"en\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><a href=\"https://en.wikipedia.org/wiki/Flickr\" class=\"extiw\" title=\"en:Flickr\">Flickr</a></b>, was uploaded to Commons using <b><a href=\"//commons.wikimedia.org/wiki/User:Flickr_upload_bot\" title=\"User:Flickr upload bot\">Flickr upload bot</a></b> on 23 May 2013, 10:55 by <span id=\"flickr_upload_bot_reviewer\"><b><a href=\"//commons.wikimedia.org/wiki/User:Danapit\" title=\"User:Danapit\">Danapit</a></b></span>. On that date, it was confirmed to be licensed under the terms of the license indicated.\n</td>\n<td><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Flickr_dots.svg/60px-Flickr_dots.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Flickr_dots.svg/120px-Flickr_dots.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"512\"></span></span>\n</td></tr></tbody></table>\n<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by/2.0/deed.en\" class=\"extiw\" title=\"creativecommons:by/2.0/deed.en\">Attribution 2.0 Generic</a> license.</div><div class=\"rlicense-desc\" style=\"text-align:start;\" dir=\"ltr\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li></ul></dd></dl>\n</div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by/2.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY 2.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution 2.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "26255071": {
+        "pageid": 26255071,
+        "ns": 6,
+        "title": "File:Tromso banner Arctic catherdral bridge.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 224794,
+            "width": 2049,
+            "height": 293,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Tromso_banner_Arctic_catherdral_bridge.jpg/960px-Tromso_banner_Arctic_catherdral_bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 137,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Tromso_banner_Arctic_catherdral_bridge.jpg/1920px-Tromso_banner_Arctic_catherdral_bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Tromso_banner_Arctic_catherdral_bridge.jpg/960px-Tromso_banner_Arctic_catherdral_bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 137,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Tromso_banner_Arctic_catherdral_bridge.jpg/1920px-Tromso_banner_Arctic_catherdral_bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Tromso_banner_Arctic_catherdral_bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tromso_banner_Arctic_catherdral_bridge.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=26255071",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-05-23 11:01:17",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Tromso banner Arctic catherdral bridge",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D7000|Wikivoyage banners of Tromso",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Arctic Cathedral from Tromso",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-06-22 14:21:26",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/File:Tromso_arctic_catherdral_bridge.jpg\" title=\"File:Tromso arctic catherdral bridge.jpg\">File:Tromso arctic catherdral bridge.jpg</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//www.flickr.com/people/90353510@N00\" class=\"extiw\" title=\"flickruser:90353510@N00\">Brian Marshall</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "35495133": {
+        "pageid": 35495133,
+        "ns": 6,
+        "title": "File:Tromsø (8528088274).jpg",
+        "index": 13,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3680045,
+            "width": 3648,
+            "height": 2736,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Troms%C3%B8_%288528088274%29.jpg/960px-Troms%C3%B8_%288528088274%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Troms%C3%B8_%288528088274%29.jpg/1920px-Troms%C3%B8_%288528088274%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Troms%C3%B8_%288528088274%29.jpg/960px-Troms%C3%B8_%288528088274%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Troms%C3%B8_%288528088274%29.jpg/1920px-Troms%C3%B8_%288528088274%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Troms%C3%B8_%288528088274%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Troms%C3%B8_(8528088274).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=35495133",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-09-19 22:13:15",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Tromsø (8528088274)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon Digital IXUS 870 IS|Tromsøbrua|Tromsø harbour|Fugløysund (ship, 1993)|Flickr images reviewed by FlickreviewR|Files with coordinates missing SDC location of creation|Files from Bernt Rostad Flickr stream",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.651682",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "18.961204",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "A fishing vessel at harbor in Tromsø with the Tromsø Bridge, Arctic Cathedral and mountains on the mainland seen in the distance.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-02-28 13:13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/brostad/8528088274/\">Tromsø</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/67975030@N00\">Bernt Rostad</a> from Oslo, Norway",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "35495141": {
+        "pageid": 35495141,
+        "ns": 6,
+        "title": "File:Tromsø Bridge (8526970865).jpg",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4056705,
+            "width": 3648,
+            "height": 2736,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Troms%C3%B8_Bridge_%288526970865%29.jpg/960px-Troms%C3%B8_Bridge_%288526970865%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Troms%C3%B8_Bridge_%288526970865%29.jpg/1920px-Troms%C3%B8_Bridge_%288526970865%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Troms%C3%B8_Bridge_%288526970865%29.jpg/960px-Troms%C3%B8_Bridge_%288526970865%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Troms%C3%B8_Bridge_%288526970865%29.jpg/1920px-Troms%C3%B8_Bridge_%288526970865%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Troms%C3%B8_Bridge_%288526970865%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Troms%C3%B8_Bridge_(8526970865).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=35495141",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-09-19 22:13:25",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Tromsø Bridge (8526970865)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon Digital IXUS 870 IS|Tromsøbrua|Flickr images reviewed by FlickreviewR|Files with coordinates missing SDC location of creation|Files from Bernt Rostad Flickr stream",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.649843",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "18.961039",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Tromsø Bridge and the Arctic Cathedral seen on a misty day in late February 2013.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-02-28 13:20",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/brostad/8526970865/\">Tromsø Bridge</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/67975030@N00\">Bernt Rostad</a> from Oslo, Norway",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "35495130": {
+        "pageid": 35495130,
+        "ns": 6,
+        "title": "File:Tromsø Bridge (8526973647).jpg",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3609799,
+            "width": 3648,
+            "height": 2736,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Troms%C3%B8_Bridge_%288526973647%29.jpg/960px-Troms%C3%B8_Bridge_%288526973647%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Troms%C3%B8_Bridge_%288526973647%29.jpg/1920px-Troms%C3%B8_Bridge_%288526973647%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Troms%C3%B8_Bridge_%288526973647%29.jpg/960px-Troms%C3%B8_Bridge_%288526973647%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Troms%C3%B8_Bridge_%288526973647%29.jpg/1920px-Troms%C3%B8_Bridge_%288526973647%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Troms%C3%B8_Bridge_%288526973647%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Troms%C3%B8_Bridge_(8526973647).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=35495130",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-09-19 22:13:10",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Tromsø Bridge (8526973647)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon Digital IXUS 870 IS|Tromsøbrua|Flickr images reviewed by FlickreviewR|Files with coordinates missing SDC location of creation|Files from Bernt Rostad Flickr stream",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.651992",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "18.962924",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "View of Tromsø Bridge connecting the island that Tromsø is located on with the mainland. At the land side of the bridge, the famous Archtic Cathedral - Ishavskatedralen - can be seen.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-02-28 13:09",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/brostad/8526973647/\">Tromsø Bridge</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/67975030@N00\">Bernt Rostad</a> from Oslo, Norway",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "35495135": {
+        "pageid": 35495135,
+        "ns": 6,
+        "title": "File:Tromsø Bridge and the Arctic Cathedral (8526971847).jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3698192,
+            "width": 3648,
+            "height": 2736,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Troms%C3%B8_Bridge_and_the_Arctic_Cathedral_%288526971847%29.jpg/960px-Troms%C3%B8_Bridge_and_the_Arctic_Cathedral_%288526971847%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Troms%C3%B8_Bridge_and_the_Arctic_Cathedral_%288526971847%29.jpg/1920px-Troms%C3%B8_Bridge_and_the_Arctic_Cathedral_%288526971847%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Troms%C3%B8_Bridge_and_the_Arctic_Cathedral_%288526971847%29.jpg/960px-Troms%C3%B8_Bridge_and_the_Arctic_Cathedral_%288526971847%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Troms%C3%B8_Bridge_and_the_Arctic_Cathedral_%288526971847%29.jpg/1920px-Troms%C3%B8_Bridge_and_the_Arctic_Cathedral_%288526971847%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Troms%C3%B8_Bridge_and_the_Arctic_Cathedral_%288526971847%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Troms%C3%B8_Bridge_and_the_Arctic_Cathedral_(8526971847).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=35495135",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-09-19 22:13:18",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Tromsø Bridge and the Arctic Cathedral (8526971847)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon Digital IXUS 870 IS|Tromsøbrua|Flickr images reviewed by FlickreviewR|Files with coordinates missing SDC location of creation|Files from Bernt Rostad Flickr stream",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.651391",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "18.960668",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Two famous landmarks in Tromsø, Norway, both from the 1960s - the 1 km long Tromsø Bridge and the white Arctic Cathedral to its right.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-02-28 13:16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/brostad/8526971847/\">Tromsø Bridge and the Arctic Cathedral</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/67975030@N00\">Bernt Rostad</a> from Oslo, Norway",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "46034152": {
+        "pageid": 46034152,
+        "ns": 6,
+        "title": "File:Tromsø bridge by nigth.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 965140,
+            "width": 4323,
+            "height": 2432,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Troms%C3%B8_bridge_by_nigth.jpg/960px-Troms%C3%B8_bridge_by_nigth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 540,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Troms%C3%B8_bridge_by_nigth.jpg/1920px-Troms%C3%B8_bridge_by_nigth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Troms%C3%B8_bridge_by_nigth.jpg/960px-Troms%C3%B8_bridge_by_nigth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 540,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Troms%C3%B8_bridge_by_nigth.jpg/1920px-Troms%C3%B8_bridge_by_nigth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Troms%C3%B8_bridge_by_nigth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Troms%C3%B8_bridge_by_nigth.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=46034152",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-01-01 20:24:10",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Tromsø bridge by nigth",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Tromsøbrua|Flickr images reviewed by FlickreviewR|Bridges in Norway at night|Night in Tromsø",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Tromsø by night. \n</p>\nThe Ice Sea cathedral to the right, and the bridge.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-03-04 00:17",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/bjornegil/16707729592/\">62/365</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/67030947@N08\">Bjørn Egil  Johansen</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "3798679": {
+        "pageid": 3798679,
+        "ns": 6,
+        "title": "File:Tromsø in midnightsun.JPG",
+        "index": 15,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1209457,
+            "width": 2816,
+            "height": 2112,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Troms%C3%B8_in_midnightsun.JPG/960px-Troms%C3%B8_in_midnightsun.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Troms%C3%B8_in_midnightsun.JPG/1920px-Troms%C3%B8_in_midnightsun.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Troms%C3%B8_in_midnightsun.JPG/960px-Troms%C3%B8_in_midnightsun.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Troms%C3%B8_in_midnightsun.JPG/1920px-Troms%C3%B8_in_midnightsun.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Troms%C3%B8_in_midnightsun.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Troms%C3%B8_in_midnightsun.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=3798679",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-03-30 11:27:46",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Tromsø in midnightsun",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Ishavskatedralen|Tromsøbrua|Tromsdalen|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work|Bridges in Norway at night",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Tromsø and the cathedral in midnight sun",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2007-07-08",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Frokor\" title=\"User:Frokor\">Frokor</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "45396253": {
+        "pageid": 45396253,
+        "ns": 6,
+        "title": "File:Tromsø vom Fjellheisen aus gesehen.jpg",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 7286082,
+            "width": 4200,
+            "height": 2800,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Troms%C3%B8_vom_Fjellheisen_aus_gesehen.jpg/960px-Troms%C3%B8_vom_Fjellheisen_aus_gesehen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 640,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Troms%C3%B8_vom_Fjellheisen_aus_gesehen.jpg/1920px-Troms%C3%B8_vom_Fjellheisen_aus_gesehen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Troms%C3%B8_vom_Fjellheisen_aus_gesehen.jpg/960px-Troms%C3%B8_vom_Fjellheisen_aus_gesehen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 640,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Troms%C3%B8_vom_Fjellheisen_aus_gesehen.jpg/1920px-Troms%C3%B8_vom_Fjellheisen_aus_gesehen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Troms%C3%B8_vom_Fjellheisen_aus_gesehen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Troms%C3%B8_vom_Fjellheisen_aus_gesehen.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=45396253",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-03-23 19:20:40",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Tromsø vom Fjellheisen aus gesehen",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Tromsøbrua|Views of Tromsø (city) from Mount Fløya|Self-published work|Norway photographs taken on 2015-06-03|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.635928",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "18.995635",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "View of Tromsø with Tromsø bridge and Tromsdalen kirke/Arctic cathedral",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-06-03 15:24:16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:JoachimKohlerBremen\" class=\"mw-redirect\" title=\"User:JoachimKohlerBremen\">JoachimKohlerBremen</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "64903076": {
+        "pageid": 64903076,
+        "ns": 6,
+        "title": "File:View from the Arctic Cathedral.jpg",
+        "index": 16,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 5049403,
+            "width": 5152,
+            "height": 3864,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/View_from_the_Arctic_Cathedral.jpg/960px-View_from_the_Arctic_Cathedral.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/View_from_the_Arctic_Cathedral.jpg/1920px-View_from_the_Arctic_Cathedral.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/View_from_the_Arctic_Cathedral.jpg/960px-View_from_the_Arctic_Cathedral.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/View_from_the_Arctic_Cathedral.jpg/1920px-View_from_the_Arctic_Cathedral.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/View_from_the_Arctic_Cathedral.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:View_from_the_Arctic_Cathedral.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=64903076",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-12-18 21:36:10",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "View from the Arctic Cathedral",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Tromsdalen|Fylkesveg 862|Snowy roads in Norway|Norway photographs taken on 2017-02-24|Photographs by Leonora Enking|Snow removal vehicles in Norway|Flickr images reviewed by FlickreviewR 2|2017 in Tromsø|Snow in Troms",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Day Five in Norway ... back on dry land, in Tromsø.\n</p><p>After breakfast, we walked across the Tromsø bridge to the mainland. It had snowed during the night, and it snowed off and on during the morning.\n</p>\nThe Arctic Cathedral, formally known as Tromsdalen Church or Tromsøysund Church, was closed until 14:00. So we walked up the hill to the chair lift to see the view from the top.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 24 February 2017, 10:18",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/33037982@N04/33251600815/\">View from the Arctic Cathedral</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/33037982@N04\">Leonora (Ellie) Enking</a> from East Preston, United Kingdom",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

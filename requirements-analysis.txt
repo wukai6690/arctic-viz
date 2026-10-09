@@ -1,0 +1,4 @@
+# Optional preparation dependencies; deployed pages read frozen JSON/GeoJSON.
+-r requirements.txt
+pyproj>=3.6,<4
+shapely>=2,<3

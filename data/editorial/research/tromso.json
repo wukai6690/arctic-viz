@@ -1,0 +1,1374 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 12,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "37250062": {
+        "pageid": 37250062,
+        "ns": 6,
+        "title": "File:TROMSO HARBOUR NORWAY JUNE 2014 (15809914138).jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 5743824,
+            "width": 4001,
+            "height": 1685,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/TROMSO_HARBOUR_NORWAY_JUNE_2014_%2815809914138%29.jpg/960px-TROMSO_HARBOUR_NORWAY_JUNE_2014_%2815809914138%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 404,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/TROMSO_HARBOUR_NORWAY_JUNE_2014_%2815809914138%29.jpg/1920px-TROMSO_HARBOUR_NORWAY_JUNE_2014_%2815809914138%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/TROMSO_HARBOUR_NORWAY_JUNE_2014_%2815809914138%29.jpg/960px-TROMSO_HARBOUR_NORWAY_JUNE_2014_%2815809914138%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 404,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/TROMSO_HARBOUR_NORWAY_JUNE_2014_%2815809914138%29.jpg/1920px-TROMSO_HARBOUR_NORWAY_JUNE_2014_%2815809914138%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/TROMSO_HARBOUR_NORWAY_JUNE_2014_%2815809914138%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:TROMSO_HARBOUR_NORWAY_JUNE_2014_(15809914138).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=37250062",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-12-11 22:14:10",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "TROMSO HARBOUR NORWAY JUNE 2014 (15809914138)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Tromsøbrua|Flickr images reviewed by FlickreviewR|Photographs by Stephen Mason|Hurtigruten in Tromsø (city)|Watercraft passing bridges in Norway",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "TROMSO HARBOUR NORWAY JUNE 2014",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-06-05 18:01",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/calflier001/15809914138/\">TROMSO HARBOUR NORWAY JUNE 2014</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/28984065@N04\">calflier001</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "29877059": {
+        "pageid": 29877059,
+        "ns": 6,
+        "title": "File:Tromsø (2540300317).jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4532591,
+            "width": 3000,
+            "height": 1970,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Troms%C3%B8_%282540300317%29.jpg/960px-Troms%C3%B8_%282540300317%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 630,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Troms%C3%B8_%282540300317%29.jpg/1920px-Troms%C3%B8_%282540300317%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Troms%C3%B8_%282540300317%29.jpg/960px-Troms%C3%B8_%282540300317%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 630,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Troms%C3%B8_%282540300317%29.jpg/1920px-Troms%C3%B8_%282540300317%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Troms%C3%B8_%282540300317%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Troms%C3%B8_(2540300317).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=29877059",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-11-27 02:42:48",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Tromsø (2540300317)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Sony DSLR-A100|Tromsø harbour|Flickr images reviewed by File Upload Bot (Magnus Manske)|Norway photographs taken on 2008-05-28|Hurtigruten in Tromsø (city)|Photographs of Tromsø by Randi Hausken",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Tromsø",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2008-05-28 16:52",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/randihausken/2540300317/\">Tromsø</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/46406832@N00\">Randi Hausken</a> from Bærum, Norway",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "29602867": {
+        "pageid": 29602867,
+        "ns": 6,
+        "title": "File:Tromsø 2013 06 05 2413 (10118521525).jpg",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 37496221,
+            "width": 7360,
+            "height": 4912,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Troms%C3%B8_2013_06_05_2413_%2810118521525%29.jpg/960px-Troms%C3%B8_2013_06_05_2413_%2810118521525%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 641,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Troms%C3%B8_2013_06_05_2413_%2810118521525%29.jpg/1920px-Troms%C3%B8_2013_06_05_2413_%2810118521525%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Troms%C3%B8_2013_06_05_2413_%2810118521525%29.jpg/960px-Troms%C3%B8_2013_06_05_2413_%2810118521525%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 641,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Troms%C3%B8_2013_06_05_2413_%2810118521525%29.jpg/1920px-Troms%C3%B8_2013_06_05_2413_%2810118521525%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Troms%C3%B8_2013_06_05_2413_%2810118521525%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Troms%C3%B8_2013_06_05_2413_(10118521525).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=29602867",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-11-13 16:44:59",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Tromsø 2013 06 05 2413 (10118521525)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D800|Tromsøbrua|Views of Tromsø (city) from Mount Fløya|Flickr images reviewed by File Upload Bot (Magnus Manske)|Files created by Harvey Barrison|Files with coordinates missing SDC location of creation|Northern harbour, Tromsø|Hansjordnesbukta",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.641046",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "18.994319",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "After taking Fjellheisen, the cable car to Stor­stei­nen (Big Rock) on Mount Fløya  we get views of Tromsdalen and the Island of Tromsoya",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-06-05 13:40",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/hbarrison/10118521525/\">Tromsø_2013 06 05_2413</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:Arsenikk\" title=\"User:Arsenikk\">Arsenikk</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/10299779@N03\">Harvey Barrison</a> from Massapequa, NY, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "173223100": {
+        "pageid": 173223100,
+        "ns": 6,
+        "title": "File:Tromsø Hafen lub 2025-07-19.jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 23953408,
+            "width": 7952,
+            "height": 5304,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Troms%C3%B8_Hafen_lub_2025-07-19.jpg/960px-Troms%C3%B8_Hafen_lub_2025-07-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 640,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Troms%C3%B8_Hafen_lub_2025-07-19.jpg/1920px-Troms%C3%B8_Hafen_lub_2025-07-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Troms%C3%B8_Hafen_lub_2025-07-19.jpg/960px-Troms%C3%B8_Hafen_lub_2025-07-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 640,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Troms%C3%B8_Hafen_lub_2025-07-19.jpg/1920px-Troms%C3%B8_Hafen_lub_2025-07-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Troms%C3%B8_Hafen_lub_2025-07-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Troms%C3%B8_Hafen_lub_2025-07-19.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=173223100",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-08-21 13:26:26",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Tromsø Hafen lub 2025-07-19",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Tromsøya|Tromsø harbour|Self-published work|Files with coordinates missing SDC location of creation|Watercraft in Norway photographed in 2025|Ships in Tromsø (city)|July 2025 in the Atlantic Ocean|Three-quarter views of ships|Norway photographs taken on 2025-07-19|2025 in Tromsø|M-15-A Sørøyfisk (ship, 2010)|Photographs by Lukas Beck taken in 2025 in Norway",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.673396",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "18.979346",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "M-15-A Sørøyfisk at the harbor in Tromsø, Troms, Norway. The fishing vessel is moored in Breivika Bay in Tromsøysundet.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-07-19 12:38:35",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:L._Beck\" title=\"User:L. Beck\">Lukas Beck</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "180662128": {
+        "pageid": 180662128,
+        "ns": 6,
+        "title": "File:Tromsø – Bug des Frachtsschiffs Max Mammut (1996).jpg",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 9490975,
+            "width": 6984,
+            "height": 4520,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Troms%C3%B8_%E2%80%93_Bug_des_Frachtsschiffs_Max_Mammut_%281996%29.jpg/960px-Troms%C3%B8_%E2%80%93_Bug_des_Frachtsschiffs_Max_Mammut_%281996%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 621,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Troms%C3%B8_%E2%80%93_Bug_des_Frachtsschiffs_Max_Mammut_%281996%29.jpg/1920px-Troms%C3%B8_%E2%80%93_Bug_des_Frachtsschiffs_Max_Mammut_%281996%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Troms%C3%B8_%E2%80%93_Bug_des_Frachtsschiffs_Max_Mammut_%281996%29.jpg/960px-Troms%C3%B8_%E2%80%93_Bug_des_Frachtsschiffs_Max_Mammut_%281996%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 621,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Troms%C3%B8_%E2%80%93_Bug_des_Frachtsschiffs_Max_Mammut_%281996%29.jpg/1920px-Troms%C3%B8_%E2%80%93_Bug_des_Frachtsschiffs_Max_Mammut_%281996%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Troms%C3%B8_%E2%80%93_Bug_des_Frachtsschiffs_Max_Mammut_%281996%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Troms%C3%B8_%E2%80%93_Bug_des_Frachtsschiffs_Max_Mammut_(1996).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=180662128",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-12-25 19:47:47",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Tromsø – Bug des Frachtsschiffs Max Mammut (1996)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "1996 in Norway|1996 photographs of Norway|Tromsø harbour|Cargo ships in Norway|Ships in Tromsø (city)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Hafen von Tromsø - Der Bug des Frachtschiffs <i>Max Mammut</i> glänzt über dem Wasser des Hafenbeckens.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1996",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\">Self-photographed</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Letterix\" title=\"User:Letterix\">ingostrutz</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "180662175": {
+        "pageid": 180662175,
+        "ns": 6,
+        "title": "File:Tromsø – Bug eines vertäuten grünen Fischkutters (1996).jpg",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 10075464,
+            "width": 7135,
+            "height": 4600,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Troms%C3%B8_%E2%80%93_Bug_eines_vert%C3%A4uten_gr%C3%BCnen_Fischkutters_%281996%29.jpg/960px-Troms%C3%B8_%E2%80%93_Bug_eines_vert%C3%A4uten_gr%C3%BCnen_Fischkutters_%281996%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 619,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Troms%C3%B8_%E2%80%93_Bug_eines_vert%C3%A4uten_gr%C3%BCnen_Fischkutters_%281996%29.jpg/1920px-Troms%C3%B8_%E2%80%93_Bug_eines_vert%C3%A4uten_gr%C3%BCnen_Fischkutters_%281996%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Troms%C3%B8_%E2%80%93_Bug_eines_vert%C3%A4uten_gr%C3%BCnen_Fischkutters_%281996%29.jpg/960px-Troms%C3%B8_%E2%80%93_Bug_eines_vert%C3%A4uten_gr%C3%BCnen_Fischkutters_%281996%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 619,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Troms%C3%B8_%E2%80%93_Bug_eines_vert%C3%A4uten_gr%C3%BCnen_Fischkutters_%281996%29.jpg/1920px-Troms%C3%B8_%E2%80%93_Bug_eines_vert%C3%A4uten_gr%C3%BCnen_Fischkutters_%281996%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Troms%C3%B8_%E2%80%93_Bug_eines_vert%C3%A4uten_gr%C3%BCnen_Fischkutters_%281996%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Troms%C3%B8_%E2%80%93_Bug_eines_vert%C3%A4uten_gr%C3%BCnen_Fischkutters_(1996).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=180662175",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-12-25 19:49:20",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Tromsø – Bug eines vertäuten grünen Fischkutters (1996)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "1996 in Norway|1996 photographs of Norway|Tromsø harbour|Fishing boats of Norway|Ships in Tromsø (city)|Boats with other subjects",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Hafen von Tromsø – Bug eines vertäuten grünen Fischkutters mit Sicherungsleinen und Fender.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1996",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\">Self-photographed</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Letterix\" title=\"User:Letterix\">ingostrutz</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "180662338": {
+        "pageid": 180662338,
+        "ns": 6,
+        "title": "File:Tromsø – Spiegelung im Hafenwasser (1996).jpg",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3976746,
+            "width": 7122,
+            "height": 4574,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Troms%C3%B8_%E2%80%93_Spiegelung_im_Hafenwasser_%281996%29.jpg/960px-Troms%C3%B8_%E2%80%93_Spiegelung_im_Hafenwasser_%281996%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 617,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Troms%C3%B8_%E2%80%93_Spiegelung_im_Hafenwasser_%281996%29.jpg/1920px-Troms%C3%B8_%E2%80%93_Spiegelung_im_Hafenwasser_%281996%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Troms%C3%B8_%E2%80%93_Spiegelung_im_Hafenwasser_%281996%29.jpg/960px-Troms%C3%B8_%E2%80%93_Spiegelung_im_Hafenwasser_%281996%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 617,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Troms%C3%B8_%E2%80%93_Spiegelung_im_Hafenwasser_%281996%29.jpg/1920px-Troms%C3%B8_%E2%80%93_Spiegelung_im_Hafenwasser_%281996%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Troms%C3%B8_%E2%80%93_Spiegelung_im_Hafenwasser_%281996%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Troms%C3%B8_%E2%80%93_Spiegelung_im_Hafenwasser_(1996).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=180662338",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-12-25 19:54:13",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Tromsø – Spiegelung im Hafenwasser (1996)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "1996 in Norway|1996 photographs of Norway|Tromsø harbour|Fishing boats of Norway|Water reflections of boats|Ships in Tromsø (city)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Hafen von Tromsø – Das Heck eines Fischerboots spiegelt sich im Hafenwasser.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1996",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\">Self-photographed</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Letterix\" title=\"User:Letterix\">ingostrutz</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "142838349": {
+        "pageid": 142838349,
+        "ns": 6,
+        "title": "File:Vesterålen at Prostneset Tromsø 2022-09-08 01.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 23851862,
+            "width": 8384,
+            "height": 5612,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_01.jpg/960px-Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 643,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_01.jpg/1920px-Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_01.jpg/960px-Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 643,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_01.jpg/1920px-Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_01.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=142838349",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-12-24 13:46:40",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vesterålen at Prostneset Tromsø 2022-09-08 01",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Vesterålen (ship, 1983)|Self-published work|Files with coordinates missing SDC location of creation|Photographs by Leonhard Lenz|Hurtigruten in Tromsø (city)|Tromsø Prostneset harbour terminal",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.646815",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "18.959915",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Vesterålen ship at the Prostneset in Tromsø.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-09-08 16:25:33",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:GPSLeo\" title=\"User:GPSLeo\">Leonhard Lenz</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "142838358": {
+        "pageid": 142838358,
+        "ns": 6,
+        "title": "File:Vesterålen at Prostneset Tromsø 2022-09-08 02.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 25163162,
+            "width": 8384,
+            "height": 5612,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_02.jpg/960px-Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 643,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_02.jpg/1920px-Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_02.jpg/960px-Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 643,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_02.jpg/1920px-Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_02.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=142838358",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-12-24 13:46:56",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vesterålen at Prostneset Tromsø 2022-09-08 02",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Vesterålen (ship, 1983)|Self-published work|Files with coordinates missing SDC location of creation|Photographs by Leonhard Lenz|Hurtigruten in Tromsø (city)|Tromsø Prostneset harbour terminal",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.646692",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "18.960035",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Vesterålen ship at the Prostneset in Tromsø.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-09-08 16:25:44",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:GPSLeo\" title=\"User:GPSLeo\">Leonhard Lenz</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "142838368": {
+        "pageid": 142838368,
+        "ns": 6,
+        "title": "File:Vesterålen at Prostneset Tromsø 2022-09-08 03.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 28612276,
+            "width": 8384,
+            "height": 5612,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_03.jpg/960px-Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 643,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_03.jpg/1920px-Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_03.jpg/960px-Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 643,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_03.jpg/1920px-Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_03.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=142838368",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-12-24 13:47:14",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vesterålen at Prostneset Tromsø 2022-09-08 03",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Vesterålen (ship, 1983)|Self-published work|Files with coordinates missing SDC location of creation|Photographs by Leonhard Lenz|Hurtigruten in Tromsø (city)|Tromsø Prostneset harbour terminal",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.644634",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "18.952995",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Vesterålen ship at the Prostneset in Tromsø.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-09-08 16:44:49",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:GPSLeo\" title=\"User:GPSLeo\">Leonhard Lenz</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "142838381": {
+        "pageid": 142838381,
+        "ns": 6,
+        "title": "File:Vesterålen at Prostneset Tromsø 2022-09-08 04.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 29583169,
+            "width": 8384,
+            "height": 5612,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_04.jpg/960px-Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 643,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_04.jpg/1920px-Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_04.jpg/960px-Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 643,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_04.jpg/1920px-Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_04.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=142838381",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-12-24 13:47:33",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vesterålen at Prostneset Tromsø 2022-09-08 04",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Vesterålen (ship, 1983)|Self-published work|Files with coordinates missing SDC location of creation|Photographs by Leonhard Lenz|Hurtigruten in Tromsø (city)|Tromsø Prostneset harbour terminal",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.644984",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "18.952173",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Vesterålen ship at the Prostneset in Tromsø.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-09-08 16:45:44",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:GPSLeo\" title=\"User:GPSLeo\">Leonhard Lenz</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "142838389": {
+        "pageid": 142838389,
+        "ns": 6,
+        "title": "File:Vesterålen at Prostneset Tromsø 2022-09-08 05.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 29511778,
+            "width": 8384,
+            "height": 5612,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_05.jpg/960px-Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 643,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_05.jpg/1920px-Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_05.jpg/960px-Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 643,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_05.jpg/1920px-Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_05.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=142838389",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-12-24 13:47:51",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vesterålen at Prostneset Tromsø 2022-09-08 05",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Vesterålen (ship, 1983)|Self-published work|Files with coordinates missing SDC location of creation|Photographs by Leonhard Lenz|Hurtigruten in Tromsø (city)|Tromsø Prostneset harbour terminal",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.646128",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "18.954497",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Vesterålen ship at the Prostneset in Tromsø.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-09-08 16:47:41",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:GPSLeo\" title=\"User:GPSLeo\">Leonhard Lenz</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

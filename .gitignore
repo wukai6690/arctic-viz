@@ -18,3 +18,16 @@ data/raw/
 data/__pycache__/
 *.pdf
 *.zip
+rebuild/storage/
+rebuild/web/node_modules/
+rebuild/web/dist/
+rebuild/web/public/cesium/
+rebuild/.npm-cache/
+rebuild/test-results/
+rebuild/web/*.tsbuildinfo
+
+.run/
+test-results/
+.analysis-deps/
+data/analysis/raw/*.zip
+static/exports/

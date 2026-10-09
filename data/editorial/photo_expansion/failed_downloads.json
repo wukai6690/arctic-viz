@@ -1,0 +1,52 @@
+[
+  {
+    "selection": {
+      "kind": "project",
+      "owner": "kinuvik",
+      "title": "Inuvik-satellite-station-facility 385.jpg",
+      "caption": "伊努维克地面站天线及 Gwich’in 艺术图案（2019 年）；作为设施与社区背景",
+      "subject_scope": "伊努维克地面站背景；不据照片认定天线属于 Kinuvik"
+    },
+    "error": "429 Client Error: Too Many Requests (015d12c) for url: https://upload.wikimedia.org/wikipedia/commons/9/94/Inuvik-satellite-station-facility_385.jpg"
+  },
+  {
+    "selection": {
+      "kind": "project",
+      "owner": "yamal",
+      "title": "Yamalspg.jpg",
+      "caption": "亚马尔 LNG 工业设施实景（2020 年）",
+      "subject_scope": "亚马尔 LNG 项目设施"
+    },
+    "error": "429 Client Error: Too Many Requests (015d12c) for url: https://upload.wikimedia.org/wikipedia/commons/f/fe/Yamalspg.jpg"
+  },
+  {
+    "selection": {
+      "kind": "project",
+      "owner": "yamal",
+      "title": "Сабетта. СПГ.jpg",
+      "caption": "萨别塔的 LNG 设施（2017 年）",
+      "subject_scope": "亚马尔 LNG 项目设施"
+    },
+    "error": "429 Client Error: Too Many Requests (015d12c) for url: https://upload.wikimedia.org/wikipedia/commons/f/fb/%D0%A1%D0%B0%D0%B1%D0%B5%D1%82%D1%82%D0%B0._%D0%A1%D0%9F%D0%93.jpg"
+  },
+  {
+    "selection": {
+      "kind": "place",
+      "owner": "kullorsuaq",
+      "title": "Kullorsuaq1.jpg",
+      "caption": "向西眺望库洛尔苏阿克聚落（2012 年）",
+      "subject_scope": "库洛尔苏阿克"
+    },
+    "error": "429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/e/e5/Kullorsuaq1.jpg"
+  },
+  {
+    "selection": {
+      "kind": "place",
+      "owner": "tiksi",
+      "title": "NOAA - Tiksi, Siberia.jpg",
+      "caption": "NOAA 来源的季克西实景照片",
+      "subject_scope": "季克西"
+    },
+    "error": "429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/2/2d/NOAA_-_Tiksi%2C_Siberia.jpg"
+  }
+]

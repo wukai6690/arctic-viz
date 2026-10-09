@@ -1,0 +1,25 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "45030124": {
+        "pageid": 45030124,
+        "ns": 0,
+        "title": "Sabetta",
+        "coordinates": [
+          {
+            "lat": 71.2733,
+            "lon": 72.0725,
+            "primary": "",
+            "globe": "earth"
+          }
+        ],
+        "pageprops": {
+          "page_image_free": "Tor_icebreaker_(2225296).jpg",
+          "wikibase-shortdesc": "Place in Yamalo-Nenets Autonomous Okrug, Russia",
+          "wikibase_item": "Q21644283"
+        }
+      }
+    }
+  }
+}

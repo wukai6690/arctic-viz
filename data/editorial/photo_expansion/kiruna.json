@@ -1,0 +1,2085 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 18,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "122088950": {
+        "pageid": 122088950,
+        "ns": 6,
+        "title": "File:E 10 road near Låktatjåkka in Kiruna, Norrbottens län, Sweden, 2022 June.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 8348180,
+            "width": 3600,
+            "height": 2480,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/E_10_road_near_L%C3%A5ktatj%C3%A5kka_in_Kiruna%2C_Norrbottens_l%C3%A4n%2C_Sweden%2C_2022_June.jpg/1280px-E_10_road_near_L%C3%A5ktatj%C3%A5kka_in_Kiruna%2C_Norrbottens_l%C3%A4n%2C_Sweden%2C_2022_June.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 882,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/d/d9/E_10_road_near_L%C3%A5ktatj%C3%A5kka_in_Kiruna%2C_Norrbottens_l%C3%A4n%2C_Sweden%2C_2022_June.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/E_10_road_near_L%C3%A5ktatj%C3%A5kka_in_Kiruna%2C_Norrbottens_l%C3%A4n%2C_Sweden%2C_2022_June.jpg/1280px-E_10_road_near_L%C3%A5ktatj%C3%A5kka_in_Kiruna%2C_Norrbottens_l%C3%A4n%2C_Sweden%2C_2022_June.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 882,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/d/d9/E_10_road_near_L%C3%A5ktatj%C3%A5kka_in_Kiruna%2C_Norrbottens_l%C3%A4n%2C_Sweden%2C_2022_June.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/E_10_road_near_L%C3%A5ktatj%C3%A5kka_in_Kiruna%2C_Norrbottens_l%C3%A4n%2C_Sweden%2C_2022_June.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:E_10_road_near_L%C3%A5ktatj%C3%A5kka_in_Kiruna,_Norrbottens_l%C3%A4n,_Sweden,_2022_June.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=122088950",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-08-20 19:40:50",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "E 10 road near Låktatjåkka in Kiruna, Norrbottens län, Sweden, 2022 June",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Hasselblad L1D-20c|Rivers of Norrbotten County|E10 (Sweden)|Uploaded with VicuñaUploader|Bridges in Norrbotten County|Sweden photographs taken on 2022-06-08|Featured pictures by User:Ximonic|Snow in Sweden|Aerial photographs of roads|Curves (road)|Mountains with clouds|Summer landscapes in Sweden|Featured pictures of Norrbotten County|Summer in Norrbotten County|Files with coordinates missing SDC location of creation|Snow in Europe in June|Mountains with snow in Sweden|2022 in Norrbotten County|Featured pictures from unmanned aerial vehicles|Sweden by User:Ximonic|Transport in Kiruna Municipality|Aerial photographs of Kiruna Municipality|Bodies of water in Kiruna Municipality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "featured",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "68.423499",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "18.298415",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "E 10 road near Låktatjåkka in Kiruna, Norrbottens län, Sweden in 2022 June. Gearggejohka river flows below.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-06-08",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Ximonic\" title=\"User:Ximonic\">Ximonic</a> (Simo Räsänen)",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Simo Räsänen",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "68903928": {
+        "pageid": 68903928,
+        "ns": 6,
+        "title": "File:ICA Kvantum Kiruna September 2017 02.jpg",
+        "index": 16,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 10128985,
+            "width": 4494,
+            "height": 3000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/ICA_Kvantum_Kiruna_September_2017_02.jpg/1280px-ICA_Kvantum_Kiruna_September_2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 854,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/ICA_Kvantum_Kiruna_September_2017_02.jpg/3840px-ICA_Kvantum_Kiruna_September_2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/ICA_Kvantum_Kiruna_September_2017_02.jpg/1280px-ICA_Kvantum_Kiruna_September_2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 854,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/ICA_Kvantum_Kiruna_September_2017_02.jpg/3840px-ICA_Kvantum_Kiruna_September_2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/ICA_Kvantum_Kiruna_September_2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:ICA_Kvantum_Kiruna_September_2017_02.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=68903928",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-05-08 17:50:17",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "ICA Kvantum Kiruna September 2017 02",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D600|Taken with AF-S Nikkor 70-200mm f/2.8G ED VR II|Buildings in Kiruna|Self-published work|Media created through community driven projects funded by Wikimedia Sverige - Travel grants|Media created by technology pool of Wikimedia Sverige|Community driven project Fotosafari Kiruna 2017 funded by Wikimedia Sverige|Images by Arild Vågen - Kiruna|ICA Kvantum|Aerial photographs of Kiruna",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Supermarket (ICA Kvantum) in Kiruna, Sweden.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-09-03 12:50:04",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:ArildV\" title=\"User:ArildV\">Arild Vågen</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "68806372": {
+        "pageid": 68806372,
+        "ns": 6,
+        "title": "File:Kiruna September 2017 01.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 22997569,
+            "width": 5864,
+            "height": 3915,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Kiruna_September_2017_01.jpg/1280px-Kiruna_September_2017_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 855,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Kiruna_September_2017_01.jpg/3840px-Kiruna_September_2017_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Kiruna_September_2017_01.jpg/1280px-Kiruna_September_2017_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 855,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Kiruna_September_2017_01.jpg/3840px-Kiruna_September_2017_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Kiruna_September_2017_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kiruna_September_2017_01.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=68806372",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-05-05 07:16:23",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kiruna September 2017 01",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D600|Images with annotations|Kiruna iron mine|Taken with AF-S Nikkor 70-200mm f/2.8G ED VR II|Kirunavaara|Self-published work|Månadens bästa bild|Media created through community driven projects funded by Wikimedia Sverige - Travel grants|Media created by technology pool of Wikimedia Sverige|Community driven project Fotosafari Kiruna 2017 funded by Wikimedia Sverige|Images by Arild Vågen - Kiruna|Årets bästa bild|Aerial photographs of Kiruna",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Kiruna town center and Kiruna iron mine‎ in the background.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-09-03 12:55:16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:ArildV\" title=\"User:ArildV\">Arild Vågen</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "63433479": {
+        "pageid": 63433479,
+        "ns": 6,
+        "title": "File:Kiruna centrum September 2017 04.jpg",
+        "index": 18,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 9680066,
+            "width": 4888,
+            "height": 3263,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Kiruna_centrum_September_2017_04.jpg/1280px-Kiruna_centrum_September_2017_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 854,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Kiruna_centrum_September_2017_04.jpg/3840px-Kiruna_centrum_September_2017_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Kiruna_centrum_September_2017_04.jpg/1280px-Kiruna_centrum_September_2017_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 854,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Kiruna_centrum_September_2017_04.jpg/3840px-Kiruna_centrum_September_2017_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Kiruna_centrum_September_2017_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kiruna_centrum_September_2017_04.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=63433479",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-10-17 20:08:43",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kiruna centrum September 2017 04",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Föreningsgatan, Kiruna|Buildings in Kiruna|Self-published work|Shops in Sweden|Media created through community driven projects funded by Wikimedia Sverige - Travel grants|Media created by technology pool of Wikimedia Sverige|Community driven project Fotosafari Kiruna 2017 funded by Wikimedia Sverige|Images by Arild Vågen - Kiruna|Files with coordinates missing SDC location of creation|Sweden photographs taken on 2017-09-03|Bergmästaregatan",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "67.853592",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "20.227686",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Intersection of Borgmästaregatan och Föreningsgatan in Kiruna, Sweden.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-09-03 15:09:05",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:ArildV\" title=\"User:ArildV\">Arild Vågen</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "62927188": {
+        "pageid": 62927188,
+        "ns": 6,
+        "title": "File:Kiruna kyrka August 2017 02.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 9034170,
+            "width": 3893,
+            "height": 3858,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Kiruna_kyrka_August_2017_02.jpg/1280px-Kiruna_kyrka_August_2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1268,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Kiruna_kyrka_August_2017_02.jpg/3840px-Kiruna_kyrka_August_2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Kiruna_kyrka_August_2017_02.jpg/1280px-Kiruna_kyrka_August_2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1268,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Kiruna_kyrka_August_2017_02.jpg/3840px-Kiruna_kyrka_August_2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kiruna_kyrka_August_2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kiruna_kyrka_August_2017_02.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=62927188",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-09-30 07:55:12",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kiruna kyrka August 2017 02",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Interior of Kiruna Church|Self-published work|Church ceilings in Sweden|Månadens bästa bild|Images from Wiki Loves Monuments 2017|Featured pictures by Arild Vågen|Images from Wiki Loves Monuments 2017 in Sweden|Listed buildings in Sweden with known IDs|Featured pictures of churches in Sweden|Media created through community driven projects funded by Wikimedia Sverige - Other grants|Media created through community driven projects funded by Wikimedia Sverige - Travel grants|Media created by technology pool of Wikimedia Sverige|Uploaded via Campaign:wlm-se-bbr|Community driven project Fotosafari Kiruna 2017 funded by Wikimedia Sverige|Images by Arild Vågen - Kiruna|Images by Arild Vågen - WLM 2017|Sweden photographs taken on 2017-09-02|Featured pictures from Wiki Loves Monuments 2017|Content made available through Wikimedia Sverige competitions|Featured pictures of ceilings",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality|featured",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "67.852033",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "20.233233",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Kiruna Church (Swedish: Kiruna kyrka) is a church building in Kiruna, Sweden, and is one of Sweden's largest wooden buildings. The church exterior is built in a Gothic Revival style, while the altar is in Art Nouveau. The church was built between 1909–1912, and consecrated by Bishop Olof Bergqvist on 8 December 1912. Since 1913, the church is included in the Jukkasjärvi parish in the diocese of Luleå, Church of Sweden.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-09-02 11:29:21",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:ArildV\" title=\"User:ArildV\">Arild Vågen</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "62927197": {
+        "pageid": 62927197,
+        "ns": 6,
+        "title": "File:Kiruna kyrka August 2017 05.jpg",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 15919048,
+            "width": 5910,
+            "height": 3945,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Kiruna_kyrka_August_2017_05.jpg/1280px-Kiruna_kyrka_August_2017_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 854,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Kiruna_kyrka_August_2017_05.jpg/3840px-Kiruna_kyrka_August_2017_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Kiruna_kyrka_August_2017_05.jpg/1280px-Kiruna_kyrka_August_2017_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 854,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Kiruna_kyrka_August_2017_05.jpg/3840px-Kiruna_kyrka_August_2017_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Kiruna_kyrka_August_2017_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kiruna_kyrka_August_2017_05.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=62927197",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-09-30 07:55:21",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kiruna kyrka August 2017 05",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Interior of Kiruna Church|Self-published work|Images from Wiki Loves Monuments 2017|Images from Wiki Loves Monuments 2017 in Sweden|Listed buildings in Sweden with known IDs|Media created through community driven projects funded by Wikimedia Sverige - Other grants|Media created through community driven projects funded by Wikimedia Sverige - Travel grants|Media created by technology pool of Wikimedia Sverige|Uploaded via Campaign:wlm-se-bbr|Community driven project Fotosafari Kiruna 2017 funded by Wikimedia Sverige|Images by Arild Vågen - Kiruna|Images by Arild Vågen - WLM 2017|Sweden photographs taken on 2017-09-02|Content made available through Wikimedia Sverige competitions|Kiruna Church organ",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "67.852033",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "20.233233",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Kiruna Church (Swedish: Kiruna kyrka) is a church building in Kiruna, Sweden, and is one of Sweden's largest wooden buildings. The church exterior is built in a Gothic Revival style, while the altar is in Art Nouveau. The church was built between 1909–1912, and consecrated by Bishop Olof Bergqvist on 8 December 1912. Since 1913, the church is included in the Jukkasjärvi parish in the diocese of Luleå, Church of Sweden.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-09-02 11:32:04",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:ArildV\" title=\"User:ArildV\">Arild Vågen</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "62142047": {
+        "pageid": 62142047,
+        "ns": 6,
+        "title": "File:Kiruna kyrka September 2017 02.jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 7506166,
+            "width": 3513,
+            "height": 2345,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Kiruna_kyrka_September_2017_02.jpg/1280px-Kiruna_kyrka_September_2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 854,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Kiruna_kyrka_September_2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Kiruna_kyrka_September_2017_02.jpg/1280px-Kiruna_kyrka_September_2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 854,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Kiruna_kyrka_September_2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Kiruna_kyrka_September_2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kiruna_kyrka_September_2017_02.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=62142047",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-09-03 14:35:24",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kiruna kyrka September 2017 02",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D600|Taken with AF-S Nikkor 70-200mm f/2.8G ED VR II|Self-published work|Images from Wiki Loves Monuments 2017|Images from Wiki Loves Monuments 2017 in Sweden|Listed buildings in Sweden with known IDs|Community driven project Fotosafari Kiruna 2017 funded by Wikimedia Sverige|Images by Arild Vågen - Kiruna|Images by Arild Vågen - WLM 2017|Sweden photographs taken on 2017-09-03|Content made available through Wikimedia Sverige competitions|Aerial photographs of Kiruna|Kiruna kyrka (old location)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "67.852033",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "20.233233",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Kiruna church, Kiruna (Sweden).\n<table style=\"width:430px; text-align:unset; color:var(--color-base,#202122); background:var(--background-color-interactive--hover,#dadde3); border:1px solid var(--border-color-base,#a2a9b1); margin:1px; border-spacing:0;\" lang=\"en\" dir=\"ltr\" class=\"layouttemplate\">\n<tbody><tr>\n<td style=\"width:22px; height:22px;\"><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Sev%C3%A4rd.svg/20px-Sev%C3%A4rd.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Sev%C3%A4rd.svg/40px-Sev%C3%A4rd.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"241\" data-file-height=\"241\"></span></span>\n</td>\n<td style=\"font-size:8pt; padding:1pt; line-height:1.1em;\">\n<p>This is a photo of a <a href=\"https://en.wikipedia.org/wiki/Listed_buildings_in_Sweden\" class=\"extiw\" title=\"w:Listed buildings in Sweden\">protected building</a> in Sweden, number <a rel=\"nofollow\" class=\"external text\" href=\"http://kulturarvsdata.se/raa/bbr/html/21300000003898\">21300000003898</a>  in the <a href=\"https://en.wikipedia.org/wiki/Swedish_National_Heritage_Board\" class=\"extiw\" title=\"en:Swedish National Heritage Board\">RAÄ</a> buildings database.\n</p>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-09-03 13:01:11",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:ArildV\" title=\"User:ArildV\">Arild Vågen</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "62156151": {
+        "pageid": 62156151,
+        "ns": 6,
+        "title": "File:Kiruna kyrka September 2017 04.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 11276945,
+            "width": 3467,
+            "height": 2774,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Kiruna_kyrka_September_2017_04.jpg/1280px-Kiruna_kyrka_September_2017_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1024,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/0/07/Kiruna_kyrka_September_2017_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Kiruna_kyrka_September_2017_04.jpg/1280px-Kiruna_kyrka_September_2017_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1024,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/07/Kiruna_kyrka_September_2017_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Kiruna_kyrka_September_2017_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kiruna_kyrka_September_2017_04.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=62156151",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-09-09 14:35:31",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kiruna kyrka September 2017 04",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D600|Taken with AF-S Nikkor 70-200mm f/2.8G ED VR II|Self-published work|Images from Wiki Loves Monuments 2017|Featured pictures by Arild Vågen|Images from Wiki Loves Monuments 2017 in Sweden|Listed buildings in Sweden with known IDs|Featured pictures of churches in Sweden|Featured pictures from Wiki Loves Monuments Sweden|Aerial photographs of churches in Sweden|Featured pictures created by technology pool of Wikimedia Sverige|Community driven project Fotosafari Kiruna 2017 funded by Wikimedia Sverige|Images by Arild Vågen - Kiruna|Images by Arild Vågen - WLM 2017|Featured pictures of Norrbotten County|Content made available through Wikimedia Sverige competitions|Aerial photographs of Kiruna|Kiruna kyrka (old location)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality|featured|valued",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "67.852033",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "20.233233",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Kiruna Church (Swedish: Kiruna kyrka) is a church building in Kiruna, Sweden, and is one of Sweden's largest wooden buildings. The church exterior is built in a Gothic Revival style, while the altar is in Art Nouveau. The church was built between 1909–1912, and consecrated by Bishop Olof Bergqvist on 8 December 1912. Since 1913, the church is included in the Jukkasjärvi parish in the diocese of Luleå, Church of Sweden.\n<table style=\"width:430px; text-align:unset; color:var(--color-base,#202122); background:var(--background-color-interactive--hover,#dadde3); border:1px solid var(--border-color-base,#a2a9b1); margin:1px; border-spacing:0;\" lang=\"en\" dir=\"ltr\" class=\"layouttemplate\">\n<tbody><tr>\n<td style=\"width:22px; height:22px;\"><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Sev%C3%A4rd.svg/20px-Sev%C3%A4rd.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Sev%C3%A4rd.svg/40px-Sev%C3%A4rd.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"241\" data-file-height=\"241\"></span></span>\n</td>\n<td style=\"font-size:8pt; padding:1pt; line-height:1.1em;\">\n<p>This is a photo of a <a href=\"https://en.wikipedia.org/wiki/Listed_buildings_in_Sweden\" class=\"extiw\" title=\"w:Listed buildings in Sweden\">protected building</a> in Sweden, number <a rel=\"nofollow\" class=\"external text\" href=\"http://kulturarvsdata.se/raa/bbr/html/21300000003898\">21300000003898</a>  in the <a href=\"https://en.wikipedia.org/wiki/Swedish_National_Heritage_Board\" class=\"extiw\" title=\"en:Swedish National Heritage Board\">RAÄ</a> buildings database.\n</p>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-09-03 13:01:47",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:ArildV\" title=\"User:ArildV\">Arild Vågen</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "62195636": {
+        "pageid": 62195636,
+        "ns": 6,
+        "title": "File:Kiruna kyrka September 2017 05.jpg",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 13126607,
+            "width": 6016,
+            "height": 3384,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Kiruna_kyrka_September_2017_05.jpg/1280px-Kiruna_kyrka_September_2017_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Kiruna_kyrka_September_2017_05.jpg/3840px-Kiruna_kyrka_September_2017_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Kiruna_kyrka_September_2017_05.jpg/1280px-Kiruna_kyrka_September_2017_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Kiruna_kyrka_September_2017_05.jpg/3840px-Kiruna_kyrka_September_2017_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Kiruna_kyrka_September_2017_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kiruna_kyrka_September_2017_05.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=62195636",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-09-05 07:05:14",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kiruna kyrka September 2017 05",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Images from Wiki Loves Monuments 2017|Images from Wiki Loves Monuments 2017 in Sweden|Listed buildings in Sweden with known IDs|Uploaded via Campaign:wlm-se-bbr|Community driven project Fotosafari Kiruna 2017 funded by Wikimedia Sverige|Images by Arild Vågen - Kiruna|Images by Arild Vågen - WLM 2017|Sweden photographs taken on 2017-09-02|Content made available through Wikimedia Sverige competitions|Kiruna kyrka (old location)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "67.852033",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "20.233233",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Kiruna Church, Kiruna (Sweden).\n</p>\n<table style=\"width:430px; text-align:unset; color:var(--color-base,#202122); background:var(--background-color-interactive--hover,#dadde3); border:1px solid var(--border-color-base,#a2a9b1); margin:1px; border-spacing:0;\" lang=\"en\" dir=\"ltr\" class=\"layouttemplate\">\n<tbody><tr>\n<td style=\"width:22px; height:22px;\"><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Sev%C3%A4rd.svg/20px-Sev%C3%A4rd.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Sev%C3%A4rd.svg/40px-Sev%C3%A4rd.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"241\" data-file-height=\"241\"></span></span>\n</td>\n<td style=\"font-size:8pt; padding:1pt; line-height:1.1em;\">\n<p>This is a photo of a <a href=\"https://en.wikipedia.org/wiki/Listed_buildings_in_Sweden\" class=\"extiw\" title=\"w:Listed buildings in Sweden\">protected building</a> in Sweden, number <a rel=\"nofollow\" class=\"external text\" href=\"http://kulturarvsdata.se/raa/bbr/html/21300000003898\">21300000003898</a>  in the <a href=\"https://en.wikipedia.org/wiki/Swedish_National_Heritage_Board\" class=\"extiw\" title=\"en:Swedish National Heritage Board\">RAÄ</a> buildings database.\n</p>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-09-02 16:00:06",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:ArildV\" title=\"User:ArildV\">Arild Vågen</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "62195632": {
+        "pageid": 62195632,
+        "ns": 6,
+        "title": "File:Kiruna kyrka September 2017 06.jpg",
+        "index": 14,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 7306208,
+            "width": 3510,
+            "height": 2343,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Kiruna_kyrka_September_2017_06.jpg/1280px-Kiruna_kyrka_September_2017_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 854,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Kiruna_kyrka_September_2017_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Kiruna_kyrka_September_2017_06.jpg/1280px-Kiruna_kyrka_September_2017_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 854,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Kiruna_kyrka_September_2017_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Kiruna_kyrka_September_2017_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kiruna_kyrka_September_2017_06.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=62195632",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-09-05 07:05:07",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kiruna kyrka September 2017 06",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Images from Wiki Loves Monuments 2017|Images from Wiki Loves Monuments 2017 in Sweden|Listed buildings in Sweden with known IDs|Uploaded via Campaign:wlm-se-bbr|Community driven project Fotosafari Kiruna 2017 funded by Wikimedia Sverige|Images by Arild Vågen - Kiruna|Images by Arild Vågen - WLM 2017|Sweden photographs taken on 2017-09-02|Content made available through Wikimedia Sverige competitions|Kiruna kyrka (old location)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "67.852033",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "20.233233",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Kiruna Church, Kiruna (Sweden).\n</p>\n<table style=\"width:430px; text-align:unset; color:var(--color-base,#202122); background:var(--background-color-interactive--hover,#dadde3); border:1px solid var(--border-color-base,#a2a9b1); margin:1px; border-spacing:0;\" lang=\"en\" dir=\"ltr\" class=\"layouttemplate\">\n<tbody><tr>\n<td style=\"width:22px; height:22px;\"><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Sev%C3%A4rd.svg/20px-Sev%C3%A4rd.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Sev%C3%A4rd.svg/40px-Sev%C3%A4rd.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"241\" data-file-height=\"241\"></span></span>\n</td>\n<td style=\"font-size:8pt; padding:1pt; line-height:1.1em;\">\n<p>This is a photo of a <a href=\"https://en.wikipedia.org/wiki/Listed_buildings_in_Sweden\" class=\"extiw\" title=\"w:Listed buildings in Sweden\">protected building</a> in Sweden, number <a rel=\"nofollow\" class=\"external text\" href=\"http://kulturarvsdata.se/raa/bbr/html/21300000003898\">21300000003898</a>  in the <a href=\"https://en.wikipedia.org/wiki/Swedish_National_Heritage_Board\" class=\"extiw\" title=\"en:Swedish National Heritage Board\">RAÄ</a> buildings database.\n</p>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-09-02 16:06:00",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:ArildV\" title=\"User:ArildV\">Arild Vågen</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "62195633": {
+        "pageid": 62195633,
+        "ns": 6,
+        "title": "File:Kiruna kyrka September 2017 07.jpg",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 7331560,
+            "width": 3313,
+            "height": 2212,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Kiruna_kyrka_September_2017_07.jpg/1280px-Kiruna_kyrka_September_2017_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 855,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/3/37/Kiruna_kyrka_September_2017_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Kiruna_kyrka_September_2017_07.jpg/1280px-Kiruna_kyrka_September_2017_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 855,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/3/37/Kiruna_kyrka_September_2017_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Kiruna_kyrka_September_2017_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kiruna_kyrka_September_2017_07.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=62195633",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-09-05 07:05:07",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kiruna kyrka September 2017 07",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Images from Wiki Loves Monuments 2017|Images from Wiki Loves Monuments 2017 in Sweden|Listed buildings in Sweden with known IDs|Uploaded via Campaign:wlm-se-bbr|Community driven project Fotosafari Kiruna 2017 funded by Wikimedia Sverige|Images by Arild Vågen - Kiruna|Images by Arild Vågen - WLM 2017|Content made available through Wikimedia Sverige competitions|Kiruna kyrka (old location)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "67.852033",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "20.233233",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Kiruna Church, Kiruna (Sweden).\n</p>\n<table style=\"width:430px; text-align:unset; color:var(--color-base,#202122); background:var(--background-color-interactive--hover,#dadde3); border:1px solid var(--border-color-base,#a2a9b1); margin:1px; border-spacing:0;\" lang=\"en\" dir=\"ltr\" class=\"layouttemplate\">\n<tbody><tr>\n<td style=\"width:22px; height:22px;\"><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Sev%C3%A4rd.svg/20px-Sev%C3%A4rd.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Sev%C3%A4rd.svg/40px-Sev%C3%A4rd.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"241\" data-file-height=\"241\"></span></span>\n</td>\n<td style=\"font-size:8pt; padding:1pt; line-height:1.1em;\">\n<p>This is a photo of a <a href=\"https://en.wikipedia.org/wiki/Listed_buildings_in_Sweden\" class=\"extiw\" title=\"w:Listed buildings in Sweden\">protected building</a> in Sweden, number <a rel=\"nofollow\" class=\"external text\" href=\"http://kulturarvsdata.se/raa/bbr/html/21300000003898\">21300000003898</a>  in the <a href=\"https://en.wikipedia.org/wiki/Swedish_National_Heritage_Board\" class=\"extiw\" title=\"en:Swedish National Heritage Board\">RAÄ</a> buildings database.\n</p>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-09-02 11:43:08",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:ArildV\" title=\"User:ArildV\">Arild Vågen</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "62195635": {
+        "pageid": 62195635,
+        "ns": 6,
+        "title": "File:Kiruna kyrka September 2017 08.jpg",
+        "index": 13,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 11796802,
+            "width": 5026,
+            "height": 3355,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Kiruna_kyrka_September_2017_08.jpg/1280px-Kiruna_kyrka_September_2017_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 854,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Kiruna_kyrka_September_2017_08.jpg/3840px-Kiruna_kyrka_September_2017_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Kiruna_kyrka_September_2017_08.jpg/1280px-Kiruna_kyrka_September_2017_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 854,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Kiruna_kyrka_September_2017_08.jpg/3840px-Kiruna_kyrka_September_2017_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Kiruna_kyrka_September_2017_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kiruna_kyrka_September_2017_08.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=62195635",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-09-05 07:05:13",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kiruna kyrka September 2017 08",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Images from Wiki Loves Monuments 2017|Images from Wiki Loves Monuments 2017 in Sweden|Listed buildings in Sweden with known IDs|Media created by technology pool of Wikimedia Sverige|Uploaded via Campaign:wlm-se-bbr|Community driven project Fotosafari Kiruna 2017 funded by Wikimedia Sverige|Images by Arild Vågen - Kiruna|Images by Arild Vågen - WLM 2017|Content made available through Wikimedia Sverige competitions|Kiruna kyrka (old location)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "67.852033",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "20.233233",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Kiruna Church, Kiruna (Sweden). \n</p>\n<table style=\"width:430px; text-align:unset; color:var(--color-base,#202122); background:var(--background-color-interactive--hover,#dadde3); border:1px solid var(--border-color-base,#a2a9b1); margin:1px; border-spacing:0;\" lang=\"en\" dir=\"ltr\" class=\"layouttemplate\">\n<tbody><tr>\n<td style=\"width:22px; height:22px;\"><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Sev%C3%A4rd.svg/20px-Sev%C3%A4rd.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Sev%C3%A4rd.svg/40px-Sev%C3%A4rd.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"241\" data-file-height=\"241\"></span></span>\n</td>\n<td style=\"font-size:8pt; padding:1pt; line-height:1.1em;\">\n<p>This is a photo of a <a href=\"https://en.wikipedia.org/wiki/Listed_buildings_in_Sweden\" class=\"extiw\" title=\"w:Listed buildings in Sweden\">protected building</a> in Sweden, number <a rel=\"nofollow\" class=\"external text\" href=\"http://kulturarvsdata.se/raa/bbr/html/21300000003898\">21300000003898</a>  in the <a href=\"https://en.wikipedia.org/wiki/Swedish_National_Heritage_Board\" class=\"extiw\" title=\"en:Swedish National Heritage Board\">RAÄ</a> buildings database.\n</p>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-09-02 11:25:32",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:ArildV\" title=\"User:ArildV\">Arild Vågen</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "68808110": {
+        "pageid": 68808110,
+        "ns": 6,
+        "title": "File:Kiruna sjukhus September 2017 03.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3904973,
+            "width": 2588,
+            "height": 1728,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Kiruna_sjukhus_September_2017_03.jpg/1280px-Kiruna_sjukhus_September_2017_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 855,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/b/be/Kiruna_sjukhus_September_2017_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Kiruna_sjukhus_September_2017_03.jpg/1280px-Kiruna_sjukhus_September_2017_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 855,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/b/be/Kiruna_sjukhus_September_2017_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Kiruna_sjukhus_September_2017_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kiruna_sjukhus_September_2017_03.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=68808110",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-05-05 07:35:20",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kiruna sjukhus September 2017 03",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Kiruna sjukhus|Taken with Nikon D600|Taken with AF-S Nikkor 70-200mm f/2.8G ED VR II|Self-published work|Media created through community driven projects funded by Wikimedia Sverige - Travel grants|Media created by technology pool of Wikimedia Sverige|Community driven project Fotosafari Kiruna 2017 funded by Wikimedia Sverige|Images by Arild Vågen - Kiruna|Aerial photographs of Kiruna",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Kiruna sjukhus (hospital). Kiruna, Sweden.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-09-03 13:02:20",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:ArildV\" title=\"User:ArildV\">Arild Vågen</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "62412335": {
+        "pageid": 62412335,
+        "ns": 6,
+        "title": "File:Kiruna station 2017 02.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 9082780,
+            "width": 4643,
+            "height": 2612,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Kiruna_station_2017_02.jpg/1280px-Kiruna_station_2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Kiruna_station_2017_02.jpg/3840px-Kiruna_station_2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Kiruna_station_2017_02.jpg/1280px-Kiruna_station_2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Kiruna_station_2017_02.jpg/3840px-Kiruna_station_2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Kiruna_station_2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kiruna_station_2017_02.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=62412335",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-09-13 20:18:53",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kiruna station 2017 02",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Images from Wiki Loves Monuments 2017|Images from Wiki Loves Monuments 2017 in Sweden|Listed buildings in Sweden with known IDs|Community driven project Fotosafari Kiruna 2017 funded by Wikimedia Sverige|Images by Arild Vågen - Kiruna|Images by Arild Vågen - WLM 2017|Content made available through Wikimedia Sverige competitions|Järnvägshotellet, Kiruna|Former Kiruna Central Station",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Kiruna old central station. To the left, the former Railway hotel.\n<table style=\"width:430px; text-align:unset; color:var(--color-base,#202122); background:var(--background-color-interactive--hover,#dadde3); border:1px solid var(--border-color-base,#a2a9b1); margin:1px; border-spacing:0;\" lang=\"en\" dir=\"ltr\" class=\"layouttemplate\">\n<tbody><tr>\n<td style=\"width:22px; height:22px;\"><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Sev%C3%A4rd.svg/20px-Sev%C3%A4rd.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Sev%C3%A4rd.svg/40px-Sev%C3%A4rd.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"241\" data-file-height=\"241\"></span></span>\n</td>\n<td style=\"font-size:8pt; padding:1pt; line-height:1.1em;\">\n<p>This is a photo of a <a href=\"https://en.wikipedia.org/wiki/Listed_buildings_in_Sweden\" class=\"extiw\" title=\"w:Listed buildings in Sweden\">protected building</a> in Sweden, number <a rel=\"nofollow\" class=\"external text\" href=\"http://kulturarvsdata.se/raa/bbr/html/21300000015013\">21300000015013</a>  in the <a href=\"https://en.wikipedia.org/wiki/Swedish_National_Heritage_Board\" class=\"extiw\" title=\"en:Swedish National Heritage Board\">RAÄ</a> buildings database.\n</p>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-09-02 17:13:30",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:ArildV\" title=\"User:ArildV\">Arild Vågen</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "62984365": {
+        "pageid": 62984365,
+        "ns": 6,
+        "title": "File:Kiruna station September 2017 01.jpg",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 15737380,
+            "width": 5314,
+            "height": 2989,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Kiruna_station_September_2017_01.jpg/1280px-Kiruna_station_September_2017_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Kiruna_station_September_2017_01.jpg/3840px-Kiruna_station_September_2017_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Kiruna_station_September_2017_01.jpg/1280px-Kiruna_station_September_2017_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Kiruna_station_September_2017_01.jpg/3840px-Kiruna_station_September_2017_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Kiruna_station_September_2017_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kiruna_station_September_2017_01.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=62984365",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-09-30 21:00:38",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kiruna station September 2017 01",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D600|Taken with AF-S Nikkor 70-200mm f/2.8G ED VR II|Self-published work|Images from Wiki Loves Monuments 2017|Images from Wiki Loves Monuments 2017 in Sweden|Media created through community driven projects funded by Wikimedia Sverige - Travel grants|Media created by technology pool of Wikimedia Sverige|Community driven project Fotosafari Kiruna 2017 funded by Wikimedia Sverige|Images by Arild Vågen - Kiruna|Images by Arild Vågen - WLM 2017|Files with coordinates missing SDC location of creation|Content made available through Wikimedia Sverige competitions|Images from Wiki Loves Monuments missing SDC depicts|Images from Wiki Loves Monuments missing SDC location of creation|Järnvägshotellet, Kiruna|Aerial photographs of Kiruna|Former Kiruna Central Station",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "67.855156",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "20.215508",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Kiruna old station.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-09-03 12:48:13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:ArildV\" title=\"User:ArildV\">Arild Vågen</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "80023493": {
+        "pageid": 80023493,
+        "ns": 6,
+        "title": "File:Kirunas nya centrum September 2017 11.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 25304353,
+            "width": 6016,
+            "height": 4016,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Kirunas_nya_centrum_September_2017_11.jpg/1280px-Kirunas_nya_centrum_September_2017_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 854,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Kirunas_nya_centrum_September_2017_11.jpg/3840px-Kirunas_nya_centrum_September_2017_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Kirunas_nya_centrum_September_2017_11.jpg/1280px-Kirunas_nya_centrum_September_2017_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 854,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Kirunas_nya_centrum_September_2017_11.jpg/3840px-Kirunas_nya_centrum_September_2017_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Kirunas_nya_centrum_September_2017_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kirunas_nya_centrum_September_2017_11.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=80023493",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-06-29 08:20:16",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kirunas nya centrum September 2017 11",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Kiruna stadshus|Tuolluvaara|Self-published work|Media created through community driven projects funded by Wikimedia Sverige - Travel grants|Media created by technology pool of Wikimedia Sverige|Community driven project Fotosafari Kiruna 2017 funded by Wikimedia Sverige|Aerial photographs of Kiruna",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The site of the new town center of Kiruna with the new city hall under construction.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-09-03 12:52:52",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:ArildV\" title=\"User:ArildV\">Arild Vågen</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "120075499": {
+        "pageid": 120075499,
+        "ns": 6,
+        "title": "File:Sandspit near Golggokjohka on Torneträsk lake in Kiruna, Norrbottens län, Sweden, 2022 June.jpg",
+        "index": 17,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 9218296,
+            "width": 3600,
+            "height": 2398,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Sandspit_near_Golggokjohka_on_Tornetr%C3%A4sk_lake_in_Kiruna%2C_Norrbottens_l%C3%A4n%2C_Sweden%2C_2022_June.jpg/1280px-Sandspit_near_Golggokjohka_on_Tornetr%C3%A4sk_lake_in_Kiruna%2C_Norrbottens_l%C3%A4n%2C_Sweden%2C_2022_June.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Sandspit_near_Golggokjohka_on_Tornetr%C3%A4sk_lake_in_Kiruna%2C_Norrbottens_l%C3%A4n%2C_Sweden%2C_2022_June.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Sandspit_near_Golggokjohka_on_Tornetr%C3%A4sk_lake_in_Kiruna%2C_Norrbottens_l%C3%A4n%2C_Sweden%2C_2022_June.jpg/1280px-Sandspit_near_Golggokjohka_on_Tornetr%C3%A4sk_lake_in_Kiruna%2C_Norrbottens_l%C3%A4n%2C_Sweden%2C_2022_June.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 853,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Sandspit_near_Golggokjohka_on_Tornetr%C3%A4sk_lake_in_Kiruna%2C_Norrbottens_l%C3%A4n%2C_Sweden%2C_2022_June.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Sandspit_near_Golggokjohka_on_Tornetr%C3%A4sk_lake_in_Kiruna%2C_Norrbottens_l%C3%A4n%2C_Sweden%2C_2022_June.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sandspit_near_Golggokjohka_on_Tornetr%C3%A4sk_lake_in_Kiruna,_Norrbottens_l%C3%A4n,_Sweden,_2022_June.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=120075499",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-07-04 11:18:57",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Sandspit near Golggokjohka on Torneträsk lake in Kiruna, Norrbottens län, Sweden, 2022 June",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Spits|Torneträsk|Uploaded with VicuñaUploader|Sweden photographs taken on 2022-06-08|Aerial photographs of lakes of Sweden|Files with coordinates missing SDC location of creation|Sweden by User:Ximonic|Aerial photographs of Kiruna Municipality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "68.302117",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "19.248709",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "A sandspit near the river mouth of Golggokjohka on Torneträsk lake, Kiruna, Norrbottens län, Sweden in 2022 June.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-06-08",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Ximonic\" title=\"User:Ximonic\">Ximonic</a> (Simo Räsänen)",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Simo Räsänen",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "79571460": {
+        "pageid": 79571460,
+        "ns": 6,
+        "title": "File:Västra industriområdet Kiruna September 2019 02.jpg",
+        "index": 15,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 15818011,
+            "width": 5751,
+            "height": 3839,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/V%C3%A4stra_industriomr%C3%A5det_Kiruna_September_2019_02.jpg/1280px-V%C3%A4stra_industriomr%C3%A5det_Kiruna_September_2019_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 854,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/V%C3%A4stra_industriomr%C3%A5det_Kiruna_September_2019_02.jpg/3840px-V%C3%A4stra_industriomr%C3%A5det_Kiruna_September_2019_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/V%C3%A4stra_industriomr%C3%A5det_Kiruna_September_2019_02.jpg/1280px-V%C3%A4stra_industriomr%C3%A5det_Kiruna_September_2019_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 854,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/V%C3%A4stra_industriomr%C3%A5det_Kiruna_September_2019_02.jpg/3840px-V%C3%A4stra_industriomr%C3%A5det_Kiruna_September_2019_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/V%C3%A4stra_industriomr%C3%A5det_Kiruna_September_2019_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:V%C3%A4stra_industriomr%C3%A5det_Kiruna_September_2019_02.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=79571460",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-06-09 09:05:52",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Västra industriområdet Kiruna September 2019 02",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Roads in Sweden|Self-published work|Warehouses in Sweden|Media created through community driven projects funded by Wikimedia Sverige - Travel grants|Media created by technology pool of Wikimedia Sverige|Community driven project Fotosafari Kiruna 2017 funded by Wikimedia Sverige|Images by Arild Vågen - Kiruna|Aerial photographs of Kiruna",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Shops and commercial estates in Västra industriområdet (Western industrial district) in Kiruna, Sweden.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-09-03 12:50:16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:ArildV\" title=\"User:ArildV\">Arild Vågen</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

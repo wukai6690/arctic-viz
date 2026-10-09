@@ -1,0 +1,1331 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 12,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "75068265": {
+        "pageid": 75068265,
+        "ns": 6,
+        "title": "File:Cambridge Bay, Nunavut (13431557144).jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 5604907,
+            "width": 6016,
+            "height": 4000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Cambridge_Bay%2C_Nunavut_%2813431557144%29.jpg/960px-Cambridge_Bay%2C_Nunavut_%2813431557144%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 638,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Cambridge_Bay%2C_Nunavut_%2813431557144%29.jpg/1920px-Cambridge_Bay%2C_Nunavut_%2813431557144%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Cambridge_Bay%2C_Nunavut_%2813431557144%29.jpg/960px-Cambridge_Bay%2C_Nunavut_%2813431557144%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 638,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Cambridge_Bay%2C_Nunavut_%2813431557144%29.jpg/1920px-Cambridge_Bay%2C_Nunavut_%2813431557144%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Cambridge_Bay%2C_Nunavut_%2813431557144%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cambridge_Bay,_Nunavut_(13431557144).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=75068265",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-12-14 23:07:28",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cambridge Bay, Nunavut (13431557144)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Flickr images reviewed by FlickreviewR 2|Canada photographs taken on 2014-02-20|February 2014 in Nunavut|2014 aerial photographs of Canada|Aerial photographs of Cambridge Bay|Flickr images missing SDC published in",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cambridge Bay, Nunavut",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 20 February 2014, 19:38",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/tsmith22/13431557144/\">Cambridge Bay, Nunavut</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/24867024@N00\">Tristan in Ottawa</a> from Ottawa, ON, Canada",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "159467793": {
+        "pageid": 159467793,
+        "ns": 6,
+        "title": "File:Cambridge Bay, Nunavut aerial view.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 9474453,
+            "width": 4808,
+            "height": 3205,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Cambridge_Bay%2C_Nunavut_aerial_view.jpg/960px-Cambridge_Bay%2C_Nunavut_aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 640,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Cambridge_Bay%2C_Nunavut_aerial_view.jpg/1920px-Cambridge_Bay%2C_Nunavut_aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Cambridge_Bay%2C_Nunavut_aerial_view.jpg/960px-Cambridge_Bay%2C_Nunavut_aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 640,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Cambridge_Bay%2C_Nunavut_aerial_view.jpg/1920px-Cambridge_Bay%2C_Nunavut_aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Cambridge_Bay%2C_Nunavut_aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cambridge_Bay,_Nunavut_aerial_view.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=159467793",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-05-19 17:43:28",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cambridge Bay, Nunavut aerial view",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Files with coordinates missing SDC location of creation|Aerial photographs of Cambridge Bay|Photographs by Quintin Soloviev",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.122105",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-105.029002",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cambridge Bay, Nunavut aerial view",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-05-06 12:39:30",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Quintinsoloviev\" class=\"mw-redirect\" title=\"User:Quintinsoloviev\">Quintin Soloviev</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "596246": {
+        "pageid": 596246,
+        "ns": 6,
+        "title": "File:Cambridge Bay.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 168587,
+            "width": 1600,
+            "height": 1200,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Cambridge_Bay.jpg/960px-Cambridge_Bay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Cambridge_Bay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Cambridge_Bay.jpg/960px-Cambridge_Bay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Cambridge_Bay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Cambridge_Bay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cambridge_Bay.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=596246",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2010-11-10 19:18:55",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cambridge Bay",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Files with no machine-readable source|Self-published work|PD-self|Assumed own work|1999 aerial photographs of Canada|August 1999 in Nunavut|Aerial photographs of Cambridge Bay",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Aerial view of <a href=\"https://en.wikipedia.org/wiki/Cambridge_Bay,_Nunavut\" class=\"extiw\" title=\"en:Cambridge Bay, Nunavut\">Cambridge Bay, Nunavut</a>, <a href=\"//commons.wikimedia.org/wiki/Canada\" title=\"Canada\">Canada</a> looking north. 12 August 1999.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1999-08-12",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "No machine-readable source provided. Own work assumed (based on copyright claims).. 24 February 2006 (original upload date)",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/wiki/User:CambridgeBayWeather\" title=\"User:CambridgeBayWeather\">CambridgeBayWeather</a> assumed (based on copyright claims).",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "91015966": {
+        "pageid": 91015966,
+        "ns": 6,
+        "title": "File:Cambridge Bay Banner.jpg",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 217915,
+            "width": 2333,
+            "height": 333,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Cambridge_Bay_Banner.jpg/960px-Cambridge_Bay_Banner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 137,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Cambridge_Bay_Banner.jpg/1920px-Cambridge_Bay_Banner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Cambridge_Bay_Banner.jpg/960px-Cambridge_Bay_Banner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 137,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Cambridge_Bay_Banner.jpg/1920px-Cambridge_Bay_Banner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Cambridge_Bay_Banner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cambridge_Bay_Banner.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=91015966",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-06-07 15:23:57",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cambridge Bay Banner",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cambridge Bay|Extracted images|Wikivoyage banners of Nunavut|September 2006 Canada photographs|September 2006 in Nunavut|Wikivoyage banners by SelfieCity",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "cambridge bay",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2006-09-02 19:41",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/jumpyjodes/232434914/\">cambridge bay</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/24649496@N00\">Jodie Wilson</a> from Mountain View, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "73849074": {
+        "pageid": 73849074,
+        "ns": 6,
+        "title": "File:Cambridge bay (232423442).jpg",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 822105,
+            "width": 2333,
+            "height": 1750,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Cambridge_bay_%28232423442%29.jpg/960px-Cambridge_bay_%28232423442%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Cambridge_bay_%28232423442%29.jpg/1920px-Cambridge_bay_%28232423442%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Cambridge_bay_%28232423442%29.jpg/960px-Cambridge_bay_%28232423442%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Cambridge_bay_%28232423442%29.jpg/1920px-Cambridge_bay_%28232423442%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Cambridge_bay_%28232423442%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cambridge_bay_(232423442).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=73849074",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-10-24 19:51:20",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cambridge bay (232423442)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cambridge Bay|September 2006 Canada photographs|Flickr images reviewed by FlickreviewR 2|September 2006 in Nunavut",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "cambridge bay",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2006-09-02 19:41",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/jumpyjodes/232423442/\">cambridge bay</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/24649496@N00\">Jodie Wilson</a> from Mountain View, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "73849075": {
+        "pageid": 73849075,
+        "ns": 6,
+        "title": "File:Cambridge bay (232434914).jpg",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 781216,
+            "width": 2333,
+            "height": 1750,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Cambridge_bay_%28232434914%29.jpg/960px-Cambridge_bay_%28232434914%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Cambridge_bay_%28232434914%29.jpg/1920px-Cambridge_bay_%28232434914%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Cambridge_bay_%28232434914%29.jpg/960px-Cambridge_bay_%28232434914%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Cambridge_bay_%28232434914%29.jpg/1920px-Cambridge_bay_%28232434914%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Cambridge_bay_%28232434914%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cambridge_bay_(232434914).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=73849075",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-10-24 19:51:21",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cambridge bay (232434914)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cambridge Bay|Images with extracted images|September 2006 Canada photographs|Flickr images reviewed by FlickreviewR 2|September 2006 in Nunavut",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "cambridge bay",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2006-09-02 19:41",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/jumpyjodes/232434914/\">cambridge bay</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/24649496@N00\">Jodie Wilson</a> from Mountain View, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "141195741": {
+        "pageid": 141195741,
+        "ns": 6,
+        "title": "File:Canadian North 737-200 C-GDPA in Cambridge Bay, Nunavut (Quintin Soloviev).png",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 17143538,
+            "width": 4240,
+            "height": 2832,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Canadian_North_737-200_C-GDPA_in_Cambridge_Bay%2C_Nunavut_%28Quintin_Soloviev%29.png/960px-Canadian_North_737-200_C-GDPA_in_Cambridge_Bay%2C_Nunavut_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 641,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Canadian_North_737-200_C-GDPA_in_Cambridge_Bay%2C_Nunavut_%28Quintin_Soloviev%29.png/1920px-Canadian_North_737-200_C-GDPA_in_Cambridge_Bay%2C_Nunavut_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Canadian_North_737-200_C-GDPA_in_Cambridge_Bay%2C_Nunavut_%28Quintin_Soloviev%29.png/960px-Canadian_North_737-200_C-GDPA_in_Cambridge_Bay%2C_Nunavut_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 641,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Canadian_North_737-200_C-GDPA_in_Cambridge_Bay%2C_Nunavut_%28Quintin_Soloviev%29.png/1920px-Canadian_North_737-200_C-GDPA_in_Cambridge_Bay%2C_Nunavut_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Canadian_North_737-200_C-GDPA_in_Cambridge_Bay%2C_Nunavut_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Canadian_North_737-200_C-GDPA_in_Cambridge_Bay,_Nunavut_(Quintin_Soloviev).png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=141195741",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-11-21 18:41:44",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Canadian North 737-200 C-GDPA in Cambridge Bay, Nunavut (Quintin Soloviev)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|May 2023 in aviation|Canada photographs taken on 2023-05-09|C-GDPA (aircraft)|Aircraft photographed in 2023|Boeing 737-200 in Canada|2023 at Cambridge Bay Airport|May 2023 in Nunavut|Canadian North aircraft at Cambridge Bay Airport|Boeing aircraft at Cambridge Bay Airport|Photographs by Quintin Soloviev",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Canadian North 737-200 in Cambridge Bay, Nunavut",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 9 May 2023",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Quintinsoloviev\" class=\"mw-redirect\" title=\"User:Quintinsoloviev\">Quintinsoloviev</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "179620850": {
+        "pageid": 179620850,
+        "ns": 6,
+        "title": "File:Flag of Cambridge Bay.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 952622,
+            "width": 3120,
+            "height": 1560,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Flag_of_Cambridge_Bay.jpg/960px-Flag_of_Cambridge_Bay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Flag_of_Cambridge_Bay.jpg/1920px-Flag_of_Cambridge_Bay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Flag_of_Cambridge_Bay.jpg/960px-Flag_of_Cambridge_Bay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Flag_of_Cambridge_Bay.jpg/1920px-Flag_of_Cambridge_Bay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Flag_of_Cambridge_Bay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flag_of_Cambridge_Bay.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179620850",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-12-08 20:11:04",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Flag of Cambridge Bay",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cambridge Bay|Self-published work|Flags of municipalities in Nunavut|Photographs by Quintin Soloviev",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Flag of Cambridge Bay, Nunavut, Canada",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-12-08 10:07:33",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Quintin_Soloviev\" title=\"User:Quintin Soloviev\">Quintin Soloviev</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "162516879": {
+        "pageid": 162516879,
+        "ns": 6,
+        "title": "File:Flags in Cambridge Bay, Nunavut.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 5985759,
+            "width": 4136,
+            "height": 2953,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Flags_in_Cambridge_Bay%2C_Nunavut.jpg/960px-Flags_in_Cambridge_Bay%2C_Nunavut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 685,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Flags_in_Cambridge_Bay%2C_Nunavut.jpg/1920px-Flags_in_Cambridge_Bay%2C_Nunavut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Flags_in_Cambridge_Bay%2C_Nunavut.jpg/960px-Flags_in_Cambridge_Bay%2C_Nunavut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 685,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Flags_in_Cambridge_Bay%2C_Nunavut.jpg/1920px-Flags_in_Cambridge_Bay%2C_Nunavut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Flags_in_Cambridge_Bay%2C_Nunavut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flags_in_Cambridge_Bay,_Nunavut.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=162516879",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-03-20 17:07:15",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Flags in Cambridge Bay, Nunavut",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cambridge Bay|Self-published work|Photographs of the national flag of Canada with other flags|Files with coordinates missing SDC location of creation|Photographs of the territorial flag of Nunavut|Photographs by Quintin Soloviev",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.115311",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-105.056868",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Flags waving in Cambridge Bay, Nunavut (top-Canada, left-Nunavut, right-Cambridge Bay)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-05-06 12:33:21",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Quintinsoloviev\" class=\"mw-redirect\" title=\"User:Quintinsoloviev\">Quintin Soloviev</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "177849600": {
+        "pageid": 177849600,
+        "ns": 6,
+        "title": "File:Flags of Cambridge Bay, Nunavut, Canada.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1706520,
+            "width": 4399,
+            "height": 3079,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flags_of_Cambridge_Bay%2C_Nunavut%2C_Canada.jpg/960px-Flags_of_Cambridge_Bay%2C_Nunavut%2C_Canada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 672,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flags_of_Cambridge_Bay%2C_Nunavut%2C_Canada.jpg/1920px-Flags_of_Cambridge_Bay%2C_Nunavut%2C_Canada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flags_of_Cambridge_Bay%2C_Nunavut%2C_Canada.jpg/960px-Flags_of_Cambridge_Bay%2C_Nunavut%2C_Canada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 672,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flags_of_Cambridge_Bay%2C_Nunavut%2C_Canada.jpg/1920px-Flags_of_Cambridge_Bay%2C_Nunavut%2C_Canada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flags_of_Cambridge_Bay%2C_Nunavut%2C_Canada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flags_of_Cambridge_Bay,_Nunavut,_Canada.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=177849600",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-11-04 23:36:38",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Flags of Cambridge Bay, Nunavut, Canada",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cambridge Bay|Self-published work|Files with coordinates missing SDC location of creation|Photographs by Quintin Soloviev",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.115311",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-105.056868",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The flags of Cambridge Bay, Nunavut, &amp; Canada waving",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-05-06 12:33:21",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Quintinsoloviev\" class=\"mw-redirect\" title=\"User:Quintinsoloviev\">Quintin Soloviev</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "152790151": {
+        "pageid": 152790151,
+        "ns": 6,
+        "title": "File:Ikaluktutiak Co-op grocery store in Cambridge Bay, Nunavut.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4799321,
+            "width": 3303,
+            "height": 2331,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Ikaluktutiak_Co-op_grocery_store_in_Cambridge_Bay%2C_Nunavut.jpg/960px-Ikaluktutiak_Co-op_grocery_store_in_Cambridge_Bay%2C_Nunavut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 677,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Ikaluktutiak_Co-op_grocery_store_in_Cambridge_Bay%2C_Nunavut.jpg/1920px-Ikaluktutiak_Co-op_grocery_store_in_Cambridge_Bay%2C_Nunavut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Ikaluktutiak_Co-op_grocery_store_in_Cambridge_Bay%2C_Nunavut.jpg/960px-Ikaluktutiak_Co-op_grocery_store_in_Cambridge_Bay%2C_Nunavut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 677,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Ikaluktutiak_Co-op_grocery_store_in_Cambridge_Bay%2C_Nunavut.jpg/1920px-Ikaluktutiak_Co-op_grocery_store_in_Cambridge_Bay%2C_Nunavut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Ikaluktutiak_Co-op_grocery_store_in_Cambridge_Bay%2C_Nunavut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ikaluktutiak_Co-op_grocery_store_in_Cambridge_Bay,_Nunavut.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=152790151",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-09-18 01:02:47",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ikaluktutiak Co-op grocery store in Cambridge Bay, Nunavut",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cooperatives in Canada|Self-published work|Snowmobiles in Canada|Vehicles in Nunavut|Files with coordinates missing SDC location of creation|May 2023 in Nunavut|Buildings in Cambridge Bay|Photographs by Quintin Soloviev",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "69.117700",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-105.055594",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Ikaluktutiak Co-op grocery store in Cambridge Bay, Nunavut",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-05-05 17:05:45",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Quintinsoloviev\" class=\"mw-redirect\" title=\"User:Quintinsoloviev\">Quintin Soloviev</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "75068219": {
+        "pageid": 75068219,
+        "ns": 6,
+        "title": "File:Sunset in Cambridge Bay, Nunavut (13431118765).jpg",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3763520,
+            "width": 6016,
+            "height": 4000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Sunset_in_Cambridge_Bay%2C_Nunavut_%2813431118765%29.jpg/960px-Sunset_in_Cambridge_Bay%2C_Nunavut_%2813431118765%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 960,
+            "thumbheight": 638,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Sunset_in_Cambridge_Bay%2C_Nunavut_%2813431118765%29.jpg/1920px-Sunset_in_Cambridge_Bay%2C_Nunavut_%2813431118765%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Sunset_in_Cambridge_Bay%2C_Nunavut_%2813431118765%29.jpg/960px-Sunset_in_Cambridge_Bay%2C_Nunavut_%2813431118765%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 960,
+              "height": 638,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Sunset_in_Cambridge_Bay%2C_Nunavut_%2813431118765%29.jpg/1920px-Sunset_in_Cambridge_Bay%2C_Nunavut_%2813431118765%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Sunset_in_Cambridge_Bay%2C_Nunavut_%2813431118765%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sunset_in_Cambridge_Bay,_Nunavut_(13431118765).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=75068219",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-12-14 23:06:30",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Sunset in Cambridge Bay, Nunavut (13431118765)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Flickr images reviewed by FlickreviewR 2|Canada photographs taken on 2014-02-19|February 2014 in Nunavut|Sunsets of Cambridge Bay|Flickr images missing SDC published in",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Sunset in Cambridge Bay, Nunavut",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 19 February 2014, 20:21",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/tsmith22/13431118765/\">Sunset in Cambridge Bay, Nunavut</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/24867024@N00\">Tristan in Ottawa</a> from Ottawa, ON, Canada",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

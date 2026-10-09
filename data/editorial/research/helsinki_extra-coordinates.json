@@ -1,0 +1,25 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "13696": {
+        "pageid": 13696,
+        "ns": 0,
+        "title": "Helsinki",
+        "coordinates": [
+          {
+            "lat": 60.17083333,
+            "lon": 24.9375,
+            "primary": "",
+            "globe": "earth"
+          }
+        ],
+        "pageprops": {
+          "page_image_free": "Suomenlinna_(cropped).jpg",
+          "wikibase-shortdesc": "Capital and most populous city of Finland",
+          "wikibase_item": "Q1757"
+        }
+      }
+    }
+  }
+}

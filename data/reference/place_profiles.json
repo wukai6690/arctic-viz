@@ -1,0 +1,1126 @@
+{
+  "bering": {
+    "lede": "两片海洋之间，也是一片有人生活的海峡。",
+    "sections": [
+      {
+        "title": "海洋的位置",
+        "body": "白令海峡位于俄罗斯楚科奇半岛与美国阿拉斯加苏厄德半岛之间，向北连接楚科奇海，向南连接白令海。地图上的标记表示海峡区域，并不是一座港口或单一观测站。"
+      },
+      {
+        "title": "岛屿与边界",
+        "body": "大小代奥米德岛处在海峡中，大岛属俄罗斯，小岛属美国；国际日期变更线从两岛之间经过。照片中的聚落与岸线应按具体岛屿阅读，不能把整个海峡归为同一地点。"
+      },
+      {
+        "title": "人与环境",
+        "body": "海峡沿岸有尤皮克、因纽特和楚科奇社区。理解这里的交通和技术条件，需要同时考虑海岸环境、季节性冰情与居民的日常联系。"
+      },
+      {
+        "title": "更长的时间尺度",
+        "body": "“白令陆桥”讨论的是冰期海平面较低时露出的陆地，以及亚洲与北美之间的迁徙背景；它与今天有海水相隔的海峡不能混为一谈。"
+      }
+    ],
+    "research_question": "可以把白令海峡作为楚科奇海的地理入口，与诺姆的港口条件一起讨论。要研究交通变化，还需逐日冰情、航迹和港口运行记录；全北极年平均海冰不能直接回答这里何时可通航。",
+    "compare_id": "nome",
+    "compare_reason": "从海峡入口，继续看阿拉斯加一侧的港口与社区。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Bering_Strait",
+      "https://commons.wikimedia.org/wiki/File:Diomede_Islands_Bering_Sea_Jul_2006.jpg",
+      "https://commons.wikimedia.org/wiki/File:Little_Diomede_Island_2018_Drone_Photo.jpg",
+      "https://commons.wikimedia.org/wiki/File:Little_Diomede_Island,_Alaska,_August_25,_2016.jpg",
+      "https://commons.wikimedia.org/wiki/File:Little_Diomede_1_2014-08-17.jpg",
+      "https://commons.wikimedia.org/wiki/File:Little_Diomede_Island_village.jpeg",
+      "https://www.usgs.gov/media/images/diomede-islands"
+    ],
+    "article_id": "wiki-bering",
+    "source_revision": 1367600768,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "rauma": {
+    "lede": "木屋老城与海事工业，构成同一座波罗的海城市的两面。",
+    "sections": [
+      {
+        "title": "海岸位置",
+        "body": "劳马位于芬兰西海岸、波的尼亚湾沿岸，属于萨塔昆塔地区。它在北极圈以南，作为与极地装备产业有关的背景节点收录，不应标为北极聚落。"
+      },
+      {
+        "title": "城市的形成",
+        "body": "劳马在 1442 年获得城市权。航海、贸易与工业发展影响了城市面貌；介绍历史时，应把城市本身的沿革与某一艘船的建造项目分开。"
+      },
+      {
+        "title": "可以看的老城",
+        "body": "老劳马保留木建筑街区，是联合国教科文组织世界遗产。狭窄街道、木屋立面与街角细部，为港口照片之外提供了认识城市尺度的视角。"
+      },
+      {
+        "title": "生产与手艺",
+        "body": "当地有造纸和海事工业背景，也以蕾丝手工艺闻名。工厂、港口与日常文化并存，说明产业城市的介绍不必局限于设备与产能。"
+      }
+    ],
+    "research_question": "劳马适合作为芬兰海事工业背景，与赫尔辛基的破冰船泊位比较。照片只证明拍摄对象；具体设计公司、建造合同和设备供应关系，应回到项目材料逐项核对。",
+    "compare_id": "helsinki",
+    "compare_reason": "比较芬兰海事城市的产业与港口景观。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Rauma,_Finland",
+      "https://commons.wikimedia.org/wiki/File:Rauma_3.jpg",
+      "https://commons.wikimedia.org/wiki/File:Vanha_Rauma_vesitornista.jpg",
+      "https://commons.wikimedia.org/wiki/File:Rauma_Old_Town_Hall.jpg",
+      "https://commons.wikimedia.org/wiki/File:Martinkari_and_Suoja_berths_at_Port_of_Rauma_in_Winter.jpg",
+      "https://commons.wikimedia.org/wiki/File:Rauma_dockyard_in_summer.jpg"
+    ],
+    "article_id": "wiki-rauma",
+    "source_revision": 1376592735,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "greenland": {
+    "lede": "先分清冰盖、沿海社区与具体站点，再谈“格陵兰”。",
+    "sections": [
+      {
+        "title": "岛屿的尺度",
+        "body": "格陵兰位于北冰洋与大西洋之间，加拿大北极群岛以东。本站用一个区域示意点帮助进入地图；这个点不能代表各港口、冰川或聚落的精确位置。"
+      },
+      {
+        "title": "冰与海岸",
+        "body": "大片内陆由冰盖覆盖，沿海则有峡湾、山地和冰川出口。陆地上的冰盖与漂浮海冰是不同对象；图集中的冰山也不能直接换算为海冰范围。"
+      },
+      {
+        "title": "居民生活",
+        "body": "现代聚落主要分布在沿海。努克、库洛尔苏阿克等地点各有不同的城市规模和生活环境，浏览整岛景观后，可以继续进入单独地点档案。"
+      },
+      {
+        "title": "历史层次",
+        "body": "格陵兰有跨越数千年的北极居民迁徙史，也经历过北欧人在南部定居的时期。文化与社会背景应与自然环境一同呈现，避免把岛屿仅当作冰雪或资源背景。"
+      }
+    ],
+    "research_question": "研究时应先选定具体地点和行政、设施层级，再关联项目。这里提供岛屿背景；努克的城市发展、皮图菲克的设施任务和西北部聚落生活需要分别收集证据。",
+    "compare_id": "nuuk",
+    "compare_reason": "从岛屿全景进入格陵兰的城市生活。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Greenland",
+      "https://commons.wikimedia.org/wiki/File:Ilulissat_Icefjord.jpg",
+      "https://commons.wikimedia.org/wiki/File:Sermitsiaq-aerial.jpg",
+      "https://commons.wikimedia.org/wiki/File:Kullorsuaq-island-aerial.jpg",
+      "https://commons.wikimedia.org/wiki/File:Boat_in_front_of_an_iceberg_in_the_Ilulissat_Icefjord,_Greenland_(54067583959).jpg",
+      "https://commons.wikimedia.org/wiki/File:Ilulissat_Kangerlua_hike.jpg"
+    ],
+    "article_id": "wiki-greenland",
+    "source_revision": 1377213152,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "kullorsuaq": {
+    "lede": "山峰得名的岛上聚落，生活联系跨越海湾与群岛。",
+    "sections": [
+      {
+        "title": "群岛中的位置",
+        "body": "库洛尔苏阿克位于格陵兰西北部，同名岛处在乌佩纳维克群岛北端、梅尔维尔湾南部。当地的尺度是聚落、岛屿与附近海湾，而不是整座格陵兰岛。"
+      },
+      {
+        "title": "名字来自山峰",
+        "body": "地名意为“大拇指”，对应岛上醒目的 Devil’s Thumb 山峰。看图时可以把房屋、港湾和山体分别辨认，理解聚落与地形的关系。"
+      },
+      {
+        "title": "聚落的形成",
+        "body": "现代聚落建于 1928 年，后来成为贸易站。周边较小聚落居民的迁入，构成了它的发展背景；不能将这一历史过程简化为单一科研项目带来的增长。"
+      },
+      {
+        "title": "生活与交通",
+        "body": "渔猎活动、鱼类加工和商店是理解当地生活的入口。直升机场说明航空联系的重要性，但历史照片不能代表当前航班频次或全年运输条件。"
+      }
+    ],
+    "research_question": "这里适合提出社区尺度的问题：季节变化如何影响补给、出行与观测活动？需要居民资料和实际运输记录。图中的 SANNA 科研船只说明特定拍摄活动，不代表常驻科研基地。",
+    "compare_id": "nuuk",
+    "compare_reason": "与格陵兰城市节点比较服务条件与生活尺度。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Kullorsuaq",
+      "https://commons.wikimedia.org/wiki/File:Kullorsuaq.jpg",
+      "https://commons.wikimedia.org/wiki/File:Kullorsuaq-harbor.jpg",
+      "https://commons.wikimedia.org/wiki/File:Kullorsuaq-heliport.jpg",
+      "https://commons.wikimedia.org/wiki/File:Research_vessel_in_Greenland.jpg",
+      "https://commons.wikimedia.org/wiki/File:Devils-thumb.jpg",
+      "https://commons.wikimedia.org/wiki/File:Kullorsuaq-church.jpg"
+    ],
+    "article_id": "wiki-kullorsuaq",
+    "source_revision": 1379308510,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "kiruna": {
+    "lede": "矿业塑造的城市，也接入了高纬空间研究网络。",
+    "sections": [
+      {
+        "title": "瑞典北部的城市",
+        "body": "基律纳位于瑞典拉普兰、北极圈以北。城市是认识周边矿山、交通和空间研究机构的入口；市区标记不等于这些设施都在同一位置。"
+      },
+      {
+        "title": "矿业与城市起源",
+        "body": "现代城市在十九世纪末围绕基律纳铁矿发展。看矿山与街区照片时，可以关注生产空间和生活空间的距离，而不是仅把城市理解为资源符号。"
+      },
+      {
+        "title": "萨米地区背景",
+        "body": "城市形成之前，这一地区已经有长期的人类活动和萨米居民生活。矿业和科研设施之外，地方语言与文化也是地点介绍的一部分。"
+      },
+      {
+        "title": "空间研究的邻近节点",
+        "body": "Esrange 航天中心在基律纳以东，市内还有空间物理研究机构和大学相关部门。邻近关系提供比较入口，但不同机构的任务与管理主体需要分开。"
+      }
+    ],
+    "research_question": "可以比较资源产业与空间技术为何在同一区域集聚。本站已整理 Esrange 的地面站项目；若讨论矿业与城市变化，还需补充规划、交通和社区资料，不能仅据地图距离推断合作。",
+    "compare_id": "esrange",
+    "compare_reason": "进入独立定位的航天设施与地面站专题。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Kiruna",
+      "https://commons.wikimedia.org/wiki/File:Kiruna_panorama.jpg",
+      "https://commons.wikimedia.org/wiki/File:Kiruna_September_2017_01.jpg",
+      "https://commons.wikimedia.org/wiki/File:Kiruna_new_city_centre_under_construction_in_2022.jpg",
+      "https://commons.wikimedia.org/wiki/File:Kiruna_station_September_2017_01.jpg",
+      "https://commons.wikimedia.org/wiki/File:Kiruna_kyrka_September_2017_05.jpg"
+    ],
+    "article_id": "wiki-kiruna",
+    "source_revision": 1377819194,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "nuuk": {
+    "lede": "峡湾口的城市，把格陵兰的日常生活放回地图。",
+    "sections": [
+      {
+        "title": "峡湾与城市",
+        "body": "努克位于格陵兰西南部、Nuup Kangerlua 峡湾口附近。海岸、山地与建成区共同构成城市景观，本站照片展示城市背景，不能作为全岛环境的平均样貌。"
+      },
+      {
+        "title": "行政与文化中心",
+        "body": "努克是格陵兰的首府，也是重要的文化与经济中心。城市服务、港口和居住区的尺度，与西北部小型聚落明显不同，适合放在一起比较。"
+      },
+      {
+        "title": "名字与历史",
+        "body": "Nuuk 在格陵兰语中意为“岬角”。1728 年建立的殖民据点曾称 Godthåb；今天阅读历史照片或文献时，这两个名称需要对应起来。"
+      },
+      {
+        "title": "从照片认识城市",
+        "body": "图集中可同时看港湾、居住建筑和城市周围的山地。照片保留拍摄日期，不用旧画面判断某一设施今天的规模、开放状态或运行情况。"
+      }
+    ],
+    "research_question": "讨论北极参与时，可以从城市服务、科研往来与港口联系入手。努克目前是地理背景节点；本站尚未据此建立城市内所有机构的项目关系网络。",
+    "compare_id": "kullorsuaq",
+    "compare_reason": "比较城市中心与西北部岛上聚落。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Nuuk",
+      "https://commons.wikimedia.org/wiki/File:Nuuk,_Greenland_skyline.jpg",
+      "https://commons.wikimedia.org/wiki/File:Nuuk-port.jpg",
+      "https://commons.wikimedia.org/wiki/File:Nuuk,_Greenland_skyline_aerial_view.jpg",
+      "https://commons.wikimedia.org/wiki/File:2017-09-25_02_NUKA_ARCTICA_-_IMO_9100231_-_Sikuki_Nuuk,_Greenland.jpg",
+      "https://commons.wikimedia.org/wiki/File:Nuuk_Airport_terminal.jpg"
+    ],
+    "article_id": "wiki-nuuk",
+    "source_revision": 1378957534,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "pituffik": {
+    "lede": "高纬设施有明确任务，也处在具体的海岸环境之中。",
+    "sections": [
+      {
+        "title": "位置与旧称",
+        "body": "皮图菲克位于格陵兰西北海岸，旧称图勒空军基地。使用历史材料时要保留旧称与拍摄时间，避免因更名把同一设施误计为两个地点。"
+      },
+      {
+        "title": "海岸背景",
+        "body": "基地附近包括北星湾、岛屿、峡湾和冰盖边缘环境。环境照片有助于理解地点位置，但不能用来推断跑道、港口或传感器的实际运行能力。"
+      },
+      {
+        "title": "设施任务",
+        "body": "地点资料介绍了导弹预警与空间监视相关任务。这里收录的是公开背景，不依据天线外观推断侦测范围、实时任务或具体技术参数。"
+      },
+      {
+        "title": "照片的阅读方式",
+        "body": "基地全景、沿岸环境与基础设施具有不同信息层级。图注中的旧名称与历史日期保留；同一背景下出现的建筑，不自动等同于共同参与某项项目。"
+      }
+    ],
+    "research_question": "可以把皮图菲克与民用卫星地面站并置，讨论设施任务的差异。研究任务、管理安排和技术能力时，应引用相应时期的官方文件，不从一张地图连线推导战略结论。",
+    "compare_id": "svalsat",
+    "compare_reason": "比较任务不同的高纬空间设施；此处不表示两站有合作关系。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Pituffik_Space_Base",
+      "https://commons.wikimedia.org/wiki/File:Thule_Air_Base_aerial_view.jpg",
+      "https://commons.wikimedia.org/wiki/File:Thule_Air_Base_Gets_New_Name_(7763174).jpg",
+      "https://commons.wikimedia.org/wiki/File:Thule_Air_Base_Gets_New_Name_(7726760).jpg",
+      "https://commons.wikimedia.org/wiki/File:A_sunny_view_of_the_ramp_at_Thule_Air_Base,_Greenland.jpg",
+      "https://commons.wikimedia.org/wiki/File:Thule_Air_Base-_Space_Superiority_from_the_Top_of_the_World_(220807-X-BV344-1003).jpg"
+    ],
+    "article_id": "wiki-pituffik",
+    "source_revision": 1373885097,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "narvik": {
+    "lede": "峡湾中的港城，让跨山交通与海上出口相遇。",
+    "sections": [
+      {
+        "title": "峡湾位置",
+        "body": "纳尔维克位于挪威北部奥福特峡湾沿岸、北极圈以内。资料中的 Narvik 有时指城镇、有时指范围更大的市镇，坐标与统计口径需要分别核对。"
+      },
+      {
+        "title": "港口与铁路",
+        "body": "港口与通往瑞典的铁路联系，是理解纳尔维克发展的重要线索。矿石运输使内陆资源与海岸码头相联系，但实际货流仍应由运输统计支撑。"
+      },
+      {
+        "title": "城市的时间线",
+        "body": "纳尔维克在 1902 年获得城镇地位。市镇后来有过行政合并，因此不同年份的人口、面积或港口服务范围不能不加区分地直接比较。"
+      },
+      {
+        "title": "地形中的生活",
+        "body": "照片展示峡湾岸线、港区与山坡上的城市。这样的空间对照能说明地形背景；港口全景本身不能回答泊位吞吐能力或船舶冰级。"
+      }
+    ],
+    "research_question": "可与基律纳一起讨论资源、铁路与港口的联系。若要把这条联系加入正式关系图，需要保留运营方、线路、货种与年份一致的资料，而不能把一般地理联系写成具体合作合同。",
+    "compare_id": "kiruna",
+    "compare_reason": "沿内陆—港口的研究问题，比较矿业城市。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Narvik_Municipality",
+      "https://commons.wikimedia.org/wiki/File:Narvik_Panorama_-_panoramio.jpg",
+      "https://commons.wikimedia.org/wiki/File:Narvik_panorama.jpg",
+      "https://commons.wikimedia.org/wiki/File:Narvik_Panorama.jpg",
+      "https://commons.wikimedia.org/wiki/File:Narvik_harbour_2014.jpg",
+      "https://commons.wikimedia.org/wiki/File:Narvik_harbour_2022-09-05_01.jpg"
+    ],
+    "article_id": "wiki-narvik",
+    "source_revision": 1375905425,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "kola": {
+    "lede": "半岛包含海岸、山地、工业与社区，不能浓缩成一个设施。",
+    "sections": [
+      {
+        "title": "区域位置",
+        "body": "科拉半岛位于俄罗斯欧洲部分西北端，北邻巴伦支海，东部和东南部邻白海。地图标记表示区域背景，不能用来定位整个半岛上的项目。"
+      },
+      {
+        "title": "不同的自然环境",
+        "body": "半岛大部分位于北极圈以内，海岸、内陆山地与植被景观并不相同。照片中的森林或山地不是港口实景，阅读时应保留题材与地点范围。"
+      },
+      {
+        "title": "居民与历史",
+        "body": "萨米居民长期生活于这一地区；后来又有波莫尔人的沿海活动和其他迁入。介绍工业与航运时，也需要看到这些地方社会的历史。"
+      },
+      {
+        "title": "城市和产业",
+        "body": "二十世纪的工业化与交通建设改变了半岛的聚落分布。摩尔曼斯克是单独收录的城市节点；半岛背景与城市港口证据不能彼此替代。"
+      }
+    ],
+    "research_question": "这里适合把巴伦支海环境背景与具体城市、港口和资源活动分层组织。进一步研究环境影响或产业变化，需要空间范围明确的观测和生产资料。",
+    "compare_id": "murmansk",
+    "compare_reason": "从区域背景进入科拉湾内的港口城市。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Kola_Peninsula",
+      "https://commons.wikimedia.org/wiki/File:Autumn_tundra_mosaic_Kola_Peninsula_Murmansk_Russia.jpg",
+      "https://commons.wikimedia.org/wiki/File:Lake_Seydozero_in_fall_colors_Kola_Peninsula_Murmansk_Russia.jpg",
+      "https://commons.wikimedia.org/wiki/File:Chivruay_Valley_in_fall_colors_near_Saydozero_Lake_Murmansk_Oblast_Russia.jpg",
+      "https://commons.wikimedia.org/wiki/File:Teriberka,_Kola_Peninsula,_Russia.jpg",
+      "https://commons.wikimedia.org/wiki/File:Sunset_on_the_Kola_Peninsula.jpg"
+    ],
+    "article_id": "wiki-kola",
+    "source_revision": 1373564613,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "longyearbyen": {
+    "lede": "从矿业聚落到科研与服务节点，变化写在山谷两侧。",
+    "sections": [
+      {
+        "title": "山谷与峡湾",
+        "body": "朗伊尔城位于斯匹次卑尔根岛西部、朗伊尔谷与 Adventfjorden 岸边，是斯瓦尔巴群岛的重要聚落。城市、机场和山上的卫星站采用不同地点定位。"
+      },
+      {
+        "title": "矿业起点",
+        "body": "1906 年，约翰·朗伊尔相关的煤炭公司在此开展采煤并建立聚落。早期公司的生产安排影响了城镇发展，历史工业建筑可以与现代街景对读。"
+      },
+      {
+        "title": "功能逐渐扩展",
+        "body": "后来的科研、教育和旅游活动增加了城市的功能。大学中心、机场及周边科研设施构成不同的服务节点，不宜简单并成一个“北极科研站”。"
+      },
+      {
+        "title": "照片中的尺度",
+        "body": "从房屋与街道看社区生活，从山谷全景看地形背景，再到 SvalSat 查看空间设施。地理上的邻近关系可以展示，但项目关系仍需有独立材料。"
+      }
+    ],
+    "research_question": "可追问科研设施如何依靠城镇的交通、生活和维护服务。本站提供地点比较与 SvalSat 资料入口；服务流量和经济变化还需机场、物流及城市统计支持。",
+    "compare_id": "svalsat",
+    "compare_reason": "到附近山上的卫星站查看设施与地貌。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Longyearbyen",
+      "https://commons.wikimedia.org/wiki/File:Longyearbyen-from-above-Hiorthfjellet.jpg",
+      "https://commons.wikimedia.org/wiki/File:RV_Kronprins_Haakon.jpg",
+      "https://commons.wikimedia.org/wiki/File:Harbour_of_Longyearbyen.jpg",
+      "https://commons.wikimedia.org/wiki/File:Longyearbyen-spisshus-2022.jpg",
+      "https://commons.wikimedia.org/wiki/File:Longyearbyen-as-of-2022.jpg"
+    ],
+    "article_id": "wiki-longyearbyen",
+    "source_revision": 1379101974,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "nyalesund": {
+    "lede": "从煤矿聚落到国际科研站区，建筑背后是持续观测。",
+    "sections": [
+      {
+        "title": "峡湾岸边的站区",
+        "body": "新奥尔松位于斯匹次卑尔根岛西部、Kongsfjorden 岸边。它由多座研究与生活建筑组成，地图上的一个点代表站区，不能替代每台设备的准确位置。"
+      },
+      {
+        "title": "从矿业到科研",
+        "body": "聚落始建于 1917 年，早期围绕采煤发展。1962 年严重矿难后，采矿活动终止；后续逐步转向科研，历史遗迹与现代实验设施可以一同阅读。"
+      },
+      {
+        "title": "长期观测与共享条件",
+        "body": "站区面向北极环境研究，包含长期观测、野外研究与配套后勤。共享设施和协调机制使这里有别于单独的一栋科考站建筑。"
+      },
+      {
+        "title": "多机构的具体分工",
+        "body": "本站 AWIPEV 专题整理了联合科研基地的参与关系。中国科考站、挪威研究设施与海洋实验室等影像用于辨认不同对象，不能从同处站区推断所有机构之间都有合作。"
+      }
+    ],
+    "research_question": "研究重点可以落在共享后勤、观测设备与机构分工如何支持连续观测。若要进一步证明合作成果，需要具体观测项目、共享数据和论文记录，而不只是科考站数量。",
+    "compare_id": "longyearbyen",
+    "compare_reason": "比较科研站区与提供区域服务的城市。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Ny-%C3%85lesund",
+      "https://www.awi.de/flotte-stationen/stationen/awipev-arktis-forschungsbasis.html",
+      "https://nyalesundresearch.no/host-institutions-on-site/",
+      "https://commons.wikimedia.org/wiki/File:Ny-Aalesund_IMG_6498_NDCS_Observatory_germany.JPG",
+      "https://commons.wikimedia.org/wiki/File:Chinese_research_station_in_Ny_Alesund.jpg",
+      "https://commons.wikimedia.org/wiki/File:Ny-Alesund_(js)_2.jpg",
+      "https://commons.wikimedia.org/wiki/File:Ny-%C3%85lesund_2013_06_07_3651_(10178976586).jpg",
+      "https://commons.wikimedia.org/wiki/File:Ny-Aalesund_IMG_6461_Kings_Bay_Marine_Laboratory.JPG"
+    ],
+    "article_id": "wiki-nyalesund",
+    "source_revision": 1377794494,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "tromso": {
+    "lede": "海岛上的北方城市，港口之外还有街区与跨海联系。",
+    "sections": [
+      {
+        "title": "海岛城市",
+        "body": "特罗姆瑟市中心位于 Tromsøya 岛，海峡把岛屿与挪威大陆分开。介绍城市时应同时看水域、桥梁和建成区，而不只展示码头。"
+      },
+      {
+        "title": "跨海交通",
+        "body": "特罗姆瑟大桥与海底隧道连接大陆一侧的 Tromsdalen，另一侧桥梁连接 Kvaløya。交通设施说明城市联系的空间形态，不能替代实际流量数据。"
+      },
+      {
+        "title": "街区与文化",
+        "body": "市中心保留许多挪威北部的木屋，文化活动也是城市的重要组成部分。把街景放在港口照片旁边，有助于理解北极地区同样拥有日常的城市生活。"
+      },
+      {
+        "title": "港湾的不同对象",
+        "body": "现有图集含客轮、渔船和俯瞰城市的景观。不同船型代表不同拍摄对象；停靠照片不自动说明其承担科考、货运或特定航线任务。"
+      }
+    ],
+    "research_question": "可以比较特罗姆瑟和新奥尔松在北极活动中的城市与站区尺度。具体科研服务、船舶补给或机构合作，仍需要项目或运营资料建立联系。",
+    "compare_id": "nyalesund",
+    "compare_reason": "对照综合城市与专门科研站区的功能。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Troms%C3%B8",
+      "https://www.awi.de/ueber-uns/service/presse/presse-detailansicht/polarstern-startet-richtung-arktis.html",
+      "https://www.awi.de/en/focus/mosaic-expedition.html",
+      "https://commons.wikimedia.org/wiki/File:TROMSO_HARBOUR_NORWAY_JUNE_2014_(15809914138).jpg",
+      "https://commons.wikimedia.org/wiki/File:Vester%C3%A5len_at_Prostneset_Troms%C3%B8_2022-09-08_04.jpg",
+      "https://commons.wikimedia.org/wiki/File:Troms%C3%B8_2013_06_05_2413_(10118521525).jpg",
+      "https://commons.wikimedia.org/wiki/File:Troms%C3%B8_Hafen_lub_2025-07-19.jpg",
+      "https://commons.wikimedia.org/wiki/File:09512_Tromsdalen_church_and_bridge_-_Tromso,_Norway_-_V-P.jpg"
+    ],
+    "article_id": "wiki-tromso",
+    "source_revision": 1379276287,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "svalsat": {
+    "lede": "天线、山地与数据通信，共同构成高纬地面站的背景。",
+    "sections": [
+      {
+        "title": "独立的设施位置",
+        "body": "SvalSat 位于朗伊尔城附近的 Platåberget 山上。站区与城市分别标记，以免把山上的天线设施当作城区内的建筑。"
+      },
+      {
+        "title": "面向极轨卫星",
+        "body": "高纬位置有利于接收极轨卫星过境信号。站点背景资料介绍了卫星测控和数据下传服务；具体覆盖与任务应以相应卫星及站点资料为准。"
+      },
+      {
+        "title": "建设与连接",
+        "body": "地面站于 1997 年启用，后来与海底光纤通信条件的发展相联系。天线之外，数据如何传送离开北极，也是理解设施作用的关键。"
+      },
+      {
+        "title": "影像能看到什么",
+        "body": "站外天线罩、用于教学展示的天线内部，以及山顶向峡湾的视野，分别说明设备形态与环境背景。照片里的设备数量不用于估计现有容量。"
+      }
+    ],
+    "research_question": "可以把地面接收、数据传输与用户任务分开研究。本站 SvalSat 材料提供公开站点背景，不由地理邻近推断它参与 ASBM 项目或其他未被材料确认的任务。",
+    "compare_id": "longyearbyen",
+    "compare_reason": "查看设施邻近城市的生活与地理背景。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Svalbard_Satellite_Station",
+      "https://commons.wikimedia.org/wiki/File:Svalbard_Satellite_Station_(Plat%C3%A5berget_mountain).jpg",
+      "https://commons.wikimedia.org/wiki/File:Svalbard_Satellite_Station_2015-03-23_03.jpg",
+      "https://commons.wikimedia.org/wiki/File:Svalbard_Satellite_Station_2015-03-23_06.jpg",
+      "https://commons.wikimedia.org/wiki/File:Svalbard_Satellite_Station_2019-05-23.jpg",
+      "https://commons.wikimedia.org/wiki/File:Svalbard_Satellite_Station_2015-03-23_04.jpg"
+    ],
+    "article_id": "wiki-svalsat",
+    "source_revision": 1366061047,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "esrange": {
+    "lede": "高纬航天研究包含多种任务，不能用一座发射塔概括。",
+    "sections": [
+      {
+        "title": "与城市的位置关系",
+        "body": "Esrange 位于瑞典基律纳以东约 40 千米。城市与航天中心分开定位，前者提供区域背景，后者才是具体设施节点。"
+      },
+      {
+        "title": "建设沿革",
+        "body": "设施由欧洲空间研究组织在二十世纪六十年代建设，1972 年管理转交瑞典方面。历史机构名称需要按资料年代保留，不能套用当前组织名称。"
+      },
+      {
+        "title": "多种研究活动",
+        "body": "探空火箭、高空气球、极光与大气研究、卫星地面服务是不同任务。图集中出现的气球或天线应按具体对象介绍，不将全部影像都标成“卫星发射”。"
+      },
+      {
+        "title": "地面站联系",
+        "body": "本站 Kinuvik 专题整理了 Esrange 与伊努维克地面站相关材料。照片里的某一副天线，只能作为明确标注的设施背景，不能未经核实就认定为该项目专用设备。"
+      }
+    ],
+    "research_question": "研究可以围绕高纬选址、任务分工与跨站服务组织展开。与轨道发射有关的计划、试验和实际发射应分开，本站不把规划能力视为已经实现的运行成果。",
+    "compare_id": "inuvik",
+    "compare_reason": "继续阅读已收录的地面站配对案例。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Esrange",
+      "https://sscspace.com/services/satellite-ground-stations/our-stations/esrange-ground-station/",
+      "https://www.canada.ca/en/news/archive/2010/08/inauguration-canada-first-arctic-satellite-station.html",
+      "https://commons.wikimedia.org/wiki/File:Parabolantenner,_Esrange_Sverige.jpg",
+      "https://commons.wikimedia.org/wiki/File:The_launch_of_the_MAPHEUS-3_sounding_rocket.jpg",
+      "https://commons.wikimedia.org/wiki/File:Miljobilder_fran_Esrange,_Sverige.jpg",
+      "https://commons.wikimedia.org/wiki/File:IT_utrustning_pa_Esrange_Sverige.jpg",
+      "https://commons.wikimedia.org/wiki/File:Launch_of_the_MAPHEUS-4_sounding_rocket.jpg"
+    ],
+    "article_id": "wiki-esrange",
+    "source_revision": 1378065618,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "murmansk": {
+    "lede": "科拉湾中的港口城市，把陆路网络接到巴伦支海。",
+    "sections": [
+      {
+        "title": "湾内的位置",
+        "body": "摩尔曼斯克位于俄罗斯西北部科拉湾两岸，主体城区在东岸。科拉湾通向巴伦支海，城市与整个科拉半岛采用不同层级的地点档案。"
+      },
+      {
+        "title": "港口与暖流背景",
+        "body": "北大西洋暖流影响当地海洋条件，港口以冬季保持通航的地理背景闻名。这种背景不能直接等同于每一年的具体冰情或航行安全状态。"
+      },
+      {
+        "title": "陆海联系",
+        "body": "铁路、公路与港口一起构成城市的交通联系。若讨论北方海航道，需要进一步区分本地补给、资源运输与经过北极的跨区域航行。"
+      },
+      {
+        "title": "从港区看城市",
+        "body": "港口办公室、船舶、岸线与背后的建成区提供不同观察角度。历史破冰船和现代港湾可并置，但旧照片不用于推算当前运力或设施完好率。"
+      }
+    ],
+    "research_question": "可以把这里作为巴伦支海沿岸服务节点，与科拉半岛环境背景对应。正式比较港口能力时，应收集同年吞吐量、泊位、冰级船舶和后勤资料。",
+    "compare_id": "kola",
+    "compare_reason": "把港城放回更大的半岛环境中理解。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Murmansk",
+      "https://commons.wikimedia.org/wiki/File:Murmansk_port_2022-05.jpg",
+      "https://commons.wikimedia.org/wiki/File:Panoramic_view_towards_Murmansk_Port_from_Vodoprovodny_Lane,_2014.jpg",
+      "https://commons.wikimedia.org/wiki/File:2022-09-16_-_Murmansk_Port_panorama_near_the_Lenin_icebreaker.jpg",
+      "https://commons.wikimedia.org/wiki/File:Port_of_Murmansk_2022-05_portra800.jpg",
+      "https://commons.wikimedia.org/wiki/File:Murmansk_sea_port_office_building_2022-05.jpg"
+    ],
+    "article_id": "wiki-murmansk",
+    "source_revision": 1378454841,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sabetta": {
+    "lede": "港口、工厂与航空补给，组成亚马尔能源项目的地方节点。",
+    "sections": [
+      {
+        "title": "鄂毕湾西岸",
+        "body": "萨别塔位于俄罗斯亚马尔半岛、鄂毕河口湾西岸。这里收录的是港口和项目地点背景，不把整个鄂毕湾其他工地的照片混入萨别塔。"
+      },
+      {
+        "title": "产业与聚落",
+        "body": "萨别塔与亚马尔 LNG 港口及液化天然气设施相联系，也有服务项目人员的轮班聚居空间。产业节点与普通城市的功能结构不同，需要分别介绍。"
+      },
+      {
+        "title": "海上与空中联系",
+        "body": "图集中的冰封港区、进港船舶与机场说明运输方式并存。它们只记录拍摄时的场景，不能代替全年航次、运量或实际通航天数。"
+      },
+      {
+        "title": "有日期的项目事实",
+        "body": "本站专题引用 2017 年首批 LNG 出口相关材料，并保留当时参与方信息。历史股权和节点适用于对应时期，不当作今天的企业结构。"
+      }
+    ],
+    "research_question": "研究可以沿“气源—液化设施—港口—运输条件”逐环收集证据。海冰条件与项目运营并不是一一对应关系，还需船型、破冰支持、合同及政策材料解释。",
+    "compare_id": "murmansk",
+    "compare_reason": "与巴伦支海港城比较产业专用港和综合服务节点。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Sabetta",
+      "https://totalenergies.com/newsroom/yamal-lng-project-begins-gas-exports/?lang=eng",
+      "https://commons.wikimedia.org/wiki/File:Tor_icebreaker_(2225296).jpg",
+      "https://commons.wikimedia.org/wiki/File:Ship_Valeri_Vasiliev_navigating_through_fast_ice_(2225219).jpg",
+      "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B5%D1%80%D1%80%D0%BE%D0%BD_%D0%B0%D1%8D%D1%80%D0%BE%D0%BF%D0%BE%D1%80%D1%82_%D0%A1%D0%B0%D0%B1%D0%B5%D1%82%D1%82%D0%B0.jpg",
+      "https://commons.wikimedia.org/wiki/File:%D0%AE%D1%82%D1%8D%D0%B9%D1%80_%D0%B2_%D0%A1%D0%B0%D0%B1%D0%B5%D1%82%D1%82%D0%B5.jpg",
+      "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B0%D0%B1%D0%B5%D1%82%D1%82%D0%B0._%D0%A1%D0%9F%D0%93.jpg"
+    ],
+    "article_id": "wiki-sabetta",
+    "source_revision": 1376736714,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "tiksi": {
+    "lede": "拉普捷夫海岸的聚落，把气象观测与交通背景放在一起。",
+    "sections": [
+      {
+        "title": "海湾与河口附近",
+        "body": "季克西位于俄罗斯萨哈共和国、拉普捷夫海布奥尔海亚湾岸边，勒拿河三角洲东南侧。本站收录聚落示意位置，气象设施另依照片说明辨认。"
+      },
+      {
+        "title": "现代聚落沿革",
+        "body": "现代季克西建于 1933 年，1939 年获得城市型聚落地位。旧城与苏联时期建设是阅读历史照片的背景，不能由旧建筑数量推算现有人口。"
+      },
+      {
+        "title": "港口与航空",
+        "body": "季克西是进入拉普捷夫海地区的港口节点，也有机场服务。航空和海运具有不同的运行条件，需要分别核对季节、运量和航线资料。"
+      },
+      {
+        "title": "海岸与观测",
+        "body": "图集同时保留沿海冰情、周边山地和气象观测设施。设备照片说明曾拍摄到具体设施；海冰或气象趋势应回到连续观测序列。"
+      }
+    ],
+    "research_question": "可追问环境观测如何帮助理解沿岸运输。当前区域月度图覆盖的是另三个指定海区，不能把楚科奇海曲线直接当作季克西当地冰情。",
+    "compare_id": "pevek",
+    "compare_reason": "比较俄罗斯北极沿岸不同海域的港口聚落。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Tiksi",
+      "https://commons.wikimedia.org/wiki/File:Tiksi.jpg",
+      "https://commons.wikimedia.org/wiki/File:Russia,_Yakutia,_Tiksi_2015_-_SS.jpg",
+      "https://commons.wikimedia.org/wiki/File:Tiksi_Russia_Weather_Station.jpg",
+      "https://commons.wikimedia.org/wiki/File:Tiksi-3_-_panoramio.jpg",
+      "https://commons.wikimedia.org/wiki/File:Tiksi_-_panoramio.jpg"
+    ],
+    "article_id": "wiki-tiksi",
+    "source_revision": 1375217777,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "pevek": {
+    "lede": "恰翁湾内的港口，连接资源开发与高纬社区。",
+    "sections": [
+      {
+        "title": "海域归属",
+        "body": "佩韦克位于俄罗斯楚科奇自治区、东西伯利亚海的恰翁湾东侧，面向劳坦群岛。虽在楚科奇地区，不能据行政名称把它直接划进楚科奇海统计边界。"
+      },
+      {
+        "title": "港口的形成",
+        "body": "现代聚落在第一次世界大战后形成，港口发展与矿产外运、北方海航道建设有关。后续产业与人口变化需按时期讨论，而不预设持续增长。"
+      },
+      {
+        "title": "生活与地形",
+        "body": "城区、坡地和港湾在照片中共同出现。远景帮助理解聚落布局，野生动物或极光影像提供环境背景，但不用于量化生态状态。"
+      },
+      {
+        "title": "能源设施的背景",
+        "body": "地点资料提到浮动核电设施“罗蒙诺索夫院士”号。本站当前不根据港口照片建立其技术能力、经济效益或对外合作的定量结论。"
+      }
+    ],
+    "research_question": "这里适合讨论偏远资源港口的补给和能源条件。研究需要区分海域、行政区和项目服务范围，尤其不能让跨越经度 180° 的地图显示方式改变真实地理关系。",
+    "compare_id": "tiksi",
+    "compare_reason": "对照拉普捷夫海一侧的港口与气象观测背景。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Pevek",
+      "https://commons.wikimedia.org/wiki/File:%D0%9F%D1%80%D0%B8%D1%87%D0%B0%D0%BB_%D0%BF%D0%BE%D1%80%D1%82%D0%B0_%D0%9F%D0%B5%D0%B2%D0%B5%D0%BA.jpg",
+      "https://commons.wikimedia.org/wiki/File:View_of_Pevek_from_the_south.jpg",
+      "https://commons.wikimedia.org/wiki/File:The-view-on-pevek-from-paakinay-knoll.jpg",
+      "https://commons.wikimedia.org/wiki/File:Arctic_port_Pevek.JPG",
+      "https://commons.wikimedia.org/wiki/File:Aurora._Arctic_port_Pevek.JPG",
+      "https://commons.wikimedia.org/wiki/File:Polar_hares.JPG"
+    ],
+    "article_id": "wiki-pevek",
+    "source_revision": 1375144452,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "reykjavik": {
+    "lede": "北大西洋岸的首都，让港口与城市文化同时进入画面。",
+    "sections": [
+      {
+        "title": "城市位置",
+        "body": "雷克雅未克位于冰岛西南部、法赫萨湾南岸。城市在北极圈以南，本站把它作为北大西洋与北极活动相关的区域背景，不将其标为极地站点。"
+      },
+      {
+        "title": "港口与城市起点",
+        "body": "现代城市在 1786 年以贸易城镇的形式建立，后来发展为冰岛政治、文化与经济中心。更早的定居记载属于不同时间层次，介绍时加以区分。"
+      },
+      {
+        "title": "名字的由来",
+        "body": "名称中的“烟湾”通常与当地温泉蒸汽联系起来。城市环境除了海港，还有湖泊、街区和公共建筑，能够丰富对北方城市的认识。"
+      },
+      {
+        "title": "季节中的港湾",
+        "body": "图集中的冬季港口与船舶照片保留各自拍摄日期。冬季港景、天气状况和某条航线的全年运营能力不是同一件事。"
+      }
+    ],
+    "research_question": "可以与冰岛北部的阿克雷里比较区位和港城功能。若讨论北极航运服务，还需明确船舶、年份、靠港活动与服务类型。",
+    "compare_id": "akureyri",
+    "compare_reason": "从西南部首都转向冰岛北部峡湾港城。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Reykjav%C3%ADk",
+      "https://commons.wikimedia.org/wiki/File:Reykjav%C3%ADk_Old_Harbor.jpg",
+      "https://commons.wikimedia.org/wiki/File:Old_Harbour_of_Reykjavik_(5897420133).jpg",
+      "https://commons.wikimedia.org/wiki/File:2017-08-23_MAGNI_%E2%80%93_IMO_9339727,_in_Reykjavik,_Iceland.jpg",
+      "https://commons.wikimedia.org/wiki/File:January_2007,_port_of_Reykjavik_7.jpg",
+      "https://commons.wikimedia.org/wiki/File:On_the_lake_Tj%C3%B6rnin_in_Reykjav%C3%ADk_(47627229891).jpg"
+    ],
+    "article_id": "wiki-reykjavik",
+    "source_revision": 1378516597,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "akureyri": {
+    "lede": "峡湾深处的北部城市，港口与生活空间紧密相邻。",
+    "sections": [
+      {
+        "title": "峡湾位置",
+        "body": "阿克雷里主体城区位于冰岛北部 Eyjafjörður 峡湾尽头。市镇辖区还包括离岸岛屿，因此市镇范围与图中的城区坐标不完全相同。"
+      },
+      {
+        "title": "港口与渔业",
+        "body": "港口和渔业是城市的重要历史背景。峡湾内的自然条件影响城镇发展，但具体船舶停靠与作业情况仍需对应时期的记录。"
+      },
+      {
+        "title": "城市沿革",
+        "body": "阿克雷里在 1786 年获得城市特许状，之后的城市地位和发展又经历变化。历史年份适合帮助读者理解港城形成，不作为连续经济增长指标。"
+      },
+      {
+        "title": "看见港口之外",
+        "body": "港湾、坡地上的建筑与城市街景提供不同视角。邮轮照片用于识别拍摄场景，不代表邮轮活动就是本站北极科研或技术项目。"
+      }
+    ],
+    "research_question": "可比较冰岛两个港城的区位、后勤与服务功能。需要补充机构、港务和船舶资料，才能把城市背景转化为可核验的北极参与关系。",
+    "compare_id": "reykjavik",
+    "compare_reason": "与冰岛西南岸的首都港湾进行地理比较。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Akureyri",
+      "https://commons.wikimedia.org/wiki/File:Akureyri_harbour_2016_02.jpg",
+      "https://commons.wikimedia.org/wiki/File:The_harbour_in_Akureyri_(821389668).jpg",
+      "https://commons.wikimedia.org/wiki/File:Views_of_Akureyri,_harbour.jpg",
+      "https://commons.wikimedia.org/wiki/File:Akureyri_harbour_2016_01.jpg",
+      "https://commons.wikimedia.org/wiki/File:Akureyri_Island.jpg"
+    ],
+    "article_id": "wiki-akureyri",
+    "source_revision": 1378717847,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "cambridgebay": {
+    "lede": "科研设施坐落在社区之中，不能只看实验室而忽略居民。",
+    "sections": [
+      {
+        "title": "维多利亚岛上的社区",
+        "body": "剑桥湾位于加拿大努纳武特地区、维多利亚岛南部的基蒂克美奥特地区。社区、机场与 CHARS 研究设施是不同对象，在图注和专题中分别说明。"
+      },
+      {
+        "title": "地方名称与文化",
+        "body": "Inuinnaqtun 名称 Iqaluktuuttiaq 意为“适于捕鱼的地方”。地方语言与知识是理解社区的重要背景，不能把这里仅介绍成科研设施的空白场地。"
+      },
+      {
+        "title": "通往群岛的联系",
+        "body": "剑桥湾与西北航道上的船舶活动有关，机场和社区商店则体现日常交通与补给。靠港场景不等于对航道法律地位或全年通航能力作判断。"
+      },
+      {
+        "title": "社区中的研究站",
+        "body": "加拿大高北极研究站 CHARS 位于这里，2019 年的正式启用材料已整理为专题。官方介绍强调科研设施、技术支持以及与原住民知识的联系。"
+      }
+    ],
+    "research_question": "这里适合研究科研设施如何与社区、野外工作和知识合作联系。站点建成并不等同于某项合作成果，后续需要项目、参与方式与实际产出材料。",
+    "compare_id": "resolute",
+    "compare_reason": "比较加拿大群岛内不同社区的交通和科研背景。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Cambridge_Bay",
+      "https://www.canada.ca/en/polar-knowledge/news/2019/08/the-official-opening-of-the-canadian-high-arctic-research-station-chars-campus-in-cambridge-bay-nunavut-opens-a-new-chapter-in-canadas-polar-resear1.html",
+      "https://www.canada.ca/en/polar-knowledge/CHARScampus.html",
+      "https://commons.wikimedia.org/wiki/File:Cambridge_Bay,_Nunavut_aerial_view.jpg",
+      "https://commons.wikimedia.org/wiki/File:Cambridge_Bay,_Nunavut_(13431557144).jpg",
+      "https://commons.wikimedia.org/wiki/File:Sunset_in_Cambridge_Bay,_Nunavut_(13431118765).jpg",
+      "https://commons.wikimedia.org/wiki/File:Canadian_North_737-200_C-GDPA_in_Cambridge_Bay,_Nunavut_(Quintin_Soloviev).png",
+      "https://commons.wikimedia.org/wiki/File:Ikaluktutiak_Co-op_grocery_store_in_Cambridge_Bay,_Nunavut.jpg"
+    ],
+    "article_id": "wiki-cambridgebay",
+    "source_revision": 1379046181,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "inuvik": {
+    "lede": "三角洲边缘的服务城镇，也是高纬地面站的地区背景。",
+    "sections": [
+      {
+        "title": "河流与植被过渡",
+        "body": "伊努维克位于加拿大西北地区、麦肯齐河三角洲东侧，处在北方森林向苔原过渡的地带。秋色、河岸和街区影像呈现的是不同环境尺度。"
+      },
+      {
+        "title": "社区与区域服务",
+        "body": "城镇提供行政、医疗、航空等区域服务，所在地与 Gwich’in、Inuvialuit 社区有关。技术设施的介绍需要放回居民和地方服务的背景。"
+      },
+      {
+        "title": "城镇与交通沿革",
+        "body": "二十世纪五十年代的规划与建设形成了现代城镇。1979 年邓普斯特公路建成使它接入加拿大公路系统；历史通达性不能替代今天的路况信息。"
+      },
+      {
+        "title": "地面站背景",
+        "body": "本站收录地面站启用与 Esrange 配对材料，并单独展示卫星天线影像。天线照片是伊努维克设施背景，未据外观认定为 Kinuvik 项目专用资产。"
+      }
+    ],
+    "research_question": "可比较高纬选址优势与维护、数据传输、社区服务的需求。判断具体站点分工，需要项目方说明和运行资料，而不是只看纬度或照片里的天线。",
+    "compare_id": "esrange",
+    "compare_reason": "进入已有材料支撑的地面站配对案例。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Inuvik",
+      "https://sscspace.com/services/satellite-ground-stations/our-stations/esrange-ground-station/",
+      "https://www.canada.ca/en/news/archive/2010/08/inauguration-canada-first-arctic-satellite-station.html",
+      "https://commons.wikimedia.org/wiki/File:Fall_Colors_Over_Inuvik_1.jpg",
+      "https://commons.wikimedia.org/wiki/File:Inuvik_town_center.jpg",
+      "https://commons.wikimedia.org/wiki/File:Late_evening_sun_over_downtown_Inuvik,_NT.jpg",
+      "https://commons.wikimedia.org/wiki/File:GSI_Mariner_beached_on_banks_of_the_Mackenzie_River,_Inuvik,_NT.jpg",
+      "https://commons.wikimedia.org/wiki/File:Front_view_of_Our_Lady_of_Victory_Church,_Inuvik,_NT.jpg"
+    ],
+    "article_id": "wiki-inuvik",
+    "source_revision": 1376277677,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "utqiagvik": {
+    "lede": "鲸骨、街区与海岸共同讲述北坡社区的生活。",
+    "sections": [
+      {
+        "title": "阿拉斯加北岸",
+        "body": "乌特恰维克位于阿拉斯加北坡、北极圈以北，旧称 Barrow。附近 Point Barrow 与城市本身是不同地理对象，检索旧资料时需要保留名称对应。"
+      },
+      {
+        "title": "因纽皮亚特社区",
+        "body": "当地有长期的 Iñupiat 居住历史。地名、生活文化与海岸环境相联系；鲸骨拱门等影像用于展示文化景观，不用于推断当代捕猎数量。"
+      },
+      {
+        "title": "海岸与城镇",
+        "body": "航拍能同时看见建成区、海岸和冰雪背景；地面照片则补充生活设施的尺度。不同季节和年份的影像不能直接拼成连续变化趋势。"
+      },
+      {
+        "title": "观测需要连续资料",
+        "body": "北坡的自然环境适合提出海冰、天气与社区出行问题。本站照片仅提供地点认识，具体变化必须由时间、位置和方法明确的观测记录支持。"
+      }
+    ],
+    "research_question": "可把社区环境与楚科奇海研究背景关联，但不要把整个海区的平均海冰数值当作城市岸边冰情。还需当地观测和居民出行资料。",
+    "compare_id": "nome",
+    "compare_reason": "比较阿拉斯加北岸社区与白令海一侧港城。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Utqiagvik,_Alaska",
+      "https://commons.wikimedia.org/wiki/File:Barrow_Alaska.jpg",
+      "https://commons.wikimedia.org/wiki/File:Arctic_Shore_at_Barrow_Alaska.jpg",
+      "https://commons.wikimedia.org/wiki/File:Whalebone_arch_in_Utqiagvik_Alaska.png",
+      "https://commons.wikimedia.org/wiki/File:Barrow_AK.jpg",
+      "https://commons.wikimedia.org/wiki/File:Barrow,_Alaska_commercial_building.jpg"
+    ],
+    "article_id": "wiki-utqiagvik",
+    "source_revision": 1379296649,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "nome": {
+    "lede": "淘金城的历史与港口补给，延续在白令海岸。",
+    "sections": [
+      {
+        "title": "苏厄德半岛南岸",
+        "body": "诺姆位于阿拉斯加苏厄德半岛南岸、白令海诺顿湾一侧。它与白令海峡有区域联系，但港口标记不在海峡中，也不等于北冰洋港口。"
+      },
+      {
+        "title": "先有社区，再有淘金城",
+        "body": "地区原有 Iñupiat 居民生活。十九世纪末发现黄金后出现淘金潮，诺姆于 1901 年建市；城市故事不应从外来淘金者才开始讲起。"
+      },
+      {
+        "title": "海运与补给",
+        "body": "现有影像包括港口防波堤及 2012 年相关油轮场景。照片能够说明历史补给活动，不能据此推出当前港口水深、扩建完成度或全年运力。"
+      },
+      {
+        "title": "历史街景的价值",
+        "body": "老照片记录建筑、街道和货物上岸方式，现代影像补充沿海环境。读图时首先看日期：历史照片提供比较背景，而不是今天的城市实况。"
+      }
+    ],
+    "research_question": "可围绕海岸社区补给、港口条件与季节性冰情展开研究。扩建计划、已建工程和实际服务能力需要分别登记；本站不以规划公告替代完工证据。",
+    "compare_id": "bering",
+    "compare_reason": "把地方港口放回白令海峡区域中观察。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Nome,_Alaska",
+      "https://commons.wikimedia.org/wiki/File:Nome_Alaska_aerial_view.jpg",
+      "https://commons.wikimedia.org/wiki/File:Russian_tanker_Renda,_Nome,_Alaska,_Jan._13,_2012.jpg",
+      "https://commons.wikimedia.org/wiki/File:Port-nome-1899.jpg",
+      "https://commons.wikimedia.org/wiki/File:October_19,_2004_Nome,_Alaska_flood_damage.png",
+      "https://commons.wikimedia.org/wiki/File:Front_Street,_Nome,_Alaska,_ca_1901_(MOHAI_7252).jpg"
+    ],
+    "article_id": "wiki-nome",
+    "source_revision": 1374775429,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "churchill": {
+    "lede": "哈德孙湾岸的港镇，同时拥有鲜明的生态与交通背景。",
+    "sections": [
+      {
+        "title": "河口与海湾",
+        "body": "丘吉尔位于加拿大曼尼托巴省北部、哈德孙湾西岸的丘吉尔河口，约在北纬 58 度。这里属于亚北极背景，不能因北极熊影像就把它放到北极圈内。"
+      },
+      {
+        "title": "港口城镇",
+        "body": "港口与城镇在河口附近形成空间联系。讨论货运和交通时，需要同年运营资料，不能由码头全景推断吞吐量或线路是否全年运行。"
+      },
+      {
+        "title": "生态观察",
+        "body": "当地以秋季向海岸活动的北极熊及相关自然旅游闻名。苔原、岸线与极光照片补充环境认识，观光影像不等于系统生态调查。"
+      },
+      {
+        "title": "历史科研设施",
+        "body": "图集中保留已停用火箭研究场的历史照片，并注明状态与拍摄日期。它用于了解地区研究史，不作为今天仍在运行的发射设施展示。"
+      }
+    ],
+    "research_question": "可以比较生态旅游、港口活动与历史科研在同一城镇的不同角色。当前三个研究海区不包括哈德孙湾，不能将它们的冰情曲线直接替代丘吉尔当地条件。",
+    "compare_id": "resolute",
+    "compare_reason": "比较亚北极港镇与更高纬度的群岛社区。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Churchill,_Manitoba",
+      "https://commons.wikimedia.org/wiki/File:The_Town_of_Churchill_as_seen_from_the_port.jpg",
+      "https://commons.wikimedia.org/wiki/File:Churchill,_Manitoba_(2010).jpg",
+      "https://commons.wikimedia.org/wiki/File:Churchill_River_-_Churchill,_Manitoba_(40584692474).jpg",
+      "https://commons.wikimedia.org/wiki/File:Churchill_Rocket_Research_Range_2013.jpg",
+      "https://commons.wikimedia.org/wiki/File:Tundra_-_Churchill,_Manitoba_(41298188461).jpg"
+    ],
+    "article_id": "wiki-churchill",
+    "source_revision": 1375643488,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "resolute": {
+    "lede": "高纬群岛中的社区，荒寒地表也有日常生活。",
+    "sections": [
+      {
+        "title": "康沃利斯岛南部",
+        "body": "雷索卢特位于加拿大努纳武特地区康沃利斯岛，濒临雷索卢特湾，处在加拿大北极群岛内。社区与周边湾区的范围不应混作同一个观测点。"
+      },
+      {
+        "title": "地方名称",
+        "body": "Inuktitut 名称 Qausuittuq 常被译为“没有黎明的地方”。极昼与极夜构成高纬生活的季节背景，但不能用名字代替精确日照或天气记录。"
+      },
+      {
+        "title": "寒冷与地表",
+        "body": "当地冬季漫长、夏季短而凉，社区道路和附近地表多为砾石。冰雪、地衣和远景照片能展示细部差异，不能将所有北极景观理解为全年覆盖白雪。"
+      },
+      {
+        "title": "航空与社区背景",
+        "body": "图集中的社区和机场附近导航设施展示不同的地方功能。照片本身不能说明航班频率、科研后勤运量或某个项目的设备归属。"
+      }
+    ],
+    "research_question": "可把雷索卢特与剑桥湾对照，讨论群岛社区的出行、补给和科研服务条件。需要结合地方历史与居民资料，避免把社区只作为技术项目的落点。",
+    "compare_id": "cambridgebay",
+    "compare_reason": "比较群岛中另一处有 CHARS 专题的社区。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Resolute,_Nunavut",
+      "https://commons.wikimedia.org/wiki/File:Resolute_Bay_1_1997-08-02.jpg",
+      "https://commons.wikimedia.org/wiki/File:Resolute_Bay_looking_South.JPG",
+      "https://commons.wikimedia.org/wiki/File:Community_of_Resolute.jpg",
+      "https://commons.wikimedia.org/wiki/File:Resolute_sun.jpg",
+      "https://commons.wikimedia.org/wiki/File:Lichen_in_Resolute_Bay,_Nunavut.jpg",
+      "https://commons.wikimedia.org/wiki/File:Resolute_Bay_VOR.jpg"
+    ],
+    "article_id": "wiki-resolute",
+    "source_revision": 1376596427,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "bremerhaven": {
+    "lede": "远离北极的母港，同样进入极地科考网络。",
+    "sections": [
+      {
+        "title": "威悉河口的港城",
+        "body": "不来梅港位于德国北部威悉河口东岸，是不来梅州的一部分。它在北极圈以南，本站收录它是为了认识极地科考的母港和后勤背景。"
+      },
+      {
+        "title": "城市起源",
+        "body": "城市于 1827 年作为不来梅的海港建立。老港、博物馆与现代港口记录了不同发展阶段，海事遗产可以与今天的科研船影像一起阅读。"
+      },
+      {
+        "title": "科研船与维护",
+        "body": "现有照片包含北极星号停泊、拖带和船坞场景。母港保障、船舶维护与实际极地航次是不同环节，应按照片和项目材料分别介绍。"
+      },
+      {
+        "title": "进入 MOSAiC 专题",
+        "body": "本站整理了 AWI 关于 MOSAiC 的启航安排与项目背景。船舶母港、航次启航地点和实际漂流作业区需要区分，不能把所有活动都定位在不来梅港。"
+      }
+    ],
+    "research_question": "研究可从科考网络的后勤环节展开：维修、人员组织和海上作业如何衔接？需要航次计划、靠港和维护记录支持，船舶照片不能直接证明任意机构之间存在合作。",
+    "compare_id": "tromso",
+    "compare_reason": "比较北海母港与挪威北部城市的不同角色。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Bremerhaven",
+      "https://www.awi.de/ueber-uns/service/presse/presse-detailansicht/polarstern-startet-richtung-arktis.html",
+      "https://www.awi.de/en/focus/mosaic-expedition.html",
+      "https://commons.wikimedia.org/wiki/File:Forschungseisbrecher_Polarstern_im_Heimathafen_Bremerhaven,_Deutschland.jpg",
+      "https://commons.wikimedia.org/wiki/File:IMO_8013132_-_Polarstern_with_tugboats.jpg",
+      "https://commons.wikimedia.org/wiki/File:Polarstern_Dock_Lloyd-Werft.jpg",
+      "https://commons.wikimedia.org/wiki/File:Polarstern_in_Bremerhaven.jpg",
+      "https://commons.wikimedia.org/wiki/File:Bremerhaven,_Alter_Hafen_--_2024_--_2281.jpg",
+      "https://commons.wikimedia.org/wiki/File:Bremerhaven,_Stadtansicht_--_2024_--_2293.jpg"
+    ],
+    "article_id": "wiki-bremerhaven",
+    "source_revision": 1377611726,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "helsinki": {
+    "lede": "破冰船停在城市岸边，产业背景与公共生活相互可见。",
+    "sections": [
+      {
+        "title": "芬兰湾岸的首都",
+        "body": "赫尔辛基位于芬兰南部、芬兰湾沿岸。它在北极圈以南，本站把它作为芬兰海事与极地装备相关的城市背景，而不是北极科考站。"
+      },
+      {
+        "title": "海岸城市的生活",
+        "body": "港湾、岛屿、市场与公共建筑构成海岸城市景观。图集在船舶之外补充城市环境，让读者能辨认设施所在的生活背景。"
+      },
+      {
+        "title": "破冰船泊位",
+        "body": "Katajanokka 一带的实景照片记录芬兰破冰船停泊场景。船名和拍摄日期保留在图注中，不能根据停泊地点认定它承担了本站某个特定项目。"
+      },
+      {
+        "title": "相关产业的延伸",
+        "body": "劳马也是芬兰海事城市背景节点；雪龙 2 号专题则根据项目来源介绍设计与建造分工。地理背景、企业关系和具体设备分别核对。"
+      }
+    ],
+    "research_question": "可以讨论极地装备能力如何在北极圈以南组织生产、设计与维护。还需合同、供应链和船舶运行资料，不能用城市内船舶数量代替技术实力排名。",
+    "compare_id": "rauma",
+    "compare_reason": "对照另一座芬兰海事城市的老城与产业景观。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Helsinki",
+      "https://commons.wikimedia.org/wiki/File:Icebreakers_at_Katajanokka_20260822.jpg",
+      "https://commons.wikimedia.org/wiki/File:Icebreakers_docked_in_Katajanokka.jpg",
+      "https://commons.wikimedia.org/wiki/File:Finnish_icebreakers_Urho_and_Kontio.jpg",
+      "https://commons.wikimedia.org/wiki/File:Pilot_boat_near_Helsinki.jpg",
+      "https://commons.wikimedia.org/wiki/File:Helsinki_Market_Square_and_the_harbor.jpg",
+      "https://commons.wikimedia.org/wiki/File:Abandoned_harbour_rail_tracks_at_the_Market_Square_in_Helsinki,_Finland,_2024_April.jpg"
+    ],
+    "article_id": "wiki-helsinki",
+    "source_revision": 1379320918,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "shanghai": {
+    "lede": "从长江口的造船现场，认识极地装备的建造环节。",
+    "sections": [
+      {
+        "title": "城市与厂区分开",
+        "body": "上海位于长江口，江南造船的长兴岛厂区位于城市范围内的特定工业地点。本站坐标保留城市示意精度，图片会明确区分厂区与城市背景。"
+      },
+      {
+        "title": "工业历史",
+        "body": "江南造船的历史可追溯到 1865 年。历史焊接、分段装配和锻造照片用于介绍工业发展，不代表当前设备条件，也不冒充雪龙 2 号建造现场。"
+      },
+      {
+        "title": "长兴岛的生产空间",
+        "body": "现有航拍展示长兴岛厂区轮廓。不同年份、不同船型出现在厂区照片中，不应自动归入同一个极地船舶项目。"
+      },
+      {
+        "title": "雪龙 2 号的分工",
+        "body": "本站依据交付资料整理雪龙 2 号的设计和建造分工。科考船访港照片归入项目图集，并注明实际拍摄在香港，不放到上海地点实景中。"
+      }
+    ],
+    "research_question": "可围绕设计、建造与后续科考任务的分工研究中国的极地装备参与。进一步判断能力还需要关键设备、实际航次和科研任务资料，而不只看交付节点。",
+    "compare_id": "helsinki",
+    "compare_reason": "延伸比较芬兰海事城市背景；具体合作以专题事实为准。",
+    "reading_urls": [
+      "https://en.wikipedia.org/wiki/Shanghai",
+      "https://en.wikipedia.org/wiki/Jiangnan_Shipyard",
+      "https://dnr.gxzf.gov.cn/xwzx/gnzx/t16076657.shtml",
+      "https://railotech.fi/references/xue-long-2/",
+      "https://commons.wikimedia.org/wiki/File:JiangnanShipyardChangxingIsland.jpg",
+      "https://commons.wikimedia.org/wiki/File:202309_Jiangnan_Shipyard_in_Changxing_Island.jpg",
+      "https://commons.wikimedia.org/wiki/File:1965-11_1965_%E6%B1%9F%E5%8D%97%E9%80%A0%E8%88%B9%E5%8E%82_%E7%84%8A%E6%8E%A5.jpg",
+      "https://commons.wikimedia.org/wiki/File:1965-5_1965%E5%B9%B4_%E6%B1%9F%E5%8D%97%E9%80%A0%E8%88%B9%E5%8E%82_%E8%87%AA%E7%94%B1%E9%94%BB%E9%80%A0%E6%B0%B4%E5%8E%8B%E6%9C%BA.jpg",
+      "https://commons.wikimedia.org/wiki/File:1965-11_1965_%E6%B1%9F%E5%8D%97%E9%80%A0%E8%88%B9%E5%8E%82_%E7%94%A8%E5%88%86%E6%AE%B5%E8%A3%85%E9%85%8D%E6%B3%95.jpg"
+    ],
+    "article_id": "wiki-shanghai",
+    "source_revision": 1376527406,
+    "edited_at": "2026-10-09",
+    "credit": "中文背景导读改写自对应 Wikipedia 条目（作者：Wikipedia contributors），并结合本站已核对的照片图注与项目事实；研究问题为本站提出。",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+}
