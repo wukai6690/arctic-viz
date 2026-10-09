@@ -35,10 +35,14 @@ def render_policy_comparison():
     if st.session_state.get('policy-right') not in right_options:st.session_state['policy-right']='no2025' if 'no2025' in right_options else right_options[0]
     right=b.selectbox('右侧政策',right_options,format_func=lambda k:policies[k]['name'],key='policy-right')
     sources=extension_sources()
-    for col,pid in zip([a,b],[left,right]):
+    for col,pid in zip(st.columns(2,gap='large'),[left,right]):
         p=policies[pid];s=sources[p['source_id']]
         with col:
             st.markdown('<article class="policy-reading"><small>'+escape(p['date']+' / '+p['genre'])+'</small><h3>'+escape(p['name'])+'</h3><p class="policy-focus">'+escape(p['themes'][topic])+'</p></article>',unsafe_allow_html=True)
+    st.caption('上方相邻阅读同一主题；原文短引、体裁与来源放在下方逐份核对。')
+    for col,pid in zip(st.columns(2,gap='large'),[left,right]):
+        p=policies[pid];s=sources[p['source_id']]
+        with col:
             if s.get('excerpt'):
                 st.markdown('**原文短引 · 文档定位**');st.text(s['excerpt']);st.caption(s['locator'])
             st.caption(p['scope'])

@@ -51,6 +51,13 @@ def source_records():
     for source in read_json(ROOT/'data/reference/research_extensions.json',{}).get('sources',[]):
         previous=records.get(source_id(source['url']),{})
         add({**previous,**source,'research_id':source['id']})
+    for name in ['deep_cases.json','mosaic_sources.json']:
+        extra=read_json(ROOT/'data/reference'/name,{})
+        for source in (extra if isinstance(extra,list) else extra.get('sources',[])):
+            previous=records.get(source_id(source['url']),{})
+            ids=list(dict.fromkeys([*previous.get('research_ids',[]),*([previous['research_id']] if previous.get('research_id') else []),source['id']]))
+            add({**previous,**source,'research_id':previous.get('research_id') or source['id'],'research_ids':ids,
+                 'summary':list(dict.fromkeys([*previous.get('summary',[]),*source.get('summary',[])]))})
     # Register the actual downloaded raw files, rather than remote substitutes.
     for sidecar in (ROOT/'data/analysis/raw').glob('*.source.json'):
         metadata=read_json(sidecar,{})

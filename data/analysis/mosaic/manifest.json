@@ -1,0 +1,92 @@
+{
+  "version": "mosaic-case-20261010-v1",
+  "reviewed_at": "2026-10-10",
+  "tracks": [
+    {
+      "path": "raw/track-leg1.tab",
+      "url": "https://doi.pangaea.de/10.1594/PANGAEA.924668?format=textfile",
+      "sha256": "585657f5a3e61fbc319963e0705bf183a281d3218b9ab9127ecb2a99ec9ef56d",
+      "bytes": 578623,
+      "rows": 12041,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "citation": "Rex, Markus (2020): Links to master tracks in different resolutions of POLARSTERN cruise PS122/1, Tromsø - Arctic Ocean, 2019-09-20 - 2019-12-13 (Version 2) [dataset]. Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven, PANGAEA, https://doi.org/10.1594/PANGAEA.924668"
+    },
+    {
+      "path": "raw/track-leg2.tab",
+      "url": "https://doi.pangaea.de/10.1594/PANGAEA.924674?format=textfile",
+      "sha256": "5f9ac8f77bd229d90b3eefc08bd24cfcccd843cfdce1453faa2bdbec4b8fbefb",
+      "bytes": 501028,
+      "rows": 10511,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "citation": "Haas, Christian (2020): Links to master tracks in different resolutions of POLARSTERN cruise PS122/2, Arctic Ocean - Arctic Ocean, 2019-12-13 - 2020-02-24 (Version 2) [dataset]. Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven, PANGAEA, https://doi.org/10.1594/PANGAEA.924674"
+    },
+    {
+      "path": "raw/track-leg3.tab",
+      "url": "https://doi.pangaea.de/10.1594/PANGAEA.924681?format=textfile",
+      "sha256": "9c4aa129ad998ffae5c12c0d951671e2072246958b12e74214f6bfb194eaab10",
+      "bytes": 682717,
+      "rows": 14528,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "citation": "Kanzow, Torsten (2020): Links to master tracks in different resolutions of POLARSTERN cruise PS122/3, Arctic Ocean - Longyearbyen, 2020-02-24 - 2020-06-04 (Version 2) [dataset]. Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven, PANGAEA, https://doi.org/10.1594/PANGAEA.924681"
+    },
+    {
+      "path": "raw/track-leg4.tab",
+      "url": "https://doi.pangaea.de/10.1594/PANGAEA.926829?format=textfile",
+      "sha256": "7b4fb02cf792d41065cb3c72cf337806c64757a7398d04409ae00d6634e22431",
+      "bytes": 464828,
+      "rows": 9956,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "citation": "Rex, Markus (2021): Master tracks in different resolutions of POLARSTERN cruise PS122/4, Longyearbyen - Arctic Ocean, 2020-06-04 - 2020-08-12 [dataset]. Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven, PANGAEA, https://doi.org/10.1594/PANGAEA.926829"
+    },
+    {
+      "path": "raw/track-leg5.tab",
+      "url": "https://doi.pangaea.de/10.1594/PANGAEA.926910?format=textfile",
+      "sha256": "adba5392a7298de3a73a0a991a0652add76920f7c0baa3c60bdf08e1ddb779a0",
+      "bytes": 416180,
+      "rows": 8757,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "citation": "Rex, Markus (2021): Master tracks in different resolutions of POLARSTERN cruise PS122/5, Arctic Ocean - Bremerhaven, 2020-08-12 - 2020-10-12 [dataset]. Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven, PANGAEA, https://doi.org/10.1594/PANGAEA.926910"
+    }
+  ],
+  "track_rows": 55793,
+  "route_display_rows": 1552,
+  "daily_rows": 389,
+  "start": "2019-09-20T17:50:00",
+  "end": "2020-10-12T05:59:00",
+  "coordinate_system": "WGS84 latitude/longitude",
+  "time_basis": "UTC navigation timestamps; source does not append a timezone suffix",
+  "missing_days": [],
+  "gaps_over_one_hour": [],
+  "ice_selection_rule": "航次首尾日期与其间每月 15 日；固定 14 日期，不按冰情结果挑选，不用其他日期替换失败日。",
+  "ice_requested_dates": [
+    "2019-09-20",
+    "2019-10-15",
+    "2019-11-15",
+    "2019-12-15",
+    "2020-01-15",
+    "2020-02-15",
+    "2020-03-15",
+    "2020-04-15",
+    "2020-05-15",
+    "2020-06-15",
+    "2020-07-15",
+    "2020-08-15",
+    "2020-09-15",
+    "2020-10-12"
+  ],
+  "ice_available": 14,
+  "map_method": "官方 10 分钟点原样合并。日船位选择同日距 12:00 最近的真实记录；地图线取每 6 小时箱的首个真实点，并保留原表行号。大于 1 小时的原始缺口分段，不插值、不补零。",
+  "limitations": [
+    "日船位代表单个时刻，不能代表日均位置。",
+    "海冰图为同一 AMSR2 产品与固定 Arctic 图幅，不从图片反推数值，也不与本站月度范围/面积相减。",
+    "船位包含主动航行和随冰漂流；本页不计算通航天数、航行风险、船舶性能或政治效应。",
+    "冰图中船舶图例可采用与冰情标题不同的时间；与本站 GPS 面板按各自时间阅读。",
+    "官方说明页与图例对 2020 年 5 月离开浮冰及 6 月返回的日期不一致（16/17 日、17/19 日）；本站阶段说明只取中旬精度，待查航次日志。"
+  ],
+  "acknowledgements": "Sea-ice concentration maps for selected dates from 2019-09-20 to 2020-10-12 are provided by meereisportal.de (REKLIM-2013-04). Data used were produced as part of MOSAiC20192020."
+}

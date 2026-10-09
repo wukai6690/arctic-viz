@@ -1,0 +1,293 @@
+"""Build two bounded case studies from checked primary-source facts.
+
+No webpage body or remote image is redistributed. Dates below describe either
+events or document publication, explicitly. Run from any working directory.
+"""
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+REVIEWED = '2026-10-10'
+VERSION = '20261010-deep-cases-v1'
+
+
+def source(id, title, publisher, published_at, url, locator, summary, notice=''):
+    return dict(id=id, title=title, publisher=publisher, published_at=published_at,
+                retrieved_at=REVIEWED, url=url, locator=locator, summary=summary,
+                kind='深度案例资料导读', notice=notice or '依据发布方原文整理的中文事实导读，不含原网页全文。企业公告与经营报告保留主体归属，不等同于独立绩效评估。')
+
+
+SOURCES = [
+    source('dc-asbm-proposal', '2018 年挪威高纬通信项目提案 · 第 3 章', '挪威贸易、工业和渔业部', '2018-03-23',
+           'https://www.regjeringen.no/no/dokumenter/prop.-55-s-20172018/id2594751/?ch=3',
+           '3 Om prosjektet；文件首页载明 2018-03-23 提出并获国务会议批准',
+           ['提案将增强北部通信、满足社会与政府需求以及商业融资机会并列说明，早于 2024 年发射。',
+            '方案包含两颗高椭圆轨道卫星、地面站与运行中心；北纬 65°以北全天覆盖和 15 年寿命是当时的设计目标。',
+            '当时计划 2022 年发射；这项计划不得写成已发生事件。'],
+           '政府在项目实施前提出的目标和方案；提案不等于实测性能，也不证明后续所有安排已经落实。中文为本站整理，挪威语为原文。'),
+    source('dc-asbm-agreements', '2019 年 ASBM 客户协议与建设安排公告', 'Space Norway（通过 NTB 发布）', '2019-07-04',
+           'https://kommunikasjon.ntb.no/pressemelding/17867487/space-norway-etablerer-satellittbasert-bredband-i-arktis?publisherId=17847073',
+           '2019-07-04 公告首段及第 3–8 段',
+           ['项目方宣布与 Inmarsat、挪威国防部门达成协议，并在文中说明与美国军方的客户安排。',
+            'Space Norway HEOSAT 负责实施和后续运行，与 KSAT 协作；公告当时仍计划 2022 年发射、2023 年提供宽带。'],
+           '项目方在新闻发布平台上的原始公告，属于一手主体陈述；计划日期与实际交付日期分开记录。'),
+    source('dc-asbm-launch', 'ASBM 双星成功发射公告', 'Space Norway', '2024-08-12',
+           'https://spacenorway.com/press-release/space-norway-confirms-the-successful-launch-of-asbm-satellites/',
+           '首段；TAP orbit；发射后测试与移交安排',
+           ['两颗卫星由 Falcon 9 从范登堡发射，公告给出挪威时间 2024-08-12 04:02。',
+            '公告说明 TAP 轨道周期为 16 小时；后续仍需抵达目标轨道、测试及正式交接。']),
+    source('dc-asbm-handover', 'ASBM 运行控制与所有权交接', 'Space Norway', '2024-10-17',
+           'https://spacenorway.com/press-release/asbm-handover-marks-an-important-milestone/',
+           '首段；Important payloads；Testing the payloads；ASBM handover of payload in November',
+           ['在轨测试后于 10 月中旬完成卫星交接；10 月 17 日是公告日期。',
+            '公告分别列出挪威军方、Viasat 与美方载荷的测试分工，以及 IDEAS 的 NORM 辐射监测仪。',
+            '文中对 11 月客户移交和商业运行的叙述仍是计划，不能当作实际开通记录。']),
+    source('dc-asbm-operation', '军方通信能力交付与海岸警卫队通话展示', 'Space Norway', '2024-12-16',
+           'https://spacenorway.com/news/operational-capability-in-the-high-north/',
+           'ASBM project is operational；Strategically important；末段商业服务预期',
+           ['运营方记录 12 月 16 日通过卫星向海岸警卫队船舶通话，并称军方已使用交付能力。',
+            '同一公告仍称 Viasat 预期在新年初推出服务；军方使用与商业服务开通不能合并。',
+            '项目主任把服务挪威军方列为项目主要理由，这是有明确归属的主体表述。']),
+    source('dc-yamal-export', '亚马尔 LNG 首批出口与 2017 年投资结构', 'Total（项目参与方）', '2017-12-08',
+           'https://totalenergies.com/newsroom/yamal-lng-project-begins-gas-exports/?lang=eng',
+           '正文 Paris, 8 December, 2017；设施组成段；末段股东结构',
+           ['正文载明 2017 年 12 月 8 日首批 LNG 已准备从萨别塔离港。三条生产线合计设计能力为 1650 万吨/年。',
+            '当时列示 Novatek 50.1%、Total 20%、CNPC 20%、丝路基金 9.9%；仅对应这份历史公告。'],
+           '采用正文署明的 2017-12-08 日期；网页标题下显示 12/07/2017，与正文不一致，保留此差异。首批货物已准备离港不等于精确离港时刻。'),
+    source('dc-yamal-first-loading', 'Vladimir Rusanov 首次装载与船舶规格', '商船三井 MOL', '2018-03-29',
+           'https://www.mol.co.jp/en/pr/2018/18021.html',
+           '首段；Specifications of Vladimir Rusanov 表',
+           ['公告记录该船 3 月 27–28 日在萨别塔首次装载，随后按长期租约服务亚马尔。',
+            '船舶舱容为 172000 立方米，标注 RMRS ARC7；所有权列示 MOL 与中远海运各 50%。',
+            '该表的倒航破冰能力属于船方规格描述，不能脱离冰况与操作条件推算任意航段安全性。']),
+    source('dc-yamal-east-transit', 'Vladimir Rusanov 到达白令海峡的同期记录', '商船三井 MOL', '2018-07-06',
+           'https://www.mol.co.jp/en/pr/2018/18043.html',
+           '第 1–4 段：离港、到达白令海峡、此前西向运输',
+           ['该船 6 月 25 日离开萨别塔，7 月 6 日到达白令海峡；公告当时把江苏卸货写为下一步计划。',
+            '此次夏季东向航行未由破冰船护航；此前该船已西向向欧洲运送四船 LNG。']),
+    source('dc-yamal-jiangsu', 'Vladimir Rusanov 抵达江苏与航行时间口径', '商船三井 MOL', '2018-07-20',
+           'https://www.mol.co.jp/en/pr/2018/18048.html',
+           '首段实际抵港日期；航次经过与 net voyage time 段',
+           ['公告追述该船于 7 月 17 日实际抵达江苏 LNG 接收站，7 月 19 日举行仪式。',
+            '19 天为剔除调整到港时间而停留后的净航行时间，不是 6 月 25 日到 7 月 17 日的日历间隔。']),
+    source('dc-yamal-august', '累计装运 400 万吨与第二线首船日期', 'Yamal LNG／NOVATEK', '2018-08-29',
+           'https://www.novatek.ru/common/upload/doc/Yamal_Fourth_Million_En.pdf',
+           'PDF 第 1 页正文及 Note',
+           ['公告回溯首船装载为 2017-12-08，第二条生产线首船发送为 2018-08-09。',
+            '至 2018-08-29 公告时累计 54 船、400 万吨；属于开运以来累计口径，不能当作 2018 全年值。']),
+    source('dc-yamal-mda2018', 'NOVATEK 2018 年经营讨论：亚马尔项目', 'NOVATEK', '',
+           'https://www.novatek.ru/common/upload/doc/MDA_12m_2018_(Eng)_(final).pdf',
+           'PDF 第 4 页（印刷页码 4），Implementing our Yamal LNG project',
+           ['2018 全年萨别塔 LNG 装运量记为 840 万吨；2018 下半年有 4 船通过东北航道东向运往中国。',
+            '报告记载第二线 2018 年 7 月开始生产、第三线 11 月开始生产并于 12 月达到铭牌能力。'],
+           '报告期截至 2018-12-31；已读取文件但未核定独立发布日期，因此发布日期留空。经营讨论属于项目参与企业报告。'),
+    source('dc-yamal-results2018', '2018 年经营结果电话会：产量、装运与转运', 'NOVATEK', '2019-02-21',
+           'https://www.novatek.ru/common/upload/doc/Earnings_CC_FY_2018.pdf',
+           'PDF 第 3 页产量与货次；第 4 页 11 月 26 日船对船转运',
+           ['电话会报告 2018 年产量约 860 万吨、装运 113 船共 836 万吨；后者与经营讨论的 840 万吨存在精度差异。',
+            '回溯 2018-11-26 在挪威将 Vladimir Rusanov 的 LNG 转装至 Pskov，后续运往西北欧。'],
+           '2019-02-21 是报告发布／会议日期，所述统计期为 2018 年。保留原始数值及口径，不把产量当作装运量，也不把公司声明当独立成本检验。'),
+]
+
+
+def finding(id, title, text, status, sources, limits):
+    return dict(id=id, title=title, text=text, status=status, source_ids=sources, limits=limits)
+
+
+def metric(id, label, value, unit, period, meaning, sources, limits, **extra):
+    return dict(id=id, label=label, value=value, unit=unit, period=period,
+                meaning=meaning, source_ids=sources, limits=limits, **extra)
+
+
+def event(id, date, title, text, sources, precision='day', kind='实际事件', **extra):
+    return dict(id=id, date=date, date_precision=precision, date_kind=kind,
+                title=title, text=text, source_ids=sources, **extra)
+
+
+ASBM = dict(
+    id='asbm', project_id='asbm', title='ASBM：高纬通信如何形成合作分工',
+    subtitle='从 2018 年方案到 2024 年军方使用节点',
+    question='高纬通信需求如何进入卫星设计与客户安排，又如何从“计划提供能力”走向“有记录的使用”？',
+    scope=dict(start='2018-03-23', end='2024-12-16', label='2018–2024 年历史过程',
+               geography='北极高纬通信服务；挪威地面与运营系统；美国发射节点',
+               observation_unit='项目提案、客户协议、发射、交接与一次使用展示；不是逐日性能监测'),
+    summary='本案例把设计目标、合同安排、卫星交接和客户使用分开观察。资料能够说明同一项目中的需求与分工如何衔接，尚不能测出长期通信改善或地缘关系变化。',
+    findings=[
+        finding('asbm-f1', '公共需求与商业安排在发射前已共同进入方案',
+                '2018 年政府提案已并列社会与政府通信需求、商业融资机会；2019 年客户协议公告提供随后发生的组织节点。',
+                '有前期文件与后续公告', ['dc-asbm-proposal', 'dc-asbm-agreements'],
+                '支持需求与安排的时间顺序；还不能分离国防需求、商业回报与技术可行性的各自影响。'),
+        finding('asbm-f2', '“发射成功”与“用户开始使用”之间有多个环节',
+                '双星在 2024 年 8 月发射、10 月中旬交接，12 月公告记录军方通信展示。每一节点只能回答对应阶段是否有公开记录。',
+                '有部署、交接和使用节点', ['dc-asbm-launch', 'dc-asbm-handover', 'dc-asbm-operation'],
+                '一次通话无法代表全年可用率、实际速率或对不同客户的服务质量。'),
+        finding('asbm-f3', '同一载体上的客户不等于同时开通的服务',
+                '12 月军方使用公告仍把商业服务推出写为次年初预期。因此，本案例将军方使用与商业服务状态分别登记。',
+                '同一公告可区分的两种状态', ['dc-asbm-operation'],
+                '截止本案例终点，未用后续资料核定商业开通日；不据此断言商业服务不存在。'),
+    ],
+    metrics=[
+        metric('asbm-satellites', '发射卫星', 2, '颗', '2024-08-12（挪威时间）', '实际发射数量', ['dc-asbm-launch'], '两颗不等于两套对所有用户开放的独立服务。', featured=True),
+        metric('asbm-coverage', '覆盖目标起始纬度', 65, '°N 以北', '2018 年提案', '设计覆盖目标', ['dc-asbm-proposal'], '不是本网站实测的覆盖边界，也不代表用户自动取得使用资格。', featured=True),
+        metric('asbm-orbit', '公布的轨道周期', 16, '小时', '2024 年发射公告', '轨道设计参数', ['dc-asbm-launch'], '轨道周期不等于用户连接持续时间、时延或网速。', featured=True),
+        metric('asbm-lifetime', '提案预期寿命', 15, '年', '2018 年提案', '前期设计预期', ['dc-asbm-proposal'], '不能计为已经连续服务 15 年，亦非维护与故障保证。', featured=True),
+    ],
+    timeline=[
+        event('asbm-t1', '2018-03-23', '政府提出高纬通信项目方案', '提案说明双星、地面系统、国家控制与客户收入安排；其中 2022 年发射属于当时计划。', ['dc-asbm-proposal'], kind='前期提案'),
+        event('asbm-t2', '2019-07-04', '客户与建设安排公开', 'Space Norway 公告已达成客户协议，进入建设安排；2023 年提供宽带仍是当时目标。', ['dc-asbm-agreements'], kind='协议公告'),
+        event('asbm-t3', '2024-08-12', '双星从范登堡发射', '采用公告的挪威当地日期。美国加州当地为 8 月 11 日；两者不是两次发射。', ['dc-asbm-launch']),
+        event('asbm-t4', '2024-10', '在轨测试后完成交接', '公告把实际交接描述为 10 月中旬，未给出具体日；运行控制转交 Space Norway。', ['dc-asbm-handover'], precision='month', date_note='10 月中旬；不补造具体日'),
+        event('asbm-t5', '2024-10-17', '发布交接公告', '与实际交接分开记录。文中提到的 11 月客户交付与商业运行均为当时预期。', ['dc-asbm-handover'], kind='公告发布日期'),
+        event('asbm-t6', '2024-12-16', '军方能力交付与通话展示', '运营方记载通过卫星与海岸警卫队船舶通话；不据此补写具体航速、通信速率或可用率。', ['dc-asbm-operation'], kind='主体记录的使用节点'),
+    ],
+    comparisons=[
+        dict(task='提出需求与组织项目', capability='把通信目标、卫星与地面系统放在同一方案内', actors=['挪威政府', 'Space Norway'], observed_outcome='前期提案与后续客户协议可以顺序核对。', limits='未取得完整采购比选与内部决策记录。', source_ids=['dc-asbm-proposal', 'dc-asbm-agreements']),
+        dict(task='制造、发射与在轨测试', capability='将双星送入轨道并完成交付准备', actors=['Northrop Grumman', 'SpaceX', 'Space Norway'], observed_outcome='发射公告及交接公告对应不同责任环节。', limits='制造与运营方资料不能替代第三方独立验收数据。', source_ids=['dc-asbm-launch', 'dc-asbm-handover']),
+        dict(task='挪威军方通信', capability='军方载荷与配套地面系统', actors=['挪威军方', 'Space Norway'], observed_outcome='2024 年 12 月出现明确的使用展示记录。', limits='未获得持续运行日志、用户样本或故障数据。', source_ids=['dc-asbm-operation']),
+        dict(task='商业通信', capability='Viasat 商业载荷及相关测试', actors=['Viasat', 'Space Norway', 'Northrop Grumman', 'KSAT'], observed_outcome='10 月测试分工可核对；12 月公告仍把商业推出写为未来预期。', limits='不把测试完成记作全部商业客户获得服务。', source_ids=['dc-asbm-handover', 'dc-asbm-operation']),
+        dict(task='其他载荷任务', capability='美方 EPS-R 与 NORM 辐射监测任务分别记录', actors=['美国太空军', 'Northrop Grumman', 'IDEAS', '欧盟委员会'], observed_outcome='交接公告列明各载荷和测试／数据接收角色。', limits='辐射监测仪不应画成另一项宽带客户业务。', source_ids=['dc-asbm-handover']),
+    ],
+    mechanism_evidence=[
+        dict(direction='需求与制度 → 技术组织', claim='公共任务与商业需求共同进入项目方案和客户安排。', observed='前期文件在发射前讨论需求、地面控制与融资；客户协议随后出现。', not_established='没有比较不同方案，不能认定某一政策或某类需求单独决定采用高椭圆轨道。', source_ids=['dc-asbm-proposal', 'dc-asbm-agreements']),
+        dict(direction='技术交付 → 活动条件', claim='完成交接后出现有时间与主体归属的通信使用节点。', observed='部署、在轨测试、交接与通话展示形成可核对的顺序。', not_established='尚无证据估计长期任务完成率、跨国协作增量或地缘影响。', source_ids=['dc-asbm-launch', 'dc-asbm-handover', 'dc-asbm-operation']),
+    ],
+    alternatives=[
+        dict(explanation='采用这一方案也可能受成本、可用技术与客户合约共同影响。', test_needed='补充同期可替代方案、采购评估和预算变化，再比较技术选择。'),
+        dict(explanation='用户任务的改善可能还来自终端、地面网络、训练或其他通信系统。', test_needed='取得同类任务的使用前后记录，并核对同时发生的其他变化。'),
+        dict(explanation='后续政策与项目叙事可能重新概括已经发生的建设。', test_needed='将文件发表时间放在事件旁，优先使用决策前材料判断前期动机。'),
+    ],
+    limits=['材料以政府提案与项目运营方公告为主，不是独立性能测量。',
+            '2018–2019 年的计划日期与 2024 年实际节点不同；本案例不推断进度变化的原因。',
+            '项目中的军方、商业和科研仪器载荷具有不同任务，不合并成一张“全部主体已互通”的网络。',
+            '没有用 2025 年政策解释 2024 年已完成的发射；卫星本体也不被当作北极地面站。'],
+    china_questions=['若中国科研船使用某项高纬通信服务，需要核对哪些商业服务、终端兼容与访问资格？',
+                     '现有科研任务究竟依赖哪种连接，任务允许的时延、带宽与备份条件是什么？',
+                     '哪些技术能力可通过一般商业服务取得，哪些受不同客户与载荷安排约束？本案例不预设 ASBM 对中国用户开放。'],
+    media_suggestions=[dict(photo_id='172084650', collection='project_media', project_id='asbm',
+                           use='合作主体背景图', warning='照片是发射期间代表合影，不能标成卫星、地面站或通话实测画面。')],
+)
+
+YAMAL = dict(
+    id='yamal', project_id='yamal', title='亚马尔：从萨别塔装运到中国接收站',
+    subtitle='2017–2018 年港口、冰区船舶与跨国参与的历史案例',
+    question='一个北极 LNG 项目如何把生产能力、港口设施、冰区运输和不同参与方接成可观察的运输过程？',
+    scope=dict(start='2017-12-08', end='2018-12-31', label='2017–2018 年历史窗口；含 2019 年发布的回溯报告',
+               geography='萨别塔—东北航道—白令海峡—江苏接收站，并观察同期西向欧洲运输',
+               observation_unit='历史项目股权、生产线节点、船舶规格、一次航次与全年项目装运汇总'),
+    summary='资料已从首运公告延伸到具体船舶航次和全年装运记录。它们支持观察生产、运输与接收环节的配合，但不能仅凭一次夏季航行判断全年通航、收益或当前政策状态。',
+    findings=[
+        finding('yamal-f1', '从“开始出口”走到可核对的运营过程',
+                '首船装载、后续冰级船装运、第二线发货与第三线投产各有日期记录，2018 年还有项目级年度装运汇总。',
+                '有同期节点与年度回溯', ['dc-yamal-export', 'dc-yamal-august', 'dc-yamal-mda2018'],
+                '年度汇总不是逐航次台账；没有据此补出月度曲线。'),
+        finding('yamal-f2', '同一艘船的西向与东向活动应一起解释',
+                '7 月同期公告记录此前西向欧洲运输和当次夏季东向航行，后续公告再确认江苏抵港。路线、季节与接收安排共同构成具体运输条件。',
+                '有航次起终点及季节说明', ['dc-yamal-east-transit', 'dc-yamal-jiangsu'],
+                '所记日期不构成 AIS 轨迹；一次未由破冰船护航不代表所有月份均可如此。'),
+        finding('yamal-f3', '中国参与发生在不同环节，不能只画一条国家连线',
+                '历史资料分别出现项目投资、船舶共同所有和江苏接收站；这些关系的对象、合同与职责不相同。',
+                '有分层参与证据', ['dc-yamal-export', 'dc-yamal-first-loading', 'dc-yamal-jiangsu'],
+                '股权比例不等于货物采购份额、利润分配或实际控制程度。'),
+        finding('yamal-f4', '先对齐口径，才能谈项目表现',
+                '全年产量、装运量、设计年产能和单船舱容分别回答不同问题。经营讨论的 840 万吨与电话会的 836 万吨装运值保留原精度，不当成两个独立观测年。',
+                '数值口径已区分', ['dc-yamal-mda2018', 'dc-yamal-results2018'],
+                '2018 年生产线分批投产，不能直接用全年装运量除以年末铭牌能力来判定效率。'),
+    ],
+    metrics=[
+        metric('yamal-shipped-rounded', '2018 年 LNG 装运量', 840, '万吨', '2018 全年', '经营讨论中的项目装运量', ['dc-yamal-mda2018'], '原文为 8.4 million tons；不是产量或中国进口量。', raw_value=8.4, raw_unit='million tons', scale=100, featured=True),
+        metric('yamal-cargoes', '2018 年 LNG 装运货次', 113, '船货', '2018 全年', '全年货次，不是独立船舶数量', ['dc-yamal-results2018'], '一个船舶可多次装运，不能写作 113 艘 LNG 船。', featured=True),
+        metric('yamal-net-days', '案例航次净航行时间', 19, '天', '2018 年夏季萨别塔至江苏', '船方剔除调整到港时间停留后的净耗时', ['dc-yamal-jiangsu'], '不是全部日历耗时，更不能代表全年平均速度或成本。', featured=True),
+        metric('yamal-tank', '案例船舶舱容', 172000, '立方米', '2018-03-29 船舶规格', 'Vladimir Rusanov 舱容', ['dc-yamal-first-loading'], '容积不是当次实际装载质量；没有密度和装载记录不能换算吨数。', featured=True),
+        metric('yamal-nameplate', '三条线合计设计产能', 1650, '万吨/年', '2017 年公告中的三线规划', '名义生产能力', ['dc-yamal-export'], '不能写成 2017 或 2018 全年实际产量；不包含后续第四线。', raw_value=16.5, raw_unit='million tons per year', scale=100),
+        metric('yamal-produced', '2018 年 LNG 产量', 860, '万吨（约）', '2018 全年', '电话会公布的约数', ['dc-yamal-results2018'], '产量与装运量不同；不得与产能当作同类时间序列拼接。', raw_value=8.6, raw_unit='million tons', scale=100),
+        metric('yamal-shipped-precise', '同年装运量的另一精度', 836, '万吨', '2018 全年', '2019-02-21 电话会原值', ['dc-yamal-results2018'], '与 840 万吨保留精度差异，不作为一次新增运输量或另一个年份。', raw_value=8.36, raw_unit='million tons', scale=100),
+        metric('yamal-east-cargoes', '下半年东向赴中国货次', 4, '船货', '2018 下半年', '经东北航道东向运往中国的 LNG 货次', ['dc-yamal-mda2018'], '不是全年对华货次总数，也不是 4 条新航线。'),
+    ],
+    timeline=[
+        event('yamal-t1', '2017-12-08', '首船装载与出口公告', '当日公告称货物已准备离港；2018 年项目方公告回溯这一天为首船装载日。', ['dc-yamal-export', 'dc-yamal-august'], kind='同期公告与后续回溯'),
+        event('yamal-t2', '2018-03-27', 'Vladimir Rusanov 首次在萨别塔装载', '3 月 27–28 日装载；船方记录该船按长期租约为项目运输 LNG。', ['dc-yamal-first-loading'], date_end='2018-03-28'),
+        event('yamal-t3', '2018-06-25', '离开萨别塔，向东航行', '起点来自船方同期航次记录；此处不补画未经核实的逐点轨迹。', ['dc-yamal-east-transit']),
+        event('yamal-t4', '2018-07-06', '到达白令海峡', '7 月 6 日公告确认已到达海峡，江苏卸货在当时仍为计划。', ['dc-yamal-east-transit']),
+        event('yamal-t5', '2018-07-17', '实际抵达江苏接收站', '7 月 20 日发布的后续公告确认抵达日；7 月 19 日仪式另属庆祝活动。', ['dc-yamal-jiangsu']),
+        event('yamal-t6', '2018-08-09', '第二条生产线发出首船货物', '8 月 29 日项目公告明确回溯此日期。发货日期与 7 月开始生产分开。', ['dc-yamal-august']),
+        event('yamal-t7', '2018-08-29', '发布累计装运节点', '公告统计从开运以来累计 54 船、400 万吨；累计值没有与全年值相加。', ['dc-yamal-august'], kind='累计统计公告'),
+        event('yamal-t8', '2018-11', '第三条生产线开始生产', '年度经营讨论记载 11 月开始生产、12 月达到铭牌能力；没有具体日则保留到月。', ['dc-yamal-mda2018'], precision='month'),
+        event('yamal-t9', '2018-11-26', '挪威船对船转运', '电话会回溯 Vladimir Rusanov 向 Pskov 转装 LNG，后者送往西北欧。', ['dc-yamal-results2018']),
+        event('yamal-t10', '2018-12-31', '2018 年度统计窗口结束', '这是年度统计边界，不是将全年装运集中到这一天。统计数据在后续经营材料中公布。', ['dc-yamal-mda2018', 'dc-yamal-results2018'], kind='统计期末'),
+    ],
+    comparisons=[
+        dict(task='组织生产与投资', capability='气源、液化设施及历史资本参与', actors=['Yamal LNG', 'Novatek', 'Total', 'CNPC', '丝路基金'], observed_outcome='首运与生产线节点、当时股权均有文件依据。', limits='项目股权仅按 2017 年公告登记，不描述当前状态。', source_ids=['dc-yamal-export', 'dc-yamal-august']),
+        dict(task='在萨别塔装载与周转', capability='港口、储罐与冰区运输衔接', actors=['Yamal LNG', '冰级 LNG 船运营方'], observed_outcome='存在具体装载记录和 2018 年装运量。', limits='没有港口逐日拥堵、装卸效率或码头利用率。', source_ids=['dc-yamal-export', 'dc-yamal-first-loading', 'dc-yamal-mda2018']),
+        dict(task='执行案例船舶运输', capability='172000 立方米舱容与 ARC7 规格', actors=['MOL', '中远海运', 'Vladimir Rusanov'], observed_outcome='该船有装载、西向航次和夏季东向航次记录。', limits='船舶技术规格不是任意冰况下的通行保证。', source_ids=['dc-yamal-first-loading', 'dc-yamal-east-transit']),
+        dict(task='在中国接收 LNG', capability='与到港时间、卸货港安排相匹配', actors=['PetroChina 江苏 LNG 接收站', 'CNPC', '船舶运营方'], observed_outcome='后续公告确认 2018-07-17 抵港。', limits='一次到港不说明全年中国采购量或合同收益。', source_ids=['dc-yamal-jiangsu']),
+        dict(task='组织西向后续运输', capability='冰级船与较低冰级船之间转运', actors=['Yamal LNG', 'Vladimir Rusanov', 'Pskov'], observed_outcome='回溯材料记载 2018-11-26 的转装节点。', limits='缩短冰级船占用时间是企业解释，本案例没有独立成本核算。', source_ids=['dc-yamal-results2018']),
+    ],
+    mechanism_evidence=[
+        dict(direction='技术与设施 → 运输活动', claim='生产、港口与冰级运输在具体航次中发生衔接。', observed='装载、海峡节点、抵港公告构成空间与时间顺序；全年汇总补充活动规模。', not_established='不能仅凭这些节点确定技术条件相对冰情、价格和合同的贡献。', source_ids=['dc-yamal-first-loading', 'dc-yamal-east-transit', 'dc-yamal-jiangsu', 'dc-yamal-mda2018']),
+        dict(direction='参与安排 → 技术与运输组织', claim='投资、船舶所有权与接收环节对应不同参与关系。', observed='股东公告、船舶规格表与到港材料分别指向不同任务。', not_established='没有完整合同，不推导各方控制权、风险承担或收益分配。', source_ids=['dc-yamal-export', 'dc-yamal-first-loading', 'dc-yamal-jiangsu']),
+    ],
+    alternatives=[
+        dict(explanation='夏季东向运输既可能受船舶能力影响，也可能受到当次局地冰情支持。', test_needed='取得对应航段与日期的冰情、航速和护航记录，比较不同季节及同类船舶。'),
+        dict(explanation='目的地选择还可能受采购合同、区域价差、运力与接收时刻影响。', test_needed='核对同期合同与市场资料，不能直接把较短净航行时间解释成较高利润。'),
+        dict(explanation='全年装运增加可能来自生产线陆续投产，未必反映航线条件改善。', test_needed='用月度产出、库存与装运台账分离供给端和运输端变化。'),
+    ],
+    limits=['案例截止 2018 年末，不据历史股权或航次判断当前经营、制裁、法律准入或收益。',
+            'Yamal LNG 与 Arctic LNG 2 是不同项目，未把后者的产能或状态混入本例。',
+            '2018 年年度报告与电话会主要来自同一参与企业，不能当作完全独立的双重验证。',
+            '没有逐航次 AIS 和局地冰情；地图上的起终点与海峡节点只能是示意连接。',
+            '缺少居民、环境与港区劳动的现场资料，不以企业立场代表全部当地意见。'],
+    china_questions=['历史投资、船舶共同所有、长期运输与到港接收分别由哪些协议约束？',
+                     '中国企业参与同类活动时，哪些任务依赖冰级船舶、季节窗口、接收港和持续数据服务？',
+                     '如果比较替代运输组织，如何在同一时期对齐航程、等待、转运、成本与合同条件？',
+                     '若研究今日的参与条件，应另立新的时间窗口核对现行材料，不能将 2017–2018 年关系直接外推。'],
+    historical_relations=[
+        dict(actor='Novatek', share=50.1, unit='%', period='2017-12-08 公告', source_ids=['dc-yamal-export']),
+        dict(actor='Total', share=20, unit='%', period='2017-12-08 公告', source_ids=['dc-yamal-export']),
+        dict(actor='CNPC', share=20, unit='%', period='2017-12-08 公告', source_ids=['dc-yamal-export']),
+        dict(actor='丝路基金', share=9.9, unit='%', period='2017-12-08 公告', source_ids=['dc-yamal-export']),
+    ],
+    media_suggestions=[
+        dict(photo_id='64706962', collection='project_media', project_id='yamal', use='2017 年首船装运背景图', warning='仪式照片不提供全年运营或运输效率证据。'),
+        dict(photo_id='118058857', collection='places', place_id='sabetta', use='2017 年港池与储罐空间背景', warning='不标注为 Vladimir Rusanov 航次照片。'),
+        dict(photo_id='52248534', collection='places', place_id='sabetta', use='港区冰况与作业环境背景', warning='2015 年 Tor 破冰船照片，早于案例窗口，不能作为 2018 年航次冰情。'),
+    ],
+)
+
+
+def build():
+    cases = [ASBM, YAMAL]
+    for case in cases:
+        ids = set()
+        def collect(value):
+            if isinstance(value, dict):
+                for key, child in value.items():
+                    if key == 'source_ids':
+                        ids.update(child)
+                    else:
+                        collect(child)
+            elif isinstance(value, list):
+                for child in value:
+                    collect(child)
+        collect(case)
+        case['source_ids'] = [s['id'] for s in SOURCES if s['id'] in ids]
+    return dict(version=VERSION, reviewed_at=REVIEWED,
+                methodology='逐份阅读一手文件并登记时间、单位、主体与出处；这是历史案例资料整理及有限解释，不是因果效应估计。团队仍需对原文、中文转述与解释进行复核。',
+                cases=cases, sources=SOURCES)
+
+
+def main():
+    data = build()
+    target = ROOT / 'data/reference/deep_cases.json'
+    target.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    facts = ROOT / 'data/analysis/case_sources'
+    facts.mkdir(parents=True, exist_ok=True)
+    selected = dict(version=VERSION, reviewed_at=REVIEWED,
+                    content_note='仅保存提取的事实数值、时间及出处元数据；没有复制来源网页或经营报告全文。',
+                    cases=[dict(id=c['id'], scope=c['scope'], metrics=c['metrics'], timeline=c['timeline']) for c in data['cases']],
+                    sources=data['sources'])
+    (facts / 'facts.json').write_text(json.dumps(selected, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    print(f"Built {len(data['cases'])} cases, {len(data['sources'])} sources")
+
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,108 @@
+MOSAiC：持续观测的设备、环境与协作条件
+基于五段真实船位与 14 个日期的官方海冰图
+
+研究问题
+持续观测如何依靠船舶平台、仪器设备、机构分工与资料共享？本报告以位置、日期和可核对产出组织问题，尚不估计合作的因果效果。
+
+资料覆盖与处理方法
+航次范围：2019-09-20T17:50:00—2020-10-12T05:59:00（UTC）。共 55,793 条船位、389 个日期。
+官方 10 分钟点原样合并。日船位选择同日距 12:00 最近的真实记录；地图线取每 6 小时箱的首个真实点，并保留原表行号。大于 1 小时的原始缺口分段，不插值、不补零。
+航次首尾日期与其间每月 15 日；固定 14 日期，不按冰情结果挑选，不用其他日期替换失败日。
+船位采用 WGS84 经纬度。每日选择最接近 12:00 的真实点，不插值生成正午位置。冰图标题日期与图内船位图例时间可能相差一天，两者不强行视为同刻。
+海冰密集度不是冰厚或航行风险；灰色缺测不能解释为无冰。船舶航迹包含自主航行与随冰漂流，不能把全部路径称为浮冰漂移。
+
+任务对照
+定位与跨设备时间对照
+设备：两套 Trimble GPS 与 iXBlue HYDRINS 导航系统
+负责机构：Polarstern / AWI 航迹处理团队
+资料产出：五航段带 DOI 的 10 分钟定位表
+本站状态：已下载并逐行检查船位；提供原表行号与下载包。
+依据：[1] [2] [3] [4] [5]
+把船位放回同期海冰环境
+设备：AMSR2 卫星辐射计；ASI 海冰算法
+负责机构：不来梅大学 IUP；AWI / Meereisportal
+资料产出：带日期、百分比图例与船位标记的官方地图
+本站状态：已保存 14 个预定日期的图组；可用数量以资料覆盖为准。未把图片转换成船旁密集度数值。
+依据：[6]
+观测雪深、气象与浮冰位置
+设备：2019S90 雪浮标；四路声学雪深测量与 GPS
+负责机构：Nicolaus 等；AWI 发布
+资料产出：PANGAEA.925319；2019-10-11—2019-10-25 的小时资料
+本站状态：已核对数据集说明；此页未下载、计算该浮标的雪深序列。
+依据：[9]
+观测云与大气廓线
+设备：KAZR 云雷达、Polly XT 激光雷达、微波辐射计
+负责机构：DOE-ARM、TROPOS 等；具体设备见综述表 B2
+资料产出：观测对象、部署位置与机构对应表；Shupe 等（2022）
+本站状态：可核对设备与分工；完整性和故障需要查各仪器数据，不能由“部署”推断全年无中断。
+依据：[10]
+
+目前可支持的认识
+五个已发表航段含 55,793 条真实船位记录。
+389 天可选取同日真实船位；已有 14 张预定日期冰情图。
+特定设备、负责机构与数据产出有可追溯的公开记录。
+这组材料可用于追查观测活动对设备、平台和数据安排的依赖。
+公开仪器分工与实际数据产出为进一步追查协作条件提供线索；尚不能据此断言国家关系改善或功能性安全已实现。
+
+仍需验证
+补给、人员轮换与设备故障尚未与全部观测数据逐一匹配。
+没有评估参与准入、备份能力和合作中断的实际影响。
+观测产出不构成国家关系改善或功能性安全已经实现的证据。
+访谈与实地调研尚未开展。需要团队继续复核公开资料与解释，并记录实际研究过程。
+
+来源登记
+[1] Polarstern PS122/1 · 10 分钟航迹 · AWI / PANGAEA
+Rex, Markus (2020): Links to master tracks in different resolutions of POLARSTERN cruise PS122/1, Tromsø - Arctic Ocean, 2019-09-20 - 2019-12-13 (Version 2) [dataset]. Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven, PANGAEA, https://doi.org/10.1594/PANGAEA.924668
+定位：Date/Time、Latitude、Longitude；原表行号保留
+https://doi.pangaea.de/10.1594/PANGAEA.924668
+本站中文导读；航迹与冰情保留原始出处、时间及使用条件。
+[2] Polarstern PS122/2 · 10 分钟航迹 · AWI / PANGAEA
+Haas, Christian (2020): Links to master tracks in different resolutions of POLARSTERN cruise PS122/2, Arctic Ocean - Arctic Ocean, 2019-12-13 - 2020-02-24 (Version 2) [dataset]. Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven, PANGAEA, https://doi.org/10.1594/PANGAEA.924674
+定位：Date/Time、Latitude、Longitude；原表行号保留
+https://doi.pangaea.de/10.1594/PANGAEA.924674
+本站中文导读；航迹与冰情保留原始出处、时间及使用条件。
+[3] Polarstern PS122/3 · 10 分钟航迹 · AWI / PANGAEA
+Kanzow, Torsten (2020): Links to master tracks in different resolutions of POLARSTERN cruise PS122/3, Arctic Ocean - Longyearbyen, 2020-02-24 - 2020-06-04 (Version 2) [dataset]. Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven, PANGAEA, https://doi.org/10.1594/PANGAEA.924681
+定位：Date/Time、Latitude、Longitude；原表行号保留
+https://doi.pangaea.de/10.1594/PANGAEA.924681
+本站中文导读；航迹与冰情保留原始出处、时间及使用条件。
+[4] Polarstern PS122/4 · 10 分钟航迹 · AWI / PANGAEA
+Rex, Markus (2021): Master tracks in different resolutions of POLARSTERN cruise PS122/4, Longyearbyen - Arctic Ocean, 2020-06-04 - 2020-08-12 [dataset]. Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven, PANGAEA, https://doi.org/10.1594/PANGAEA.926829
+定位：Date/Time、Latitude、Longitude；原表行号保留
+https://doi.pangaea.de/10.1594/PANGAEA.926829
+本站中文导读；航迹与冰情保留原始出处、时间及使用条件。
+[5] Polarstern PS122/5 · 10 分钟航迹 · AWI / PANGAEA
+Rex, Markus (2021): Master tracks in different resolutions of POLARSTERN cruise PS122/5, Arctic Ocean - Bremerhaven, 2020-08-12 - 2020-10-12 [dataset]. Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven, PANGAEA, https://doi.org/10.1594/PANGAEA.926910
+定位：Date/Time、Latitude、Longitude；原表行号保留
+https://doi.pangaea.de/10.1594/PANGAEA.926910
+本站中文导读；航迹与冰情保留原始出处、时间及使用条件。
+[6] MOSAiC 同期海冰密集度与官方船位图 · Meereisportal / AWI / IUP Bremen
+
+定位：Specifications；Description of maps；Terms of use / Citation
+https://data.meereisportal.de/relaunch/concentrationmosaic.php?lang=en
+本站中文导读；航迹与冰情保留原始出处、时间及使用条件。
+[7] Meereisportal 地图使用条件 · Alfred-Wegener-Institut
+
+定位：Copyright；Terms of use
+https://data.meereisportal.de/relaunch/imprint?lang=en
+本站中文导读；航迹与冰情保留原始出处、时间及使用条件。
+[8] MOSAiC 公开数据与引用规则 · AWI / PANGAEA
+
+定位：Fully published datasets；FAIR rules
+https://mosaic-expedition.org/mosaic-data/
+本站中文导读；航迹与冰情保留原始出处、时间及使用条件。
+[9] 2019S90 雪深浮标 · 实际观测数据 · AWI / PANGAEA
+
+定位：Abstract；Parameters；Coverage
+https://doi.pangaea.de/10.1594/PANGAEA.925319
+本站中文导读；航迹与冰情保留原始出处、时间及使用条件。
+[10] MOSAiC 大气观测 · 设备、机构与产出 · Shupe et al. / Elementa
+
+定位：Appendix B, Table B2
+https://doi.org/10.1525/elementa.2021.00060
+本站中文导读；航迹与冰情保留原始出处、时间及使用条件。
+[11] 弗拉姆海峡 · 地名参考位置 · VLIZ Marine Regions / SeaVoX
+
+定位：MRGID 26579；Latitude / Longitude
+https://www.marineregions.org/gazetteer.php?id=26579&p=details
+本站中文导读；航迹与冰情保留原始出处、时间及使用条件。

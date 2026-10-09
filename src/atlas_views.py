@@ -1,6 +1,7 @@
 """Place atlas with sourced project links, photographs and geographic filters."""
 import json
 from html import escape
+from pathlib import Path
 import folium
 import streamlit as st
 from branca.element import MacroElement,Template
@@ -12,6 +13,29 @@ from src.source_library import source_button,source_href
 from src.place_profiles import render_profile,photo_topic,place_articles
 
 COLORS={'港口与航道':'#508491','科研观测':'#5b8266','空间设施':'#897aa1','城市与聚落':'#ab8861','自然区域':'#809584','关联产业':'#a96b5f'}
+THEMES={
+    '全部地点': {'projects':None,'note':'点击地名，阅读地点、实景与相关项目。'},
+    '科研协作': {'projects':['xuelong2','mosaic','awipev','chars'],'note':'从科考船建造、出航港口与研究设施，查看已整理科研项目的地理联系。'},
+    '通信设施': {'projects':['kinuvik','asbm'],'note':'显示已有资料关联的卫星接收站。ASBM 是轨道卫星项目，尚未建立经过核对的地面站关联。'},
+    '能源运输': {'projects':['yamal'],'note':'从萨别塔进入亚马尔 LNG 案例。港口位置与项目关系不等于实际航迹。'},
+    '社区与生活': {'projects':None,'category':'城市与聚落','note':'从社区与聚落阅读当地环境和生活；地点类型不代表已核验的项目联系。'},
+}
+
+def apply_atlas_editorial():
+    st.markdown('<style>'+Path(__file__).with_name('atlas_editorial.css').read_text(encoding='utf-8')+'</style>',unsafe_allow_html=True)
+
+def themed_places(places,projects,theme):
+    """Project themes use catalogued place joins, never inferred route endpoints."""
+    setting=THEMES[theme]
+    if setting.get('category'):
+        return [p for p in places if place_category(p)==setting['category']]
+    if setting['projects'] is None:return list(places)
+    ids={pid for project in projects if project['id'] in setting['projects'] for pid in project['place_ids']}
+    return [p for p in places if p['id'] in ids]
+
+def change_theme():
+    st.session_state.pop('atlas_focus',None)
+    reset_map()
 
 def reset_map():
     st.session_state['atlas_map_epoch']=st.session_state.get('atlas_map_epoch',0)+1
@@ -49,16 +73,17 @@ def map_label_layout(m,markers):
     helper.add_to(m)
 
 def render_atlas():
+    apply_atlas_editorial()
     catalog=place_catalog();places=catalog['places'];by_id={p['id']:p for p in places}
     research=research_catalog();sources={s['id']:s for s in research['sources']}
-    section_title('ARCTIC ATLAS','北极地图','从地点与实景进入研究：港口、科研聚落、空间设施，以及与它们有关的项目。')
-    st.caption(f'{len(places)} 个地点 · {sum(len(p["photos"]) for p in places)} 张地点实景 · {len(research["projects"])} 个资料专题。缩放或悬停可查看密集区域地名。')
+    st.markdown('<header class="atlas-editorial-heading"><small>ARCTIC ATLAS</small><h1>北极地图</h1><p>沿着地点认识北极，再从项目追溯关系与依据。</p></header>',unsafe_allow_html=True)
     pending=st.session_state.pop('_atlas_pending_place',None)
     if not st.session_state.get('atlas_initialized'):
         pending=pending or st.query_params.get('place');st.session_state['atlas_initialized']=True
     if pending in by_id:
         st.session_state['atlas_choice']=pending
         st.session_state['atlas_region']='全部地区';st.session_state['atlas_kind']='全部类型';st.session_state['atlas_search']=''
+        st.session_state['atlas-theme']='全部地点'
         st.session_state['atlas_focus']=pending;reset_map()
     from src.study_scope import scope,scope_label,open_study
     from src.study_data import ASSOCIATIONS,region_geometry
@@ -69,25 +94,28 @@ def render_atlas():
     study_ids=set(ASSOCIATIONS.get(study['region'],[]))
     if pending and pending not in study_ids:st.session_state['atlas-study-filter']=False
     if active:st.caption('当前研究范围：'+scope_label()+'。地点关联表示沿岸或服务联系，不等于位于海区内部。')
-    c1,c2,c3=st.columns([1,1,1])
-    overlay=c1.checkbox('显示研究海区边界',value=active,key='atlas-study-overlay',on_change=reset_map)
-    linked_only=c2.checkbox('仅显示当前海区关联地点',key='atlas-study-filter',disabled=study['region']=='all',on_change=reset_map)
-    if c3.button('打开海区观测与对照',key='atlas-open-study'):open_study()
-    c1,c2,c3=st.columns([1.5,1,1])
-    query=c1.text_input('查找地点',placeholder='中文名、英文名或区域',key='atlas_search',on_change=reset_map).strip().casefold()
-    region=c2.selectbox('地区',['全部地区',*sorted(set(place_region(p) for p in places))],key='atlas_region',on_change=reset_map)
-    category=c3.selectbox('地点类型',['全部类型',*COLORS],key='atlas_kind',on_change=reset_map)
-    filtered=[p for p in places if (not linked_only or study['region']=='all' or p['id'] in study_ids) and (region=='全部地区' or place_region(p)==region) and (category=='全部类型' or place_category(p)==category) and query in (p['name']+' '+p['english']+' '+place_region(p)).casefold()]
+    with st.container(key='atlas-toolbar'):
+        c1,c2,c3=st.columns([1.7,1,1],vertical_alignment='bottom')
+        query=c1.text_input('查找地点',placeholder='中文名、英文名或区域',key='atlas_search',on_change=reset_map).strip().casefold()
+        theme=c2.selectbox('研究主题',list(THEMES),key='atlas-theme',on_change=change_theme)
+        with c3.popover('筛选与图层',width='stretch'):
+            region=st.selectbox('地区',['全部地区',*sorted(set(place_region(p) for p in places))],key='atlas_region',on_change=reset_map)
+            category=st.selectbox('地点类型',['全部类型',*COLORS],key='atlas_kind',on_change=reset_map)
+            base=st.selectbox('底图',['浅色地理','街道地图'],key='atlas_base',on_change=reset_map)
+            relation=st.checkbox('显示项目联系',value=True,key='atlas_relations',on_change=reset_map)
+            overlay=st.checkbox('显示研究海区边界',value=active,key='atlas-study-overlay',on_change=reset_map)
+            linked_only=st.checkbox('仅显示当前海区关联地点',key='atlas-study-filter',disabled=study['region']=='all',on_change=reset_map)
+            if st.button('打开海区观测与对照',key='atlas-open-study'):open_study()
+    filtered=[p for p in themed_places(places,research['projects'],theme) if (not linked_only or study['region']=='all' or p['id'] in study_ids) and (region=='全部地区' or place_region(p)==region) and (category=='全部类型' or place_category(p)==category) and query in (p['name']+' '+p['english']+' '+place_region(p)).casefold()]
+    filters=[v for v in [region if region!='全部地区' else '',category if category!='全部类型' else '', '当前海区关联' if linked_only and study['region']!='all' else ''] if v]
+    st.caption(f'显示 {len(filtered)} / {len(places)} 个地点'+(' · '+' · '.join(filters) if filters else '')+' ｜ '+THEMES[theme]['note'])
     if not filtered:
         st.info('没有符合条件的地点，请调整地区、类型或搜索词。');return
     ids=[p['id'] for p in filtered]
     if st.session_state.get('atlas_choice') not in ids:st.session_state['atlas_choice']='nyalesund' if 'nyalesund' in ids else ids[0]
-    c1,c2,c3=st.columns([2,1,1])
-    selection=c1.selectbox('当前地点',ids,format_func=lambda x:by_id[x]['name']+' · '+by_id[x]['english'],key='atlas_choice',on_change=focus_selected)
-    base=c2.selectbox('底图',['浅色地理','街道地图'],key='atlas_base',on_change=reset_map)
-    relation=c3.checkbox('显示项目联系',value=True,key='atlas_relations',on_change=reset_map)
+    selection=st.session_state['atlas_choice']
     place=by_id[selection];st.query_params['place']=selection
-    map_col,detail=st.columns([2.25,1],gap='large')
+    map_col,detail=st.columns([2.3,1],gap='large')
     with map_col:
         from src.map_geometry import geometry_near_longitude,near_longitude
         focus=by_id.get(st.session_state.get('atlas_focus'))
@@ -111,6 +139,7 @@ def render_atlas():
         # Connections have documentary meaning; they are deliberately not shipping routes.
         if relation:
             for project in research['projects']:
+                if THEMES[theme]['projects'] is not None and project['id'] not in THEMES[theme]['projects']:continue
                 linked=[by_id[i] for i in project['place_ids'] if i in ids]
                 if len(linked)==2:
                     source=sources[project['facts'][0]['source_id']]
@@ -140,6 +169,7 @@ def render_atlas():
         if st.button('恢复北极全景',key='atlas_reset'):
             st.session_state.pop('atlas_focus',None);reset_map();st.rerun()
     with detail:
+        st.selectbox('当前地点',ids,format_func=lambda x:by_id[x]['name']+' · '+by_id[x]['english'],key='atlas_choice',on_change=focus_selected)
         st.markdown(f'<div class="eyebrow">{escape(place_region(place))} / {escape(place_category(place))}</div>',unsafe_allow_html=True)
         st.subheader(place['name']);st.caption(place['english'])
         photo_figure(place['photos'][0]);st.write(place['description'])

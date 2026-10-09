@@ -43,6 +43,9 @@ def render_project():
     if st.session_state.get('project_choice') not in by_id:st.session_state['project_choice']=subset[0]['id']
     pid=b.selectbox('选择项目专题',list(by_id),format_func=lambda x:by_id[x]['title'],key='project_choice')
     project=by_id[pid];st.query_params['project']=pid
+    if pid in ['mosaic','asbm','yamal']:
+        from src.home_views import open_case
+        if st.button('阅读完整案例：观测、时序与研究边界',key='project-deep-case'):open_case(pid)
     from src.study_scope import scope,scope_label
     from src.study_data import PROJECT_REGIONS,read_json
     study=scope()

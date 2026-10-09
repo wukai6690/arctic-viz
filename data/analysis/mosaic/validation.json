@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "raw_positions_reconciled": 55793,
+  "daily_positions_checked": 389,
+  "ice_files_checked": 14,
+  "image_sizes": [
+    [
+      760,
+      800
+    ]
+  ],
+  "zip_dates_checked": 5,
+  "source_joins": true,
+  "missing_date_ui": true,
+  "date_mode_reset": true
+}

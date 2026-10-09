@@ -1,0 +1,172 @@
+[
+  {
+    "id": "mosaic-track-1",
+    "title": "Polarstern PS122/1 · 10 分钟航迹",
+    "url": "https://doi.pangaea.de/10.1594/PANGAEA.924668",
+    "publisher": "AWI / PANGAEA",
+    "summary": [
+      "公开且经处理的导航传感器航迹。本段 12,041 个船位，覆盖 2019-09-20T17:50:00—2019-12-13T08:59:00。",
+      "含航行和随冰漂流；本站未将船位变化当作主动航速或通航条件。"
+    ],
+    "kind": "MOSAiC 实证案例",
+    "notice": "本站中文导读；航迹与冰情保留原始出处、时间及使用条件。",
+    "locator": "Date/Time、Latitude、Longitude；原表行号保留",
+    "published_at": "",
+    "retrieved_at": "2026-10-10",
+    "citation": "Rex, Markus (2020): Links to master tracks in different resolutions of POLARSTERN cruise PS122/1, Tromsø - Arctic Ocean, 2019-09-20 - 2019-12-13 (Version 2) [dataset]. Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven, PANGAEA, https://doi.org/10.1594/PANGAEA.924668"
+  },
+  {
+    "id": "mosaic-track-2",
+    "title": "Polarstern PS122/2 · 10 分钟航迹",
+    "url": "https://doi.pangaea.de/10.1594/PANGAEA.924674",
+    "publisher": "AWI / PANGAEA",
+    "summary": [
+      "公开且经处理的导航传感器航迹。本段 10,511 个船位，覆盖 2019-12-13T09:24:00—2020-02-24T08:59:00。",
+      "含航行和随冰漂流；本站未将船位变化当作主动航速或通航条件。"
+    ],
+    "kind": "MOSAiC 实证案例",
+    "notice": "本站中文导读；航迹与冰情保留原始出处、时间及使用条件。",
+    "locator": "Date/Time、Latitude、Longitude；原表行号保留",
+    "published_at": "",
+    "retrieved_at": "2026-10-10",
+    "citation": "Haas, Christian (2020): Links to master tracks in different resolutions of POLARSTERN cruise PS122/2, Arctic Ocean - Arctic Ocean, 2019-12-13 - 2020-02-24 (Version 2) [dataset]. Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven, PANGAEA, https://doi.org/10.1594/PANGAEA.924674"
+  },
+  {
+    "id": "mosaic-track-3",
+    "title": "Polarstern PS122/3 · 10 分钟航迹",
+    "url": "https://doi.pangaea.de/10.1594/PANGAEA.924681",
+    "publisher": "AWI / PANGAEA",
+    "summary": [
+      "公开且经处理的导航传感器航迹。本段 14,528 个船位，覆盖 2020-02-24T09:20:00—2020-06-04T06:29:00。",
+      "含航行和随冰漂流；本站未将船位变化当作主动航速或通航条件。"
+    ],
+    "kind": "MOSAiC 实证案例",
+    "notice": "本站中文导读；航迹与冰情保留原始出处、时间及使用条件。",
+    "locator": "Date/Time、Latitude、Longitude；原表行号保留",
+    "published_at": "",
+    "retrieved_at": "2026-10-10",
+    "citation": "Kanzow, Torsten (2020): Links to master tracks in different resolutions of POLARSTERN cruise PS122/3, Arctic Ocean - Longyearbyen, 2020-02-24 - 2020-06-04 (Version 2) [dataset]. Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven, PANGAEA, https://doi.org/10.1594/PANGAEA.924681"
+  },
+  {
+    "id": "mosaic-track-4",
+    "title": "Polarstern PS122/4 · 10 分钟航迹",
+    "url": "https://doi.pangaea.de/10.1594/PANGAEA.926829",
+    "publisher": "AWI / PANGAEA",
+    "summary": [
+      "公开且经处理的导航传感器航迹。本段 9,956 个船位，覆盖 2020-06-04T06:50:00—2020-08-12T09:59:00。",
+      "含航行和随冰漂流；本站未将船位变化当作主动航速或通航条件。"
+    ],
+    "kind": "MOSAiC 实证案例",
+    "notice": "本站中文导读；航迹与冰情保留原始出处、时间及使用条件。",
+    "locator": "Date/Time、Latitude、Longitude；原表行号保留",
+    "published_at": "",
+    "retrieved_at": "2026-10-10",
+    "citation": "Rex, Markus (2021): Master tracks in different resolutions of POLARSTERN cruise PS122/4, Longyearbyen - Arctic Ocean, 2020-06-04 - 2020-08-12 [dataset]. Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven, PANGAEA, https://doi.org/10.1594/PANGAEA.926829"
+  },
+  {
+    "id": "mosaic-track-5",
+    "title": "Polarstern PS122/5 · 10 分钟航迹",
+    "url": "https://doi.pangaea.de/10.1594/PANGAEA.926910",
+    "publisher": "AWI / PANGAEA",
+    "summary": [
+      "公开且经处理的导航传感器航迹。本段 8,757 个船位，覆盖 2020-08-12T10:20:00—2020-10-12T05:59:00。",
+      "含航行和随冰漂流；本站未将船位变化当作主动航速或通航条件。"
+    ],
+    "kind": "MOSAiC 实证案例",
+    "notice": "本站中文导读；航迹与冰情保留原始出处、时间及使用条件。",
+    "locator": "Date/Time、Latitude、Longitude；原表行号保留",
+    "published_at": "",
+    "retrieved_at": "2026-10-10",
+    "citation": "Rex, Markus (2021): Master tracks in different resolutions of POLARSTERN cruise PS122/5, Arctic Ocean - Bremerhaven, 2020-08-12 - 2020-10-12 [dataset]. Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven, PANGAEA, https://doi.org/10.1594/PANGAEA.926910"
+  },
+  {
+    "id": "mosaic-ice",
+    "title": "MOSAiC 同期海冰密集度与官方船位图",
+    "url": "https://data.meereisportal.de/relaunch/concentrationmosaic.php?lang=en",
+    "publisher": "Meereisportal / AWI / IUP Bremen",
+    "summary": [
+      "AMSR2 海冰密集度描述像元中的海冰覆盖比例。本站按预先固定日期保存原始官方缩略图，保留图例、署名与日期。",
+      "冰情图标题日期与图内船位时间不是同一字段；官方船位标记有时为次日，须按原图图例读取。灰色无数据区域不等于无冰。"
+    ],
+    "kind": "MOSAiC 实证案例",
+    "notice": "本站中文导读；航迹与冰情保留原始出处、时间及使用条件。",
+    "locator": "Specifications；Description of maps；Terms of use / Citation",
+    "published_at": "",
+    "retrieved_at": "2026-10-10"
+  },
+  {
+    "id": "mosaic-map-terms",
+    "title": "Meereisportal 地图使用条件",
+    "url": "https://data.meereisportal.de/relaunch/imprint?lang=en",
+    "publisher": "Alfred-Wegener-Institut",
+    "summary": [
+      "使用处理过的地图须给出所列参考文献或注明 Quelle: meereisportal.de。本站保留完整官方图幅与来源。",
+      "此项地图使用条件不同于照片许可，也不将官方图片重新标为 CC BY。"
+    ],
+    "kind": "MOSAiC 实证案例",
+    "notice": "本站中文导读；航迹与冰情保留原始出处、时间及使用条件。",
+    "locator": "Copyright；Terms of use",
+    "published_at": "",
+    "retrieved_at": "2026-10-10"
+  },
+  {
+    "id": "mosaic-open-data",
+    "title": "MOSAiC 公开数据与引用规则",
+    "url": "https://mosaic-expedition.org/mosaic-data/",
+    "publisher": "AWI / PANGAEA",
+    "summary": [
+      "官方入口指向经处理并带 DOI 的公开数据；原始船载资料和经过整理的数据需要分别识别。",
+      "公开数据支持复核具体观测产出，但不能由此推断国家间政治关系改善。"
+    ],
+    "kind": "MOSAiC 实证案例",
+    "notice": "本站中文导读；航迹与冰情保留原始出处、时间及使用条件。",
+    "locator": "Fully published datasets；FAIR rules",
+    "published_at": "",
+    "retrieved_at": "2026-10-10"
+  },
+  {
+    "id": "mosaic-snow-buoy",
+    "title": "2019S90 雪深浮标 · 实际观测数据",
+    "url": "https://doi.pangaea.de/10.1594/PANGAEA.925319",
+    "publisher": "AWI / PANGAEA",
+    "summary": [
+      "Nicolaus 等记录了 2019-10-11—2019-10-25 的浮标雪深、位置及气象资料；设备包括四路声学雪深测量与 GPS。",
+      "本站以该数据集说明具体装备对应何种可查产出，尚未下载或分析其雪深数值。"
+    ],
+    "kind": "MOSAiC 实证案例",
+    "notice": "本站中文导读；航迹与冰情保留原始出处、时间及使用条件。",
+    "locator": "Abstract；Parameters；Coverage",
+    "published_at": "2020-12-02",
+    "retrieved_at": "2026-10-10"
+  },
+  {
+    "id": "mosaic-atmosphere",
+    "title": "MOSAiC 大气观测 · 设备、机构与产出",
+    "url": "https://doi.org/10.1525/elementa.2021.00060",
+    "publisher": "Shupe et al. / Elementa",
+    "summary": [
+      "Shupe 等的观测综述表 B2 对应船载云雷达、激光雷达、微波辐射计及其测量对象与负责机构。",
+      "设备清单支持分工梳理；逐台设备有效运行时间仍需检查对应数据集。"
+    ],
+    "kind": "MOSAiC 实证案例",
+    "notice": "本站中文导读；航迹与冰情保留原始出处、时间及使用条件。",
+    "locator": "Appendix B, Table B2",
+    "published_at": "2022",
+    "retrieved_at": "2026-10-10"
+  },
+  {
+    "id": "mosaic-fram-label",
+    "title": "弗拉姆海峡 · 地名参考位置",
+    "url": "https://www.marineregions.org/gazetteer.php?id=26579&p=details",
+    "publisher": "VLIZ Marine Regions / SeaVoX",
+    "summary": [
+      "Marine Regions 的 SeaVoX 海区条目列出参考位置 78.658077°N、0.613282°E。本站仅据此放置地名标签。",
+      "条目属于 alternative classification；单个参考点不表示海峡边界，也不用于船位判断或面积统计。"
+    ],
+    "kind": "MOSAiC 实证案例",
+    "notice": "本站中文导读；航迹与冰情保留原始出处、时间及使用条件。",
+    "locator": "MRGID 26579；Latitude / Longitude",
+    "published_at": "",
+    "retrieved_at": "2026-10-10"
+  }
+]

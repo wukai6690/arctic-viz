@@ -32,3 +32,5 @@ test-results/
 data/analysis/raw/*.zip
 static/exports/
 data/editorial/research_extension_images/
+data/private/
+!static/reports/*.pdf

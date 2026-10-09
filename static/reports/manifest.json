@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-10-10",
+  "reports": [
+    {
+      "id": "mosaic",
+      "file": "mosaic-case-report.pdf",
+      "sha256": "a614c9d2571dd5bbb8e0d0d4e024135fefe46597dd6e1976eb791d1ec1297360",
+      "bytes": 2572278
+    },
+    {
+      "id": "asbm",
+      "file": "asbm-case-report.pdf",
+      "sha256": "6b27ce798837f19ff52df8568b8f92693ad7afa04791b854c65680809e5c21fc",
+      "bytes": 723468
+    },
+    {
+      "id": "yamal",
+      "file": "yamal-case-report.pdf",
+      "sha256": "2881a0b470105ebe1680a541aa8296c86ebc8fcd9a06a7bf8fc2890f4a264f37",
+      "bytes": 639628
+    }
+  ]
+}

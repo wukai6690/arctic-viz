@@ -2,3 +2,6 @@
 data/library/texts/* -text -whitespace
 data/analysis/raw/** -text -whitespace
 static/places/* -text
+data/analysis/mosaic/** -text -whitespace
+static/reports/** -text -whitespace
+static/reports/*.pdf binary
