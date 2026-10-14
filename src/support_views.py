@@ -40,7 +40,10 @@ def render_climate():
 
 def render_events():
     section_title('EVENT SOURCES','事件线索','机器抽取的报道提供检索入口；项目专题中的事实另外对照发布方材料核验。')
-    history,snapshot=st.tabs(['历史案例窗口与核验','2026 年短时快照'])
+    from src.gdelt_network import render_network
+    network,history,snapshot=st.tabs(['动态关系网络','历史案例窗口与核验','2026 年短时快照'])
+    with network:
+        render_network('events-network')
     with history:
         from src.review_views import render_history
         render_history()

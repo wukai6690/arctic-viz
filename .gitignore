@@ -34,3 +34,4 @@ static/exports/
 data/editorial/research_extension_images/
 data/private/
 !static/reports/*.pdf
+data/analysis/gdelt/network/raw/
