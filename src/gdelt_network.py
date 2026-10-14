@@ -89,17 +89,12 @@ def render_network(key: str = "network") -> None:
     min_events = b.selectbox("最少事件数", [1, 2, 5, 10], index=0, key=key + "-min")
     auto = c.checkbox("自动播放时间切片", value=False, key=key + "-auto", help="每秒推进一个已准备好的时间切片。")
     if auto:
-        # Streamlit 1.57 fragments allow a small, self-contained playback loop.
+        from streamlit_autorefresh import st_autorefresh
+        ticks = st_autorefresh(interval=1000, key=key + "-autorefresh")
+        current = labels[(int(ticks) + 1) % len(labels)]
+        st.session_state[frame_key] = current
         st.caption("自动播放只在已整理的样本窗口之间切换；不会在浏览器端重新抓取新闻。")
-        @st.fragment(run_every="1s")
-        def _advance():
-            now = st.session_state.get(frame_key, labels[0])
-            index = labels.index(now) if now in labels else 0
-            st.session_state[frame_key] = labels[(index + 1) % len(labels)]
-            st.rerun(scope="app")
-        _advance()
-        current = st.session_state.get(frame_key, current)
-    choice = a.selectbox("网络时间切片", labels, index=labels.index(current) if current in labels else 0, key=key + "-window")
+    choice = a.selectbox("网络时间切片", labels, index=labels.index(current) if current in labels else 0)
     if not auto:
         st.session_state[frame_key] = choice
     window = by_label[choice]
@@ -150,7 +145,6 @@ def render_network(key: str = "network") -> None:
             st.markdown(f"- [{citation['title']}]({citation['url']})")
         st.markdown("#### 使用边界")
         for limit in data["limitations"]: st.write("- " + limit)
-
 
 def render_network_page() -> None:
     render_network("network-page")
