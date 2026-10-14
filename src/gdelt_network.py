@@ -104,7 +104,8 @@ def render_network(key: str = "network") -> None:
         st.session_state[frame_key] = choice
     window = by_label[choice]
     m1, m2, m3, m4 = st.columns(4)
-    m1.metric("时间范围", window["date_start"] + (" — " + window["date_end"] if window["date_end"] != window["date_start"] else ""))
+    date_label = window["date_start"] if window["date_end"] == window["date_start"] else f"{window['date_start']}—{window['date_end'][-2:]}"
+    m1.metric("时间范围", date_label)
     m2.metric("事件记录", f"{len(window['events']):,}")
     m3.metric("国家对", f"{len(window['edges']):,}")
     m4.metric("数据来源", window["source"]["dataset"])
