@@ -131,7 +131,9 @@ def render_network(key: str = "network") -> None:
             for event in window["events"]:
                 if event["id"] not in wanted: continue
                 rows.append({"日期": event["date"], "事件类型": event["category"], "编码": event["event_code"], "地点": event["location"], "Goldstein": event["goldstein"], "来源": event["source_url"]})
-            st.dataframe(rows, hide_index=True, width="stretch", column_config={"来源": st.column_config.LinkColumn("来源", display_text="打开来源")})
+            # Keep the evidence table on-site; source buttons below open the
+            # existing in-place reader instead of forcing an external tab.
+            st.dataframe(rows, hide_index=True, width="stretch")
             for i, row in enumerate(rows[:6]):
                 if row["来源"].startswith(("http://", "https://")):
                     source_button(row["来源"], f"站内查看来源 {i + 1}", key=key + "-source-" + str(i))
