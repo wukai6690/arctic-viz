@@ -185,7 +185,9 @@ def main() -> None:
     windows = []
     for year in (2015, 2020, 2025):
         path = RAW / f"{year}-09-15.export.CSV.zip"
-        events, source = parse_zip(path, f"{year}-09-15", "GDELT 1.0" if year == 2015 else "GDELT 2.0")
+        # The GDELT 2.0 daily archive begins in February 2015; the selected
+        # 2015, 2020 and 2025 files therefore share the 2.0 label.
+        events, source = parse_zip(path, f"{year}-09-15", "GDELT 2.0")
         edges, nodes = aggregate(events)
         windows.append({"id": str(year), "label": f"{year} · 9月15日样本", "year": year,
                         "date_start": f"{year}-09-15", "date_end": f"{year}-09-15",

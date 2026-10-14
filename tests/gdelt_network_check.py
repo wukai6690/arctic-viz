@@ -17,6 +17,8 @@ for window in data["windows"]:
     assert all(e["event_count"] >= 1 for e in window["edges"])
     assert all((not e["source_url"]) or isinstance(e["source_url"], str) for e in window["events"])
     assert sum(e["event_count"] for e in window["edges"]) == len(window["events"])
+assert data["windows"][0]["source"]["dataset"] == "GDELT 2.0"
+assert data["windows"][1]["source"]["dataset"] == "GDELT 1.0"
 fig = network_figure(data["windows"][1], data["countries"])
 assert len(fig.data) >= 2 and any(getattr(t, "mode", None) == "markers+text" for t in fig.data)
 assert len(trend_figure(data).data) == 2
