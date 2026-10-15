@@ -319,6 +319,36 @@ def render_search_panel(data: dict, countries: list[dict], key: str) -> dict | N
         return filtered
 
 
+def render_search_results(result: dict, countries: list[dict], key: str) -> None:
+    """Show the network and evidence table produced by the standalone search."""
+    st.subheader("检索结果网络")
+    st.caption("这是当前条件对应的子网络。节点和边都来自筛选后的事件记录，下面保留可回查的事件字段。")
+    show_chart(network_figure(result, countries), key=key + "-graph", config={"displayModeBar": True})
+    rows = [{
+        "日期": e.get("date", ""),
+        "事件类型": event_type_label(e),
+        "Goldstein": e.get("goldstein"),
+        "AvgTone": e.get("avg_tone"),
+        "角色1": f"{COUNTRY_LABELS.get(e.get('actor1'), e.get('actor1', ''))} · {e.get('actor1_name', '')}",
+        "角色2": f"{COUNTRY_LABELS.get(e.get('actor2'), e.get('actor2', ''))} · {e.get('actor2_name', '')}",
+        "地点": e.get("location", ""),
+        "来源": e.get("source_url", ""),
+    } for e in result["events"][:300]]
+    st.dataframe(rows, hide_index=True, width="stretch", height=420)
+    for i, row in enumerate(result["events"][:6]):
+        if str(row.get("source_url", "")).startswith(("http://", "https://")):
+            source_button(row["source_url"], f"站内查看检索证据 {i + 1}", key=key + "-source-" + str(i))
+
+
+def render_search_page() -> None:
+    data = load_network()
+    section_title("事件检索", "按条件查找北极国家互动记录", "日期、国家角色和 CAMEO 事件类型先筛选记录，再生成国家关系网络。这里是独立检索功能，不和时间切片页面混在一起。")
+    st.info("当前检索使用已经整理的 GDELT 日档与短窗口，不会在浏览器端实时抓取新闻。每条结果都保留事件日期、参与者、编码、地点和来源。")
+    result = render_search_panel(data, data["countries"], "event-search")
+    if result is not None:
+        render_search_results(result, data["countries"], "event-search-result")
+
+
 def render_network(key: str = "network") -> None:
     data = load_network()
     countries = data["countries"]
@@ -326,26 +356,7 @@ def render_network(key: str = "network") -> None:
     by_label = {w["label"]: w for w in data["windows"]}
     section_title("时间切片 · 社会网络分析", "北极国家地缘事件网络", "固定节点位置，对照不同时间窗口的核心—半边缘—边缘结构，再回到事件证据。")
     st.info("网络边表示选定 GDELT 日档/窗口内的机器编码事件聚合。线条更粗表示新闻文章记录更多；颜色表示 Goldstein 均值的合作或冲突倾向。它是新闻感知网络，不是外交关系强度或因果结论。")
-    search_window = render_search_panel(data, countries, key)
-    if search_window is not None:
-        st.subheader("检索结果网络")
-        st.caption("这是当前条件对应的子网络。点击节点或连线可查看该国家对的聚合记录；下面的时间切片仍保留用于比较预设窗口。")
-        show_chart(network_figure(search_window, countries), key=key + "-search-graph", config={"displayModeBar": True})
-        search_rows = [{
-            "日期": e.get("date", ""),
-            "事件类型": event_type_label(e),
-            "Goldstein": e.get("goldstein"),
-            "AvgTone": e.get("avg_tone"),
-            "角色1": f"{COUNTRY_LABELS.get(e.get('actor1'), e.get('actor1', ''))} · {e.get('actor1_name', '')}",
-            "角色2": f"{COUNTRY_LABELS.get(e.get('actor2'), e.get('actor2', ''))} · {e.get('actor2_name', '')}",
-            "地点": e.get("location", ""),
-            "来源": e.get("source_url", ""),
-        } for e in search_window["events"][:300]]
-        st.dataframe(search_rows, hide_index=True, width="stretch", height=360)
-        for i, row in enumerate(search_window["events"][:5]):
-            if str(row.get("source_url", "")).startswith(("http://", "https://")):
-                source_button(row["source_url"], f"站内查看检索证据 {i + 1}", key=key + "-search-source-" + str(i))
-        st.divider()
+    st.page_link("pages/15_事件检索.py", label="打开独立事件检索", icon="⌕")
     a, b, c = st.columns([1.4, 1, 1])
     frame_key = key + "-frame"
     current = st.session_state.get(frame_key, labels[min(1, len(labels) - 1)])

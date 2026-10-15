@@ -4,6 +4,8 @@ from __future__ import annotations
 import csv
 import io
 import json
+import base64
+import mimetypes
 import zipfile
 from datetime import datetime
 
@@ -14,6 +16,12 @@ import streamlit as st
 from src.presentation import ROOT, show_chart
 
 DATA = ROOT / 'data/analysis/mosaic'
+
+
+def mosaic_image_uri(path):
+    """Build the image URL locally so this page has no cross-module image dependency."""
+    mime = mimetypes.guess_type(path.name)[0] or 'image/jpeg'
+    return f'data:{mime};base64,{base64.b64encode(path.read_bytes()).decode("ascii")}'
 TASKS = [
     dict(task='定位与跨设备时间对照', equipment='两套 Trimble GPS 与 iXBlue HYDRINS 导航系统',
          institution='Polarstern / AWI 航迹处理团队', output='五航段带 DOI 的 10 分钟定位表',
@@ -170,8 +178,7 @@ def render_mosaic_research(key='mosaic-case'):
             st.markdown('**同一天的海冰环境**')
             if day in available:
                 ice=available[day]
-                from src.evidence_views import local_image_uri
-                st.image(local_image_uri(DATA/ice['path']),width='stretch')
+                st.image(mosaic_image_uri(DATA/ice['path']),width='stretch')
                 st.caption('海冰密集度（%）· AMSR2 / ASI · 6.25 km 网格。来源：Meereisportal / Alfred-Wegener-Institut / 不来梅大学 IUP。')
             else:
                 st.info('该日有真实船位，尚未保存同日冰情图。切换到“已有同期冰图的日期”可查看已核对图组。')
@@ -201,8 +208,7 @@ def render_mosaic_research(key='mosaic-case'):
                 path=photo_path(photo)
                 with column:
                     if path.exists():
-                        from src.evidence_views import local_image_uri
-                        st.image(local_image_uri(path),caption=photo['caption'],width='stretch')
+                        st.image(mosaic_image_uri(path),caption=photo['caption'],width='stretch')
                         st.caption(f'{photo["author"]} · {photo["license"]}。项目实景是场景说明，不代替对应日期的观测记录。')
                     else:
                         st.warning('项目照片文件未随部署包找到：'+str(path.relative_to(ROOT)))

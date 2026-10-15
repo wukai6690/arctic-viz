@@ -20,7 +20,7 @@ def render_home():
         st.markdown('<div class="home-intro"><div class="eyebrow">地理大创 · 北极地缘与技术双向互动研究</div><h1>技术如何改变北极活动，<br>又如何受到地缘关系影响？</h1><p>以科考、通信和能源运输为切口，将环境观测、真实项目与政策材料放在同一条证据链中，讨论中国参与北极活动的条件。</p></div>',unsafe_allow_html=True)
         st.caption('阶段成果：三个深入案例与可核查资料集；机制解释仍需更多样本检验。')
         a,b=st.columns(2)
-        a.page_link('pages/13_研究导览.py',label='查看项目结构与证据链',use_container_width=True)
+        a.page_link('pages/15_事件检索.py',label='按条件检索国家互动',use_container_width=True)
         b.page_link('pages/11_案例研究.py',label='阅读三个案例',use_container_width=True)
     with right:
         photos=project_media().get('mosaic',[])

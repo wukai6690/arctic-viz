@@ -17,13 +17,8 @@ def run(path):
     return app
 
 home=run('app.py');assert any('阶段成果' in s.value for s in home.caption)
-tour=run('pages/13_研究导览.py')
-for stage in range(5):
-    tour.radio(key='tour-stage').set_value(stage).run()
-    assert not tour.exception
-    assert tour.button[0] is not None
-tour.radio(key='tour-stage').set_value(0).run()
-next(b for b in tour.button if b.label=='下一步').click().run();assert tour.radio(key='tour-stage').value==1
+search=run('pages/15_事件检索.py')
+assert any('事件检索' in str(item.value) for item in list(search.subheader) + list(search.markdown))
 case=run('pages/11_案例研究.py')
 for cid in ['asbm','yamal','mosaic','yamal']:
     case.radio(key='case-choice').set_value(cid).run();assert not case.exception
@@ -46,4 +41,4 @@ for r in reports['reports']:
         assert all(len(page.get_text().strip())>40 for page in pdf)
         text=''.join(page.get_text() for page in pdf)
         assert '来源登记' in text
-print('PASS: home, five tour steps, case switching/query, source resolution, and all report hashes/text/pages')
+print('PASS: home, standalone event search, case switching/query, source resolution, and all report hashes/text/pages')

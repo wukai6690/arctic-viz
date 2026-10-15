@@ -79,8 +79,8 @@ def render_deep_case(cid):
         st.download_button('下载案例结构化证据 · JSON',json.dumps(bundle,ensure_ascii=False,indent=2),cid+'-evidence.json','application/json',key=cid+'-json',on_click='ignore')
 
 def render_cases():
-    section_title('CASE STUDIES','案例研究','从具体任务读懂技术、环境与地缘关系。事实、解释和未解决的问题分别呈现。')
-    st.caption('案例按各自注明的历史时窗阅读，不跟随侧栏的海区、年份或月份选择。')
+    section_title('案例证据','三个案例，分别核对事实和边界','这里不是项目宣传页：先看任务、日期和来源，再看可以解释什么、还缺什么。案例按各自历史时窗阅读。')
+    st.caption('MOSAiC 看科研协作与观测记录；ASBM 看高纬通信项目的需求、交付和使用边界；亚马尔看港口、船舶与能源运输的时序。')
     pending=st.session_state.pop('_case_pending',None)
     requested=st.query_params.get('case')
     if pending in CASES:
