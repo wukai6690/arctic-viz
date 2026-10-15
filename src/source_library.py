@@ -104,6 +104,8 @@ def article_text(record):
 def render_source(record, key='reader'):
     st.subheader(record['title'])
     st.caption(record['kind']+' · '+record.get('publisher','来源未注明'))
+    if str(record.get('url','')).startswith(('http://','https://')):
+        st.link_button('打开原文链接',record['url'],use_container_width=False)
     if record.get('notice'):st.info(record['notice'])
     dates=[label+' '+str(record[field])[:10] for label,field in [('发布日期','published_at'),('来源更新','revised_at'),('本站收录','retrieved_at')] if record.get(field)]
     if dates:st.caption(' · '.join(dates))

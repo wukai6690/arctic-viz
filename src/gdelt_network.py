@@ -3,11 +3,14 @@ from __future__ import annotations
 
 import json
 import math
+import re
 from collections import Counter, defaultdict
 from datetime import date
 from pathlib import Path
 import plotly.graph_objects as go
+import requests
 import streamlit as st
+from bs4 import BeautifulSoup
 from src.presentation import ROOT, show_chart, section_title
 from src.source_library import source_button
 
@@ -254,6 +257,38 @@ def _search_result_window(data: dict, events: list[dict]) -> dict:
     }
 
 
+@st.cache_data(ttl=86400, show_spinner=False)
+def fetch_web_article(url: str) -> dict:
+    """Read a page only after the user asks for its text.
+
+    Many news sites block automated readers or publish only a short page shell;
+    the result therefore keeps the original URL and reports the access state.
+    """
+    if not str(url).startswith(("http://", "https://")):
+        return {"status": "invalid", "title": "没有可访问的网页地址", "text": ""}
+    try:
+        response = requests.get(url, headers={"User-Agent": "ArcticResearch/1.0 (source review)"}, timeout=8)
+        if response.status_code >= 400:
+            return {"status": "http_error", "title": "网页返回错误", "text": "", "code": response.status_code}
+        soup = BeautifulSoup(response.content, "lxml")
+        for node in soup(["script", "style", "noscript", "svg", "nav", "footer", "header"]):
+            node.decompose()
+        title = soup.title.get_text(" ", strip=True) if soup.title else "网页正文"
+        candidates = soup.select("article, main, [role='main'], .article-body, .story-body, .entry-content")
+        target = max(candidates, key=lambda node: len(node.get_text(" ", strip=True)), default=soup.body or soup)
+        paragraphs = []
+        for node in target.select("p, h1, h2, h3, li"):
+            text = re.sub(r"\s+", " ", node.get_text(" ", strip=True))
+            if len(text) >= 35 and text not in paragraphs:
+                paragraphs.append(text)
+        text = "\n\n".join(paragraphs)[:16000]
+        if len(text) < 120:
+            return {"status": "no_text", "title": title, "text": ""}
+        return {"status": "ok", "title": title, "text": text, "code": response.status_code}
+    except requests.RequestException as exc:
+        return {"status": "request_error", "title": "网页暂时无法读取", "text": "", "error": type(exc).__name__}
+
+
 def render_search_panel(data: dict, countries: list[dict], key: str) -> dict | None:
     """Render a screenshot-like filter panel and return the submitted result."""
     events = all_events(data)
@@ -270,7 +305,7 @@ def render_search_panel(data: dict, countries: list[dict], key: str) -> dict | N
     state_key = key + "-search-result"
     with st.container(border=True):
         st.subheader("事件检索")
-        st.caption("按日期、国家对、CAMEO 事件类型和关键词筛选已整理的 GDELT 事件。检索结果会同步生成下方网络图；当前不是实时抓取。")
+        st.caption("按日期、国家对、CAMEO 事件类型和关键词筛选 GDELT 事件，并查看对应的来源链接。")
         st.info(f"可检索事件日期：{min_day.isoformat()} 至 {max_day.isoformat()} · 去重后 {len(events):,} 条。2015 年起为 GDELT 2.0，2019 窗口沿用 GDELT 1.0 整理数据。")
         with st.form(key + "-search-form", clear_on_submit=False):
             d1, d2 = st.columns(2)
@@ -334,16 +369,45 @@ def render_search_results(result: dict, countries: list[dict], key: str) -> None
         "地点": e.get("location", ""),
         "来源": e.get("source_url", ""),
     } for e in result["events"][:300]]
-    st.dataframe(rows, hide_index=True, width="stretch", height=420)
-    for i, row in enumerate(result["events"][:6]):
-        if str(row.get("source_url", "")).startswith(("http://", "https://")):
-            source_button(row["source_url"], f"站内查看检索证据 {i + 1}", key=key + "-source-" + str(i))
+    st.dataframe(
+        rows,
+        hide_index=True,
+        width="stretch",
+        height=420,
+        column_config={"来源": st.column_config.LinkColumn("相关链接", display_text="打开原文")},
+    )
+    choices = result["events"][:300]
+    selected = st.selectbox(
+        "选择一条事件查看正文",
+        choices,
+        format_func=lambda event: f"{event.get('date', '')} · {event.get('actor1', '')} → {event.get('actor2', '')} · {event_type_label(event)} · {event.get('location', '')}",
+        key=key + "-article-choice",
+    )
+    url = str(selected.get("source_url", ""))
+    left, right = st.columns(2)
+    if url.startswith(("http://", "https://")):
+        left.link_button("打开相关原文链接", url, use_container_width=True)
+    else:
+        left.caption("这条事件没有可用的原文 URL。")
+    read_key = key + "-read-article"
+    if right.button("检索网页正文", key=read_key, use_container_width=True):
+        st.session_state[key + "-article"] = fetch_web_article(url)
+    article = st.session_state.get(key + "-article")
+    if article:
+        if article.get("status") == "ok":
+            st.markdown(f"#### {article['title']}")
+            st.caption("正文由来源网页即时读取，仅用于辅助核对；原文链接和事件字段仍是本条记录的依据。")
+            with st.container(height=430, border=True):
+                st.write(article["text"])
+        elif article.get("status") == "no_text":
+            st.warning("网页可访问，但未提取到足够的正文。请使用上方原文链接查看页面。")
+        else:
+            st.warning("网页暂时无法读取，已保留原文链接。请稍后重试或直接打开原文。")
 
 
 def render_search_page() -> None:
     data = load_network()
     section_title("事件检索", "按条件查找北极国家互动记录", "日期、国家角色和 CAMEO 事件类型先筛选记录，再生成国家关系网络。这里是独立检索功能，不和时间切片页面混在一起。")
-    st.info("当前检索使用已经整理的 GDELT 日档与短窗口，不会在浏览器端实时抓取新闻。每条结果都保留事件日期、参与者、编码、地点和来源。")
     result = render_search_panel(data, data["countries"], "event-search")
     if result is not None:
         render_search_results(result, data["countries"], "event-search-result")
