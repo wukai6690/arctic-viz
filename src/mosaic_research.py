@@ -170,7 +170,8 @@ def render_mosaic_research(key='mosaic-case'):
             st.markdown('**同一天的海冰环境**')
             if day in available:
                 ice=available[day]
-                st.image((DATA/ice['path']).read_bytes(),width='stretch')
+                from src.evidence_views import local_image_uri
+                st.image(local_image_uri(DATA/ice['path']),width='stretch')
                 st.caption('海冰密集度（%）· AMSR2 / ASI · 6.25 km 网格。来源：Meereisportal / Alfred-Wegener-Institut / 不来梅大学 IUP。')
             else:
                 st.info('该日有真实船位，尚未保存同日冰情图。切换到“已有同期冰图的日期”可查看已核对图组。')
@@ -200,7 +201,8 @@ def render_mosaic_research(key='mosaic-case'):
                 path=photo_path(photo)
                 with column:
                     if path.exists():
-                        st.image(path.read_bytes(),caption=photo['caption'],width='stretch')
+                        from src.evidence_views import local_image_uri
+                        st.image(local_image_uri(path),caption=photo['caption'],width='stretch')
                         st.caption(f'{photo["author"]} · {photo["license"]}。项目实景是场景说明，不代替对应日期的观测记录。')
                     else:
                         st.warning('项目照片文件未随部署包找到：'+str(path.relative_to(ROOT)))

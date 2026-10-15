@@ -1,7 +1,9 @@
 """Verified observations and licensed place photos inside the original app."""
 from pathlib import Path
 from html import escape
+import base64
 import json
+import mimetypes
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
@@ -36,16 +38,20 @@ def photo_credit(photo):
         st.caption('原始照片地址');st.code(photo['source_url'],language=None,wrap_lines=True)
         st.caption('许可条款地址');st.code(photo['license_url'],language=None,wrap_lines=True)
 
+def local_image_uri(path):
+    """Create a self-contained image URL for Streamlit Cloud media delivery."""
+    mime = mimetypes.guess_type(path.name)[0] or 'image/jpeg'
+    return f'data:{mime};base64,{base64.b64encode(path.read_bytes()).decode("ascii")}'
+
 def photo_figure(photo,download=False,key='photo'):
     path = photo_path(photo)
     if not path.is_file():
         st.warning('这张照片暂时无法加载，已保留来源记录：' + str(photo.get('caption', photo.get('id', '未命名照片'))))
         st.caption('缺失文件：' + str(path.relative_to(ROOT)))
     else:
-        # Pass bytes instead of a server-side path. Streamlit Cloud can
-        # recycle media files between reruns; bytes are registered again with
-        # the current page and keep the image available to other viewers.
-        st.image(path.read_bytes(),width='stretch')
+        # A data URL avoids the cloud media endpoint, which can recycle local
+        # media handles between reruns and otherwise returns an empty image.
+        st.image(local_image_uri(path),width='stretch')
     photo_credit(photo)
     if download and path.is_file():
         st.download_button('下载这张实景照片',path.read_bytes(),path.name,key=key+'-image',on_click='ignore')
