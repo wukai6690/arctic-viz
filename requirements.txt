@@ -1,5 +1,6 @@
 # 北极地缘与技术多要素联动3D可视化平台
 # Deployment refresh after dynamic GDELT network build (2026-10-15); package versions unchanged.
+# Cloud rebuild marker after standalone search and image delivery fixes (2026-10-16).
 # Final UI cache refresh after network time-label acceptance (2026-10-15).
 # Final provenance-label rebuild after archive version audit (2026-10-15).
 
