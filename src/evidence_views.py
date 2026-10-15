@@ -15,7 +15,18 @@ def place_catalog():
     return json.loads((ROOT/'data/reference/places.json').read_text(encoding='utf-8'))
 
 def photo_path(photo):
-    return ROOT/'static'/'places'/Path(photo['src']).name
+    src = str(photo.get('src', ''))
+    # Source records were exported with the cloud mount prefix `/app/`; the
+    # deployed app must resolve that prefix to the repository's bundled file.
+    candidates = [
+        ROOT / src.lstrip('/').removeprefix('app/'),
+        ROOT / 'static' / 'places' / Path(src).name,
+    ]
+    for candidate in candidates:
+        if candidate.is_file():
+            return candidate
+    # Keep a deterministic path so the missing-asset warning can name it.
+    return candidates[-1]
 
 def photo_credit(photo):
     st.markdown(f'<div class="photo-credit"><strong>{escape(photo["caption"])}</strong><br>{escape(photo["author"])} · {escape(photo["date"])}<br>{escape(photo["license"])}</div>',unsafe_allow_html=True)
@@ -26,10 +37,14 @@ def photo_credit(photo):
         st.caption('许可条款地址');st.code(photo['license_url'],language=None,wrap_lines=True)
 
 def photo_figure(photo,download=False,key='photo'):
-    st.image(str(photo_path(photo)),width='stretch')
+    path = photo_path(photo)
+    if not path.is_file():
+        st.warning('这张照片暂时无法加载，已保留来源记录：' + str(photo.get('caption', photo.get('id', '未命名照片'))))
+        st.caption('缺失文件：' + str(path.relative_to(ROOT)))
+    else:
+        st.image(str(path),width='stretch')
     photo_credit(photo)
-    if download:
-        path=photo_path(photo)
+    if download and path.is_file():
         st.download_button('下载这张实景照片',path.read_bytes(),path.name,key=key+'-image',on_click='ignore')
         st.download_button('下载照片署名与许可',json.dumps(photo,ensure_ascii=False,indent=2),path.stem+'-credit.json','application/json',key=key+'-credit',on_click='ignore')
 

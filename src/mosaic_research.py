@@ -196,10 +196,14 @@ def render_mosaic_research(key='mosaic-case'):
         if photos:
             columns=st.columns(min(2,len(photos)))
             for column,photo in zip(columns,photos[:2]):
-                path=ROOT/photo['src'].removeprefix('/app/')
+                from src.evidence_views import photo_path
+                path=photo_path(photo)
                 with column:
-                    st.image(str(path),caption=photo['caption'],width='stretch')
-                    st.caption(f'{photo["author"]} · {photo["license"]}。项目实景是场景说明，不代替对应日期的观测记录。')
+                    if path.exists():
+                        st.image(str(path),caption=photo['caption'],width='stretch')
+                        st.caption(f'{photo["author"]} · {photo["license"]}。项目实景是场景说明，不代替对应日期的观测记录。')
+                    else:
+                        st.warning('项目照片文件未随部署包找到：'+str(path.relative_to(ROOT)))
         st.write('这张表使“合作支持科研”成为可追查的问题：某项任务由什么设备支持，由谁负责，最后留下了什么资料。要继续判断观测中断或备份能力，还需要任务日志。')
     with evidence:
         st.markdown('**事实**')
