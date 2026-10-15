@@ -42,7 +42,10 @@ def photo_figure(photo,download=False,key='photo'):
         st.warning('这张照片暂时无法加载，已保留来源记录：' + str(photo.get('caption', photo.get('id', '未命名照片'))))
         st.caption('缺失文件：' + str(path.relative_to(ROOT)))
     else:
-        st.image(str(path),width='stretch')
+        # Pass bytes instead of a server-side path. Streamlit Cloud can
+        # recycle media files between reruns; bytes are registered again with
+        # the current page and keep the image available to other viewers.
+        st.image(path.read_bytes(),width='stretch')
     photo_credit(photo)
     if download and path.is_file():
         st.download_button('下载这张实景照片',path.read_bytes(),path.name,key=key+'-image',on_click='ignore')
