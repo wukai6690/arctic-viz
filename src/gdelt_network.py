@@ -356,7 +356,7 @@ def render_network(key: str = "network") -> None:
     by_label = {w["label"]: w for w in data["windows"]}
     section_title("时间切片 · 社会网络分析", "北极国家地缘事件网络", "固定节点位置，对照不同时间窗口的核心—半边缘—边缘结构，再回到事件证据。")
     st.info("网络边表示选定 GDELT 日档/窗口内的机器编码事件聚合。线条更粗表示新闻文章记录更多；颜色表示 Goldstein 均值的合作或冲突倾向。它是新闻感知网络，不是外交关系强度或因果结论。")
-    st.page_link("pages/15_事件检索.py", label="打开独立事件检索")
+    st.caption("需要按日期、国家和事件类型筛选时，请从左侧打开“事件检索”。")
     a, b, c = st.columns([1.4, 1, 1])
     frame_key = key + "-frame"
     current = st.session_state.get(frame_key, labels[min(1, len(labels) - 1)])
