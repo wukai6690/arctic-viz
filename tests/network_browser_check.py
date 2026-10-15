@@ -31,9 +31,9 @@ with sync_playwright() as p:
         app.locator('.stApp[data-test-script-state="notRunning"]').wait_for(timeout=90000)
         assert not app.locator('[data-testid="stException"]').count()
 
-    app = open_route("/动态关系网络")
-    print("Network page ready", flush=True)
-    app.get_by_role("heading", name="北极国家地缘事件网络", exact=True).wait_for()
+    app = open_route("/事件检索")
+    print("Search page ready", flush=True)
+    app.get_by_role("heading", name="按条件查找北极国家互动", exact=True).wait_for()
     app.get_by_text("事件检索", exact=True).wait_for()
     assert app.locator('[data-testid="stTextInputRootElement"] input').count() == 1, app.locator("body").inner_text()[:4000]
     app.get_by_role("button", name="检索", exact=True).click(); settle(app)
@@ -44,6 +44,8 @@ with sync_playwright() as p:
         pass
     assert app.locator('.js-plotly-plot').count() >= 1, app.locator("body").inner_text()[:6000]
     checks.append("Visible date/country/event-type search returns a filtered network and evidence table")
+    app = open_route("/动态关系网络")
+    app.get_by_role("heading", name="北极国家地缘事件网络", exact=True).wait_for()
     app.get_by_role("tab", name="多时间片对照", exact=True).click(); settle(app)
     assert app.locator('.js-plotly-plot').count() >= 5
     checks.append("Four paper-style time-slice panels render with a fixed country layout")
