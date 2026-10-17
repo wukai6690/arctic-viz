@@ -13,7 +13,7 @@ with sync_playwright() as p:
     browser = p.chromium.launch(channel="msedge", headless=True, args=["--use-angle=swiftshader"])
     context = browser.new_context(viewport={"width": 1600, "height": 1100}, accept_downloads=True)
     page = context.new_page(); page.set_default_timeout(90000); page.on("pageerror", lambda e: errors.append(str(e)))
-    page.goto(BASE.rstrip("/") + "/专利数据库", wait_until="domcontentloaded")
+    page.goto(BASE.rstrip("/") + "/16_patents", wait_until="domcontentloaded")
     app = page
     if "streamlit.app" in BASE:
         page.locator('iframe[title="streamlitApp"]').wait_for(timeout=90000)

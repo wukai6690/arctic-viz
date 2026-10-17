@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 ROOT = Path(__file__).resolve().parents[1]
 PAGES = [
     ('研究总览','app.py'),('北极地图','pages/1_北极全景地图.py'),
-    ('案例证据','pages/11_案例研究.py'),('动态关系网络','pages/14_动态关系网络.py'),('事件检索','pages/15_事件检索.py'),('专利数据库','pages/16_专利数据库.py'),
+    ('案例证据','pages/11_案例研究.py'),('动态关系网络','pages/14_动态关系网络.py'),('事件检索','pages/15_事件检索.py'),('专利数据库','pages/16_patents.py'),
     ('数据与方法','pages/6_数据中心工具.py'),
 ]
 NOTES = {

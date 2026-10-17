@@ -18,7 +18,7 @@ assert {r["technology"] for r in records} >= {"冰区航线规划", "冰区船�
 
 app = AppTest.from_file(str(ROOT / "app.py"), default_timeout=60).run()
 assert not app.exception
-app.switch_page("pages/16_专利数据库.py").run()
+app.switch_page("pages/16_patents.py").run()
 assert not app.exception
 assert len(app.get("plotly_chart")) == 3
 assert any("匹配公开文本" in str(item.label) for item in app.metric)
