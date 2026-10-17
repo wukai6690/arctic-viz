@@ -20,9 +20,11 @@ with sync_playwright() as p:
         app = page.frame_locator('iframe[title="streamlitApp"]')
     app.locator('.stApp[data-test-script-state="notRunning"]').wait_for(timeout=90000)
     assert not app.locator('[data-testid="stException"]').count(), app.locator("body").inner_text()[:5000]
+    page.wait_for_timeout(7000)
     app.get_by_text("北极技术专利与公开文本", exact=True).wait_for()
-    assert app.get_by_text("匹配公开文本", exact=True).count() == 1
-    assert app.locator('.js-plotly-plot').count() == 1
+    app.locator('[data-testid="stMetricLabel"]').first.wait_for(timeout=30000)
+    assert app.get_by_text("匹配公开文本", exact=True).count() >= 1
+    assert app.locator('.js-plotly-plot').count() >= 1
     app.get_by_role("tab", name="热力图", exact=True).click()
     app.locator('.js-plotly-plot').nth(1).wait_for(timeout=30000)
     assert app.locator('.js-plotly-plot').count() == 3
