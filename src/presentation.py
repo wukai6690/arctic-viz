@@ -1,6 +1,7 @@
 """Shared presentation for the original Streamlit research modules."""
 from pathlib import Path
 import re
+from urllib.parse import quote
 import streamlit as st
 import plotly.graph_objects as go
 
@@ -25,7 +26,7 @@ def apply_presentation(page='home'):
         st.markdown('<div class="research-brand"><span>◎</span><div>北极观察<small>ARCTIC RESEARCH</small></div></div>',unsafe_allow_html=True)
         st.caption('地理大创 · 研究工作区')
         for label,path in PAGES:
-            st.page_link(path,label=label,use_container_width=True)
+            page_link(path,label=label,use_container_width=True)
         with st.expander('观测与研究资料',expanded=True):
             st.page_link('pages/9_实景图集.py',label='实景图集')
             st.page_link('pages/8_区域联动研究.py',label='区域联动')
@@ -39,6 +40,22 @@ def apply_presentation(page='home'):
         st.markdown('<div class="sidebar-foot">地点 · 项目 · 证据<br>每一条研究联系，都可以回到来源。</div>',unsafe_allow_html=True)
     if page in NOTES:
         st.markdown(f'<div class="data-note"><b>资料说明</b><span>{NOTES[page]}</span></div>',unsafe_allow_html=True)
+
+def page_link(path, label, **kwargs):
+    """Render a page link, with a URL fallback for cloud page-registry lag."""
+    try:
+        return st.page_link(path, label=label, **kwargs)
+    except Exception as exc:
+        # Streamlit Cloud can briefly expose a new page through its URL before
+        # its page registry accepts the relative filesystem path. Keep the
+        # navigation usable during that window.
+        if str(path).endswith('pages/16_patents.py'):
+            href = 'patents'
+        else:
+            stem = Path(str(path)).stem
+            href = quote(re.sub(r'^\d+_', '', stem))
+        st.markdown(f'<a class="fallback-page-link" href="/{href}">{label}</a>', unsafe_allow_html=True)
+        return None
 
 def light_figure(figure):
     fig=go.Figure(figure)

@@ -3,6 +3,7 @@ from html import escape
 import streamlit as st
 from src.evidence_views import place_catalog,photo_figure
 from src.research_catalog import project_media
+from src.presentation import page_link
 
 CASES={
  'mosaic':('01 / 科研协作','MOSAiC：怎样在浮冰上持续观测？','沿真实航迹，对照同期冰情，理解船舶、观测设备与国际协作的分工。'),
@@ -39,11 +40,11 @@ def render_home():
     with a:
         st.subheader('目前形成的认识')
         st.write('技术带来新的活动条件，但活动能否持续，还取决于组织协作、服务安排、港口设施和制度环境。三个案例分别保留事实、解释与尚未证实的部分。')
-        st.page_link('pages/16_patents.py',label='查看北极技术专利数据库')
+        page_link('pages/16_patents.py',label='查看北极技术专利数据库')
         st.caption('这是一组有边界的案例认识，尚不能推广为整个北极的普遍规律。')
     with b:
         st.subheader('继续探索')
-        for label,path in [('北极地图 · 从地点查看项目与实景','pages/1_北极全景地图.py'),('实景图集 · 港口、社区与科研现场','pages/9_实景图集.py'),('专利数据库 · 技术公开文本与趋势','pages/16_patents.py'),('数据与方法 · 覆盖范围和原始资料','pages/6_数据中心工具.py')]:st.page_link(path,label=label)
+        for label,path in [('北极地图 · 从地点查看项目与实景','pages/1_北极全景地图.py'),('实景图集 · 港口、社区与科研现场','pages/9_实景图集.py'),('专利数据库 · 技术公开文本与趋势','pages/16_patents.py'),('数据与方法 · 覆盖范围和原始资料','pages/6_数据中心工具.py')]:page_link(path,label=label)
     with st.expander('资料覆盖与研究边界'):
         st.write('研究主时窗为 2016—2025 年；案例保留必要前史。2026 年为未结束年度。三海区长期海冰观测用于环境背景，不能自动解释某个项目。')
         st.write('GDELT 已采集 2019-09-17 至 2019-09-23 的七个日档，是 MOSAiC 启航窗口的候选样本，尚非十年完整样本。机器候选、人工核验与现实事件分别处理。')
