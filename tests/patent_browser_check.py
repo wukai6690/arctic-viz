@@ -29,7 +29,7 @@ with sync_playwright() as p:
     app.locator('.js-plotly-plot').nth(1).wait_for(timeout=30000)
     assert app.locator('.js-plotly-plot').count() == 3
     app.get_by_role("tab", name="专利记录", exact=True).click()
-    app.get_by_text("官方摘要（公开页面原文）", exact=True).wait_for()
+    app.get_by_text("中文摘要（", exact=False).wait_for()
     assert app.get_by_text("首项权利要求", exact=False).count() >= 1
     assert app.get_by_role("link", name="打开官方专利页面", exact=True).count() == 1
     checks.append("Patent page loads on the public site with trend, two heatmaps, searchable records and source text")

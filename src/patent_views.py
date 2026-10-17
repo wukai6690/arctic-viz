@@ -42,7 +42,7 @@ def _year(record: dict) -> int | None:
 
 
 def _search_text(record: dict) -> str:
-    return " ".join(str(record.get(k, "")) for k in ("publication_number", "title", "technology", "country", "assignee", "abstract", "claim_1", "classifications")).casefold()
+    return " ".join(str(record.get(k, "")) for k in ("publication_number", "title", "title_zh", "technology", "country", "assignee", "abstract", "abstract_original", "abstract_zh", "claim_1", "classifications")).casefold()
 
 
 def _trend_figure(records: list[dict]) -> go.Figure:
@@ -72,28 +72,32 @@ def _heatmap_figure(records: list[dict], row_key: str, row_label: str) -> go.Fig
 
 def _record_panel(record: dict, key: str) -> None:
     year = _year(record)
-    st.markdown(f"### {record.get('title') or record.get('publication_number')}")
+    st.markdown(f"### {record.get('title_zh') or record.get('title') or record.get('publication_number')}")
     st.caption(f"{record['publication_number']} · {_country(record)} · {record.get('technology', '未分类')} · 最早优先权 {record.get('priority_date', '未注明')}")
     m1, m2, m3 = st.columns(3)
     m1.metric("申请人", record.get("assignee") or "未注明")
     m2.metric("公开日期", record.get("publication_date") or "未注明")
     m3.metric("法律状态字段", record.get("status") or "页面未注明")
     st.link_button("打开官方专利页面", record["source_url"])
-    st.markdown("**官方摘要（公开页面原文）**")
-    st.write(record.get("abstract") or "该页面未提供可提取摘要。")
+    source_label = record.get("abstract_zh_source") or "中文译文"
+    st.markdown(f"**中文摘要（{source_label}）**")
+    st.write(record.get("abstract_zh") or "该公开页面未提供可提取摘要。")
+    if record.get("abstract_original") and record.get("abstract_original") != record.get("abstract_zh"):
+        with st.expander("查看原始摘要文本（核对用）"):
+            st.write(record["abstract_original"])
     with st.expander("查看首项权利要求"):
         st.write(record.get("claim_1") or "该页面未提取到首项权利要求。")
     with st.expander("查看分类号与发明人"):
         st.write("分类号：" + ("、".join(record.get("classifications", [])) or "页面未注明"))
         st.write("发明人：" + ("、".join(record.get("inventors", [])) or "页面未注明"))
-    st.caption("摘要和权利要求来自公开专利页面；本站没有据此判断技术已经在北极项目中部署。")
+    st.caption("中文摘要优先采用专利公开页面的中文原文；其他记录标注为中文译文，并保留原始摘要供核对。本站没有据此判断技术已经在北极项目中部署。")
 
 
 def render_patent_database() -> None:
     data = load_patents()
     records = data["records"]
-    section_title("专利数据库", "北极技术专利与公开文本", "按国家、技术类别和优先权年份查看样本趋势；每条记录保留官方摘要、首项权利要求和来源页面。")
-    st.caption("当前数据库是人工筛选的北极技术相关公开专利样本，不代表完整专利总量或国家技术实力排名。")
+    section_title("专利数据库", "北极技术专利与公开文本", "按国家、技术类别和优先权年份查看样本趋势；每条记录保留中文摘要、首项权利要求和来源页面。")
+    st.caption("当前数据库是人工筛选的北极技术相关公开专利样本，不代表完整专利总量或国家技术实力排名。中文摘要优先使用专利公开页面原文；外文页面提供中文译文并保留原文。")
     countries = sorted({_country(r) for r in records})
     technologies = sorted({r.get("technology", "未分类") for r in records})
     years = sorted({_year(r) for r in records if _year(r)})
@@ -102,7 +106,7 @@ def render_patent_database() -> None:
     technology = c2.selectbox("技术类别", ["全部类别", *technologies], key="patent-technology")
     year_range = c3.slider("最早优先权年份", min(years), max(years), (min(years), max(years)), key="patent-years")
     query = st.text_input("检索专利", placeholder="标题、申请人、专利号、摘要关键词或分类号", key="patent-query").strip().casefold()
-    filtered = [r for r in records if (country == "全部国家" or _country(r) == country) and (technology == "全部类别" or r.get("technology") == technology) and (_year(r) is not None and year_range[0] <= _year(r) <= year_range[1]) and (not query or query in _search_text(r))]
+    filtered = [r for r in records if (country == "全部国家" or _country(r) == country) and (technology == "全部类别" or r.get("technology") == technology) and (_year(r) is None or year_range[0] <= _year(r) <= year_range[1]) and (not query or query in _search_text(r))]
     m1, m2, m3 = st.columns(3)
     m1.metric("匹配公开文本", len(filtered))
     m2.metric("覆盖国家", len({_country(r) for r in filtered}))
@@ -122,9 +126,9 @@ def render_patent_database() -> None:
         st.subheader("技术类别—年份热力图")
         show_chart(_heatmap_figure(filtered, "技术类别", "技术类别"), key="patent-technology-heatmap")
     with tabs[2]:
-        rows = [{"公开号": r["publication_number"], "国家": _country(r), "最早优先权": r.get("priority_date", ""), "公开日": r.get("publication_date", ""), "技术类别": r.get("technology", ""), "申请人": r.get("assignee", ""), "标题": r.get("title", ""), "官方页面": r["source_url"]} for r in filtered]
+        rows = [{"公开号": r["publication_number"], "国家": _country(r), "最早优先权": r.get("priority_date", "") or "未注明", "公开日": r.get("publication_date", "") or "未注明", "技术类别": r.get("technology", ""), "申请人": r.get("assignee", "") or "未注明", "标题": r.get("title_zh") or r.get("title", ""), "官方页面": r["source_url"]} for r in filtered]
         st.dataframe(rows, hide_index=True, width="stretch", column_config={"官方页面": st.column_config.LinkColumn("官方页面", display_text="打开专利页")})
-        labels = [f"{r['publication_number']} · {r.get('title', '')}" for r in filtered]
+        labels = [f"{r['publication_number']} · {r.get('title_zh') or r.get('title', '')}" for r in filtered]
         selected_label = st.selectbox("选择一项查看官方摘要与权利要求", labels, key="patent-record-choice")
         _record_panel(filtered[labels.index(selected_label)], "patent-record")
     with st.expander("数据库口径与限制"):
