@@ -28,13 +28,13 @@ def apply_presentation(page='home'):
         for label,path in PAGES:
             page_link(path,label=label,use_container_width=True)
         with st.expander('观测与研究资料',expanded=True):
-            st.page_link('pages/9_实景图集.py',label='实景图集')
-            st.page_link('pages/8_区域联动研究.py',label='区域联动')
-            st.page_link('pages/4_极地核心技术.py',label='技术与地缘')
-            st.page_link('pages/10_站内资料.py',label='站内资料')
-            st.page_link('pages/2_气候时空监测.py',label='海冰观测')
-            st.page_link('pages/3_地缘战略格局.py',label='事件线索')
-            st.page_link('pages/7_关于本项目.py',label='关于研究')
+            page_link('pages/9_实景图集.py',label='实景图集')
+            page_link('pages/8_区域联动研究.py',label='区域联动')
+            page_link('pages/4_极地核心技术.py',label='技术与地缘')
+            page_link('pages/10_站内资料.py',label='站内资料')
+            page_link('pages/2_气候时空监测.py',label='海冰观测')
+            page_link('pages/3_地缘战略格局.py',label='事件线索')
+            page_link('pages/7_关于本项目.py',label='关于研究')
         from src.study_scope import sidebar_scope
         sidebar_scope()
         st.markdown('<div class="sidebar-foot">地点 · 项目 · 证据<br>每一条研究联系，都可以回到来源。</div>',unsafe_allow_html=True)
