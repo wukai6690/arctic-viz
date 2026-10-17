@@ -22,6 +22,8 @@ with sync_playwright() as p:
             page.locator('iframe[title="streamlitApp"]').wait_for(timeout=90000)
             app = page.frame_locator('iframe[title="streamlitApp"]')
         app.locator('.stApp[data-test-script-state="notRunning"]').wait_for(timeout=90000)
+        # Cloud may deliver the form shell before its widget deltas finish.
+        page.wait_for_timeout(7000)
         if app.locator('[data-testid="stException"]').count():
             raise AssertionError(app.locator('[data-testid="stException"]').all_text_contents())
         return app
@@ -38,10 +40,10 @@ with sync_playwright() as p:
     assert app.locator('[data-testid="stTextInputRootElement"] input').count() == 1, app.locator("body").inner_text()[:4000]
     app.get_by_role("button", name="检索", exact=True).click(); settle(app)
     app.get_by_text("检索结果网络", exact=True).wait_for()
-    try:
-        app.locator('.js-plotly-plot').first.wait_for(timeout=30000)
-    except Exception:
-        pass
+    for _ in range(60):
+        if app.locator('.js-plotly-plot').count() >= 1:
+            break
+        page.wait_for_timeout(500)
     assert app.locator('.js-plotly-plot').count() >= 1, app.locator("body").inner_text()[:6000]
     checks.append("Visible date/country/event-type search returns a filtered network and evidence table")
     app = open_route("/动态关系网络")
