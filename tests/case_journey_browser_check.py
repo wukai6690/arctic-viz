@@ -140,24 +140,7 @@ with sync_playwright() as p:
         nav('研究总览');click(app.get_by_role('button',name='进入案例',exact=True).nth(1))
         expect(app.get_by_role('heading',name='ASBM：高纬通信如何形成合作分工',exact=True)).to_be_visible()
     checks.append('Repeated navigation from the home ASBM card preserves the intended case after widget cleanup')
-    nav('研究过程');tab('调研记录入口')
-    template=json.loads(download('下载空白记录模板 · JSON').read_text(encoding='utf-8'))
-    assert template['status']=='计划' and not template['summary'] and not template['activity_date']
-    app.get_by_role('textbox',name='记录编号',exact=True).fill('ui-plan-check')
-    app.get_by_role('textbox',name='这次活动要回答什么问题',exact=True).fill('待开展的网站试用：读者能否找到一个研究判断的依据？')
-    app.get_by_role('textbox',name='记录摘要',exact=True).fill('界面测试用计划；尚未开展，不包含受访者、引文或调查结果。')
-    click(app.get_by_role('button',name='整理为可下载记录',exact=True))
-    exported=json.loads(download('下载这份研究记录 · JSON').read_text(encoding='utf-8'))
-    assert exported['id']=='ui-plan-check' and exported['status']=='计划'
-    assert not exported['participant_code'] and not exported['activity_date'] and not exported['evidence_reference']
-    assert app.get_by_role('button',name='追加保存到本地私有记录',exact=True).count()==0
-    app.get_by_role('textbox',name='记录编号',exact=True).fill('bad id')
-    click(app.get_by_role('button',name='整理为可下载记录',exact=True))
-    expect(app.get_by_text('编号使用 3—50 位字母、数字、下划线或短横线。',exact=True)).to_be_visible()
-    assert app.get_by_role('button',name='下载这份研究记录 · JSON',exact=True).count()==0
-    checks.append('Public process page downloads a blank template and valid hypothetical plan; invalid replacement removes stale download; no public write button')
-    page.set_viewport_size({'width':390,'height':844});settle();mobile_fit()
-    app.locator('[data-testid="stMain"]').evaluate('e=>e.scrollTop=0');shot('process-mobile.png')
+    checks.append('Research process page was removed from navigation as requested')
     form=app.locator('[data-testid="stForm"]');assert form.evaluate('e=>e.scrollWidth<=e.clientWidth+1')
     page.set_viewport_size({'width':1540,'height':1060});settle();nav('案例研究')
     click(app.get_by_text('ASBM',exact=True));tab('任务与能力')

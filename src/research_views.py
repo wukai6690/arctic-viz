@@ -134,9 +134,7 @@ def render_project():
         for p in projects:
             c1,c2=st.columns([3,1]);c1.write('**'+p['title']+'**');c1.caption(p['summary'])
             if c2.button('打开专题',key='browse-'+p['id']):open_project(p['id'])
-    with st.expander('技术检索与专利样本'):
-        from src.review_views import render_patents
-        render_patents()
+    st.page_link('pages/16_专利数据库.py',label='打开独立专利数据库 ↗')
 
 def render_findings():
     from src.research_extensions import render_mechanisms,render_policy_comparison,render_security,render_perspectives,render_literature

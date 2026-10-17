@@ -63,25 +63,7 @@ with sync_playwright() as p:
     place=next(p for p in json.loads((ROOT/'data/reference/places.json').read_text(encoding='utf-8'))['places'] if p['id']=='sabetta')
     assert abs(center['lat']-place['latitude'])<.02 and abs(center['lng']-place['longitude'])<.02,center
     report['returned_map_place']={'id':'sabetta','center':center};shot('map-return.png')
-    nav('研究过程');app.get_by_role('tab',name='调研记录入口',exact=True).click();settle()
-    app.get_by_role('textbox',name='记录编号',exact=True).fill('acceptance-plan-only')
-    app.get_by_role('textbox',name='这次活动要回答什么问题',exact=True).fill('仅检验页面往返，不代表已开展的调研。')
-    action(lambda:app.get_by_role('button',name='整理为可下载记录',exact=True).click())
-    nav('案例研究');nav('研究过程');app.get_by_role('tab',name='调研记录入口',exact=True).click();settle()
-    expect(app.get_by_role('textbox',name='记录编号',exact=True)).to_have_value('acceptance-plan-only')
-    expect(app.get_by_role('textbox',name='这次活动要回答什么问题',exact=True)).to_have_value('仅检验页面往返，不代表已开展的调研。')
-    app.get_by_role('textbox',name='记录摘要',exact=True).fill('返回页面后修改的计划；无真实受访者和调查结果。')
-    action(lambda:app.get_by_role('button',name='整理为可下载记录',exact=True).click())
-    with page.expect_download() as d:app.get_by_role('button',name='下载这份研究记录 · JSON',exact=True).click()
-    target=OUT/d.value.suggested_filename;d.value.save_as(target);row=json.loads(target.read_text(encoding='utf-8'))
-    assert row['id']=='acceptance-plan-only' and row['status']=='计划' and '返回页面后修改' in row['summary']
-    assert app.get_by_role('button',name='追加保存到本地私有记录',exact=True).count()==0
-    page.set_viewport_size({'width':390,'height':844});settle();shot('record-mobile-after.png')
-    assert app.locator('[data-testid="stForm"]').evaluate('e=>e.scrollWidth<=e.clientWidth+1')
-    action(lambda:app.get_by_role('button',name='开始新记录',exact=True).click())
-    expect(app.get_by_role('textbox',name='记录编号',exact=True)).to_have_value('')
-    assert app.get_by_role('button',name='下载这份研究记录 · JSON',exact=True).count()==0
-    report['draft_return_edit_download_and_new_record']='passed without persistent writes'
+    report['removed_research_process_page']='removed from navigation as requested'
     report['page_errors']=errors;assert not errors;browser.close()
 (OUT/('public-report.json' if 'streamlit.app' in BASE else 'local-report.json')).write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(report,ensure_ascii=False,indent=2))

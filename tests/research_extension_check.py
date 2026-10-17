@@ -56,26 +56,10 @@ for p in places:
         assert hashlib.sha256((ROOT/'static/places'/Path(x['src']).name).read_bytes()).hexdigest()==x['sha256']
 checks.append('Historical photo groups use existing verified files and keep dates, attribution and limits')
 app=AppTest.from_file(str(ROOT/'app.py'),default_timeout=60).run()
-app.switch_page('pages/5_中国安全风险.py').run()
+app.switch_page('pages/4_极地核心技术.py').run()
 def healthy():assert not app.exception,[e.message for e in app.exception]
 healthy()
-app.selectbox(key='policy-left').set_value('no2025').run();healthy()
-assert app.selectbox(key='policy-right').value!='no2025'
-app.selectbox(key='policy-right').set_value('cn2018').run()
-app.radio(key='policy-theme').set_value('技术与设施').run();healthy()
-app.selectbox(key='mechanisms-direction').set_value('地缘与制度 → 技术').run();healthy()
-assert app.selectbox(key='mechanisms-choice').value in ['asbm-demand','council-conditions']
-app.selectbox(key='mechanisms-status').set_value('有分工事实').run();healthy()
-assert any('没有对应材料' in e.value for e in app.info)
-app.selectbox(key='mechanisms-status').set_value('全部证据状态').run();healthy()
-for tid in ['science','data','transport','cooperation']:app.selectbox(key='security-task').set_value(tid).run();healthy()
-for sid in ['comms','access','shipping']:
-    app.selectbox(key='scenario-choice').set_value(sid).run();healthy()
-    app.checkbox(key='scenario-changed-'+sid).check().run();healthy()
-    assert app.radio(key='scenario-option-'+sid).value
-app.selectbox(key='perspective-role').set_value('原住民组织').run();healthy()
-checks.append('Policy changes reset incompatible selections; filters handle empty results; all four tasks and three hypothetical conditions run')
-app.switch_page('pages/4_极地核心技术.py').run()
+checks.append('Standalone research findings page was removed; technology page remains available')
 for pid in sorted(projects):
     app.selectbox(key='project_choice').set_value(pid).run();healthy()
     assert any(r['need']==m.value for r in d['capabilities'] if r['project_id']==pid for m in app.markdown)

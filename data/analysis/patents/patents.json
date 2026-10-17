@@ -1,0 +1,356 @@
+{
+  "version": "arctic-patent-database-20261017-v1",
+  "generated_at": "2026-10-17",
+  "source_note": "公开专利元数据和摘要来自 Google Patents 页面；法律状态未独立核验。专利与北极项目部署关系需要人工核对。",
+  "records": [
+    {
+      "publication_number": "KR102629446B1",
+      "technology": "冰区船舶/破冰技术",
+      "source_url": "https://patents.google.com/patent/KR102629446B1/en",
+      "title": "Icebreaker",
+      "country": "South Korea",
+      "assignee": "삼성중공업 주식회사",
+      "inventors": [
+        "이용철",
+        "김진규",
+        "김희택",
+        "이태구"
+      ],
+      "priority_date": "2019-07-05",
+      "filing_date": "2019-07-05",
+      "publication_date": "2024-01-24",
+      "application_number": "KR1020190081015A",
+      "status": "Active",
+      "classifications": [
+        "ko",
+        "PA0109",
+        "PN2301",
+        "PG1501",
+        "R17-X000",
+        "A201",
+        "PA0201",
+        "D13-X000"
+      ],
+      "abstract": "쇄빙선이 개시된다. 본 발명의 실시예에 따른 쇄빙선은 선체; 상기 선체의 선미부에 배치된 포드 추진기; 상기 선체의 선미부의 저부에 상기 선체의 길이 방향으로 연장되고, 상기 포드 추진기의 전방에 배치되는 스케그; 및 결빙 해역에서 상기 포드 추진기와 상기 스케그 사이에 얼음이 끼지 않도록 상기 포드 추진기와 상기 스케그 사이 공간으로 유체를 분사하는 유체 분사부를 포함한다. The icebreaker begins. An icebreaker according to an embodiment of the present invention includes a hull; A pod propeller disposed at the stern of the hull; A skeg extending in the longitudinal direction of the hull at the bottom of the stern portion of the hull and disposed in front of the pod propeller; And a fluid injection unit for spraying fluid into the space between the pod propeller and the skeg to prevent ice from being trapped between the pod propeller and the skeg in frozen sea areas.",
+      "claim_1": ""
+    },
+    {
+      "publication_number": "US9929796B2",
+      "technology": "极区卫星数据中继",
+      "source_url": "https://patents.google.com/patent/US9929796B2/en",
+      "title": "Virtual polar satellite ground station for low orbit earth observation satellites based on a geostationary satellite pointing an antenna over an earth pole",
+      "country": "United States",
+      "assignee": "Airbus Defence and Space SAS",
+      "inventors": [
+        "Laurent Renouard",
+        "Martin Agnew",
+        "Francis Kinsella",
+        "Akos Hegyi"
+      ],
+      "priority_date": "2009-07-06",
+      "filing_date": "2010-06-21",
+      "publication_date": "2018-03-27",
+      "application_number": "US13/382,492",
+      "status": "Active",
+      "classifications": [
+        "AS",
+        "STCF",
+        "FEPP",
+        "MAFP"
+      ],
+      "abstract": "A satellite system includes a satellite operating in an orbit around the Earth and a satellite operating in another orbit around the Earth. The satellite points a fixed beam at least temporarily to a zone above the Earth's surface through which the satellite passes.",
+      "claim_1": "1. A satellite system comprising: a first satellite operating in a first orbit around the Earth; and a second satellite operating in second orbit around the Earth, wherein the first satellite includes a fixed beam pointed for an indefinite period of time to a zone, which is calculated to be above and tangential to the Earth's surface, and through which zone the second satellite passes, wherein the fixed beam does not move in order to maintain communication with the second satellite, wherein the first satellite is configured to maintain said communication without tracking the second satellite while the second satellite passes through the zone, and wherein the first satellite points one fixed beam at least temporarily to a zone of a super-polar space above the Earth's North Pole or to a zone of a super-polar space above the Earth's South Pole or simultaneously a first fixed beam at least temporarily to zones of a super-polar space above the Earth's North Pole and a second fixed beam at least temporarily to zones of a super-polar space above the Earth's South Pole."
+    },
+    {
+      "publication_number": "US20200208979A1",
+      "technology": "冰区航线规划",
+      "source_url": "https://patents.google.com/patent/US20200208979A1/en",
+      "title": "Ship routing system and method in seas with ice",
+      "country": "United States",
+      "assignee": "Individual",
+      "inventors": [
+        "Ashok K. Pandey"
+      ],
+      "priority_date": "2019-01-02",
+      "filing_date": "2020-01-02",
+      "publication_date": "2020-07-02",
+      "application_number": "US16/732,843",
+      "status": "Abandoned",
+      "classifications": [
+        "STPP",
+        "STCB"
+      ],
+      "abstract": "A method for navigating a ship through seas with ice includes: determining a route of the ship through a portion of a sea starting from a departure location and ending at an arrival location; rendering a digital ice layer of the portion of the sea using at least one satellite captured image; overlaying the digital ice layer on a geographical map of the portion of the sea, thereby generating an overlaid geographical map; mapping a plurality of waypoints using the overlaid geographical map, wherein the plurality of waypoints navigate around ice of the digital ice layer along the route; transmitting coordinates of the plurality of waypoints to the ship; and piloting the ship along the route from the departure location to each of the plurality of waypoints and to the arrival location.",
+      "claim_1": "1 . A method for navigating a ship through seas with ice, the method comprising: determining a route of the ship through a portion of a sea starting from a departure location and ending at an arrival location; rendering, via software running on the computer, a digital ice layer of the portion of the sea using at least one satellite captured image; overlaying, via software running on the computer, the digital ice layer on a geographical map of the portion of the sea, thereby generating an overlaid geographical map; mapping, via software running on the computer, a plurality of waypoints using the overlaid geographical map, wherein the plurality of waypoints navigate around ice of the digital ice layer along the route; transmitting coordinates of the plurality of waypoints to the ship; and piloting the ship along the route from the departure location to each of the plurality of waypoints and to the arrival location."
+    },
+    {
+      "publication_number": "CN106327610A",
+      "technology": "智能极地船",
+      "source_url": "https://patents.google.com/patent/CN106327610A/en",
+      "title": "An intelligent ship for polar navigation",
+      "country": "China",
+      "assignee": "Nantong Cosco KHI Ship Engineering Co Ltd",
+      "inventors": [
+        "葛沛",
+        "耿彬",
+        "刘灿波"
+      ],
+      "priority_date": "2016-08-27",
+      "filing_date": "2016-08-27",
+      "publication_date": "2017-01-11",
+      "application_number": "CN201610732757.9A",
+      "status": "Granted",
+      "classifications": [
+        "zh",
+        "PB01",
+        "C10",
+        "SE01",
+        "CB02",
+        "GR01"
+      ],
+      "abstract": "The invention discloses an intelligent ship for arctic navigation. The intelligent ship comprises a voyage data recorder, an alarm management system, an ice load monitoring system, a stress monitoring system, an ice layer thickness and ice condition monitoring system, a longitudinal inclination optimization and navigational speed optimization system, a storage system, a noise and vibration monitoring system and an intelligent management system, wherein the voyage data recorder comprises a wave gauge, an anemorumbometer, a rotational speed meter, a fore-and-aft draft gauge and a satellite positioning receiver, and the alarm management system comprises a fuel thermometer, a fuel mass flow meter and a shaft power meter detection alarm system. A mariner adjusts the floatation condition, navigational speed and course of a ship according to data and information provided by the intelligent systems, so as to avoid icebergs or dangerous sea areas where ice layers are thick during arctic navigation, and then navigation safety is guaranteed; navigation resistance is reduced in ice-free or little-ice sea areas, and then oil consumption is reduced. Meanwhile, the maintenance and repair plan of equipment including a main engine and an auxiliary engine can be adjusted in time according to the monitored operation condition of machinery equipment.",
+      "claim_1": "1. an arctic navigation intelligent ship, it is characterised in that: include Shipborne navigation data recorder, alarm management system, ice Load monitor system, stress monitoring system, trim optimization and the speed of a ship or plane optimize system, ice layer thickness and the clear monitoring system of ice, storage System, noise and vibration monitor system and intelligent management system, described alarm management system, ice load monitoring system, stress is supervised The clear monitoring system of Ore-controlling Role, ice layer thickness and ice, store system, noise and vibration monitor system all with described intelligent management system Connect；Described Shipborne navigation data recorder includes wave instrument, anemoclinograph, rotational speed meters, bow tail Draft Gauge, satellite fix Receiving instrument, described alarm management system includes fuel oil temperature meter, fuel mass flow meter and shaft horsepower meter detection warning system；Institute Stating fuel mass flow measurement amount fuel oil consumption, described wave instrument measures wave direction and wave height, described anemoclinograph in real time Measuring wind speed and direction extraneous during ship's navigation in real time, described rotational speed meters measures engine speed, described bow tail Draft Gauge in real time Measuring the drinking water of boats and ships head and the tail in real time, described satellite fix receiving instrument receives the latitude and longitude information of boats and ships, described stress monitor system System measures in real time the structural stress level of foremost part of ship, the region such as residential area on described noise and the real-time surveying vessel of vibrating sensor Noise and vibration, described ice layer thickness and ice condition monitoring system real-time reception polar region ice condition, described storage system real-time storage Each systematic collection and the data of measurement, the data collected and measure are managed by described intelligent management system."
+    },
+    {
+      "publication_number": "CN118168551A",
+      "technology": "北极航线规划",
+      "source_url": "https://patents.google.com/patent/CN118168551A/en",
+      "title": "A method and device for planning an Arctic ship route",
+      "country": "China",
+      "assignee": "Wuhan University of Technology",
+      "inventors": [
+        "束亚清",
+        "嵇晓凡",
+        "吴杰",
+        "周利",
+        "甘浪雄"
+      ],
+      "priority_date": "2024-02-27",
+      "filing_date": "2024-02-27",
+      "publication_date": "2024-06-11",
+      "application_number": "CN202410215907.3A",
+      "status": "Pending",
+      "classifications": [
+        "zh",
+        "PB01",
+        "SE01"
+      ],
+      "abstract": "The invention relates to a arctic ship route planning method and a device, and belongs to the technical field of ship formation route planning, wherein the method comprises the steps of acquiring ship parameters of arctic ships and ice condition data of arctic channels, and determining navigation safety conditions according to the ship parameters and the ice condition data; screening and environment transformation are carried out on the ship parameters according to the navigation safety conditions, and a target grid map is obtained; planning a navigation path based on the target grid map and ice condition data by using a target A star algorithm to obtain an optimal navigation path; and in the process of traveling according to the optimal navigation path, if the secondary ice road is judged to exist, updating the optimal navigation path based on the target A star algorithm. According to the invention, navigation safety conditions are set, and then the target grid map can be obtained, so that navigation path planning is performed on the target grid map and ice condition data based on the target A star algorithm, and the planned optimal navigation path tends to be smooth.",
+      "claim_1": ""
+    },
+    {
+      "publication_number": "CN116481534B",
+      "technology": "海冰风险航线",
+      "source_url": "https://patents.google.com/patent/CN116481534B/en",
+      "title": "Risk quantization route planning method and device based on sea ice safety potential field",
+      "country": "China",
+      "assignee": "Wuhan University of Technology",
+      "inventors": [
+        "束亚清",
+        "王新月",
+        "甘浪雄",
+        "张笛",
+        "吴达",
+        "朱宇杰"
+      ],
+      "priority_date": "2022-12-30",
+      "filing_date": "2022-12-30",
+      "publication_date": "2026-05-12",
+      "application_number": "CN202211729042.XA",
+      "status": "Active",
+      "classifications": [
+        "zh",
+        "PB01",
+        "SE01",
+        "GR01"
+      ],
+      "abstract": "The invention relates to a risk quantification route planning method and a risk quantification route planning device based on sea ice safety potential fields, which are used for obtaining an environment grid map by acquiring sea ice physical characteristic data of a target navigation area and grid-connecting the target navigation area, and then, a safety potential field model is established for each grid according to sea ice physical characteristic data to represent the safety potential field strength of the target position relative to the grid, then, the risk potential energy value of the target ship in each grid is calculated according to the navigation data of the target ship and the safety potential field model of each grid, a risk quantification graph is obtained, and finally, a route is planned according to the risk quantification graph. Compared with the prior art, the method and the device apply the concept of the safety potential field to the ice region, evaluate the safety potential field based on the sea ice physical characteristic data in the target navigation region, quantitatively calculate the risk according to the actual data to obtain the risk quantification map, further realize route planning, achieve the aim of objectively and accurately planning the low-risk route, and have good application prospects.",
+      "claim_1": "1. The risk quantification route planning method based on the sea ice safety potential field is characterized by comprising the following steps of: Acquiring sea ice physical characteristic data of a target navigation area, and grid-connecting the target navigation area to obtain an environment grid map; Establishing a safety potential field model for each grid according to the sea ice physical characteristic data in each grid in the environment grid graph, wherein the safety potential field model comprises the steps of obtaining potential field operation constants of a target source grid according to the sea ice physical characteristic data in the target source grid, wherein the target source grid refers to each grid in the environment grid graph, and establishing the safety potential field model of the target source grid according to the potential field operation constants by taking the distance between a target position and the target source grid as an input variable and the safety potential field strength of the target position relative to the target source grid as an output quantity, wherein the safety potential field model is used for representing the safety potential field strength of the target position relative to the grid; Acquiring navigation data of a target ship, and calculating a risk potential energy value of the target ship in each grid according to the navigation data and the safety potential field model of each grid to obtain a risk quantization map, wherein the navigation data comprises ship quality and ship speed; based on the equivalent mass, calculating a risk potential energy value of the target ship in a target evaluation grid according to the safety potential field model of each grid, wherein the target evaluation grid refers to each grid in the environmental grid map; and planning a route according to the risk quantification graph to obtain a target navigation route."
+    },
+    {
+      "publication_number": "CN119642828A",
+      "technology": "可视化海冰风险",
+      "source_url": "https://patents.google.com/patent/CN119642828A/en",
+      "title": "North-pole channel route planning system and method based on visualized sea ice risk",
+      "country": "China",
+      "assignee": "Dalian Maritime University",
+      "inventors": [
+        "章文俊",
+        "王昱",
+        "杨雪",
+        "孟祥坤",
+        "周翔宇",
+        "张国庆",
+        "王任大",
+        "郑怀宇"
+      ],
+      "priority_date": "2025-02-11",
+      "filing_date": "2025-02-11",
+      "publication_date": "2025-03-18",
+      "application_number": "CN202510150483.1A",
+      "status": "Pending",
+      "classifications": [
+        "zh",
+        "PB01",
+        "SE01"
+      ],
+      "abstract": "本发明公开了一种基于可视化海冰风险的北极航道航线规划系统及方法，未来海冰数据获取模块，用于获取未来N天的北极区域的海冰数据；海冰风险等级确定模块，用于计算得到海冰风险等级；海冰风险显示模块，用于显示北极不同区域所对应的海冰风险等级；路线初步规划绘制模块，用于绘制出初始全局航线；路线预测显示模块，用于得到初始全局航线在跨天时的风险情况。本发明针对冰区的复杂冰情环境，考虑海冰对船舶航行的影响进行了航线设计，使得整个航线设计过程实现可视化显示，并且能够灵活调整航线，为船舶在北极航行提供更高效、更经济、更安全的航线，提高船舶在北极冰区航行的安全性和效率。 The present invention discloses an Arctic waterway route planning system and method based on visualized sea ice risk, including a future sea ice data acquisition module for acquiring sea ice data of the Arctic region for the next N days; a sea ice risk level determination module for calculating the sea ice risk level; a sea ice risk display module for displaying the sea ice risk levels corresponding to different Arctic regions; a route preliminary planning and drawing module for drawing the initial global route; and a route prediction and display module for obtaining the risk situation of the initial global route across days. Aiming at the complex ice environment in the ice zone, the present invention designs the route taking into account the impact of sea ice on ship navigation, so that the entire route design process can be visualized and the route can be flexibly adjusted, providing a more efficient, more economical and safer route for ships sailing in the Arctic, and improving the safety and efficiency of ships sailing in the Arctic ice zone.",
+      "claim_1": ""
+    },
+    {
+      "publication_number": "CN118364265A",
+      "technology": "浮冰运动预测",
+      "source_url": "https://patents.google.com/patent/CN118364265A/en",
+      "title": "Floating ice movement prediction method, device, storage medium and electronic device",
+      "country": "China",
+      "assignee": "Northwest Institute of Eco-Environment and Resources",
+      "inventors": [
+        "吴阿丹",
+        "车涛"
+      ],
+      "priority_date": "2024-04-22",
+      "filing_date": "2024-04-22",
+      "publication_date": "2024-07-19",
+      "application_number": "CN202410481708.7A",
+      "status": "Granted",
+      "classifications": [
+        "zh",
+        "PB01",
+        "SE01",
+        "GR01"
+      ],
+      "abstract": "The application provides a floating ice motion prediction method, a floating ice motion prediction device, a storage medium and electronic equipment, and relates to the field of route planning. In the method, an electronic device acquires a historical motion information sequence of floating ice in a region to be sailed, wherein the historical motion information sequence comprises a plurality of pieces of historical motion information of the floating ice at different time points; and calling a motion prediction model to analyze the space-time relationship of a plurality of pieces of historical motion information, so as to obtain the motion prediction information of the floating ice in the region to be sailed. Therefore, compared with the defect that the motion information of the floating ice is predicted by directly using the picture of the area to be sailed, the embodiment can avoid the interference of factors such as the crushing, melting and deformation of the floating ice by utilizing the plurality of pieces of historical motion information of the floating ice, thereby obtaining better prediction effect on the motion information of the floating ice in the edge area of the floating ice.",
+      "claim_1": "1. A method of ice floe motion prediction, the method comprising: Acquiring a historical motion information sequence of floating ice in a region to be sailed, wherein the historical motion information sequence comprises a plurality of pieces of historical motion information of the floating ice at different time points; and calling a motion prediction model to analyze the space-time relationship of the plurality of pieces of historical motion information to obtain motion prediction information of the floating ice in the region to be sailed."
+    },
+    {
+      "publication_number": "CN110319839A",
+      "technology": "极地智能导航",
+      "source_url": "https://patents.google.com/patent/CN110319839A/en",
+      "title": "A kind of intelligent navigation APP system suitable for polar region ice navigation",
+      "country": "China",
+      "assignee": "Shanghai Maritime University",
+      "inventors": [
+        "刘卫",
+        "李元光",
+        "谢宗轩",
+        "胡媛",
+        "王胜正"
+      ],
+      "priority_date": "2019-08-02",
+      "filing_date": "2019-08-02",
+      "publication_date": "2019-10-11",
+      "application_number": "CN201910710770.8A",
+      "status": "Withdrawn",
+      "classifications": [
+        "zh",
+        "PB01",
+        "SE01",
+        "WW01"
+      ],
+      "abstract": "The invention discloses a kind of intelligent navigation APP systems suitable for polar region ice navigation, including subscriber information management module, sea ice information analysis display module, destination enquiry module and SIM system information management module.This system user interface ease in use provides the ice condition information in polar region sea area for ship.Destination latitude coordinates only need to be inputted, the shortest path that can be navigated by water can be obtained, reduce the risk involved in ice navigation.Wherein, Ice Conditions Analysis and various dimensions display technology, data mining and extractive technique, multi-objective optimization algorithm, the safety of ship analytical technology based on data-driven etc. provide support for the normal operation of system.",
+      "claim_1": ""
+    },
+    {
+      "publication_number": "CN106203721A",
+      "technology": "自适应破冰航线",
+      "source_url": "https://patents.google.com/patent/CN106203721A/en",
+      "title": "Ice formation, the polar region flight-line design system and method for self-adaptive ship ice-breaking capacity",
+      "country": "China",
+      "assignee": "Wuhan University of Technology",
+      "inventors": [
+        "张笛",
+        "张明阳",
+        "付姗姗",
+        "万程鹏",
+        "赵江艳",
+        "周涂强",
+        "梁铮",
+        "方杭"
+      ],
+      "priority_date": "2016-07-18",
+      "filing_date": "2016-07-18",
+      "publication_date": "2016-12-07",
+      "application_number": "CN201610564419.9A",
+      "status": "Granted",
+      "classifications": [
+        "zh",
+        "C06",
+        "PB01",
+        "C10",
+        "SE01",
+        "GR01"
+      ],
+      "abstract": "本发明提供一种自适应船舶破冰能力的极地冰区航线设计系统及方法，它包括海图环境模型，用于量化和提取海图信息，并进行栅格化处理，建立海图栅格地图；冰图环境模型，用于量化和提取冰图信息，并进行栅格化处理，建立冰图栅格地图；叠加环境模型，用于以航行代价最小化为原则，选择海图栅格地图和冰图栅格地图每一栅格中航行代价最高的栅格作为叠加后栅格地图的栅格，实现海图栅格地图和冰图栅格地图的叠加；船舶的破冰能力、速度及冰情的耦合模型，用于在叠加环境模型的基础上，由船舶的破冰能力和速度来定义条件可航栅格，对条件可航栅格进行二次分类；航线设计模块，用于在船舶的破冰能力、速度及冰情的耦合模型基础上设计并优化航线。 The present invention provides a system and method for designing routes in polar ice regions with self-adaptive ship icebreaking capability, which includes a chart environment model for quantifying and extracting chart information, and performing grid processing to establish a chart grid map; The ice map environment model is used to quantify and extract the ice map information, and conduct grid processing to establish the ice map grid map; the overlay environment model is used to select the nautical chart grid map and ice map based on the principle of minimizing navigation costs. The grid with the highest navigation cost in each grid of the map grid map is used as the grid of the superimposed grid map to realize the superposition of the nautical chart grid map and the ice map grid map; the ice breaking ability, speed and ice condition of the ship The coupling model is used to define the conditional navigable grid by the icebreaking capability and speed of the ship on the basis of the superimposed environmental model, and perform secondary classification on the conditional navigable grid; the route design module is used to determine the icebreaking capability of the ship Design and optimize the route based on the coupling model of , speed and ice condition.",
+      "claim_1": ""
+    },
+    {
+      "publication_number": "FI125961B",
+      "technology": "破冰船船型设计",
+      "source_url": "https://patents.google.com/patent/FI125961B/en",
+      "title": "Icebreaking craft and method of using icebreaking craft",
+      "country": "Finland",
+      "assignee": "Aker Arctic Technology Oy",
+      "inventors": [
+        "Reko-Antti Suojanen",
+        "Tom-Christian Mattsson",
+        "Karl Hamberg"
+      ],
+      "priority_date": "2013-12-20",
+      "filing_date": "2013-12-20",
+      "publication_date": "2016-04-29",
+      "application_number": "FI20136314A",
+      "status": "",
+      "classifications": [
+        "fi",
+        "sv",
+        "FG"
+      ],
+      "abstract": "",
+      "claim_1": ""
+    },
+    {
+      "publication_number": "CN121384045A",
+      "technology": "AIS 航速反馈极地航线",
+      "source_url": "https://patents.google.com/patent/CN121384045A/en",
+      "title": "Polar region route dynamic planning system, device and medium integrating AIS navigational speed feedback",
+      "country": "China",
+      "assignee": "Wuhan University",
+      "inventors": [
+        "艾松涛",
+        "胡昌宏",
+        "丁曦",
+        "蔡祎",
+        "袁寒箫",
+        "欧阳润川",
+        "李讴彤"
+      ],
+      "priority_date": "2025-12-25",
+      "filing_date": "2025-12-25",
+      "publication_date": "2026-01-23",
+      "application_number": "CN202511972227.7A",
+      "status": "Granted",
+      "classifications": [
+        "zh",
+        "PB01",
+        "SE01",
+        "GR01"
+      ],
+      "abstract": "本发明公开一种融合AIS航速反馈的极地航线动态规划系统，包括：数据采集模块用于采集极地海冰环境数据及船舶性能参数；非线性建模模块通过建立海冰密集度与不同船型航速之间的拟合模型，实现对船舶在复杂海冰条件下的速度估算；推进—环境反馈模块构建船舶推进位移、速度与环境变化的闭环机制，用于动态修正船舶在不同环境条件下的可行推进能力；动态路径规划模块基于改进的路径搜索算法，结合上述海冰航速非线性模块与推进—环境反馈模块，生成满足安全性、通航性与经济性的最优航线；结果输出模块用于输出每日或任意时间尺度下的最优航线及其对应的时间和距离消耗。 This invention discloses a polar route dynamic planning system integrating AIS speed feedback, comprising: a data acquisition module for collecting polar sea ice environment data and ship performance parameters; a nonlinear modeling module for estimating ship speed under complex sea ice conditions by establishing a fitting model between sea ice concentration and the speed of different ship types; a propulsion-environment feedback module for constructing a closed-loop mechanism of ship propulsion displacement, speed, and environmental changes to dynamically correct the ship's feasible propulsion capability under different environmental conditions; a dynamic path planning module for generating the optimal route that satisfies safety, navigability, and economy based on an improved path search algorithm, combined with the aforementioned sea ice speed nonlinear module and propulsion-environment feedback module; and a result output module for outputting the optimal route and its corresponding time and distance consumption for daily or arbitrary time scales.",
+      "claim_1": "1. The polar region route dynamic programming system of fusion AIS navigational speed feedback, characterized by comprising: the data acquisition module is used for acquiring polar sea ice environment data and AIS ship data, including ship type, navigational speed, position and time parameters; The sea ice navigational speed nonlinear modeling module is used for establishing a fitting model between sea ice concentration and different navigational speeds so as to realize the estimation of the ship speed under the complex sea ice condition; The propulsion-environment feedback module is used for constructing a closed-loop feedback mechanism between ship propulsion displacement, navigational speed and environment parameters so as to dynamically correct the feasible propulsion capacity of the ship under different environment conditions; the dynamic path planning module is used for generating an optimal route meeting the safety, navigability and economy by combining the sea ice navigational speed nonlinear modeling module and the propulsion-environment feedback module based on a path searching algorithm; And the result output module is used for outputting the optimal route under daily or any time scale and the corresponding time and distance consumption thereof, and displaying the optimal route by a graphical interface or an interactive terminal."
+    }
+  ],
+  "fields": [
+    "publication_number",
+    "technology",
+    "title",
+    "country",
+    "assignee",
+    "priority_date",
+    "publication_date",
+    "status",
+    "classifications",
+    "abstract",
+    "claim_1",
+    "source_url"
+  ]
+}

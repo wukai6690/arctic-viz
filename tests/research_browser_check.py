@@ -79,7 +79,6 @@ with sync_playwright() as p:
     checks.append('Graph click and relationship selector expose the matching primary document')
     page.get_by_role('tab',name='研究解释',exact=True).click()
     assert page.get_by_text(re.compile('交付与设计分工不能单独证明')).count()>0
-    nav('研究发现');shot('findings.png')
     nav('数据与方法')
     page.get_by_role('tab',name='资料下载',exact=True).click()
     with page.expect_download() as downloaded:page.get_by_role('button',name='项目事实、关系与来源 · JSON',exact=True).click()

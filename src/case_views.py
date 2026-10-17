@@ -96,4 +96,4 @@ def render_cases():
     st.divider()
     a,b=st.columns(2)
     if a.button('查看原项目关系与技术专题',key='case-original'):open_project(cid)
-    b.page_link('pages/12_研究过程.py',label='查看核验与调研整理入口')
+    b.page_link('pages/6_数据中心工具.py',label='查看数据覆盖与来源口径')

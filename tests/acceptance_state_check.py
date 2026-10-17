@@ -10,29 +10,6 @@ def by_label(elements,label):return next(e for e in elements if e.label==label)
 def healthy(app):assert not app.exception,[e.message for e in app.exception]
 
 app=AppTest.from_file(str(ROOT/'app.py'),default_timeout=60).run()
-app.switch_page('pages/12_研究过程.py').run();healthy(app)
-by_label(app.text_input,'记录编号').set_value('audit-plan-only')
-by_label(app.text_area,'这次活动要回答什么问题').set_value('界面测试用计划；未开展调研。')
-by_label(app.selectbox,'活动类型').select('用户试用')
-by_label(app.button,'整理为可下载记录').click().run();healthy(app)
-expected=dict(app.session_state['_fieldwork_export'])
-app.switch_page('app.py').run().switch_page('pages/12_研究过程.py').run();healthy(app)
-assert by_label(app.text_input,'记录编号').value==expected['id']
-assert by_label(app.text_area,'这次活动要回答什么问题').value==expected['question']
-assert by_label(app.selectbox,'活动类型').value=='用户试用'
-assert dict(app.session_state['_fieldwork_export'])==expected
-by_label(app.text_area,'记录摘要').set_value('继续修改的是同一份测试计划。')
-by_label(app.button,'整理为可下载记录').click().run()
-assert app.session_state['_fieldwork_export']['summary']=='继续修改的是同一份测试计划。'
-by_label(app.text_input,'记录编号').set_value('bad id')
-by_label(app.button,'整理为可下载记录').click().run()
-app.switch_page('app.py').run().switch_page('pages/12_研究过程.py').run();healthy(app)
-assert by_label(app.text_input,'记录编号').value=='bad id'
-assert '_fieldwork_export' not in app.session_state
-by_label(app.button,'开始新记录').click().run();healthy(app)
-assert by_label(app.text_input,'记录编号').value=='' and by_label(app.selectbox,'活动类型').value=='访谈'
-assert '_fieldwork_export' not in app.session_state
-
 app.switch_page('pages/1_北极全景地图.py').run()
 app.selectbox(key='atlas_choice').select('sabetta').run()
 app.switch_page('pages/4_极地核心技术.py').run().switch_page('pages/1_北极全景地图.py').run();healthy(app)
