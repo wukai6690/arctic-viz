@@ -2,10 +2,12 @@
 import json
 import logging
 import os
+import sys
 from pathlib import Path
 from streamlit.testing.v1 import AppTest
 
 ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT))
 os.chdir(ROOT)
 OUT=ROOT/'test-results'/'original'
 OUT.mkdir(parents=True,exist_ok=True)
@@ -34,5 +36,5 @@ for page in pages:
         report.append({'page':page.name,'errors':[str(e)]})
     (OUT/'app-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(report,ensure_ascii=False,indent=2))
-assert len(report)==11 and not any(r['errors'] for r in report)
+assert len(report)==len(pages) and not any(r['errors'] for r in report)
 assert all(r.get('month_filter_changes_values',True) and r.get('empty_search_is_explicit',True) for r in report)

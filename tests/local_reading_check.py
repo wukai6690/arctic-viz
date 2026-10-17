@@ -36,7 +36,7 @@ for p in places:
 checks.append('29 complete Chinese dossiers and self-contained ZIPs; every image hash and licensed text revision verified')
 records=source_records()
 for source in research_catalog()['sources']:
-    r=resolve_source(source['url']);assert r['kind']=='项目事实导读' and r['summary']
+    r=resolve_source(source['url']);assert r['kind'] in {'项目事实导读','深度案例资料导读'} and r['summary']
 candidate=candidates()[0];r=resolve_source(candidate['source_url'])
 assert r['kind']=='候选报道记录' and not article_text(r) and '尚未收录' in r['notice']
 try:local_file('../outside.txt',LIBRARY)

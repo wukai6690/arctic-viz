@@ -10,7 +10,7 @@ sys.path.insert(0, str(ROOT))
 os.chdir(ROOT)
 package = json.loads((ROOT / "data/analysis/patents/patents.json").read_text(encoding="utf-8"))
 records = package["records"]
-assert len(records) >= 50
+assert len(records) >= 60
 assert len({r["publication_number"] for r in records}) == len(records)
 assert all(r["source_url"].startswith("https://patents.google.com/patent/") for r in records)
 assert sum(bool(r.get("abstract_zh")) for r in records) >= 25

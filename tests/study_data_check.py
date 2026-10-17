@@ -70,7 +70,13 @@ raw=ROOT/'data/analysis/raw/gdelt'
 for file in (d.DATA/'gdelt/daily').glob('*.json'):
     day=json.loads(file.read_text(encoding='utf-8'));stamp=day['coverage']['archive_date'].replace('-','')
     assert day['source']['filter_version']==FILTER_VERSION
-    assert hashlib.sha256((raw/(stamp+'.export.CSV.zip')).read_bytes()).hexdigest()==day['source']['sha256']
+    archive=raw/(stamp+'.export.CSV.zip')
+    if archive.exists():
+        assert hashlib.sha256(archive.read_bytes()).hexdigest()==day['source']['sha256']
+    else:
+        # The public release carries frozen parsed JSON and source hashes;
+        # large raw GDELT archives remain optional local rebuild inputs.
+        assert len(day['source']['sha256'])==64
 assert d.collection_progress()['files']==7
 coverage=d.coverage_table(2016,2025)
 assert len(coverage)==30 and coverage['GDELT已采集日档'].sum()==21
