@@ -124,6 +124,19 @@ METADATA_OVERRIDES = {
         "priority_date": "2021-04-16", "filing_date": "2021-04-16", "publication_date": "2021-07-23", "application_number": "CN202110409027.6A", "status": "Pending",
         "classifications": ["B63B35/08", "B63B35/083"],
     },
+    "CN116148841B": {
+        "assignee": "武汉理工大学", "inventors": ["束亚清", "崔海龙", "闫涛", "甘浪雄", "刘克中", "邓健", "张磊"],
+        "priority_date": "2022-12-28", "filing_date": "2022-12-28", "publication_date": "2025-09-19", "application_number": "CN202211692629.8A", "status": "Active",
+        "classifications": ["G01S13/862", "G01S13/88", "Y02A90/10"],
+    },
+    "CN113291433B": {
+        "assignee": "江苏科技大学", "inventors": ["李志富", "陈凡", "石玉云", "王凤珍"],
+        "priority_date": "2021-06-07", "filing_date": "2021-06-07", "publication_date": "2022-05-20", "application_number": "CN202110632324.7A", "status": "Active",
+    },
+    "CN121921498B": {
+        "assignee": "China University of Petroleum, East China", "inventors": ["纪永刚", "吴海睿", "王子腾"],
+        "priority_date": "2026-03-26", "filing_date": "2026-03-26", "publication_date": "2026-05-29", "application_number": "CN202610377238.9A", "status": "Active",
+    },
 }
 
 
@@ -164,7 +177,7 @@ def main() -> None:
             "claim_1": "",
         }
         rows.append(row); by_id[pub] = row
-    payload["version"] = "arctic-patent-database-20261018-v8"
+    payload["version"] = "arctic-patent-database-20261018-v9"
     payload["generated_at"] = "2026-10-18"
     payload["source_note"] = "公开专利元数据和摘要来自 Google Patents 的专利公开页面。中国记录优先保留页面中的中文摘要原文；非中文记录提供中文译文并保留原始摘要字段。法律状态未独立核验，样本不代表完整专利总量或国家技术实力排名。"
     payload["fields"] = ["publication_number", "technology", "title", "title_zh", "country", "assignee", "priority_date", "publication_date", "status", "classifications", "abstract_original", "abstract_zh", "abstract_zh_source", "claim_1", "source_url"]
