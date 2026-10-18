@@ -99,6 +99,24 @@ VERIFIED_PRIORITY = {
 # Keep only records with a readable public-page abstract in the displayed sample.
 EXCLUDED_PUBLICATIONS = {"FI125961B"}
 
+# Bibliographic fields verified from the linked Google Patents publication pages.
+# The mapping is intentionally explicit so a missing field is never inferred.
+METADATA_OVERRIDES = {
+    "CN114604407B": {
+        "assignee": "江苏科技大学", "inventors": ["陈悦", "赵新飞", "谢仪", "朱姣姣", "崇健斌", "王明星", "芮鑫", "王荣青"],
+        "priority_date": "2022-02-25", "filing_date": "2022-02-25", "publication_date": "2023-04-14", "application_number": "CN202210176033.6A", "status": "Active",
+        "classifications": ["B63H25/38", "B63H25/08", "Y02A30/30"], "family_id": "google:81859602",
+    },
+    "CN105241401B": {
+        "assignee": "哈尔滨工程大学", "inventors": ["朱广平", "殷敬伟", "刘强", "韩笑", "张天航", "王立婷", "周焕玲"],
+        "priority_date": "2015-09-26", "filing_date": "2015-09-26", "publication_date": "2017-08-04", "application_number": "CN201510623182.2A", "status": "Expired - Fee Related",
+    },
+    "CN106218848A": {
+        "assignee": "南通中远海运川崎船舶工程有限公司", "inventors": ["马宇斌", "刘灿波", "陈柳"],
+        "priority_date": "2016-08-27", "filing_date": "2016-08-27", "publication_date": "2016-12-14", "application_number": "CN201610732761.5A", "status": "Active",
+    },
+}
+
 
 def main() -> None:
     payload = json.loads(PATH.read_text(encoding="utf-8"))
@@ -122,6 +140,7 @@ def main() -> None:
         if r["publication_number"] in new_text:
             r["priority_date"] = VERIFIED_PRIORITY.get(r["publication_number"], "")
             r["filing_date"] = r["priority_date"]
+        r.update(METADATA_OVERRIDES.get(r["publication_number"], {}))
     for pub, technology, title, priority, abstract in NEW:
         if pub in by_id:
             continue
@@ -136,7 +155,7 @@ def main() -> None:
             "claim_1": "",
         }
         rows.append(row); by_id[pub] = row
-    payload["version"] = "arctic-patent-database-20261018-v6"
+    payload["version"] = "arctic-patent-database-20261018-v7"
     payload["generated_at"] = "2026-10-18"
     payload["source_note"] = "公开专利元数据和摘要来自 Google Patents 的专利公开页面。中国记录优先保留页面中的中文摘要原文；非中文记录提供中文译文并保留原始摘要字段。法律状态未独立核验，样本不代表完整专利总量或国家技术实力排名。"
     payload["fields"] = ["publication_number", "technology", "title", "title_zh", "country", "assignee", "priority_date", "publication_date", "status", "classifications", "abstract_original", "abstract_zh", "abstract_zh_source", "claim_1", "source_url"]
