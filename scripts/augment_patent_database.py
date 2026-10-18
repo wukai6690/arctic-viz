@@ -141,6 +141,15 @@ METADATA_OVERRIDES = {
         "assignee": "JIANGDONG SHIPYARD OF CHINA CHANGJIANG NATIONAL SHIPPING GROUP", "inventors": ["张云", "阮建荣"],
         "priority_date": "2011-05-27", "filing_date": "2011-05-27", "publication_date": "2012-04-25", "application_number": "CN2011201726489U", "status": "Expired - Fee Related",
     },
+    "CN110466698A": {
+        "assignee": "上海外高桥造船有限公司", "priority_date": "2019-09-06", "filing_date": "2019-09-06", "publication_date": "2019-11-19", "application_number": "CN201910841490.0A", "status": "Granted",
+    },
+    "CN117246459A": {
+        "priority_date": "2023-11-20", "filing_date": "2023-11-20", "publication_date": "2023-12-19", "application_number": "CN202311544660.1A", "status": "Granted", "family_id": "google:89126885",
+    },
+    "CN216709561U": {
+        "priority_date": "2022-01-21", "filing_date": "2022-01-21", "publication_date": "2022-06-10", "application_number": "CN202220167577.1U", "status": "Expired - Fee Related",
+    },
 }
 
 
@@ -181,7 +190,7 @@ def main() -> None:
             "claim_1": "",
         }
         rows.append(row); by_id[pub] = row
-    payload["version"] = "arctic-patent-database-20261018-v10"
+    payload["version"] = "arctic-patent-database-20261018-v11"
     payload["generated_at"] = "2026-10-18"
     payload["source_note"] = "公开专利元数据和摘要来自 Google Patents 的专利公开页面。中国记录优先保留页面中的中文摘要原文；非中文记录提供中文译文并保留原始摘要字段。法律状态未独立核验，样本不代表完整专利总量或国家技术实力排名。"
     payload["fields"] = ["publication_number", "technology", "title", "title_zh", "country", "assignee", "priority_date", "publication_date", "status", "classifications", "abstract_original", "abstract_zh", "abstract_zh_source", "claim_1", "source_url"]
