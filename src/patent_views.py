@@ -47,6 +47,14 @@ def _year(record: dict) -> int | None:
         return None
 
 
+def _chart_year(record: dict, basis: str) -> int | None:
+    field = "publication_date" if basis == "公开年份" else "priority_date"
+    try:
+        return int(str(record.get(field, ""))[:4])
+    except (TypeError, ValueError):
+        return None
+
+
 def _search_text(record: dict) -> str:
     return " ".join(str(record.get(k, "")) for k in ("publication_number", "title", "title_zh", "technology", "country", "assignee", "abstract", "abstract_original", "abstract_zh", "claim_1", "classifications")).casefold()
 
@@ -75,19 +83,19 @@ def _completeness_score(record: dict) -> int:
     return score
 
 
-def _trend_figure(records: list[dict]) -> go.Figure:
-    frame = pd.DataFrame([{"年份": _year(r), "国家": _country(r), "专利族/公开文本": 1} for r in records if _year(r)])
+def _trend_figure(records: list[dict], basis: str) -> go.Figure:
+    frame = pd.DataFrame([{"年份": _chart_year(r, basis), "国家": _country(r), "公开文本数": 1} for r in records if _chart_year(r, basis)])
     fig = go.Figure()
     if not frame.empty:
-        grouped = frame.groupby(["年份", "国家"], as_index=False)["专利族/公开文本"].sum()
+        grouped = frame.groupby(["年份", "国家"], as_index=False)["公开文本数"].sum()
         for country, rows in grouped.groupby("国家"):
-            fig.add_trace(go.Scatter(x=rows["年份"], y=rows["专利族/公开文本"], mode="lines+markers", name=country))
-    fig.update_layout(height=360, margin={"l": 45, "r": 20, "t": 25, "b": 45}, xaxis_title="最早优先权年份", yaxis_title="记录数", hovermode="x unified")
+            fig.add_trace(go.Bar(x=rows["年份"], y=rows["公开文本数"], name=country, hovertemplate=f"{country}<br>%{{x}}：%{{y}} 条<extra></extra>"))
+    fig.update_layout(height=360, barmode="stack", margin={"l": 45, "r": 20, "t": 25, "b": 45}, xaxis_title=basis, yaxis_title="公开文本数", hovermode="x unified", legend={"orientation": "h", "y": 1.12})
     return fig
 
 
-def _heatmap_figure(records: list[dict], row_key: str, row_label: str) -> go.Figure:
-    rows = [{"国家": _country(r), "技术类别": r.get("technology", "未分类"), "年份": _year(r)} for r in records if _year(r)]
+def _heatmap_figure(records: list[dict], row_key: str, row_label: str, basis: str) -> go.Figure:
+    rows = [{"国家": _country(r), "技术类别": r.get("technology", "未分类"), "年份": _chart_year(r, basis)} for r in records if _chart_year(r, basis)]
     frame = pd.DataFrame(rows)
     if frame.empty:
         return go.Figure()
@@ -96,16 +104,22 @@ def _heatmap_figure(records: list[dict], row_key: str, row_label: str) -> go.Fig
     else:
         pivot = frame.pivot_table(index="技术类别", columns="年份", values="国家", aggfunc="size", fill_value=0)
     # A restrained light-blue scale keeps zero cells quiet and high counts legible.
+    text = pivot.astype(int).astype(str).values
     fig = go.Figure(go.Heatmap(
         z=pivot.values,
+        text=text,
+        texttemplate="%{text}",
+        textfont={"size": 11, "color": "#244e5b"},
         x=[str(x) for x in pivot.columns],
         y=list(pivot.index),
         zmin=0,
         colorscale=[[0.0, "#f3f8fb"], [0.25, "#d9edf2"], [0.5, "#a8ced4"], [0.75, "#6ca3ad"], [1.0, "#397786"]],
         colorbar={"title": "记录数", "tickformat": "d"},
         hovertemplate="%{y}<br>%{x}：%{z} 条<extra></extra>",
+        xgap=1,
+        ygap=1,
     ))
-    fig.update_layout(height=max(300, 34 * len(pivot.index) + 100), margin={"l": 125, "r": 25, "t": 30, "b": 55}, xaxis_title="最早优先权年份", yaxis_title=row_label)
+    fig.update_layout(height=max(300, 34 * len(pivot.index) + 100), margin={"l": 125, "r": 25, "t": 30, "b": 55}, xaxis_title=basis, yaxis_title=row_label)
     return fig
 
 
@@ -157,9 +171,11 @@ def render_patent_database() -> None:
     technology = c2.selectbox("技术类别", ["全部类别", *technologies], key="patent-technology")
     year_range = c3.slider("最早优先权年份", min(years), max(years), (min(years), max(years)), key="patent-years")
     query = st.text_input("检索专利", placeholder="标题、申请人、专利号、摘要关键词或分类号", key="patent-query").strip().casefold()
+    chart_basis = st.selectbox("图表日期口径", ["最早优先权年份", "公开年份"], key="patent-chart-date")
     filtered = [r for r in records if (country == "全部国家" or _country(r) == country) and (technology == "全部类别" or r.get("technology") == technology) and (_year(r) is None or year_range[0] <= _year(r) <= year_range[1]) and (not query or query in _search_text(r))]
     with st.expander("检索口径", expanded=False):
         st.write("关键词会同时检索公开号、中文/原文标题、申请人、摘要、首项权利要求和分类号。年份筛选使用最早优先权日；未核实日期的记录仍保留在结果中，但不进入趋势图和热力图。")
+        st.write("详情库当前尚未为全部记录补齐专利族编号，因此趋势图和热力图统计的是公开文本数，不把同族文本冒充为独立发明数量。")
     f1, f2, f3 = st.columns(3)
     text_status = f1.selectbox("摘要状态", ["全部摘要", "公开中文原文", "中文译文", "未提供摘要"], key="patent-text-status")
     date_only = f2.checkbox("只看已核实优先权日", key="patent-date-verified")
@@ -182,24 +198,29 @@ def render_patent_database() -> None:
     q2.metric("中文译文", sum(r.get("abstract_zh_source") == "基于公开摘要的中文译文" for r in filtered))
     q3.metric("优先权日已核实", sum(_year(r) is not None for r in filtered))
     q4.metric("含首项权利要求", sum(bool(r.get("claim_1")) for r in filtered))
-    st.caption(f"完整度排序按公开页实际字段计算；当前最高分 {max((_completeness_score(r) for r in filtered), default=0)}/11。空字段保持为空，不用推测值替代。")
+    chart_count = sum(_chart_year(r, chart_basis) is not None for r in filtered)
+    st.caption(f"完整度排序按公开页实际字段计算；当前最高分 {max((_completeness_score(r) for r in filtered), default=0)}/11。图表可用 {chart_count}/{len(filtered)} 条记录，缺失日期不补值。")
     if not filtered:
         st.warning("没有匹配记录，请放宽国家、年份、摘要状态或关键词。")
         return
     tabs = st.tabs(["国家与年份趋势", "热力图", "专利记录"])
     with tabs[0]:
-        st.subheader("不同国家的优先权年份趋势")
-        show_chart(_trend_figure(filtered), key="patent-trend")
-        st.caption("这里统计的是纳入数据库的公开文本记录，不是完整专利申请量。优先权年份用于避免把同族后续公开日误当成新发明。")
-        st.dataframe(pd.DataFrame([{"国家": _country(r), "最早优先权年份": _year(r), "记录数": 1} for r in filtered]).groupby(["国家", "最早优先权年份"], as_index=False).sum(), hide_index=True, width="stretch")
+        st.subheader(f"按{chart_basis}统计的公开文本趋势")
+        show_chart(_trend_figure(filtered, chart_basis), key="patent-trend")
+        st.caption("柱高表示该年度纳入详情库的公开文本数；不同国家堆叠显示。该图不等于完整国家专利申请量，也不等于去重后的专利族数量。")
+        trend_rows = [{"国家": _country(r), "年份": _chart_year(r, chart_basis), "公开文本数": 1} for r in filtered if _chart_year(r, chart_basis)]
+        if trend_rows:
+            st.dataframe(pd.DataFrame(trend_rows).groupby(["国家", "年份"], as_index=False).sum(), hide_index=True, width="stretch")
+        else:
+            st.info("当前日期口径没有可绘制的记录，请切换日期口径或放宽筛选条件。")
     with tabs[1]:
         st.subheader("国家—年份热力图")
-        show_chart(_heatmap_figure(filtered, "国家", "国家"), key="patent-country-heatmap")
-        st.caption("浅蓝色表示记录较少，深蓝色表示记录较多；只统计已核实最早优先权年份，未核实日期仍保留在专利记录中。")
+        show_chart(_heatmap_figure(filtered, "国家", "国家", chart_basis), key="patent-country-heatmap")
+        st.caption("每个格子已直接标出记录数；浅蓝色表示记录较少，深蓝色表示记录较多。缺失日期的记录不会进入热力图。")
         st.subheader("技术类别—年份热力图")
-        show_chart(_heatmap_figure(filtered, "技术类别", "技术类别"), key="patent-technology-heatmap")
+        show_chart(_heatmap_figure(filtered, "技术类别", "技术类别", chart_basis), key="patent-technology-heatmap")
     with tabs[2]:
-        rows = [{"公开号": r["publication_number"], "国家": _country(r), "最早优先权": r.get("priority_date", "") or "未注明", "公开日": r.get("publication_date", "") or "未注明", "技术类别": r.get("technology", ""), "申请人": r.get("assignee", "") or "未注明", "标题": r.get("title_zh") or r.get("title", ""), "官方页面": r["source_url"]} for r in filtered]
+        rows = [{"公开号": r["publication_number"], "国家": _country(r), "最早优先权": r.get("priority_date", "") or "官方页未提取", "公开日": r.get("publication_date", "") or "官方页未提取", "技术类别": r.get("technology", ""), "申请人": r.get("assignee", "") or "官方页未提取", "摘要来源": r.get("abstract_zh_source", ""), "完整度": f"{_completeness_score(r)}/11", "标题": r.get("title_zh") or r.get("title", ""), "官方页面": r["source_url"]} for r in filtered]
         st.dataframe(rows, hide_index=True, width="stretch", column_config={"官方页面": st.column_config.LinkColumn("官方页面", display_text="打开专利页")})
         labels = [f"{r['publication_number']} · {r.get('title_zh') or r.get('title', '')}" for r in filtered]
         selected_label = st.selectbox("选择一项查看官方摘要与权利要求", labels, key="patent-record-choice")

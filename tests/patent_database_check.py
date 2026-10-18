@@ -8,6 +8,7 @@ from streamlit.testing.v1 import AppTest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 os.chdir(ROOT)
+from src.patent_views import _heatmap_figure, _trend_figure
 package = json.loads((ROOT / "data/analysis/patents/patents.json").read_text(encoding="utf-8"))
 coverage = json.loads((ROOT / "data/analysis/patents/coverage.json").read_text(encoding="utf-8"))
 records = package["records"]
@@ -18,6 +19,10 @@ assert sum(r.get("abstract_zh_source") != "公开页面未提供摘要" for r in
 assert coverage["total_documents"] == 2172
 assert coverage["year_2015_documents"] == 327
 assert {r["technology"] for r in records} >= {"冰区航线规划", "冰区船舶/破冰技术"}
+trend = _trend_figure(records, "最早优先权年份")
+heatmap = _heatmap_figure(records, "国家", "国家", "最早优先权年份")
+assert trend.data and all(trace.type == "bar" for trace in trend.data)
+assert heatmap.data and heatmap.data[0].type == "heatmap" and heatmap.data[0].text is not None
 
 app = AppTest.from_file(str(ROOT / "app.py"), default_timeout=60).run()
 assert not app.exception
