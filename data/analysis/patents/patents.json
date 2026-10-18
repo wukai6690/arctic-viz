@@ -1,5 +1,5 @@
 {
-  "version": "arctic-patent-database-20261018-v5",
+  "version": "arctic-patent-database-20261018-v6",
   "generated_at": "2026-10-18",
   "source_note": "公开专利元数据和摘要来自 Google Patents 的专利公开页面。中国记录优先保留页面中的中文摘要原文；非中文记录提供中文译文并保留原始摘要字段。法律状态未独立核验，样本不代表完整专利总量或国家技术实力排名。",
   "records": [
@@ -322,35 +322,6 @@
       "abstract_original": "本发明提供一种自适应船舶破冰能力的极地冰区航线设计系统及方法，它包括海图环境模型，用于量化和提取海图信息，并进行栅格化处理，建立海图栅格地图；冰图环境模型，用于量化和提取冰图信息，并进行栅格化处理，建立冰图栅格地图；叠加环境模型，用于以航行代价最小化为原则，选择海图栅格地图和冰图栅格地图每一栅格中航行代价最高的栅格作为叠加后栅格地图的栅格，实现海图栅格地图和冰图栅格地图的叠加；船舶的破冰能力、速度及冰情的耦合模型，用于在叠加环境模型的基础上，由船舶的破冰能力和速度来定义条件可航栅格，对条件可航栅格进行二次分类；航线设计模块，用于在船舶的破冰能力、速度及冰情的耦合模型基础上设计并优化航线。 The present invention provides a system and method for designing routes in polar ice regions with self-adaptive ship icebreaking capability, which includes a chart environment model for quantifying and extracting chart information, and performing grid processing to establish a chart grid map; The ice map environment model is used to quantify and extract the ice map information, and conduct grid processing to establish the ice map grid map; the overlay environment model is used to select the nautical chart grid map and ice map based on the principle of minimizing navigation costs. The grid with the highest navigation cost in each grid of the map grid map is used as the grid of the superimposed grid map to realize the superposition of the nautical chart grid map and the ice map grid map; the ice breaking ability, speed and ice condition of the ship The coupling model is used to define the conditional navigable grid by the icebreaking capability and speed of the ship on the basis of the superimposed environmental model, and perform secondary classification on the conditional navigable grid; the route design module is used to determine the icebreaking capability of the ship Design and optimize the route based on the coupling model of , speed and ice condition.",
       "abstract_zh": "本发明提供一种自适应船舶破冰能力的极地冰区航线设计系统及方法，包括海图环境模型、冰图环境模型、叠加环境模型、船舶破冰能力与速度及冰情耦合模型和航线设计模块。系统将海图与冰图栅格叠加，根据船舶破冰能力、速度和冰情确定可航栅格并优化航线。",
       "abstract_zh_source": "基于公开摘要的中文译文"
-    },
-    {
-      "publication_number": "FI125961B",
-      "technology": "破冰船船型设计",
-      "source_url": "https://patents.google.com/patent/FI125961B/en",
-      "title": "Icebreaking craft and method of using icebreaking craft",
-      "country": "Finland",
-      "assignee": "Aker Arctic Technology Oy",
-      "inventors": [
-        "Reko-Antti Suojanen",
-        "Tom-Christian Mattsson",
-        "Karl Hamberg"
-      ],
-      "priority_date": "2013-12-20",
-      "filing_date": "2013-12-20",
-      "publication_date": "2016-04-29",
-      "application_number": "FI20136314A",
-      "status": "",
-      "classifications": [
-        "fi",
-        "sv",
-        "FG"
-      ],
-      "abstract": "",
-      "claim_1": "",
-      "title_zh": "Icebreaking craft and method of using icebreaking craft",
-      "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要"
     },
     {
       "publication_number": "CN121384045A",
@@ -1421,7 +1392,7 @@
       "application_number": "",
       "status": "",
       "classifications": [],
-      "abstract_original": "本发明涉及海冰冰情预报技术领域，建立初冰日和终冰日的二维等效正态模型，利用时间序列方法预测其中一个指标，再以条件概率模型预测另一个指标。该方法减少数值预报的复杂计算，同时考虑初冰日与终冰日之间的非独立关系。",
+      "abstract_original": "",
       "abstract_zh": "本发明涉及海冰冰情预报技术领域，建立初冰日和终冰日的二维等效正态模型，利用时间序列方法预测其中一个指标，再以条件概率模型预测另一个指标。该方法减少数值预报的复杂计算，同时考虑初冰日与终冰日之间的非独立关系。",
       "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
@@ -1441,7 +1412,7 @@
       "application_number": "",
       "status": "",
       "classifications": [],
-      "abstract_original": "本发明涉及船舶技术领域，提出一种带锯片和凸轮锤击机构的破冰船。电机驱动锯片切割冰层，并通过凸轮带动锤体对冰面进行冲击，能够破坏较厚冰层，提高破冰效率。",
+      "abstract_original": "",
       "abstract_zh": "本发明涉及船舶技术领域，提出一种带锯片和凸轮锤击机构的破冰船。电机驱动锯片切割冰层，并通过凸轮带动锤体对冰面进行冲击，能够破坏较厚冰层，提高破冰效率。",
       "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
@@ -1461,7 +1432,7 @@
       "application_number": "",
       "status": "",
       "classifications": [],
-      "abstract_original": "本发明公开一种二维及三维随机浮冰场数值建模方法及系统，根据浮冰尺寸分布和目标密集度，采用均匀抽样、二分法、随机多边形、背景网格和重叠检查构建浮冰场，减少规则和均匀假设对冰场模拟的影响。",
+      "abstract_original": "",
       "abstract_zh": "本发明公开一种二维及三维随机浮冰场数值建模方法及系统，根据浮冰尺寸分布和目标密集度，采用均匀抽样、二分法、随机多边形、背景网格和重叠检查构建浮冰场，减少规则和均匀假设对冰场模拟的影响。",
       "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
@@ -1481,7 +1452,7 @@
       "application_number": "",
       "status": "",
       "classifications": [],
-      "abstract_original": "本发明公开一种破冰船，电机驱动传动杆和起振器往复运动，带动碎冰刀切割冰层，提高破冰效率。电机布置在船体内部以减少海水腐蚀和漏电风险，结构负载较小，便于维护。",
+      "abstract_original": "",
       "abstract_zh": "本发明公开一种破冰船，电机驱动传动杆和起振器往复运动，带动碎冰刀切割冰层，提高破冰效率。电机布置在船体内部以减少海水腐蚀和漏电风险，结构负载较小，便于维护。",
       "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""

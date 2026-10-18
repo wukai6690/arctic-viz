@@ -96,10 +96,14 @@ VERIFIED_PRIORITY = {
     "CN107679020A": "2017-09-26", "CN112896438A": "2021-03-31", "CN118133494B": "2024-01-05", "CN114750883A": "2022-03-28",
 }
 
+# Keep only records with a readable public-page abstract in the displayed sample.
+EXCLUDED_PUBLICATIONS = {"FI125961B"}
+
 
 def main() -> None:
     payload = json.loads(PATH.read_text(encoding="utf-8"))
-    rows = payload["records"]
+    rows = [r for r in payload["records"] if r["publication_number"] not in EXCLUDED_PUBLICATIONS]
+    payload["records"] = rows
     by_id = {r["publication_number"]: r for r in rows}
     new_text = {item[0]: (item[2], item[4]) for item in NEW}
     for r in rows:
@@ -132,7 +136,7 @@ def main() -> None:
             "claim_1": "",
         }
         rows.append(row); by_id[pub] = row
-    payload["version"] = "arctic-patent-database-20261018-v5"
+    payload["version"] = "arctic-patent-database-20261018-v6"
     payload["generated_at"] = "2026-10-18"
     payload["source_note"] = "公开专利元数据和摘要来自 Google Patents 的专利公开页面。中国记录优先保留页面中的中文摘要原文；非中文记录提供中文译文并保留原始摘要字段。法律状态未独立核验，样本不代表完整专利总量或国家技术实力排名。"
     payload["fields"] = ["publication_number", "technology", "title", "title_zh", "country", "assignee", "priority_date", "publication_date", "status", "classifications", "abstract_original", "abstract_zh", "abstract_zh_source", "claim_1", "source_url"]
