@@ -1,5 +1,5 @@
 {
-  "version": "arctic-patent-database-20261018-v9",
+  "version": "arctic-patent-database-20261018-v10",
   "generated_at": "2026-10-18",
   "source_note": "公开专利元数据和摘要来自 Google Patents 的专利公开页面。中国记录优先保留页面中的中文摘要原文；非中文记录提供中文译文并保留原始摘要字段。法律状态未独立核验，样本不代表完整专利总量或国家技术实力排名。",
   "records": [
@@ -644,13 +644,16 @@
       "title": "冰区加强型船舶中的融冰装置",
       "title_zh": "冰区加强型船舶中的融冰装置",
       "country": "China",
-      "assignee": "",
-      "inventors": [],
+      "assignee": "JIANGDONG SHIPYARD OF CHINA CHANGJIANG NATIONAL SHIPPING GROUP",
+      "inventors": [
+        "张云",
+        "阮建荣"
+      ],
       "priority_date": "2011-05-27",
       "filing_date": "2011-05-27",
-      "publication_date": "",
-      "application_number": "",
-      "status": "",
+      "publication_date": "2012-04-25",
+      "application_number": "CN2011201726489U",
+      "status": "Expired - Fee Related",
       "classifications": [],
       "abstract_original": "",
       "abstract_zh": "本实用新型公开一种冰区加强型船舶中的融冰装置，包括底压载水舱、边压载水舱、输入管道、注入总管、输出管道和抽吸总管。通过双排压载管路和旁通管路改变常规单循环布置，增加水介质对流和紊流速度，在舱内循环融冰并兼顾压载水交换。",

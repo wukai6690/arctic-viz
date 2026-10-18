@@ -137,6 +137,10 @@ METADATA_OVERRIDES = {
         "assignee": "China University of Petroleum, East China", "inventors": ["纪永刚", "吴海睿", "王子腾"],
         "priority_date": "2026-03-26", "filing_date": "2026-03-26", "publication_date": "2026-05-29", "application_number": "CN202610377238.9A", "status": "Active",
     },
+    "CN202201141U": {
+        "assignee": "JIANGDONG SHIPYARD OF CHINA CHANGJIANG NATIONAL SHIPPING GROUP", "inventors": ["张云", "阮建荣"],
+        "priority_date": "2011-05-27", "filing_date": "2011-05-27", "publication_date": "2012-04-25", "application_number": "CN2011201726489U", "status": "Expired - Fee Related",
+    },
 }
 
 
@@ -177,7 +181,7 @@ def main() -> None:
             "claim_1": "",
         }
         rows.append(row); by_id[pub] = row
-    payload["version"] = "arctic-patent-database-20261018-v9"
+    payload["version"] = "arctic-patent-database-20261018-v10"
     payload["generated_at"] = "2026-10-18"
     payload["source_note"] = "公开专利元数据和摘要来自 Google Patents 的专利公开页面。中国记录优先保留页面中的中文摘要原文；非中文记录提供中文译文并保留原始摘要字段。法律状态未独立核验，样本不代表完整专利总量或国家技术实力排名。"
     payload["fields"] = ["publication_number", "technology", "title", "title_zh", "country", "assignee", "priority_date", "publication_date", "status", "classifications", "abstract_original", "abstract_zh", "abstract_zh_source", "claim_1", "source_url"]
