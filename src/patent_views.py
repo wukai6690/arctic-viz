@@ -11,6 +11,7 @@ import streamlit as st
 from src.presentation import ROOT, section_title, show_chart
 
 DATA_PATH = ROOT / "data/analysis/patents/patents.json"
+COVERAGE_PATH = ROOT / "data/analysis/patents/coverage.json"
 COUNTRY_NAMES = {
     "China": "中国",
     "United States": "美国",
@@ -28,6 +29,11 @@ COUNTRY_NAMES = {
 @st.cache_data(show_spinner=False)
 def load_patents() -> dict:
     return json.loads(DATA_PATH.read_text(encoding="utf-8"))
+
+
+@st.cache_data(show_spinner=False)
+def load_coverage() -> dict:
+    return json.loads(COVERAGE_PATH.read_text(encoding="utf-8"))
 
 
 def _country(record: dict) -> str:
@@ -130,9 +136,19 @@ def _record_panel(record: dict, key: str) -> None:
 
 def render_patent_database() -> None:
     data = load_patents()
+    coverage = load_coverage()
     records = data["records"]
-    section_title("专利数据库", "北极技术专利与公开文本", "按国家、技术类别和优先权年份查看样本趋势；每条记录保留中文摘要、首项权利要求和来源页面。")
-    st.caption("当前数据库是人工筛选的北极技术相关公开专利样本，不代表完整专利总量或国家技术实力排名。中文摘要优先使用专利公开页面原文；外文页面提供中文译文并保留原文。")
+    section_title("专利数据库", "北极技术专利与公开文本", "先看广义关联专利覆盖量，再检索已经整理为可阅读详情的公开文本。")
+    st.caption("广义覆盖量来自公开研究报告的引用统计；详情库只纳入已保留公开号、来源页和中文摘要的公开文本。两者口径不同，不用于直接比较国家技术实力。")
+    c0, c1, c2 = st.columns(3)
+    c0.metric("广义关联专利文献", f"{coverage.get('total_documents', 0):,}")
+    c1.metric("当前可检索详情", f"{len(records):,}")
+    c2.metric("2015 年广义新增", f"{coverage.get('year_2015_documents', 0):,}")
+    with st.expander("总量口径与详情库边界", expanded=False):
+        st.write(coverage.get("definition", ""))
+        st.write(coverage.get("scope_note", ""))
+        st.link_button("打开统计来源", coverage["source_url"])
+        st.dataframe(pd.DataFrame([{"登记机构": k, "文献数": v} for k, v in coverage.get("office_breakdown", {}).items()]), hide_index=True, width="stretch")
     countries = sorted({_country(r) for r in records})
     technologies = sorted({r.get("technology", "未分类") for r in records})
     years = sorted({_year(r) for r in records if _year(r)})

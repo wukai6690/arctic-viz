@@ -1,0 +1,16 @@
+{
+  "source_title": "Arctic Research Publication Trends: A Pilot Study",
+  "source_url": "https://research.uarctic.org/media/1596721/arctic-research-publication-trends-august-2016.pdf",
+  "period": "2001—2015",
+  "definition": "引用北极研究成果、并在国际专利机构登记的专利文献；该口径包含生物医药、环境、地球物理、化学和工程等广义技术领域。",
+  "total_documents": 2172,
+  "office_breakdown": {
+    "美国专利商标局": 981,
+    "世界知识产权组织": 645,
+    "欧洲专利局": 369,
+    "日本特许厅": 165,
+    "英国知识产权局": 12
+  },
+  "year_2015_documents": 327,
+  "scope_note": "这是广义关联专利文献统计，不等于去重后的专利族数量，也不等于全部专利都属于北极船舶和海冰装备。网站详情库另行保存已核验的公开文本。"
+}
