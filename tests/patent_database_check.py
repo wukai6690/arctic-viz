@@ -13,7 +13,7 @@ records = package["records"]
 assert len(records) >= 60
 assert len({r["publication_number"] for r in records}) == len(records)
 assert all(r["source_url"].startswith("https://patents.google.com/patent/") for r in records)
-assert sum(bool(r.get("abstract_zh")) for r in records) >= 25
+assert sum(r.get("abstract_zh_source") != "公开页面未提供摘要" for r in records) >= 60
 assert {r["technology"] for r in records} >= {"冰区航线规划", "冰区船舶/破冰技术"}
 
 app = AppTest.from_file(str(ROOT / "app.py"), default_timeout=60).run()

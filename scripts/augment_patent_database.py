@@ -99,12 +99,14 @@ def main() -> None:
     new_text = {item[0]: (item[2], item[4]) for item in NEW}
     for r in rows:
         title_zh, abstract_zh = TRANSLATIONS.get(r["publication_number"], (r.get("title", ""), r.get("abstract", "")))
-        if r["publication_number"] in new_text and not r.get("abstract_zh"):
+        # Earlier builds stored a placeholder for some records. Replace that
+        # placeholder with the Chinese abstract captured in NEW on every run.
+        if r["publication_number"] in new_text:
             title_zh, abstract_zh = new_text[r["publication_number"]]
         r["title_zh"] = title_zh
         r["abstract_original"] = r.get("abstract", "")
         r["abstract_zh"] = abstract_zh
-        r["abstract_zh_source"] = "基于公开摘要的中文译文"
+        r["abstract_zh_source"] = "专利公开中文原文" if r["publication_number"] in new_text else "基于公开摘要的中文译文"
         if not r["abstract_zh"]:
             r["abstract_zh"] = "该公开页面未提供可提取摘要。"
             r["abstract_zh_source"] = "公开页面未提供摘要"
@@ -125,7 +127,7 @@ def main() -> None:
             "claim_1": "",
         }
         rows.append(row); by_id[pub] = row
-    payload["version"] = "arctic-patent-database-20261018-v3"
+    payload["version"] = "arctic-patent-database-20261018-v4"
     payload["generated_at"] = "2026-10-18"
     payload["source_note"] = "公开专利元数据和摘要来自 Google Patents 的专利公开页面。中国记录优先保留页面中的中文摘要原文；非中文记录提供中文译文并保留原始摘要字段。法律状态未独立核验，样本不代表完整专利总量或国家技术实力排名。"
     payload["fields"] = ["publication_number", "technology", "title", "title_zh", "country", "assignee", "priority_date", "publication_date", "status", "classifications", "abstract_original", "abstract_zh", "abstract_zh_source", "claim_1", "source_url"]

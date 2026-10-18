@@ -1,5 +1,5 @@
 {
-  "version": "arctic-patent-database-20261018-v3",
+  "version": "arctic-patent-database-20261018-v4",
   "generated_at": "2026-10-18",
   "source_note": "公开专利元数据和摘要来自 Google Patents 的专利公开页面。中国记录优先保留页面中的中文摘要原文；非中文记录提供中文译文并保留原始摘要字段。法律状态未独立核验，样本不代表完整专利总量或国家技术实力排名。",
   "records": [
@@ -402,8 +402,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明公开一种冰区自动化船舵装置，包括上舵叶、舵刃、连接轴、转舵轴、舵机舱、伸缩轴和下舵叶。舵机舱用于改变船舶航向，舵刃和下舵叶可在冰区航行时通过摆动破冰；伸缩轴在浅水区触底时可自动缩入转舵轴，降低船舵与礁石碰撞损坏的风险。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -422,8 +422,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明公开一种用于寒区半潜式海上光伏结构的破冰装置及光伏结构，包括浮体和破冰模块。浮体外周通过支撑杆安装多个破冰模块，相邻模块之间以及模块与浮体之间设置排冰间隙，破冰模块由四块迎冰板呈十字形连接，外侧形成向外伸出的棱锥结构，用于寒区海上浮冰环境中的排冰和防护。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -442,8 +442,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明提供一种冰层厚度声学测量方法。测冰仪安装在水下平台上，向冰层发射高频、宽带、窄波束信号，利用冰层上下表面的回波测量厚度；再根据平台匀速移动估计声波入射角，利用斯涅尔折射定律修正传播轨迹，从而提高冰层厚度测量精度并获得一定范围内的冰层厚度剖面。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -462,8 +462,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明公开一种适用于极地航行船的居住区防冻方法。各层居住甲板采用封闭结构并配备电加热窗，中央空调采用预加热和再加热的蒸汽加热方式，新风入口设置电加热丝网；驾驶室窗户设置加热、雨刮、热水和压缩空气冲洗管路，以保障极地低温环境下船员居住、航行设备和通信系统正常运行。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -482,8 +482,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本实用新型涉及一种极地船舶，包括船体、主甲板和多层甲板。辅助设备间的通风管横向穿过艏侧推舱、冷库、储藏间和水手间后与系缆间相通，并设置风机、过滤件、降噪结构、隔热件和阀门。该布置可减少通风管占用常用作业间空间及噪声影响，改善极地船舶的通风和舒适性。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -502,8 +502,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明公开一种破冰装置及破冰船。破冰装置包括至少两组剪切轮，剪切轮并排设置在船艏凹槽内，分别绕铅直轴反向旋转，边缘设置外张齿牙或钩爪并由发动机驱动。剪切轮能够将海冰切碎，提高破冰船在较厚冰层中的破冰效率。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -522,8 +522,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明通过融合声呐和雷达数据探测船舶前方海冰：雷达观测露出水面的海冰，声呐探测水下海冰的宽度、厚度和距离；系统依据船舶航行安全建立预警机制，并以同屏方式显示探测结果，辅助驾驶员判断前方海冰危险程度，减少人为瞭望和判断误差。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -542,8 +542,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明公开一种冰区航行船舶冰水箱，包括透气管路、主机回水管路、蒸汽融冰管路、压缩空气吹除管路、海水吸入格栅、海水管或海水舱以及绕流板。绕流板将通海侧和吸水侧隔开，配合蒸汽融冰和压缩空气吹除，减少冰块堵塞海水管路的风险。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -562,8 +562,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明提供一种基于SAR和光学影像的极区航道船只目标融合检测方法。方法分别对SAR与光学影像进行目标初检，剔除海冰虚警，提取航道区域并计算目标位置、主轴角度和交并比；结合最大速度约束确定关联区域，最后利用D-S证据理论完成决策级融合，提高极区航行监控中的船只目标检测和匹配精度。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -582,8 +582,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本申请提供一种基于旋转扇形散射计的海冰提取方法。方法获取旋转扇形散射计对极地区域多次观测得到的后向散射数据，对多组观测进行主成分分析，得到主成分旋转特征数据，再依据特征数据提取海冰信息，获得海冰在极地区域的分布。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -602,8 +602,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明公开一种基于喷雾引晶技术的低温冰水池实验装置，包括纵移机构、横移机构、升降机构和挡隔板。装置可自由移动喷头，控制不同位置模型冰的生长速度和冰厚，为破冰试验提供高质量模型冰，并支持冰面切割和冰水池模型试验。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -622,8 +622,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本实用新型公开一种冰区加强型船舶中的融冰装置，包括底压载水舱、边压载水舱、输入管道、注入总管、输出管道和抽吸总管。通过双排压载管路和旁通管路改变常规单循环布置，增加水介质对流和紊流速度，在舱内循环融冰并兼顾压载水交换。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -642,8 +642,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明提供一种用于室外冰水池船模冰水动力测量的试验系统，可稳定约束船模并搭载测量船模冰阻力、冲击载荷和多种航行姿态的仪器。系统用于研究船冰作用机理，为室外冰水池试验和高性能破冰技术提供参考。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -662,8 +662,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明公开一种冰区船舶全寿期冰载荷风险值预测方法。方法确定计算工况和冰载荷作用区域，过滤和拟合不同工况的载荷时历数据，提取样本特征变量，并基于人工神经网络建立风险值预测模型，预测船舶全寿期内可能出现的冰载荷风险。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -682,8 +682,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本实用新型公开一种多体极地航行船，包括多个船体结构、破冰型船首、货舱、压载舱、机舱和多个螺旋桨。各压载舱通过管路、电磁阀和压载泵控制水流方向，将传统单船体破冰改为多船体破冰，以提高极地冰区航行的破冰能力、灵活性和安全航行区域。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -702,8 +702,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本实用新型在船首内部设置存放舱、收放臂、支撑臂、传动马达、传动轴和破冰机构。破冰机构可收放并由独立动力驱动，在不增加主机动力的情况下破碎浮冰、降低破冰阻力和航行油耗。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -722,8 +722,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明提供一种双折角舷侧的破冰船型，包括第一、第二和第三舷侧平板，并形成下折角和上折角，分别设置轻载水线和破冰水线。该结构兼顾开阔水域与冰区航行，可减小水量损失和冰区阻力，改善破冰船操纵性。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -742,8 +742,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明公开一种立式破冰船，包括船体、船舱、立式支撑柱、伺服电机、调控丝杆、移动架和拨冰结构。拨冰结构将破除后的碎冰向船体两侧拨开，扩大船舶航道、减小航行阻力，并通过挤压和旋切方式同步破冰。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -762,8 +762,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本实用新型公开一种破冰船舶艏部结构。艏部上部两侧设置楔形破冰结构，艏部下部采用球鼻艏；楔形结构破碎平整冰并将碎冰向两侧排开，球鼻艏减少碎冰沿船底滑向船尾冲击螺旋桨的风险，使船舶兼顾冰区与开阔水域航行性能。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -782,8 +782,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明公开一种破冰船，船首设置球鼻艏和便于破冰的船首规格，船尾设置用于破冰的结构，使船首和船尾均具备破冰能力。该设计便于船舶适应不同航行需求，提高极地航行的经济性和多用途性。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -802,8 +802,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明公开一种海冰监测系统及工作方法，包括激光发射、激光荧光接收、光电转换、信号采集和控制系统。系统采集海冰受激发射的荧光信号并进行分析、处理、对比和显示，可实时识别海冰并根据荧光衰减反演海冰厚度。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -822,8 +822,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明提出一种利用船体热源加热关键外板部位的破冰船，以降低冰雪在外板上的粘附力和摩擦力；同时在关键外板部位喷射主机热废气与外界水的混合流，减小破冰推进阻力。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -842,8 +842,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明公开一种点阵钻孔多点震动式破冰装置，通过机械臂连接破冰装置，利用单个电机配合十字连杆同时驱动多个钻头点阵打孔，再利用偏心凸轮和弹簧产生纵向震动，使船体前方冰块破裂，降低直接冲撞造成船体损坏和卡船的风险。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -862,8 +862,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明公开一种极地航行船舶海底门装置，包括储冰箱、冰水分离结构、过滤器、海水分隔间和加热回流结构。装置将碎冰与海水分离，利用部分加热海水融化浮冰，防止海底门堵塞并保障消防、冷却和压载等海水系统正常工作。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -882,8 +882,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明公开一种海冰综合监测系统及方法，包括海冰参数识别、数据综合管理和系统界面模块。系统实时采集并识别海冰密集度、厚度和类型，将海冰照片转换为标准数据并存入数据库，通过离线地图展示各位置海冰分布，同时管理水文和气象数据。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -902,8 +902,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "一种新型破冰船在船后安装发电机，在船前设置金属防护外壳及高压变压器、高压电容器、高压二极管和磁控管。磁控管产生的微波经天线加热冰层，使冰融化并完成破冰。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -922,8 +922,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明涉及一种具有海水冷却控制系统的北极船舶。正常情况下，主海水泵从海水箱向换热器供水；海水箱结冰时，主海水泵改从发动机室压载舱供水，以保证传热介质冷却和船舶运行所需的海水供应。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -942,8 +942,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明公开一种极地船舶海水箱，包括下水箱、上水箱、进水箱、出水箱、底部门格栅、海水吸口管和加热器。该结构可减少浮冰进入冷却系统，并以较少能量融化海水箱内浮冰，保障极地船舶海水持续供应。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -962,8 +962,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本申请提供一种卫星遥感海冰检测方法及装置。方法处理目标海域多光谱遥感影像，提取边缘特征、经悬浮泥沙校正的海冰指数和水体指数等多维特征，并依据分类阈值判断像元海冰分布，生成海冰分布图，实现高精度识别。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -982,8 +982,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明公开一种基于FY-3/MERSI卫星资料的近岸海冰遥感提取方法。方法预处理MERSI影像，依据海冰和海水的光谱差异建立识别算法，从每日影像提取近岸海冰信息，再生成旬产品和月产品，实现冬季高纬度近岸海域海冰的自动识别。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -1002,8 +1002,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本申请结合光学卫星影像和合成孔径雷达影像进行全天候海冰灾害监测。云量低时利用光学影像识别海冰像元并计算分布面积；云量高时利用Sentinel-1雷达影像识别海冰，从而实现不同天气条件下的海冰灾害监测。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -1022,8 +1022,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明提供一种极地船舶冷却系统控制方法，获取通海管道实时流量和冷却系统需求流量，确定循环水泵候选转速，并比较各候选转速下的流量与振动强度，选择目标转速，同时兼顾冷却功能和系统安全性能。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -1042,8 +1042,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明利用Sentinel-1A SAR影像识别海面冰山。方法对预处理影像进行阈值分割并剔除背景，按照先验知识提取冰山和类冰山样本，进行Min-Max标准化后训练随机森林模型，得到冰山识别结果。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -1062,8 +1062,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明公开一种基于卷积神经网络的遥感海冰图像分类方法。方法建立样本库，训练三维卷积神经网络提取高光谱海冰图像的空谱特征，通过挤压激励网络调整特征权重，并使用支持向量机完成分类，提高遥感海冰图像分类精度。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -1082,8 +1082,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明针对南极海域SAR图像进行冰山检测，利用微波遥感全天候观测优势，解决中小尺度冰山监测中虚警率较高的问题，标记冰山位置、提取轮廓并估算面积。该方法属于极地冰山监测技术，也可作为冰山风险识别方法的参考。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -1102,8 +1102,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明涉及极地船舶月池加热系统，包括海水进水管路、海水泵、中央换热器、蒸汽加热器以及设置在月池底盖和船体底部的消融管路。系统通过加热海水和月池底盖消除结冰，保证底盖开启、关闭和密封结构安全。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -1122,8 +1122,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明提供一种极地船舶通海管道防堵方法，根据通海管道实时流量与冷却系统需求流量的差值，调节管道内加热器件的开启数量；当流量不足时增加加热器件，融化冰渣并改善冷却系统换热性能。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -1142,8 +1142,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明公开一种极地科考船鳍板仪器舱紧急锁紧装置，包括舱体、深井、导向板、导向槽、限位块和伸缩机构。装置在船体移动时稳定仪器舱，减少水流冲击导致的仪器舱与深井内壁碰撞，保护科考设备安全。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -1162,8 +1162,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明公开一种极地科考船用实验总成，设置在船舶实验室内，包括吊顶功能盒、可移动实验桌和地轨。吊顶功能盒为实验桌提供水、电、气供应，实验桌可快速固定、安装和拆卸，提升极地多航段科考实验的布置灵活性和稳定性。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -1182,8 +1182,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明在传统零化神经动力学模型中引入误差累积项，以消除计算误差，使算法在噪声干扰下仍能稳定提取北极海冰图像，从而监测北极海冰分布并辅助北极航线规划。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -1202,8 +1202,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明涉及一种可双向破冰的极地科考船型，包括倾角艏部、破冰艏、止冰前趾、艉部线型、全回转推进器、倾斜舷侧和尾封板。船首可连续破冰和冲撞破冰，船尾通过破冰刀和螺旋桨抽吸实现艉向破冰。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -1222,8 +1222,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明获取北极海冰密集度数据和ERA5气象因子，将多源数据按时间分组并提取时空特征，再通过自适应权重分配网络得到海冰密集度预测值，解决传统时序模型注意力集中在末端的问题。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -1242,8 +1242,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明公开一种冰区LNG船甲板落水口融冰管路及方法，在甲板落水管和舷侧排水口之间设置融冰管路，并与船舶蒸汽管路连接，通过蒸汽融化落水口附近结冰，保障低温航线船舶正常排水和航行安全。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -1262,8 +1262,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明公开一种适用于极地低温环境的船用木板条和木甲板，木板条内设置电伴热带、温度传感器和控制器，可自动加热并减少甲板结冰，降低极地船员滑倒和坠海风险。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -1282,8 +1282,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本发明提出一种适用于极地地区、可配置在极地科考船上的水陆两栖运输救生船。船体短而灵活，吃水深、马力大、航速高，船首可冲上冰面，船首、船尾和船腹两侧设置水舱作为上冰设备。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -1302,8 +1302,8 @@
       "status": "",
       "classifications": [],
       "abstract_original": "",
-      "abstract_zh": "该公开页面未提供可提取摘要。",
-      "abstract_zh_source": "公开页面未提供摘要",
+      "abstract_zh": "本申请公开一种船舶轨迹优化的航路模型提取方法，根据船舶运动学参数调整程度和航行环境风险预测结果，提取用于安全、低风险航行的航路模型，降低航行风险和监督管理资源消耗。",
+      "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
     },
     {
@@ -1321,7 +1321,7 @@
       "application_number": "",
       "status": "",
       "classifications": [],
-      "abstract_original": "本发明利用CFD-DEM耦合计算得到破碎冰区船舶的冰载荷力、冰粒数量和相对碰撞速度，以此构建训练数据，并将冰粒动量与船舶冰载荷之间的动量守恒方程作为物理约束加入神经网络损失函数，实现破冰过程中的冰载荷和阻力预测。",
+      "abstract_original": "",
       "abstract_zh": "本发明利用CFD-DEM耦合计算得到破碎冰区船舶的冰载荷力、冰粒数量和相对碰撞速度，以此构建训练数据，并将冰粒动量与船舶冰载荷之间的动量守恒方程作为物理约束加入神经网络损失函数，实现破冰过程中的冰载荷和阻力预测。",
       "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
@@ -1341,7 +1341,7 @@
       "application_number": "",
       "status": "",
       "classifications": [],
-      "abstract_original": "本发明公开一种基于深度学习的海冰密集度预测方法，构建GAN、ConvLSTM和CBAM-ConvLSTM模型，对时序海冰密集度特征进行学习，并通过注意力模块增强时空特征表达，提高海冰密集度预测的稳定性和长效性。",
+      "abstract_original": "",
       "abstract_zh": "本发明公开一种基于深度学习的海冰密集度预测方法，构建GAN、ConvLSTM和CBAM-ConvLSTM模型，对时序海冰密集度特征进行学习，并通过注意力模块增强时空特征表达，提高海冰密集度预测的稳定性和长效性。",
       "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
@@ -1361,7 +1361,7 @@
       "application_number": "",
       "status": "",
       "classifications": [],
-      "abstract_original": "本发明在极地海冰融合显示基础上使用Q-Learning进行航线规划，将超过船舶破冰能力的高海冰密集度区域视为障碍物，通过环境反馈迭代寻找最优航线，并利用风险贝叶斯网络评估航行风险。",
+      "abstract_original": "",
       "abstract_zh": "本发明在极地海冰融合显示基础上使用Q-Learning进行航线规划，将超过船舶破冰能力的高海冰密集度区域视为障碍物，通过环境反馈迭代寻找最优航线，并利用风险贝叶斯网络评估航行风险。",
       "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
@@ -1381,7 +1381,7 @@
       "application_number": "",
       "status": "",
       "classifications": [],
-      "abstract_original": "本发明提取GNSS-R时延-多普勒图的均值、信噪比、峰值功率比、边缘斜率、峰度和偏度等特征，结合ERA5风速和海表温度参数，训练LightGBM回归模型反演海冰密集度，实现融冰期海冰边缘区的快速估计。",
+      "abstract_original": "",
       "abstract_zh": "本发明提取GNSS-R时延-多普勒图的均值、信噪比、峰值功率比、边缘斜率、峰度和偏度等特征，结合ERA5风速和海表温度参数，训练LightGBM回归模型反演海冰密集度，实现融冰期海冰边缘区的快速估计。",
       "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
@@ -1401,7 +1401,7 @@
       "application_number": "",
       "status": "",
       "classifications": [],
-      "abstract_original": "本发明构建局部海冰与船舶结构相互作用模型，获得冰载荷及海冰应力应变参数，再将船冰相对位置和材料参数作为下一次模拟输入，结合扩展海冰数值模型重复进行碰撞分析，形成较长的冰载荷时历，为极地工程结构冰载荷预报和安全校核提供参考。",
+      "abstract_original": "",
       "abstract_zh": "本发明构建局部海冰与船舶结构相互作用模型，获得冰载荷及海冰应力应变参数，再将船冰相对位置和材料参数作为下一次模拟输入，结合扩展海冰数值模型重复进行碰撞分析，形成较长的冰载荷时历，为极地工程结构冰载荷预报和安全校核提供参考。",
       "abstract_zh_source": "专利公开中文原文",
       "claim_1": ""
