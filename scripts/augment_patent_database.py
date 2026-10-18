@@ -115,6 +115,15 @@ METADATA_OVERRIDES = {
         "assignee": "南通中远海运川崎船舶工程有限公司", "inventors": ["马宇斌", "刘灿波", "陈柳"],
         "priority_date": "2016-08-27", "filing_date": "2016-08-27", "publication_date": "2016-12-14", "application_number": "CN201610732761.5A", "status": "Active",
     },
+    "CN105691577A": {
+        "assignee": "中国舰船研究设计中心", "inventors": ["秦明俊", "甄在龙", "赵固", "曹志岗", "杨晟"],
+        "priority_date": "2014-11-27", "filing_date": "2014-11-27", "publication_date": "2016-06-22", "application_number": "CN201410697629.6A", "status": "Pending",
+    },
+    "CN113148031A": {
+        "assignee": "江苏科技大学", "inventors": ["田阿利", "卢兴民", "范坤"],
+        "priority_date": "2021-04-16", "filing_date": "2021-04-16", "publication_date": "2021-07-23", "application_number": "CN202110409027.6A", "status": "Pending",
+        "classifications": ["B63B35/08", "B63B35/083"],
+    },
 }
 
 
@@ -155,7 +164,7 @@ def main() -> None:
             "claim_1": "",
         }
         rows.append(row); by_id[pub] = row
-    payload["version"] = "arctic-patent-database-20261018-v7"
+    payload["version"] = "arctic-patent-database-20261018-v8"
     payload["generated_at"] = "2026-10-18"
     payload["source_note"] = "公开专利元数据和摘要来自 Google Patents 的专利公开页面。中国记录优先保留页面中的中文摘要原文；非中文记录提供中文译文并保留原始摘要字段。法律状态未独立核验，样本不代表完整专利总量或国家技术实力排名。"
     payload["fields"] = ["publication_number", "technology", "title", "title_zh", "country", "assignee", "priority_date", "publication_date", "status", "classifications", "abstract_original", "abstract_zh", "abstract_zh_source", "claim_1", "source_url"]
