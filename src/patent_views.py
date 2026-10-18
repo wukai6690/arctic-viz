@@ -46,10 +46,27 @@ def _search_text(record: dict) -> str:
 
 
 def _sort_records(records: list[dict], mode: str) -> list[dict]:
+    if mode == "信息完整度（高到低）":
+        return sorted(records, key=lambda r: (_completeness_score(r), r.get("publication_number", "")), reverse=True)
     if mode == "标题":
         return sorted(records, key=lambda r: (r.get("title_zh") or r.get("title") or "").casefold())
     field = "publication_date" if mode == "公开日期（新到旧）" else "priority_date"
     return sorted(records, key=lambda r: (r.get(field) or "0000-00-00", r.get("publication_number", "")), reverse=True)
+
+
+def _completeness_score(record: dict) -> int:
+    """Score only fields actually present on the public page; never infer missing facts."""
+    score = 0
+    score += 1 if record.get("title_zh") or record.get("title") else 0
+    score += 3 if record.get("abstract_zh_source") in {"专利公开中文原文", "基于公开摘要的中文译文"} else 0
+    score += 1 if record.get("priority_date") else 0
+    score += 1 if record.get("publication_date") else 0
+    score += 1 if record.get("assignee") else 0
+    score += 1 if record.get("inventors") else 0
+    score += 1 if record.get("claim_1") else 0
+    score += 1 if record.get("classifications") else 0
+    score += 1 if record.get("status") else 0
+    return score
 
 
 def _trend_figure(records: list[dict]) -> go.Figure:
@@ -72,7 +89,16 @@ def _heatmap_figure(records: list[dict], row_key: str, row_label: str) -> go.Fig
         pivot = frame.pivot_table(index="国家", columns="年份", values="技术类别", aggfunc="size", fill_value=0)
     else:
         pivot = frame.pivot_table(index="技术类别", columns="年份", values="国家", aggfunc="size", fill_value=0)
-    fig = go.Figure(go.Heatmap(z=pivot.values, x=[str(x) for x in pivot.columns], y=list(pivot.index), colorscale=[[0, "#f1f4ef"], [0.45, "#9db7a5"], [1, "#3f745d"]], colorbar={"title": "记录数"}, hovertemplate="%{y}<br>%{x}：%{z} 条<extra></extra>"))
+    # A restrained light-blue scale keeps zero cells quiet and high counts legible.
+    fig = go.Figure(go.Heatmap(
+        z=pivot.values,
+        x=[str(x) for x in pivot.columns],
+        y=list(pivot.index),
+        zmin=0,
+        colorscale=[[0.0, "#f3f8fb"], [0.25, "#d9edf2"], [0.5, "#a8ced4"], [0.75, "#6ca3ad"], [1.0, "#397786"]],
+        colorbar={"title": "记录数", "tickformat": "d"},
+        hovertemplate="%{y}<br>%{x}：%{z} 条<extra></extra>",
+    ))
     fig.update_layout(height=max(300, 34 * len(pivot.index) + 100), margin={"l": 125, "r": 25, "t": 30, "b": 55}, xaxis_title="最早优先权年份", yaxis_title=row_label)
     return fig
 
@@ -82,13 +108,15 @@ def _record_panel(record: dict, key: str) -> None:
     st.markdown(f"### {record.get('title_zh') or record.get('title') or record.get('publication_number')}")
     st.caption(f"{record['publication_number']} · {_country(record)} · {record.get('technology', '未分类')} · 最早优先权 {record.get('priority_date') or '未核实'}")
     m1, m2, m3 = st.columns(3)
-    m1.metric("申请人", record.get("assignee") or "未注明")
-    m2.metric("公开日期", record.get("publication_date") or "未注明")
-    m3.metric("法律状态字段", record.get("status") or "页面未注明")
+    m1.metric("申请人", record.get("assignee") or "官方页未提取")
+    m2.metric("公开日期", record.get("publication_date") or "官方页未提取")
+    m3.metric("法律状态字段", record.get("status") or "官方页未提取")
     st.link_button("打开官方专利页面", record["source_url"])
     source_label = record.get("abstract_zh_source") or "中文译文"
     st.markdown(f"**中文摘要（{source_label}）**")
     st.write(record.get("abstract_zh") or "该公开页面未提供可提取摘要。")
+    if record.get("abstract_zh_source") == "公开页面未提供摘要":
+        st.info("该条记录保留了真实公开号和官方页面，但公开页暂未提取到摘要；可用上方按钮核对原文。")
     if record.get("abstract_original") and record.get("abstract_original") != record.get("abstract_zh"):
         with st.expander("查看原始摘要文本（核对用）"):
             st.write(record["abstract_original"])
@@ -119,7 +147,7 @@ def render_patent_database() -> None:
     f1, f2, f3 = st.columns(3)
     text_status = f1.selectbox("摘要状态", ["全部摘要", "公开中文原文", "中文译文", "未提供摘要"], key="patent-text-status")
     date_only = f2.checkbox("只看已核实优先权日", key="patent-date-verified")
-    sort_mode = f3.selectbox("结果排序", ["最早优先权（新到旧）", "公开日期（新到旧）", "标题"], key="patent-sort")
+    sort_mode = f3.selectbox("结果排序", ["信息完整度（高到低）", "最早优先权（新到旧）", "公开日期（新到旧）", "标题"], key="patent-sort")
     if text_status == "公开中文原文":
         filtered = [r for r in filtered if r.get("abstract_zh_source") == "专利公开中文原文"]
     elif text_status == "中文译文":
@@ -138,6 +166,7 @@ def render_patent_database() -> None:
     q2.metric("中文译文", sum(r.get("abstract_zh_source") == "基于公开摘要的中文译文" for r in filtered))
     q3.metric("优先权日已核实", sum(_year(r) is not None for r in filtered))
     q4.metric("含首项权利要求", sum(bool(r.get("claim_1")) for r in filtered))
+    st.caption(f"完整度排序按公开页实际字段计算；当前最高分 {max((_completeness_score(r) for r in filtered), default=0)}/11。空字段保持为空，不用推测值替代。")
     if not filtered:
         st.warning("没有匹配记录，请放宽国家、年份、摘要状态或关键词。")
         return
@@ -150,6 +179,7 @@ def render_patent_database() -> None:
     with tabs[1]:
         st.subheader("国家—年份热力图")
         show_chart(_heatmap_figure(filtered, "国家", "国家"), key="patent-country-heatmap")
+        st.caption("浅蓝色表示记录较少，深蓝色表示记录较多；只统计已核实最早优先权年份，未核实日期仍保留在专利记录中。")
         st.subheader("技术类别—年份热力图")
         show_chart(_heatmap_figure(filtered, "技术类别", "技术类别"), key="patent-technology-heatmap")
     with tabs[2]:
