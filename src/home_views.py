@@ -7,6 +7,7 @@ from src.evidence_views import photo_figure, place_catalog
 from src.mosaic_research import load_mosaic
 from src.presentation import page_link
 from src.research_catalog import project_media
+from src.patent_views import load_patents
 
 CASES = {
     "mosaic": ("01 / 科研协作", "MOSAiC：怎样在浮冰上持续观测？", "沿真实航迹对照同期冰情，理解船舶、设备与国际协作怎样共同支撑一次任务。"),
@@ -26,7 +27,8 @@ def _metric_counts():
         vessel = f"{load_mosaic()['manifest']['track_rows']:,}"
     except Exception:
         vessel = "55,793"
-    return [(str(places), "地点档案", "港口、社区与科研节点"), ("129", "月度海冰图", "2016—2026-09"), (vessel, "MOSAiC 船位", "真实公开记录"), ("66", "专利详情", "中文摘要与来源")]
+    patents = len(load_patents().get("records", []))
+    return [(str(places), "地点档案", "港口、社区与科研节点"), ("129", "月度海冰图", "2016—2026-09"), (vessel, "MOSAiC 船位", "真实公开记录"), (f"{patents:,}", "专利详情", "已合并确认数据")]
 
 
 def render_home():
@@ -48,7 +50,7 @@ def render_home():
         with col: st.markdown(f'<div class="home-kpi"><b>{escape(value)}</b><span>{escape(label)}</span><small>{escape(note)}</small></div>', unsafe_allow_html=True)
 
     st.markdown('<div class="home-section-rule"><span>从三个入口开始研究</span></div>', unsafe_allow_html=True)
-    modules = [("01", "海冰与航线", "把 129 张月度海冰影像和 MOSAiC 真实船位放在同一条时间轴上。", "pages/17_海冰与航线.py"), ("02", "案例证据", "从真实项目、设备任务和发布方材料中梳理可核验的作用链。", "pages/11_案例研究.py"), ("03", "专利与地缘", "检索 66 条详情记录，查看国家、技术方向和公开文本。", "pages/16_patents.py")]
+    modules = [("01", "海冰与航线", "把 129 张月度海冰影像和 MOSAiC 真实船位放在同一条时间轴上。", "pages/17_海冰与航线.py"), ("02", "案例证据", "从真实项目、设备任务和发布方材料中梳理可核验的作用链。", "pages/11_案例研究.py"), ("03", "专利与地缘", f"检索 {len(load_patents().get('records', [])):,} 条确认记录，查看国家、技术方向和公开文本。", "pages/16_patents.py")]
     for col, (number, title, body, path) in zip(st.columns(3, gap="large"), modules):
         with col:
             st.markdown(f'<article class="module-card"><small>{escape(number)}</small><h3>{escape(title)}</h3><p>{escape(body)}</p></article>', unsafe_allow_html=True)

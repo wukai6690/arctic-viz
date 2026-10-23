@@ -24,7 +24,9 @@ NOTES = {
 def apply_presentation(page='home'):
     base_css = (ROOT/'src'/'research.css').read_text(encoding='utf-8')
     arctic_css = (ROOT/'src'/'arctic_v2.css').read_text(encoding='utf-8')
-    st.markdown('<style>'+base_css+arctic_css+'</style>',unsafe_allow_html=True)
+    premium_css = (ROOT/'src'/'arctic_v3.css').read_text(encoding='utf-8')
+    st.markdown('<style>'+base_css+arctic_css+premium_css+'</style>',unsafe_allow_html=True)
+    st.markdown(f'<div class="arctic-page arctic-page-{quote(str(page))}"></div>', unsafe_allow_html=True)
     with st.sidebar:
         st.markdown('<div class="research-brand"><span class="brand-mark">◉</span><div><b>北极观察</b><small>ARCTIC RESEARCH · VISUAL EVIDENCE</small></div></div>',unsafe_allow_html=True)
         st.markdown('<div class="sidebar-context">地理大创 · 北极地缘与技术双向互动研究</div>',unsafe_allow_html=True)
