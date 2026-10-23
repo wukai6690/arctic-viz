@@ -197,6 +197,7 @@ def render_patent_database() -> None:
     m1.metric("匹配公开文本", len(filtered))
     m2.metric("覆盖国家", len({_country(r) for r in filtered}))
     m3.metric("技术类别", len({r.get("technology") for r in filtered}))
+    st.markdown(f'<div class="patent-focus"><div><small>PATENT ANALYSIS WORKSPACE</small><b>国家与年份趋势</b><span>看公开文本如何随年份和国家分布</span></div><div><b>热力图</b><span>看国家 × 技术方向的集中区域</span></div><div><b>专利记录</b><span>直接打开公开号、摘要与官方页面</span></div><strong>{len(filtered):,}<em> 条当前结果</em></strong></div>', unsafe_allow_html=True)
     q1, q2, q3, q4, q5, q6 = st.columns(6)
     q1.metric("中文公开原文", sum(r.get("abstract_zh_source") == "专利公开中文原文" for r in filtered))
     q2.metric("中文译文", sum(r.get("abstract_zh_source") == "基于公开摘要的中文译文" for r in filtered))

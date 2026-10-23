@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import base64
+import io
 import json
 import mimetypes
 from pathlib import Path
@@ -10,6 +11,7 @@ from html import escape
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
+from PIL import Image, ImageDraw, ImageFont
 
 from src.mosaic_research import load_mosaic, mosaic_image_uri, track_figure
 from src.presentation import ROOT, section_title, show_chart
@@ -17,11 +19,101 @@ from src.presentation import ROOT, section_title, show_chart
 SEAICE_DIR = ROOT / "static" / "seaice"
 PATENT_PATH = ROOT / "data" / "analysis" / "patents" / "patents.json"
 GDELT_BULK_PATH = ROOT / "data" / "analysis" / "gdelt" / "bulk" / "gdelt_geopolitics_22815.csv"
+GIF_PATH = SEAICE_DIR / "arctic_seaice_monthly.gif"
+
+COUNTRY_FLAGS = {
+    "China": "🇨🇳", "United States": "🇺🇸", "Russia": "🇷🇺", "Canada": "🇨🇦",
+    "Norway": "🇳🇴", "Denmark": "🇩🇰", "Finland": "🇫🇮", "Sweden": "🇸🇪",
+    "Japan": "🇯🇵", "Germany": "🇩🇪", "United Kingdom": "🇬🇧", "France": "🇫🇷",
+    "India": "🇮🇳", "Australia": "🇦🇺", "South Korea": "🇰🇷", "WIPO": "🌐",
+}
+COUNTRY_CENTERS = {
+    "China": (35, 103), "United States": (64, -150), "Russia": (68, 100),
+    "Canada": (66, -105), "Norway": (70, 15), "Denmark": (70, 25),
+    "Finland": (67, 27), "Sweden": (67, 18), "Japan": (68, 145),
+    "Germany": (68, 10), "United Kingdom": (68, -5), "France": (68, 2),
+    "India": (68, 78), "Australia": (68, 135), "South Korea": (68, 128),
+}
 
 
 def _image_uri(path: Path) -> str:
     mime = mimetypes.guess_type(path.name)[0] or "image/png"
     return f"data:{mime};base64,{base64.b64encode(path.read_bytes()).decode('ascii')}"
+
+
+def _country_from_text(value: object) -> str:
+    text = str(value or "").casefold()
+    aliases = {
+        "china": "China", "chn": "China", "中国": "China",
+        "united states": "United States", "usa": "United States", "美国": "United States",
+        "russia": "Russia", "rus": "Russia", "俄罗斯": "Russia",
+        "canada": "Canada", "can": "Canada", "加拿大": "Canada",
+        "norway": "Norway", "nor": "Norway", "挪威": "Norway",
+        "denmark": "Denmark", "dnk": "Denmark", "丹麦": "Denmark",
+        "finland": "Finland", "fin": "Finland", "芬兰": "Finland",
+        "sweden": "Sweden", "swe": "Sweden", "瑞典": "Sweden",
+        "japan": "Japan", "jpn": "Japan", "日本": "Japan",
+        "germany": "Germany", "deu": "Germany", "德国": "Germany",
+        "united kingdom": "United Kingdom", "gbr": "United Kingdom", "英国": "United Kingdom",
+        "france": "France", "fra": "France", "法国": "France",
+        "india": "India", "ind": "India", "印度": "India",
+        "australia": "Australia", "aus": "Australia", "澳大利亚": "Australia",
+        "south korea": "South Korea", "kor": "South Korea", "韩国": "South Korea",
+    }
+    for alias, country in aliases.items():
+        if alias in text:
+            return country
+    return ""
+
+
+def _polar_xy(lat: float, lon: float, size: tuple[int, int]) -> tuple[int, int]:
+    """Approximate NSIDC north-polar-stereographic pixel position.
+
+    It is used as a visual locator for country-level evidence. It is deliberately
+    labelled as a reference position because the source tables do not provide
+    event coordinates for every patent or news candidate.
+    """
+    import math
+    width, height = size
+    cx, cy = width * 0.397, height * 0.519
+    scale = min(width, height) * 1.42
+    radius = scale * math.tan(math.radians(max(0.0, 90.0 - float(lat))) / 2)
+    angle = math.radians(float(lon))
+    x = cx + radius * math.sin(angle)
+    y = cy + radius * math.cos(angle)
+    return int(max(22, min(width - 22, x))), int(max(85, min(height - 70, y)))
+
+
+@st.cache_data(show_spinner=False, max_entries=256)
+def annotated_seaice_image(path_text: str, label: str, country: str, color: str) -> bytes:
+    path = Path(path_text)
+    image = Image.open(path).convert("RGBA")
+    lat, lon = COUNTRY_CENTERS.get(country, (70, 0))
+    x, y = _polar_xy(lat, lon, image.size)
+    draw = ImageDraw.Draw(image, "RGBA")
+    radius = max(14, image.size[0] // 50)
+    draw.ellipse((x - radius, y - radius, x + radius, y + radius), fill=(255, 255, 255, 225), outline=color, width=max(5, radius // 4))
+    draw.ellipse((x - radius // 2, y - radius // 2, x + radius // 2, y + radius // 2), fill=color, outline=(255, 255, 255, 235), width=3)
+    try:
+        font = ImageFont.truetype("msyh.ttc", max(22, image.size[0] // 54))
+    except OSError:
+        font = ImageFont.load_default()
+    clean = label[:28]
+    bbox = draw.textbbox((0, 0), clean, font=font)
+    tw, th = bbox[2] - bbox[0], bbox[3] - bbox[1]
+    tx = min(max(16, x + radius + 12), image.size[0] - tw - 20)
+    ty = max(70, y - th - 18)
+    draw.rounded_rectangle((tx - 9, ty - 6, tx + tw + 9, ty + th + 6), radius=8, fill=(10, 44, 76, 220), outline=(196, 231, 247, 235), width=2)
+    draw.text((tx, ty), clean, fill=(235, 249, 255, 255), font=font)
+    out = io.BytesIO()
+    image.save(out, format="PNG", optimize=True)
+    return out.getvalue()
+
+
+def _gif_uri() -> str:
+    if not GIF_PATH.exists():
+        return ""
+    return "data:image/gif;base64," + base64.b64encode(GIF_PATH.read_bytes()).decode("ascii")
 
 
 @st.cache_data(show_spinner=False)
@@ -92,6 +184,31 @@ def _month_evidence(month: str) -> tuple[pd.DataFrame, pd.DataFrame]:
     p = patents.loc[patents["evidence_month"].eq(month)].copy() if not patents.empty else patents
     g = gdelt.loc[gdelt["evidence_month"].eq(month)].copy() if not gdelt.empty else gdelt
     return p, g
+
+
+def _important_evidence_options(patents: pd.DataFrame, gdelt: pd.DataFrame) -> list[dict]:
+    """Return a compact, high-signal list used by the image annotation control."""
+    options = [{"key": "none", "kind": "overview", "label": "不显示证据标记", "country": "", "color": "#2e97cf"}]
+    if not gdelt.empty:
+        preferred = gdelt.copy()
+        preferred["priority"] = preferred["relation_type"].astype(str).str.contains("material_conflict|material_cooperation", case=False, regex=True).astype(int)
+        preferred = preferred.sort_values(["priority", "date"], ascending=[False, False]).drop_duplicates(subset=["location", "relation_type"]).head(5)
+        for idx, row in preferred.iterrows():
+            country = _country_from_text(f"{row.get('location', '')} {row.get('participants_or_leads', '')} {row.get('title', '')}")
+            country = country or "Canada"
+            flag = COUNTRY_FLAGS.get(country, "🌐")
+            title = str(row.get("title", "未命名地缘事件"))
+            options.append({"key": f"geo-{idx}", "kind": "geo", "label": f"{flag} 地缘 · {title[:42]}", "country": country, "color": "#ef8d5c", "source": row.get("source_url", "")})
+    if not patents.empty:
+        preferred = patents.copy()
+        preferred["priority"] = preferred["technology_display"].astype(str).str.contains("船|冰|航|观测|卫星|通信", regex=True).astype(int)
+        preferred = preferred.sort_values(["priority", "publication_date"], ascending=[False, False]).head(5)
+        for idx, row in preferred.iterrows():
+            country = _country_from_text(row.get("country", "")) or str(row.get("country", ""))
+            flag = COUNTRY_FLAGS.get(country, "🌐")
+            title = str(row.get("title_display", "未命名专利"))
+            options.append({"key": f"patent-{idx}", "kind": "patent", "label": f"{flag} 专利 · {title[:42]}", "country": country, "color": "#2e97cf", "source": row.get("source_url", "")})
+    return options
 
 
 def _evidence_badges(month: str, patents: pd.DataFrame, gdelt: pd.DataFrame) -> None:
@@ -210,6 +327,7 @@ def render_seaice_route(key: str = "seaice-route") -> None:
         else:
             st.info("该日期的同期冰图未随部署包找到。")
     st.caption("航迹是可复核的船位记录，冰图是同日环境背景；两者不直接推导通航风险或船舶性能。")
+    st.markdown('<div class="route-reading-grid"><div><small>ROUTE READING</small><b>航迹记录什么</b><p>路线保留五个已发布航段的真实船位、航行段和随冰漂流段，选定日期会把船位截到对应时刻。</p></div><div><small>ICE CONTEXT</small><b>同期冰情说明什么</b><p>右侧图像提供同日海冰密集度背景，用于描述观测环境，不把单个像素直接解释为船舶风险。</p></div><div><small>RESEARCH LIMIT</small><b>怎样回到证据</b><p>点击日期切换船位和冰图，再从证据包下载原始时间、地图和来源说明。</p></div></div>', unsafe_allow_html=True)
 
 
 def render_seaice_page() -> None:
@@ -219,7 +337,7 @@ def render_seaice_page() -> None:
         st.error("海冰影像索引未找到，请检查 static/seaice/。")
         return
     st.markdown('<div class="ice-hero-note"><b>129 张月度影像 · 2016-01—2026-09</b><span>来源：NSIDC Sea Ice Index v4.0（G02135）。影像是月均合成，不是单日实况；范围与面积保留原始口径。</span></div>', unsafe_allow_html=True)
-    tabs = st.tabs(["海冰时间切片", "航线与同期冰情", "数据口径与下载"])
+    tabs = st.tabs(["月度海冰与证据联动", "MOSAiC 航线与同期冰情", "海冰变化解读"])
     with tabs[0]:
         metric = st.radio("趋势指标", ["extent", "area"], format_func=lambda x: "海冰范围" if x == "extent" else "海冰面积", horizontal=True, key="seaice-metric")
         latest = frame.iloc[-1]
@@ -244,10 +362,25 @@ def render_seaice_page() -> None:
             _evidence_badges(chosen, patents, gdelt)
             path = Path(selected["path"])
             if path.exists():
-                st.image(_image_uri(path), width="stretch")
+                options = _important_evidence_options(patents, gdelt)
+                labels = [item["label"] for item in options]
+                selected_label = st.selectbox("选择月度证据标记", labels, key=f"seaice-evidence-marker-{chosen}")
+                marker = options[labels.index(selected_label)]
+                if marker["kind"] == "overview":
+                    st.image(_image_uri(path), width="stretch")
+                else:
+                    country = marker["country"]
+                    marked = annotated_seaice_image(str(path), f"{COUNTRY_FLAGS.get(country, '🌐')} {country}", country, marker["color"])
+                    st.image(marked, width="stretch")
+                    st.caption("图中标记为国家/地区参考位置；新闻候选与专利记录未提供统一的事件坐标，位置用于定位阅读，不代表事件发生点。")
             else:
                 st.warning("影像文件缺失：" + str(path))
         with right:
+            st.markdown('<div class="subpanel-kicker">129-MONTH MOTION VIEW</div>', unsafe_allow_html=True)
+            gif_uri = _gif_uri()
+            if gif_uri:
+                st.markdown(f'<div class="seaice-gif-frame"><img src="{gif_uri}" alt="2016—2026 月度海冰变化动画"></div>', unsafe_allow_html=True)
+                st.caption("播放 129 张月度海冰密集度图；动画用于观察季节节律和长期收缩背景。")
             st.markdown("**读图提示**")
             st.markdown("深蓝表示开阔水，浅蓝表示低密集度海冰，白色表示高密集度海冰；灰色为陆地。粉色线为产品中的历史中位冰缘。")
             st.metric("海冰范围", f"{selected['extent']:.3f} 百万 km²")
@@ -259,10 +392,7 @@ def render_seaice_page() -> None:
     with tabs[1]:
         render_seaice_route()
     with tabs[2]:
-        st.markdown("#### 资料来源")
-        st.write("影像来自 NSIDC Sea Ice Index, Version 4.0 (G02135), North Monthly Images；分辨率 25 km。2026 年目前整理到 9 月，后续月份未发布。")
-        st.code("https://noaadata.apps.nsidc.org/NOAA/G02135/north/monthly/images/", language=None)
-        st.markdown("#### 口径边界")
-        st.write("影像展示海冰密集度变化，统计表展示范围与面积变化；它们都不能直接转换为某条航线的通航天数、船舶风险或航速。路线图使用 MOSAiC 公开船位记录，另行保留原始时间与数据间断。")
-        st.download_button("下载海冰影像索引", (SEAICE_DIR / "索引.csv").read_bytes(), "arctic-seaice-index.csv", "text/csv", on_click="ignore")
-        st.download_button("下载口径说明", (SEAICE_DIR / "说明.txt").read_bytes(), "arctic-seaice-method.txt", "text/plain", on_click="ignore")
+        st.markdown('<div class="interpretation-grid"><div class="interpretation-card"><small>01 / SEASONAL SIGNAL</small><h3>夏季收缩，冬季扩张</h3><p>月度动画把季节周期放在连续画面中；选定月份的范围和面积保留 NSIDC 原始统计口径。</p></div><div class="interpretation-card"><small>02 / EVIDENCE LINK</small><h3>环境变化与活动线索同月对照</h3><p>专利按公开日归入月份，地缘候选按事件日期归入月份，点击标记后回到来源记录。</p></div><div class="interpretation-card"><small>03 / RESEARCH BOUNDARY</small><h3>影像不是通航风险结论</h3><p>海冰密集度、船位和新闻候选是三类独立证据；页面把它们并置，避免把环境背景直接换算成航行能力。</p></div></div>', unsafe_allow_html=True)
+        st.markdown("#### 数据出处")
+        st.caption("NSIDC Sea Ice Index v4.0（G02135）北极月度影像，25 km；2016-01—2026-09 共 129 张。")
+        st.link_button("打开 NSIDC 产品页面", "https://nsidc.org/data/g02135/versions/4", use_container_width=False)

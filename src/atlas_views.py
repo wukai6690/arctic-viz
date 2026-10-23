@@ -13,6 +13,7 @@ from src.source_library import source_button,source_href
 from src.place_profiles import render_profile,photo_topic,place_articles
 
 COLORS={'港口与航道':'#508491','科研观测':'#5b8266','空间设施':'#897aa1','城市与聚落':'#ab8861','自然区域':'#809584','关联产业':'#a96b5f'}
+PLACE_FLAGS={'nyalesund':'🇳🇴','longyearbyen':'🇳🇴','narvik':'🇳🇴','greenland':'🇬🇱','nuuk':'🇬🇱','kullorsuaq':'🇬🇱','pituffik':'🇺🇸','cambridgebay':'🇨🇦','churchill':'🇨🇦','bering':'🇺🇸','kola':'🇷🇺','rauma':'🇫🇮','kiruna':'🇸🇪'}
 THEMES={
     '全部地点': {'projects':None,'note':'点击地名，阅读地点、实景与相关项目。'},
     '科研协作': {'projects':['xuelong2','mosaic','awipev','chars'],'note':'从科考船建造、出航港口与研究设施，查看已整理科研项目的地理联系。'},
@@ -164,7 +165,8 @@ def render_atlas():
         for p in ordered:
             color=COLORS[place_category(p)];selected=p['id']==selection;size=18 if selected else 12
             html=f'<span class="atlas-dot" style="display:block;width:{size}px;height:{size}px;background:{color};border:2px solid white;border-radius:50%;box-shadow:0 0 0 {3 if selected else 1}px {color}55"></span>'
-            marker=folium.Marker(position(p),title=p['name'],icon=folium.DivIcon(html=html,icon_size=(size,size),icon_anchor=(size/2,size/2)),tooltip=folium.Tooltip(escape(p['name']),permanent=True,direction='top',offset=(0,-10)))
+            flag=PLACE_FLAGS.get(p['id'],'🌐')
+            marker=folium.Marker(position(p),title=p['name'],icon=folium.DivIcon(html=html,icon_size=(size,size),icon_anchor=(size/2,size/2)),tooltip=folium.Tooltip(escape(flag+' '+p['name']),permanent=True,direction='top',offset=(0,-10)))
             marker.add_to(m);markers.append(marker)
         map_label_layout(m,markers)
         finish_local_map(m)
@@ -193,7 +195,7 @@ def render_atlas():
                 if st.button('阅读专题 · '+project['title'],key='map-project-'+project['id'],width='stretch'):open_project(project['id'])
         else:st.caption('该地点当前作为地理背景；尚未建立可核验的项目关联。')
     st.divider()
-    intro_tab,photos_tab,history_tab,evidence_tab,globe_tab=st.tabs(['认识这个地点','地点图集','时点影像','资料与事件','球面视图'])
+    intro_tab,photos_tab,history_tab,evidence_tab=st.tabs(['认识这个地点','地点图集','时点影像','资料与事件'])
     with intro_tab:render_profile(place)
     with history_tab:
         from src.research_extensions import render_place_history
@@ -229,12 +231,6 @@ def render_atlas():
             st.caption(f'{len(events)} 条机器记录，尚待原文核验。')
             for n,url in enumerate(dict.fromkeys(e['source_url'] for e in events if e.get('source_url')),1):source_button(url,f'查看报道记录 {n}',key='atlas-event-'+str(n))
         else:st.caption('当前采集窗口内没有已配对的报道，不代表这里没有发生相关活动。')
-    with globe_tab:
-        import plotly.graph_objects as go
-        fig=go.Figure(go.Scattergeo(lat=[p['latitude'] for p in filtered],lon=[p['longitude'] for p in filtered],text=[p['name'] for p in filtered],mode='markers',marker=dict(size=7,color=[COLORS[place_category(p)] for p in filtered]),hovertemplate='%{text}<extra></extra>'))
-        fig.update_layout(height=550,margin=dict(l=0,r=0,t=5,b=0),geo=dict(projection=dict(type='orthographic',rotation=dict(lat=65,lon=-20)),showland=True,showocean=True,showcountries=True))
-        show_chart(fig,key='atlas-globe')
-        st.caption('球面视图可拖动旋转。地点选择、图集与来源请使用上方地图及地点菜单。')
 
 def prepare_map_click():
     selected=st.session_state.pop('_atlas_click_pending',None)

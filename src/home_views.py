@@ -3,23 +3,11 @@ from html import escape
 
 import streamlit as st
 
-from src.evidence_views import photo_figure, place_catalog
+from src.evidence_views import photo_figure, place_catalog, photo_path, local_image_uri
 from src.mosaic_research import load_mosaic
 from src.presentation import page_link
 from src.research_catalog import project_media
 from src.patent_views import load_patents
-
-CASES = {
-    "mosaic": ("01 / 科研协作", "MOSAiC：怎样在浮冰上持续观测？", "沿真实航迹对照同期冰情，理解船舶、设备与国际协作怎样共同支撑一次任务。"),
-    "asbm": ("02 / 高纬通信", "ASBM：需求怎样进入技术设计？", "按立项、发射、交付组织证据，区分覆盖设计与实际服务表现。"),
-    "yamal": ("03 / 能源运输", "亚马尔：一艘船的航行说明什么？", "追踪东向运输与港口条件，区分航行事实、净航行时间和全年通航能力。"),
-}
-
-
-def open_case(case):
-    st.session_state["_case_pending"] = case
-    st.switch_page("pages/11_案例研究.py")
-
 
 def _metric_counts():
     places = len(place_catalog()["places"])
@@ -39,7 +27,7 @@ def render_home():
         st.markdown('<div class="home-hero-copy"><div class="eyebrow">ARCTIC RESEARCH · EVIDENCE PLATFORM</div><h1>技术如何改变北极活动，<br>又如何受到地缘关系影响？</h1><p>以科考、通信、海冰与能源运输为切口，把环境观测、真实项目、专利和政策材料放到同一条可追溯证据链中。</p><div class="hero-actions"><span class="hero-chip">真实观测</span><span class="hero-chip">来源可追溯</span><span class="hero-chip">研究边界清晰</span></div></div>', unsafe_allow_html=True)
         a, b = st.columns(2)
         with a: page_link("pages/17_海冰与航线.py", label="查看海冰与航线", use_container_width=True)
-        with b: page_link("pages/11_案例研究.py", label="阅读三个案例", use_container_width=True)
+        with b: page_link("pages/16_patents.py", label="进入专利数据库", use_container_width=True)
     with right:
         st.markdown('<div class="hero-image-frame"><div class="hero-image-label">MOSAiC · 北极海冰观测</div></div>', unsafe_allow_html=True)
         if photos: photo_figure(photos[0])
@@ -49,18 +37,28 @@ def render_home():
     for col, (value, label, note) in zip(st.columns(4, gap="medium"), _metric_counts()):
         with col: st.markdown(f'<div class="home-kpi"><b>{escape(value)}</b><span>{escape(label)}</span><small>{escape(note)}</small></div>', unsafe_allow_html=True)
 
-    st.markdown('<div class="home-section-rule"><span>从三个入口开始研究</span></div>', unsafe_allow_html=True)
-    modules = [("01", "海冰与航线", "把 129 张月度海冰影像和 MOSAiC 真实船位放在同一条时间轴上。", "pages/17_海冰与航线.py"), ("02", "案例证据", "从真实项目、设备任务和发布方材料中梳理可核验的作用链。", "pages/11_案例研究.py"), ("03", "专利与地缘", f"检索 {len(load_patents().get('records', [])):,} 条确认记录，查看国家、技术方向和公开文本。", "pages/16_patents.py")]
-    for col, (number, title, body, path) in zip(st.columns(3, gap="large"), modules):
-        with col:
-            st.markdown(f'<article class="module-card"><small>{escape(number)}</small><h3>{escape(title)}</h3><p>{escape(body)}</p></article>', unsafe_allow_html=True)
-            page_link(path, label="进入模块 →", use_container_width=True)
-
-    st.markdown('<div class="home-section-rule"><span>三个案例，三种观察角度</span></div>', unsafe_allow_html=True)
-    for col, (cid, (kicker, title, desc)) in zip(st.columns(3, gap="large"), CASES.items()):
-        with col:
-            st.markdown(f'<article class="case-card"><small>{escape(kicker)}</small><h3>{escape(title)}</h3><p>{escape(desc)}</p></article>', unsafe_allow_html=True)
-            if st.button("进入案例", key="home-case-" + cid, use_container_width=True): open_case(cid)
+    st.markdown('<div class="home-section-rule"><span>研究总览 · 进入核心板块</span></div>', unsafe_allow_html=True)
+    project_media_map = project_media()
+    places = {place["id"]: place for place in place_catalog()["places"]}
+    map_photo = places.get("nyalesund", {}).get("photos", [{}])[0]
+    overview = [
+        ("01", "北极地图", "科考站、港口、卫星设施与沿岸节点", "🇳🇴 挪威  ·  🇨🇦 加拿大  ·  🇬🇱 格陵兰", "pages/1_北极全景地图.py", map_photo),
+        ("02", "海冰与航线", "月度海冰变化、MOSAiC 航迹与同期环境", "🇩🇪 德国  ·  🇳🇴 挪威  ·  北冰洋", "pages/17_海冰与航线.py", project_media_map.get("mosaic", [{}])[0]),
+        ("03", "动态关系网络", "按月度样本窗口观察北极国家互动结构", "🇺🇸 美国  ·  🇨🇳 中国  ·  🇷🇺 俄罗斯", "pages/14_动态关系网络.py", project_media_map.get("asbm", [{}])[0]),
+        ("04", "事件检索", "从新闻候选记录回到来源网页和事件字段", "🌐 GDELT  ·  2015—2025 样本窗口", "pages/15_事件检索.py", project_media_map.get("yamal", [{}])[0]),
+        ("05", "专利数据库", "937 条确认专利的国家、技术和公开文本", "🇨🇳 中国  ·  🇺🇸 美国  ·  🇷🇺 俄罗斯", "pages/16_patents.py", project_media_map.get("chars", [{}])[0]),
+    ]
+    for offset in range(0, len(overview), 3):
+        cols = st.columns(3, gap="large")
+        for col, (number, title, body, flags, path, photo) in zip(cols, overview[offset:offset + 3]):
+            with col:
+                image_html = ""
+                if photo and photo.get("src"):
+                    image_path = photo_path(photo)
+                    if image_path.exists():
+                        image_html = f'<div class="overview-card-media"><img src="{local_image_uri(image_path)}" alt="{escape(title)}"></div>'
+                st.markdown(f'<article class="overview-card"><div class="overview-card-tag">{escape(number)} / ARCTIC MODULE</div>{image_html}<div class="overview-card-copy"><h3>{escape(title)}</h3><p>{escape(body)}</p><small>{escape(flags)}</small></div></article>', unsafe_allow_html=True)
+                page_link(path, label="进入板块 →", use_container_width=True)
 
     st.markdown('<div class="home-section-rule"><span>目前形成的认识</span></div>', unsafe_allow_html=True)
     left, right = st.columns([1.25, 0.75], gap="large")

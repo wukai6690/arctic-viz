@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 ROOT = Path(__file__).resolve().parents[1]
 PAGES = [
     ('研究总览','app.py'),('北极地图','pages/1_北极全景地图.py'),
-    ('海冰与航线','pages/17_海冰与航线.py'),('案例证据','pages/11_案例研究.py'),
+    ('海冰与航线','pages/17_海冰与航线.py'),
     ('动态关系网络','pages/14_动态关系网络.py'),('事件检索','pages/15_事件检索.py'),('专利数据库','pages/16_patents.py'),
     ('数据与方法','pages/6_数据中心工具.py'),
 ]
@@ -32,14 +32,6 @@ def apply_presentation(page='home'):
         st.markdown('<div class="sidebar-context">地理大创 · 北极地缘与技术双向互动研究</div>',unsafe_allow_html=True)
         for label,path in PAGES:
             page_link(path,label=label,use_container_width=True)
-        with st.expander('观测与研究资料',expanded=True):
-            page_link('pages/9_实景图集.py',label='实景图集')
-            page_link('pages/8_区域联动研究.py',label='区域联动')
-            page_link('pages/4_极地核心技术.py',label='技术与地缘')
-            page_link('pages/10_站内资料.py',label='站内资料')
-            page_link('pages/2_气候时空监测.py',label='海冰观测（趋势）')
-            page_link('pages/3_地缘战略格局.py',label='事件线索')
-            page_link('pages/7_关于本项目.py',label='关于研究')
         from src.study_scope import sidebar_scope
         sidebar_scope()
         st.markdown('<div class="sidebar-foot">地点 · 项目 · 证据<br>每一条研究联系，都可以回到来源。</div>',unsafe_allow_html=True)

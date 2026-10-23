@@ -28,6 +28,10 @@ COUNTRY_LABELS = {
     "SWE": "瑞典",
     "ISL": "冰岛",
 }
+COUNTRY_FLAGS = {
+    "CHN": "🇨🇳", "USA": "🇺🇸", "RUS": "🇷🇺", "CAN": "🇨🇦", "NOR": "🇳🇴",
+    "DNK": "🇩🇰", "FIN": "🇫🇮", "SWE": "🇸🇪", "ISL": "🇮🇸",
+}
 
 # CAMEO root event categories. The application keeps the code visible so that
 # a search can be traced back to the GDELT codebook and to the evidence rows.
@@ -166,7 +170,7 @@ def _positions(countries: list[dict], nodes: list[dict] | None = None) -> dict[s
     figure rather than a force-directed animation.
     """
     codes = [c["code"] for c in countries]
-    core = [code for code in ("USA", "CHN", "RUS") if code in codes]
+    core = [code for code in ("USA", "RUS", "CHN") if code in codes]
     semiperiphery = [code for code in ("CAN", "NOR", "DNK") if code in codes and code not in core]
     outer = [code for code in codes if code not in core and code not in semiperiphery]
     positions: dict[str, tuple[float, float]] = {}
@@ -183,8 +187,8 @@ def _positions(countries: list[dict], nodes: list[dict] | None = None) -> dict[s
 def _edge_color(edge: dict) -> str:
     value = edge.get("goldstein_mean")
     if value is None or abs(value) < 0.8:
-        return "#82968b"
-    return "#4c8b73" if value > 0 else "#bd665d"
+        return "#b8cbd9"
+    return "#3b99cf" if value > 0 else "#e07b72"
 
 
 def network_figure(window: dict, countries: list[dict], min_events: int = 1) -> go.Figure:
@@ -204,29 +208,29 @@ def network_figure(window: dict, countries: list[dict], min_events: int = 1) -> 
     country_by_code = {c["code"]: c for c in countries}
     nodes = window["nodes"]
     max_degree = max((n["event_degree"] for n in nodes), default=1)
-    group_colors = {"USA": "#c95f5a", "CHN": "#c95f5a", "RUS": "#c95f5a",
-                    "CAN": "#4f9b61", "NOR": "#4f9b61", "DNK": "#4f9b61"}
+    group_colors = {"USA": "#2468a6", "CHN": "#2468a6", "RUS": "#2468a6",
+                    "CAN": "#48a3c6", "NOR": "#48a3c6", "DNK": "#48a3c6"}
     node_trace = go.Scatter(
         x=[positions[n["code"]][0] for n in nodes], y=[positions[n["code"]][1] for n in nodes],
-        mode="markers+text", text=[country_by_code[n["code"]]["name"] for n in nodes], textposition="top center",
-        textfont={"size": 13, "color": "#294b42"},
+        mode="markers+text", text=[f"{COUNTRY_FLAGS.get(n['code'], '•')} {country_by_code[n['code']]['name']}" for n in nodes], textposition="top center",
+        textfont={"size": 13, "color": "#173f63"},
         marker={"size": [19 + 34 * math.sqrt(n["event_degree"] / max_degree) if max_degree else 19 for n in nodes],
-                "color": [group_colors.get(n["code"], "#7773a8") for n in nodes], "line": {"width": 1.5, "color": "#ffffff"},
+                "color": [group_colors.get(n["code"], "#aacddd") for n in nodes], "line": {"width": 1.5, "color": "#ffffff"},
                 "opacity": 0.88},
         customdata=[[n["code"], n["event_degree"], n["article_degree"]] for n in nodes],
         hovertemplate="%{text} (%{customdata[0]})<br>事件度数：%{customdata[1]:,}<br>关联新闻文章：%{customdata[2]:,}<extra></extra>",
         name="国家节点",
     )
     legend_traces = [
-        go.Scatter(x=[None], y=[None], mode="markers", marker={"size": 12, "color": "#c95f5a"}, name="核心国家"),
-        go.Scatter(x=[None], y=[None], mode="markers", marker={"size": 12, "color": "#4f9b61"}, name="半边缘国家"),
-        go.Scatter(x=[None], y=[None], mode="markers", marker={"size": 12, "color": "#7773a8"}, name="边缘登记节点"),
+        go.Scatter(x=[None], y=[None], mode="markers", marker={"size": 12, "color": "#2468a6"}, name="核心国家"),
+        go.Scatter(x=[None], y=[None], mode="markers", marker={"size": 12, "color": "#48a3c6"}, name="半边缘国家"),
+        go.Scatter(x=[None], y=[None], mode="markers", marker={"size": 12, "color": "#aacddd"}, name="边缘登记节点"),
     ]
     fig = go.Figure(edge_traces + [node_trace] + legend_traces)
     fig.update_layout(height=620, margin={"l": 35, "r": 35, "t": 25, "b": 45}, showlegend=True,
                       legend={"orientation": "h", "y": -0.02, "x": 0.5, "xanchor": "center", "font": {"size": 12}},
                       xaxis={"visible": False, "range": [-1.25, 1.25]}, yaxis={"visible": False, "range": [-1.25, 1.25]},
-                      plot_bgcolor="#ffffff", paper_bgcolor="#ffffff", hovermode="closest")
+                      plot_bgcolor="#f8fcff", paper_bgcolor="#ffffff", hovermode="closest")
     return fig
 
 
@@ -255,6 +259,36 @@ def _search_result_window(data: dict, events: list[dict]) -> dict:
         "source": {"dataset": "GDELT 1.0 / 2.0 准备样本"},
         "sample_note": "由页面检索条件从已整理的事件样本中过滤得到。",
     }
+
+
+def monthly_windows(data: dict) -> list[dict]:
+    """Build comparable month windows from the dated, de-duplicated event rows.
+
+    The bundled network sample contains four dated September windows. Keeping the
+    month in the label makes that coverage visible instead of implying annual data.
+    """
+    grouped: dict[str, list[dict]] = defaultdict(list)
+    for event in all_events(data):
+        month = str(event.get("date", ""))[:7]
+        if len(month) == 7 and month[4] == "-":
+            grouped[month].append(event)
+    windows = []
+    for month in sorted(grouped):
+        rows = grouped[month]
+        edges, nodes = aggregate_events(rows, data["countries"])
+        windows.append({
+            "id": "month-" + month,
+            "label": month + " 月度样本",
+            "year": int(month[:4]),
+            "date_start": min(e.get("date", "") for e in rows),
+            "date_end": max(e.get("date", "") for e in rows),
+            "events": rows,
+            "edges": edges,
+            "nodes": nodes,
+            "source": {"dataset": "GDELT 已整理月度样本"},
+            "sample_note": "当前为该月已整理日期窗口，不代表完整月份活动量。",
+        })
+    return windows
 
 
 @st.cache_data(ttl=86400, show_spinner=False)
@@ -354,11 +388,26 @@ def render_search_panel(data: dict, countries: list[dict], key: str) -> dict | N
         return filtered
 
 
+@st.dialog("来源网页正文", width="large")
+def show_article_dialog(article: dict, event: dict) -> None:
+    """Display fetched source text in a compact modal instead of a page-length block."""
+    st.caption(f"{event.get('date', '')} · {event.get('location', '')} · {event_type_label(event)}")
+    if article.get("status") == "ok":
+        st.subheader(article.get("title") or "网页正文")
+        st.caption("正文由来源网页即时读取，用于辅助核对；事件字段和原文链接仍是记录依据。")
+        st.text_area("正文", article.get("text", ""), height=430, label_visibility="collapsed")
+    elif article.get("status") == "no_text":
+        st.warning("网页可访问，但没有提取到足够正文。请使用下方原文链接查看页面。")
+    else:
+        st.warning("网页暂时无法读取。请使用下方原文链接直接查看。")
+    if event.get("source_url"):
+        st.link_button("打开原文", event["source_url"], use_container_width=True)
+
+
 def render_search_results(result: dict, countries: list[dict], key: str) -> None:
-    """Show the network and evidence table produced by the standalone search."""
-    st.subheader("检索结果网络")
-    st.caption("这是当前条件对应的子网络。节点和边都来自筛选后的事件记录，下面保留可回查的事件字段。")
-    show_chart(network_figure(result, countries), key=key + "-graph", config={"displayModeBar": True})
+    """Show compact search results with source reading in a modal."""
+    st.subheader("事件检索结果")
+    st.caption("结果保留日期、行为体、地点、事件类型和原文链接；选择一条记录后，可在弹窗中读取网页正文。")
     rows = [{
         "日期": e.get("date", ""),
         "事件类型": event_type_label(e),
@@ -373,7 +422,7 @@ def render_search_results(result: dict, countries: list[dict], key: str) -> None
         rows,
         hide_index=True,
         width="stretch",
-        height=420,
+        height=360,
         column_config={"来源": st.column_config.LinkColumn("相关链接", display_text="打开原文")},
     )
     choices = result["events"][:300]
@@ -389,25 +438,13 @@ def render_search_results(result: dict, countries: list[dict], key: str) -> None
         left.link_button("打开相关原文链接", url, use_container_width=True)
     else:
         left.caption("这条事件没有可用的原文 URL。")
-    read_key = key + "-read-article"
-    if right.button("检索网页正文", key=read_key, use_container_width=True):
-        st.session_state[key + "-article"] = fetch_web_article(url)
-    article = st.session_state.get(key + "-article")
-    if article:
-        if article.get("status") == "ok":
-            st.markdown(f"#### {article['title']}")
-            st.caption("正文由来源网页即时读取，仅用于辅助核对；原文链接和事件字段仍是本条记录的依据。")
-            with st.container(height=430, border=True):
-                st.write(article["text"])
-        elif article.get("status") == "no_text":
-            st.warning("网页可访问，但未提取到足够的正文。请使用上方原文链接查看页面。")
-        else:
-            st.warning("网页暂时无法读取，已保留原文链接。请稍后重试或直接打开原文。")
+    if right.button("检索网页正文", key=key + "-read-article", use_container_width=True, disabled=not bool(url)):
+        show_article_dialog(fetch_web_article(url), selected)
 
 
 def render_search_page() -> None:
     data = load_network()
-    section_title("事件检索", "按条件查找北极国家互动记录", "日期、国家角色和 CAMEO 事件类型先筛选记录，再生成国家关系网络。这里是独立检索功能，不和时间切片页面混在一起。")
+    section_title("EVENT SEARCH", "按条件查找北极国家互动记录", "日期、国家角色和 CAMEO 事件类型先筛选事件，再回到来源网页核对。")
     result = render_search_panel(data, data["countries"], "event-search")
     if result is not None:
         render_search_results(result, data["countries"], "event-search-result")
@@ -416,25 +453,18 @@ def render_search_page() -> None:
 def render_network(key: str = "network") -> None:
     data = load_network()
     countries = data["countries"]
-    labels = [w["label"] for w in data["windows"]]
-    by_label = {w["label"]: w for w in data["windows"]}
-    section_title("时间切片 · 社会网络分析", "北极国家地缘事件网络", "固定节点位置，对照不同时间窗口的核心—半边缘—边缘结构，再回到事件证据。")
-    st.info("网络边表示选定 GDELT 日档/窗口内的机器编码事件聚合。线条更粗表示新闻文章记录更多；颜色表示 Goldstein 均值的合作或冲突倾向。它是新闻感知网络，不是外交关系强度或因果结论。")
-    st.caption("需要按日期、国家和事件类型筛选时，请从左侧打开“事件检索”。")
-    a, b, c = st.columns([1.4, 1, 1])
+    windows = monthly_windows(data)
+    labels = [w["label"] for w in windows]
+    by_label = {w["label"]: w for w in windows}
+    section_title("MONTHLY NETWORK WINDOWS", "北极国家地缘事件网络", "用月度样本窗口比较核心国家、半边缘国家和边缘节点，再回到关系与新闻证据。")
+    st.info("线条宽度表示该月新闻文章记录量，蓝色偏合作，橙红色偏冲突，浅灰色接近中性。网络是 GDELT 新闻感知层，不直接等同于外交关系强度。")
+    st.caption("当前已整理样本覆盖的月份会明确显示在选择器中；没有把单日样本扩写成完整月份统计。")
+    a, b = st.columns([1.4, 1])
     frame_key = key + "-frame"
     current = st.session_state.get(frame_key, labels[min(1, len(labels) - 1)])
     min_events = b.selectbox("最少事件数", [1, 2, 5, 10], index=0, key=key + "-min")
-    auto = c.checkbox("自动播放时间切片", value=False, key=key + "-auto", help="每秒推进一个已准备好的时间切片。")
-    if auto:
-        from streamlit_autorefresh import st_autorefresh
-        ticks = st_autorefresh(interval=1000, key=key + "-autorefresh")
-        current = labels[(int(ticks) + 1) % len(labels)]
-        st.session_state[frame_key] = current
-        st.caption("自动播放只在已整理的样本窗口之间切换；不会在浏览器端重新抓取新闻。")
-    choice = a.selectbox("网络时间切片", labels, index=labels.index(current) if current in labels else 0)
-    if not auto:
-        st.session_state[frame_key] = choice
+    choice = a.selectbox("月度网络窗口", labels, index=labels.index(current) if current in labels else 0, key=key + "-choice")
+    st.session_state[frame_key] = choice
     window = by_label[choice]
     m1, m2, m3, m4 = st.columns(4)
     date_label = window["date_start"] if window["date_end"] == window["date_start"] else f"{window['date_start']}—{window['date_end'][-2:]}"
@@ -442,29 +472,24 @@ def render_network(key: str = "network") -> None:
     m2.metric("事件记录", f"{len(window['events']):,}")
     m3.metric("国家对", f"{len(window['edges']):,}")
     m4.metric("数据来源", window["source"]["dataset"])
-    tabs = st.tabs(["关系网络", "多时间片对照", "时间演变", "关系明细与新闻证据", "方法与边界"])
+    tabs = st.tabs(["关系网络", "月度窗口对照", "关系与新闻证据", "方法与边界"])
     with tabs[0]:
-        st.caption("节点位置固定，便于比较不同时间切片；节点大小按事件度数缩放。红边为负向 Goldstein 均值，绿边为正向，灰边接近中性。颜色分组沿用核心—半边缘—边缘的比较框架。")
+        st.caption("节点位置固定，节点大小按事件度数缩放；旗帜和国家名只用于识别节点，悬停可查看事件数、文章数和 Goldstein 均值。")
         show_chart(network_figure(window, countries, min_events), key=key + "-graph", config={"displayModeBar": True})
-        st.caption("节点颜色：红色为核心国家，绿色为半边缘国家，紫色为边缘登记节点。点击或悬停查看事件数、文章数和均值。")
+        st.caption("节点颜色：深蓝为核心国家，青色为半边缘国家，浅蓝为边缘登记节点；边颜色用于表达机器编码倾向。")
     with tabs[1]:
-        st.subheader("不同时间窗口的网络结构")
-        st.caption("固定同一组国家位置，把四个已整理窗口并排放在一起；节点大小、边宽和颜色随窗口变化。它对应论文中多面板网络图的读法。")
-        for offset in range(0, len(data["windows"]), 2):
+        st.subheader("月度窗口的网络结构")
+        st.caption("每个面板对应一个已整理的年月窗口；同一国家位置保持不变，方便观察节点和边的变化。")
+        for offset in range(0, len(windows), 2):
             cols = st.columns(2, gap="large")
-            for col, panel in zip(cols, data["windows"][offset:offset + 2]):
+            for col, panel in zip(cols, windows[offset:offset + 2]):
                 with col:
                     st.markdown(f"**{panel['label']}**")
                     panel_fig = network_figure(panel, countries, min_events)
                     panel_fig.update_layout(height=430, margin={"l": 15, "r": 15, "t": 10, "b": 40}, legend={"orientation": "h", "y": -0.06, "font": {"size": 10}})
                     show_chart(panel_fig, key=key + "-panel-" + panel["id"], config={"displayModeBar": False})
-        st.dataframe([{ "时间切片": w["label"], "事件记录": len(w["events"]), "国家对": len(w["edges"]), "网络密度": round(len(w["edges"]) / 36, 3), "样本说明": w["sample_note"] } for w in data["windows"]], hide_index=True, width="stretch")
+        st.dataframe([{ "月份": w["label"], "事件记录": len(w["events"]), "国家对": len(w["edges"]), "网络密度": round(len(w["edges"]) / 36, 3), "样本说明": w["sample_note"] } for w in windows], hide_index=True, width="stretch")
     with tabs[2]:
-        st.subheader("样本窗口之间的变化")
-        show_chart(trend_figure(data), key=key + "-trend")
-        st.caption("当前数据是 2015、2019、2020、2025 的选定日档/短窗口，曲线用于展示网络构建方法，不应解释为完整年度趋势。")
-        st.dataframe([{ "时间切片": w["label"], "事件记录": len(w["events"]), "国家对": len(w["edges"]), "窗口说明": w["sample_note"] } for w in data["windows"]], hide_index=True, width="stretch")
-    with tabs[3]:
         options = {f"{e['source']} ↔ {e['target']} · {e['event_count']} 条事件": e for e in window["edges"] if e["event_count"] >= min_events}
         if not options:
             st.warning("当前阈值下没有国家对，请降低最少事件数。")
@@ -487,11 +512,11 @@ def render_network(key: str = "network") -> None:
             for i, row in enumerate(rows[:6]):
                 if row["来源"].startswith(("http://", "https://")):
                     source_button(row["来源"], f"站内查看来源 {i + 1}", key=key + "-source-" + str(i))
-    with tabs[4]:
-        st.markdown("#### 当前样本如何生成")
+    with tabs[3]:
+        st.markdown("#### 当前样本如何生成与使用边界")
         st.write(data["scope"])
         st.write("边的宽度使用事件涉及的新闻文章数；节点大小使用事件度数；颜色使用 QuadClass 合作/冲突与 Goldstein 均值。原始事件保留日期、参与者、事件编码、地点和来源链接。")
-        st.markdown("#### 数据来源与下载")
+        st.markdown("#### 数据来源")
         st.download_button("下载当前网络数据 · JSON", json.dumps({"metadata": data, "window": window}, ensure_ascii=False, indent=2), "gdelt-arctic-network-current.json", "application/json", key=key + "-download", on_click="ignore")
         for citation in data["citations"]:
             st.markdown(f"- [{citation['title']}]({citation['url']})")

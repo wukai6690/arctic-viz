@@ -115,33 +115,33 @@ def track_figure(day):
     for first,segment in enumerate(segments):
         rows=[row for row in route if row['segment']==segment]
         figure.add_trace(go.Scattergeo(lat=[r['latitude'] for r in rows],lon=[r['longitude'] for r in rows],
-                         mode='lines',line=dict(width=1.4,color='#b9c6c0'),name='全航次参考',
+                         mode='lines',line=dict(width=1.2,color='#a8cfe4'),name='全航次参考',
                          legendgroup='whole',showlegend=first==0,hoverinfo='skip'))
         past=[r for r in rows if r['timestamp']<=cutoff]
         if position['segment']==segment and (not past or past[-1]['timestamp']!=cutoff):
             past.append(position)
         figure.add_trace(go.Scattergeo(lat=[r['latitude'] for r in past],lon=[r['longitude'] for r in past],
-                         mode='lines',line=dict(width=2.5,color='#326d59'),name='截至所选时刻',
+                         mode='lines',line=dict(width=3.2,color='#145c8a'),name='截至所选时刻',
                          legendgroup='past',showlegend=first==0,
                          text=[r['timestamp'].replace('T',' ')+' UTC' for r in past],
                          hovertemplate='%{text}<br>%{lat:.4f}° N · %{lon:.4f}°<extra></extra>'))
     figure.add_trace(go.Scattergeo(lat=[69.6517,90,78.658077],lon=[18.9556,0,0.613282],
                      mode='markers+text',text=['特罗姆瑟','北极点','弗拉姆海峡'],
                      textposition=['bottom right','top center','middle left'],
-                     marker=dict(size=4,color='#657b70'),textfont=dict(size=12),
+                     marker=dict(size=5,color='#5a8db0'),textfont=dict(size=12),
                      name='地理参照',showlegend=False,
                      hovertemplate='%{text}<br>地名参考位置，不是船位或海区边界<extra></extra>'))
     figure.add_trace(go.Scattergeo(lat=[position['latitude']],lon=[position['longitude']],mode='markers',
-                     marker=dict(size=11,color='#b16a34',line=dict(color='white',width=2)),name='所选真实船位',
+                     marker=dict(size=13,color='#e86f4d',line=dict(color='white',width=2.5)),name='所选真实船位',
                      text=[position['timestamp'].replace('T',' ')+' UTC'],
                      hovertemplate='%{text}<br>%{lat:.4f}° N · %{lon:.4f}°<extra></extra>'))
     figure.update_layout(height=520,margin=dict(l=0,r=0,t=10,b=65),
                          legend=dict(orientation='h',y=-0.025,yanchor='top',x=0,font=dict(size=11)),
-                         geo=dict(projection=dict(type='orthographic',rotation=dict(lat=90,lon=0),scale=1.3),
+                         geo=dict(projection=dict(type='stereographic',rotation=dict(lat=90,lon=0),scale=1.22),
                                   center=dict(lat=90,lon=0),
                                   lataxis=dict(showgrid=True,dtick=10),
                                   lonaxis=dict(showgrid=True,dtick=45),
-                                  showland=True,showocean=True,showcountries=True,showframe=False))
+                                  showland=True,landcolor='#f8fcff',oceancolor='#dff1fc',showocean=True,showcountries=True,countrycolor='#b8d8e8',showframe=False))
     return figure
 
 
