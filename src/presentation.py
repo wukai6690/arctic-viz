@@ -8,7 +8,8 @@ import plotly.graph_objects as go
 ROOT = Path(__file__).resolve().parents[1]
 PAGES = [
     ('研究总览','app.py'),('北极地图','pages/1_北极全景地图.py'),
-    ('案例证据','pages/11_案例研究.py'),('动态关系网络','pages/14_动态关系网络.py'),('事件检索','pages/15_事件检索.py'),('专利数据库','pages/16_patents.py'),
+    ('海冰与航线','pages/17_海冰与航线.py'),('案例证据','pages/11_案例研究.py'),
+    ('动态关系网络','pages/14_动态关系网络.py'),('事件检索','pages/15_事件检索.py'),('专利数据库','pages/16_patents.py'),
     ('数据与方法','pages/6_数据中心工具.py'),
 ]
 NOTES = {
@@ -21,10 +22,12 @@ NOTES = {
 }
 
 def apply_presentation(page='home'):
-    st.markdown('<style>'+ (ROOT/'src'/'research.css').read_text(encoding='utf-8')+'</style>',unsafe_allow_html=True)
+    base_css = (ROOT/'src'/'research.css').read_text(encoding='utf-8')
+    arctic_css = (ROOT/'src'/'arctic_v2.css').read_text(encoding='utf-8')
+    st.markdown('<style>'+base_css+arctic_css+'</style>',unsafe_allow_html=True)
     with st.sidebar:
-        st.markdown('<div class="research-brand"><span>◎</span><div>北极观察<small>ARCTIC RESEARCH</small></div></div>',unsafe_allow_html=True)
-        st.caption('地理大创 · 研究工作区')
+        st.markdown('<div class="research-brand"><span class="brand-mark">◉</span><div><b>北极观察</b><small>ARCTIC RESEARCH · VISUAL EVIDENCE</small></div></div>',unsafe_allow_html=True)
+        st.markdown('<div class="sidebar-context">地理大创 · 北极地缘与技术双向互动研究</div>',unsafe_allow_html=True)
         for label,path in PAGES:
             page_link(path,label=label,use_container_width=True)
         with st.expander('观测与研究资料',expanded=True):
@@ -32,7 +35,7 @@ def apply_presentation(page='home'):
             page_link('pages/8_区域联动研究.py',label='区域联动')
             page_link('pages/4_极地核心技术.py',label='技术与地缘')
             page_link('pages/10_站内资料.py',label='站内资料')
-            page_link('pages/2_气候时空监测.py',label='海冰观测')
+            page_link('pages/2_气候时空监测.py',label='海冰观测（趋势）')
             page_link('pages/3_地缘战略格局.py',label='事件线索')
             page_link('pages/7_关于本项目.py',label='关于研究')
         from src.study_scope import sidebar_scope
@@ -60,20 +63,20 @@ def page_link(path, label, **kwargs):
 def light_figure(figure):
     fig=go.Figure(figure)
     fig.update_layout(template='plotly_white',paper_bgcolor='#ffffff',plot_bgcolor='#ffffff',
-        font=dict(family='Arial, Microsoft YaHei, sans-serif',color='#304d43',size=12),
-        hoverlabel=dict(bgcolor='#ffffff',font_color='#304d43',bordercolor='#cad9d4'),
-        legend=dict(bgcolor='rgba(255,255,255,0)',font=dict(color='#64786e',size=11)),
-        title_font=dict(color='#304d43',size=16))
-    fig.update_xaxes(gridcolor='#e7ece4',zerolinecolor='#cad9d4',tickfont_color='#78897d',title_font_color='#64786e',linecolor='#dbe4d9')
-    fig.update_yaxes(gridcolor='#e7ece4',zerolinecolor='#cad9d4',tickfont_color='#78897d',title_font_color='#64786e',linecolor='#dbe4d9')
-    fig.update_geos(bgcolor='#f5f7f3',landcolor='#f7f7ef',oceancolor='#dfe9e9',lakecolor='#dfe9e9',countrycolor='#cad5c8',coastlinecolor='#b3c4b8')
-    fig.update_polars(bgcolor='#ffffff',radialaxis=dict(gridcolor='#e2e9de',linecolor='#cad9d4',tickfont_color='#78897d'),angularaxis=dict(gridcolor='#e2e9de',linecolor='#cad9d4',tickfont_color='#64786e'))
+        font=dict(family='Arial, Microsoft YaHei, sans-serif',color='#163a5d',size=12),
+        hoverlabel=dict(bgcolor='#ffffff',font_color='#163a5d',bordercolor='#cfe1ed'),
+        legend=dict(bgcolor='rgba(255,255,255,0)',font=dict(color='#55718a',size=11)),
+        title_font=dict(color='#163a5d',size=16))
+    fig.update_xaxes(gridcolor='#e1edf5',zerolinecolor='#cfe1ed',tickfont_color='#6b879e',title_font_color='#55718a',linecolor='#d8e8f3')
+    fig.update_yaxes(gridcolor='#e1edf5',zerolinecolor='#cfe1ed',tickfont_color='#6b879e',title_font_color='#55718a',linecolor='#d8e8f3')
+    fig.update_geos(bgcolor='#eef6fc',landcolor='#f8fcff',oceancolor='#dceef8',lakecolor='#dceef8',countrycolor='#bcd7e7',coastlinecolor='#9ec8df')
+    fig.update_polars(bgcolor='#ffffff',radialaxis=dict(gridcolor='#e1edf5',linecolor='#cfe1ed',tickfont_color='#6b879e'),angularaxis=dict(gridcolor='#e1edf5',linecolor='#cfe1ed',tickfont_color='#55718a'))
     for trace in fig.data:
-        if hasattr(trace,'textfont') and trace.type!='heatmap':trace.textfont.color='#304d43'
+        if hasattr(trace,'textfont') and trace.type!='heatmap':trace.textfont.color='#163a5d'
         if hasattr(trace,'line') and trace.line.color in ['white','#fff','#ffffff']:
-            trace.line.color='#b3c4b8'
+            trace.line.color='#9ec8df'
     for annotation in fig.layout.annotations:
-        if annotation.font.color in ['white','#fff','#ffffff'] or '255,255,255' in str(annotation.font.color):annotation.font.color='#426886'
+        if annotation.font.color in ['white','#fff','#ffffff'] or '255,255,255' in str(annotation.font.color):annotation.font.color='#2a668e'
     return fig
 
 def show_chart(figure,**kwargs):

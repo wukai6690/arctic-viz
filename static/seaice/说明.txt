@@ -1,0 +1,49 @@
+北极海冰密集度影像集（129 张）
+================================
+
+【内容】
+2016 年 1 月 — 2026 年 9 月，逐月海冰密集度图，共 129 张。
+其中 2016—2025 年为完整 12 个月（120 张），2026 年为已发布的 1—9 月（9 张）。
+
+【命名规则】
+YYYY-MM_seaice_conc.png    例：2020-09_seaice_conc.png（2020 年 9 月）
+按月补零，按文件名排序即为时间顺序。
+
+【来源】
+图件为美国国家冰雪数据中心（NSIDC）官方产品，非本项目自制：
+  Sea Ice Index, Version 4.0 (G02135), North Monthly Images
+  https://noaadata.apps.nsidc.org/NOAA/G02135/north/monthly/images/
+数据基于 DMSP SSM/I-SSMIS 与 JAXA AMSR2 被动微波遥感反演。
+DOI: 10.7265/a98x-0f50
+
+【引用（使用这些图件时请按此格式）】
+Fetterer F, Knowles K, Meier W N, Savoie M, Windnagel A K, Stafford T.
+Sea Ice Index, Version 4 (G02135, North Monthly)[DB/OL].
+Boulder, Colorado USA: National Snow and Ice Data Center, 2025.
+https://doi.org/10.7265/a98x-0f50. 访问日期：2026-10-22.
+
+【怎么看这些图】
+· 色标：0%（深蓝）—100%（白），表示海冰密集度，即格点内被冰覆盖的比例。
+· 深蓝 = 开阔水；浅蓝 = 边缘稀疏冰；白 = 高密集度冰；灰 = 陆地。
+· 品红/粉色线：1981—2010 年中位冰缘（median ice edge），即“常年此时冰应到的位置”。
+  冰缘落在其内侧，表示当年偏少。
+· 每幅图底部标注 Total Area，为当月海冰面积（area，密集度加权），
+  与索引表中的“海冰范围（extent）”口径不同，勿混用。
+
+【口径提醒】
+extent（范围）= 密集度 ≥15% 的格点面积之和；
+area（面积）= 各格点密集度加权后的面积之和。
+两者数值不同，范围恒大于面积。
+
+【已知限制】
+1. 2026 年 10 月及以后尚未发布，故本集止于 2026 年 9 月。
+2. NSIDC 公告 AMSR2 数据提供方系统维护期间“已影响海冰数据处理”，
+   2026 年近期数值可能事后修订。
+3. 版本为 v4.0，2025 年发布，首次引入 AMSR2 作为输入；
+   与 2025 年以前文献常用的 v3.0 存在系统性差异，跨版本比较须说明。
+4. 图件为月均合成，非单日实况。
+
+【索引】
+索引.csv 列出每张图的年份、月份、文件名、对应海冰范围与面积。
+【本项目接入】
+本项目将上述 129 张影像从用户提供的 arctic_seaice_129(1).zip 解包后保存在 static/seaice/，按 YYYY-MM 与索引.csv 关联；ZIP 原文件不随 Git 提交。

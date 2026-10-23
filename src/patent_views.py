@@ -23,6 +23,10 @@ COUNTRY_NAMES = {
     "Russia": "俄罗斯",
     "Sweden": "瑞典",
     "Norway": "挪威",
+    "Australia": "澳大利亚",
+    "India": "印度",
+    "United Kingdom": "英国",
+    "WIPO": "世界知识产权组织",
 }
 
 
@@ -132,11 +136,11 @@ def _record_panel(record: dict, key: str) -> None:
     m2.metric("公开日期", record.get("publication_date") or "官方页未提取")
     m3.metric("法律状态字段", record.get("status") or "官方页未提取")
     st.link_button("打开官方专利页面", record["source_url"])
-    source_label = record.get("abstract_zh_source") or "中文译文"
-    st.markdown(f"**中文摘要（{source_label}）**")
-    st.write(record.get("abstract_zh") or "该公开页面未提供可提取摘要。")
-    if record.get("abstract_zh_source") == "公开页面未提供摘要":
-        st.info("该条记录保留了真实公开号和官方页面，但公开页暂未提取到摘要；可用上方按钮核对原文。")
+    source_label = record.get("abstract_zh_source") or ("公开英文摘要（原文）" if record.get("abstract_original") else "公开页面未提供摘要")
+    st.markdown(f"**摘要（{source_label}）**")
+    st.write(record.get("abstract_zh") or record.get("abstract_original") or "该公开页面未提供可提取摘要。")
+    if not record.get("abstract_zh") and record.get("abstract_original"):
+        st.info("该补充记录保留了公开页面的原始摘要；尚未额外生成中文译文。")
     if record.get("abstract_original") and record.get("abstract_original") != record.get("abstract_zh"):
         with st.expander("查看原始摘要文本（核对用）"):
             st.write(record["abstract_original"])
