@@ -210,7 +210,8 @@ def render_atlas():
         with st.expander('放大查看照片'):
             chosen=st.radio('照片编号',range(len(place['photos'])),format_func=lambda n:f'第 {n+1} 张',horizontal=True,key='atlas_photo-'+place['id'])
             photo_figure(place['photos'][chosen],download=True,key='atlas-large-'+place['id'])
-        st.page_link('pages/9_实景图集.py',label='搜索全部地点与项目照片 ↗')
+        from src.presentation import page_link
+        page_link('pages/9_实景图集.py',label='搜索全部地点与项目照片 ↗')
     with evidence_tab:
         st.subheader('保存在本站的地点阅读材料')
         for i,article in enumerate(place_articles(selection)):

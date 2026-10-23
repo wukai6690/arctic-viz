@@ -11,7 +11,8 @@ from src.research_catalog import research_catalog,project_media
 
 def render_climate():
     section_title('CLIMATE OBSERVATIONS','海冰观测','用同一口径观察长期趋势和季节变化，为项目研究提供环境背景。')
-    st.page_link('pages/8_区域联动研究.py',label='查看巴伦支海、喀拉海与楚科奇海的区域观测 ↗')
+    from src.presentation import page_link
+    page_link('pages/8_区域联动研究.py',label='查看巴伦支海、喀拉海与楚科奇海的区域观测 ↗')
     obs,season,heat=st.tabs(['长期变化','季节对比','逐月分布'])
     with obs:render_observations()
     df=pd.DataFrame(reference_data()['sea_ice'])
@@ -63,7 +64,8 @@ def render_data():
         st.markdown('#### 研究时窗与区域口径')
         st.write(f'主时窗为 2016—2025，共 10 个完整日历年；2026 年观测单独保留。新增三个海区，共 {len(regional["records"]):,} 条区域月度记录，包含缺失状态；统计表与地图使用配套的 NSIDC 海区定义。')
         st.write(f'历史 GDELT 已采集 {progress["files"]} 个日档；候选先核验原文，再按现实事件归并。专利先按最早优先权日和专利族整理。两类资料当前都不作为完整年度活动统计。')
-        st.page_link('pages/8_区域联动研究.py',label='查看逐年覆盖与下载复核包 ↗')
+        from src.presentation import page_link
+        page_link('pages/8_区域联动研究.py',label='查看逐年覆盖与下载复核包 ↗')
         st.markdown('#### 地点、项目与事件分别核对')
         st.dataframe(pd.DataFrame([
             {'资料':'地点位置','处理方式':'地名和目录坐标配对，保留城市、站点或区域的定位精度','展示限制':'示意点不冒充具体事件坐标'},

@@ -113,7 +113,8 @@ def render_project():
         if len(photos)>1:
             st.markdown('#### 更多实景')
             photo_grid(photos,'project-'+pid)
-            st.page_link('pages/9_实景图集.py',label='浏览全部实景照片 ↗')
+            from src.presentation import page_link
+            page_link('pages/9_实景图集.py',label='浏览全部实景照片 ↗')
     with interpretation_tab:
         role=read_json('evidence_context.json')['project_roles'][pid]
         st.markdown('#### 技术在这个案例中起什么作用')
@@ -157,7 +158,8 @@ def render_existing_findings():
     st.subheader('先从可复核的区域观测开始')
     st.caption(scope_label()+' ｜ 改变研究范围后，此表同步更新。')
     st.dataframe(comparison_rows(scope(),indicator())[['海区','有效年份','同月均值 / km²','最低值年份','最低值 / km²']],hide_index=True,width='stretch')
-    st.page_link('pages/8_区域联动研究.py',label='查看曲线、筛选规则与资料覆盖 ↗')
+    from src.presentation import page_link
+    page_link('pages/8_区域联动研究.py',label='查看曲线、筛选规则与资料覆盖 ↗')
     st.caption('以上为真实'+('海冰范围' if indicator()=='extent' else '海冰面积')+'的描述性统计。项目与政策资料用于形成解释；尚未建立完整活动序列来检验海冰与地缘变化的因果关系。')
     themes=[
         ('极地技术能力涉及跨机构分工',['xuelong2','mosaic'],'设计、制造、科研组织和港口后勤分别出现在项目材料中。','这些案例可以支持研究分工关系；尚不足以判断合作一定改善国家间关系。'),

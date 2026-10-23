@@ -2,7 +2,7 @@
 import json
 from html import escape
 import streamlit as st
-from src.presentation import ROOT,section_title
+from src.presentation import ROOT,section_title,page_link
 from src.home_views import CASES
 from src.deep_case_content import load_deep_cases,get_deep_case,case_report_text
 from src.source_library import source_button
@@ -96,4 +96,5 @@ def render_cases():
     st.divider()
     a,b=st.columns(2)
     if a.button('查看原项目关系与技术专题',key='case-original'):open_project(cid)
-    b.page_link('pages/6_数据中心工具.py',label='查看数据覆盖与来源口径')
+    with b:
+        page_link('pages/6_数据中心工具.py',label='查看数据覆盖与来源口径')
