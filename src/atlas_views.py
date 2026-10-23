@@ -13,7 +13,18 @@ from src.source_library import source_button,source_href
 from src.place_profiles import render_profile,photo_topic,place_articles
 
 COLORS={'港口与航道':'#508491','科研观测':'#5b8266','空间设施':'#897aa1','城市与聚落':'#ab8861','自然区域':'#809584','关联产业':'#a96b5f'}
-PLACE_FLAGS={'nyalesund':'🇳🇴','longyearbyen':'🇳🇴','narvik':'🇳🇴','greenland':'🇬🇱','nuuk':'🇬🇱','kullorsuaq':'🇬🇱','pituffik':'🇺🇸','cambridgebay':'🇨🇦','churchill':'🇨🇦','bering':'🇺🇸','kola':'🇷🇺','rauma':'🇫🇮','kiruna':'🇸🇪'}
+PLACE_FLAGS={'nyalesund':'🇳🇴','longyearbyen':'🇳🇴','svalsat':'🇳🇴','narvik':'🇳🇴','greenland':'🇬🇱','nuuk':'🇬🇱','kullorsuaq':'🇬🇱','pituffik':'🇺🇸','cambridgebay':'🇨🇦','inuvik':'🇨🇦','churchill':'🇨🇦','resolute':'🇨🇦','utqiagvik':'🇺🇸','bering':'🇺🇸','kola':'🇷🇺','rauma':'🇫🇮','kiruna':'🇸🇪','esrange':'🇸🇪'}
+STATION_IDS={'nyalesund','svalsat','esrange','cambridgebay','inuvik','pituffik','resolute','utqiagvik'}
+STATION_META={
+    'nyalesund':('🇳🇴 挪威','国际科考站聚落','https://nyalesundresearch.no/'),
+    'svalsat':('🇳🇴 挪威','卫星地面站','https://www.ksat.no/'),
+    'esrange':('🇸🇪 瑞典','卫星地面站与北极研究设施','https://sscspace.com/services/satellite-ground-stations/our-stations/esrange-ground-station/'),
+    'cambridgebay':('🇨🇦 加拿大','加拿大高北极研究站 CHARS','https://www.canada.ca/en/polar-knowledge/CHARScampus.html'),
+    'inuvik':('🇨🇦 加拿大','卫星接收与北极观测设施','https://natural-resources.canada.ca/science-data/science-research/research-centres/inuvik-satellite-station-facility'),
+    'pituffik':('🇺🇸/🇬🇱 美国 / 格陵兰','高纬空间与地面设施','https://commons.wikimedia.org/wiki/Category:Pituffik_Space_Base'),
+    'resolute':('🇨🇦 加拿大','北极社区与观测节点','https://commons.wikimedia.org/wiki/Category:Resolute,_Nunavut'),
+    'utqiagvik':('🇺🇸 美国','阿拉斯加北坡观测节点','https://commons.wikimedia.org/wiki/Category:Utqiagvik,_Alaska'),
+}
 THEMES={
     '全部地点': {'projects':None,'note':'点击地名，阅读地点、实景与相关项目。'},
     '科研协作': {'projects':['xuelong2','mosaic','awipev','chars'],'note':'从科考船建造、出航港口与研究设施，查看已整理科研项目的地理联系。'},
@@ -168,6 +179,14 @@ def render_atlas():
             flag=PLACE_FLAGS.get(p['id'],'🌐')
             marker=folium.Marker(position(p),title=p['name'],icon=folium.DivIcon(html=html,icon_size=(size,size),icon_anchor=(size/2,size/2)),tooltip=folium.Tooltip(escape(flag+' '+p['name']),permanent=True,direction='top',offset=(0,-10)))
             marker.add_to(m);markers.append(marker)
+        station_layer=folium.FeatureGroup(name='科考站与空间设施',show=True)
+        for p in filtered:
+            if p['id'] not in STATION_IDS: continue
+            station_flag, station_type, station_url=STATION_META[p['id']]
+            station_html=f'<span class="station-marker" title="{escape(p["name"])}">✦</span>'
+            popup=folium.Popup(f'<b>{escape(station_flag)} · {escape(p["name"])}</b><p>{escape(station_type)}</p><a href="{escape(station_url)}" target="_blank">打开资料来源 ↗</a>',max_width=300)
+            folium.Marker(position(p),title=station_flag+' '+p['name'],icon=folium.DivIcon(html=station_html,icon_size=(24,24),icon_anchor=(12,12)),popup=popup,tooltip=folium.Tooltip(escape(station_flag+' · '+p['name']+' · '+station_type))).add_to(station_layer)
+        station_layer.add_to(m)
         map_label_layout(m,markers)
         finish_local_map(m)
         epoch=st.session_state.get('atlas_map_epoch',0)
@@ -182,11 +201,18 @@ def render_atlas():
                     st.session_state['_atlas_click_pending']=match['id'];st.rerun()
         st.markdown('<div class="atlas-legend">'+''.join(f'<span><i style="background:{c}"></i>{k}</span>' for k,c in COLORS.items())+'</div>',unsafe_allow_html=True)
         if overlay:st.caption('海区边界与区域海冰统计配套，来源 NSIDC Meier 2007 掩膜；不表示法律边界或可通航范围。')
+        visible_stations=[p for p in filtered if p['id'] in STATION_IDS and p['id'] in STATION_META]
+        if visible_stations:
+            st.markdown('<div class="station-strip"><b>科考站与空间设施</b><span>点击地图上的 ✦ 查看官方资料</span><div>'+''.join(f'<em>{escape(STATION_META[p["id"]][0])} · {escape(p["name"])}</em>' for p in visible_stations)+'</div></div>',unsafe_allow_html=True)
         st.button('恢复北极全景',key='atlas_reset',on_click=restore_overview)
     with detail:
         st.selectbox('当前地点',ids,format_func=lambda x:by_id[x]['name']+' · '+by_id[x]['english'],key='atlas_choice',on_change=focus_selected)
         st.markdown(f'<div class="eyebrow">{escape(place_region(place))} / {escape(place_category(place))}</div>',unsafe_allow_html=True)
         st.subheader(place['name']);st.caption(place['english'])
+        if selection in STATION_META:
+            station_flag, station_type, station_url=STATION_META[selection]
+            st.markdown(f'<div class="station-detail"><small>ARCTIC STATION / FACILITY</small><b>{escape(station_flag)}</b><span>{escape(station_type)}</span></div>',unsafe_allow_html=True)
+            source_button(station_url,'打开官方站点资料',key='station-source-'+selection)
         photo_figure(place['photos'][0]);st.write(place['description'])
         st.caption(f'{abs(place["latitude"]):.2f}°{"N" if place["latitude"]>=0 else "S"} · {abs(place["longitude"]):.2f}°{"E" if place["longitude"]>=0 else "W"} ｜地点示意位置')
         linked=projects_for_place(selection)
