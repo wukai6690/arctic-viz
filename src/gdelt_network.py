@@ -162,75 +162,142 @@ def search_events(data: dict, start: date, end: date, country1: str, country2: s
 
 
 def _positions(countries: list[dict], nodes: list[dict] | None = None) -> dict[str, tuple[float, float]]:
-    """Place the core in the middle and the remaining countries in rings.
+    """Return a fixed, presentation-friendly nine-country layout.
 
-    The layout follows the comparison figures used in the reference study:
-    positions stay fixed between slices, while node size and edge width carry
-    the changing values. This makes the result read as a network analysis
-    figure rather than a force-directed animation.
+    A fixed layout is deliberately used instead of a force-directed graph: the
+    same country stays in the same place in every month, while the relation
+    lines carry the changing signal.  The arrangement also leaves enough white
+    space around the central US/Russia/China cluster for curved links to remain
+    readable.
     """
+    reference = {
+        "USA": (0.00, 0.25), "RUS": (0.34, 0.58), "CHN": (0.42, 0.05),
+        "CAN": (-0.38, 0.58), "NOR": (0.82, 0.47), "DNK": (0.86, -0.34),
+        "FIN": (0.34, -0.72), "SWE": (-0.28, -0.72), "ISL": (-0.87, -0.22),
+    }
     codes = [c["code"] for c in countries]
-    core = [code for code in ("USA", "RUS", "CHN") if code in codes]
-    semiperiphery = [code for code in ("CAN", "NOR", "DNK") if code in codes and code not in core]
-    outer = [code for code in codes if code not in core and code not in semiperiphery]
-    positions: dict[str, tuple[float, float]] = {}
-    for i, code in enumerate(core):
-        angle = 2 * math.pi * i / max(1, len(core)) - math.pi / 2
-        positions[code] = (0.28 * math.cos(angle), 0.28 * math.sin(angle))
-    for group, radius in ((semiperiphery, 0.72), (outer, 1.06)):
-        for i, code in enumerate(group):
-            angle = 2 * math.pi * i / max(1, len(group)) - math.pi / 2
-            positions[code] = (radius * math.cos(angle), radius * math.sin(angle))
+    positions = {code: reference[code] for code in codes if code in reference}
+    missing = [code for code in codes if code not in positions]
+    for i, code in enumerate(missing):
+        angle = 2 * math.pi * i / max(1, len(missing))
+        positions[code] = (0.95 * math.cos(angle), 0.82 * math.sin(angle))
     return positions
 
 
-def _edge_color(edge: dict) -> str:
-    value = edge.get("goldstein_mean")
-    if value is None or abs(value) < 0.8:
-        return "#b8cbd9"
-    return "#3b99cf" if value > 0 else "#e07b72"
+def _quadratic_curve(x1: float, y1: float, x2: float, y2: float, offset: float, steps: int = 28) -> tuple[list[float], list[float]]:
+    """Create a short quadratic Bezier arc between two country nodes."""
+    dx, dy = x2 - x1, y2 - y1
+    length = math.hypot(dx, dy) or 1.0
+    nx, ny = -dy / length, dx / length
+    cx, cy = (x1 + x2) / 2 + nx * offset, (y1 + y2) / 2 + ny * offset
+    xs, ys = [], []
+    for step in range(steps + 1):
+        t = step / steps
+        omt = 1 - t
+        xs.append(omt * omt * x1 + 2 * omt * t * cx + t * t * x2)
+        ys.append(omt * omt * y1 + 2 * omt * t * cy + t * t * y2)
+    return xs, ys
 
 
-def network_figure(window: dict, countries: list[dict], min_events: int = 1) -> go.Figure:
+def network_figure(window: dict, countries: list[dict], min_events: int = 1, focus: str = "ALL") -> go.Figure:
     positions = _positions(countries, window.get("nodes"))
-    edges = [edge for edge in window["edges"] if edge["event_count"] >= min_events]
+    edges = sorted((edge for edge in window["edges"] if edge["event_count"] >= min_events),
+                   key=lambda row: (-row["event_count"], row["source"], row["target"]))
     edge_traces = []
-    for edge in edges:
-        x1, y1 = positions[edge["source"]]; x2, y2 = positions[edge["target"]]
-        width = max(1.0, min(12.0, 1.3 + 2.0 * math.log1p(edge["article_count"] or edge["event_count"])))
+    for index, edge in enumerate(edges):
+        source, target = edge["source"], edge["target"]
+        if source not in positions or target not in positions:
+            continue
+        x1, y1 = positions[source]; x2, y2 = positions[target]
+        total = edge["event_count"] or 1
+        width = max(1.5, min(9.5, 1.4 + 1.45 * math.log1p(edge["article_count"] or total)))
+        opacity = 0.95 if focus == "ALL" or focus in (source, target) else 0.16
+        name = f"{COUNTRY_LABELS.get(source, source)} ↔ {COUNTRY_LABELS.get(target, target)}"
         value = edge.get("goldstein_mean")
-        polarity = "合作倾向" if value is not None and value > 0 else "冲突倾向" if value is not None and value < 0 else "中性/未定"
-        text = (f"{edge['source']} ↔ {edge['target']}<br>事件 {edge['event_count']:,} 条 · 新闻文章 {edge['article_count']:,} 篇"
-                f"<br>{polarity} · Goldstein 均值 {value:+.2f}" if value is not None else
-                f"{edge['source']} ↔ {edge['target']}<br>事件 {edge['event_count']:,} 条 · 新闻文章 {edge['article_count']:,} 篇<br>{polarity}")
-        edge_traces.append(go.Scatter(x=[x1, x2], y=[y1, y2], mode="lines", line={"width": width, "color": _edge_color(edge)},
-                                      hovertemplate=text + "<extra></extra>", showlegend=False, customdata=[edge["source"] + "|" + edge["target"]]))
+        hover = (f"{COUNTRY_FLAGS.get(source, '')} {name}<br>事件 {total:,} 条 · 新闻文章 {edge['article_count']:,} 篇"
+                 f"<br>合作 {edge.get('positive_events', 0):,} · 竞争/冲突 {edge.get('negative_events', 0):,}"
+                 + (f"<br>Goldstein 均值 {value:+.2f}" if value is not None else ""))
+        # A pair with both positive and negative events gets two slightly
+        # separated arcs; this makes mixed relationships legible rather than
+        # collapsing them into one misleading average colour.
+        positive = int(edge.get("positive_events", 0) or 0)
+        negative = int(edge.get("negative_events", 0) or 0)
+        base_offset = 0.035 + 0.012 * (index % 3)
+        parts = [(positive, "#2d8fc9", "合作事件", base_offset),
+                 (negative, "#e47b72", "竞争/冲突事件", -base_offset)]
+        if positive == 0 and negative == 0:
+            parts = [(total, "#aebfca", "中性/未定事件", 0.0)]
+        for count, color, legend, offset in parts:
+            if count <= 0:
+                continue
+            xs, ys = _quadratic_curve(x1, y1, x2, y2, offset)
+            edge_traces.append(go.Scatter(x=xs, y=ys, mode="lines",
+                line={"width": width * (0.68 if legend.startswith("竞争") else 0.8), "color": f"rgba({int(color[1:3], 16)},{int(color[3:5], 16)},{int(color[5:7], 16)},{opacity})"},
+                hovertemplate=hover + f"<br>该层事件 {count:,} 条<extra></extra>",
+                showlegend=False, customdata=[source + "|" + target]))
     country_by_code = {c["code"]: c for c in countries}
     nodes = window["nodes"]
     max_degree = max((n["event_degree"] for n in nodes), default=1)
-    group_colors = {"USA": "#2468a6", "CHN": "#2468a6", "RUS": "#2468a6",
-                    "CAN": "#48a3c6", "NOR": "#48a3c6", "DNK": "#48a3c6"}
+    group_colors = {"USA": "#1e6fa8", "CHN": "#2f83b4", "RUS": "#245f93",
+                    "CAN": "#55a9c6", "NOR": "#55a9c6", "DNK": "#55a9c6",
+                    "FIN": "#8abbd0", "SWE": "#8abbd0", "ISL": "#9fc6d6"}
+    node_text = [f"{COUNTRY_FLAGS.get(n['code'], '•')} {COUNTRY_LABELS.get(n['code'], country_by_code.get(n['code'], {}).get('name', n['code']))}" for n in nodes]
     node_trace = go.Scatter(
         x=[positions[n["code"]][0] for n in nodes], y=[positions[n["code"]][1] for n in nodes],
-        mode="markers+text", text=[f"{COUNTRY_FLAGS.get(n['code'], '•')} {country_by_code[n['code']]['name']}" for n in nodes], textposition="top center",
-        textfont={"size": 13, "color": "#173f63"},
-        marker={"size": [19 + 34 * math.sqrt(n["event_degree"] / max_degree) if max_degree else 19 for n in nodes],
-                "color": [group_colors.get(n["code"], "#aacddd") for n in nodes], "line": {"width": 1.5, "color": "#ffffff"},
-                "opacity": 0.88},
+        mode="markers+text", text=node_text, textposition="top center",
+        textfont={"size": 13, "color": "#173f63", "family": "Microsoft YaHei, Arial"},
+        marker={"size": [20 + 36 * math.sqrt(n["event_degree"] / max_degree) if max_degree else 20 for n in nodes],
+                "color": [group_colors.get(n["code"], "#aacddd") for n in nodes], "line": {"width": 2, "color": "#ffffff"},
+                "opacity": 0.96},
         customdata=[[n["code"], n["event_degree"], n["article_degree"]] for n in nodes],
         hovertemplate="%{text} (%{customdata[0]})<br>事件度数：%{customdata[1]:,}<br>关联新闻文章：%{customdata[2]:,}<extra></extra>",
         name="国家节点",
     )
     legend_traces = [
-        go.Scatter(x=[None], y=[None], mode="markers", marker={"size": 12, "color": "#2468a6"}, name="核心国家"),
-        go.Scatter(x=[None], y=[None], mode="markers", marker={"size": 12, "color": "#48a3c6"}, name="半边缘国家"),
-        go.Scatter(x=[None], y=[None], mode="markers", marker={"size": 12, "color": "#aacddd"}, name="边缘登记节点"),
+        go.Scatter(x=[None], y=[None], mode="lines", line={"width": 4, "color": "#2d8fc9"}, name="合作事件"),
+        go.Scatter(x=[None], y=[None], mode="lines", line={"width": 4, "color": "#e47b72"}, name="竞争 / 冲突"),
+        go.Scatter(x=[None], y=[None], mode="lines", line={"width": 3, "color": "#aebfca"}, name="中性 / 未定"),
     ]
     fig = go.Figure(edge_traces + [node_trace] + legend_traces)
-    fig.update_layout(height=620, margin={"l": 35, "r": 35, "t": 25, "b": 45}, showlegend=True,
-                      legend={"orientation": "h", "y": -0.02, "x": 0.5, "xanchor": "center", "font": {"size": 12}},
-                      xaxis={"visible": False, "range": [-1.25, 1.25]}, yaxis={"visible": False, "range": [-1.25, 1.25]},
-                      plot_bgcolor="#f8fcff", paper_bgcolor="#ffffff", hovermode="closest")
+    fig.update_layout(height=640, margin={"l": 25, "r": 25, "t": 20, "b": 48}, showlegend=True,
+                      legend={"orientation": "h", "y": -0.02, "x": 0.5, "xanchor": "center", "font": {"size": 11}},
+                      xaxis={"visible": False, "range": [-1.18, 1.12]}, yaxis={"visible": False, "range": [-1.02, 0.95]},
+                      plot_bgcolor="#fbfdff", paper_bgcolor="#ffffff", hovermode="closest")
+    return fig
+
+
+def matrix_figure(window: dict, countries: list[dict]) -> go.Figure:
+    """Show a compact country-pair matrix with signed cooperation balance."""
+    codes = [c["code"] for c in countries]
+    labels = [f"{COUNTRY_FLAGS.get(code, '')} {COUNTRY_LABELS.get(code, code)}" for code in codes]
+    lookup = {tuple(sorted((edge["source"], edge["target"]))): edge for edge in window.get("edges", [])}
+    z, text, custom = [], [], []
+    max_abs = 1
+    for source in codes:
+        z_row, text_row, custom_row = [], [], []
+        for target in codes:
+            if source == target:
+                z_row.append(None); text_row.append("—"); custom_row.append([0, 0, 0])
+                continue
+            edge = lookup.get(tuple(sorted((source, target))))
+            if not edge:
+                z_row.append(0); text_row.append("0"); custom_row.append([0, 0, 0]); continue
+            positive = int(edge.get("positive_events", 0) or 0)
+            negative = int(edge.get("negative_events", 0) or 0)
+            total = int(edge.get("event_count", 0) or 0)
+            balance = positive - negative
+            max_abs = max(max_abs, abs(balance))
+            z_row.append(balance); text_row.append(str(total)); custom_row.append([total, positive, negative])
+        z.append(z_row); text.append(text_row); custom.append(custom_row)
+    fig = go.Figure(go.Heatmap(z=z, x=labels, y=labels, text=text, texttemplate="%{text}",
+        customdata=custom, colorscale=[[0, "#e47b72"], [0.5, "#f4f8fb"], [1, "#3b91c7"]],
+        zmin=-max_abs, zmax=max_abs, xgap=2, ygap=2,
+        hovertemplate="%{y} × %{x}<br>事件记录：%{customdata[0]:,}<br>合作：%{customdata[1]:,} · 竞争/冲突：%{customdata[2]:,}<extra></extra>",
+        colorbar={"title": "合作−竞争", "thickness": 12, "len": 0.75}))
+    fig.update_layout(height=470, margin={"l": 95, "r": 35, "t": 20, "b": 75},
+                      xaxis={"side": "bottom", "tickangle": -25, "tickfont": {"size": 11}},
+                      yaxis={"autorange": "reversed", "tickfont": {"size": 11}},
+                      plot_bgcolor="#ffffff", paper_bgcolor="#ffffff")
     return fig
 
 
@@ -442,6 +509,59 @@ def render_search_results(result: dict, countries: list[dict], key: str) -> None
         show_article_dialog(fetch_web_article(url), selected)
 
 
+def _edge_sources(window: dict, edge: dict, limit: int = 2) -> list[str]:
+    wanted = set(edge.get("event_ids", []))
+    urls = []
+    for event in window.get("events", []):
+        if event.get("id") not in wanted:
+            continue
+        url = str(event.get("source_url") or "")
+        if url.startswith(("http://", "https://")) and url not in urls:
+            urls.append(url)
+        if len(urls) >= limit:
+            break
+    return urls
+
+
+def render_evidence_panel(window: dict, countries: list[dict], min_events: int, key: str) -> None:
+    """Render the right-hand evidence rail from the same edge rows as the graph."""
+    ranked = sorted((edge for edge in window.get("edges", []) if edge["event_count"] >= min_events),
+                    key=lambda edge: (-edge["event_count"], -edge.get("article_count", 0)))[:7]
+    st.markdown("<div class='network-evidence-panel'><div class='network-panel-kicker'>BILATERAL EVIDENCE</div><h3>双边关系强度与关键证据</h3><p>按事件记录数排序；颜色拆分合作与竞争/冲突，点击来源可回到新闻原文。</p>", unsafe_allow_html=True)
+    if not ranked:
+        st.warning("当前窗口没有达到阈值的国家对。")
+    for index, edge in enumerate(ranked, start=1):
+        source, target = edge["source"], edge["target"]
+        total = int(edge.get("event_count", 0) or 0)
+        positive = int(edge.get("positive_events", 0) or 0)
+        negative = int(edge.get("negative_events", 0) or 0)
+        max_total = max(1, int(ranked[0].get("event_count", 1) or 1))
+        width = max(10, round(total / max_total * 100))
+        tone = "合作偏多" if positive > negative else "竞争偏多" if negative > positive else "混合关系"
+        source_html = ""
+        for source_url in _edge_sources(window, edge, limit=1):
+            source_html = f"<a class='network-source-link' href='{source_url}' target='_blank' rel='noreferrer'>查看证据 ↗</a>"
+        st.markdown(
+            f"<div class='network-rank-row'><div class='network-rank-top'><span class='network-rank-no'>{index:02d}</span><b>{COUNTRY_FLAGS.get(source, '')} {COUNTRY_LABELS.get(source, source)} × {COUNTRY_FLAGS.get(target, '')} {COUNTRY_LABELS.get(target, target)}</b><strong>{total:,}</strong></div>"
+            f"<div class='network-rank-bar'><span style='width:{width}%;'></span></div><div class='network-rank-meta'><span>{tone}</span><span class='network-positive'>合作 {positive}</span><span class='network-negative'>竞争/冲突 {negative}</span><span>{source_html}</span></div></div>",
+            unsafe_allow_html=True,
+        )
+    st.markdown("</div>", unsafe_allow_html=True)
+
+
+def render_network_insights(window: dict, min_events: int) -> None:
+    ranked = sorted((edge for edge in window.get("edges", []) if edge["event_count"] >= min_events),
+                    key=lambda edge: -edge["event_count"])
+    top = ranked[0] if ranked else None
+    total_positive = sum(int(edge.get("positive_events", 0) or 0) for edge in ranked)
+    total_negative = sum(int(edge.get("negative_events", 0) or 0) for edge in ranked)
+    top_text = f"{COUNTRY_LABELS.get(top['source'], top['source'])} × {COUNTRY_LABELS.get(top['target'], top['target'])}（{top['event_count']} 条）" if top else "暂无"
+    st.markdown(
+        f"<div class='network-insight-strip'><div><small>关键发现</small><b>{window['label']}</b><span>保留 {len(ranked)} 对达到当前阈值的国家关系。</span></div><div><small>最密集关系</small><b>{top_text}</b><span>以 GDELT 事件记录数衡量。</span></div><div><small>关系倾向</small><b class='network-positive'>合作 {total_positive:,}</b><b class='network-negative'>竞争/冲突 {total_negative:,}</b><span>仅用于描述新闻事件编码分布。</span></div></div>",
+        unsafe_allow_html=True,
+    )
+
+
 def render_search_page() -> None:
     data = load_network()
     section_title("EVENT SEARCH", "按条件查找北极国家互动记录", "日期、国家角色和 CAMEO 事件类型先筛选事件，再回到来源网页核对。")
@@ -454,16 +574,33 @@ def render_network(key: str = "network") -> None:
     data = load_network()
     countries = data["countries"]
     windows = monthly_windows(data)
-    labels = [w["label"] for w in windows]
-    by_label = {w["label"]: w for w in windows}
-    section_title("MONTHLY NETWORK WINDOWS", "北极国家地缘事件网络", "用月度样本窗口比较核心国家、半边缘国家和边缘节点，再回到关系与新闻证据。")
-    st.info("线条宽度表示该月新闻文章记录量，蓝色偏合作，橙红色偏冲突，浅灰色接近中性。网络是 GDELT 新闻感知层，不直接等同于外交关系强度。")
-    st.caption("当前已整理样本覆盖的月份会明确显示在选择器中；没有把单日样本扩写成完整月份统计。")
-    a, b = st.columns([1.4, 1])
+    all_rows = all_events(data)
+    overall_edges, overall_nodes = aggregate_events(all_rows, countries)
+    overall = {
+        "id": "all-sample", "label": "全部样本汇总", "year": None,
+        "date_start": min((row.get("date", "") for row in all_rows), default=""),
+        "date_end": max((row.get("date", "") for row in all_rows), default=""),
+        "events": all_rows, "edges": overall_edges, "nodes": overall_nodes,
+        "source": {"dataset": "GDELT 已整理全样本"},
+        "sample_note": "跨已整理日期窗口的去重汇总，仅用于观察国家对的总体覆盖，不代表连续时间序列。",
+    }
+    display_windows = [overall] + windows
+    labels = [w["label"] for w in display_windows]
+    by_label = {w["label"]: w for w in display_windows}
+    section_title("RELATIONSHIP NETWORK", "北极国家关系网络", "把国家节点、新闻事件、月度变化和可追溯证据放进同一张可读的关系图。")
+    st.markdown("<div class='network-hero-note'><b>阅读提示</b><span>一条国家对可以同时出现合作与竞争事件，因此本页把一对关系拆成两条轻微弧线；线越粗表示该月事件关联的新闻文章越多。</span><span class='network-hero-source'>GDELT 新闻感知层 · 不是外交关系结论</span></div>", unsafe_allow_html=True)
+    st.caption("样本窗口只显示已有事件记录的月份；页面不会把单日样本扩写为完整月度总量。")
+    a, b, c = st.columns([1.2, 1.05, 1.0])
     frame_key = key + "-frame"
-    current = st.session_state.get(frame_key, labels[min(1, len(labels) - 1)])
-    min_events = b.selectbox("最少事件数", [1, 2, 5, 10], index=0, key=key + "-min")
+    # Start on the densest observed month so the first view communicates the
+    # full network rather than opening on a one-edge sparse sample window.
+    densest_label = max(display_windows, key=lambda item: (len(item.get("edges", [])), item.get("label", "")))["label"] if display_windows else labels[0]
+    current = st.session_state.get(frame_key, densest_label)
     choice = a.selectbox("月度网络窗口", labels, index=labels.index(current) if current in labels else 0, key=key + "-choice")
+    min_events = b.selectbox("最少事件数", [1, 2, 5, 10], index=0, key=key + "-min", help="默认显示全部有记录的国家对，避免因阈值过高而把网络切成三条线。")
+    focus_choices = ["全部国家"] + [f"{COUNTRY_FLAGS.get(country['code'], '')} {COUNTRY_LABELS.get(country['code'], country['code'])}" for country in countries]
+    focus_display = c.selectbox("聚焦国家", focus_choices, key=key + "-focus")
+    focus = "ALL" if focus_display == "全部国家" else next((country["code"] for country in countries if focus_display.endswith(COUNTRY_LABELS.get(country["code"], country["code"]))), "ALL")
     st.session_state[frame_key] = choice
     window = by_label[choice]
     m1, m2, m3, m4 = st.columns(4)
@@ -471,52 +608,62 @@ def render_network(key: str = "network") -> None:
     m1.metric("时间范围", date_label)
     m2.metric("事件记录", f"{len(window['events']):,}")
     m3.metric("国家对", f"{len(window['edges']):,}")
-    m4.metric("数据来源", window["source"]["dataset"])
+    m4.metric("可见关系", f"{sum(edge['event_count'] >= min_events for edge in window['edges']):,}")
     tabs = st.tabs(["关系网络", "月度窗口对照", "关系与新闻证据", "方法与边界"])
     with tabs[0]:
-        st.caption("节点位置固定，节点大小按事件度数缩放；旗帜和国家名只用于识别节点，悬停可查看事件数、文章数和 Goldstein 均值。")
-        show_chart(network_figure(window, countries, min_events), key=key + "-graph", config={"displayModeBar": True})
-        st.caption("节点颜色：深蓝为核心国家，青色为半边缘国家，浅蓝为边缘登记节点；边颜色用于表达机器编码倾向。")
+        left, right = st.columns([1.72, 1], gap="large")
+        with left:
+            st.markdown("<div class='network-panel-heading'><span>COUNTRY RELATIONSHIP MAP</span><b>北极国家关系网络</b><small>固定节点位置 · 曲线边 · 旗帜标识 · 悬停查看事件证据</small></div>", unsafe_allow_html=True)
+            show_chart(network_figure(window, countries, min_events, focus), key=key + "-graph", config={"displayModeBar": True, "displaylogo": False})
+        with right:
+            render_evidence_panel(window, countries, min_events, key)
+        st.markdown("<div class='network-section-heading'><span>PAIRWISE MATRIX</span><b>国家关系矩阵</b><small>单元格数字为事件记录数，底色表示合作事件与竞争/冲突事件的差额。</small></div>", unsafe_allow_html=True)
+        show_chart(matrix_figure(window, countries), key=key + "-matrix", config={"displayModeBar": False, "displaylogo": False})
+        render_network_insights(window, min_events)
     with tabs[1]:
-        st.subheader("月度窗口的网络结构")
-        st.caption("每个面板对应一个已整理的年月窗口；同一国家位置保持不变，方便观察节点和边的变化。")
+        st.markdown("<div class='network-section-heading'><span>MONTHLY COMPARISON</span><b>月度窗口对照</b><small>同一套国家位置和颜色规则，便于比较关系数量与合作/竞争分布的变化。</small></div>", unsafe_allow_html=True)
         for offset in range(0, len(windows), 2):
             cols = st.columns(2, gap="large")
             for col, panel in zip(cols, windows[offset:offset + 2]):
                 with col:
-                    st.markdown(f"**{panel['label']}**")
-                    panel_fig = network_figure(panel, countries, min_events)
+                    st.markdown(f"<div class='network-month-label'>{panel['label']} <span>{len(panel['events']):,} 事件 · {len(panel['edges']):,} 国家对</span></div>", unsafe_allow_html=True)
+                    panel_fig = network_figure(panel, countries, min_events, focus)
                     panel_fig.update_layout(height=430, margin={"l": 15, "r": 15, "t": 10, "b": 40}, legend={"orientation": "h", "y": -0.06, "font": {"size": 10}})
-                    show_chart(panel_fig, key=key + "-panel-" + panel["id"], config={"displayModeBar": False})
-        st.dataframe([{ "月份": w["label"], "事件记录": len(w["events"]), "国家对": len(w["edges"]), "网络密度": round(len(w["edges"]) / 36, 3), "样本说明": w["sample_note"] } for w in windows], hide_index=True, width="stretch")
+                    show_chart(panel_fig, key=key + "-panel-" + panel["id"], config={"displayModeBar": False, "displaylogo": False})
+        st.dataframe([{ "月份": w["label"], "事件记录": len(w["events"]), "国家对": len(w["edges"]), "可见关系": sum(edge["event_count"] >= min_events for edge in w["edges"]), "网络密度": round(len(w["edges"]) / 36, 3), "样本说明": w["sample_note"] } for w in windows], hide_index=True, width="stretch")
     with tabs[2]:
         options = {f"{e['source']} ↔ {e['target']} · {e['event_count']} 条事件": e for e in window["edges"] if e["event_count"] >= min_events}
         if not options:
             st.warning("当前阈值下没有国家对，请降低最少事件数。")
         else:
+            st.markdown("<div class='network-section-heading'><span>EVIDENCE TRACE</span><b>关系与新闻证据</b><small>从关系汇总回到具体事件，再打开来源网页核对。</small></div>", unsafe_allow_html=True)
             selected_label = st.selectbox("选择一条国家关系", list(options), key=key + "-edge")
             edge = options[selected_label]
-            a, b, c = st.columns(3)
+            a, b, c, d = st.columns(4)
             a.metric("事件记录", edge["event_count"])
             b.metric("新闻文章", edge["article_count"])
-            c.metric("Goldstein 均值", "未计算" if edge["goldstein_mean"] is None else f"{edge['goldstein_mean']:+.2f}")
-            st.write(f"覆盖日期：{edge['first_date']} 至 {edge['last_date']}；正向事件 {edge['positive_events']} 条，负向事件 {edge['negative_events']} 条。")
+            c.metric("合作事件", edge["positive_events"])
+            d.metric("竞争/冲突", edge["negative_events"])
+            st.info(f"覆盖日期：{edge['first_date']} 至 {edge['last_date']}；Goldstein 均值：{'未计算' if edge['goldstein_mean'] is None else f'{edge['goldstein_mean']:+.2f}'}。正负事件并列展示，不把一对关系压缩成单一颜色。")
             rows = []
             wanted = set(edge["event_ids"])
             for event in window["events"]:
                 if event["id"] not in wanted: continue
-                rows.append({"日期": event["date"], "事件类型": event["category"], "编码": event["event_code"], "地点": event["location"], "Goldstein": event["goldstein"], "来源": event["source_url"]})
-            # Keep the evidence table on-site; source buttons below open the
-            # existing in-place reader instead of forcing an external tab.
+                rows.append({"日期": event["date"], "事件类型": event_type_label(event), "编码": event["event_code"], "地点": event["location"], "Goldstein": event["goldstein"], "来源": event["source_url"]})
             st.dataframe(rows, hide_index=True, width="stretch")
             for i, row in enumerate(rows[:6]):
                 if row["来源"].startswith(("http://", "https://")):
                     source_button(row["来源"], f"站内查看来源 {i + 1}", key=key + "-source-" + str(i))
     with tabs[3]:
-        st.markdown("#### 当前样本如何生成与使用边界")
+        st.markdown("<div class='network-section-heading'><span>METHOD & SCOPE</span><b>方法与边界</b><small>把数据口径、计算方式和可解释范围讲清楚。</small></div>", unsafe_allow_html=True)
+        method_cols = st.columns(4)
+        method_cols[0].markdown("<div class='network-method-card'><small>01 / SAMPLE</small><b>月度窗口</b><p>从已整理事件的日期字段按 YYYY-MM 分组，展示已有记录的月份，不补齐缺失月份。</p></div>", unsafe_allow_html=True)
+        method_cols[1].markdown("<div class='network-method-card'><small>02 / EDGE</small><b>国家对关系</b><p>同一国家对的事件数、文章数、合作/竞争事件数聚合成边，并保留事件编号。</p></div>", unsafe_allow_html=True)
+        method_cols[2].markdown("<div class='network-method-card'><small>03 / COLOR</small><b>关系倾向</b><p>蓝色表示合作事件，珊瑚色表示竞争或冲突事件，灰色表示中性或缺少倾向值。</p></div>", unsafe_allow_html=True)
+        method_cols[3].markdown("<div class='network-method-card'><small>04 / SOURCE</small><b>新闻证据</b><p>每条事件保留 GDELT 来源链接，关系汇总只做描述，不替代外交或安全领域判断。</p></div>", unsafe_allow_html=True)
         st.write(data["scope"])
-        st.write("边的宽度使用事件涉及的新闻文章数；节点大小使用事件度数；颜色使用 QuadClass 合作/冲突与 Goldstein 均值。原始事件保留日期、参与者、事件编码、地点和来源链接。")
-        st.markdown("#### 数据来源")
+        st.write("边的宽度使用事件涉及的新闻文章数；节点大小使用事件度数；关系矩阵使用合作事件减去竞争/冲突事件的差额着色。原始事件保留日期、参与者、事件编码、地点和来源链接。")
+        st.markdown("#### 数据来源与下载")
         st.download_button("下载当前网络数据 · JSON", json.dumps({"metadata": data, "window": window}, ensure_ascii=False, indent=2), "gdelt-arctic-network-current.json", "application/json", key=key + "-download", on_click="ignore")
         for citation in data["citations"]:
             st.markdown(f"- [{citation['title']}]({citation['url']})")
