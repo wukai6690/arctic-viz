@@ -416,9 +416,10 @@ def _search_result_window(data: dict, events: list[dict]) -> dict:
 def monthly_windows(data: dict) -> list[dict]:
     """Build every month from 2014-01 through 2026-09.
 
-    Observed events are grouped into their actual month. Empty months remain in
-    the selector with zero edges so the interface exposes the complete research
-    time axis without turning missing coverage into invented relationships.
+    Observed events are grouped into their actual month. Empty months receive a
+    clearly labelled nearest-history window so every selectable month has a
+    usable network while the page still distinguishes direct from backfilled
+    coverage.
     """
     grouped: dict[str, list[dict]] = defaultdict(list)
     for event in _network_events(data):
@@ -434,9 +435,31 @@ def monthly_windows(data: dict) -> list[dict]:
         if month_num == 13:
             year, month_num = year + 1, 1
     for month in months:
-        rows = grouped[month]
+        direct_rows = grouped[month]
+        rows = list(direct_rows)
+        fallback_months: list[str] = []
+        if not rows:
+            # Gather the nearest observed months until the fallback has enough
+            # relation diversity. This uses real earlier/later events and never
+            # changes their dates; it only supplies a context window for an
+            # otherwise empty month selector position.
+            candidates = []
+            for distance in range(1, 37):
+                for direction in (-1, 1):
+                    candidate = _month_offset(month, direction * distance)
+                    if grouped.get(candidate):
+                        candidates.append((distance, candidate))
+                if len(candidates) >= 4:
+                    break
+            candidates.sort()
+            for _, candidate in candidates:
+                rows.extend(grouped[candidate])
+                fallback_months.append(candidate)
+                pairs = {tuple(sorted((event.get("actor1", ""), event.get("actor2", "")))) for event in rows}
+                if len(rows) >= 60 and len(pairs) >= 6:
+                    break
         edges, nodes = aggregate_events(rows, data["countries"])
-        observed = bool(rows)
+        observed = bool(direct_rows)
         windows.append({
             "id": "month-" + month,
             "label": month,
@@ -444,10 +467,12 @@ def monthly_windows(data: dict) -> list[dict]:
             "date_start": min((e.get("date", "") for e in rows), default=month + "-01"),
             "date_end": max((e.get("date", "") for e in rows), default=month + "-01"),
             "events": rows,
+            "direct_events": direct_rows,
+            "fallback_months": fallback_months,
             "edges": edges,
             "nodes": nodes,
-            "source": {"dataset": "GDELT 已整理月度样本" if observed else "当前月份暂无整理事件"},
-            "sample_note": "当前为该月已整理日期窗口，不代表完整月份活动量。" if observed else "该月已进入选择器，但当前资料包没有可用于国家关系聚合的事件记录。",
+            "source": {"dataset": "GDELT 已整理月度样本" if observed else "最近可用月份历史回溯样本"},
+            "sample_note": "当前为该月已整理日期窗口，不代表完整月份活动量。" if observed else f"该月没有直接记录；网络使用最近可用月份回溯样本：{', '.join(fallback_months)}。",
         })
     return windows
 
@@ -733,10 +758,11 @@ def render_network(key: str = "network") -> None:
                "events": events, "edges": overall_edges, "nodes": overall_nodes}
     section_title("RELATIONSHIP NETWORK", "北极国家关系网络", "整体关系看全样本，月度关系看 2014—2026 的每一个月份；事件证据跟随国家对回溯。")
     st.markdown("<div class='network-hero-note'><b>动态网络阅读方式</b><span>节点大小按该窗口事件度数变化，连线按该窗口国家对变化；同一国家在不同月份的节点大小和连线都会重新计算。</span><span class='network-hero-source'>GDELT 新闻感知层 · 不等同于外交关系结论</span></div>", unsafe_allow_html=True)
-    observed = sum(bool(window["events"]) for window in windows)
+    observed = sum(bool(window.get("direct_events")) for window in windows)
+    fallback_count = len(windows) - observed
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("月度选择器", f"{len(windows)} 个月", "2014-01—2026-09")
-    c2.metric("有事件月份", f"{observed} 个月", "其余月份保留为空网络")
+    c2.metric("直接有事件月份", f"{observed} 个月", f"{fallback_count} 个月使用历史回溯")
     c3.metric("全样本事件", f"{len(events):,}", "去重后")
     c4.metric("全样本国家对", f"{len(overall_edges):,}", "9 个北极国家")
     tabs = st.tabs(["整体关系网络", "月度关系网络"])
@@ -753,15 +779,17 @@ def render_network(key: str = "network") -> None:
         window = month_by_label[choice]
         m1, m2, m3 = st.columns(3)
         m1.metric("当前月份", choice)
-        m2.metric("事件记录", f"{len(window['events']):,}")
+        m2.metric("关系样本事件", f"{len(window['events']):,}", f"直接记录 {len(window.get('direct_events', [])):,}")
         m3.metric("国家对", f"{len(window['edges']):,}")
-        if not window["events"]:
-            st.warning("该月份目前没有可用于国家关系聚合的整理事件；网络保留 9 个国家节点，连线为空。")
+        if not window.get("direct_events"):
+            st.info(f"该月份没有直接事件记录；当前网络使用历史回溯样本（{', '.join(window.get('fallback_months', []))}），因此连线仍反映真实的近期国家互动。")
         st.markdown("<div class='network-panel-heading'><span>MONTHLY RELATIONSHIP</span><b>该月份的国家关系网络</b><small>拖动月份选择器后，节点、连线、颜色和下方证据都会同步更新。</small></div>", unsafe_allow_html=True)
         show_chart(network_figure(window, countries, 1, "ALL"), key=key + "-monthly", config={"displayModeBar": True, "displaylogo": False})
         _render_bilateral_index(window["edges"], key + "-monthly-index", f"{choice} 双边关系指数")
         related = {tuple(sorted((edge["source"], edge["target"]))) for edge in window["edges"]}
-        _render_evidence_table(events, choice, related, key + "-monthly-evidence", "当前月份及历史关联事件证据")
+        evidence_month = choice if window.get("direct_events") else max(window.get("fallback_months", [choice]))
+        evidence_title = "当前月份及历史关联事件证据" if window.get("direct_events") else f"{choice} 网络的历史回溯证据"
+        _render_evidence_table(events, evidence_month, related, key + "-monthly-evidence", evidence_title)
 
 def render_network_page() -> None:
     render_network("network-page")
