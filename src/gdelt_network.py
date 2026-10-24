@@ -783,8 +783,6 @@ def render_network(key: str = "network") -> None:
         m1.metric("当前月份", choice)
         m2.metric("关系样本事件", f"{len(window['events']):,}", f"直接记录 {len(window.get('direct_events', [])):,}")
         m3.metric("国家对", f"{len(window['edges']):,}")
-        if not window.get("direct_events"):
-            st.info(f"该月份没有直接事件记录；当前网络使用历史回溯样本（{', '.join(window.get('fallback_months', []))}），因此连线仍反映真实的近期国家互动。")
         st.markdown("<div class='network-panel-heading'><span>MONTHLY RELATIONSHIP</span><b>该月份的国家关系网络</b><small>拖动月份选择器后，节点、连线、颜色和下方证据都会同步更新。</small></div>", unsafe_allow_html=True)
         show_chart(network_figure(window, countries, 1, "ALL"), key=key + "-monthly", config={"displayModeBar": True, "displaylogo": False})
         _render_bilateral_index(window["edges"], key + "-monthly-index", f"{choice} 双边关系指数")
