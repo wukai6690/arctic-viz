@@ -765,6 +765,8 @@ def render_network(key: str = "network") -> None:
     c2.metric("直接有事件月份", f"{observed} 个月", f"{fallback_count} 个月使用历史回溯")
     c3.metric("全样本事件", f"{len(events):,}", "去重后")
     c4.metric("全样本国家对", f"{len(overall_edges):,}", "9 个北极国家")
+    nonempty = sum(bool(window.get("edges")) for window in windows)
+    st.caption(f"连线覆盖：{nonempty}/{len(windows)} 个月份均有国家对关系；其中 {fallback_count} 个月使用最近可用的历史事件回溯，原始事件日期与来源保持不变。")
     tabs = st.tabs(["整体关系网络", "月度关系网络"])
     with tabs[0]:
         st.markdown("<div class='network-panel-heading'><span>ALL OBSERVED EVIDENCE</span><b>全样本国家关系网络</b><small>合并已整理网络样本与 GDELT 网格归档事件；线条越粗表示该国家对的事件文章量越大。</small></div>", unsafe_allow_html=True)
