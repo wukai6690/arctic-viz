@@ -28,6 +28,7 @@ app = AppTest.from_file(str(ROOT / "app.py"), default_timeout=60).run()
 assert not app.exception
 app.switch_page("pages/16_patents.py").run()
 assert not app.exception
-assert len(app.get("plotly_chart")) == 3
+assert len(app.get("plotly_chart")) >= 5
+assert {tab.label for tab in app.tabs} == {"专利检索工作台", "专利态势分析"}
 assert any("匹配公开文本" in str(item.label) for item in app.metric)
 print({"records": len(records), "abstracts_zh": sum(bool(r.get("abstract_zh")) for r in records), "coverage_documents": coverage["total_documents"], "page": "passed"})

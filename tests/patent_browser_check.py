@@ -22,7 +22,7 @@ with sync_playwright() as p:
     assert not app.locator('[data-testid="stException"]').count(), app.locator("body").inner_text()[:5000]
     page.wait_for_timeout(7000)
     app.get_by_text("北极技术专利与公开文本", exact=True).wait_for()
-    assert app.get_by_text("图表日期口径", exact=True).count() >= 1
+    assert app.get_by_text("统计日期口径", exact=True).count() >= 1
     app.locator('[data-testid="stMetricLabel"]').first.wait_for(timeout=30000)
     assert app.get_by_text("匹配公开文本", exact=True).count() >= 1
     for _ in range(60):
@@ -31,13 +31,13 @@ with sync_playwright() as p:
         page.wait_for_timeout(500)
     assert app.locator('.js-plotly-plot').count() >= 1
     assert app.locator('.js-plotly-plot').first.locator('.bars').count() >= 1
-    app.get_by_role("tab", name="热力图", exact=True).click()
+    app.get_by_role("tab", name="专利态势分析", exact=True).click()
     app.locator('.js-plotly-plot').nth(1).wait_for(timeout=30000)
-    assert app.locator('.js-plotly-plot').count() == 3
-    app.get_by_role("tab", name="专利记录", exact=True).click()
-    app.get_by_text("中文摘要（", exact=False).wait_for()
+    assert app.locator('.js-plotly-plot').count() >= 5
+    app.get_by_role("tab", name="专利检索工作台", exact=True).click()
+    app.get_by_text("检索工作台", exact=True).wait_for()
     assert app.get_by_text("首项权利要求", exact=False).count() >= 1
-    assert app.get_by_role("link", name="打开官方专利页面", exact=True).count() == 1
+    assert app.get_by_role("link", name="打开聚合公开页", exact=True).count() == 1
     checks.append("Patent page loads on the public site with trend, two heatmaps, searchable records and source text")
     page.screenshot(path=str(OUT / "public-patent.png"), full_page=True)
     browser.close()

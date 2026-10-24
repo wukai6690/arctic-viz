@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 import pandas as pd
@@ -45,16 +46,21 @@ def _country(record: dict) -> str:
 
 
 def _year(record: dict) -> int | None:
-    try:
-        return int(str(record.get("priority_date", ""))[:4])
-    except (TypeError, ValueError):
-        return None
+    return _date_year(record.get("priority_date"))
 
 
 def _chart_year(record: dict, basis: str) -> int | None:
     field = "publication_date" if basis == "公开年份" else "priority_date"
+    return _date_year(record.get(field))
+
+
+def _date_year(value) -> int | None:
+    text = str(value or "").strip()
+    match = re.search(r"(?:^|[^0-9])(19|20)\d{2}(?:[^0-9]|$)", text)
+    if not match:
+        return None
     try:
-        return int(str(record.get(field, ""))[:4])
+        return int(match.group(0).strip(".-/ "))
     except (TypeError, ValueError):
         return None
 
@@ -135,7 +141,7 @@ def _record_panel(record: dict, key: str) -> None:
     m1.metric("申请人", record.get("assignee") or "官方页未提取")
     m2.metric("公开日期", record.get("publication_date") or "官方页未提取")
     m3.metric("法律状态字段", record.get("status") or "官方页未提取")
-    st.link_button("打开官方专利页面", record["source_url"])
+    st.link_button("打开聚合公开页", record["source_url"])
     source_label = record.get("abstract_zh_source") or ("公开英文摘要（原文）" if record.get("abstract_original") else "公开页面未提供摘要")
     st.markdown(f"**摘要（{source_label}）**")
     st.write(record.get("abstract_zh") or record.get("abstract_original") or "该公开页面未提供可提取摘要。")
