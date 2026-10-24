@@ -44,7 +44,12 @@ with sync_playwright() as p:
     assert detail_buttons.count() >= 2
     selected_before = app.locator(".event-result-card.selected").inner_text()
     detail_buttons.nth(1).click(); settle(app)
-    selected_after = app.locator(".event-result-card.selected").inner_text()
+    selected_after = selected_before
+    for _ in range(60):
+        selected_after = app.locator(".event-result-card.selected").inner_text()
+        if selected_after != selected_before:
+            break
+        page.wait_for_timeout(500)
     assert selected_after != selected_before
     checks.append("查看详情按钮切换选中事件并刷新右侧来源详情")
     for _ in range(60):
