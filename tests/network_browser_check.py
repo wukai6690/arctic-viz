@@ -35,11 +35,11 @@ with sync_playwright() as p:
 
     app = open_route("/事件检索")
     print("Search page ready", flush=True)
-    app.get_by_text(re.compile("按条件查找北极国家互动")).wait_for()
-    app.get_by_text("事件检索", exact=True).first.wait_for()
+    app.get_by_text("北极事件检索中心", exact=True).wait_for()
+    app.get_by_text("统一检索入口", exact=True).wait_for()
     assert app.locator('[data-testid="stTextInputRootElement"] input').count() == 1, app.locator("body").inner_text()[:4000]
     app.get_by_role("button", name="检索", exact=True).click(); settle(app)
-    app.get_by_text("检索结果网络", exact=True).wait_for()
+    app.get_by_text("统一结果与来源详情", exact=True).wait_for()
     for _ in range(60):
         if app.locator('.js-plotly-plot').count() >= 1:
             break
