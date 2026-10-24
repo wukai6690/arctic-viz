@@ -185,6 +185,19 @@ def aggregate_events(events: list[dict], countries: list[dict]) -> tuple[list[di
         degree[edge["target"]] += edge["event_count"]
         articles[edge["source"]] += edge["article_count"]
         articles[edge["target"]] += edge["article_count"]
+    # Transparent bilateral relation indices inspired by the BLR approach:
+    # cooperation/conflict share within a pair multiplied by that pair's
+    # average contribution to the two countries' observed event activity.
+    # The result is a descriptive 0–100 sample index, not a diplomatic score.
+    for edge in edges:
+        total = edge["event_count"] or 1
+        pair_contribution = 0.5 * (
+            edge["event_count"] / max(1, degree[edge["source"]])
+            + edge["event_count"] / max(1, degree[edge["target"]])
+        )
+        edge["blr_cooperation"] = round(100 * (edge["positive_events"] / total) * pair_contribution, 2)
+        edge["blr_conflict"] = round(100 * (edge["negative_events"] / total) * pair_contribution, 2)
+        edge["blr_net"] = round(edge["blr_cooperation"] - edge["blr_conflict"], 2)
     nodes = [{"code": c["code"], "name": c.get("name", COUNTRY_LABELS.get(c["code"], c["code"])),
               "english": c.get("english", c["code"]), "role": c.get("role", "北极国家"),
               "event_degree": degree[c["code"]], "article_degree": articles[c["code"]]} for c in countries]
@@ -282,6 +295,7 @@ def network_figure(window: dict, countries: list[dict], min_events: int = 1, foc
         value = edge.get("goldstein_mean")
         hover = (f"{COUNTRY_FLAGS.get(source, '')} {name}<br>事件 {total:,} 条 · 新闻文章 {edge['article_count']:,} 篇"
                  f"<br>合作 {edge.get('positive_events', 0):,} · 竞争/冲突 {edge.get('negative_events', 0):,}"
+                 f"<br>双边合作指数 {edge.get('blr_cooperation', 0):.2f} · 双边冲突指数 {edge.get('blr_conflict', 0):.2f}"
                  + (f"<br>Goldstein 均值 {value:+.2f}" if value is not None else ""))
         # A pair with both positive and negative events gets two slightly
         # separated arcs; this makes mixed relationships legible rather than
@@ -687,6 +701,25 @@ def _render_evidence_table(events: list[dict], month: str, related_pairs: set[tu
     st.dataframe(rows, hide_index=True, width="stretch", height=390, column_config={"来源": st.column_config.LinkColumn("来源", display_text="打开原文")})
 
 
+def _render_bilateral_index(edges: list[dict], key: str, title: str) -> None:
+    ranked = sorted(edges, key=lambda edge: (-abs(edge.get("blr_net", 0)), -edge.get("event_count", 0)))[:12]
+    st.markdown(f"<div class='network-section-heading'><span>BILATERAL RELATION INDEX</span><b>{title}</b><small>合作/冲突占比 × 该国家对对双方观测活动的平均贡献；数值只描述当前资料样本。</small></div>", unsafe_allow_html=True)
+    if not ranked:
+        st.info("当前窗口没有可计算的双边关系指数。")
+        return
+    rows = [{
+        "国家对": f"{COUNTRY_FLAGS.get(edge['source'], '')} {COUNTRY_LABELS.get(edge['source'], edge['source'])} ↔ {COUNTRY_FLAGS.get(edge['target'], '')} {COUNTRY_LABELS.get(edge['target'], edge['target'])}",
+        "事件记录": edge.get("event_count", 0),
+        "合作事件": edge.get("positive_events", 0),
+        "竞争/冲突": edge.get("negative_events", 0),
+        "双边合作指数": edge.get("blr_cooperation", 0),
+        "双边冲突指数": edge.get("blr_conflict", 0),
+        "净关系": edge.get("blr_net", 0),
+    } for edge in ranked]
+    st.dataframe(rows, hide_index=True, width="stretch", height=310)
+    st.caption("公式：BLR 合作 = 合作事件占比 × 双方平均贡献 × 100；BLR 冲突同理；净关系 = 合作 − 冲突。该指数不代表外交关系强度。")
+
+
 def render_network(key: str = "network") -> None:
     data = load_network()
     countries = data["countries"]
@@ -710,6 +743,7 @@ def render_network(key: str = "network") -> None:
     with tabs[0]:
         st.markdown("<div class='network-panel-heading'><span>ALL OBSERVED EVIDENCE</span><b>全样本国家关系网络</b><small>合并已整理网络样本与 GDELT 网格归档事件；线条越粗表示该国家对的事件文章量越大。</small></div>", unsafe_allow_html=True)
         show_chart(network_figure(overall, countries, 1, "ALL"), key=key + "-overall", config={"displayModeBar": True, "displaylogo": False})
+        _render_bilateral_index(overall_edges, key + "-overall-index", "全样本双边关系指数")
         related = {tuple(sorted((edge["source"], edge["target"]))) for edge in overall_edges}
         _render_evidence_table(events, max((window["label"] for window in windows if window["events"]), default="2025-09"), related, key + "-overall-evidence", "整体网络事件证据", history_months=200)
     with tabs[1]:
@@ -725,6 +759,7 @@ def render_network(key: str = "network") -> None:
             st.warning("该月份目前没有可用于国家关系聚合的整理事件；网络保留 9 个国家节点，连线为空。")
         st.markdown("<div class='network-panel-heading'><span>MONTHLY RELATIONSHIP</span><b>该月份的国家关系网络</b><small>拖动月份选择器后，节点、连线、颜色和下方证据都会同步更新。</small></div>", unsafe_allow_html=True)
         show_chart(network_figure(window, countries, 1, "ALL"), key=key + "-monthly", config={"displayModeBar": True, "displaylogo": False})
+        _render_bilateral_index(window["edges"], key + "-monthly-index", f"{choice} 双边关系指数")
         related = {tuple(sorted((edge["source"], edge["target"]))) for edge in window["edges"]}
         _render_evidence_table(events, choice, related, key + "-monthly-evidence", "当前月份及历史关联事件证据")
 
