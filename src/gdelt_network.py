@@ -414,7 +414,7 @@ def _search_result_window(data: dict, events: list[dict]) -> dict:
 
 
 def monthly_windows(data: dict) -> list[dict]:
-    """Build every month from 2014-01 through 2026-09.
+    """Build every month from 2014-01 through 2026-12.
 
     Observed events are grouped into their actual month. Empty months receive a
     clearly labelled nearest-history window so every selectable month has a
@@ -429,7 +429,7 @@ def monthly_windows(data: dict) -> list[dict]:
     windows = []
     months = []
     year, month_num = 2014, 1
-    while (year, month_num) <= (2026, 9):
+    while (year, month_num) <= (2026, 12):
         months.append(f"{year:04d}-{month_num:02d}")
         month_num += 1
         if month_num == 13:
@@ -761,7 +761,7 @@ def render_network(key: str = "network") -> None:
     observed = sum(bool(window.get("direct_events")) for window in windows)
     fallback_count = len(windows) - observed
     c1, c2, c3, c4 = st.columns(4)
-    c1.metric("月度选择器", f"{len(windows)} 个月", "2014-01—2026-09")
+    c1.metric("月度选择器", f"{len(windows)} 个月", "2014-01—2026-12")
     c2.metric("直接有事件月份", f"{observed} 个月", f"{fallback_count} 个月使用历史回溯")
     c3.metric("全样本事件", f"{len(events):,}", "去重后")
     c4.metric("全样本国家对", f"{len(overall_edges):,}", "9 个北极国家")
