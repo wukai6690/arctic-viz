@@ -4,6 +4,7 @@ from __future__ import annotations
 import json
 import math
 import re
+import csv
 from collections import Counter, defaultdict
 from datetime import date
 from pathlib import Path
@@ -15,6 +16,7 @@ from src.presentation import ROOT, show_chart, section_title
 from src.source_library import source_button
 
 DATA_PATH = ROOT / "data/analysis/gdelt/network/network.json"
+GRID_PATH = ROOT / "data/processed/gdelt_arctic_by_grid.csv"
 
 COUNTRY_LABELS = {
     "ALL": "全部国家",
@@ -81,6 +83,70 @@ def all_events(data: dict) -> list[dict]:
     for window in data.get("windows", []):
         for event in window.get("events", []):
             unique.setdefault(event.get("id", f"{window['id']}:{len(unique)}"), event)
+    return sorted(unique.values(), key=lambda row: (row.get("date", ""), row.get("id", "")))
+
+
+@st.cache_data(show_spinner=False)
+def _processed_grid_events() -> list[dict]:
+    """Load the archived GDELT grid snapshot as country-pair event evidence.
+
+    The snapshot is kept separate from the curated network JSON.  It adds
+    dated 2023–2025 months to the selector while retaining the original event
+    identifiers, coordinates and source URLs.
+    """
+    if not GRID_PATH.exists():
+        return []
+    arctic = set(COUNTRY_LABELS) - {"ALL"}
+    rows: list[dict] = []
+    with GRID_PATH.open("r", encoding="utf-8-sig", newline="") as handle:
+        for raw in csv.DictReader(handle):
+            actor1 = str(raw.get("Actor1CountryCode") or "").strip().upper()
+            actor2 = str(raw.get("Actor2CountryCode") or "").strip().upper()
+            if actor1 not in arctic or actor2 not in arctic or actor1 == actor2:
+                continue
+            stamp = str(raw.get("SQLDATE") or "").strip()
+            if len(stamp) != 8 or not stamp.isdigit():
+                continue
+            try:
+                event_day = date(int(stamp[:4]), int(stamp[4:6]), int(stamp[6:8]))
+            except ValueError:
+                continue
+            try:
+                goldstein = float(raw.get("GoldsteinScale"))
+            except (TypeError, ValueError):
+                goldstein = None
+            try:
+                articles = int(float(raw.get("NumArticles") or 0))
+            except (TypeError, ValueError):
+                articles = 0
+            try:
+                mentions = int(float(raw.get("NumMentions") or 0))
+            except (TypeError, ValueError):
+                mentions = 0
+            try:
+                tone = float(raw.get("AvgTone"))
+            except (TypeError, ValueError):
+                tone = None
+            event_code = str(raw.get("EventCode") or "")
+            rows.append({
+                "id": "grid:" + str(raw.get("GlobalEventID") or f"{stamp}:{len(rows)}"),
+                "date": event_day.isoformat(), "actor1": actor1, "actor2": actor2,
+                "actor1_name": raw.get("Actor1Name") or actor1, "actor2_name": raw.get("Actor2Name") or actor2,
+                "event_code": event_code, "category": f"CAMEO {event_code}" if event_code else "GDELT 事件",
+                "goldstein": goldstein, "avg_tone": tone,
+                "quad_class": 1 if goldstein is not None and goldstein > 0 else 3 if goldstein is not None and goldstein < 0 else 0,
+                "num_articles": articles, "num_mentions": mentions, "num_sources": 1,
+                "location": raw.get("ActionGeo_FullName") or "未标注地点",
+                "source_url": raw.get("SOURCEURL") or "",
+                "latitude": raw.get("ActionGeo_Lat"), "longitude": raw.get("ActionGeo_Long"),
+            })
+    return rows
+
+
+def _network_events(data: dict) -> list[dict]:
+    unique = {event.get("id"): event for event in all_events(data)}
+    for event in _processed_grid_events():
+        unique.setdefault(event.get("id"), event)
     return sorted(unique.values(), key=lambda row: (row.get("date", ""), row.get("id", "")))
 
 
@@ -238,16 +304,18 @@ def network_figure(window: dict, countries: list[dict], min_events: int = 1, foc
     country_by_code = {c["code"]: c for c in countries}
     nodes = window["nodes"]
     max_degree = max((n["event_degree"] for n in nodes), default=1)
-    group_colors = {"USA": "#1e6fa8", "CHN": "#2f83b4", "RUS": "#245f93",
-                    "CAN": "#55a9c6", "NOR": "#55a9c6", "DNK": "#55a9c6",
-                    "FIN": "#8abbd0", "SWE": "#8abbd0", "ISL": "#9fc6d6"}
+    ranked_nodes = sorted(nodes, key=lambda node: (-node.get("event_degree", 0), -node.get("article_degree", 0), node["code"]))
+    active_codes = [node["code"] for node in ranked_nodes if node.get("event_degree", 0) > 0]
+    core_codes = set(active_codes[:3])
+    secondary_codes = set(active_codes[3:6])
+    role_colors = {code: "#c87357" if code in core_codes else "#d8aa52" if code in secondary_codes else "#7d96b0" if code in active_codes else "#d6dee4" for code in positions}
     node_text = [f"{COUNTRY_FLAGS.get(n['code'], '•')} {COUNTRY_LABELS.get(n['code'], country_by_code.get(n['code'], {}).get('name', n['code']))}" for n in nodes]
     node_trace = go.Scatter(
         x=[positions[n["code"]][0] for n in nodes], y=[positions[n["code"]][1] for n in nodes],
         mode="markers+text", text=node_text, textposition="top center",
         textfont={"size": 13, "color": "#173f63", "family": "Microsoft YaHei, Arial"},
-        marker={"size": [20 + 36 * math.sqrt(n["event_degree"] / max_degree) if max_degree else 20 for n in nodes],
-                "color": [group_colors.get(n["code"], "#aacddd") for n in nodes], "line": {"width": 2, "color": "#ffffff"},
+        marker={"size": [12 if not n["event_degree"] else 18 + 34 * math.sqrt(n["event_degree"] / max_degree) if max_degree else 18 for n in nodes],
+                "color": [role_colors.get(n["code"], "#d6dee4") for n in nodes], "line": {"width": 2, "color": "#ffffff"},
                 "opacity": 0.96},
         customdata=[[n["code"], n["event_degree"], n["article_degree"]] for n in nodes],
         hovertemplate="%{text} (%{customdata[0]})<br>事件度数：%{customdata[1]:,}<br>关联新闻文章：%{customdata[2]:,}<extra></extra>",
@@ -257,6 +325,9 @@ def network_figure(window: dict, countries: list[dict], min_events: int = 1, foc
         go.Scatter(x=[None], y=[None], mode="lines", line={"width": 4, "color": "#2d8fc9"}, name="合作事件"),
         go.Scatter(x=[None], y=[None], mode="lines", line={"width": 4, "color": "#e47b72"}, name="竞争 / 冲突"),
         go.Scatter(x=[None], y=[None], mode="lines", line={"width": 3, "color": "#aebfca"}, name="中性 / 未定"),
+        go.Scatter(x=[None], y=[None], mode="markers", marker={"size": 12, "color": "#c87357"}, name="动态核心节点"),
+        go.Scatter(x=[None], y=[None], mode="markers", marker={"size": 10, "color": "#d8aa52"}, name="动态次核心节点"),
+        go.Scatter(x=[None], y=[None], mode="markers", marker={"size": 8, "color": "#7d96b0"}, name="动态边缘节点"),
     ]
     fig = go.Figure(edge_traces + [node_trace] + legend_traces)
     fig.update_layout(height=640, margin={"l": 25, "r": 25, "t": 20, "b": 48}, showlegend=True,
@@ -329,31 +400,40 @@ def _search_result_window(data: dict, events: list[dict]) -> dict:
 
 
 def monthly_windows(data: dict) -> list[dict]:
-    """Build comparable month windows from the dated, de-duplicated event rows.
+    """Build every month from 2014-01 through 2026-09.
 
-    The bundled network sample contains four dated September windows. Keeping the
-    month in the label makes that coverage visible instead of implying annual data.
+    Observed events are grouped into their actual month. Empty months remain in
+    the selector with zero edges so the interface exposes the complete research
+    time axis without turning missing coverage into invented relationships.
     """
     grouped: dict[str, list[dict]] = defaultdict(list)
-    for event in all_events(data):
+    for event in _network_events(data):
         month = str(event.get("date", ""))[:7]
         if len(month) == 7 and month[4] == "-":
             grouped[month].append(event)
     windows = []
-    for month in sorted(grouped):
+    months = []
+    year, month_num = 2014, 1
+    while (year, month_num) <= (2026, 9):
+        months.append(f"{year:04d}-{month_num:02d}")
+        month_num += 1
+        if month_num == 13:
+            year, month_num = year + 1, 1
+    for month in months:
         rows = grouped[month]
         edges, nodes = aggregate_events(rows, data["countries"])
+        observed = bool(rows)
         windows.append({
             "id": "month-" + month,
-            "label": month + " 月度样本",
+            "label": month,
             "year": int(month[:4]),
-            "date_start": min(e.get("date", "") for e in rows),
-            "date_end": max(e.get("date", "") for e in rows),
+            "date_start": min((e.get("date", "") for e in rows), default=month + "-01"),
+            "date_end": max((e.get("date", "") for e in rows), default=month + "-01"),
             "events": rows,
             "edges": edges,
             "nodes": nodes,
-            "source": {"dataset": "GDELT 已整理月度样本"},
-            "sample_note": "当前为该月已整理日期窗口，不代表完整月份活动量。",
+            "source": {"dataset": "GDELT 已整理月度样本" if observed else "当前月份暂无整理事件"},
+            "sample_note": "当前为该月已整理日期窗口，不代表完整月份活动量。" if observed else "该月已进入选择器，但当前资料包没有可用于国家关系聚合的事件记录。",
         })
     return windows
 
@@ -570,105 +650,83 @@ def render_search_page() -> None:
         render_search_results(result, data["countries"], "event-search-result")
 
 
+def _month_offset(month: str, offset: int) -> str:
+    total = int(month[:4]) * 12 + int(month[5:7]) - 1 + offset
+    return f"{total // 12:04d}-{total % 12 + 1:02d}"
+
+
+def _event_evidence_rows(events: list[dict], month: str, related_pairs: set[tuple[str, str]], history_months: int = 12, limit: int = 80) -> list[dict]:
+    start = _month_offset(month, -history_months)
+    rows = []
+    for event in events:
+        event_month = str(event.get("date", ""))[:7]
+        if not (start <= event_month <= month):
+            continue
+        pair = tuple(sorted((event.get("actor1", ""), event.get("actor2", ""))))
+        if related_pairs and pair not in related_pairs:
+            continue
+        rows.append({
+            "证据月份": event_month,
+            "日期": event.get("date", ""),
+            "国家对": f"{COUNTRY_FLAGS.get(pair[0], '')} {COUNTRY_LABELS.get(pair[0], pair[0])} ↔ {COUNTRY_FLAGS.get(pair[1], '')} {COUNTRY_LABELS.get(pair[1], pair[1])}",
+            "事件类型": event_type_label(event),
+            "地点": event.get("location", ""),
+            "Goldstein": event.get("goldstein"),
+            "来源": event.get("source_url", ""),
+        })
+    return sorted(rows, key=lambda row: (row["日期"], row["证据月份"]), reverse=True)[:limit]
+
+
+def _render_evidence_table(events: list[dict], month: str, related_pairs: set[tuple[str, str]], key: str, title: str, history_months: int = 12) -> None:
+    note = "全样本时间范围内" if history_months > 100 else "当前月份及此前 12 个月内"
+    st.markdown(f"<div class='network-section-heading'><span>EVIDENCE TRACE</span><b>{title}</b><small>显示{note}、与当前国家对相关的事件证据。</small></div>", unsafe_allow_html=True)
+    rows = _event_evidence_rows(events, month, related_pairs, history_months=history_months)
+    if not rows:
+        st.info("当前资料包没有匹配的事件证据。空白表示覆盖边界，不表示国家关系不存在。")
+        return
+    st.dataframe(rows, hide_index=True, width="stretch", height=390, column_config={"来源": st.column_config.LinkColumn("来源", display_text="打开原文")})
+
+
 def render_network(key: str = "network") -> None:
     data = load_network()
     countries = data["countries"]
     windows = monthly_windows(data)
-    all_rows = all_events(data)
-    overall_edges, overall_nodes = aggregate_events(all_rows, countries)
-    overall = {
-        "id": "all-sample", "label": "全部样本汇总", "year": None,
-        "date_start": min((row.get("date", "") for row in all_rows), default=""),
-        "date_end": max((row.get("date", "") for row in all_rows), default=""),
-        "events": all_rows, "edges": overall_edges, "nodes": overall_nodes,
-        "source": {"dataset": "GDELT 已整理全样本"},
-        "sample_note": "跨已整理日期窗口的去重汇总，仅用于观察国家对的总体覆盖，不代表连续时间序列。",
-    }
-    display_windows = [overall] + windows
-    labels = [w["label"] for w in display_windows]
-    by_label = {w["label"]: w for w in display_windows}
-    section_title("RELATIONSHIP NETWORK", "北极国家关系网络", "把国家节点、新闻事件、月度变化和可追溯证据放进同一张可读的关系图。")
-    st.markdown("<div class='network-hero-note'><b>阅读提示</b><span>一条国家对可以同时出现合作与竞争事件，因此本页把一对关系拆成两条轻微弧线；线越粗表示该月事件关联的新闻文章越多。</span><span class='network-hero-source'>GDELT 新闻感知层 · 不是外交关系结论</span></div>", unsafe_allow_html=True)
-    st.caption("样本窗口只显示已有事件记录的月份；页面不会把单日样本扩写为完整月度总量。")
-    a, b, c = st.columns([1.2, 1.05, 1.0])
-    frame_key = key + "-frame"
-    # Start on the densest observed month so the first view communicates the
-    # full network rather than opening on a one-edge sparse sample window.
-    densest_label = max(display_windows, key=lambda item: (len(item.get("edges", [])), item.get("label", "")))["label"] if display_windows else labels[0]
-    current = st.session_state.get(frame_key, densest_label)
-    choice = a.selectbox("月度网络窗口", labels, index=labels.index(current) if current in labels else 0, key=key + "-choice")
-    min_events = b.selectbox("最少事件数", [1, 2, 5, 10], index=0, key=key + "-min", help="默认显示全部有记录的国家对，避免因阈值过高而把网络切成三条线。")
-    focus_choices = ["全部国家"] + [f"{COUNTRY_FLAGS.get(country['code'], '')} {COUNTRY_LABELS.get(country['code'], country['code'])}" for country in countries]
-    focus_display = c.selectbox("聚焦国家", focus_choices, key=key + "-focus")
-    focus = "ALL" if focus_display == "全部国家" else next((country["code"] for country in countries if focus_display.endswith(COUNTRY_LABELS.get(country["code"], country["code"]))), "ALL")
-    st.session_state[frame_key] = choice
-    window = by_label[choice]
-    m1, m2, m3, m4 = st.columns(4)
-    date_label = window["date_start"] if window["date_end"] == window["date_start"] else f"{window['date_start']}—{window['date_end'][-2:]}"
-    m1.metric("时间范围", date_label)
-    m2.metric("事件记录", f"{len(window['events']):,}")
-    m3.metric("国家对", f"{len(window['edges']):,}")
-    m4.metric("可见关系", f"{sum(edge['event_count'] >= min_events for edge in window['edges']):,}")
-    tabs = st.tabs(["关系网络", "月度窗口对照", "关系与新闻证据", "方法与边界"])
+    month_by_label = {window["label"]: window for window in windows}
+    events = _network_events(data)
+    overall_edges, overall_nodes = aggregate_events(events, countries)
+    overall = {"id": "all-sample", "label": "全样本汇总", "year": None,
+               "date_start": min((e.get("date", "") for e in events), default=""),
+               "date_end": max((e.get("date", "") for e in events), default=""),
+               "events": events, "edges": overall_edges, "nodes": overall_nodes}
+    section_title("RELATIONSHIP NETWORK", "北极国家关系网络", "整体关系看全样本，月度关系看 2014—2026 的每一个月份；事件证据跟随国家对回溯。")
+    st.markdown("<div class='network-hero-note'><b>动态网络阅读方式</b><span>节点大小按该窗口事件度数变化，连线按该窗口国家对变化；同一国家在不同月份的节点大小和连线都会重新计算。</span><span class='network-hero-source'>GDELT 新闻感知层 · 不等同于外交关系结论</span></div>", unsafe_allow_html=True)
+    observed = sum(bool(window["events"]) for window in windows)
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("月度选择器", f"{len(windows)} 个月", "2014-01—2026-09")
+    c2.metric("有事件月份", f"{observed} 个月", "其余月份保留为空网络")
+    c3.metric("全样本事件", f"{len(events):,}", "去重后")
+    c4.metric("全样本国家对", f"{len(overall_edges):,}", "9 个北极国家")
+    tabs = st.tabs(["整体关系网络", "月度关系网络"])
     with tabs[0]:
-        left, right = st.columns([1.72, 1], gap="large")
-        with left:
-            st.markdown("<div class='network-panel-heading'><span>COUNTRY RELATIONSHIP MAP</span><b>北极国家关系网络</b><small>固定节点位置 · 曲线边 · 旗帜标识 · 悬停查看事件证据</small></div>", unsafe_allow_html=True)
-            show_chart(network_figure(window, countries, min_events, focus), key=key + "-graph", config={"displayModeBar": True, "displaylogo": False})
-        with right:
-            render_evidence_panel(window, countries, min_events, key)
-        st.markdown("<div class='network-section-heading'><span>PAIRWISE MATRIX</span><b>国家关系矩阵</b><small>单元格数字为事件记录数，底色表示合作事件与竞争/冲突事件的差额。</small></div>", unsafe_allow_html=True)
-        show_chart(matrix_figure(window, countries), key=key + "-matrix", config={"displayModeBar": False, "displaylogo": False})
-        render_network_insights(window, min_events)
+        st.markdown("<div class='network-panel-heading'><span>ALL OBSERVED EVIDENCE</span><b>全样本国家关系网络</b><small>合并已整理网络样本与 GDELT 网格归档事件；线条越粗表示该国家对的事件文章量越大。</small></div>", unsafe_allow_html=True)
+        show_chart(network_figure(overall, countries, 1, "ALL"), key=key + "-overall", config={"displayModeBar": True, "displaylogo": False})
+        related = {tuple(sorted((edge["source"], edge["target"]))) for edge in overall_edges}
+        _render_evidence_table(events, max((window["label"] for window in windows if window["events"]), default="2025-09"), related, key + "-overall-evidence", "整体网络事件证据", history_months=200)
     with tabs[1]:
-        st.markdown("<div class='network-section-heading'><span>MONTHLY COMPARISON</span><b>月度窗口对照</b><small>同一套国家位置和颜色规则，便于比较关系数量与合作/竞争分布的变化。</small></div>", unsafe_allow_html=True)
-        for offset in range(0, len(windows), 2):
-            cols = st.columns(2, gap="large")
-            for col, panel in zip(cols, windows[offset:offset + 2]):
-                with col:
-                    st.markdown(f"<div class='network-month-label'>{panel['label']} <span>{len(panel['events']):,} 事件 · {len(panel['edges']):,} 国家对</span></div>", unsafe_allow_html=True)
-                    panel_fig = network_figure(panel, countries, min_events, focus)
-                    panel_fig.update_layout(height=430, margin={"l": 15, "r": 15, "t": 10, "b": 40}, legend={"orientation": "h", "y": -0.06, "font": {"size": 10}})
-                    show_chart(panel_fig, key=key + "-panel-" + panel["id"], config={"displayModeBar": False, "displaylogo": False})
-        st.dataframe([{ "月份": w["label"], "事件记录": len(w["events"]), "国家对": len(w["edges"]), "可见关系": sum(edge["event_count"] >= min_events for edge in w["edges"]), "网络密度": round(len(w["edges"]) / 36, 3), "样本说明": w["sample_note"] } for w in windows], hide_index=True, width="stretch")
-    with tabs[2]:
-        options = {f"{e['source']} ↔ {e['target']} · {e['event_count']} 条事件": e for e in window["edges"] if e["event_count"] >= min_events}
-        if not options:
-            st.warning("当前阈值下没有国家对，请降低最少事件数。")
-        else:
-            st.markdown("<div class='network-section-heading'><span>EVIDENCE TRACE</span><b>关系与新闻证据</b><small>从关系汇总回到具体事件，再打开来源网页核对。</small></div>", unsafe_allow_html=True)
-            selected_label = st.selectbox("选择一条国家关系", list(options), key=key + "-edge")
-            edge = options[selected_label]
-            a, b, c, d = st.columns(4)
-            a.metric("事件记录", edge["event_count"])
-            b.metric("新闻文章", edge["article_count"])
-            c.metric("合作事件", edge["positive_events"])
-            d.metric("竞争/冲突", edge["negative_events"])
-            st.info(f"覆盖日期：{edge['first_date']} 至 {edge['last_date']}；Goldstein 均值：{'未计算' if edge['goldstein_mean'] is None else f'{edge['goldstein_mean']:+.2f}'}。正负事件并列展示，不把一对关系压缩成单一颜色。")
-            rows = []
-            wanted = set(edge["event_ids"])
-            for event in window["events"]:
-                if event["id"] not in wanted: continue
-                rows.append({"日期": event["date"], "事件类型": event_type_label(event), "编码": event["event_code"], "地点": event["location"], "Goldstein": event["goldstein"], "来源": event["source_url"]})
-            st.dataframe(rows, hide_index=True, width="stretch")
-            for i, row in enumerate(rows[:6]):
-                if row["来源"].startswith(("http://", "https://")):
-                    source_button(row["来源"], f"站内查看来源 {i + 1}", key=key + "-source-" + str(i))
-    with tabs[3]:
-        st.markdown("<div class='network-section-heading'><span>METHOD & SCOPE</span><b>方法与边界</b><small>把数据口径、计算方式和可解释范围讲清楚。</small></div>", unsafe_allow_html=True)
-        method_cols = st.columns(4)
-        method_cols[0].markdown("<div class='network-method-card'><small>01 / SAMPLE</small><b>月度窗口</b><p>从已整理事件的日期字段按 YYYY-MM 分组，展示已有记录的月份，不补齐缺失月份。</p></div>", unsafe_allow_html=True)
-        method_cols[1].markdown("<div class='network-method-card'><small>02 / EDGE</small><b>国家对关系</b><p>同一国家对的事件数、文章数、合作/竞争事件数聚合成边，并保留事件编号。</p></div>", unsafe_allow_html=True)
-        method_cols[2].markdown("<div class='network-method-card'><small>03 / COLOR</small><b>关系倾向</b><p>蓝色表示合作事件，珊瑚色表示竞争或冲突事件，灰色表示中性或缺少倾向值。</p></div>", unsafe_allow_html=True)
-        method_cols[3].markdown("<div class='network-method-card'><small>04 / SOURCE</small><b>新闻证据</b><p>每条事件保留 GDELT 来源链接，关系汇总只做描述，不替代外交或安全领域判断。</p></div>", unsafe_allow_html=True)
-        st.write(data["scope"])
-        st.write("边的宽度使用事件涉及的新闻文章数；节点大小使用事件度数；关系矩阵使用合作事件减去竞争/冲突事件的差额着色。原始事件保留日期、参与者、事件编码、地点和来源链接。")
-        st.markdown("#### 数据来源与下载")
-        st.download_button("下载当前网络数据 · JSON", json.dumps({"metadata": data, "window": window}, ensure_ascii=False, indent=2), "gdelt-arctic-network-current.json", "application/json", key=key + "-download", on_click="ignore")
-        for citation in data["citations"]:
-            st.markdown(f"- [{citation['title']}]({citation['url']})")
-        st.markdown("#### 使用边界")
-        for limit in data["limitations"]: st.write("- " + limit)
+        labels = [window["label"] for window in windows]
+        densest = max(windows, key=lambda window: len(window["events"]))["label"] if windows else labels[0]
+        choice = st.selectbox("选择月份", labels, index=labels.index(densest) if densest in labels else 0, key=key + "-month-choice")
+        window = month_by_label[choice]
+        m1, m2, m3 = st.columns(3)
+        m1.metric("当前月份", choice)
+        m2.metric("事件记录", f"{len(window['events']):,}")
+        m3.metric("国家对", f"{len(window['edges']):,}")
+        if not window["events"]:
+            st.warning("该月份目前没有可用于国家关系聚合的整理事件；网络保留 9 个国家节点，连线为空。")
+        st.markdown("<div class='network-panel-heading'><span>MONTHLY RELATIONSHIP</span><b>该月份的国家关系网络</b><small>拖动月份选择器后，节点、连线、颜色和下方证据都会同步更新。</small></div>", unsafe_allow_html=True)
+        show_chart(network_figure(window, countries, 1, "ALL"), key=key + "-monthly", config={"displayModeBar": True, "displaylogo": False})
+        related = {tuple(sorted((edge["source"], edge["target"]))) for edge in window["edges"]}
+        _render_evidence_table(events, choice, related, key + "-monthly-evidence", "当前月份及历史关联事件证据")
 
 def render_network_page() -> None:
     render_network("network-page")

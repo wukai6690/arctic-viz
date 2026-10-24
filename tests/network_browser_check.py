@@ -47,10 +47,12 @@ with sync_playwright() as p:
     assert app.locator('.js-plotly-plot').count() >= 1, app.locator("body").inner_text()[:6000]
     checks.append("Visible date/country/event-type search returns a filtered network and evidence table")
     app = open_route("/动态关系网络")
-    app.get_by_text(re.compile("北极国家地缘事件网络")).wait_for()
-    app.get_by_role("tab", name="多时间片对照", exact=True).click(); settle(app)
-    assert app.locator('.js-plotly-plot').count() >= 5
-    checks.append("Four paper-style time-slice panels render with a fixed country layout")
+    app.get_by_text(re.compile("北极国家关系网络")).wait_for()
+    assert app.get_by_role("tab", name="整体关系网络", exact=True).count() == 1
+    app.get_by_role("tab", name="月度关系网络", exact=True).click(); settle(app)
+    assert app.get_by_text("选择月份", exact=True).count() == 1
+    assert app.locator('.js-plotly-plot').count() >= 2
+    checks.append("Overall and manually selectable monthly relationship networks render with historical evidence")
     app = open_route("/实景图集")
     print("Photo page ready", flush=True)
     images = app.locator('[data-testid="stImage"] img')
