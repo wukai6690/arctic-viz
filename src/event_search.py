@@ -487,6 +487,11 @@ def _result_card(record: dict, selected: bool) -> str:
     )
 
 
+def _select_event(record_id: str) -> None:
+    """Select an event before Streamlit reruns the page after a button click."""
+    st.session_state["event-center-selected"] = record_id
+
+
 def _detail(record: dict, key: str) -> None:
     status_class = "good" if record["record_kind"] == "verified_event" else "prepared" if record["record_kind"] == "prepared_event" else "pending"
     st.markdown(f"<div class='event-detail-head'><div><div class='event-eyebrow'>来源与事件详情</div><h2>{_escape(record['display_title'])}</h2></div><span class='event-status {status_class}'>{_escape(record['verification_status'])}</span></div>", unsafe_allow_html=True)
@@ -644,9 +649,13 @@ def render_event_search_center() -> None:
         for record in page_records:
             with st.container(border=True):
                 st.markdown(_result_card(record, record["record_id"] == selected_id), unsafe_allow_html=True)
-                if st.button("查看详情", key="event-open-" + re.sub(r"[^A-Za-z0-9_-]", "_", record["record_id"]), use_container_width=True):
-                    st.session_state["event-center-selected"] = record["record_id"]
-                    st.rerun()
+                st.button(
+                    "查看详情",
+                    key="event-open-" + re.sub(r"[^A-Za-z0-9_-]", "_", record["record_id"]),
+                    use_container_width=True,
+                    on_click=_select_event,
+                    args=(record["record_id"],),
+                )
     with right:
         if selected:
             _detail(selected, "event-detail-" + re.sub(r"[^A-Za-z0-9_-]", "_", selected["record_id"]))

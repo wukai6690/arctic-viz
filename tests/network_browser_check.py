@@ -40,6 +40,13 @@ with sync_playwright() as p:
     assert app.locator('[data-testid="stTextInputRootElement"] input').count() == 1, app.locator("body").inner_text()[:4000]
     app.get_by_role("button", name="检索", exact=True).click(); settle(app)
     app.get_by_text("统一结果与来源详情", exact=True).wait_for()
+    detail_buttons = app.get_by_role("button", name="查看详情", exact=True)
+    assert detail_buttons.count() >= 2
+    selected_before = app.locator(".event-result-card.selected").inner_text()
+    detail_buttons.nth(1).click(); settle(app)
+    selected_after = app.locator(".event-result-card.selected").inner_text()
+    assert selected_after != selected_before
+    checks.append("查看详情按钮切换选中事件并刷新右侧来源详情")
     for _ in range(60):
         if app.locator('.js-plotly-plot').count() >= 1:
             break
