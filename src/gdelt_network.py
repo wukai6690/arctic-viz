@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import gzip
 import math
 import re
 import csv
@@ -17,6 +18,9 @@ from src.source_library import source_button
 
 DATA_PATH = ROOT / "data/analysis/gdelt/network/network.json"
 GRID_PATH = ROOT / "data/processed/gdelt_arctic_by_grid.csv"
+COMPACT_DAILY_PATH = ROOT / "data/analysis/gdelt/network/daily"
+DAILY_MANIFEST_PATH = ROOT / "data/analysis/gdelt/network/daily_manifest.json"
+DAILY_BUNDLE_PATH = ROOT / "data/analysis/gdelt/network/daily_edges.json.gz"
 
 COUNTRY_LABELS = {
     "ALL": "全部国家",
@@ -477,6 +481,112 @@ def monthly_windows(data: dict) -> list[dict]:
     return windows
 
 
+@st.cache_data(show_spinner=False)
+def _compact_daily_packages() -> list[dict]:
+    """Load compact daily pair aggregates produced by the resumable collector."""
+    packages = []
+    if DAILY_BUNDLE_PATH.exists():
+        try:
+            with gzip.open(DAILY_BUNDLE_PATH, "rt", encoding="utf-8") as handle:
+                for line in handle:
+                    if line.strip():
+                        package = json.loads(line)
+                        if package.get("filter_version") == "arctic-bilateral-daily-v1":
+                            packages.append(package)
+            return packages
+        except (OSError, gzip.BadGzipFile, json.JSONDecodeError):
+            packages = []
+    if not COMPACT_DAILY_PATH.exists():
+        return packages
+    for path in sorted(COMPACT_DAILY_PATH.glob("*.json")):
+        try:
+            package = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        if package.get("filter_version") != "arctic-bilateral-daily-v1":
+            continue
+        packages.append(package)
+    return packages
+
+
+@st.cache_data(show_spinner=False)
+def _daily_manifest() -> dict:
+    if not DAILY_MANIFEST_PATH.exists():
+        return {}
+    try:
+        return json.loads(DAILY_MANIFEST_PATH.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def _nodes_from_edges(edges: list[dict], countries: list[dict]) -> list[dict]:
+    degree = Counter()
+    articles = Counter()
+    for edge in edges:
+        degree[edge["source"]] += int(edge.get("event_count", 0) or 0)
+        degree[edge["target"]] += int(edge.get("event_count", 0) or 0)
+        articles[edge["source"]] += int(edge.get("article_count", 0) or 0)
+        articles[edge["target"]] += int(edge.get("article_count", 0) or 0)
+    return [{"code": country["code"], "name": country.get("name", COUNTRY_LABELS.get(country["code"], country["code"])),
+             "english": country.get("english", country["code"]), "role": country.get("role", "北极国家"),
+             "event_degree": degree[country["code"]], "article_degree": articles[country["code"]]} for country in countries]
+
+
+def _bilateral_indices(edges: list[dict]) -> list[dict]:
+    degree = Counter()
+    for edge in edges:
+        degree[edge["source"]] += int(edge.get("event_count", 0) or 0)
+        degree[edge["target"]] += int(edge.get("event_count", 0) or 0)
+    for edge in edges:
+        total = int(edge.get("event_count", 0) or 0) or 1
+        pair_contribution = 0.5 * (
+            total / max(1, degree[edge["source"]])
+            + total / max(1, degree[edge["target"]])
+        )
+        edge["blr_cooperation"] = round(100 * (int(edge.get("positive_events", 0) or 0) / total) * pair_contribution, 2)
+        edge["blr_conflict"] = round(100 * (int(edge.get("negative_events", 0) or 0) / total) * pair_contribution, 2)
+        edge["blr_net"] = round(edge["blr_cooperation"] - edge["blr_conflict"], 2)
+    return edges
+
+
+def _aggregate_edge_rows(rows: list[dict], countries: list[dict]) -> tuple[list[dict], list[dict]]:
+    groups: dict[tuple[str, str], list[dict]] = defaultdict(list)
+    for row in rows:
+        source, target = row.get("source"), row.get("target")
+        if source and target and source != target:
+            groups[tuple(sorted((source, target)))].append(row)
+    edges = []
+    for (source, target), group in sorted(groups.items()):
+        event_count = sum(int(row.get("event_count", 0) or 0) for row in group)
+        article_count = sum(int(row.get("article_count", 0) or 0) for row in group)
+        mention_count = sum(int(row.get("mention_count", 0) or 0) for row in group)
+        source_count = sum(int(row.get("source_count", 0) or 0) for row in group)
+        positive_events = sum(int(row.get("positive_events", 0) or 0) for row in group)
+        negative_events = sum(int(row.get("negative_events", 0) or 0) for row in group)
+        weighted_goldstein = [(row.get("goldstein_mean"), int(row.get("event_count", 0) or 0)) for row in group if row.get("goldstein_mean") is not None]
+        weighted_tone = [(row.get("tone_mean"), int(row.get("event_count", 0) or 0)) for row in group if row.get("tone_mean") is not None]
+        edges.append({
+            "source": source, "target": target, "event_count": event_count,
+            "article_count": article_count, "mention_count": mention_count, "source_count": source_count,
+            "positive_events": positive_events, "negative_events": negative_events,
+            "goldstein_mean": round(sum(value * weight for value, weight in weighted_goldstein) / sum(weight for _, weight in weighted_goldstein), 3) if weighted_goldstein else None,
+            "tone_mean": round(sum(value * weight for value, weight in weighted_tone) / sum(weight for _, weight in weighted_tone), 3) if weighted_tone else None,
+            "first_date": min((row.get("first_date") or row.get("event_date_range", "")[:10] for row in group), default=""),
+            "last_date": max((row.get("last_date") or row.get("event_date_range", "")[-10:] for row in group), default=""),
+            "event_ids": [event_id for row in group for event_id in row.get("event_ids", [])][:80],
+            "source_urls": [url for row in group for url in row.get("source_urls", [])][:12],
+        })
+    return _bilateral_indices(edges), _nodes_from_edges(edges, countries)
+
+
+def _window_event_count(window: dict) -> int:
+    """Return event count for either legacy event windows or compact daily windows."""
+    events = window.get("events", [])
+    if events:
+        return len(events)
+    return sum(int(edge.get("event_count", 0) or 0) for edge in window.get("edges", []))
+
+
 def daily_windows(data: dict) -> list[dict]:
     """Build network windows only for dates with observed GDELT event rows.
 
@@ -484,12 +594,28 @@ def daily_windows(data: dict) -> list[dict]:
     run for a continuous date range. The page uses this list to expose the
     actual observation calendar instead of filling gaps with copied events.
     """
+    compact = _compact_daily_packages()
+    compact_days = {package.get("archive_date") for package in compact}
+    compact_start = min(compact_days) if compact_days else ""
+    compact_end = max(compact_days) if compact_days else ""
+    windows = []
+    for package in compact:
+        day = str(package.get("archive_date", ""))
+        if len(day) != 10:
+            continue
+        edges = _bilateral_indices([dict(edge) for edge in package.get("edges", [])])
+        windows.append({
+            "id": "day-" + day, "label": day, "year": int(day[:4]),
+            "date_start": day, "date_end": day, "events": [], "direct_events": [],
+            "edges": edges, "nodes": _nodes_from_edges(edges, data["countries"]),
+            "source": {"dataset": "GDELT 日级双边聚合"},
+            "sample_note": "由每日 GDELT 日档流式筛选后聚合。",
+        })
     grouped: dict[str, list[dict]] = defaultdict(list)
     for event in _network_events(data):
         day = str(event.get("date", ""))
-        if len(day) == 10 and day[4] == "-" and day[7] == "-":
+        if day not in compact_days and len(day) == 10 and day[4] == "-" and day[7] == "-" and (not compact_days or compact_start <= day <= compact_end):
             grouped[day].append(event)
-    windows = []
     for day in sorted(grouped):
         rows = grouped[day]
         edges, nodes = aggregate_events(rows, data["countries"])
@@ -506,21 +632,35 @@ def daily_windows(data: dict) -> list[dict]:
             "source": {"dataset": "GDELT 日级事件样本"},
             "sample_note": "仅统计该日已归档并通过北极筛选的 GDELT 事件记录。",
         })
-    return windows
+    return sorted(windows, key=lambda window: window["label"])
 
 
 def yearly_windows(data: dict) -> list[dict]:
     """Aggregate observed events by year for the annual comparison view."""
+    compact = _compact_daily_packages()
+    compact_days = {package.get("archive_date") for package in compact}
+    compact_start = min(compact_days) if compact_days else ""
+    compact_end = max(compact_days) if compact_days else ""
+    grouped_edges: dict[int, list[dict]] = defaultdict(list)
+    for package in compact:
+        day = str(package.get("archive_date", ""))
+        if len(day) == 10 and day[:4].isdigit():
+            grouped_edges[int(day[:4])].extend(package.get("edges", []))
     grouped: dict[int, list[dict]] = defaultdict(list)
     for event in _network_events(data):
         day = str(event.get("date", ""))
-        if len(day) >= 4 and day[:4].isdigit():
+        if day not in compact_days and len(day) >= 4 and day[:4].isdigit() and (not compact_days or compact_start <= day[:10] <= compact_end):
             grouped[int(day[:4])].append(event)
     windows = []
-    for year in sorted(grouped):
+    years = sorted(set(grouped) | set(grouped_edges))
+    for year in years:
         rows = grouped[year]
-        edges, nodes = aggregate_events(rows, data["countries"])
-        days = sorted({str(row.get("date", "")) for row in rows if row.get("date")})
+        edges, nodes = aggregate_events(rows, data["countries"]) if rows else ([], [])
+        if grouped_edges.get(year):
+            compact_edges, compact_nodes = _aggregate_edge_rows(grouped_edges[year], data["countries"])
+            edges = _aggregate_edge_rows([*compact_edges, *edges], data["countries"])[0] if edges else compact_edges
+            nodes = _nodes_from_edges(edges, data["countries"])
+        days = sorted({str(row.get("date", "")) for row in rows if row.get("date")} | {str(package.get("archive_date")) for package in compact if str(package.get("archive_date", ""))[:4] == str(year)})
         windows.append({
             "id": "year-" + str(year),
             "label": str(year),
@@ -541,7 +681,7 @@ def yearly_windows(data: dict) -> list[dict]:
 def daily_coverage_figure(windows: list[dict]) -> go.Figure:
     """Plot observed daily event counts and make gaps visible."""
     days = [window["label"] for window in windows]
-    counts = [len(window["events"]) for window in windows]
+    counts = [_window_event_count(window) for window in windows]
     fig = go.Figure(go.Bar(x=days, y=counts, marker_color="#2b86b7", hovertemplate="%{x}<br>事件记录 %{y:,}<extra></extra>"))
     fig.update_layout(height=315, margin={"l": 50, "r": 18, "t": 18, "b": 70}, xaxis_title="实际观测日", yaxis_title="事件记录数", xaxis={"tickangle": -45, "type": "date"})
     return fig
@@ -549,7 +689,7 @@ def daily_coverage_figure(windows: list[dict]) -> go.Figure:
 
 def yearly_counts_figure(windows: list[dict]) -> go.Figure:
     years = [str(window["year"]) for window in windows]
-    counts = [len(window["events"]) for window in windows]
+    counts = [_window_event_count(window) for window in windows]
     days = [len(window.get("observed_days", [])) for window in windows]
     fig = go.Figure(go.Bar(x=years, y=counts, text=[f"{count:,} 条 · {day} 日" for count, day in zip(counts, days)], textposition="outside", marker_color="#4f806d", hovertemplate="%{x}<br>事件记录 %{y:,}<extra></extra>"))
     fig.update_layout(height=315, margin={"l": 50, "r": 18, "t": 28, "b": 48}, xaxis_title="有实际样本的年份", yaxis_title="事件记录数")
@@ -826,16 +966,30 @@ def _render_bilateral_index(edges: list[dict], key: str, title: str) -> None:
 
 def _render_daily_rows(window: dict, key: str, limit: int = 120) -> None:
     rows = []
-    for event in sorted(window.get("events", []), key=lambda row: (row.get("date", ""), row.get("id", "")), reverse=True)[:limit]:
-        pair = tuple(sorted((event.get("actor1", ""), event.get("actor2", ""))))
-        rows.append({
-            "日期": event.get("date", ""),
-            "国家对": f"{COUNTRY_FLAGS.get(pair[0], '')} {COUNTRY_LABELS.get(pair[0], pair[0])} ↔ {COUNTRY_FLAGS.get(pair[1], '')} {COUNTRY_LABELS.get(pair[1], pair[1])}",
-            "事件类型": event_type_label(event),
-            "地点": event.get("location", ""),
-            "Goldstein": event.get("goldstein"),
-            "来源": event.get("source_url", ""),
-        })
+    if not window.get("events"):
+        for edge in sorted(window.get("edges", []), key=lambda row: (-int(row.get("event_count", 0) or 0), row.get("source", ""), row.get("target", ""))):
+            urls = edge.get("source_urls", [])
+            rows.append({
+                "日期": window.get("label", ""),
+                "国家对": f"{COUNTRY_FLAGS.get(edge.get('source'), '')} {COUNTRY_LABELS.get(edge.get('source'), edge.get('source', ''))} ↔ {COUNTRY_FLAGS.get(edge.get('target'), '')} {COUNTRY_LABELS.get(edge.get('target'), edge.get('target', ''))}",
+                "事件类型": edge.get("relation_class", "混合"),
+                "事件记录": edge.get("event_count", 0),
+                "合作/冲突": f"{edge.get('positive_events', 0)}/{edge.get('negative_events', 0)}",
+                "来源": urls[0] if urls else "",
+            })
+            if len(rows) >= limit:
+                break
+    else:
+        for event in sorted(window.get("events", []), key=lambda row: (row.get("date", ""), row.get("id", "")), reverse=True)[:limit]:
+            pair = tuple(sorted((event.get("actor1", ""), event.get("actor2", ""))))
+            rows.append({
+                "日期": event.get("date", ""),
+                "国家对": f"{COUNTRY_FLAGS.get(pair[0], '')} {COUNTRY_LABELS.get(pair[0], pair[0])} ↔ {COUNTRY_FLAGS.get(pair[1], '')} {COUNTRY_LABELS.get(pair[1], pair[1])}",
+                "事件类型": event_type_label(event),
+                "地点": event.get("location", ""),
+                "Goldstein": event.get("goldstein"),
+                "来源": event.get("source_url", ""),
+            })
     if not rows:
         st.info("当前日期没有可展示的事件证据。")
         return
@@ -847,32 +1001,50 @@ def render_network(key: str = "network") -> None:
     countries = data["countries"]
     windows = monthly_windows(data)
     month_by_label = {window["label"]: window for window in windows}
-    events = _network_events(data)
+    compact_packages = _compact_daily_packages()
+    compact_days = {str(package.get("archive_date", "")) for package in compact_packages}
+    all_legacy_events = _network_events(data)
+    events = [event for event in all_legacy_events if str(event.get("date", "")) not in compact_days]
     days = daily_windows(data)
     day_by_label = {window["label"]: window for window in days}
     years = yearly_windows(data)
     year_by_label = {window["label"]: window for window in years}
-    overall_edges, overall_nodes = aggregate_events(events, countries)
+    manifest = _daily_manifest()
+    manifest_days = manifest.get("days", {}) if isinstance(manifest, dict) else {}
+    downloaded_days = sum(result.get("status") in {"ok", "cached"} for result in manifest_days.values())
+    failed_days = sum(result.get("status") == "failed" for result in manifest_days.values())
+    requested_days = int(manifest.get("requested_days", 0) or 0) if isinstance(manifest, dict) else 0
+    coverage_rate = (downloaded_days / requested_days * 100) if requested_days else 0.0
+    coverage_label = f"{coverage_rate:.2f}%" if requested_days else "现有样本"
+    legacy_edges, _ = aggregate_events(events, countries)
+    compact_edges, _ = _aggregate_edge_rows(
+        [edge for package in compact_packages for edge in package.get("edges", [])],
+        countries,
+    )
+    overall_edges, overall_nodes = _aggregate_edge_rows([*compact_edges, *legacy_edges], countries)
+    overall_event_count = sum(int(edge.get("event_count", 0) or 0) for edge in compact_edges) + len(events)
+    all_dates = [str(package.get("archive_date", "")) for package in compact_packages if package.get("archive_date")]
+    all_dates.extend(str(event.get("date", "")) for event in all_legacy_events if event.get("date"))
     overall = {"id": "all-sample", "label": "全样本汇总", "year": None,
-               "date_start": min((e.get("date", "") for e in events), default=""),
-               "date_end": max((e.get("date", "") for e in events), default=""),
+               "date_start": min(all_dates, default=""),
+               "date_end": max(all_dates, default=""),
                "events": events, "edges": overall_edges, "nodes": overall_nodes}
     section_title("RELATIONSHIP NETWORK", "北极国家关系网络", "用 GDELT 事件记录观察国家对的合作与竞争分布，支持整体、年度、日级和月度窗口切换。")
     st.markdown("<div class='network-hero-note'><b>数据阅读方式</b><span>日级视图只显示真正有事件记录的观测日，年度视图按已归档日档聚合；月份视图保留历史回溯，便于浏览既有样本。</span><span class='network-hero-source'>GDELT 新闻感知层 · 不等同于外交关系结论</span></div>", unsafe_allow_html=True)
     c1, c2, c3, c4 = st.columns(4)
-    c1.metric("实际观测日", f"{len(days)} 天", f"{days[0]['label']}—{days[-1]['label']}" if days else "暂无")
-    c2.metric("有样本年份", f"{len(years)} 年", "按已归档日档")
-    c3.metric("全样本事件", f"{len(events):,}", "去重后")
+    c1.metric("已下载日档", f"{downloaded_days or len(days)} 天", f"覆盖率 {coverage_rate:.2f}%" if requested_days else (f"{days[0]['label']}—{days[-1]['label']}" if days else "暂无"))
+    c2.metric("日级聚合窗口", f"{len(days)} 天", f"缺失/失败 {failed_days} 天" if manifest_days else "已整理日期")
+    c3.metric("全样本事件", f"{overall_event_count:,}", "GDELT 日档聚合")
     c4.metric("全样本国家对", f"{len(overall_edges):,}", "9 个北极国家")
     nonempty = sum(bool(window.get("edges")) for window in windows)
-    st.caption(f"当前资料包有 {len(days)} 个实际观测日和 {len(years)} 个有样本年份；月度浏览器仍提供 {nonempty}/{len(windows)} 个有国家对关系的月份，并明确标记历史回溯窗口。")
+    st.caption(f"当前资料包已下载 {downloaded_days or len(days)} 个日档（{coverage_label}），其中 {len(days)} 天进入日级窗口；月度浏览器仍提供 {nonempty}/{len(windows)} 个有国家对关系的月份，并明确标记历史回溯窗口。")
     tabs = st.tabs(["整体关系网络", "日级覆盖", "年度演化", "月度关系网络"])
     with tabs[0]:
         st.markdown("<div class='network-panel-heading'><span>ALL OBSERVED EVIDENCE</span><b>全样本国家关系网络</b><small>合并已整理网络样本与 GDELT 网格归档事件；线条越粗表示该国家对的事件文章量越大。</small></div>", unsafe_allow_html=True)
         show_chart(network_figure(overall, countries, 1, "ALL"), key=key + "-overall", config={"displayModeBar": True, "displaylogo": False})
         _render_bilateral_index(overall_edges, key + "-overall-index", "全样本双边关系指数")
         related = {tuple(sorted((edge["source"], edge["target"]))) for edge in overall_edges}
-        _render_evidence_table(events, max((window["label"] for window in windows if window["events"]), default="2025-09"), related, key + "-overall-evidence", "整体网络事件证据", history_months=200)
+        _render_evidence_table(all_legacy_events, max((window["label"] for window in windows if window["events"]), default="2025-09"), related, key + "-overall-evidence", "整体网络事件证据", history_months=200)
     with tabs[1]:
         st.markdown("<div class='network-panel-heading'><span>DAILY COVERAGE</span><b>实际日级覆盖</b><small>每根柱代表资料包中一个有事件记录的日期，空白区间表示尚未归档或尚未纳入本次样本。</small></div>", unsafe_allow_html=True)
         show_chart(daily_coverage_figure(days), key=key + "-daily-coverage")
@@ -884,7 +1056,7 @@ def render_network(key: str = "network") -> None:
                 "实际观测日": len(window.get("observed_days", [])),
                 "首日": window["date_start"],
                 "末日": window["date_end"],
-                "事件记录": len(window["events"]),
+                "事件记录": _window_event_count(window),
             } for window in years]
             st.dataframe(coverage_rows, hide_index=True, width="stretch", height=220)
             day_labels = [window["label"] for window in days]
@@ -893,7 +1065,7 @@ def render_network(key: str = "network") -> None:
             window = day_by_label[choice]
             d1, d2, d3 = st.columns(3)
             d1.metric("观测日期", choice)
-            d2.metric("事件记录", f"{len(window['events']):,}")
+            d2.metric("事件记录", f"{_window_event_count(window):,}")
             d3.metric("国家对", f"{len(window['edges']):,}")
             show_chart(network_figure(window, countries, 1, "ALL"), key=key + "-daily-network", config={"displayModeBar": True, "displaylogo": False})
             _render_bilateral_index(window["edges"], key + "-daily-index", f"{choice} 双边关系指数")
@@ -911,7 +1083,7 @@ def render_network(key: str = "network") -> None:
             window = year_by_label[choice]
             y1, y2, y3 = st.columns(3)
             y1.metric("样本年份", choice)
-            y2.metric("事件记录", f"{len(window['events']):,}")
+            y2.metric("事件记录", f"{_window_event_count(window):,}")
             y3.metric("实际观测日", f"{len(window.get('observed_days', []))} 天")
             st.caption(f"该年度样本日期范围：{window['date_start']}—{window['date_end']}。年度事件量受日档覆盖影响。")
             show_chart(network_figure(window, countries, 1, "ALL"), key=key + "-year-network", config={"displayModeBar": True, "displaylogo": False})

@@ -54,9 +54,10 @@
 ## 数据整理与核验
 
 1. 区域观测：`python scripts/publish_regional_ice.py`。先核对原始文件哈希、六张工作表的表头/单位/日期/面积关系与边界，再发布 JSON。`--refresh` 更新官方源文件，旧的已验证原始文件存入 `data/analysis/raw/versions/`。生成边界需要 `requirements-analysis.txt` 中的依赖；网站运行不需要这些地理处理库。
-2. 历史事件：`python scripts/collect_gdelt_history.py --start 2016-01-01 --end 2025-12-31 --max-files 31 --workers 2`，每次最多处理 31 个缺失日档，再次运行续采。`--reprocess` 按当前规则重读已有原档。采集结果、隔离异常行和剩余日档数均保留。全时窗补齐尚未执行。采集完成后重新运行网络构建脚本，日级和年度视图会读取新增日档。
+2. 历史事件：`python scripts/collect_gdelt_history.py --start 2016-01-01 --end 2025-12-31 --max-files 31 --workers 2`，每次最多处理 31 个缺失日档，再次运行续采。`--reprocess` 按当前规则重读已有原档。采集结果、隔离异常行和剩余日档数均保留。十年日档网络已按连续采集流程生成；原始 ZIP 不进入仓库。
 3. 原文核验：在“事件线索 → 历史案例窗口与核验 → 原文核验与归并”核对事实、日期和区域，为同一现实事件填写稳定编号。核验记录以追加方式保存在 `data/analysis/event_reviews.jsonl`；变更为排除/待核验后退出已核验事件表。测试写入隔离目录，不伪造正式核验结果。
 4. 动态关系网络：`python scripts/build_gdelt_network.py` 读取选定 GDELT 日档和本地已归档日档，要求两个参与者国家都在登记节点中，并保留北纬 60 度以上行动地理或明确北极词项。先生成事件明细，再按无向国家对聚合；线宽使用新闻文章数，颜色使用 QuadClass 和 Goldstein 均值。日级和年度时间切片仍受已归档日档覆盖影响，不直接解释为完整年度计数。
+5. 连续日级网络：`python scripts/collect_gdelt_network_daily.py --start 2016-01-01 --end 2025-12-31 --max-files 366 --workers 3` 分批下载并流式筛选每日 GDELT 日档，只保存九个节点国家之间的北极双边聚合。原始 ZIP 处理成功后自动删除，`data/analysis/gdelt/network/daily_manifest.json` 区分已下载、零候选和源档缺失日期。本次共覆盖 3,633/3,653 个日期（99.45%）；缺失的 20 天是官方日档索引中返回 404 的源档，清单中逐日保留。完成后运行 `python scripts/build_gdelt_daily_bundle.py`，网站读取约 9.8 MB 的压缩日级包，不读取原始日档。
 5. 专利数据库：运行 `python scripts/build_patent_database.py` 更新原始公开记录，再运行 `python scripts/augment_patent_database.py` 补齐中文摘要和扩展样本；网站中的独立板块支持检索、趋势与热力图，并保留中文摘要、首项权利要求和来源页面。
 6. 复核导出：“区域联动 → 资料覆盖与导出”打包观测、汇总、覆盖、证据节点、海区边界与来源/方法清单。空的事件表表示尚无完成核验的记录，不表示没有真实事件。
 
