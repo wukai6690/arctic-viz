@@ -1,4 +1,5 @@
 """Research overview of the original Streamlit platform."""
+# Release marker: the relationship network includes the compact 2016—2025 GDELT daily bundle.
 import streamlit as st
 from src.presentation import apply_presentation
 from src.home_views import render_home
