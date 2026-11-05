@@ -44,8 +44,8 @@ def render_project():
     pid=b.selectbox('选择项目专题',list(by_id),format_func=lambda x:by_id[x]['title'],key='project_choice')
     project=by_id[pid];st.query_params['project']=pid
     if pid in ['mosaic','asbm','yamal']:
-        from src.home_views import open_case
-        if st.button('阅读完整案例：观测、时序与研究边界',key='project-deep-case'):open_case(pid)
+        if st.button('阅读完整案例：观测、时序与研究边界',key='project-deep-case'):
+            open_project(pid)
     from src.study_scope import scope,scope_label
     from src.study_data import PROJECT_REGIONS,read_json
     study=scope()
@@ -113,7 +113,6 @@ def render_project():
         if len(photos)>1:
             st.markdown('#### 更多实景')
             photo_grid(photos,'project-'+pid)
-            from src.presentation import page_link
             page_link('pages/9_实景图集.py',label='浏览全部实景照片 ↗')
     with interpretation_tab:
         role=read_json('evidence_context.json')['project_roles'][pid]
@@ -158,7 +157,6 @@ def render_existing_findings():
     st.subheader('先从可复核的区域观测开始')
     st.caption(scope_label()+' ｜ 改变研究范围后，此表同步更新。')
     st.dataframe(comparison_rows(scope(),indicator())[['海区','有效年份','同月均值 / km²','最低值年份','最低值 / km²']],hide_index=True,width='stretch')
-    from src.presentation import page_link
     page_link('pages/8_区域联动研究.py',label='查看曲线、筛选规则与资料覆盖 ↗')
     st.caption('以上为真实'+('海冰范围' if indicator()=='extent' else '海冰面积')+'的描述性统计。项目与政策资料用于形成解释；尚未建立完整活动序列来检验海冰与地缘变化的因果关系。')
     themes=[

@@ -119,10 +119,10 @@ def parse_zip(path: Path, archive_date: str, dataset: str) -> tuple[list[dict], 
     }
 
 
-def existing_2019() -> tuple[list[dict], dict]:
+def existing_daily() -> tuple[list[dict], dict]:
     events = []
     sources = []
-    for path in sorted((ROOT / "data/analysis/gdelt/daily").glob("2019-09-*.json")):
+    for path in sorted((ROOT / "data/analysis/gdelt/daily").glob("*.json")):
         package = json.loads(path.read_text(encoding="utf-8"))
         sources.append(package["source"])
         for row in package.get("records", []):
@@ -142,9 +142,15 @@ def existing_2019() -> tuple[list[dict], dict]:
                 "source_line": row.get("source_line"), "dataset": row.get("dataset", "GDELT 1.0"),
                 "filter_reasons": row.get("relevance_reasons", []),
             })
-    return events, {"archive_date": "2019-09-17/23", "dataset": "GDELT 1.0", "sources": sources,
-                    "scanned_rows": sum(json.loads(p.read_text(encoding="utf-8")).get("coverage", {}).get("scanned_rows", 0) for p in sorted((ROOT / "data/analysis/gdelt/daily").glob("2019-09-*.json"))),
+    dates = sorted({row["date"] for row in events if row.get("date")})
+    return events, {"archive_date": f"{dates[0]}—{dates[-1]}" if dates else "暂无日档", "dataset": "GDELT 1.0", "sources": sources,
+                    "scanned_rows": sum(json.loads(p.read_text(encoding="utf-8")).get("coverage", {}).get("scanned_rows", 0) for p in sorted((ROOT / "data/analysis/gdelt/daily").glob("*.json"))),
                     "candidate_events": len(events)}
+
+
+def existing_2019() -> tuple[list[dict], dict]:
+    """Backward-compatible alias for callers that used the original helper."""
+    return existing_daily()
 
 
 def aggregate(events: list[dict]) -> tuple[list[dict], list[dict]]:
@@ -193,11 +199,16 @@ def main() -> None:
                         "date_start": f"{year}-09-15", "date_end": f"{year}-09-15",
                         "events": events, "edges": edges, "nodes": nodes, "source": source,
                         "sample_note": "单日档案样本；用于交互展示和方法试验，不能解释为全年统计。"})
-    events, source = existing_2019();edges, nodes = aggregate(events)
-    windows.insert(1, {"id": "2019", "label": "2019 · 9月17—23日窗口", "year": 2019,
-                        "date_start": "2019-09-17", "date_end": "2019-09-23", "events": events,
+    events, source = existing_daily();edges, nodes = aggregate(events)
+    daily_dates = sorted({row["date"] for row in events if row.get("date")})
+    daily_start = daily_dates[0] if daily_dates else ""
+    daily_end = daily_dates[-1] if daily_dates else ""
+    daily_year = int(daily_start[:4]) if daily_start and daily_start[:4] == daily_end[:4] else None
+    daily_label = f"日档集合 · {daily_start}—{daily_end}" if daily_dates else "日档集合"
+    windows.insert(1, {"id": "daily-archives", "label": daily_label, "year": daily_year,
+                        "date_start": daily_start, "date_end": daily_end, "events": events,
                         "edges": edges, "nodes": nodes, "source": source,
-                        "sample_note": "沿用已整理的 MOSAiC 启航窗口；7 个日档，不是全年统计。"})
+                        "sample_note": "由本地已归档日档聚合；运行历史采集脚本后可扩展连续日期覆盖。"})
     package = {
         "version": "gdelt-arctic-network-20261013-v1", "generated_at": "2026-10-13",
         "dataset_note": "国家对网络由 GDELT 机器编码事件聚合而来；它描述新闻中的互动记录，不等同于外交关系强度。",

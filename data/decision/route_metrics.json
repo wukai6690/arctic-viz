@@ -1,0 +1,78 @@
+{
+  "version": "decision-v1",
+  "description": "三条参考航线的决策演示参数。距离、服务与数据覆盖用于方案比较，不能替代航海图和实时航行许可。",
+  "routes": [
+    {
+      "route_id": "nsr",
+      "name": "东北航道",
+      "name_en": "Northeast Passage",
+      "distance_nm": 3000,
+      "distance_source": "geojson description",
+      "evidence_regions": ["barents", "kara", "chukchi"],
+      "data_coverage": 0.82,
+      "service_index": 0.72,
+      "open_months": [7, 8, 9, 10],
+      "ice_prior": 0.48,
+      "service_note": "沿岸港口、科研站和海冰资料线索较多",
+      "limits": "区域海冰记录是月度背景，未包含实时航段级冰情。"
+    },
+    {
+      "route_id": "nwp",
+      "name": "西北航道",
+      "name_en": "Northwest Passage",
+      "distance_nm": 1500,
+      "distance_source": "geojson description",
+      "evidence_regions": ["chukchi"],
+      "data_coverage": 0.58,
+      "service_index": 0.48,
+      "open_months": [8, 9],
+      "ice_prior": 0.62,
+      "service_note": "已有区域证据较少，服务节点覆盖有限",
+      "limits": "现有区域海冰表未覆盖整条西北航道，结果存在较大信息缺口。"
+    },
+    {
+      "route_id": "transpolar",
+      "name": "中央航道",
+      "name_en": "Transpolar Passage",
+      "distance_nm": 2200,
+      "distance_source": "scenario estimate",
+      "evidence_regions": [],
+      "data_coverage": 0.28,
+      "service_index": 0.22,
+      "open_months": [7, 8, 9],
+      "ice_prior": 0.86,
+      "service_note": "缺少成熟商业通航和沿线服务节点资料",
+      "limits": "中央航道的距离、冰情和服务指标主要用于概念性方案比较。"
+    }
+  ],
+  "vessels": [
+    {
+      "id": "cargo",
+      "name": "普通货船",
+      "ice_factor": 1.0,
+      "service_factor": 1.0,
+      "description": "对海冰和服务中断更敏感"
+    },
+    {
+      "id": "reinforced",
+      "name": "冰区加强型货船",
+      "ice_factor": 0.82,
+      "service_factor": 0.92,
+      "description": "具备一定冰区适航能力"
+    },
+    {
+      "id": "icebreaker",
+      "name": "破冰船",
+      "ice_factor": 0.62,
+      "service_factor": 0.78,
+      "description": "对海冰暴露的敏感度较低"
+    },
+    {
+      "id": "research",
+      "name": "科考船",
+      "ice_factor": 0.88,
+      "service_factor": 0.85,
+      "description": "兼顾任务区域和补给条件"
+    }
+  ]
+}

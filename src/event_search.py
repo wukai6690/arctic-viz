@@ -556,6 +556,11 @@ def _css() -> None:
         .event-search-shell h3{color:#123f73!important;margin:0 0 6px!important}.event-search-shell p{color:#5f7d9c;margin:0}
         .event-kicker,.event-eyebrow{color:#287bbd;font-size:12px;letter-spacing:.12em;font-weight:800;text-transform:uppercase}
         .event-filter-note{background:#e5f2ff;border:1px solid #cfe5f8;border-radius:10px;padding:10px 14px;color:#416b91;font-size:13px}
+        .event-filter-panel{background:#f8fbfe;border:1px solid #d7e6f2;border-radius:16px;padding:15px 16px;position:sticky;top:1rem}
+        .event-filter-panel h3{color:#123f73!important;margin:4px 0 3px!important;font-size:20px!important}.event-filter-panel p{color:#6d87a1;font-size:12px;line-height:1.65;margin:0 0 12px}
+        .event-filter-group{border-top:1px solid #e1edf5;padding-top:12px;margin-top:12px}.event-filter-group label{color:#4e6f8d;font-size:12px;font-weight:700}
+        .event-cameo-note{font-size:11px;color:#8098ad;margin:3px 0 5px}.event-filter-panel [data-testid="stExpander"]{border:1px solid #dceaf4;background:#fff}
+        .event-metric-compact{min-height:84px;padding:9px 12px;border:1px solid #d9eaf4;border-radius:12px;background:#fff;box-shadow:0 8px 20px rgba(24,92,145,.05)}.event-metric-compact small{display:block;color:#6d87a1;font-size:12px}.event-metric-compact strong{display:block;color:#1672ad;font-size:18px;line-height:1.35;margin-top:8px;white-space:normal}
         .event-result-card{padding:13px 15px;border:1px solid #d7e6f2;border-radius:11px;background:#fff;margin:0 0 6px;box-shadow:0 5px 15px rgba(24,92,145,.04)}
         .event-result-card.selected{border-color:#2584d0;box-shadow:0 0 0 2px #cfe8ff}
         .event-result-card h4{font-size:15px!important;color:#123f73!important;margin:7px 0 3px!important}.event-result-card p{font-size:12px;color:#718aa3;margin:0}
@@ -570,6 +575,38 @@ def _css() -> None:
     )
 
 
+def _cameo_groups() -> list[tuple[str, list[str]]]:
+    return [
+        ("合作与协调", ["01", "02", "03", "04", "05", "06", "07", "08"]),
+        ("调查、要求与反应", ["09", "10", "11", "12"]),
+        ("冲突与强制", ["13", "14", "15", "16", "17", "18", "19", "20"]),
+    ]
+
+
+def _render_cameo_checklist(current: dict, key: str) -> list[str]:
+    """Render a compact CAMEO checklist inspired by the BNU GDE filter rail."""
+    selected = set(current.get("event_types") or [])
+    all_types = st.checkbox(
+        "全部事件类型",
+        value=not selected,
+        key=key + "-all-types",
+        help="取消后可按 CAMEO 根类别缩小结果。",
+    )
+    st.markdown("<div class='event-cameo-note'>CAMEO 根类别 · 代码与中文名称同时保留</div>", unsafe_allow_html=True)
+    chosen: list[str] = []
+    for group_label, codes in _cameo_groups():
+        with st.expander(group_label, expanded=False):
+            for code in codes:
+                if st.checkbox(
+                    f"{code} · {EVENT_TYPES[code]}",
+                    value=all_types or code in selected,
+                    key=key + "-type-" + code,
+                    disabled=all_types,
+                ):
+                    chosen.append(code)
+    return [] if all_types else chosen
+
+
 def render_event_search_center() -> None:
     records = load_unified_records()
     _css()
@@ -581,108 +618,114 @@ def render_event_search_center() -> None:
     dates = [row["event_date"] for row in records if row.get("event_date")]
     min_day, max_day = date.fromisoformat(min(dates)), date.fromisoformat(max(dates))
     choices = _country_choices(records)
-    with st.container(border=True):
-        st.markdown("<div class='event-kicker'>统一检索入口</div><h3>先搜索，再逐条阅读来源</h3><p>事件记录、机器候选和后续核验事实共用一套结果列表；原始文件和来源归档日期不会被隐藏。</p>", unsafe_allow_html=True)
+    filter_col, content_col = st.columns([0.29, 0.71], gap="large")
+    country_codes = [x[0] for x in choices]
+    country1_index = country_codes.index(current.get("country1", "ALL")) if current.get("country1", "ALL") in country_codes else 0
+    country2_index = country_codes.index(current.get("country2", "ALL")) if current.get("country2", "ALL") in country_codes else 0
+    current_relation = (current.get("relations") or [""])[0]
+    relation_index = RELATION_CLASSES.index(current_relation) + 1 if current_relation in RELATION_CLASSES else 0
+    kind_options = [("全部记录", []), *[(label, [kind]) for kind, label in KIND_LABELS.items()]]
+    current_kind = (current.get("kinds") or [""])[0]
+    kind_label_options = [label for label, _ in kind_options]
+    kind_index = kind_label_options.index(KIND_LABELS[current_kind]) if current_kind in KIND_LABELS else 0
+
+    with filter_col:
+        st.markdown("<div class='event-filter-panel'><div class='event-kicker'>FILTERS</div><h3>检索筛选</h3><p>参考北师大全球新闻事件数据共享平台，将日期、国家对、事件类型和数据层级集中在左侧。</p></div>", unsafe_allow_html=True)
         with st.form("event-center-form", clear_on_submit=False):
-            query = st.text_input("关键词", value=current.get("query", ""), placeholder="搜索国家、地点、项目、机构或来源网址")
-            c1, c2, c3, c4 = st.columns(4)
-            start = c1.date_input("事件日期起", value=max(min_day, current.get("start", min_day)), min_value=min_day, max_value=max_day)
-            end = c2.date_input("事件日期止", value=min(max_day, current.get("end", max_day)), min_value=min_day, max_value=max_day)
-            country_codes = [x[0] for x in choices]
-            country1_index = country_codes.index(current.get("country1", "ALL")) if current.get("country1", "ALL") in country_codes else 0
-            country2_index = country_codes.index(current.get("country2", "ALL")) if current.get("country2", "ALL") in country_codes else 0
-            country1 = c3.selectbox("国家 / 地区（角色1）", choices, index=country1_index)
-            country2 = c4.selectbox("国家 / 地区（角色2）", choices, index=country2_index)
-            c5, c6, c7 = st.columns(3)
-            current_relation = (current.get("relations") or [""])[0]
-            relation_index = RELATION_CLASSES.index(current_relation) + 1 if current_relation in RELATION_CLASSES else 0
-            relation = c5.selectbox("关系类别", ["全部关系类别", *RELATION_CLASSES], index=relation_index)
-            kind_options = [("全部记录", []), *[(label, [kind]) for kind, label in KIND_LABELS.items()]]
-            current_kind = (current.get("kinds") or [""])[0]
-            kind_label_options = [label for label, _ in kind_options]
-            kind_index = kind_label_options.index(KIND_LABELS[current_kind]) if current_kind in KIND_LABELS else 0
-            kind_label = c6.selectbox("数据类型", kind_label_options, index=kind_index)
-            sort = c7.selectbox("排序", ["最新", "最早", "报道链接数"], index=["最新", "最早", "报道链接数"].index(current.get("sort", "最新")))
-            with st.expander("高级筛选：CAMEO 根类别与角色方向"):
-                event_types = st.multiselect("CAMEO 根类别（默认不限制）", list(EVENT_TYPES), default=current.get("event_types", []), format_func=lambda code: f"{code} · {EVENT_TYPES[code]}")
-                ignore_direction = st.checkbox("忽略角色方向", value=current.get("ignore_direction", False), help="例如中国—俄罗斯和俄罗斯—中国按同一国家对匹配。")
+            query = st.text_input("关键词", value=current.get("query", ""), placeholder="国家、地点、机构或来源")
+            st.markdown("<div class='event-filter-group'><label>时间范围</label></div>", unsafe_allow_html=True)
+            start = st.date_input("开始日期", value=max(min_day, current.get("start", min_day)), min_value=min_day, max_value=max_day)
+            end = st.date_input("结束日期", value=min(max_day, current.get("end", max_day)), min_value=min_day, max_value=max_day)
+            st.markdown("<div class='event-filter-group'><label>国家或地区</label></div>", unsafe_allow_html=True)
+            country1 = st.selectbox("国家或地区一 · 角色1", choices, index=country1_index, format_func=lambda item: item[1])
+            country2 = st.selectbox("国家或地区二 · 角色2", choices, index=country2_index, format_func=lambda item: item[1])
+            ignore_direction = st.checkbox("忽略角色方向", value=current.get("ignore_direction", False), help="例如中国—俄罗斯和俄罗斯—中国按同一国家对匹配。")
+            st.markdown("<div class='event-filter-group'><label>事件类型</label></div>", unsafe_allow_html=True)
+            event_types = _render_cameo_checklist(current, "event-center")
+            st.markdown("<div class='event-filter-group'><label>结果层级与排序</label></div>", unsafe_allow_html=True)
+            relation = st.selectbox("关系类别", ["全部关系类别", *RELATION_CLASSES], index=relation_index)
+            kind_label = st.selectbox("数据类型", kind_label_options, index=kind_index)
+            sort = st.selectbox("排序", ["最新", "最早", "报道链接数"], index=["最新", "最早", "报道链接数"].index(current.get("sort", "最新")))
             submitted = st.form_submit_button("检索", type="primary", use_container_width=True)
-        if submitted:
-            if start > end:
-                st.error("事件日期起不能晚于事件日期止。")
-            else:
-                st.session_state[state_key] = {
-                    "query": query, "start": start, "end": end, "country1": country1[0], "country2": country2[0],
-                    "relations": [] if relation == "全部关系类别" else [relation],
-                    "kinds": next(kinds for label, kinds in kind_options if label == kind_label),
-                    "event_types": event_types, "ignore_direction": ignore_direction, "sort": sort,
-                }
-                current = st.session_state[state_key]
-        st.markdown(f"<div class='event-filter-note'>当前库：{len(records):,} 条统一记录。已整理网络样本与候选文件按 record_id 去重；事件日期和来源归档日期分开统计。</div>", unsafe_allow_html=True)
+        st.caption(f"当前库 {len(records):,} 条。事件日期与来源归档日期分开保存。")
+
+    if submitted:
+        if start > end:
+            st.error("事件日期起不能晚于事件日期止。")
+        else:
+            st.session_state[state_key] = {
+                "query": query, "start": start, "end": end, "country1": country1[0], "country2": country2[0],
+                "relations": [] if relation == "全部关系类别" else [relation],
+                "kinds": next(kinds for label, kinds in kind_options if label == kind_label),
+                "event_types": event_types, "ignore_direction": ignore_direction, "sort": sort,
+            }
+            current = st.session_state[state_key]
 
     filtered = filter_records(records, current)
     stats = _stats(filtered)
-    metrics = st.columns(4)
-    metrics[0].metric("检索结果", f"{stats['records']:,} 条")
-    metrics[1].metric("国家 / 地区组合", f"{stats['pairs']:,} 对")
-    metrics[2].metric("原始报道链接", f"{stats['links']:,} 个")
-    metrics[3].metric("事件日期覆盖", stats["date_range"])
-    st.caption(f"结果中的新闻文章计数合计 {stats['articles']:,}；它表示机器记录关联的文章数，不等同于独立现实事件数。")
+    with content_col:
+        st.markdown("<div class='event-search-shell'><div class='event-kicker'>UNIFIED SEARCH RESULTS</div><h3>事件结果与来源详情</h3><p>记录、候选和核验事实共用一套结果列表；右侧详情保留原始来源和机器字段。</p></div>", unsafe_allow_html=True)
+        st.markdown(f"<div class='event-filter-note'>当前检索返回 {stats['records']:,} 条记录。新闻文章计数合计 {stats['articles']:,}，用于衡量机器记录关联的报道量。</div>", unsafe_allow_html=True)
+        metrics = st.columns(4)
+        metrics[0].metric("检索结果", f"{stats['records']:,} 条")
+        metrics[1].metric("国家 / 地区组合", f"{stats['pairs']:,} 对")
+        metrics[2].metric("原始报道链接", f"{stats['links']:,} 个")
+        metrics[3].markdown(f"<div class='event-metric-compact'><small>事件日期覆盖</small><strong>{_escape(stats['date_range'])}</strong></div>", unsafe_allow_html=True)
+        st.caption(f"结果中的新闻文章计数合计 {stats['articles']:,}；它表示机器记录关联的文章数，不等同于独立现实事件数。")
 
-    st.markdown("<div class='event-section-label'>统一结果与来源详情</div>", unsafe_allow_html=True)
-    left, right = st.columns([1.05, 1], gap="large")
-    page_size = 10
-    page_count = max(1, (len(filtered) + page_size - 1) // page_size)
-    page = st.number_input("结果页", min_value=1, max_value=page_count, value=1, step=1, key="event-center-page", label_visibility="collapsed")
-    start_index = (int(page) - 1) * page_size
-    page_records = filtered[start_index:start_index + page_size]
-    selected_id = st.session_state.get("event-center-selected")
-    if selected_id not in {row["record_id"] for row in filtered}:
-        selected_id = page_records[0]["record_id"] if page_records else None
-        if selected_id:
-            st.session_state["event-center-selected"] = selected_id
-    selected = next((row for row in filtered if row["record_id"] == selected_id), None)
-    with left:
-        st.markdown(f"#### 检索结果 <small style='color:#6c87a2'>（{len(filtered):,} 条 · 第 {int(page)}/{page_count} 页）</small>", unsafe_allow_html=True)
-        if not page_records:
-            st.info("没有匹配记录。可以扩大日期范围、清空数据类型或减少关键词。")
-        for record in page_records:
-            with st.container(border=True):
-                st.markdown(_result_card(record, record["record_id"] == selected_id), unsafe_allow_html=True)
-                st.button(
-                    "查看详情",
-                    key="event-open-" + re.sub(r"[^A-Za-z0-9_-]", "_", record["record_id"]),
-                    use_container_width=True,
-                    on_click=_select_event,
-                    args=(record["record_id"],),
-                )
-    with right:
-        if selected:
-            _detail(selected, "event-detail-" + re.sub(r"[^A-Za-z0-9_-]", "_", selected["record_id"]))
-        else:
-            st.info("点击左侧结果查看事件详情和来源。")
+        st.markdown("<div class='event-section-label'>统一结果与来源详情</div>", unsafe_allow_html=True)
+        left, right = st.columns([1.05, 1], gap="large")
+        page_size = 10
+        page_count = max(1, (len(filtered) + page_size - 1) // page_size)
+        page = st.number_input("结果页", min_value=1, max_value=page_count, value=1, step=1, key="event-center-page", label_visibility="collapsed")
+        start_index = (int(page) - 1) * page_size
+        page_records = filtered[start_index:start_index + page_size]
+        selected_id = st.session_state.get("event-center-selected")
+        if selected_id not in {row["record_id"] for row in filtered}:
+            selected_id = page_records[0]["record_id"] if page_records else None
+            if selected_id:
+                st.session_state["event-center-selected"] = selected_id
+        selected = next((row for row in filtered if row["record_id"] == selected_id), None)
+        with left:
+            st.markdown(f"#### 检索结果 <small style='color:#6c87a2'>（{len(filtered):,} 条 · 第 {int(page)}/{page_count} 页）</small>", unsafe_allow_html=True)
+            if not page_records:
+                st.info("没有匹配记录。可以扩大日期范围、清空数据类型或减少关键词。")
+            for record in page_records:
+                with st.container(border=True):
+                    st.markdown(_result_card(record, record["record_id"] == selected_id), unsafe_allow_html=True)
+                    st.button(
+                        "查看详情",
+                        key="event-open-" + re.sub(r"[^A-Za-z0-9_-]", "_", record["record_id"]),
+                        use_container_width=True,
+                        on_click=_select_event,
+                        args=(record["record_id"],),
+                    )
+        with right:
+            if selected:
+                _detail(selected, "event-detail-" + re.sub(r"[^A-Za-z0-9_-]", "_", selected["record_id"]))
+            else:
+                st.info("点击左侧结果查看事件详情和来源。")
 
-    st.markdown("<div class='event-section-label'>趋势与分布</div>", unsafe_allow_html=True)
-    chart_left, chart_right = st.columns(2, gap="large")
-    with chart_left:
-        st.markdown("#### 事件日期趋势")
-        show_chart(_year_figure(filtered), key="event-center-trend")
-    with chart_right:
-        st.markdown("#### 关系类别分布")
-        show_chart(_relation_figure(filtered), key="event-center-relations")
+        st.markdown("<div class='event-section-label'>趋势与分布</div>", unsafe_allow_html=True)
+        chart_left, chart_right = st.columns(2, gap="large")
+        with chart_left:
+            st.markdown("#### 事件日期趋势")
+            show_chart(_year_figure(filtered), key="event-center-trend")
+        with chart_right:
+            st.markdown("#### 关系类别分布")
+            show_chart(_relation_figure(filtered), key="event-center-relations")
 
-    st.markdown("<div class='event-section-label'>候选库与方法说明</div>", unsafe_allow_html=True)
-    kind_counts = stats["kinds"]
-    cards = st.columns(3)
-    for col, kind in zip(cards, KIND_LABELS):
-        col.metric(KIND_LABELS[kind], f"{kind_counts.get(kind, 0):,} 条")
-    st.info("“已整理事件”来自固定的国家关系事件样本；“机器候选”来自较大 GDELT 候选文件；“独立核验”只有完成来源核对并归并后才进入。三类记录保留不同质量等级，不直接相加解释为现实事件数量。")
-    dl_left, dl_right = st.columns(2)
-    export_columns = ["record_id", "record_kind_label", "verification_status", "event_date", "archive_date", "dataset", "actor1_label", "actor2_label", "event_category", "relation_class", "location", "source_url", "num_articles", "goldstein", "avg_tone"]
-    export_frame = pd.DataFrame([{key: row.get(key, "") for key in export_columns} for row in filtered])
-    dl_left.download_button("下载当前检索结果 · CSV", export_frame.to_csv(index=False).encode("utf-8-sig"), "arctic-event-search-results.csv", "text/csv", use_container_width=True, on_click="ignore")
-    dl_right.download_button("下载当前检索结果 · JSON", json.dumps(filtered, ensure_ascii=False, indent=2), "arctic-event-search-results.json", "application/json", use_container_width=True, on_click="ignore")
-    with st.expander("来源、日期与使用边界"):
-        st.write("事件日期是 GDELT 记录中的事件日期；来源归档日期是原始数据文件日期，两者不互相替代。机器候选的标题使用中性机器编码摘要，没有把网页标题猜写成新闻事实。")
-        st.write("原始链接可打开时提供网页读取按钮；网页读取受来源站点访问限制，不能替代人工核验。Goldstein、AvgTone 和机器事件编码是研究字段，不是国家关系评分或现实事件强度。")
-
+        st.markdown("<div class='event-section-label'>候选库与方法说明</div>", unsafe_allow_html=True)
+        kind_counts = stats["kinds"]
+        cards = st.columns(3)
+        for col, kind in zip(cards, KIND_LABELS):
+            col.metric(KIND_LABELS[kind], f"{kind_counts.get(kind, 0):,} 条")
+        st.info("“已整理事件”来自固定的国家关系事件样本；“机器候选”来自较大 GDELT 候选文件；“独立核验”只有完成来源核对并归并后才进入。三类记录保留不同质量等级，不直接相加解释为现实事件数量。")
+        dl_left, dl_right = st.columns(2)
+        export_columns = ["record_id", "record_kind_label", "verification_status", "event_date", "archive_date", "dataset", "actor1_label", "actor2_label", "event_category", "relation_class", "location", "source_url", "num_articles", "goldstein", "avg_tone"]
+        export_frame = pd.DataFrame([{key: row.get(key, "") for key in export_columns} for row in filtered])
+        dl_left.download_button("下载当前检索结果 · CSV", export_frame.to_csv(index=False).encode("utf-8-sig"), "arctic-event-search-results.csv", "text/csv", use_container_width=True, on_click="ignore")
+        dl_right.download_button("下载当前检索结果 · JSON", json.dumps(filtered, ensure_ascii=False, indent=2), "arctic-event-search-results.json", "application/json", use_container_width=True, on_click="ignore")
+        with st.expander("来源、日期与使用边界"):
+            st.write("事件日期是 GDELT 记录中的事件日期；来源归档日期是原始数据文件日期，两者不互相替代。机器候选的标题使用中性机器编码摘要，没有把网页标题猜写成新闻事实。")
+            st.write("原始链接可打开时提供网页读取按钮；网页读取受来源站点访问限制，不能替代人工核验。Goldstein、AvgTone 和机器事件编码是研究字段，不是国家关系评分或现实事件强度。")

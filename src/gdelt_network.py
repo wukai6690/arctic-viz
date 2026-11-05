@@ -477,6 +477,85 @@ def monthly_windows(data: dict) -> list[dict]:
     return windows
 
 
+def daily_windows(data: dict) -> list[dict]:
+    """Build network windows only for dates with observed GDELT event rows.
+
+    Daily coverage is intentionally sparse until the archive collector has been
+    run for a continuous date range. The page uses this list to expose the
+    actual observation calendar instead of filling gaps with copied events.
+    """
+    grouped: dict[str, list[dict]] = defaultdict(list)
+    for event in _network_events(data):
+        day = str(event.get("date", ""))
+        if len(day) == 10 and day[4] == "-" and day[7] == "-":
+            grouped[day].append(event)
+    windows = []
+    for day in sorted(grouped):
+        rows = grouped[day]
+        edges, nodes = aggregate_events(rows, data["countries"])
+        windows.append({
+            "id": "day-" + day,
+            "label": day,
+            "year": int(day[:4]),
+            "date_start": day,
+            "date_end": day,
+            "events": rows,
+            "direct_events": rows,
+            "edges": edges,
+            "nodes": nodes,
+            "source": {"dataset": "GDELT 日级事件样本"},
+            "sample_note": "仅统计该日已归档并通过北极筛选的 GDELT 事件记录。",
+        })
+    return windows
+
+
+def yearly_windows(data: dict) -> list[dict]:
+    """Aggregate observed events by year for the annual comparison view."""
+    grouped: dict[int, list[dict]] = defaultdict(list)
+    for event in _network_events(data):
+        day = str(event.get("date", ""))
+        if len(day) >= 4 and day[:4].isdigit():
+            grouped[int(day[:4])].append(event)
+    windows = []
+    for year in sorted(grouped):
+        rows = grouped[year]
+        edges, nodes = aggregate_events(rows, data["countries"])
+        days = sorted({str(row.get("date", "")) for row in rows if row.get("date")})
+        windows.append({
+            "id": "year-" + str(year),
+            "label": str(year),
+            "year": year,
+            "date_start": days[0] if days else "",
+            "date_end": days[-1] if days else "",
+            "events": rows,
+            "direct_events": rows,
+            "edges": edges,
+            "nodes": nodes,
+            "observed_days": days,
+            "source": {"dataset": "GDELT 年度聚合样本"},
+            "sample_note": "年度总量由当前已归档日档聚合，不等同于完整年度统计。",
+        })
+    return windows
+
+
+def daily_coverage_figure(windows: list[dict]) -> go.Figure:
+    """Plot observed daily event counts and make gaps visible."""
+    days = [window["label"] for window in windows]
+    counts = [len(window["events"]) for window in windows]
+    fig = go.Figure(go.Bar(x=days, y=counts, marker_color="#2b86b7", hovertemplate="%{x}<br>事件记录 %{y:,}<extra></extra>"))
+    fig.update_layout(height=315, margin={"l": 50, "r": 18, "t": 18, "b": 70}, xaxis_title="实际观测日", yaxis_title="事件记录数", xaxis={"tickangle": -45, "type": "date"})
+    return fig
+
+
+def yearly_counts_figure(windows: list[dict]) -> go.Figure:
+    years = [str(window["year"]) for window in windows]
+    counts = [len(window["events"]) for window in windows]
+    days = [len(window.get("observed_days", [])) for window in windows]
+    fig = go.Figure(go.Bar(x=years, y=counts, text=[f"{count:,} 条 · {day} 日" for count, day in zip(counts, days)], textposition="outside", marker_color="#4f806d", hovertemplate="%{x}<br>事件记录 %{y:,}<extra></extra>"))
+    fig.update_layout(height=315, margin={"l": 50, "r": 18, "t": 28, "b": 48}, xaxis_title="有实际样本的年份", yaxis_title="事件记录数")
+    return fig
+
+
 @st.cache_data(ttl=86400, show_spinner=False)
 def fetch_web_article(url: str) -> dict:
     """Read a page only after the user asks for its text.
@@ -745,29 +824,49 @@ def _render_bilateral_index(edges: list[dict], key: str, title: str) -> None:
     st.caption("公式：BLR 合作 = 合作事件占比 × 双方平均贡献 × 100；BLR 冲突同理；净关系 = 合作 − 冲突。该指数不代表外交关系强度。")
 
 
+def _render_daily_rows(window: dict, key: str, limit: int = 120) -> None:
+    rows = []
+    for event in sorted(window.get("events", []), key=lambda row: (row.get("date", ""), row.get("id", "")), reverse=True)[:limit]:
+        pair = tuple(sorted((event.get("actor1", ""), event.get("actor2", ""))))
+        rows.append({
+            "日期": event.get("date", ""),
+            "国家对": f"{COUNTRY_FLAGS.get(pair[0], '')} {COUNTRY_LABELS.get(pair[0], pair[0])} ↔ {COUNTRY_FLAGS.get(pair[1], '')} {COUNTRY_LABELS.get(pair[1], pair[1])}",
+            "事件类型": event_type_label(event),
+            "地点": event.get("location", ""),
+            "Goldstein": event.get("goldstein"),
+            "来源": event.get("source_url", ""),
+        })
+    if not rows:
+        st.info("当前日期没有可展示的事件证据。")
+        return
+    st.dataframe(rows, hide_index=True, width="stretch", height=340, column_config={"来源": st.column_config.LinkColumn("来源", display_text="打开原文")})
+
+
 def render_network(key: str = "network") -> None:
     data = load_network()
     countries = data["countries"]
     windows = monthly_windows(data)
     month_by_label = {window["label"]: window for window in windows}
     events = _network_events(data)
+    days = daily_windows(data)
+    day_by_label = {window["label"]: window for window in days}
+    years = yearly_windows(data)
+    year_by_label = {window["label"]: window for window in years}
     overall_edges, overall_nodes = aggregate_events(events, countries)
     overall = {"id": "all-sample", "label": "全样本汇总", "year": None,
                "date_start": min((e.get("date", "") for e in events), default=""),
                "date_end": max((e.get("date", "") for e in events), default=""),
                "events": events, "edges": overall_edges, "nodes": overall_nodes}
-    section_title("RELATIONSHIP NETWORK", "北极国家关系网络", "整体关系看全样本，月度关系看 2014—2026 的每一个月份；事件证据跟随国家对回溯。")
-    st.markdown("<div class='network-hero-note'><b>动态网络阅读方式</b><span>节点大小按该窗口事件度数变化，连线按该窗口国家对变化；同一国家在不同月份的节点大小和连线都会重新计算。</span><span class='network-hero-source'>GDELT 新闻感知层 · 不等同于外交关系结论</span></div>", unsafe_allow_html=True)
-    observed = sum(bool(window.get("direct_events")) for window in windows)
-    fallback_count = len(windows) - observed
+    section_title("RELATIONSHIP NETWORK", "北极国家关系网络", "用 GDELT 事件记录观察国家对的合作与竞争分布，支持整体、年度、日级和月度窗口切换。")
+    st.markdown("<div class='network-hero-note'><b>数据阅读方式</b><span>日级视图只显示真正有事件记录的观测日，年度视图按已归档日档聚合；月份视图保留历史回溯，便于浏览既有样本。</span><span class='network-hero-source'>GDELT 新闻感知层 · 不等同于外交关系结论</span></div>", unsafe_allow_html=True)
     c1, c2, c3, c4 = st.columns(4)
-    c1.metric("月度选择器", f"{len(windows)} 个月", "2014-01—2026-12")
-    c2.metric("直接有事件月份", f"{observed} 个月", f"{fallback_count} 个月使用历史回溯")
+    c1.metric("实际观测日", f"{len(days)} 天", f"{days[0]['label']}—{days[-1]['label']}" if days else "暂无")
+    c2.metric("有样本年份", f"{len(years)} 年", "按已归档日档")
     c3.metric("全样本事件", f"{len(events):,}", "去重后")
     c4.metric("全样本国家对", f"{len(overall_edges):,}", "9 个北极国家")
     nonempty = sum(bool(window.get("edges")) for window in windows)
-    st.caption(f"连线覆盖：{nonempty}/{len(windows)} 个月份均有国家对关系；其中 {fallback_count} 个月使用最近可用的历史事件回溯，原始事件日期与来源保持不变。")
-    tabs = st.tabs(["整体关系网络", "月度关系网络"])
+    st.caption(f"当前资料包有 {len(days)} 个实际观测日和 {len(years)} 个有样本年份；月度浏览器仍提供 {nonempty}/{len(windows)} 个有国家对关系的月份，并明确标记历史回溯窗口。")
+    tabs = st.tabs(["整体关系网络", "日级覆盖", "年度演化", "月度关系网络"])
     with tabs[0]:
         st.markdown("<div class='network-panel-heading'><span>ALL OBSERVED EVIDENCE</span><b>全样本国家关系网络</b><small>合并已整理网络样本与 GDELT 网格归档事件；线条越粗表示该国家对的事件文章量越大。</small></div>", unsafe_allow_html=True)
         show_chart(network_figure(overall, countries, 1, "ALL"), key=key + "-overall", config={"displayModeBar": True, "displaylogo": False})
@@ -775,6 +874,49 @@ def render_network(key: str = "network") -> None:
         related = {tuple(sorted((edge["source"], edge["target"]))) for edge in overall_edges}
         _render_evidence_table(events, max((window["label"] for window in windows if window["events"]), default="2025-09"), related, key + "-overall-evidence", "整体网络事件证据", history_months=200)
     with tabs[1]:
+        st.markdown("<div class='network-panel-heading'><span>DAILY COVERAGE</span><b>实际日级覆盖</b><small>每根柱代表资料包中一个有事件记录的日期，空白区间表示尚未归档或尚未纳入本次样本。</small></div>", unsafe_allow_html=True)
+        show_chart(daily_coverage_figure(days), key=key + "-daily-coverage")
+        if not days:
+            st.info("当前没有可用的日级事件记录。")
+        else:
+            coverage_rows = [{
+                "年份": window["year"],
+                "实际观测日": len(window.get("observed_days", [])),
+                "首日": window["date_start"],
+                "末日": window["date_end"],
+                "事件记录": len(window["events"]),
+            } for window in years]
+            st.dataframe(coverage_rows, hide_index=True, width="stretch", height=220)
+            day_labels = [window["label"] for window in days]
+            default_day = day_labels[-1]
+            choice = st.selectbox("选择实际观测日", day_labels, index=day_labels.index(default_day), key=key + "-day-choice")
+            window = day_by_label[choice]
+            d1, d2, d3 = st.columns(3)
+            d1.metric("观测日期", choice)
+            d2.metric("事件记录", f"{len(window['events']):,}")
+            d3.metric("国家对", f"{len(window['edges']):,}")
+            show_chart(network_figure(window, countries, 1, "ALL"), key=key + "-daily-network", config={"displayModeBar": True, "displaylogo": False})
+            _render_bilateral_index(window["edges"], key + "-daily-index", f"{choice} 双边关系指数")
+            st.markdown("#### 当日事件证据")
+            _render_daily_rows(window, key + "-daily-evidence")
+            st.caption("日级网络采用已归档的 GDELT 事件日期。GDELT 2.0 的日期字段仍按日记录，分钟级更新只影响 DATEADDED 等时间字段。")
+    with tabs[2]:
+        st.markdown("<div class='network-panel-heading'><span>YEARLY EVOLUTION</span><b>年度网络演化</b><small>年度图按已有日档聚合，适合比较样本覆盖内的国家对结构变化。</small></div>", unsafe_allow_html=True)
+        show_chart(yearly_counts_figure(years), key=key + "-yearly-counts")
+        if not years:
+            st.info("当前没有可用的年度事件记录。")
+        else:
+            labels = [window["label"] for window in years]
+            choice = st.selectbox("选择有样本的年份", labels, index=len(labels) - 1, key=key + "-year-choice")
+            window = year_by_label[choice]
+            y1, y2, y3 = st.columns(3)
+            y1.metric("样本年份", choice)
+            y2.metric("事件记录", f"{len(window['events']):,}")
+            y3.metric("实际观测日", f"{len(window.get('observed_days', []))} 天")
+            st.caption(f"该年度样本日期范围：{window['date_start']}—{window['date_end']}。年度事件量受日档覆盖影响。")
+            show_chart(network_figure(window, countries, 1, "ALL"), key=key + "-year-network", config={"displayModeBar": True, "displaylogo": False})
+            _render_bilateral_index(window["edges"], key + "-year-index", f"{choice} 双边关系指数")
+    with tabs[3]:
         labels = [window["label"] for window in windows]
         densest = max(windows, key=lambda window: len(window["events"]))["label"] if windows else labels[0]
         choice = st.selectbox("选择月份", labels, index=labels.index(densest) if densest in labels else 0, key=key + "-month-choice")

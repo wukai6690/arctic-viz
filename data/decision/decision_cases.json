@@ -1,0 +1,29 @@
+[
+  {
+    "id": "demo-safety-september",
+    "name": "9月安全优先案例",
+    "year": 2025,
+    "month": 9,
+    "vessel_id": "reinforced",
+    "weights": {"safety": 0.55, "distance": 0.15, "data": 0.2, "service": 0.1},
+    "description": "冰区加强型货船在9月执行安全优先的方案比较"
+  },
+  {
+    "id": "demo-efficiency-august",
+    "name": "8月效率优先案例",
+    "year": 2025,
+    "month": 8,
+    "vessel_id": "cargo",
+    "weights": {"safety": 0.25, "distance": 0.5, "data": 0.1, "service": 0.15},
+    "description": "普通货船在8月执行时间和距离优先的方案比较"
+  },
+  {
+    "id": "demo-evidence-october",
+    "name": "10月证据优先案例",
+    "year": 2024,
+    "month": 10,
+    "vessel_id": "research",
+    "weights": {"safety": 0.35, "distance": 0.15, "data": 0.35, "service": 0.15},
+    "description": "科考船在10月优先选择资料覆盖充分的方案"
+  }
+]
