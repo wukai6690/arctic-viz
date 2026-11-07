@@ -397,10 +397,11 @@ def network_3d_figure(window: dict, countries: list[dict]) -> go.Figure:
                 'line': {'color':'white','width':1.5}, 'opacity':1, 'sizemode':'diameter'},
         customdata=[[n['code'], n['event_degree']] for n in nodes],
         hovertemplate='%{text}<br>关联事件 %{customdata[1]:,} 条<extra></extra>'))
-    axis = {'visible':False, 'range':[-1.25,1.25], 'showbackground':False}
+    axis = {'visible':False, 'range':[-1.1,1.1], 'showbackground':False}
     fig.update_layout(height=650, margin={'l':0,'r':0,'t':15,'b':25}, paper_bgcolor='white',
-        scene={'xaxis':axis,'yaxis':axis,'zaxis':axis,'aspectmode':'cube',
-               'camera':{'eye':{'x':1.45,'y':1.6,'z':1.05}}, 'dragmode':'orbit', 'bgcolor':'white'},
+        scene={'xaxis':axis,'yaxis':axis,'zaxis':axis,'aspectmode':'manual',
+               'aspectratio':{'x':1.4,'y':1.1,'z':.85},
+               'camera':{'eye':{'x':.8,'y':.85,'z':.6}}, 'dragmode':'orbit', 'bgcolor':'white'},
         legend={'orientation':'h','x':.5,'xanchor':'center','y':0},
         uirevision='monthly-3d-camera')
     return fig
