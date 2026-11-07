@@ -6,6 +6,7 @@ import gzip
 import math
 import re
 import csv
+import calendar
 from collections import Counter, defaultdict
 from datetime import date
 from pathlib import Path
@@ -355,6 +356,56 @@ def network_figure(window: dict, countries: list[dict], min_events: int = 1, foc
     return fig
 
 
+def network_3d_figure(window: dict, countries: list[dict]) -> go.Figure:
+    """Fixed non-geographic 3D positions; node area reflects associated events."""
+    xy = _positions(countries)
+    heights = {'USA': .6, 'RUS': -.25, 'CHN': -.5, 'CAN': .3, 'NOR': .55,
+               'DNK': -.1, 'FIN': .35, 'SWE': -.45, 'ISL': -.2}
+    positions = {code: (x, y, heights.get(code, 0)) for code, (x, y) in xy.items()}
+    fig = go.Figure()
+    max_events = max((edge['event_count'] for edge in window['edges']), default=1)
+    shown = set()
+    for edge in window['edges']:
+        a, b = positions[edge['source']], positions[edge['target']]
+        for field, title, color, offset in [('positive_events', '合作', '#2d8fc9', .09),
+                                            ('negative_events', '冲突', '#e47b72', -.09)]:
+            count = int(edge.get(field, 0) or 0)
+            if not count:
+                continue
+            points = [(1-t)*a[0]+t*b[0] for t in [i/24 for i in range(25)]]
+            ys = [(1-t)*a[1]+t*b[1] for t in [i/24 for i in range(25)]]
+            zs = [(1-t)*a[2]+t*b[2]+4*t*(1-t)*offset for t in [i/24 for i in range(25)]]
+            hover = (f"{COUNTRY_LABELS[edge['source']]} ↔ {COUNTRY_LABELS[edge['target']]}"
+                     f"<br>{title} {count:,} 条<br>国家对合计 {edge['event_count']:,} 条")
+            fig.add_trace(go.Scatter3d(x=points, y=ys, z=zs, mode='lines',
+                line={'color': color, 'width': 1.5 + 8 * math.sqrt(count/max_events)},
+                name=title, legendgroup=title, showlegend=title not in shown,
+                hovertemplate=hover+'<extra></extra>'))
+            shown.add(title)
+    nodes = window['nodes']
+    counts = [int(node['event_degree']) for node in nodes]
+    maximum = max(counts, default=1) or 1
+    fig.add_trace(go.Scatter3d(
+        x=[positions[n['code']][0] for n in nodes],
+        y=[positions[n['code']][1] for n in nodes],
+        z=[positions[n['code']][2] for n in nodes],
+        mode='markers+text', name='国家', showlegend=False,
+        text=[f"{COUNTRY_FLAGS.get(n['code'], '')} {COUNTRY_LABELS[n['code']]}" for n in nodes],
+        textposition='top center', textfont={'size': 13, 'color': '#173f63'},
+        marker={'size': [8 if not count else 12+36*math.sqrt(count/maximum) for count in counts],
+                'color': ['#d8aa52' if n['code']=='CHN' else '#548eaf' if n['event_degree'] else '#cbd5df' for n in nodes],
+                'line': {'color':'white','width':1.5}, 'opacity':1, 'sizemode':'diameter'},
+        customdata=[[n['code'], n['event_degree']] for n in nodes],
+        hovertemplate='%{text}<br>关联事件 %{customdata[1]:,} 条<extra></extra>'))
+    axis = {'visible':False, 'range':[-1.25,1.25], 'showbackground':False}
+    fig.update_layout(height=650, margin={'l':0,'r':0,'t':15,'b':25}, paper_bgcolor='white',
+        scene={'xaxis':axis,'yaxis':axis,'zaxis':axis,'aspectmode':'cube',
+               'camera':{'eye':{'x':1.45,'y':1.6,'z':1.05}}, 'dragmode':'orbit', 'bgcolor':'white'},
+        legend={'orientation':'h','x':.5,'xanchor':'center','y':0},
+        uirevision='monthly-3d-camera')
+    return fig
+
+
 def matrix_figure(window: dict, countries: list[dict]) -> go.Figure:
     """Show a compact country-pair matrix with signed cooperation balance."""
     codes = [c["code"] for c in countries]
@@ -425,6 +476,26 @@ def monthly_windows(data: dict) -> list[dict]:
     usable network while the page still distinguishes direct from backfilled
     coverage.
     """
+    compact = _compact_daily_packages()
+    if compact:
+        packages_by_month = defaultdict(list)
+        for package in compact:
+            packages_by_month[package['archive_date'][:7]].append(package)
+        result = []
+        for month, packages in sorted(packages_by_month.items()):
+            edges, nodes = _aggregate_edge_rows([edge for package in packages for edge in package['edges']], data['countries'])
+            observed_days = sorted(package['archive_date'] for package in packages)
+            expected = calendar.monthrange(int(month[:4]), int(month[5:]))[1]
+            result.append({
+                'id': 'month-' + month, 'label': month, 'year': int(month[:4]),
+                'date_start': month + '-01', 'date_end': f'{month}-{expected:02d}',
+                'events': [], 'direct_events': [], 'fallback_months': [],
+                'edges': edges, 'nodes': nodes, 'observed_days': observed_days,
+                'expected_days': expected, 'compact': True,
+                'source': {'dataset': 'GDELT 北极日档月度聚合'},
+                'sample_note': f'按新闻发现日归档聚合，当月源档覆盖 {len(observed_days)}/{expected} 天；未借用其他月份记录。',
+            })
+        return result
     grouped: dict[str, list[dict]] = defaultdict(list)
     for event in _network_events(data):
         month = str(event.get("date", ""))[:7]
@@ -1030,14 +1101,14 @@ def render_network(key: str = "network") -> None:
                "date_end": max(all_dates, default=""),
                "events": events, "edges": overall_edges, "nodes": overall_nodes}
     section_title("RELATIONSHIP NETWORK", "北极国家关系网络", "用 GDELT 事件记录观察国家对的合作与竞争分布，支持整体、年度、日级和月度窗口切换。")
-    st.markdown("<div class='network-hero-note'><b>数据阅读方式</b><span>日级视图只显示真正有事件记录的观测日，年度视图按已归档日档聚合；月份视图保留历史回溯，便于浏览既有样本。</span><span class='network-hero-source'>GDELT 新闻感知层 · 不等同于外交关系结论</span></div>", unsafe_allow_html=True)
+    st.markdown("<div class='network-hero-note'><b>数据阅读方式</b><span>日级、月度和年度视图读取已归档日档；月度图按新闻发现日聚合，并显示当月源档覆盖。节点大小表示关联事件数。</span><span class='network-hero-source'>GDELT 新闻感知层 · 不等同于外交关系结论</span></div>", unsafe_allow_html=True)
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("已下载日档", f"{downloaded_days or len(days)} 天", f"覆盖率 {coverage_rate:.2f}%" if requested_days else (f"{days[0]['label']}—{days[-1]['label']}" if days else "暂无"))
     c2.metric("日级聚合窗口", f"{len(days)} 天", f"缺失/失败 {failed_days} 天" if manifest_days else "已整理日期")
     c3.metric("全样本事件", f"{overall_event_count:,}", "GDELT 日档聚合")
     c4.metric("全样本国家对", f"{len(overall_edges):,}", "9 个北极国家")
     nonempty = sum(bool(window.get("edges")) for window in windows)
-    st.caption(f"当前资料包已下载 {downloaded_days or len(days)} 个日档（{coverage_label}），其中 {len(days)} 天进入日级窗口；月度浏览器仍提供 {nonempty}/{len(windows)} 个有国家对关系的月份，并明确标记历史回溯窗口。")
+    st.caption(f"当前资料包已下载 {downloaded_days or len(days)} 个日档（{coverage_label}），其中 {len(days)} 天进入日级窗口；月度浏览器提供 {nonempty}/{len(windows)} 个有国家对关系的月份。")
     tabs = st.tabs(["整体关系网络", "日级覆盖", "年度演化", "月度关系网络"])
     with tabs[0]:
         st.markdown("<div class='network-panel-heading'><span>ALL OBSERVED EVIDENCE</span><b>全样本国家关系网络</b><small>合并已整理网络样本与 GDELT 网格归档事件；线条越粗表示该国家对的事件文章量越大。</small></div>", unsafe_allow_html=True)
@@ -1090,20 +1161,31 @@ def render_network(key: str = "network") -> None:
             _render_bilateral_index(window["edges"], key + "-year-index", f"{choice} 双边关系指数")
     with tabs[3]:
         labels = [window["label"] for window in windows]
-        densest = max(windows, key=lambda window: len(window["events"]))["label"] if windows else labels[0]
+        densest = labels[-1]
         choice = st.selectbox("选择月份", labels, index=labels.index(densest) if densest in labels else 0, key=key + "-month-choice")
         window = month_by_label[choice]
         m1, m2, m3 = st.columns(3)
         m1.metric("当前月份", choice)
-        m2.metric("关系样本事件", f"{len(window['events']):,}", f"直接记录 {len(window.get('direct_events', [])):,}")
+        m2.metric("当月关联事件", f"{_window_event_count(window):,}", f"日档覆盖 {len(window.get('observed_days', []))}/{window.get('expected_days', 0)} 天" if window.get('compact') else "历史整理样本")
         m3.metric("国家对", f"{len(window['edges']):,}")
-        st.markdown("<div class='network-panel-heading'><span>MONTHLY RELATIONSHIP</span><b>该月份的国家关系网络</b><small>拖动月份选择器后，节点、连线、颜色和下方证据都会同步更新。</small></div>", unsafe_allow_html=True)
-        show_chart(network_figure(window, countries, 1, "ALL"), key=key + "-monthly", config={"displayModeBar": True, "displaylogo": False})
+        st.markdown("<div class='network-panel-heading'><span>MONTHLY RELATIONSHIP</span><b>该月份的国家关系网络</b><small>切换月份后，节点大小与连线按当月事件更新。拖动旋转、滚轮缩放，可悬停查看事件数。</small></div>", unsafe_allow_html=True)
+        view = st.radio('网络视图', ['3D 立体网络', '2D 平面网络'], horizontal=True, key=key+'-monthly-view')
+        figure = network_3d_figure(window, countries) if view.startswith('3D') else network_figure(window, countries, 1, 'ALL')
+        show_chart(figure, key=key + "-monthly", config={"displayModeBar": True, "displaylogo": False})
+        st.caption('国家圆形节点越大，关联事件越多；每条双边事件分别计入两端国家。蓝线表示合作、红线表示冲突；3D位置仅用于排布，不代表地理位置或关系远近。')
+        st.caption(window['sample_note'])
         _render_bilateral_index(window["edges"], key + "-monthly-index", f"{choice} 双边关系指数")
+        if window.get('compact'):
+            st.markdown('#### 当月国家对与来源示例')
+            _render_daily_rows(window, key+'-monthly-sources')
+            st.caption('来源为当月日档中保留的新闻示例，并非逐条事件完整清单。')
+        from src.bilateral_background import render_background
+        render_background(COUNTRY_LABELS, key+'-background')
         related = {tuple(sorted((edge["source"], edge["target"]))) for edge in window["edges"]}
-        evidence_month = choice if window.get("direct_events") else max(window.get("fallback_months", [choice]))
+        evidence_month = choice if window.get("direct_events") else max(window.get("fallback_months") or [choice])
         evidence_title = "当前月份及历史关联事件证据" if window.get("direct_events") else f"{choice} 网络的历史回溯证据"
-        _render_evidence_table(events, evidence_month, related, key + "-monthly-evidence", evidence_title)
+        if not window.get('compact'):
+            _render_evidence_table(all_legacy_events, evidence_month, related, key + "-monthly-evidence", evidence_title)
 
 def render_network_page() -> None:
     render_network("network-page")

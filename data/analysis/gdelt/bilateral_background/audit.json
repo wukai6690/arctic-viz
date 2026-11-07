@@ -1,0 +1,88 @@
+{
+  "source_mode": "remote",
+  "scope": "gdelt1_available_daily_archives_with_documented_gaps",
+  "date_start": "2016-01-01",
+  "date_end": "2025-12-31",
+  "expected_calendar_days": 3653,
+  "source_files_ok": 3633,
+  "source_days_present": 3633,
+  "missing_source_dates": [
+    "2022-11-10",
+    "2023-03-23",
+    "2025-06-14",
+    "2025-06-15",
+    "2025-06-16",
+    "2025-06-17",
+    "2025-06-18",
+    "2025-06-19",
+    "2025-06-20",
+    "2025-06-21",
+    "2025-06-22",
+    "2025-06-23",
+    "2025-06-24",
+    "2025-06-25",
+    "2025-06-26",
+    "2025-06-27",
+    "2025-06-28",
+    "2025-06-29",
+    "2025-06-30",
+    "2025-07-01"
+  ],
+  "absent_from_official_manifest_dates": [
+    "2025-06-14",
+    "2025-06-15",
+    "2025-06-16",
+    "2025-06-17",
+    "2025-06-18",
+    "2025-06-19",
+    "2025-06-20",
+    "2025-06-21",
+    "2025-06-22",
+    "2025-06-23",
+    "2025-06-24",
+    "2025-06-25",
+    "2025-06-26",
+    "2025-06-27",
+    "2025-06-28",
+    "2025-06-29",
+    "2025-06-30",
+    "2025-07-01"
+  ],
+  "listed_but_unavailable_404_dates": [
+    "2022-11-10",
+    "2023-03-23"
+  ],
+  "integrity_exceptions": [
+    {
+      "source_key": "20230322.export.CSV.zip",
+      "published_md5": "9fa71d95704e96cc896fc7f52b4866ba",
+      "observed_md5": "a246cae99ab87a045c231a61808b25fb",
+      "observed_sha256": "9acdf3e6f110a582ff1c7ed104beb1c25899933e19c5272076ecc22a0eb0287b",
+      "file_size_bytes": 4223243,
+      "verification": "ZIP CRC, single nonempty CSV, structure, SHA-256 recorded"
+    }
+  ],
+  "failed_files": [],
+  "countries": [
+    "CAN",
+    "CHN",
+    "DNK",
+    "FIN",
+    "GRL",
+    "ISL",
+    "NOR",
+    "RUS",
+    "SWE",
+    "USA"
+  ],
+  "window_days": 30,
+  "totals": {
+    "rows_read": 511827535,
+    "rows_selected": 6671991,
+    "rows_invalid": 0,
+    "rows_out_of_range": 1403953,
+    "rows_duplicate": 0
+  },
+  "note": "原始文件日期是新闻发现日期；指数按 SQLDATE（事件日期）归属。缺失源文件对应日期及跨缺失日的滚动窗口留空；其他日期也可能因缺失源文件而低估，不能视为无缺口的全量日序列。",
+  "interpretation": "GDELT 自动编码记录的合作/冲突比值，不是人工核实的外交关系评分。"
+}

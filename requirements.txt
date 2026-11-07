@@ -19,3 +19,4 @@ Pillow>=10.0.0
 openpyxl>=3.1.0
 # Cloud rebuild marker for verified patent metadata enrichment batch five (2026-10-18).
 # Full GDELT daily bundle rebuild marker (2026-11-06).
+# Monthly 3D network and separate bilateral context release (2026-11-07).
