@@ -1171,7 +1171,7 @@ def render_network(key: str = "network") -> None:
         st.markdown("<div class='network-panel-heading'><span>MONTHLY RELATIONSHIP</span><b>该月份的国家关系网络</b><small>切换月份后，节点大小与连线按当月事件更新。拖动旋转、滚轮缩放，可悬停查看事件数。</small></div>", unsafe_allow_html=True)
         view = st.radio('网络视图', ['3D 立体网络', '2D 平面网络'], horizontal=True, key=key+'-monthly-view')
         figure = network_3d_figure(window, countries) if view.startswith('3D') else network_figure(window, countries, 1, 'ALL')
-        show_chart(figure, key=key + "-monthly", config={"displayModeBar": True, "displaylogo": False})
+        show_chart(figure, key=key + "-monthly", config={"displayModeBar": True, "displaylogo": False, "scrollZoom": view.startswith('3D')})
         st.caption('国家圆形节点越大，关联事件越多；每条双边事件分别计入两端国家。蓝线表示合作、红线表示冲突；3D位置仅用于排布，不代表地理位置或关系远近。')
         st.caption(window['sample_note'])
         _render_bilateral_index(window["edges"], key + "-monthly-index", f"{choice} 双边关系指数")
